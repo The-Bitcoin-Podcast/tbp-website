@@ -1,7 +1,7 @@
 ---
 title: 'TBP S02E07 - We''ll do it live, kinda.'
 date: '2025-09-27'
-draft: true
+draft: false
 episodeNumber: 187
 youtubeId: 0of1gU2vH5I
 thumbnail: 'https://i.ytimg.com/vi/0of1gU2vH5I/maxresdefault.jpg'
@@ -24,4 +24,3 @@ We're gonna talk about crypto and stuff. You know the deal.
     allowfullscreen
   ></iframe>
 </div>
-

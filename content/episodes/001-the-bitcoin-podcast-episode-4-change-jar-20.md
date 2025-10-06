@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast Episode 4: Change Jar 2.0'
 date: '2015-06-23'
-draft: true
+draft: false
 episodeNumber: 1
 youtubeId: n_TWbl7gJNc
 thumbnail: 'https://i.ytimg.com/vi/n_TWbl7gJNc/hqdefault.jpg'
@@ -11,8 +11,8 @@ status: available
 ---
 ## Episode Description
 
-The crew at The Bitcoin Podcast sit down to discuss apps, which are neat, which are just kinda neat, and also we interviewed the crew from Lawnmower.io  
-  
+The crew at The Bitcoin Podcast sit down to discuss apps, which are neat, which are just kinda neat, and also we interviewed the crew from Lawnmower.io
+
 Sit back and relax for some round table gabbing and a pleasant and informative interview.
 
 ## Watch Episode
@@ -26,4 +26,3 @@ Sit back and relax for some round table gabbing and a pleasant and informative i
     allowfullscreen
   ></iframe>
 </div>
-
