@@ -46,8 +46,8 @@ export async function generateEpisodeFile(
   // Format date as YYYY-MM-DD
   const date = new Date(video.publishedAt).toISOString().split("T")[0]
 
-  // Build frontmatter
-  const frontmatter: EpisodeFrontmatter = {
+  // Build frontmatter (exclude undefined values and description)
+  const frontmatter: EpisodeFrontmatterRecord<string, any> = {
     title: video.title,
     date,
     draft: !config.autoPublish,
@@ -60,6 +60,14 @@ export async function generateEpisodeFile(
     tags: video.tags && video.tags.length > 0 ? video.tags : undefined,
     syncedAt: new Date().toISOString(),
     status: "available",
+  }
+
+  // Only add optional fields if they have values
+  if (guests.length > 0) {
+    frontmatter.guests = guests
+  }
+  if (video.tags && video.tags.length > 0) {
+    frontmatter.tags = video.tags
   }
 
   // Build markdown body
