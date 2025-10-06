@@ -1,11 +1,11 @@
-import { youtube_v3, youtube } from '@googleapis/youtube'
+import { youtube_v3, youtube } from "@googleapis/youtube"
 
 /**
  * Create authenticated YouTube Data API v3 client
  */
 function createYouTubeClient(apiKey: string) {
   return youtube({
-    version: 'v3',
+    version: "v3",
     auth: apiKey,
   })
 }
@@ -24,16 +24,23 @@ export async function searchChannelVideos(
     maxResults?: number
     pageToken?: string
     publishedAfter?: string
-  }
+  },
 ): Promise<youtube_v3.Schema$SearchListResponse> {
   const youtube = createYouTubeClient(options.apiKey)
 
+  // If channelId starts with @, resolve it to actual channel ID first
+  let resolvedChannelId = channelId
+  if (channelId.startsWith("@")) {
+    const channelInfo = await verifyChannel(channelId, options.apiKey)
+    resolvedChannelId = channelInfo.items?.[0]?.id || channelId
+  }
+
   try {
     const response = await youtube.search.list({
-      part: ['id', 'snippet'],
-      channelId: channelId,
-      type: ['video'],
-      order: 'date',
+      part: ["id", "snippet"],
+      channelId: resolvedChannelId,
+      type: ["video"],
+      order: "date",
       maxResults: options.maxResults || 25,
       pageToken: options.pageToken,
       publishedAfter: options.publishedAfter,
@@ -43,10 +50,10 @@ export async function searchChannelVideos(
   } catch (error: any) {
     // Handle specific error cases
     if (error.code === 403) {
-      throw new Error('YouTube API quota exceeded. Try again later.')
+      throw new Error("YouTube API quota exceeded. Try again later.")
     }
     if (error.code === 400) {
-      throw new Error('Invalid YouTube API key. Check your YOUTUBE_API_KEY environment variable.')
+      throw new Error("Invalid YouTube API key. Check your YOUTUBE_API_KEY environment variable.")
     }
     throw error
   }
@@ -61,25 +68,25 @@ export async function searchChannelVideos(
  */
 export async function getVideoDetails(
   videoIds: string[] | string,
-  apiKey: string
+  apiKey: string,
 ): Promise<youtube_v3.Schema$VideoListResponse> {
   const youtube = createYouTubeClient(apiKey)
 
-  const ids = Array.isArray(videoIds) ? videoIds.join(',') : videoIds
+  const ids = Array.isArray(videoIds) ? videoIds.join(",") : videoIds
 
   try {
     const response = await youtube.videos.list({
-      part: ['snippet', 'contentDetails', 'status'],
+      part: ["snippet", "contentDetails", "status"],
       id: [ids],
     })
 
     return response.data
   } catch (error: any) {
     if (error.code === 403) {
-      throw new Error('YouTube API quota exceeded. Try again later.')
+      throw new Error("YouTube API quota exceeded. Try again later.")
     }
     if (error.code === 400) {
-      throw new Error('Invalid YouTube API key or video IDs.')
+      throw new Error("Invalid YouTube API key or video IDs.")
     }
     throw error
   }
@@ -94,15 +101,15 @@ export async function getVideoDetails(
  */
 export async function verifyChannel(
   channelId: string,
-  apiKey: string
+  apiKey: string,
 ): Promise<youtube_v3.Schema$ChannelListResponse> {
   const youtube = createYouTubeClient(apiKey)
 
   try {
     const response = await youtube.channels.list({
-      part: ['snippet', 'contentDetails'],
-      forUsername: channelId.startsWith('@') ? channelId.slice(1) : undefined,
-      id: channelId.startsWith('@') ? undefined : [channelId],
+      part: ["snippet", "contentDetails"],
+      forHandle: channelId.startsWith("@") ? channelId.slice(1) : undefined,
+      id: channelId.startsWith("@") ? undefined : [channelId],
     })
 
     if (!response.data.items || response.data.items.length === 0) {
@@ -112,10 +119,10 @@ export async function verifyChannel(
     return response.data
   } catch (error: any) {
     if (error.code === 403) {
-      throw new Error('YouTube API quota exceeded. Try again later.')
+      throw new Error("YouTube API quota exceeded. Try again later.")
     }
     if (error.code === 400) {
-      throw new Error('Invalid YouTube API key or channel ID.')
+      throw new Error("Invalid YouTube API key or channel ID.")
     }
     throw error
   }
@@ -130,7 +137,7 @@ export async function verifyChannel(
  */
 export async function retryWithBackoff<T>(
   fn: () => Promise<T>,
-  delays: number[] = [60000, 300000, 900000]
+  delays: number[] = [60000, 300000, 900000],
 ): Promise<T> {
   let lastError: Error | undefined
 
@@ -141,7 +148,7 @@ export async function retryWithBackoff<T>(
       lastError = error
 
       // Don't retry on invalid API key
-      if (error.message?.includes('Invalid YouTube API key')) {
+      if (error.message?.includes("Invalid YouTube API key")) {
         throw error
       }
 
@@ -157,5 +164,5 @@ export async function retryWithBackoff<T>(
     }
   }
 
-  throw lastError || new Error('Retry failed')
+  throw lastError || new Error("Retry failed")
 }

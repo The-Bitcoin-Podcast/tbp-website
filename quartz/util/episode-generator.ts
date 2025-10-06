@@ -1,11 +1,16 @@
-import * as matter from 'gray-matter'
-import { join } from 'path'
-import type { YouTubeVideo, SyncConfig, EpisodeFrontmatter, GenerationResult } from '../types/youtube-sync.js'
-import { parseGuests } from './guest-parser.js'
-import { convertDescriptionToMarkdown } from './markdown-converter.js'
-import { formatDuration } from './duration-formatter.js'
-import { generateFileName } from './filename-generator.js'
-import { generateYouTubeEmbed } from './embed-generator.js'
+import matter from "gray-matter"
+import { join } from "path"
+import type {
+  YouTubeVideo,
+  SyncConfig,
+  EpisodeFrontmatter,
+  GenerationResult,
+} from "../types/youtube-sync.js"
+import { parseGuests } from "./guest-parser.js"
+import { convertDescriptionToMarkdown } from "./markdown-converter.js"
+import { formatDuration } from "./duration-formatter.js"
+import { generateFileName } from "./filename-generator.js"
+import { generateYouTubeEmbed } from "./embed-generator.js"
 
 /**
  * Generate complete episode markdown file from YouTube video
@@ -21,7 +26,7 @@ import { generateYouTubeEmbed } from './embed-generator.js'
 export async function generateEpisodeFile(
   video: YouTubeVideo,
   episodeNumber: number,
-  config: SyncConfig
+  config: SyncConfig,
 ): Promise<GenerationResult> {
   // Generate filename
   const filename = generateFileName(episodeNumber, video.title)
@@ -31,17 +36,15 @@ export async function generateEpisodeFile(
   const guests = parseGuests(video.description)
 
   // Convert description to markdown
-  const markdownDescription = convertDescriptionToMarkdown(
-    video.description,
-    video.videoId,
-    { truncateDescriptionAt: config.truncateDescriptionAt }
-  )
+  const markdownDescription = convertDescriptionToMarkdown(video.description, video.videoId, {
+    truncateDescriptionAt: config.truncateDescriptionAt,
+  })
 
   // Format duration
   const formattedDuration = formatDuration(video.duration)
 
   // Format date as YYYY-MM-DD
-  const date = new Date(video.publishedAt).toISOString().split('T')[0]
+  const date = new Date(video.publishedAt).toISOString().split("T")[0]
 
   // Build frontmatter
   const frontmatter: EpisodeFrontmatter = {
@@ -56,24 +59,24 @@ export async function generateEpisodeFile(
     guests: guests.length > 0 ? guests : undefined,
     tags: video.tags && video.tags.length > 0 ? video.tags : undefined,
     syncedAt: new Date().toISOString(),
-    status: 'available',
+    status: "available",
   }
 
   // Build markdown body
-  let body = '## Episode Description\n\n'
+  let body = "## Episode Description\n\n"
   body += markdownDescription
-  body += '\n\n'
+  body += "\n\n"
 
   // Add video embed if enabled
   if (config.includeVideoEmbed) {
-    body += '## Watch Episode\n\n'
+    body += "## Watch Episode\n\n"
     body += generateYouTubeEmbed(video.videoId)
-    body += '\n\n'
+    body += "\n\n"
   }
 
   // Add guest section if guests present
   if (guests.length > 0) {
-    body += '## Guests\n\n'
+    body += "## Guests\n\n"
     for (const guest of guests) {
       if (guest.twitter) {
         body += `- **${guest.name}** ([@${guest.twitter}](https://twitter.com/${guest.twitter}))\n`
@@ -81,7 +84,7 @@ export async function generateEpisodeFile(
         body += `- **${guest.name}**\n`
       }
     }
-    body += '\n'
+    body += "\n"
   }
 
   // Serialize frontmatter + body to markdown

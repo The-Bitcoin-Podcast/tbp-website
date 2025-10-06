@@ -1,6 +1,6 @@
-import simpleGit from 'simple-git'
-import * as matter from 'gray-matter'
-import type { SyncState, SyncRecord } from '../types/youtube-sync.js'
+import simpleGit from "simple-git"
+import matter from "gray-matter"
+import type { SyncState, SyncRecord } from "../types/youtube-sync.js"
 
 /**
  * Build sync state by scanning git commit history for episode files
@@ -15,7 +15,7 @@ import type { SyncState, SyncRecord } from '../types/youtube-sync.js'
  */
 export async function buildSyncState(
   repoPath: string,
-  episodeDirectory: string = 'content/episodes'
+  episodeDirectory: string = "content/episodes",
 ): Promise<SyncState> {
   const git = simpleGit(repoPath)
 
@@ -26,15 +26,24 @@ export async function buildSyncState(
     // Get git log for episode files (only additions)
     const log = await git.log({
       file: `${episodeDirectory}/*.md`,
-      '--diff-filter': 'A', // Only added files
-      '--name-only': null, // Include file names
+      "--diff-filter": "A", // Only added files
+      "--name-only": null, // Include file names
     })
 
     // Process each commit
     for (const commit of log.all) {
       // Get list of files changed in this commit
-      const rawDiff = await git.raw(['diff-tree', '--no-commit-id', '--name-only', '-r', '--diff-filter=A', commit.hash])
-      const files = rawDiff.split('\n').filter(f => f.trim() && f.includes(episodeDirectory) && f.endsWith('.md'))
+      const rawDiff = await git.raw([
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "--diff-filter=A",
+        commit.hash,
+      ])
+      const files = rawDiff
+        .split("\n")
+        .filter((f) => f.trim() && f.includes(episodeDirectory) && f.endsWith(".md"))
 
       for (const filePath of files) {
         try {
@@ -72,7 +81,7 @@ export async function buildSyncState(
     }
   } catch (error) {
     // If git operations fail, return empty state
-    console.warn('Failed to build sync state from git:', error)
+    console.warn("Failed to build sync state from git:", error)
     return {
       syncedVideoIds: new Set(),
       episodeCount: 0,

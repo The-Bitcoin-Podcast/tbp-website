@@ -1,15 +1,21 @@
 #!/usr/bin/env node
 
-import { promises as fs } from 'fs'
-import { join } from 'path'
-import yargs from 'yargs'
-import { hideBin } from 'yargs/helpers'
-import simpleGit from 'simple-git'
-import type { SyncConfig, YouTubeVideo, SyncState, GenerationResult } from '../types/youtube-sync.js'
-import { DEFAULT_CONFIG } from '../types/youtube-sync.js'
-import { searchChannelVideos, getVideoDetails } from '../util/youtube.js'
-import { buildSyncState, isVideoSynced } from '../util/git.js'
-import { generateEpisodeFile } from '../util/episode-generator.js'
+import "dotenv/config"
+import { promises as fs } from "fs"
+import { join } from "path"
+import yargs from "yargs"
+import { hideBin } from "yargs/helpers"
+import simpleGit from "simple-git"
+import type {
+  SyncConfig,
+  YouTubeVideo,
+  SyncState,
+  GenerationResult,
+} from "../types/youtube-sync.js"
+import { DEFAULT_CONFIG } from "../types/youtube-sync.js"
+import { searchChannelVideos, getVideoDetails } from "../util/youtube.js"
+import { buildSyncState, isVideoSynced } from "../util/git.js"
+import { generateEpisodeFile } from "../util/episode-generator.js"
 
 /**
  * CLI argument parser for youtube-sync script
@@ -24,39 +30,39 @@ import { generateEpisodeFile } from '../util/episode-generator.js'
  * - --config: Path to custom config file
  */
 const argv = yargs(hideBin(process.argv))
-  .option('full', {
-    type: 'boolean',
-    description: 'Perform full sync (ignore last sync timestamp)',
+  .option("full", {
+    type: "boolean",
+    description: "Perform full sync (ignore last sync timestamp)",
     default: false,
   })
-  .option('dry-run', {
-    type: 'boolean',
-    description: 'Preview changes without writing files or committing',
+  .option("dry-run", {
+    type: "boolean",
+    description: "Preview changes without writing files or committing",
     default: false,
   })
-  .option('no-commit', {
-    type: 'boolean',
-    description: 'Skip git commit step',
+  .option("no-commit", {
+    type: "boolean",
+    description: "Skip git commit step",
     default: false,
   })
-  .option('max', {
-    type: 'number',
-    description: 'Maximum number of videos to sync',
+  .option("max", {
+    type: "number",
+    description: "Maximum number of videos to sync",
   })
-  .option('after', {
-    type: 'string',
-    description: 'Only sync videos published after this date (ISO 8601)',
+  .option("after", {
+    type: "string",
+    description: "Only sync videos published after this date (ISO 8601)",
   })
-  .option('before', {
-    type: 'string',
-    description: 'Only sync videos published before this date (ISO 8601)',
+  .option("before", {
+    type: "string",
+    description: "Only sync videos published before this date (ISO 8601)",
   })
-  .option('config', {
-    type: 'string',
-    description: 'Path to custom configuration file',
+  .option("config", {
+    type: "string",
+    description: "Path to custom configuration file",
   })
   .help()
-  .alias('help', 'h')
+  .alias("help", "h")
   .parseSync()
 
 /**
@@ -67,7 +73,7 @@ async function loadConfig(configPath?: string): Promise<SyncConfig> {
 
   if (configPath) {
     try {
-      const configFile = await fs.readFile(configPath, 'utf-8')
+      const configFile = await fs.readFile(configPath, "utf-8")
       userConfig = JSON.parse(configFile)
       console.log(`✓ Loaded configuration from ${configPath}`)
     } catch (error: any) {
@@ -79,8 +85,8 @@ async function loadConfig(configPath?: string): Promise<SyncConfig> {
   // Validate required environment variable
   const youtubeApiKey = process.env.YOUTUBE_API_KEY
   if (!youtubeApiKey) {
-    console.error('✗ YOUTUBE_API_KEY environment variable is required')
-    console.error('  Set it with: export YOUTUBE_API_KEY=your_api_key')
+    console.error("✗ YOUTUBE_API_KEY environment variable is required")
+    console.error("  Set it with: export YOUTUBE_API_KEY=your_api_key")
     process.exit(1)
   }
 
@@ -97,10 +103,7 @@ async function loadConfig(configPath?: string): Promise<SyncConfig> {
 /**
  * Fetch videos from YouTube channel
  */
-async function fetchVideos(
-  config: SyncConfig,
-  lastSyncTimestamp?: Date
-): Promise<YouTubeVideo[]> {
+async function fetchVideos(config: SyncConfig, lastSyncTimestamp?: Date): Promise<YouTubeVideo[]> {
   console.log(`\nFetching videos from channel: ${config.channelId}`)
 
   const allVideos: YouTubeVideo[] = []
@@ -141,7 +144,7 @@ async function fetchVideos(
 
       // Apply before filter if specified
       if (argv.before) {
-        const publishedAt = new Date(video.snippet.publishedAt || '')
+        const publishedAt = new Date(video.snippet.publishedAt || "")
         const beforeDate = new Date(argv.before)
         if (publishedAt > beforeDate) continue
       }
@@ -149,15 +152,17 @@ async function fetchVideos(
       allVideos.push({
         videoId: video.id,
         channelId: video.snippet.channelId || config.channelId,
-        title: video.snippet.title || 'Untitled',
-        description: video.snippet.description || '',
+        title: video.snippet.title || "Untitled",
+        description: video.snippet.description || "",
         publishedAt: video.snippet.publishedAt || new Date().toISOString(),
-        duration: video.contentDetails.duration || 'PT0S',
-        thumbnailUrl: video.snippet.thumbnails?.maxres?.url ||
-                     video.snippet.thumbnails?.high?.url ||
-                     video.snippet.thumbnails?.default?.url || '',
+        duration: video.contentDetails.duration || "PT0S",
+        thumbnailUrl:
+          video.snippet.thumbnails?.maxres?.url ||
+          video.snippet.thumbnails?.high?.url ||
+          video.snippet.thumbnails?.default?.url ||
+          "",
         tags: video.snippet.tags,
-        privacyStatus: video.status?.privacyStatus as 'public' | 'unlisted' | 'private',
+        privacyStatus: video.status?.privacyStatus as "public" | "unlisted" | "private",
       })
     }
 
@@ -179,15 +184,15 @@ async function fetchVideos(
  * Main sync orchestration function
  */
 async function main() {
-  console.log('YouTube Channel Sync Script')
-  console.log('=' .repeat(50))
+  console.log("YouTube Channel Sync Script")
+  console.log("=".repeat(50))
 
   // 1. Load configuration
   const config = await loadConfig(argv.config)
   console.log(`\n✓ Configuration loaded`)
   console.log(`  Channel: ${config.channelId}`)
   console.log(`  Output: ${config.outputDirectory}`)
-  console.log(`  Mode: ${argv.full ? 'Full sync' : 'Incremental sync'}`)
+  console.log(`  Mode: ${argv.full ? "Full sync" : "Incremental sync"}`)
   if (argv.dryRun) console.log(`  [DRY RUN MODE]`)
 
   // 2. Build sync state from git history
@@ -202,10 +207,7 @@ async function main() {
   // 3. Fetch videos from YouTube
   let videos: YouTubeVideo[]
   try {
-    videos = await fetchVideos(
-      config,
-      argv.full ? undefined : syncState.lastSyncTimestamp
-    )
+    videos = await fetchVideos(config, argv.full ? undefined : syncState.lastSyncTimestamp)
   } catch (error: any) {
     console.error(`\n✗ Failed to fetch videos: ${error.message}`)
     process.exit(1)
@@ -235,9 +237,7 @@ async function main() {
   })
 
   // Apply --max limit
-  const videosToSync = argv.max
-    ? filteredVideos.slice(0, argv.max)
-    : filteredVideos
+  const videosToSync = argv.max ? filteredVideos.slice(0, argv.max) : filteredVideos
 
   console.log(`\nSyncing ${videosToSync.length} video(s)...`)
 
@@ -257,7 +257,7 @@ async function main() {
       const result: GenerationResult = await generateEpisodeFile(
         video,
         video.episodeNumber!,
-        config
+        config,
       )
 
       if (!argv.dryRun) {
@@ -265,7 +265,7 @@ async function main() {
         await fs.mkdir(config.outputDirectory, { recursive: true })
 
         // Write file to disk
-        await fs.writeFile(result.filePath, result.content, 'utf-8')
+        await fs.writeFile(result.filePath, result.content, "utf-8")
       }
 
       console.log(`  ✓ Episode ${video.episodeNumber}: ${video.title}`)
@@ -292,7 +292,7 @@ async function main() {
   }
 
   // Summary
-  console.log(`\n${'='.repeat(50)}`)
+  console.log(`\n${"=".repeat(50)}`)
   console.log(`Sync Complete!`)
   console.log(`  ✓ Success: ${successfulSyncs.length} episode(s)`)
   if (failedSyncs.length > 0) {
@@ -316,7 +316,7 @@ async function createGitCommit(videos: YouTubeVideo[], config: SyncConfig): Prom
   const git = simpleGit(process.cwd())
 
   // Generate commit message
-  const episodeNumbers = videos.map((v) => v.episodeNumber).join(', ')
+  const episodeNumbers = videos.map((v) => v.episodeNumber).join(", ")
   let commitMessage = `Sync ${videos.length} episode(s): ${episodeNumbers}\n\n`
 
   for (const video of videos) {
@@ -332,7 +332,7 @@ async function createGitCommit(videos: YouTubeVideo[], config: SyncConfig): Prom
   await git.commit(commitMessage)
 
   // Get commit hash
-  const commitHash = await git.revparse(['HEAD'])
+  const commitHash = await git.revparse(["HEAD"])
 
   console.log(`  ✓ Committed: ${commitHash.slice(0, 7)}`)
 }
