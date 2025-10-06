@@ -39,7 +39,7 @@ export function parseGuests(description: string): Guest[] {
       if (pattern.source.includes('@')) {
         // Twitter mention - extract username
         const guests: Guest[] = []
-        const mentions = description.matchAll(/with\s+@(\w+)/gi)
+        const mentions = Array.from(description.matchAll(/with\s+@(\w+)/gi))
         for (const mention of mentions) {
           const username = mention[1]
           guests.push({

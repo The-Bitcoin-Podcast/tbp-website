@@ -1,11 +1,10 @@
-import { google } from '@googleapis/youtube'
-import type { youtube_v3 } from '@googleapis/youtube'
+import { youtube_v3, youtube } from '@googleapis/youtube'
 
 /**
  * Create authenticated YouTube Data API v3 client
  */
 function createYouTubeClient(apiKey: string) {
-  return google.youtube({
+  return youtube({
     version: 'v3',
     auth: apiKey,
   })

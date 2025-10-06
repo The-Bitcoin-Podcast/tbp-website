@@ -1,5 +1,5 @@
-import simpleGit from '@napi-rs/simple-git'
-import matter from 'gray-matter'
+import simpleGit from 'simple-git'
+import * as matter from 'gray-matter'
 import type { SyncState, SyncRecord } from '../types/youtube-sync.js'
 
 /**
@@ -27,19 +27,19 @@ export async function buildSyncState(
     const log = await git.log({
       file: `${episodeDirectory}/*.md`,
       '--diff-filter': 'A', // Only added files
+      '--name-only': null, // Include file names
     })
 
     // Process each commit
     for (const commit of log.all) {
-      // Get file content at this commit
-      const files = commit.diff?.files || []
+      // Get list of files changed in this commit
+      const rawDiff = await git.raw(['diff-tree', '--no-commit-id', '--name-only', '-r', '--diff-filter=A', commit.hash])
+      const files = rawDiff.split('\n').filter(f => f.trim() && f.includes(episodeDirectory) && f.endsWith('.md'))
 
-      for (const file of files) {
-        if (!file.path?.includes(episodeDirectory)) continue
-
+      for (const filePath of files) {
         try {
           // Get file content from git history
-          const content = await git.show([`${commit.hash}:${file.path}`])
+          const content = await git.show([`${commit.hash}:${filePath}`])
 
           // Parse frontmatter
           const { data } = matter(content)
@@ -48,14 +48,14 @@ export async function buildSyncState(
             syncedVideoIds.add(data.youtubeId)
             syncHistory.push({
               videoId: data.youtubeId,
-              episodePath: file.path,
+              episodePath: filePath,
               syncedAt: new Date(commit.date),
               commitHash: commit.hash,
             })
           }
         } catch (error) {
           // Skip files that can't be parsed
-          console.warn(`Failed to parse ${file.path} at ${commit.hash}:`, error)
+          console.warn(`Failed to parse ${filePath} at ${commit.hash}:`, error)
           continue
         }
       }

@@ -1,4 +1,4 @@
-import matter from 'gray-matter'
+import * as matter from 'gray-matter'
 import { join } from 'path'
 import type { YouTubeVideo, SyncConfig, EpisodeFrontmatter, GenerationResult } from '../types/youtube-sync.js'
 import { parseGuests } from './guest-parser.js'
