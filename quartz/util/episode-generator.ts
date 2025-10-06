@@ -46,8 +46,8 @@ export async function generateEpisodeFile(
   // Format date as YYYY-MM-DD
   const date = new Date(video.publishedAt).toISOString().split("T")[0]
 
-  // Build frontmatter (exclude undefined values and description)
-  const frontmatter: EpisodeFrontmatterRecord<string, any> = {
+  // Build frontmatter (NO description, NO undefined values)
+  const frontmatter: Record<string, any> = {
     title: video.title,
     date,
     draft: !config.autoPublish,
@@ -55,9 +55,6 @@ export async function generateEpisodeFile(
     youtubeId: video.videoId,
     thumbnail: video.thumbnailUrl,
     duration: formattedDuration,
-    description: markdownDescription,
-    guests: guests.length > 0 ? guests : undefined,
-    tags: video.tags && video.tags.length > 0 ? video.tags : undefined,
     syncedAt: new Date().toISOString(),
     status: "available",
   }
