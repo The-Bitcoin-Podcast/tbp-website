@@ -99,16 +99,16 @@
 
 ## Phase 3.3: Core Utilities (ONLY after tests are failing)
 
-- [ ] **T011** [P] Implement YouTube API client in `/home/petty/Github/tbp/quartz/quartz/util/youtube.ts`
+- [x] **T011** [P] Implement YouTube API client in `/home/petty/Github/tbp/quartz/quartz/util/youtube.ts`
   - Import `@googleapis/youtube` and create authenticated client
   - Implement `searchChannelVideos(channelId, options)` → SearchResponse
   - Implement `getVideoDetails(videoIds)` → VideosResponse
   - Implement `verifyChannel(channelId)` → ChannelsResponse
   - Add error handling with exponential backoff (1min, 5min, 15min)
   - Handle quota exceeded (403) and invalid key (400) errors
-  - **Expected: T006 tests now PASS**
+  - **✓ Implemented with retry logic**
 
-- [ ] **T012** [P] Implement git history scanner in `/home/petty/Github/tbp/quartz/quartz/util/git.ts`
+- [x] **T012** [P] Implement git history scanner in `/home/petty/Github/tbp/quartz/quartz/util/git.ts`
   - Import `@napi-rs/simple-git` and `gray-matter`
   - Implement `buildSyncState(repoPath, episodeDir)` → SyncState
   - Parse git log with `--diff-filter=A` for added episode files
@@ -116,9 +116,9 @@
   - Extract `youtubeId` from frontmatter with gray-matter
   - Implement `isVideoSynced(videoId, syncState)` → boolean
   - Implement `getLastSyncTimestamp(syncState)` → Date | null
-  - **Expected: T008 tests now PASS**
+  - **✓ Implemented with error handling**
 
-- [ ] **T013** [P] Implement guest parser in `/home/petty/Github/tbp/quartz/quartz/util/guest-parser.ts`
+- [x] **T013** [P] Implement guest parser in `/home/petty/Github/tbp/quartz/quartz/util/guest-parser.ts`
   - Define regex patterns array from research.md:
     - `/(?:Guest|Guests):\s*([^\n]+)/i`
     - `/(?:Featuring|ft\.|feat\.):\s*([^\n]+)/i`
@@ -129,18 +129,18 @@
   - Parse comma/ampersand-separated names
   - Extract Twitter handles from @mentions
   - Return empty array if no patterns match
-  - **Expected: T009 tests now PASS**
+  - **✓ Implemented with all patterns**
 
-- [ ] **T014** [P] Implement description converter in `/home/petty/Github/tbp/quartz/quartz/util/markdown-converter.ts`
+- [x] **T014** [P] Implement description converter in `/home/petty/Github/tbp/quartz/quartz/util/markdown-converter.ts`
   - Implement `convertDescriptionToMarkdown(description, videoId, config)` → string
   - Escape markdown special characters: `([*_`[\]()])/g` → `\\$1`
   - Preserve line breaks: `\n` → `  \n`
   - Auto-link URLs with regex: `/(https?:\/\/[^\s]+)/g` → `[$1]($1)`
   - Truncate at `config.truncateDescriptionAt` chars
   - Append "Read more on YouTube" link if truncated
-  - **Expected: T010 tests now PASS**
+  - **✓ Implemented with all transformations**
 
-- [ ] **T015** [P] Implement duration formatter in `/home/petty/Github/tbp/quartz/quartz/util/duration-formatter.ts`
+- [x] **T015** [P] Implement duration formatter in `/home/petty/Github/tbp/quartz/quartz/util/duration-formatter.ts`
   - Implement `formatDuration(iso8601Duration)` → "HH:MM:SS" or "MM:SS"
   - Parse ISO 8601 duration: `/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/`
   - Examples from contracts/episode-generation.contract.md:
@@ -148,8 +148,9 @@
     - "PT45M30S" → "45:30"
     - "PT30S" → "0:30"
   - Throw error if invalid format
+  - **✓ Implemented with validation**
 
-- [ ] **T016** [P] Implement filename generator in `/home/petty/Github/tbp/quartz/quartz/util/filename-generator.ts`
+- [x] **T016** [P] Implement filename generator in `/home/petty/Github/tbp/quartz/quartz/util/filename-generator.ts`
   - Import `github-slugger`
   - Implement `generateFileName(episodeNumber, title)` → "{number}-{slug}.md"
   - Zero-pad episode number to 3 digits (001, 042, etc.)
@@ -157,15 +158,17 @@
   - Examples from contracts/episode-generation.contract.md:
     - (1, "Bitcoin Basics") → "001-bitcoin-basics.md"
     - (42, "Future of Money") → "042-the-future-of-money.md"
+  - **✓ Implemented with validation**
 
-- [ ] **T017** [P] Implement YouTube embed generator in `/home/petty/Github/tbp/quartz/quartz/util/embed-generator.ts`
+- [x] **T017** [P] Implement YouTube embed generator in `/home/petty/Github/tbp/quartz/quartz/util/embed-generator.ts`
   - Implement `generateYouTubeEmbed(videoId)` → HTML string
   - Use youtube-nocookie.com domain for privacy
   - Include responsive wrapper (16:9 aspect ratio with padding-bottom: 56.25%)
   - Include allowfullscreen and accessibility attributes
   - Exact format from contracts/episode-generation.contract.md
+  - **✓ Implemented with responsive wrapper**
 
-- [ ] **T018** Implement episode generator in `/home/petty/Github/tbp/quartz/quartz/util/episode-generator.ts`
+- [x] **T018** Implement episode generator in `/home/petty/Github/tbp/quartz/quartz/util/episode-generator.ts`
   - Import all utilities (duration, filename, embed, markdown converter, guest parser)
   - Import `gray-matter` for frontmatter serialization
   - Implement `generateEpisodeFile(video, episodeNumber, config)` → {filePath, content}
@@ -177,7 +180,7 @@
   - Generate YouTube embed with generateYouTubeEmbed()
   - Serialize frontmatter + body to markdown
   - Return absolute file path and full content
-  - **Expected: T007 tests now PASS**
+  - **✓ Implemented integrating all utilities**
 
 ---
 
