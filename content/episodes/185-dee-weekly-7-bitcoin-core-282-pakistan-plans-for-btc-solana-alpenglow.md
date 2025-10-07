@@ -9,25 +9,7 @@ duration: '12:41'
 syncedAt: '2025-10-06T18:34:57.249Z'
 status: available
 tags:
-  - The Bitcoin Podcast Network
-  - Bitcoin
-  - Ethereum
-  - Ether
-  - Litecoin
-  - Altcoins
-  - Blockchain
-  - InItForTheTech
-  - Fun
-  - HereItIs
-  - HeyEverybody
-  - BTC
-  - ETH
-  - ETC
-  - Interviews
-  - Demetrick
-  - DrPetty
-  - Marcello
-  - Yeeeeaaaah
+  - Dee-weekly
 ---
 ## Episode Description
 
