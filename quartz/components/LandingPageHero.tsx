@@ -22,7 +22,7 @@ export function Hero({ title, tagline, latestEpisode, discordUrl }: HeroProps): 
                 title={latestEpisode.title}
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
                 aria-label={`Watch ${latestEpisode.title}`}
               ></iframe>
             </div>
