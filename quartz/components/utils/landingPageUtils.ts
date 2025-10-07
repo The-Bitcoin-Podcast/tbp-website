@@ -17,10 +17,7 @@ import {
  *
  * Filters, validates, sorts, and returns the latest N episodes
  */
-export function getLatestEpisodes(
-  allFiles: QuartzPluginData[],
-  limit: number = 5,
-): EpisodeCard[] {
+export function getLatestEpisodes(allFiles: QuartzPluginData[], limit: number = 5): EpisodeCard[] {
   const episodes = allFiles
     // Filter for episode files
     .filter((file) => file.slug?.startsWith("episodes/"))
@@ -33,8 +30,6 @@ export function getLatestEpisodes(
         fm?.title &&
         fm?.date &&
         fm?.episodeNumber !== undefined &&
-        fm?.audioUrl &&
-        fm?.description &&
         fm?.thumbnail &&
         fm?.duration !== undefined
       )
@@ -61,6 +56,7 @@ export function getLatestEpisodes(
         description: fm.description,
         thumbnail: fm.thumbnail,
         audioUrl: fm.audioUrl,
+        youtubeId: fm.youtubeId,
         guestNames: guestNames || undefined,
       }
     })
@@ -129,6 +125,10 @@ export function buildSocialLinks(config: LandingPageFrontmatter): SocialLink[] {
  */
 export function buildNavLinks(config: LandingPageFrontmatter): NavLink[] {
   return [
+    {
+      label: "Episodes",
+      url: config.episodesArchiveUrl,
+    },
     {
       label: "About",
       url: config.aboutUrl,

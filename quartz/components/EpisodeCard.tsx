@@ -15,12 +15,13 @@ export function EpisodeCard({ episode }: EpisodeCardProps): JSX.Element {
       <div class="episode-meta">
         <h3>{episode.title}</h3>
         <time datetime={episode.date}>{formattedDate}</time>
-        <span> • {episode.duration} min</span>
+        <span>
+          {" "}
+          • {typeof episode.duration === "number" ? `${episode.duration} min` : episode.duration}
+        </span>
       </div>
-      <p>{episode.description}</p>
-      {episode.guestNames && (
-        <p class="guests">With {episode.guestNames}</p>
-      )}
+      {episode.description && <p>{episode.description}</p>}
+      {episode.guestNames && <p class="guests">With {episode.guestNames}</p>}
       <a href={`/${episode.slug}`}>Listen →</a>
     </article>
   )
