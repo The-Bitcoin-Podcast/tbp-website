@@ -25,20 +25,42 @@ const headerRegex = new RegExp(/h[1-6]/)
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
+  cfg?: GlobalConfiguration,
 ): StaticResources {
-  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
+  // Extract base path from baseUrl configuration
+  let basePath = ""
+  if (cfg?.baseUrl) {
+    try {
+      const url = new URL(`https://${cfg.baseUrl}`)
+      basePath = url.pathname === "/" ? "" : url.pathname
+    } catch {
+      basePath = ""
+    }
+  }
+
+  // Prepend base path to relative URLs
+  const prependBase = (path: string) => {
+    if (!basePath || path.startsWith("http://") || path.startsWith("https://")) {
+      return path
+    }
+    // Remove leading ./ or . from path before joining
+    const cleanPath = path.replace(/^\.\//, "").replace(/^\.$/, "")
+    return joinSegments(basePath, cleanPath)
+  }
+
+  const contentIndexPath = prependBase(joinSegments(baseDir, "static/contentIndex.json"))
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
   const resources: StaticResources = {
     css: [
       {
-        content: joinSegments(baseDir, "index.css"),
+        content: prependBase(joinSegments(baseDir, "index.css")),
       },
       ...staticResources.css,
     ],
     js: [
       {
-        src: joinSegments(baseDir, "prescript.js"),
+        src: prependBase(joinSegments(baseDir, "prescript.js")),
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -54,7 +76,7 @@ export function pageResources(
   }
 
   resources.js.push({
-    src: joinSegments(baseDir, "postscript.js"),
+    src: prependBase(joinSegments(baseDir, "postscript.js")),
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",

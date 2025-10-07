@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "The-Bitcoin-Podcast.github.io/tbp-website",
+    baseUrl: "the-bitcoin-podcast.github.io/tbp-website",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

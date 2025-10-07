@@ -3,6 +3,7 @@
  */
 
 import { QuartzPluginData } from "../../plugins/vfile"
+import { GlobalConfiguration } from "../../cfg"
 import {
   EpisodeCard,
   EpisodeFrontmatter,
@@ -13,11 +14,49 @@ import {
 } from "../types/landingPage"
 
 /**
+ * Extract the base path from the baseUrl configuration
+ * e.g., "example.com/subpath" -> "/subpath"
+ */
+export function getBasePath(cfg: GlobalConfiguration): string {
+  if (!cfg.baseUrl) return ""
+
+  try {
+    const url = new URL(`https://${cfg.baseUrl}`)
+    return url.pathname === "/" ? "" : url.pathname
+  } catch {
+    return ""
+  }
+}
+
+/**
+ * Prepend base path to a URL if it's a relative path
+ */
+export function prependBasePath(url: string, basePath: string): string {
+  // Don't modify external URLs or anchor-only links
+  if (!url || url.startsWith("http://") || url.startsWith("https://") || url.startsWith("#")) {
+    return url
+  }
+
+  // If basePath is empty or url already starts with basePath, return as-is
+  if (!basePath || url.startsWith(basePath)) {
+    return url
+  }
+
+  // Prepend basePath to relative URLs
+  return `${basePath}${url}`
+}
+
+/**
  * Get latest episodes from all files
  *
  * Filters, validates, sorts, and returns the latest N episodes
  */
-export function getLatestEpisodes(allFiles: QuartzPluginData[], limit: number = 5): EpisodeCard[] {
+export function getLatestEpisodes(
+  allFiles: QuartzPluginData[],
+  limit: number = 5,
+  cfg?: GlobalConfiguration,
+): EpisodeCard[] {
+  const basePath = cfg ? getBasePath(cfg) : ""
   const episodes = allFiles
     // Filter for episode files
     .filter((file) => file.slug?.startsWith("episodes/"))
@@ -52,7 +91,7 @@ export function getLatestEpisodes(allFiles: QuartzPluginData[], limit: number = 
         title: fm.title,
         date: fm.date,
         duration: fm.duration,
-        slug: file.slug!,
+        slug: prependBasePath(`/${file.slug!}`, basePath),
         description: fm.description,
         thumbnail: fm.thumbnail,
         audioUrl: fm.audioUrl,
@@ -90,9 +129,14 @@ export function parseLandingConfig(
 /**
  * Build social links array from config
  *
- * Filters out empty URLs
+ * Filters out empty URLs and prepends base path to internal URLs
  */
-export function buildSocialLinks(config: LandingPageFrontmatter): SocialLink[] {
+export function buildSocialLinks(
+  config: LandingPageFrontmatter,
+  cfg: GlobalConfiguration,
+): SocialLink[] {
+  const basePath = getBasePath(cfg)
+
   const links: SocialLink[] = [
     {
       platform: "discord",
@@ -111,7 +155,7 @@ export function buildSocialLinks(config: LandingPageFrontmatter): SocialLink[] {
     },
     {
       platform: "rss",
-      url: config.rssUrl,
+      url: prependBasePath(config.rssUrl, basePath),
       ariaLabel: "Subscribe via RSS feed",
     },
   ]
@@ -121,29 +165,31 @@ export function buildSocialLinks(config: LandingPageFrontmatter): SocialLink[] {
 }
 
 /**
- * Build navigation links from config
+ * Build navigation links from config with base path prepended
  */
-export function buildNavLinks(config: LandingPageFrontmatter): NavLink[] {
+export function buildNavLinks(config: LandingPageFrontmatter, cfg: GlobalConfiguration): NavLink[] {
+  const basePath = getBasePath(cfg)
+
   return [
     {
       label: "Episodes",
-      url: config.episodesArchiveUrl,
+      url: prependBasePath(config.episodesArchiveUrl, basePath),
     },
     {
       label: "About",
-      url: config.aboutUrl,
+      url: prependBasePath(config.aboutUrl, basePath),
     },
     {
       label: "Sponsors",
-      url: config.sponsorsUrl,
+      url: prependBasePath(config.sponsorsUrl, basePath),
     },
     {
       label: "Contact",
-      url: config.contactUrl,
+      url: prependBasePath(config.contactUrl, basePath),
     },
     {
       label: "Guests",
-      url: config.guestsUrl,
+      url: prependBasePath(config.guestsUrl, basePath),
     },
   ]
 }

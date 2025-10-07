@@ -8,20 +8,22 @@ import {
   parseLandingConfig,
   buildSocialLinks,
   buildNavLinks,
+  getBasePath,
+  prependBasePath,
 } from "../utils/landingPageUtils"
 import style from "../styles/landingPage.scss"
 
 export default (() => {
-  function LandingPage({ fileData, allFiles }: QuartzComponentProps) {
+  function LandingPage({ fileData, allFiles, cfg }: QuartzComponentProps) {
     // Parse configuration from frontmatter
     const config = parseLandingConfig(fileData.frontmatter)
 
     // Get latest episodes
-    const episodes = getLatestEpisodes(allFiles, 5)
+    const episodes = getLatestEpisodes(allFiles, 5, cfg)
 
     // Build social and navigation links
-    const socialLinks = buildSocialLinks(config)
-    const navLinks = buildNavLinks(config)
+    const socialLinks = buildSocialLinks(config, cfg)
+    const navLinks = buildNavLinks(config, cfg)
 
     // Get the latest episode for the hero player
     const latestEpisode = episodes[0]
@@ -35,7 +37,10 @@ export default (() => {
           latestEpisode={latestEpisode}
           discordUrl={config.discordUrl}
         />
-        <EpisodeGrid episodes={episodes} archiveUrl={config.episodesArchiveUrl} />
+        <EpisodeGrid
+          episodes={episodes}
+          archiveUrl={prependBasePath(config.episodesArchiveUrl, getBasePath(cfg))}
+        />
         <SocialLinks links={socialLinks} />
       </div>
     )

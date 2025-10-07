@@ -22,7 +22,7 @@ export function EpisodeCard({ episode }: EpisodeCardProps): JSX.Element {
       </div>
       {episode.description && <p>{episode.description}</p>}
       {episode.guestNames && <p class="guests">With {episode.guestNames}</p>}
-      <a href={`/${episode.slug}`}>Listen →</a>
+      <a href={episode.slug}>Listen →</a>
     </article>
   )
 }

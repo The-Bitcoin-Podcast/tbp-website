@@ -23,7 +23,7 @@ async function processLandingPage(
 ) {
   const slug = "index" as FullSlug
   const cfg = ctx.cfg.configuration
-  const externalResources = pageResources(pathToRoot(slug), resources)
+  const externalResources = pageResources(pathToRoot(slug), resources, cfg)
   const componentData: QuartzComponentProps = {
     ctx,
     fileData,
@@ -59,7 +59,18 @@ export const LandingPageEmitter: QuartzEmitterPlugin = () => {
   return {
     name: "LandingPageEmitter",
     getQuartzComponents() {
-      return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...afterBody, ...left, ...right, Footer]
+      return [
+        Head,
+        Header,
+        Body,
+        ...header,
+        ...beforeBody,
+        pageBody,
+        ...afterBody,
+        ...left,
+        ...right,
+        Footer,
+      ]
     },
     async *emit(ctx, content, resources) {
       const allFiles = content.map((c) => c[1].data)
@@ -83,7 +94,14 @@ export const LandingPageEmitter: QuartzEmitterPlugin = () => {
           // Find index file
           const indexContent = content.find(([_, f]) => f.data.slug === "index")
           if (indexContent) {
-            yield processLandingPage(ctx, indexContent[0], indexContent[1].data, allFiles, opts, resources)
+            yield processLandingPage(
+              ctx,
+              indexContent[0],
+              indexContent[1].data,
+              allFiles,
+              opts,
+              resources,
+            )
             break
           }
         }
