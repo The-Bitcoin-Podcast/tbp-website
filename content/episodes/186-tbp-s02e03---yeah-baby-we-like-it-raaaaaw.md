@@ -30,8 +30,6 @@ Stick around for laughs, insights, and a reminder that adoption is the only thin
 40:10 Aliens, Netflix shows & off-topic fun
 45:00 Closing thoughts & wrap-up laughs
 
-#Bitcoin #CryptoPodcast #Blockchain #Tether #Monero #Stablecoin
-
 ## Watch Episode
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
