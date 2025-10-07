@@ -1,18 +1,68 @@
-# Quartz v4
+# The Bitcoin Podcast Network Knowledge Base
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+> A comprehensive, wiki-like knowledge base for The Bitcoin Podcast Network episodes, resources, and community-contributed content.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+This project provides a searchable, interconnected static site built on [Quartz v4](https://quartz.jzhao.xyz/) that archives and organizes all episodes from The Bitcoin Podcast Network. It serves as a living knowledge base where users can explore episode content, discover connections between topics, and contribute additional resources and annotations.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Features
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- **Episode Archive**: Complete catalog of all The Bitcoin Podcast Network episodes with metadata, descriptions, transcripts, and links
+- **Wiki-Style Navigation**: Bidirectional links, graph view, and semantic search across all content
+- **Community Contributions**: Users can add resources, notes, and supplementary content that links to episodes
+- **Static Site Generation**: Fast, secure, and hostable anywhere via Quartz's static site generation
+- **Automated Syncing**: YouTube Data API integration to keep episode information up-to-date
 
-## Sponsors
+## Project Structure
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+```
+content/episodes/     # Episode markdown files
+quartz/              # Quartz configuration and components
+scripts/             # Sync and automation scripts
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 22+
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npx quartz build --serve
+```
+
+### Syncing Episodes
+view the specificaion documentation and quickstart located in `specs/002...` directory.
+
+```bash
+npm run sync
+```
+
+## Technology Stack
+
+- **Quartz v4.5.2**: Static site generator built on Preact
+- **TypeScript 5.9.2**: Type-safe development
+- **YouTube Data API v3**: Episode metadata syncing
+- **unified/remark/rehype**: Markdown processing pipeline
+
+## Contributing
+
+Contributions are welcome! You can:
+- Add notes and annotations to existing episodes
+- Link related resources and content
+- Improve episode descriptions and metadata
+- Suggest new features or improvements
+
+## Built With Quartz
+
+This project is powered by [Quartz v4](https://quartz.jzhao.xyz/), an open-source tool for publishing digital gardens and knowledge bases.
+
+[Quartz Documentation](https://quartz.jzhao.xyz/) | [Quartz Discord Community](https://discord.gg/cRFFHYye7t)
