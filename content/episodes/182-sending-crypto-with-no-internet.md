@@ -1,7 +1,7 @@
 ---
 title: Sending Crypto with NO internet
 date: '2025-06-21'
-draft: true
+draft: false
 episodeNumber: 182
 youtubeId: ZIBFYdS_kLg
 thumbnail: 'https://i.ytimg.com/vi/ZIBFYdS_kLg/maxresdefault.jpg'
@@ -31,12 +31,12 @@ tags:
 ---
 ## Episode Description
 
-Links:  
-HIO Discord: [https://discord.gg/Mq6TUHv4](https://discord.gg/Mq6TUHv4)  
-Codex Discord: [https://discord.gg/ChK3ew3A](https://discord.gg/ChK3ew3A)  
-Waku Discord: [https://discord.gg/UADwEA64](https://discord.gg/UADwEA64)  
-Status Discord: [https://discord.gg/cWTjmjNK](https://discord.gg/cWTjmjNK)  
-Logos Discord: [https://discord.gg/SrtQBha3](https://discord.gg/SrtQBha3)  
+Links:
+HIO Discord: [https://discord.gg/Mq6TUHv4](https://discord.gg/Mq6TUHv4)
+Codex Discord: [https://discord.gg/ChK3ew3A](https://discord.gg/ChK3ew3A)
+Waku Discord: [https://discord.gg/UADwEA64](https://discord.gg/UADwEA64)
+Status Discord: [https://discord.gg/cWTjmjNK](https://discord.gg/cWTjmjNK)
+Logos Discord: [https://discord.gg/SrtQBha3](https://discord.gg/SrtQBha3)
 Website: [https://Thebitcoinpodcast.com](https://Thebitcoinpodcast.com)
 
 ## Watch Episode
@@ -50,4 +50,3 @@ Website: [https://Thebitcoinpodcast.com](https://Thebitcoinpodcast.com)
     allowfullscreen
   ></iframe>
 </div>
-

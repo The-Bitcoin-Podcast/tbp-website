@@ -1,7 +1,7 @@
 ---
 title: 'DEE WEEKLY 7: Bitcoin Core 28.2, Pakistan Plans for BTC, Solana Alpenglow'
 date: '2025-07-08'
-draft: true
+draft: false
 episodeNumber: 185
 youtubeId: zLCMeP-C6hw
 thumbnail: 'https://i.ytimg.com/vi/zLCMeP-C6hw/maxresdefault.jpg'
@@ -44,4 +44,3 @@ A wave of fresh code hit the chains this week: Bitcoin Core 28.2 dropped, an Eth
     allowfullscreen
   ></iframe>
 </div>
-
