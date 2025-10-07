@@ -23,14 +23,17 @@ export interface EpisodeFrontmatter extends QuartzPluginData {
   /** Sequential episode number (positive integer) */
   episodeNumber: number
 
-  /** Duration in minutes (positive integer) */
-  duration: number
+  /** Duration in minutes (positive integer) or "MM:SS" string format */
+  duration: number | string
 
-  /** Direct URL or path to audio file (MP3/M4A) */
-  audioUrl: string
+  /** Optional direct URL or path to audio file (MP3/M4A) */
+  audioUrl?: string
 
-  /** Brief description (2-3 sentences, max 300 chars) */
-  description: string
+  /** Optional YouTube video ID */
+  youtubeId?: string
+
+  /** Optional brief description (1 sentence, 80-100 chars) */
+  description?: string
 
   /** URL or path to episode cover art (16:9 or 1:1 aspect ratio) */
   thumbnail: string
@@ -131,20 +134,23 @@ export interface EpisodeCard {
   /** Publication date (formatted for display) */
   date: string
 
-  /** Duration in minutes */
-  duration: number
+  /** Duration in minutes or "MM:SS" string format */
+  duration: number | string
 
   /** Episode slug/URL */
   slug: string
 
-  /** Brief description */
-  description: string
+  /** Optional brief description */
+  description?: string
 
   /** Thumbnail image URL/path */
   thumbnail: string
 
-  /** Audio URL */
-  audioUrl: string
+  /** Optional audio URL */
+  audioUrl?: string
+
+  /** Optional YouTube video ID */
+  youtubeId?: string
 
   /** Comma-separated guest names (if any) */
   guestNames?: string

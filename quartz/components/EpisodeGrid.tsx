@@ -11,15 +11,19 @@ export function EpisodeGrid({ episodes, archiveUrl }: EpisodeGridProps): JSX.Ele
   return (
     <section class="episode-section">
       <h2>Recent Episodes</h2>
-      <div class="episode-grid">
-        {episodes.map((ep) => (
-          <EpisodeCard key={ep.slug} episode={ep} />
-        ))}
-      </div>
-      {episodes.length > 0 && (
-        <a href={archiveUrl} class="episodes-archive-link">
-          View All Episodes →
-        </a>
+      {episodes.length === 0 ? (
+        <p class="no-episodes-message">No episodes available yet. Check back soon!</p>
+      ) : (
+        <>
+          <div class="episode-grid">
+            {episodes.map((ep) => (
+              <EpisodeCard key={ep.slug} episode={ep} />
+            ))}
+          </div>
+          <a href={archiveUrl} class="episodes-archive-link">
+            View All Episodes →
+          </a>
+        </>
       )}
     </section>
   )
