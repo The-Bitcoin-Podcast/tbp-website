@@ -1,12 +1,12 @@
 ---
-title: 'TBP - S02E10: Renaissance Affair'
-date: '2025-11-25'
-draft: true
+title: "TBP - S02E10: Renaissance Affair"
+date: 2025-11-25
+draft: false
 episodeNumber: 191
 youtubeId: N_9K1Nm065I
-thumbnail: 'https://i.ytimg.com/vi/N_9K1Nm065I/maxresdefault.jpg'
-duration: '1:00:02'
-syncedAt: '2025-12-09T15:47:48.787Z'
+thumbnail: https://i.ytimg.com/vi/N_9K1Nm065I/maxresdefault.jpg
+duration: 1:00:02
+syncedAt: 2025-12-09T15:47:48.787Z
 status: available
 ---
 ## Episode Description

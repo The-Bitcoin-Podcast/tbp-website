@@ -24,4 +24,3 @@ We're going to talk about Fusaka...ohhhhh yeah!
     allowfullscreen
   ></iframe>
 </div>
-

@@ -1,35 +1,19 @@
 ---
-title: >-
-  The Bitcoin Podcast Interview #348  Viberate   Founder Vasja Veber and Uroš
-  Umek 3
-date: '2021-04-25'
+title: "The Bitcoin Podcast Interview #348  Viberate   Founder Vasja Veber and Uroš Umek 3"
+date: 2021-04-25
 draft: true
 episodeNumber: 187
 youtubeId: Ed2_Jts6QCs
-thumbnail: 'https://i.ytimg.com/vi/Ed2_Jts6QCs/maxresdefault.jpg'
-duration: '38:05'
-syncedAt: '2025-12-09T15:47:48.784Z'
+thumbnail: https://i.ytimg.com/vi/Ed2_Jts6QCs/maxresdefault.jpg
+duration: 38:05
+syncedAt: 2025-12-09T15:47:48.784Z
 status: available
 tags:
-  - The Bitcoin Podcast Network
-  - Bitcoin
-  - Ethereum
-  - Ether
-  - Litecoin
-  - Altcoins
-  - Blockchain
-  - InItForTheTech
-  - Fun
-  - HereItIs
-  - HeyEverybody
-  - BTC
-  - ETH
-  - ETC
   - Interviews
-  - Demetrick
-  - DrPetty
-  - Marcello
-  - Yeeeeaaaah
+  - Vasja-Veber
+  - Viberate
+  - NFT
+  - music
 ---
 ## Episode Description
 

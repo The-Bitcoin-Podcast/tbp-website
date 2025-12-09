@@ -1,12 +1,12 @@
 ---
-title: 'TBP S02E08 - Hacks, ZCash, and Air Fryers'
-date: '2025-11-02'
-draft: true
+title: TBP S02E08 - Hacks, ZCash, and Air Fryers
+date: 2025-11-02
+draft: false
 episodeNumber: 188
 youtubeId: RQhCAxcIiOs
-thumbnail: 'https://i.ytimg.com/vi/RQhCAxcIiOs/maxresdefault.jpg'
-duration: '46:42'
-syncedAt: '2025-12-09T15:47:48.786Z'
+thumbnail: https://i.ytimg.com/vi/RQhCAxcIiOs/maxresdefault.jpg
+duration: 46:42
+syncedAt: 2025-12-09T15:47:48.786Z
 status: available
 ---
 ## Episode Description

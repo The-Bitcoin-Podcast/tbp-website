@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast - S02E11: Fusaka To Me'
 date: '2025-12-06'
-draft: true
+draft: false
 episodeNumber: 192
 youtubeId: '-EZapxMeIWc'
 thumbnail: 'https://i.ytimg.com/vi/-EZapxMeIWc/maxresdefault.jpg'
@@ -24,4 +24,3 @@ We're going to talk about Fusaka...ohhhhh yeah!
     allowfullscreen
   ></iframe>
 </div>
-
