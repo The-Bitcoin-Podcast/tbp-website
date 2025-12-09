@@ -1,5 +1,5 @@
 ---
-title: "The Bitcoin Podcast Interview #348  Viberate   Founder Vasja Veber and Uroš Umek 3"
+title: "The Bitcoin Podcast Interview #348 - Viberate: Founder Vasja Veber and Uroš Umek"
 date: 2021-04-25
 draft: false
 episodeNumber: 187
