@@ -19,7 +19,7 @@ export default (() => {
     const config = parseLandingConfig(fileData.frontmatter)
 
     // Get latest episodes
-    const episodes = getLatestEpisodes(allFiles, 5, cfg)
+    const episodes = getLatestEpisodes(allFiles, 6, cfg)
 
     // Build social and navigation links
     const socialLinks = buildSocialLinks(config, cfg)
