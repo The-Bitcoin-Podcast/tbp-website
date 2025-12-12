@@ -30,24 +30,20 @@ tags:
 
 ## Episode Description
 
-Our Guest is Vasja Veber of Viberate a Musician Focus Analytics Company seeking to NFT Gigs for Musicians.  The first artist to attempt to NFT his gig is UMEK on April 29th 2021.   
+Our Guest is [[Vasja Veber]] of Viberate a Musician Focus Analytics Company seeking to NFT Gigs for Musicians.  The first artist to attempt to NFT his gig is UMEK on April 29th 2021.   
   
 Please Like, Share, and Subscribe to our channel.   
   
 Help Us Grow.  
   
-One Lucky Subscriber to our YouTube Channel could Win 100  Family Size Bags of  Flamin Hot Cheetos.  
+~~One Lucky Subscriber to our YouTube Channel could Win 100  Family Size Bags of  Flamin Hot Cheetos.~~
   
-This could be  DELIVERED RIGHT TO THE WINNERS DOOR, when we   
-Hit 1.000 Subscribers.  
+~~This could be  DELIVERED RIGHT TO THE WINNERS DOOR, when we   
+Hit 1.000 Subscribers.~~
    
   
-Social Media Of Viberate  
-Website: [https://www.viberate.com/](https://www.viberate.com/)  
-YouTube:[https://www.youtube.com/channel/UC3zRUoRrwCXMpWvBwrJPQ8g](https://www.youtube.com/channel/UC3zRUoRrwCXMpWvBwrJPQ8g)  
-Twitter:[https://twitter.com/viberate](https://twitter.com/viberate)  
-Facebook:[https://www.facebook.com/viberateOFC/](https://www.facebook.com/viberateOFC/)  
-  
-The Bitcoin Podcast Social Media  
-- Website: [http://thebitcoinpodcast.com/](http://thebitcoinpodcast.com/)  
-- Twitter: [https://twitter.com/thebtcpodcast](https://twitter.com/thebtcpodcast)
+**Social Media Of Viberate:**  
+- Website: [https://www.viberate.com/](https://www.viberate.com/)  
+- YouTube: [https://www.youtube.com/channel/UC3zRUoRrwCXMpWvBwrJPQ8g](https://www.youtube.com/channel/UC3zRUoRrwCXMpWvBwrJPQ8g)  
+- Twitter: [https://twitter.com/viberate](https://twitter.com/viberate)  
+- Facebook: [https://www.facebook.com/viberateOFC/](https://www.facebook.com/viberateOFC/)  
