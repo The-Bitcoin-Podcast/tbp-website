@@ -1,12 +1,12 @@
 ---
 title: Project Nexus - Cross Global Banking
-date: '2025-06-21'
-draft: false
+date: 2025-06-21
+draft: true
 episodeNumber: 183
 youtubeId: NMBxveVAY-I
-thumbnail: 'https://i.ytimg.com/vi/NMBxveVAY-I/maxresdefault.jpg'
-duration: '0:59'
-syncedAt: '2025-10-06T18:34:57.248Z'
+thumbnail: https://i.ytimg.com/vi/NMBxveVAY-I/maxresdefault.jpg
+duration: 0:59
+syncedAt: 2025-10-06T18:34:57.248Z
 status: available
 tags:
   - TBP

@@ -1,23 +1,19 @@
 ---
-title: 'The Bitcoin Podcast #398- The Math ain''t Mathing'
-date: '2022-08-05'
-draft: true
+title: "The Bitcoin Podcast #398- The Math ain't Mathing"
+date: 2022-08-05
+draft: false
 episodeNumber: 134
 youtubeId: 8H12JIOY6KU
-thumbnail: 'https://i.ytimg.com/vi/8H12JIOY6KU/maxresdefault.jpg'
-duration: '56:30'
-syncedAt: '2025-10-06T18:34:57.237Z'
+thumbnail: https://i.ytimg.com/vi/8H12JIOY6KU/maxresdefault.jpg
+duration: 56:30
+syncedAt: 2025-10-06T18:34:57.237Z
 status: available
 ---
 ## Episode Description
 
-Bridges, Smart Contracts, Crypto-Businesses, are falling left and right- this winter is very different from the last one.   
-Will the merge in Eth go without a hitch ?  
-  
-\*\*\*\*\* The Bitcoin Podcast Social Media \*\*\*\*\*  
-Join-Slack: [https://launchpass.com/thebitcoinpodcast](https://launchpass.com/thebitcoinpodcast)  
-Website: [http://thebitcoinpodcast.com/](http://thebitcoinpodcast.com/)  
-Twitter: [https://twitter.com/thebtcpodcast](https://twitter.com/thebtcpodcast)
+Bridges, Smart Contracts, Crypto-Businesses, are falling left and right- this winter is very different from the last one. 
+  
+Will the merge in Eth go without a hitch?
 
 ## Watch Episode
 

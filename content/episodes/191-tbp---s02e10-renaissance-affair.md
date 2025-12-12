@@ -1,5 +1,5 @@
 ---
-title: "TBP - S02E10: Renaissance Affair"
+title: "TBP S02E10: Renaissance Affair"
 date: 2025-11-25
 draft: false
 episodeNumber: 191

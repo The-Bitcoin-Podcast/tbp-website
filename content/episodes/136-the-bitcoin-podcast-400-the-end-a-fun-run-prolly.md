@@ -1,12 +1,12 @@
 ---
-title: 'The Bitcoin Podcast #400: The end a fun run, prolly.'
-date: '2022-11-10'
-draft: true
+title: "TBP S01E400: The end a fun run, prolly."
+date: 2022-11-10
+draft: false
 episodeNumber: 136
 youtubeId: 0Yh_ZqBB04Q
-thumbnail: 'https://i.ytimg.com/vi/0Yh_ZqBB04Q/maxresdefault.jpg'
-duration: '1:04:49'
-syncedAt: '2025-10-06T18:34:57.238Z'
+thumbnail: https://i.ytimg.com/vi/0Yh_ZqBB04Q/maxresdefault.jpg
+duration: 1:04:49
+syncedAt: 2025-10-06T18:34:57.238Z
 status: available
 ---
 ## Episode Description

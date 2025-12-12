@@ -1,5 +1,5 @@
 ---
-title: "TBP - S02E09: The Great Unpeggining"
+title: "TBP S02E09: The Great Unpeggining"
 date: 2025-11-08
 draft: false
 episodeNumber: 189

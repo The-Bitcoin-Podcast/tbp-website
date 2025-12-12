@@ -1,12 +1,12 @@
 ---
-title: 'The Bitcoin Podcast - S02E11: Fusaka To Me'
-date: '2025-12-06'
+title: "TBP S02E11: Fusaka To Me"
+date: 2025-12-06
 draft: false
 episodeNumber: 192
-youtubeId: '-EZapxMeIWc'
-thumbnail: 'https://i.ytimg.com/vi/-EZapxMeIWc/maxresdefault.jpg'
-duration: '46:41'
-syncedAt: '2025-12-09T15:47:48.787Z'
+youtubeId: -EZapxMeIWc
+thumbnail: https://i.ytimg.com/vi/-EZapxMeIWc/maxresdefault.jpg
+duration: 46:41
+syncedAt: 2025-12-09T15:47:48.787Z
 status: available
 ---
 ## Episode Description

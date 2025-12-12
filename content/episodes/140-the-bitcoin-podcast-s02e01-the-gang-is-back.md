@@ -1,34 +1,28 @@
 ---
-title: 'The Bitcoin Podcast S02E01: THE GANG IS BACK'
-date: '2025-04-27'
-draft: true
+title: "TBP S02E01: THE GANG IS BACK"
+date: 2025-04-27
+draft: false
 episodeNumber: 140
 youtubeId: dC4TKn38C9c
-thumbnail: 'https://i.ytimg.com/vi/dC4TKn38C9c/maxresdefault.jpg'
-duration: '38:30'
-syncedAt: '2025-10-06T18:34:57.238Z'
+thumbnail: https://i.ytimg.com/vi/dC4TKn38C9c/maxresdefault.jpg
+duration: 38:30
+syncedAt: 2025-10-06T18:34:57.238Z
 status: available
 tags:
-  - The Bitcoin Podcast Network
-  - Bitcoin
-  - Ethereum
-  - Ether
-  - Litecoin
-  - Altcoins
-  - Blockchain
-  - InItForTheTech
-  - Fun
-  - HereItIs
-  - HeyEverybody
-  - BTC
-  - ETH
-  - ETC
-  - Interviews
-  - Demetrick
-  - DrPetty
-  - Marcello
-  - Yeeeeaaaah
+  - TBP
 ---
+## Watch Episode
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/dC4TKn38C9c"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## Episode Description
 
 The Bitcoin Podcast returns for its second season, exploring the latest in cryptocurrency news and discussions on Bitcoin's evolving landscape. Once focused heavily on initial adoption, the hosts now consider what true adoption means in the context of recent technological advancements like L2s and regulatory developments impacting the market significantly. They dive deep into the nuances of Bitcoin's network growth and the Lightning Network's capacity and implications, while also humorously reflecting on past podcast episodes and entertaining conjectures about the future of Bitcoin. The podcast invites listeners to join them once again, aiming to reclaim their place as a leading voice in the crypto community by tackling contemporary issues with humor and informed conjecture.  
@@ -57,16 +51,3 @@ The Bitcoin Podcast returns for its second season, exploring the latest in crypt
 00:30:27 Could Bitcoin Be Manipulated by Institutional Players?  
 00:34:19 Is There a Conspiracy behind Bitcoin’s Market Movement?  
 00:36:55 What’s Next for Season Two of Our Podcast?
-
-## Watch Episode
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/dC4TKn38C9c"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</div>
-

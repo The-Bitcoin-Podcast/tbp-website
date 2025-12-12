@@ -1,12 +1,12 @@
 ---
 title: Sending Crypto with NO internet
-date: '2025-06-21'
-draft: false
+date: 2025-06-21
+draft: true
 episodeNumber: 182
 youtubeId: ZIBFYdS_kLg
-thumbnail: 'https://i.ytimg.com/vi/ZIBFYdS_kLg/maxresdefault.jpg'
-duration: '0:59'
-syncedAt: '2025-10-06T18:34:57.248Z'
+thumbnail: https://i.ytimg.com/vi/ZIBFYdS_kLg/maxresdefault.jpg
+duration: 0:59
+syncedAt: 2025-10-06T18:34:57.248Z
 status: available
 tags:
   - TBP

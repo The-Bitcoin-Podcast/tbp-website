@@ -1,23 +1,17 @@
 ---
-title: 'The Bitcoin Podcast #397- When is a Blockchain Decentralized  ?'
-date: '2022-07-07'
-draft: true
+title: "The Bitcoin Podcast #397- When is a Blockchain Decentralized  ?"
+date: 2022-07-07
+draft: false
 episodeNumber: 133
 youtubeId: dsgwBeJDBzY
-thumbnail: 'https://i.ytimg.com/vi/dsgwBeJDBzY/maxresdefault.jpg'
-duration: '47:24'
-syncedAt: '2025-10-06T18:34:57.237Z'
+thumbnail: https://i.ytimg.com/vi/dsgwBeJDBzY/maxresdefault.jpg
+duration: 47:24
+syncedAt: 2025-10-06T18:34:57.237Z
 status: available
 ---
 ## Episode Description
 
-Dee, Jessie, and Corey talk about the week events.   
-  
-\*\*\*\*\* The Bitcoin Podcast Social Media \*\*\*\*\*\*  
-Join-Slack: [https://launchpass.com/thebitcoinpodcast](https://launchpass.com/thebitcoinpodcast)  
-Patreon:[https://www.patreon.com/TheBitcoinPodcastNetwork](https://www.patreon.com/TheBitcoinPodcastNetwork)  
-Website: [http://thebitcoinpodcast.com/](http://thebitcoinpodcast.com/)  
-Twitter: [https://twitter.com/thebtcpodcast](https://twitter.com/thebtcpodcast)
+Dee, Jessie, and Corey talk about the week events. 
 
 ## Watch Episode
 

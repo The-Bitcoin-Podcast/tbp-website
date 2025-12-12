@@ -1,25 +1,18 @@
 ---
 title: New MICA rules for Crypto Ads
-date: '2025-06-21'
-draft: false
+date: 2025-06-21
+draft: true
 episodeNumber: 184
 youtubeId: EuNrKL6Kl1M
-thumbnail: 'https://i.ytimg.com/vi/EuNrKL6Kl1M/maxresdefault.jpg'
-duration: '0:23'
-syncedAt: '2025-10-06T18:34:57.249Z'
+thumbnail: https://i.ytimg.com/vi/EuNrKL6Kl1M/maxresdefault.jpg
+duration: 0:23
+syncedAt: 2025-10-06T18:34:57.249Z
 status: available
 tags:
   - TBP
 ---
 ## Episode Description
 
-Links:
-HIO Discord: [https://discord.gg/Mq6TUHv4](https://discord.gg/Mq6TUHv4)
-Codex Discord: [https://discord.gg/ChK3ew3A](https://discord.gg/ChK3ew3A)
-Waku Discord: [https://discord.gg/UADwEA64](https://discord.gg/UADwEA64)
-Status Discord: [https://discord.gg/cWTjmjNK](https://discord.gg/cWTjmjNK)
-Logos Discord: [https://discord.gg/SrtQBha3](https://discord.gg/SrtQBha3)
-Website: [https://Thebitcoinpodcast.com](https://Thebitcoinpodcast.com)
 
 ## Watch Episode
 
