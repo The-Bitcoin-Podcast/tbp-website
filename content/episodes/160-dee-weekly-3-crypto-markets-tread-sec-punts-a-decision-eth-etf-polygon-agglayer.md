@@ -1,36 +1,28 @@
 ---
-title: >-
-  Dee Weekly 3: Crypto Markets Tread, SEC Punts A Decision ETH ETF, Polygon
-  Agglayer
-date: '2025-05-19'
-draft: true
+title: "Dee Weekly 3: Crypto Markets Tread, SEC Punts A Decision ETH ETF, Polygon Agglayer"
+date: 2025-05-19
+draft: false
 episodeNumber: 160
 youtubeId: JwUO0SRqh7s
-thumbnail: 'https://i.ytimg.com/vi/JwUO0SRqh7s/maxresdefault.jpg'
-duration: '17:25'
-syncedAt: '2025-10-06T18:34:57.243Z'
+thumbnail: https://i.ytimg.com/vi/JwUO0SRqh7s/maxresdefault.jpg
+duration: 17:25
+syncedAt: 2025-10-06T18:34:57.243Z
 status: available
 tags:
-  - The Bitcoin Podcast Network
-  - Bitcoin
-  - Ethereum
-  - Ether
-  - Litecoin
-  - Altcoins
-  - Blockchain
-  - InItForTheTech
-  - Fun
-  - HereItIs
-  - HeyEverybody
-  - BTC
-  - ETH
-  - ETC
-  - Interviews
-  - Demetrick
-  - DrPetty
-  - Marcello
-  - Yeeeeaaaah
+  - Dee-weekly
 ---
+## Watch Episode
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/JwUO0SRqh7s"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
 ## Episode Description
 
 Markets tread water while regulators turn the heat up: this week \(10 – 16 May 2025\) the Fed’s draft stable-coin framework lands alongside fresh FCA proposals, the SEC punts once more on the ETH ETF, and Hong Kong issues its first retail-ready trading licences. On the tech front Polygon unveils AggLayer and Uniswap super-charges cross-chain swaps, while PayPal and Shopify push crypto checkout to tens of millions of shoppers. BTC grinds above $104 k; MATIC jumps 20 %. Get every headline you need in under 15 minutes with Dee Weekly.  
@@ -49,24 +41,3 @@ ETH price rally analysis — ⁠[https://www.coindesk.com/markets/2025/05/16/eth
 MATIC price history — ⁠[https://coinmarketcap.com/currencies/wmatic/historical-data/⁠](https://coinmarketcap.com/currencies/wmatic/historical-data/⁠)  
 PayPal 3.7 % APY & global checkout expansion — ⁠[https://newsroom.paypal-corp.com/2025-04-23-Buy-Hold-Earn-Rewards-PayPal-USD⁠](https://newsroom.paypal-corp.com/2025-04-23-Buy-Hold-Earn-Rewards-PayPal-USD⁠)  
 Shopify integrates Solana Pay — ⁠[https://www.quicknode.com/guides/solana-development/solana-pay/shopify⁠](https://www.quicknode.com/guides/solana-development/solana-pay/shopify⁠)  
-  
-Links:  
-HIO Discord: [https://discord.gg/Mq6TUHv4](https://discord.gg/Mq6TUHv4)  
-Codex Discord: [https://discord.gg/ChK3ew3A](https://discord.gg/ChK3ew3A)  
-Waku Discord: [https://discord.gg/UADwEA64](https://discord.gg/UADwEA64)  
-Status Discord: [https://discord.gg/cWTjmjNK](https://discord.gg/cWTjmjNK)  
-Logos Discord: [https://discord.gg/SrtQBha3](https://discord.gg/SrtQBha3)  
-Website: [https://Thebitcoinpodcast.com](https://Thebitcoinpodcast.com)
-
-## Watch Episode
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/JwUO0SRqh7s"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</div>
-
