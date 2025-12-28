@@ -1,23 +1,25 @@
 ---
-title: The Bitcoin Podcast-#399- Sir, You Cannot Do That Here
-date: 2022-08-11
+title: The Math ain't Mathing
+date: 2022-08-05
 draft: false
-episodeNumber: 135
-youtubeId: Vv6UkTAs2EY
-thumbnail: https://i.ytimg.com/vi/Vv6UkTAs2EY/maxresdefault.jpg
-duration: 1:49:55
+episodeNumber: 134
+youtubeId: 8H12JIOY6KU
+thumbnail: https://i.ytimg.com/vi/8H12JIOY6KU/maxresdefault.jpg
+duration: 56:30
 syncedAt: 2025-10-06T18:34:57.237Z
 status: available
 ---
 ## Episode Description
 
-Tornado Cash is causing more ripple effects in Ethereum than the GPU crash.
+Bridges, Smart Contracts, Crypto-Businesses, are falling left and right- this winter is very different from the last one. 
+  
+Will the merge in Eth go without a hitch?
 
 ## Watch Episode
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/Vv6UkTAs2EY"
+    src="https://www.youtube-nocookie.com/embed/8H12JIOY6KU"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

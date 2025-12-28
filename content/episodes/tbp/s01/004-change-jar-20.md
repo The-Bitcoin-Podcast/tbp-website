@@ -1,13 +1,14 @@
 ---
-title: 'The Bitcoin Podcast Episode 4: Change Jar 2.0'
-date: '2015-06-23'
+title: Change Jar 2.0
+date: 2015-06-23
 draft: false
-episodeNumber: 1
+episodeNumber: 4
 youtubeId: n_TWbl7gJNc
-thumbnail: 'https://i.ytimg.com/vi/n_TWbl7gJNc/hqdefault.jpg'
-duration: '54:01'
-syncedAt: '2025-10-06T18:34:17.473Z'
+thumbnail: https://i.ytimg.com/vi/n_TWbl7gJNc/hqdefault.jpg
+duration: 54:01
+syncedAt: 2025-10-06T18:34:17.473Z
 status: available
+season: "1"
 ---
 ## Episode Description
 

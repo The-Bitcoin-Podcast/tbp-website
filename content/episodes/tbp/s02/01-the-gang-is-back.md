@@ -1,8 +1,8 @@
 ---
-title: "TBP S02E01: THE GANG IS BACK"
+title: THE GANG IS BACK
 date: 2025-04-27
 draft: false
-episodeNumber: 140
+episodeNumber: 1
 youtubeId: dC4TKn38C9c
 thumbnail: https://i.ytimg.com/vi/dC4TKn38C9c/maxresdefault.jpg
 duration: 38:30
@@ -10,6 +10,7 @@ syncedAt: 2025-10-06T18:34:57.238Z
 status: available
 tags:
   - TBP
+season: "2"
 ---
 ## Watch Episode
 

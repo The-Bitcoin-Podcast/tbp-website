@@ -1,23 +1,24 @@
 ---
-title: "The Bitcoin Podcast #397- When is a Blockchain Decentralized  ?"
-date: 2022-07-07
+title: Sir, You Cannot Do That Here
+date: 2022-08-11
 draft: false
-episodeNumber: 133
-youtubeId: dsgwBeJDBzY
-thumbnail: https://i.ytimg.com/vi/dsgwBeJDBzY/maxresdefault.jpg
-duration: 47:24
+episodeNumber: 399
+youtubeId: Vv6UkTAs2EY
+thumbnail: https://i.ytimg.com/vi/Vv6UkTAs2EY/maxresdefault.jpg
+duration: 1:49:55
 syncedAt: 2025-10-06T18:34:57.237Z
 status: available
+season: "1"
 ---
 ## Episode Description
 
-Dee, Jessie, and Corey talk about the week events. 
+Tornado Cash is causing more ripple effects in Ethereum than the GPU crash.
 
 ## Watch Episode
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/dsgwBeJDBzY"
+    src="https://www.youtube-nocookie.com/embed/Vv6UkTAs2EY"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

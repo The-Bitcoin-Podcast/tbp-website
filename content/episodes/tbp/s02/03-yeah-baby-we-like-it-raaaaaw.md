@@ -1,12 +1,12 @@
 ---
-title: 'TBP S02E03 - Yeah Baby, We Like It Raaaaaw'
-date: '2025-08-27'
+title: Yeah Baby, We Like It Raaaaaw
+date: 2025-08-27
 draft: false
 episodeNumber: 186
 youtubeId: 4GTpILipAlc
-thumbnail: 'https://i.ytimg.com/vi/4GTpILipAlc/maxresdefault.jpg'
-duration: '47:59'
-syncedAt: '2025-10-06T18:34:57.249Z'
+thumbnail: https://i.ytimg.com/vi/4GTpILipAlc/maxresdefault.jpg
+duration: 47:59
+syncedAt: 2025-10-06T18:34:57.249Z
 status: available
 tags:
   - TBP
