@@ -1,29 +1,16 @@
 ---
 title: Social Implications of Blockchain Infrastructure - Dr. Corey Petty
-date: '2018-03-15'
-draft: true
+date: 2018-03-15
+draft: false
 episodeNumber: 10
 youtubeId: C3f9yra2KZY
-thumbnail: 'https://i.ytimg.com/vi/C3f9yra2KZY/maxresdefault.jpg'
-duration: '27:28'
-syncedAt: '2025-10-06T18:34:17.482Z'
+thumbnail: https://i.ytimg.com/vi/C3f9yra2KZY/maxresdefault.jpg
+duration: 27:28
+syncedAt: 2025-10-06T18:34:17.482Z
 status: available
 tags:
-  - social
-  - ethereum
-  - InItForTheTech
-  - Blockchain
-  - Bitcoin
-  - technology
-  - WhenMoon
-  - Technology
-  - The Bitcoin Podcast Network
-  - Cryptocurreny
-  - BTC
-  - bitcoin
-  - TBPN
-  - ABSRDST
-  - blockchain
+  - conference
+  - corey-talk
 ---
 ## Episode Description
 
