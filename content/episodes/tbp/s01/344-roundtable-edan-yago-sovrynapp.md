@@ -1,7 +1,7 @@
 ---
 title: "Roundtable #344 - Edan Yago Sovryn.app"
 date: 2021-03-27
-draft: true
+draft: false
 episodeNumber: 344
 youtubeId: WFzpxf7EZeE
 thumbnail: https://i.ytimg.com/vi/WFzpxf7EZeE/maxresdefault.jpg
