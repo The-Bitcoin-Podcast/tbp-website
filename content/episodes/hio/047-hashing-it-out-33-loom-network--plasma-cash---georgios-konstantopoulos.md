@@ -11,8 +11,10 @@ status: available
 ---
 ## Episode Description
 
-Plasma is one of the strongest candidates for Layer 2 scaling solutions. Since the Plasma whitepaper was released in August 2017, there's been a multitude of Plasma implementations experimenting with the idea. On this episode we feature Georgios Kosntantoploulos, Lead Researcher at Loom Network, to talk about Plasma, the different variations, and the future of scaling through Layer 2 solutions.  
-  
+Plasma is one of the strongest candidates for Layer 2 scaling solutions. Since the Plasma whitepaper was released in August 2017, there's been a multitude of Plasma implementations experimenting with the idea. On this episode we feature Georgios Kosntantoploulos, Lead Researcher at Loom Network, to talk about Plasma, the different variations, and the future of scaling through Layer 2 solutions.
+  
+
+  
  [https://github.com/loomnetwork/plasma-paper](https://github.com/loomnetwork/plasma-paper)  [https://www.gakonst.com/](https://www.gakonst.com/)
 
 ## Watch Episode
