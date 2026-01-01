@@ -1,24 +1,15 @@
 ---
-title: 'Hashing It Out #29: Universal Logins - Alex van de Sande'
-date: '2018-11-14'
-draft: true
+title: Universal Logins - Alex van de Sande
+date: 2018-11-14
+draft: false
 episodeNumber: 23
 youtubeId: xr7qZuPj59c
-thumbnail: 'https://i.ytimg.com/vi/xr7qZuPj59c/maxresdefault.jpg'
-duration: '1:13:37'
-syncedAt: '2025-10-06T18:34:57.206Z'
+thumbnail: https://i.ytimg.com/vi/xr7qZuPj59c/maxresdefault.jpg
+duration: 1:13:37
+syncedAt: 2025-10-06T18:34:57.206Z
 status: available
 tags:
-  - ABSRDST
-  - The Bitcoin Podcast Network
-  - Blockchain
-  - BTC
-  - TBPN
-  - WhenMoon
-  - Cryptocurreny
-  - InItForTheTech
-  - Bitcoin
-  - Technology
+  - HashingItOut
 ---
 ## Episode Description
 
