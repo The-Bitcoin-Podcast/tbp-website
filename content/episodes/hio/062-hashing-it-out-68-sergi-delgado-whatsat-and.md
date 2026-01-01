@@ -1,0 +1,33 @@
+---
+title: 'Hashing It Out #68 - Sergi Delgado - Whatsat and Lightning Network'
+date: '2020-08-22'
+draft: true
+episodeNumber: 62
+rssGuid: 14491bfd-7597-4cad-9775-751a3e6e3034
+audioUrl: ''
+duration: '55:10'
+description: >-
+  Today's episode we return from a holiday break to discuss an instant messaging
+  proof of concept on the Lightning Network called Whatsat with Sergi Delgado
+  from PISA Research. We talk about how it works, its limitations, what could be
+  built from it. This then leads into specifics about the lightning network
+  itself, and then issues with the broader ecosystem. Enjoy!
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+explicit: false
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/7e246034fe2e1906.jpg
+syncedAt: '2026-01-01T21:48:23.199Z'
+status: unavailable
+hasPlaceholders: false
+warnings:
+  - Missing audio URL - episode marked as unavailable
+---
+## Episode Description
+
+Today's episode we return from a holiday break to discuss an instant messaging proof of concept on the Lightning Network called Whatsat with Sergi Delgado from PISA Research. We talk about how it works, its limitations, what could be built from it. This then leads into specifics about the lightning network itself, and then issues with the broader ecosystem. Enjoy!
+
+## Listen on Other Platforms
+
+- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
+- [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)
