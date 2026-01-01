@@ -1,24 +1,16 @@
 ---
-title: 'The Bitcoin Podcast: Behind the Scenes #220'
-date: '2018-08-25'
-draft: true
-episodeNumber: 16
+title: "Behind the Scenes #220"
+date: 2018-08-25
+draft: false
+episodeNumber: 220
 youtubeId: A1xKfuaLY4k
-thumbnail: 'https://i.ytimg.com/vi/A1xKfuaLY4k/maxresdefault.jpg'
-duration: '1:09:10'
-syncedAt: '2025-10-06T18:34:57.203Z'
+thumbnail: https://i.ytimg.com/vi/A1xKfuaLY4k/maxresdefault.jpg
+duration: 1:09:10
+syncedAt: 2025-10-06T18:34:57.203Z
 status: available
 tags:
-  - Blockchain
-  - BTC
-  - Bitcoin
-  - TBPN
-  - The Bitcoin Podcast Network
-  - WhenMoon
-  - InItForTheTech
-  - ABSRDST
-  - Cryptocurreny
-  - Technology
+  - TBP
+season 1:
 ---
 ## Episode Description
 

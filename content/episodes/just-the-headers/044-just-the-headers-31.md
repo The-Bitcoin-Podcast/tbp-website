@@ -11,8 +11,10 @@ status: available
 ---
 ## Episode Description
 
-This is a weekly headline show where Dee and Jessie Broke do their best to highlight bits of nonce-sense from Crypto News. We only choose three articles, from the litany of blockchain news that is syndicated throughout a week. If you are interested in all the news articles that we horde in a week, please visit the link below to look at our collection.  
-  
+This is a weekly headline show where Dee and Jessie Broke do their best to highlight bits of nonce-sense from Crypto News. We only choose three articles, from the litany of blockchain news that is syndicated throughout a week. If you are interested in all the news articles that we horde in a week, please visit the link below to look at our collection.
+  
+
+  
  This week: -Coinbase adds ZEC. -Intel wins a patent for cheap PoW mining. -Binance launches institutional accounts. -Jessie wants to dive deeper...we just may.
 
 ## Watch Episode

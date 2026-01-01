@@ -1,13 +1,14 @@
 ---
-title: 'The Bitcoin Podcast #237'
-date: '2018-12-23'
-draft: true
-episodeNumber: 52
+title: Special Holiday Episode
+date: 2018-12-23
+draft: false
+episodeNumber: 237
 youtubeId: b2YedvIBkNU
-thumbnail: 'https://i.ytimg.com/vi/b2YedvIBkNU/maxresdefault.jpg'
-duration: '1:19:59'
-syncedAt: '2025-10-06T18:34:57.215Z'
+thumbnail: https://i.ytimg.com/vi/b2YedvIBkNU/maxresdefault.jpg
+duration: 1:19:59
+syncedAt: 2025-10-06T18:34:57.215Z
 status: available
+season: "1"
 ---
 ## Episode Description
 

@@ -1,55 +1,19 @@
 ---
-title: 'The Bitcoin Podcast Interview #344-  Edan Yago of Sovryn.app'
-date: '2021-03-29'
-draft: true
-episodeNumber: 61
+title: "Interview #344-  Edan Yago of Sovryn.app"
+date: 2021-03-29
+draft: false
+episodeNumber: 344
 youtubeId: dUulcX2_MBg
-thumbnail: 'https://i.ytimg.com/vi/dUulcX2_MBg/hqdefault.jpg'
-duration: '59:18'
-syncedAt: '2025-10-06T18:34:57.217Z'
+thumbnail: https://i.ytimg.com/vi/dUulcX2_MBg/hqdefault.jpg
+duration: 59:18
+syncedAt: 2025-10-06T18:34:57.217Z
 status: available
 tags:
-  - The Bitcoin Podcast Network
-  - Bitcoin
-  - Ethereum
-  - Ether
-  - Litecoin
-  - Altcoins
-  - Blockchain
-  - InItForTheTech
-  - Fun
-  - HereItIs
-  - HeyEverybody
-  - BTC
-  - ETH
-  - ETC
-  - Interviews
-  - Demetrick
-  - DrPetty
-  - Marcello
-  - Yeeeeaaaah
-  - bitcoin
-  - ethereum
-  - sovryn
-  - generational
-  - value
-  - college
-  - mba
-  - homes
-  - housing
-  - collateral
-  - debt
-  - defi
-  - rootstock
-  - fees
-  - game theory
-  - central power
-  - L2
-  - anarchy
+  - TBP
 ---
 ## Episode Description
 
-In this interview Corey and Dee have a great conversation with Edan Yago of  Sovryn.app. Sovryn.app is a decentralized platform that seeks to allow for Bitcoin Hodlers to have the control they need to participate in various financial instruments with their Bitcoin.   
+In this interview Corey and Dee have a great conversation with [[Edan Yago]] of  Sovryn.app. Sovryn.app is a decentralized platform that seeks to allow for Bitcoin Hodlers to have the control they need to participate in various financial instruments with their Bitcoin.   
   
    
 \*\*\*Social Media Of Sovryn.app\*\*\*  

@@ -1,24 +1,16 @@
 ---
-title: Behind the Roundtable
-date: '2018-07-21'
-draft: true
-episodeNumber: 12
+title: "Behind the Roundtable #214"
+date: 2018-07-21
+draft: false
+episodeNumber: 214
 youtubeId: KkoOsY5Am3c
-thumbnail: 'https://i.ytimg.com/vi/KkoOsY5Am3c/hqdefault.jpg'
-duration: '58:56'
-syncedAt: '2025-10-06T18:34:57.202Z'
+thumbnail: https://i.ytimg.com/vi/KkoOsY5Am3c/hqdefault.jpg
+duration: 58:56
+syncedAt: 2025-10-06T18:34:57.202Z
 status: available
 tags:
-  - The Bitcoin Podcast Network
-  - ABSRDST
-  - BTC
-  - TBPN
-  - Bitcoin
-  - Blockchain
-  - Cryptocurreny
-  - InItForTheTech
-  - WhenMoon
-  - Technology
+  - TBP
+season: "1"
 ---
 ## Episode Description
 
