@@ -4,24 +4,30 @@ date: '2019-11-08'
 draft: true
 episodeNumber: 60
 rssGuid: 071b287e-ba4a-4be9-9471-71a2da1513dc
-audioUrl: ''
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89348322/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377959-44100-2-272088a45daca6ad.mp3
 duration: '1:04:02'
 description: >-
   Thomas Jay Rush of Trueblocks comes on to speak with us about blockchain
   accounting.
-author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 explicit: false
+syncedAt: '2026-01-01T21:53:35.622Z'
+status: available
+hasPlaceholders: false
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 thumbnail: >-
   https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
-syncedAt: '2026-01-01T21:48:23.200Z'
-status: unavailable
-hasPlaceholders: false
-warnings:
-  - Missing audio URL - episode marked as unavailable
 ---
 ## Episode Description
 
 Thomas Jay Rush of Trueblocks comes on to speak with us about blockchain accounting.
+
+## Listen to Episode
+
+<audio controls style="width: 100%;">
+  <source src="https://anchor.fm/s/f8e7252c/podcast/play/89348322/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377959-44100-2-272088a45daca6ad.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ## Listen on Other Platforms
 

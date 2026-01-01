@@ -4,26 +4,32 @@ date: '2020-10-22'
 draft: true
 episodeNumber: 95
 rssGuid: 3570ec08-0e00-4b9a-8e0d-65d8c9040c6d
-audioUrl: ''
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345783/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374134-44100-1-6570e1289b362b3b.mp3
 duration: '58:27'
 description: >-
   Build scalable DApps using a fully-fledged Linux operating system and
   mainstream software stacks. Run complex computations off-chain, free from
   blockchain limitations and fees, while retaining decentralization and
   security. DApps with Cartesi are easier to build, scalable and more powerful..
-author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 explicit: false
+syncedAt: '2026-01-01T21:53:35.611Z'
+status: available
+hasPlaceholders: false
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 thumbnail: >-
   https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/7618f3d99464317f.jpg
-syncedAt: '2026-01-01T21:48:23.192Z'
-status: unavailable
-hasPlaceholders: false
-warnings:
-  - Missing audio URL - episode marked as unavailable
 ---
 ## Episode Description
 
 Build scalable DApps using a fully-fledged Linux operating system and mainstream software stacks. Run complex computations off-chain, free from blockchain limitations and fees, while retaining decentralization and security. DApps with Cartesi are easier to build, scalable and more powerful..
+
+## Listen to Episode
+
+<audio controls style="width: 100%;">
+  <source src="https://anchor.fm/s/f8e7252c/podcast/play/89345783/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374134-44100-1-6570e1289b362b3b.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ## Listen on Other Platforms
 

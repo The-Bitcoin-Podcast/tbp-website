@@ -4,7 +4,8 @@ date: '2024-07-10'
 draft: true
 episodeNumber: 168
 rssGuid: 9dc0cf92-13ff-4c84-a46e-08023e947319
-audioUrl: ''
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345728/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374051-44100-2-fb51b6939d219d07.mp3
 duration: '1:32:50'
 description: >-
   Dee and Jessie speak with Cyprien Grau of Status about the future of the
@@ -15,19 +16,24 @@ description: >-
   conversation sheds light on the complexities of launching a rollup in today's
   saturated market and underscores the significance of community engagement and
   governance in the evolving crypto landscape.
-author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 explicit: false
+syncedAt: '2026-01-01T21:53:35.582Z'
+status: available
+hasPlaceholders: false
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 thumbnail: >-
   https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
-syncedAt: '2026-01-01T21:48:23.172Z'
-status: unavailable
-hasPlaceholders: false
-warnings:
-  - Missing audio URL - episode marked as unavailable
 ---
 ## Episode Description
 
 Dee and Jessie speak with Cyprien Grau of Status about the future of the Status Network, focusing on their vision for creating an open-source, decentralized crypto communication super app. They explore the intricacies of staking contracts, rollup technology, and the delicate balance between maintaining decentralization and ensuring economic feasibility. The conversation sheds light on the complexities of launching a rollup in today's saturated market and underscores the significance of community engagement and governance in the evolving crypto landscape.
+
+## Listen to Episode
+
+<audio controls style="width: 100%;">
+  <source src="https://anchor.fm/s/f8e7252c/podcast/play/89345728/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374051-44100-2-fb51b6939d219d07.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ## Listen on Other Platforms
 

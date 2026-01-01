@@ -6,7 +6,8 @@ date: '2024-11-01'
 draft: true
 episodeNumber: 179
 rssGuid: d51ca28c-1bbc-425a-9fe3-8f62228978a8
-audioUrl: ''
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/93847821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-1%2F389104221-44100-2-fd11ffcc6d365.mp3
 duration: '27:10'
 description: >-
   In this Hashing it Out podcast remix, Christian & Dee bring you three bits of
@@ -21,19 +22,24 @@ description: >-
   advantages 13:37 DeFi Cover Provider Nexus Mutual Backs New Crypto Insurance
   Broker Native 17:50 Waku road map update 22:11 Wild & wacky prediction 25:28
   Goodbye
-author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 explicit: false
+syncedAt: '2026-01-01T21:53:35.573Z'
+status: available
+hasPlaceholders: false
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 thumbnail: >-
   https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
-syncedAt: '2026-01-01T21:48:23.164Z'
-status: unavailable
-hasPlaceholders: false
-warnings:
-  - Missing audio URL - episode marked as unavailable
 ---
 ## Episode Description
 
 In this Hashing it Out podcast remix, Christian & Dee bring you three bits of crypto/blockchain news of the week and an announcement about a project with IFT. Stick around for the wild and weird prediction of what will happen before the next episode airs. JOIN THE COMMUNITY: Logos Twitter Logos Discord RESOURCES: Web3 gaming still ‘immature’ but presents opportunities Bitcoin life insurance is offering BTC hodlers new tax advantages DeFi Cover Provider Nexus Mutual Backs New Crypto Insurance Broker Native Waku road map update TIMESTAMPS: 00:00 Introduction 04:36 Web3 gaming still ‘immature’ but presents opportunities 08:45 Bitcoin life insurance is offering BTC hodlers new tax advantages 13:37 DeFi Cover Provider Nexus Mutual Backs New Crypto Insurance Broker Native 17:50 Waku road map update 22:11 Wild & wacky prediction 25:28 Goodbye
+
+## Listen to Episode
+
+<audio controls style="width: 100%;">
+  <source src="https://anchor.fm/s/f8e7252c/podcast/play/93847821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-1%2F389104221-44100-2-fd11ffcc6d365.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ## Listen on Other Platforms
 
