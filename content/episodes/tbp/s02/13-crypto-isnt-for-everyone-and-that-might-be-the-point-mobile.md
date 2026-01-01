@@ -1,23 +1,23 @@
 ---
-title: Privacy, Scaling, & the Crypto Narrative War 📱
-date: 2025-12-10
+title: Crypto Isn’t for Everyone...And That Might Be the Point 📱
+date: 2025-12-31
 draft: true
-episodeNumber: 195
-youtubeId: BRNZsC5W5HU
-thumbnail: https://i.ytimg.com/vi/BRNZsC5W5HU/maxresdefault.jpg
-duration: 1:01:44
-syncedAt: 2025-12-12T18:30:12.081Z
+episodeNumber: 13
+youtubeId: 566s3JsiXVA
+thumbnail: https://i.ytimg.com/vi/566s3JsiXVA/maxresdefault.jpg
+duration: 1:04:35
+syncedAt: 2026-01-01T16:00:43.990Z
 status: available
 ---
 ## Episode Description
 
-Privacy, and scaling, and narratives....oh my.
+Corey, Jessie, and Dee try and reshape the narrative that "adoption is the only thing that matters."
 
 ## Watch Episode
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/BRNZsC5W5HU"
+    src="https://www.youtube-nocookie.com/embed/566s3JsiXVA"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

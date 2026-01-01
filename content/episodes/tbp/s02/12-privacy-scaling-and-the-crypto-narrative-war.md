@@ -2,7 +2,7 @@
 title: Privacy, Scaling, & the Crypto Narrative War
 date: 2025-12-10
 draft: false
-episodeNumber: 194
+episodeNumber: 12
 youtubeId: 1Mv8mhTLJuo
 thumbnail: https://i.ytimg.com/vi/1Mv8mhTLJuo/maxresdefault.jpg
 duration: 1:01:45
@@ -10,6 +10,7 @@ syncedAt: 2025-12-12T18:30:12.080Z
 status: available
 tags:
   - TBP
+season: "2"
 ---
 ## Episode Description
 
