@@ -9,31 +9,9 @@ duration: 2:02:08
 syncedAt: 2025-10-06T18:34:57.199Z
 status: available
 tags:
-  - CoreyPetty
-  - MarcelloMilteer
-  - WhenMoon
-  - The Bitcoin Podcast Network
-  - Cryptocurreny
-  - Blockchain
-  - GDPR
-  - InItForTheTech
-  - KeniStyles
-  - Bitcoin
-  - Technology
-  - BTC
-  - KennBosak
-  - ABSRDST
-  - TBPN
-  - TaylorMonahan
-  - MyCrypto
-  - DemetrickFerguson
+  - TBP
+season: "1"
 ---
-## Episode Description
-
-We celebrate episode 200! [[Kenn Bosak]] gets a tattoo of our logo! WHAT?! Holy shit! Also, [[Taylor Monahan|Taylor]] from MyCrypto swings by to let us know about the Desktop App (Alpha), which is NOW AVAILABLE! Recent events have underlined the importance of using downloadable builds, and we believe this early version of their Desktop application is a step in the right direction. Get it now: [https://download.mycrypto.com.](https://download.mycrypto.com.)  
-  
-Also [[Keni Styles]], former pornographic actor, swings by to give us part 2 of his story, that stemmed from episode 100. He teaches us that even in crisis, assessing situations based on allowing what is and consciously creating new action from it can be a powerful practice. We also get an update on the crypto porn community and how bad actors and practices can rewind progression.
-
 ## Watch Episode
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -46,3 +24,8 @@ Also [[Keni Styles]], former pornographic actor, swings by to give us part 2 of 
   ></iframe>
 </div>
 
+## Episode Description
+
+We celebrate episode 200! [[Kenn Bosak]] gets a tattoo of our logo! WHAT?! Holy shit! Also, [[Taylor Monahan|Taylor]] from MyCrypto swings by to let us know about the Desktop App (Alpha), which is NOW AVAILABLE! Recent events have underlined the importance of using downloadable builds, and we believe this early version of their Desktop application is a step in the right direction. Get it now: [https://download.mycrypto.com.](https://download.mycrypto.com.)  
+  
+Also [[Keni Styles]], former pornographic actor, swings by to give us part 2 of his story, that stemmed from episode 100. He teaches us that even in crisis, assessing situations based on allowing what is and consciously creating new action from it can be a powerful practice. We also get an update on the crypto porn community and how bad actors and practices can rewind progression.

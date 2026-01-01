@@ -10,7 +10,7 @@ syncedAt: 2025-10-06T18:34:57.203Z
 status: available
 tags:
   - TBP
-season 1:
+season: "1"
 ---
 ## Episode Description
 

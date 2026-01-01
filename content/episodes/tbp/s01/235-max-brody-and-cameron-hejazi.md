@@ -8,6 +8,9 @@ thumbnail: https://i.ytimg.com/vi/E2m-7TtO5lg/maxresdefault.jpg
 duration: 2:16:05
 syncedAt: 2025-10-06T18:34:57.212Z
 status: available
+tags:
+  - TBP
+season: "1"
 ---
 ## Episode Description
 
