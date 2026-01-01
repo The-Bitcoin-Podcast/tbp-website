@@ -1,0 +1,38 @@
+---
+title: 'Hashing It Out #92 - DefiSafety - Rex Hygate'
+date: '2020-09-19'
+draft: true
+episodeNumber: 84
+rssGuid: 17725092-3ca2-4bee-8b23-28172cc7b425
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345742/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374096-44100-1-0513508604d35034.mp3
+duration: '1:03:19'
+description: >-
+  Today, Corey and John talk with Rex Hygate, head of DefiSafety, a company
+  seeking to perform process quality audits on Smart Contracts in the Ethereum
+  Community. This novel process helps is an attempt to bridge the gap between
+  security between the community and the projects they interact with.
+explicit: false
+syncedAt: '2026-01-01T21:53:35.615Z'
+status: available
+hasPlaceholders: false
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e1ec4823f8da1afe.jpg
+---
+## Episode Description
+
+Today, Corey and John talk with Rex Hygate, head of DefiSafety, a company seeking to perform process quality audits on Smart Contracts in the Ethereum Community. This novel process helps is an attempt to bridge the gap between security between the community and the projects they interact with.
+
+## Listen to Episode
+
+<audio controls style="width: 100%;">
+  <source src="https://anchor.fm/s/f8e7252c/podcast/play/89345742/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374096-44100-1-0513508604d35034.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## Listen on Other Platforms
+
+- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
+- [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)

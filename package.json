@@ -18,7 +18,8 @@
     "format": "npx prettier . --write",
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "youtube-sync": "tsx quartz/scripts/youtube-sync.ts"
+    "youtube-sync": "tsx quartz/scripts/youtube-sync.ts",
+    "rss-sync": "tsx quartz/scripts/rss-sync.ts"
   },
   "engines": {
     "npm": ">=10.9.2",
@@ -86,6 +87,7 @@
     "remark-rehype": "^11.1.2",
     "remark-smartypants": "^3.0.2",
     "rfdc": "^1.4.1",
+    "rss-parser": "^3.13.0",
     "satori": "^0.18.3",
     "serve-handler": "^6.1.6",
     "sharp": "^0.34.4",
