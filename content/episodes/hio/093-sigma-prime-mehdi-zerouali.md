@@ -20,7 +20,7 @@ tags:
 ---
 ## Episode Description
 
-Corey and John speak with Mahdi Zerouali of Sigma Prime on how ETH 2 is going to look like for users of Ethereum.
+Corey and John speak with [[Mehdi Zerouali]] of Sigma Prime on how ETH 2 is going to look like for users of Ethereum.
 
 ## Listen to Episode
 

@@ -1,5 +1,5 @@
 ---
-title: Chad Knight Metaverse Artist
+title: "Roundtable #346: Chad Knight Metaverse Artist"
 date: 2021-04-01
 draft: false
 episodeNumber: 346

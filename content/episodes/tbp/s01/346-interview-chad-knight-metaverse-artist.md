@@ -1,47 +1,20 @@
 ---
-title: 'The Bitcoin Podcast Interview #346- Chad Knight Metaverse Artist'
-date: '2021-04-13'
-draft: true
-episodeNumber: 66
+title: "Interview #346 - Chad Knight Metaverse Artist"
+date: 2021-04-13
+draft: false
+episodeNumber: 346
 youtubeId: WnjVdWXt3Nk
-thumbnail: 'https://i.ytimg.com/vi/WnjVdWXt3Nk/maxresdefault.jpg'
-duration: '1:09:46'
-syncedAt: '2025-10-06T18:34:57.219Z'
+thumbnail: https://i.ytimg.com/vi/WnjVdWXt3Nk/maxresdefault.jpg
+duration: 1:09:46
+syncedAt: 2025-10-06T18:34:57.219Z
 status: available
 tags:
-  - The Bitcoin Podcast Network
-  - Bitcoin
-  - Ethereum
-  - Ether
-  - Litecoin
-  - Altcoins
-  - Blockchain
-  - InItForTheTech
-  - Fun
-  - HereItIs
-  - HeyEverybody
-  - BTC
-  - ETH
-  - ETC
-  - Interviews
-  - Demetrick
-  - DrPetty
-  - Marcello
-  - Yeeeeaaaah
-  - NFT
-  - nft
-  - artist
-  - 3D Art
-  - nify gateway
-  - tokens
-  - ethereum
-  - eth
-  - chad knight
-  - nike
+  - TBP
+season: "1"
 ---
 ## Episode Description
 
-In this interview Jessie,and Alycia The Producer speak to Chad Knight, a Virtual World Creator or Metaverse Artist about the NFT market.  You can find Chad Knight’s work on the Nifty Gateway site links are below.   
+In this interview Jessie, and Alycia The Producer speak to [[Chad Knight]], a Virtual World Creator or Metaverse Artist about the NFT market.  You can find Chad Knight’s work on the Nifty Gateway site links are below.   
    
 \*\*Social Media Of Chad Knight\*\*  
 Website: [https://www.chad-knight.com/](https://www.chad-knight.com/)  
