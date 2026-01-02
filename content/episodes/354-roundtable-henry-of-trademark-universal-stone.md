@@ -1,17 +1,20 @@
 ---
-title: 'The Bitcoin Podcast Roundtable #354- Henry of Trademark Universal Stone'
-date: '2021-05-27'
-draft: true
-episodeNumber: 77
+title: "Roundtable #354 - Henry of Trademark Universal Stone"
+date: 2021-05-27
+draft: false
+episodeNumber: 354
 youtubeId: VoPVFssVIys
-thumbnail: 'https://i.ytimg.com/vi/VoPVFssVIys/maxresdefault.jpg'
-duration: '34:16'
-syncedAt: '2025-10-06T18:34:57.222Z'
+thumbnail: https://i.ytimg.com/vi/VoPVFssVIys/maxresdefault.jpg
+duration: 34:16
+syncedAt: 2025-10-06T18:34:57.222Z
 status: available
+tags:
+  - TBP
+season: "1"
 ---
 ## Episode Description
 
-Dee and Jessie cover the weeks news of May 20-25th in the cryptocurrency space. OUr Guest is Henry of Trade Mark Stone
+Dee and Jessie cover the weeks news of May 20-25th in the cryptocurrency space. Our Guest is Henry of Trade Mark Stone
 
 ## Watch Episode
 
