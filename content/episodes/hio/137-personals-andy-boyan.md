@@ -11,7 +11,8 @@ explicit: false
 syncedAt: 2026-01-01T21:53:35.599Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
+author:
+  - Corey Petty
 thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/b33bc504cf33c193.jpg
 tags:
   - HashingItOut

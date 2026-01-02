@@ -11,7 +11,9 @@ explicit: false
 syncedAt: 2026-01-01T21:53:35.602Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
+author:
+  - Corey Petty
+  - Demetrick Ferguson
 thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/9b1759d14713fc2d.jpg
 tags:
   - HashingItOut
@@ -19,7 +21,9 @@ tags:
 ---
 ## Episode Description
 
-In this Hashing It Out Personals episode, we flip the script and talk to Hashing It Out host, Corey Petty. You can also watch this episode on YouTube. We are working with Infinity Keys to give listeners the chance to get a free NFT. Listen to the episode for the password and use it at https://www.infinitykeys.io/puzzle/hio-personals-corey-petty.
+In this Hashing It Out Personals episode, we flip the script and talk to Hashing It Out host, Corey Petty. You can also watch this episode on YouTube. We are working with Infinity Keys to give listeners the chance to get a free NFT. 
+
+Listen to the episode for the password and use it at https://www.infinitykeys.io/puzzle/hio-personals-corey-petty.
 
 ## Listen to Episode
 
