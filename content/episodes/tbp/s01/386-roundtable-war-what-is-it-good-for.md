@@ -1,13 +1,16 @@
 ---
-title: 'The Bitcoin Podcast Roundtable #386- War What is it Good For?'
-date: '2022-03-04'
-draft: true
-episodeNumber: 120
+title: "Roundtable #386- War What is it Good For?"
+date: 2022-03-04
+draft: false
+episodeNumber: 386
 youtubeId: w3G7OZxVlKI
-thumbnail: 'https://i.ytimg.com/vi/w3G7OZxVlKI/maxresdefault.jpg'
-duration: '57:03'
-syncedAt: '2025-10-06T18:34:57.235Z'
+thumbnail: https://i.ytimg.com/vi/w3G7OZxVlKI/maxresdefault.jpg
+duration: 57:03
+syncedAt: 2025-10-06T18:34:57.235Z
 status: available
+tags:
+  - TBP
+season: "1"
 ---
 ## Episode Description
 
