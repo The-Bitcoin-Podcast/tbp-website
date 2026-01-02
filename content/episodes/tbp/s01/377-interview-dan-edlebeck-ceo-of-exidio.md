@@ -1,0 +1,30 @@
+---
+title: "Interview #377 - Dan Edlebeck CEO of Exidio"
+date: 2021-12-13
+draft: false
+episodeNumber: 377
+youtubeId: 8ZwMYiP387g
+thumbnail: https://i.ytimg.com/vi/8ZwMYiP387g/maxresdefault.jpg
+duration: 49:56
+syncedAt: 2025-10-06T18:34:57.232Z
+status: available
+tags:
+  - TBP
+season: "1"
+---
+## Episode Description
+
+Jessie and Dee interview [[Dan Edlebeck]] of Exidio.  
+
+## Watch Episode
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/8ZwMYiP387g"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
