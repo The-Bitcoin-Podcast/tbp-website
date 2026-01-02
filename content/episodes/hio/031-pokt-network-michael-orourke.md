@@ -16,9 +16,17 @@ thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episod
 tags:
   - HashingItOut
 ---
-## Episode Description
+## Watch Episode
 
-This episode features Michael O'Rourke (CEO) and Luis C. de Leon (CTO) of Pocket. Pocket is a chain-agnostic decentralized AWS for blockchain full nodes. In a world where full nodes become more expensive to run, Pokt aims to have people host their nodes in their network by registering it with their Proof of Stake blockchain. Using Pokt tokens, someone can rent usage of the full node, using the node's stake as a guarantee of availability, removing the concern of maintaining one's own hardware (virtual or otherwise) to create a decentralized application.
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/dv8HcwHLydA"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
 
 ## Listen to Episode
 
@@ -26,4 +34,8 @@ This episode features Michael O'Rourke (CEO) and Luis C. de Leon (CTO) of Pocket
   <source src="https://anchor.fm/s/f8e7252c/podcast/play/89348288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377979-44100-1-002b2d2bb54c5a17.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Episode Description
+
+This episode features Michael O'Rourke (CEO) and Luis C. de Leon (CTO) of Pocket. Pocket is a chain-agnostic decentralized AWS for blockchain full nodes. In a world where full nodes become more expensive to run, Pokt aims to have people host their nodes in their network by registering it with their Proof of Stake blockchain. Using Pokt tokens, someone can rent usage of the full node, using the node's stake as a guarantee of availability, removing the concern of maintaining one's own hardware (virtual or otherwise) to create a decentralized application.
 

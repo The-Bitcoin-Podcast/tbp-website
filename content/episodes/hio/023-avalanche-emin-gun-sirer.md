@@ -18,7 +18,7 @@ tags:
 ---
 ## Episode Description
 
-Revolutionary! On this episode we have the brilliant Dr. Gün Sirer to whet our appetites for Avalanche, a new category of consensus protocol. He distinguishes Avalanche from Paxos/RAFT systems, blockchain, and traditional gossip networks to show how this new algorithm prevents double spends while allowing for high throughput (early tests supporting over 1200 tx/s). We learn about his new coin, Ava, which will test the limits of Avalanche's public consensus on a global scale! The future is exciting!
+Revolutionary! On this episode we have the brilliant Dr. [[Emin Gün Sirer]] to whet our appetites for Avalanche, a new category of consensus protocol. He distinguishes Avalanche from Paxos/RAFT systems, blockchain, and traditional gossip networks to show how this new algorithm prevents double spends while allowing for high throughput (early tests supporting over 1200 tx/s). We learn about his new coin, Ava, which will test the limits of Avalanche's public consensus on a global scale! The future is exciting!
 
 ## Listen to Episode
 
