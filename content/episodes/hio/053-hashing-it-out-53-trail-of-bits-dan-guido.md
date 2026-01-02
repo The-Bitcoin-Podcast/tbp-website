@@ -36,6 +36,6 @@ Dan Guido, CEO of Trail of Bits, comes on the air with us to talk about how tool
 
 ## Listen on Other Platforms
 
-- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
+- [Spotify](https://open.spotify.com/show/3WkYBYaZ4W1Z8gzBlOvr7y)
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
 - [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)

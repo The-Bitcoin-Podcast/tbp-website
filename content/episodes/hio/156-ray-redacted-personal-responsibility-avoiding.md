@@ -22,7 +22,7 @@ thumbnail: >-
 ---
 ## Episode Description
 
-Corey, Dee, and Jessie talk to Ray Redacted about protecting your digital assets, artificial intelligence, and cyber security. Topics include multifactor authentication, convenience vs security, health related privacy, and generating techniques.
+Corey, Dee, and Jessie talk to [[Ray Redacted]] about protecting your digital assets, artificial intelligence, and cyber security. Topics include multifactor authentication, convenience vs security, health related privacy, and generating techniques.
 
 ## Listen to Episode
 
@@ -33,6 +33,6 @@ Corey, Dee, and Jessie talk to Ray Redacted about protecting your digital assets
 
 ## Listen on Other Platforms
 
-- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
+- [Spotify](https://open.spotify.com/show/3WkYBYaZ4W1Z8gzBlOvr7y)
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
 - [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)

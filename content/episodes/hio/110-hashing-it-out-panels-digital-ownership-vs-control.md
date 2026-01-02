@@ -35,6 +35,6 @@ Today we're going to discuss a topic brought up in a Tweet from WalletConnect's 
 
 ## Listen on Other Platforms
 
-- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
+- [Spotify](https://open.spotify.com/show/3WkYBYaZ4W1Z8gzBlOvr7y)
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
 - [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)

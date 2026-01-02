@@ -29,6 +29,6 @@ Orie Steele, CTO of Transmute Industries. Orie is the creator of the Transmute P
 
 ## Listen on Other Platforms
 
-- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
+- [Spotify](https://open.spotify.com/show/3WkYBYaZ4W1Z8gzBlOvr7y)
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
 - [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)

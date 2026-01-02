@@ -31,6 +31,6 @@ Sarah Friend is one of two developers working on Circles UBI. Circles is a basic
 
 ## Listen on Other Platforms
 
-- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
+- [Spotify](https://open.spotify.com/show/3WkYBYaZ4W1Z8gzBlOvr7y)
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
 - [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)
