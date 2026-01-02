@@ -21,6 +21,8 @@ tags:
 
 Corey Petty chats with Danny Ryan - Researcher at the Ethereum Foundation - about the massive task of coordinating async work and the Ethereum 2.0 rollout. They also discuss how to get started in the crypto and blockchain community, as well as, how much you can learn by stepping in to do small tasks as part of the bigger picture.
 
+**This episode was sponsored by [[Logos]]**
+
 ## Listen to Episode
 
 <audio controls style="width: 100%;">

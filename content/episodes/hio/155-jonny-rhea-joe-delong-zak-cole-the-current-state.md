@@ -24,6 +24,8 @@ tags:
 
 The Hashing it Out team assembles the ultimate roundtable to discuss the state of P2P. Corey, D, and Jesse chat with DELV Co-Founder, Jonny Rhea, along with Astaria CTO, Joe Delong, and Managing Partner of the Number Group, Zak Cole.
 
+**This episode was sponsored by [[Logos]]**
+
 ## Listen to Episode
 
 <audio controls style="width: 100%;">
