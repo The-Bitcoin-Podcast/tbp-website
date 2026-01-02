@@ -16,9 +16,17 @@ thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episod
 tags:
   - HashingItOut
 ---
-## Episode Description
+## Watch Episode
 
-Plasma is one of the strongest candidates for Layer 2 scaling solutions. Since the Plasma whitepaper was released in August 2017, there's been a multitude of Plasma implementations experimenting with the idea. On this episode we feature Georgios Kosntantoploulos, Lead Researcher at Loom Network, to talk about Plasma, the different variations, and the future of scaling through Layer 2 solutions. [https://github.com/loomnetwork/plasma-paper](https://github.com/loomnetwork/plasma-paper) [https://www.gakonst.com/](https://www.gakonst.com/)
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/C3Dl4148H2E"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
 
 ## Listen to Episode
 
@@ -26,6 +34,10 @@ Plasma is one of the strongest candidates for Layer 2 scaling solutions. Since t
   <source src="https://anchor.fm/s/f8e7252c/podcast/play/89348330/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377962-44100-1-b03a1b6a8b4fa597.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+## Episode Description
+
+Plasma is one of the strongest candidates for Layer 2 scaling solutions. Since the Plasma whitepaper was released in August 2017, there's been a multitude of Plasma implementations experimenting with the idea. On this episode we feature Georgios Kosntantoploulos, Lead Researcher at Loom Network, to talk about Plasma, the different variations, and the future of scaling through Layer 2 solutions. [https://github.com/loomnetwork/plasma-paper](https://github.com/loomnetwork/plasma-paper) [https://www.gakonst.com/](https://www.gakonst.com/)
 
 ## Listen on Other Platforms
 

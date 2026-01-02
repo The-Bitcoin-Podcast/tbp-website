@@ -19,7 +19,7 @@ tags:
 ---
 ## Episode Description
 
-Hashing It Out is continuing its series on the infrastructure of blockchain with the Network lwayer. In this episode, Corey, Dee and Jessie talk to Assistant Professor of electrical and computer engineering at Carnegie Mellon University, Giulia Fanti & member of the Vac research development group at Status, Hanno Cornelius. Stay tuned for part 2, covering privacy in the network layer.
+Hashing It Out is continuing its series on the infrastructure of blockchain with the Network layer. In this episode, Corey, Dee and Jessie talk to Assistant Professor of electrical and computer engineering at Carnegie Mellon University, Giulia Fanti & member of the Vac research development group at Status, Hanno Cornelius. Stay tuned for part 2, covering privacy in the network layer.
 
 ## Listen to Episode
 
