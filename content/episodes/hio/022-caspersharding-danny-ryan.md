@@ -27,8 +27,3 @@ Danny Ryan from Ethereum comes on to speak with us about the Casper Sharding v2.
   Your browser does not support the audio element.
 </audio>
 
-## Listen on Other Platforms
-
-- [Spotify](https://open.spotify.com/show/6kXFmD6rcYPgh0h70sRBha)
-- [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
-- [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)
