@@ -28,5 +28,5 @@ TrueBit is one of the more impressive decentralized projects, and we're really e
 ## Listen on Other Platforms
 
 - [Spotify](https://open.spotify.com/show/3WkYBYaZ4W1Z8gzBlOvr7y)
-- [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1520467946)
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/hashing-it-out/id1631179152)
 - [RSS Feed](https://anchor.fm/s/f8e7252c/podcast/rss)
