@@ -32,12 +32,18 @@ tags:
 ---
 ## Episode Description
 
-Corey, Dee, and Jessie talk about China, regulation, Snoop Dogg, and the NFT craze.  
-  
-\*\*\*\*\*\*The Bitcoin Podcast Social Media\*\*\*\*\*\*\*\*\*\*  
-Join-Slack: [https://launchpass.com/thebitcoinpodcast](https://launchpass.com/thebitcoinpodcast)  
-Patreon:[https://www.patreon.com/TheBitcoinPodcastNetwork](https://www.patreon.com/TheBitcoinPodcastNetwork)  
-Website: [http://thebitcoinpodcast.com/](http://thebitcoinpodcast.com/)  
+Corey, Dee, and Jessie talk about China, regulation, Snoop Dogg, and the NFT craze.
+  
+
+  
+\*\*\*\*\*\*The Bitcoin Podcast Social Media\*\*\*\*\*\*\*\*\*\*
+  
+Join-Slack: [https://launchpass.com/thebitcoinpodcast](https://launchpass.com/thebitcoinpodcast)
+  
+Patreon:[https://www.patreon.com/TheBitcoinPodcastNetwork](https://www.patreon.com/TheBitcoinPodcastNetwork)
+  
+Website: [http://thebitcoinpodcast.com/](http://thebitcoinpodcast.com/)
+  
 Twitter: [https://twitter.com/thebtcpodcast](https://twitter.com/thebtcpodcast)
 
 ## Watch Episode

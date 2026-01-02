@@ -13,7 +13,7 @@ status: available
 
 Corey unboxes a Grid Plus Hardware wallet for Dee and Jessie to try to break remotely. Our Roundtable dissucsion will cover a lot of what has been happening in the Cryptospace these past two weeks.   
   
-This episode is sponsored by [[Manscaped]]
+This episode is sponsored by [[Manscaped]] and [[Grid+]]
 
 ## Watch Episode
 
