@@ -1,5 +1,5 @@
 ---
-title: Viberate Founder Vasja Veber and Uroš Umek
+title: "Interview #348 - Viberate Founder Vasja Veber and Uroš Umek"
 date: 2021-04-25
 draft: false
 episodeNumber: 348
@@ -9,10 +9,7 @@ duration: 38:05
 syncedAt: 2025-12-09T15:47:48.784Z
 status: available
 tags:
-  - Interviews
-  - Viberate
-  - NFT
-  - music
+  - TBP
 season: "1"
 ---
 

@@ -1,13 +1,16 @@
 ---
-title: 'The Bitcoin Podcast #380- It Is The End of The Year As We Know It'
-date: '2021-12-30'
-draft: true
-episodeNumber: 113
+title: "Roundtable #380 - It Is The End of The Year As We Know It"
+date: 2021-12-30
+draft: false
+episodeNumber: 380
 youtubeId: 2LX_sVrFZJY
-thumbnail: 'https://i.ytimg.com/vi/2LX_sVrFZJY/maxresdefault.jpg'
-duration: '54:28'
-syncedAt: '2025-10-06T18:34:57.232Z'
+thumbnail: https://i.ytimg.com/vi/2LX_sVrFZJY/maxresdefault.jpg
+duration: 54:28
+syncedAt: 2025-10-06T18:34:57.232Z
 status: available
+tags:
+  - TBP
+season: "1"
 ---
 ## Episode Description
 
