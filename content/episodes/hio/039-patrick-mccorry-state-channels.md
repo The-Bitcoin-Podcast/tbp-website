@@ -1,26 +1,20 @@
 ---
-title: 'Hashing It Out #39 - Patrick McCorry - State Channels'
-date: '2019-03-20'
-draft: true
+title: Patrick McCorry - State Channels
+date: 2019-03-20
+draft: false
 episodeNumber: 39
 rssGuid: 2dd596d3-da66-48dc-aae6-e523d91721bb
-audioUrl: >-
-  https://anchor.fm/s/f8e7252c/podcast/play/89348356/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377994-44100-1-6a8415f5f3cf3498.mp3
-duration: '1:12:45'
-description: >-
-  We have the great honor of speaking with Dr. Patrick McCorry, lecturer at
-  King's College London and expert in cryptocurrency research. This conversation
-  focuses on state channel research. We go over the latest and greatest in that
-  field, what advancements have achieved, and what is yet to be done. It's
-  exciting to learn from someone with such an extremely deep knowledge on the
-  subject of state channels!
+audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89348356/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377994-44100-1-6a8415f5f3cf3498.mp3
+duration: 1:12:45
+description: We have the great honor of speaking with Dr. Patrick McCorry, lecturer at King's College London and expert in cryptocurrency research. This conversation focuses on state channel research. We go over the latest and greatest in that field, what advancements have achieved, and what is yet to be done. It's exciting to learn from someone with such an extremely deep knowledge on the subject of state channels!
 explicit: false
-syncedAt: '2026-01-01T21:53:35.628Z'
+syncedAt: 2026-01-01T21:53:35.628Z
 status: available
 hasPlaceholders: false
-author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
-thumbnail: >-
-  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/1b587067cbb3ea59.jpg
+author: Corey Petty, Demetrick Ferguson, Jessie Santiago
+thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/1b587067cbb3ea59.jpg
+tags:
+  - HashingItOut
 ---
 ## Episode Description
 
