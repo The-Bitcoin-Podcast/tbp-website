@@ -3,7 +3,6 @@ tags:
   - guest
 ---
 ## Bio:
-- Ethereum OG and Maxi
 - Founder of Starbloom Ventures
 - Founder of Week in Ethereum News - deprecated
 - Twitter: https://x.com/EvanVanNess
