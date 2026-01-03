@@ -22,7 +22,7 @@ season: "1"
 ---
 ## Episode Description
 
-What is the Bitcoin climate like in Africa? Bitcoin evangelist Tawanda Kembo joins us all the way from Kenya to elaboration on corruption and bribing as a way of life in Africa and how Bitcoin falls into that scenario.
+What is the Bitcoin climate like in Africa? Bitcoin evangelist [[Tawanda Kembo]] joins us all the way from Kenya to elaboration on corruption and bribing as a way of life in Africa and how Bitcoin falls into that scenario.
 
 ## Listen to Episode
 

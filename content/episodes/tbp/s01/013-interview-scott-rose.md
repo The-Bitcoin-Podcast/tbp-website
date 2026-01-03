@@ -2,7 +2,7 @@
 title: "TBP Interview: Scott Rose"
 date: 2015-08-16
 draft: false
-episodeNumber: 3
+episodeNumber: 13
 youtubeId: pKBx-LT68V0
 thumbnail: https://i.ytimg.com/vi/pKBx-LT68V0/hqdefault.jpg
 duration: 36:25

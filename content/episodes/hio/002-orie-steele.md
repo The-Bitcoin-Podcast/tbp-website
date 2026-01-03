@@ -18,7 +18,7 @@ tags:
 ---
 ## Episode Description
 
-Orie Steele, CTO of Transmute Industries. Orie is the creator of the Transmute Platform, a rapid application development framework for centralized, decentralized, and hybrid Ethereum applications and services. We discuss language features of Solidity, scalability paradigms such as Truebit, building blockchain architectures, and off-chain scalability. We pull from his cyber security training to talk about security and best practices in smart contract development.
+Orie Steele, CTO of Transmute Industries. [[Orie Steele]] is the creator of the Transmute Platform, a rapid application development framework for centralized, decentralized, and hybrid Ethereum applications and services. We discuss language features of Solidity, scalability paradigms such as Truebit, building blockchain architectures, and off-chain scalability. We pull from his cyber security training to talk about security and best practices in smart contract development.
 
 ## Listen to Episode
 

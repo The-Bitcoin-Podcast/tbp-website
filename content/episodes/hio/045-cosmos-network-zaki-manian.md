@@ -18,7 +18,7 @@ tags:
 ---
 ## Episode Description
 
-Champion of decentralization, Zaki Manian, rejoins us for updates on Cosmos since their Mainnet launch. We dive into the design principles of Cosmos, their consensus mechanisms, incentivisation model, and how to integrate your decentralized application into the Cosmos Network. We also learn more about who is currently using Cosmos and how, what Zaki and Cosmos will be speaking on at NYC Blockchain Week events, as well as how Cosmos differentiates itself from other technologies being produced. Riveting as always!
+Champion of decentralization, [[Zaki Manian]], rejoins us for updates on Cosmos since their Mainnet launch. We dive into the design principles of Cosmos, their consensus mechanisms, incentivisation model, and how to integrate your decentralized application into the Cosmos Network. We also learn more about who is currently using Cosmos and how, what Zaki and Cosmos will be speaking on at NYC Blockchain Week events, as well as how Cosmos differentiates itself from other technologies being produced. Riveting as always!
 
 ## Listen to Episode
 

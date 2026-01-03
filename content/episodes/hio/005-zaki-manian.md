@@ -18,7 +18,7 @@ tags:
 ---
 ## Episode Description
 
-We had the pleasure of interviewing Zaki Manian, prolific engineer, Founder of SkuChain, Head of Tendermint Labs, Advisor on the Interchain Foundation, and Executive Directory of the Trusted IoT Alliance. Phew, that's a lot of hats. Zaki gives us a glimpse into what it's like designing a scalable, secure consensus protocol. We speak to him about the philosophy behind scaling solutions, the differences in approach to consensus mechanisms, the role of blockchain as the world grows accustom to trust, and get a really solid look into the history of the blockchain space that led to where we are today.
+We had the pleasure of interviewing [[Zaki Manian]], prolific engineer, Founder of SkuChain, Head of Tendermint Labs, Advisor on the Interchain Foundation, and Executive Directory of the Trusted IoT Alliance. Phew, that's a lot of hats. Zaki gives us a glimpse into what it's like designing a scalable, secure consensus protocol. We speak to him about the philosophy behind scaling solutions, the differences in approach to consensus mechanisms, the role of blockchain as the world grows accustom to trust, and get a really solid look into the history of the blockchain space that led to where we are today.
 
 ## Listen to Episode
 
