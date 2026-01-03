@@ -1,6 +1,7 @@
 ---
 tags:
   - guest
+  - host
 ---
 ## Bio:
 - Founder of Starbloom Ventures
