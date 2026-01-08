@@ -24,4 +24,3 @@ Jessie shops at Temu. #HumorousDiscussion #ComedicCommentary #FashionFails #Econ
     allowfullscreen
   ></iframe>
 </div>
-

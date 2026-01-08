@@ -8,7 +8,7 @@ rssUrl: "/index.xml"
 aboutUrl: "/about"
 sponsorsUrl: "/sponsors"
 contactUrl: "/contact"
-guestsUrl: "/guests"
+guestsUrl: "/people"
 episodesArchiveUrl: "/episodes"
 ---
 
