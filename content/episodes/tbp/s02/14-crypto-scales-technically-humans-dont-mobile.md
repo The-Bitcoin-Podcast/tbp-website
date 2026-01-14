@@ -1,13 +1,14 @@
 ---
-title: Crypto Scales Technically. Humans Don’t. 📱
-date: 2026-01-07
+title: "Crypto Scales Technically. Humans Don’t. \U0001F4F1"
+date: 2026-01-07T00:00:00.000Z
 draft: true
 episodeNumber: 14
 youtubeId: VPSbGbiz2ng
-thumbnail: https://i.ytimg.com/vi/VPSbGbiz2ng/maxresdefault.jpg
-duration: 1:03:28
+thumbnail: 'https://i.ytimg.com/vi/VPSbGbiz2ng/maxresdefault.jpg'
+duration: 3808
 syncedAt: 2026-01-14T16:50:34.090Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/VPSbGbiz2ng/maxresdefault.jpg'
 ---
 ## Episode Description
 

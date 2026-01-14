@@ -1,15 +1,16 @@
 ---
 title: The Gang Talks Ordinals
-date: 2025-05-25
+date: 2025-05-25T00:00:00.000Z
 draft: false
 episodeNumber: 2
 youtubeId: cQ5XouD-xoo
-thumbnail: https://i.ytimg.com/vi/cQ5XouD-xoo/maxresdefault.jpg
-duration: 35:57
+thumbnail: 'https://i.ytimg.com/vi/cQ5XouD-xoo/maxresdefault.jpg'
+duration: 2157
 syncedAt: 2025-10-06T18:34:57.243Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/cQ5XouD-xoo/maxresdefault.jpg'
 ---
 
 ## Watch Episode

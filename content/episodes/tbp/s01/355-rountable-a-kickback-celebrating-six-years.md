@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #355 - A KickBack Celebrating Six Years"
-date: 2021-06-03
+title: 'Roundtable #355 - A KickBack Celebrating Six Years'
+date: 2021-06-03T00:00:00.000Z
 draft: false
 episodeNumber: 355
 youtubeId: shgfgUZ7Zs4
-thumbnail: https://i.ytimg.com/vi/shgfgUZ7Zs4/maxresdefault.jpg
-duration: 1:52:23
+thumbnail: 'https://i.ytimg.com/vi/shgfgUZ7Zs4/maxresdefault.jpg'
+duration: 6743
 syncedAt: 2025-10-06T18:34:57.223Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/shgfgUZ7Zs4/maxresdefault.jpg'
 ---
 ## Episode Description
 

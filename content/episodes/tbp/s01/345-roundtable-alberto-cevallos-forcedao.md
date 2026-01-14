@@ -1,14 +1,15 @@
 ---
-title: "Roundtable #345 - Alberto Cevallos ForceDao"
-date: 2021-03-28
+title: 'Roundtable #345 - Alberto Cevallos ForceDao'
+date: 2021-03-28T00:00:00.000Z
 draft: false
 episodeNumber: 345
 youtubeId: iUziR74B43s
-thumbnail: https://i.ytimg.com/vi/iUziR74B43s/hqdefault.jpg
-duration: 1:09:31
+thumbnail: 'https://i.ytimg.com/vi/iUziR74B43s/hqdefault.jpg'
+duration: 4171
 syncedAt: 2025-10-06T18:34:57.216Z
 status: available
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/iUziR74B43s/hqdefault.jpg'
 ---
 ## Watch Episode
 

@@ -19,6 +19,7 @@ tags:
   - ABSRDST
   - Technology
   - InItForTheTech
+socialImage: 'https://i.ytimg.com/vi/qEMW3lLV_WE/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #358 - Juan M Hernandez, CEO of Curio"
-date: 2021-06-24
+title: 'Roundtable #358 - Juan M Hernandez, CEO of Curio'
+date: 2021-06-24T00:00:00.000Z
 draft: true
 episodeNumber: 358
 youtubeId: Mdv-xOH6CBE
-thumbnail: https://i.ytimg.com/vi/Mdv-xOH6CBE/maxresdefault.jpg
-duration: 1:36:26
+thumbnail: 'https://i.ytimg.com/vi/Mdv-xOH6CBE/maxresdefault.jpg'
+duration: 5786
 syncedAt: 2025-10-06T18:34:57.223Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/Mdv-xOH6CBE/maxresdefault.jpg'
 ---
 ## Episode Description
 

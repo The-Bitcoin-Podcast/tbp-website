@@ -25,6 +25,8 @@ hasPlaceholders: false
 author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
 thumbnail: >-
   https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/56d48411e284b9cd.jpg
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/56d48411e284b9cd.jpg
 ---
 ## Episode Description
 

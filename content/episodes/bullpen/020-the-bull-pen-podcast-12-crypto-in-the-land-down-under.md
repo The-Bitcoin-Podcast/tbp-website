@@ -19,6 +19,7 @@ tags:
   - The Bitcoin Podcast Network
   - Technology
   - Blockchain
+socialImage: 'https://i.ytimg.com/vi/psmaJ1AyO28/maxresdefault.jpg'
 ---
 ## Episode Description
 

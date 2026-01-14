@@ -1,12 +1,21 @@
 ---
 title: Call For Papers
-date: 2015-10-12
+date: 2015-10-12T00:00:00.000Z
 draft: false
 episodeNumber: 21
 rssGuid: 7a6083b3040f704664cf27a07e513269
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982478/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213405-44100-2-e738d4d38ba67301.mp3
-duration: 1:08:15
-description: "Bitcoin has mesmerized academics for cutting out the PayPals and governments usually required for digital money. Enter: Ledger. A peer-reviewed scholarly journal that publishes full-length original research articles on the subjects of cryptocurrency and blockchain technology. We chat with managing editors, Prof. Christopher E. Wilmer, University of Pittsburgh, and Richard Ford Burley. Join us this week as they shed some light on the journal as it strives to serve both the general public and the Bitcoin research community through the dissemination of high-quality and timely scholarly content."
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982478/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213405-44100-2-e738d4d38ba67301.mp3
+duration: 4095
+description: >-
+  Bitcoin has mesmerized academics for cutting out the PayPals and governments
+  usually required for digital money. Enter: Ledger. A peer-reviewed scholarly
+  journal that publishes full-length original research articles on the subjects
+  of cryptocurrency and blockchain technology. We chat with managing editors,
+  Prof. Christopher E. Wilmer, University of Pittsburgh, and Richard Ford
+  Burley. Join us this week as they shed some light on the journal as it strives
+  to serve both the general public and the Bitcoin research community through
+  the dissemination of high-quality and timely scholarly content.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.791Z
 status: available
@@ -15,10 +24,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/527dc2fa7e9adb71.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/527dc2fa7e9adb71.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/527dc2fa7e9adb71.jpg
 ---
 ## Episode Description
 

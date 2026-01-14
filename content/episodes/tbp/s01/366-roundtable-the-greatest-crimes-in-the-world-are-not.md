@@ -1,16 +1,17 @@
 ---
-title: "Rountable #366 - The greatest crimes in the world are not..."
-date: 2021-09-02
+title: 'Rountable #366 - The greatest crimes in the world are not...'
+date: 2021-09-02T00:00:00.000Z
 draft: false
 episodeNumber: 366
 youtubeId: nHB77739FgQ
-thumbnail: https://i.ytimg.com/vi/nHB77739FgQ/maxresdefault.jpg
-duration: 1:01:03
+thumbnail: 'https://i.ytimg.com/vi/nHB77739FgQ/maxresdefault.jpg'
+duration: 3663
 syncedAt: 2025-10-06T18:34:57.228Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/nHB77739FgQ/maxresdefault.jpg'
 ---
 ## Episode Description
 Did Ethereum Spilt? Did Someone Sell A Fake Bansky NFT? Did MTN DEW Come Out With A Flamin Hot Cheetos Flavor ? These  Questions and More May or May not Be Answered By Corey and Dee in this Roundtable.   

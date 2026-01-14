@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #384 - Young H, Cruisin' Down The Westside Highway"
-date: 2022-02-10
+title: 'Roundtable #384 - Young H, Cruisin'' Down The Westside Highway'
+date: 2022-02-10T00:00:00.000Z
 draft: false
 episodeNumber: 384
 youtubeId: n5fj6qH2mm4
-thumbnail: https://i.ytimg.com/vi/n5fj6qH2mm4/maxresdefault.jpg
-duration: 1:06:56
+thumbnail: 'https://i.ytimg.com/vi/n5fj6qH2mm4/maxresdefault.jpg'
+duration: 4016
 syncedAt: 2025-10-06T18:34:57.233Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/n5fj6qH2mm4/maxresdefault.jpg'
 ---
 ## Episode Description
 

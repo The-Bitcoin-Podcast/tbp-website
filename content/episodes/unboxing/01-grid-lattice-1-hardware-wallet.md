@@ -1,16 +1,17 @@
 ---
 title: Unboxing Grid+ Lattice 1 Hardware Wallet
-date: 2021-07-23
+date: 2021-07-23T00:00:00.000Z
 draft: false
 episodeNumber: 1
 youtubeId: b_Y-GFzWB1s
-thumbnail: https://i.ytimg.com/vi/b_Y-GFzWB1s/maxresdefault.jpg
-duration: 43:17
+thumbnail: 'https://i.ytimg.com/vi/b_Y-GFzWB1s/maxresdefault.jpg'
+duration: 2597
 syncedAt: 2025-10-06T18:34:57.225Z
 status: available
 tags:
   - TBP
   - unboxing
+socialImage: 'https://i.ytimg.com/vi/b_Y-GFzWB1s/maxresdefault.jpg'
 ---
 ## Episode Description
 

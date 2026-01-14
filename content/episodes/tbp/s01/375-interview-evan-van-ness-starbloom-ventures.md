@@ -1,16 +1,17 @@
 ---
-title: "Interview #375 - Evan Van Ness of Starbloom Ventures"
-date: 2021-11-30
+title: 'Interview #375 - Evan Van Ness of Starbloom Ventures'
+date: 2021-11-30T00:00:00.000Z
 draft: false
 episodeNumber: 375
 youtubeId: afWnTcBKcJw
-thumbnail: https://i.ytimg.com/vi/afWnTcBKcJw/maxresdefault.jpg
-duration: 1:23:48
+thumbnail: 'https://i.ytimg.com/vi/afWnTcBKcJw/maxresdefault.jpg'
+duration: 5028
 syncedAt: 2025-10-06T18:34:57.231Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/afWnTcBKcJw/maxresdefault.jpg'
 ---
 ## Episode Description
 

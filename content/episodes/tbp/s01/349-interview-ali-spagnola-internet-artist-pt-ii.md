@@ -1,16 +1,17 @@
 ---
-title: "Interview #349 - Ali Spagnola Internet Artist Pt II"
-date: 2021-04-25
+title: 'Interview #349 - Ali Spagnola Internet Artist Pt II'
+date: 2021-04-25T00:00:00.000Z
 draft: false
 episodeNumber: 349
-youtubeId: -CoGCma_HCE
-thumbnail: https://i.ytimg.com/vi/-CoGCma_HCE/maxresdefault.jpg
-duration: 52:42
+youtubeId: '-CoGCma_HCE'
+thumbnail: 'https://i.ytimg.com/vi/-CoGCma_HCE/maxresdefault.jpg'
+duration: 3162
 syncedAt: 2025-10-06T18:34:57.219Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/-CoGCma_HCE/maxresdefault.jpg'
 ---
 ## Episode Description
 

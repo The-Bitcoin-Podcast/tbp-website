@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #362 - Unboxing and CryptoBlades"
-date: 2021-08-05
+title: 'Roundtable #362 - Unboxing and CryptoBlades'
+date: 2021-08-05T00:00:00.000Z
 draft: false
 episodeNumber: 362
 youtubeId: WqWIWgPf6TE
-thumbnail: https://i.ytimg.com/vi/WqWIWgPf6TE/maxresdefault.jpg
-duration: 1:04:59
+thumbnail: 'https://i.ytimg.com/vi/WqWIWgPf6TE/maxresdefault.jpg'
+duration: 3899
 syncedAt: 2025-10-06T18:34:57.227Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/WqWIWgPf6TE/maxresdefault.jpg'
 ---
 ## Episode Description
 In this roundtable discussion, Jessie, Dee, and Corey do an unboxing and talk about what is going on in crypto.   

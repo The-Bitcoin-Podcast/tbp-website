@@ -1,12 +1,17 @@
 ---
 title: Bridging the Gender Gap
-date: 2015-06-15
+date: 2015-06-15T00:00:00.000Z
 draft: false
 episodeNumber: 3
 rssGuid: fa726e846529679c42a2590cab9391a7
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982218/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213155-44100-2-fbb046d0d966456e.mp3
-duration: 40:24
-description: This weeks podcast guest is Sarah Boone Martin, who brought her stories and experiences to light in a way that will provide models for success for other women involved in Bitcoin and a roadmap for organizations in the financial services industry to follow for gender diversity.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982218/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213155-44100-2-fbb046d0d966456e.mp3
+duration: 2424
+description: >-
+  This weeks podcast guest is Sarah Boone Martin, who brought her stories and
+  experiences to light in a way that will provide models for success for other
+  women involved in Bitcoin and a roadmap for organizations in the financial
+  services industry to follow for gender diversity.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.796Z
 status: available
@@ -15,9 +20,12 @@ author:
   - Corey Petty
   - Demetrick Ferguson
   - Cello
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/3358ff17ab30cf11.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/3358ff17ab30cf11.jpg
 tags:
   - TBP
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/3358ff17ab30cf11.jpg
 ---
 ## Episode Description
 

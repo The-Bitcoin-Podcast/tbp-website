@@ -19,6 +19,7 @@ tags:
   - The Bitcoin Podcast Network
   - InItForTheTech
   - ABSRDST
+socialImage: 'https://i.ytimg.com/vi/aZeLIbYAl3M/maxresdefault.jpg'
 ---
 ## Episode Description
 

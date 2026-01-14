@@ -1,16 +1,19 @@
 ---
-title: "The Bitcoin Podcast Interview #352- Aram Barnett and Will Nichols of 721 Collective"
-date: 2021-05-17
+title: >-
+  The Bitcoin Podcast Interview #352- Aram Barnett and Will Nichols of 721
+  Collective
+date: 2021-05-17T00:00:00.000Z
 draft: false
 episodeNumber: 352
 youtubeId: H0v6ppEJTm0
-thumbnail: https://i.ytimg.com/vi/H0v6ppEJTm0/maxresdefault.jpg
-duration: 58:04
+thumbnail: 'https://i.ytimg.com/vi/H0v6ppEJTm0/maxresdefault.jpg'
+duration: 3484
 syncedAt: 2025-10-06T18:34:57.222Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/H0v6ppEJTm0/maxresdefault.jpg'
 ---
 ## Episode Description
 

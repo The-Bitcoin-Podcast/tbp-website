@@ -1,16 +1,17 @@
 ---
 title: Vinny Lingham
-date: 2018-11-25
+date: 2018-11-25T00:00:00.000Z
 draft: false
 episodeNumber: 233
 youtubeId: mVUmAZc6oqc
-thumbnail: https://i.ytimg.com/vi/mVUmAZc6oqc/maxresdefault.jpg
-duration: 1:17:05
+thumbnail: 'https://i.ytimg.com/vi/mVUmAZc6oqc/maxresdefault.jpg'
+duration: 4625
 syncedAt: 2025-10-06T18:34:57.210Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/mVUmAZc6oqc/maxresdefault.jpg'
 ---
 ## Episode Description
 

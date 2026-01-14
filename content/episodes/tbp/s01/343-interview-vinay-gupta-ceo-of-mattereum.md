@@ -1,16 +1,17 @@
 ---
-title: "Interview #343 - Vinay Gupta CEO Of Mattereum"
-date: 2021-03-20
+title: 'Interview #343 - Vinay Gupta CEO Of Mattereum'
+date: 2021-03-20T00:00:00.000Z
 draft: false
 episodeNumber: 343
 youtubeId: 5yHqPmhv5Q4
-thumbnail: https://i.ytimg.com/vi/5yHqPmhv5Q4/maxresdefault.jpg
-duration: 1:05:47
+thumbnail: 'https://i.ytimg.com/vi/5yHqPmhv5Q4/maxresdefault.jpg'
+duration: 3947
 syncedAt: 2025-10-06T18:34:57.216Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/5yHqPmhv5Q4/maxresdefault.jpg'
 ---
 ## Watch Episode
 

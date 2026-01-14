@@ -1,22 +1,28 @@
 ---
-title: "Personals: Stephen Pair"
-date: 2023-03-22
+title: 'Personals: Stephen Pair'
+date: 2023-03-22T00:00:00.000Z
 draft: false
 episodeNumber: 140
 rssGuid: ae1285ac-1d4b-41a8-af1f-aba02df89177
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89348271/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377944-44100-2-03ce78154f69690a.mp3
-duration: 42:18
-description: In this Personals episode, Dee talks to Stephen Pair, Cofounder, President and CEO of BitPay.com
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89348271/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377944-44100-2-03ce78154f69690a.mp3
+duration: 2538
+description: >-
+  In this Personals episode, Dee talks to Stephen Pair, Cofounder, President and
+  CEO of BitPay.com
 explicit: false
 syncedAt: 2026-01-01T21:53:35.598Z
 status: available
 hasPlaceholders: false
 author:
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/3c2d5b789ec47e9b.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/3c2d5b789ec47e9b.jpg
 tags:
   - HashingItOut
   - personals
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/3c2d5b789ec47e9b.jpg
 ---
 ## Episode Description
 

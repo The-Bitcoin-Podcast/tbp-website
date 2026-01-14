@@ -1,12 +1,16 @@
 ---
 title: Marco Rodrigues Web 3.0
-date: 2020-10-16
+date: 2020-10-16T00:00:00.000Z
 draft: false
 episodeNumber: 94
 rssGuid: c4966262-7500-49e0-992b-734d90edb4b1
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374066-44100-1-9798b0f4c65b41e9.mp3
-duration: 1:03:54
-description: Marco from The Slack(You Should Join)talks with John and Corey about the fundamental underline infrastructures of the internet and how Web 3.0 should look like in the future now.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374066-44100-1-9798b0f4c65b41e9.mp3
+duration: 3834
+description: >-
+  Marco from The Slack(You Should Join)talks with John and Corey about the
+  fundamental underline infrastructures of the internet and how Web 3.0 should
+  look like in the future now.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.611Z
 status: available
@@ -14,9 +18,12 @@ hasPlaceholders: false
 author:
   - Corey Petty
   - John Mardlin
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e87ab1d544e30130.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e87ab1d544e30130.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e87ab1d544e30130.jpg
 ---
 ## Episode Description
 

@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #354 - Henry of Trademark Universal Stone"
-date: 2021-05-27
+title: 'Roundtable #354 - Henry of Trademark Universal Stone'
+date: 2021-05-27T00:00:00.000Z
 draft: false
 episodeNumber: 354
 youtubeId: VoPVFssVIys
-thumbnail: https://i.ytimg.com/vi/VoPVFssVIys/maxresdefault.jpg
-duration: 34:16
+thumbnail: 'https://i.ytimg.com/vi/VoPVFssVIys/maxresdefault.jpg'
+duration: 2056
 syncedAt: 2025-10-06T18:34:57.222Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/VoPVFssVIys/maxresdefault.jpg'
 ---
 ## Episode Description
 

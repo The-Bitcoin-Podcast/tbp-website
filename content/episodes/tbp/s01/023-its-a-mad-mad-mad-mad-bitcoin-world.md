@@ -1,12 +1,19 @@
 ---
-title: It’s a Mad, Mad, Mad, Mad Bitcoin World
-date: 2015-10-26
+title: 'It’s a Mad, Mad, Mad, Mad Bitcoin World'
+date: 2015-10-26T00:00:00.000Z
 draft: false
 episodeNumber: 23
 rssGuid: 9bb7ed135b73a1f2ecc66f8e9771caa1
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982390/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213329-44100-2-f124efc1049e0d0e.mp3
-duration: 50:14
-description: MadBitcoins is a uniquely styled cryptocurrency news resource and we bit his style. Hard. No bad blood though as he comes on the show and we yuck it up about starting a platform such as ours and what it takes to succeed as a successful media outlet. In addition, hot topics of discussion range from sidechains, Blythe ‘Bluth Misters’ Masters, and why Cleveland Brown would be a good bitcoin celebrity endorser.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982390/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213329-44100-2-f124efc1049e0d0e.mp3
+duration: 3014
+description: >-
+  MadBitcoins is a uniquely styled cryptocurrency news resource and we bit his
+  style. Hard. No bad blood though as he comes on the show and we yuck it up
+  about starting a platform such as ours and what it takes to succeed as a
+  successful media outlet. In addition, hot topics of discussion range from
+  sidechains, Blythe ‘Bluth Misters’ Masters, and why Cleveland Brown would be a
+  good bitcoin celebrity endorser.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.791Z
 status: available
@@ -15,10 +22,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/88d21915170013cf.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/88d21915170013cf.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/88d21915170013cf.jpg
 ---
 ## Episode Description
 

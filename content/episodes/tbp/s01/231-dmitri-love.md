@@ -1,15 +1,16 @@
 ---
 title: Dmitri Love
-date: 2018-11-14
+date: 2018-11-14T00:00:00.000Z
 draft: false
 episodeNumber: 231
 youtubeId: lcbb7MJZGKY
-thumbnail: https://i.ytimg.com/vi/lcbb7MJZGKY/maxresdefault.jpg
-duration: 1:19:50
+thumbnail: 'https://i.ytimg.com/vi/lcbb7MJZGKY/maxresdefault.jpg'
+duration: 4790
 syncedAt: 2025-10-06T18:34:57.206Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/lcbb7MJZGKY/maxresdefault.jpg'
 ---
 ## Episode Description
 

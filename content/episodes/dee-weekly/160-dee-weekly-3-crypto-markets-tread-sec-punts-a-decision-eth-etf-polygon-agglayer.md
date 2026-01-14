@@ -1,15 +1,18 @@
 ---
-title: "Dee Weekly 3: Crypto Markets Tread, SEC Punts A Decision ETH ETF, Polygon Agglayer"
-date: 2025-05-19
+title: >-
+  Dee Weekly 3: Crypto Markets Tread, SEC Punts A Decision ETH ETF, Polygon
+  Agglayer
+date: 2025-05-19T00:00:00.000Z
 draft: false
 episodeNumber: 160
 youtubeId: JwUO0SRqh7s
-thumbnail: https://i.ytimg.com/vi/JwUO0SRqh7s/maxresdefault.jpg
-duration: 17:25
+thumbnail: 'https://i.ytimg.com/vi/JwUO0SRqh7s/maxresdefault.jpg'
+duration: 1045
 syncedAt: 2025-10-06T18:34:57.243Z
 status: available
 tags:
   - Dee-weekly
+socialImage: 'https://i.ytimg.com/vi/JwUO0SRqh7s/maxresdefault.jpg'
 ---
 ## Watch Episode
 

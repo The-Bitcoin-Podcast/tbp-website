@@ -1,12 +1,19 @@
 ---
 title: Boring Economics
-date: 2015-08-10
+date: 2015-08-10T00:00:00.000Z
 draft: false
 episodeNumber: 12
 rssGuid: 654eba0c5a540636b6d54b21609bdc35
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982069/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212990-44100-2-2c8913e3818bbbd3.mp3
-duration: 1:00:49
-description: Do you find financial talk a bit...boring? This week, we provide a not so boring perspective on economics by inviting Perianne Boring, Founder and President of the Chamber of Digital Commerce, who shares with us some hidden potential benefits of this technology that many don't know about that could have a direct effect on strengthening the economic trajectory of our country moving forward. Oh, and Mike Tyson. We talk about Mike Tyson.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982069/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212990-44100-2-2c8913e3818bbbd3.mp3
+duration: 3649
+description: >-
+  Do you find financial talk a bit...boring? This week, we provide a not so
+  boring perspective on economics by inviting Perianne Boring, Founder and
+  President of the Chamber of Digital Commerce, who shares with us some hidden
+  potential benefits of this technology that many don't know about that could
+  have a direct effect on strengthening the economic trajectory of our country
+  moving forward. Oh, and Mike Tyson. We talk about Mike Tyson.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.793Z
 status: available
@@ -15,10 +22,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/272d75322fda372b.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/272d75322fda372b.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/272d75322fda372b.jpg
 ---
 ## Episode Description
 

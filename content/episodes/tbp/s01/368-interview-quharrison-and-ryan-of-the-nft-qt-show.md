@@ -1,16 +1,17 @@
 ---
-title: "Interview #368- QuHarrison and Ryan of The NFT QT Show"
-date: 2021-09-21
+title: 'Interview #368- QuHarrison and Ryan of The NFT QT Show'
+date: 2021-09-21T00:00:00.000Z
 draft: false
 episodeNumber: 368
 youtubeId: V4tVITypjPU
-thumbnail: https://i.ytimg.com/vi/V4tVITypjPU/maxresdefault.jpg
-duration: 54:16
+thumbnail: 'https://i.ytimg.com/vi/V4tVITypjPU/maxresdefault.jpg'
+duration: 3256
 syncedAt: 2025-10-06T18:34:57.229Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/V4tVITypjPU/maxresdefault.jpg'
 ---
 ## Episode Description
 

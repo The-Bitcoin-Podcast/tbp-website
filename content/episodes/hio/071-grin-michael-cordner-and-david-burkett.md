@@ -1,18 +1,27 @@
 ---
 title: Grin - Michael Cordner and David Burkett
-date: 2020-08-22
+date: 2020-08-22T00:00:00.000Z
 draft: false
 episodeNumber: 71
 rssGuid: 90227853-0060-4b64-832f-5fc8b720b47c
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374125-44100-1-8bbeb4aa0db6a941.mp3
-duration: 1:01:31
-description: Michael Cordner / Yeastplume, long time Grin contributor and part of the core team, and David Burkett, long time member of the Grin community, creator of the C++ standalone implementation of Grin, proposer of the soon to be released TOR transaction building method, and lead on Litecoin's Mimblewimble Extension block project. They've both agreed to come on the show.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374125-44100-1-8bbeb4aa0db6a941.mp3
+duration: 3691
+description: >-
+  Michael Cordner / Yeastplume, long time Grin contributor and part of the core
+  team, and David Burkett, long time member of the Grin community, creator of
+  the C++ standalone implementation of Grin, proposer of the soon to be released
+  TOR transaction building method, and lead on Litecoin's Mimblewimble Extension
+  block project. They've both agreed to come on the show.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.621Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Collin Cusce
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/1e8d61b5ca8b23f1.jpg
+author: 'Corey Petty, Collin Cusce'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/1e8d61b5ca8b23f1.jpg
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/1e8d61b5ca8b23f1.jpg
 ---
 ## Episode Description
 

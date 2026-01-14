@@ -1,20 +1,29 @@
 ---
-title: "Hashing It Out #65 – Cypher Core – Jay Jie and Ken Trueba"
-date: 2020-10-13
+title: 'Hashing It Out #65 – Cypher Core – Jay Jie and Ken Trueba'
+date: 2020-10-13T00:00:00.000Z
 draft: false
 episodeNumber: 65
 rssGuid: b67825ef-3981-4487-a648-f36f797978bc
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345738/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374091-44100-1-a6350e68a73dfb75.mp3
-duration: 56:37
-description: This episode features Jay and Ken from Cypher Core. Cypher Core offers a staking as a service platform for Proof of Stake protocols. Primarily focused on Cosmos network, we talk with them about their experience implementing their system, incentive models involved with staking services, and the overall Cosmos community.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345738/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374091-44100-1-a6350e68a73dfb75.mp3
+duration: 3397
+description: >-
+  This episode features Jay and Ken from Cypher Core. Cypher Core offers a
+  staking as a service platform for Proof of Stake protocols. Primarily focused
+  on Cosmos network, we talk with them about their experience implementing their
+  system, incentive models involved with staking services, and the overall
+  Cosmos community.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.612Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/9bd64cfccca5fa38.jpg
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/9bd64cfccca5fa38.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/9bd64cfccca5fa38.jpg
 ---
 ## Episode Description
 

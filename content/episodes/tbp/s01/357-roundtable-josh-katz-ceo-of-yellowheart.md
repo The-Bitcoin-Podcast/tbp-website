@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #357 - Josh Katz CEO of YellowHeart"
-date: 2021-06-17
+title: 'Roundtable #357 - Josh Katz CEO of YellowHeart'
+date: 2021-06-17T00:00:00.000Z
 draft: false
 episodeNumber: 357
 youtubeId: R7DGiBnxPKg
-thumbnail: https://i.ytimg.com/vi/R7DGiBnxPKg/maxresdefault.jpg
-duration: 1:13:57
+thumbnail: 'https://i.ytimg.com/vi/R7DGiBnxPKg/maxresdefault.jpg'
+duration: 4437
 syncedAt: 2025-10-06T18:34:57.223Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/R7DGiBnxPKg/maxresdefault.jpg'
 ---
 ## Episode Description
 

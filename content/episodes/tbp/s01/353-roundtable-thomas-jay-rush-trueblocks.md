@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #353 - Thomas Jay Rush TrueBlocks"
-date: 2021-05-20
+title: 'Roundtable #353 - Thomas Jay Rush TrueBlocks'
+date: 2021-05-20T00:00:00.000Z
 draft: false
 episodeNumber: 353
 youtubeId: RjJO0EkQPsQ
-thumbnail: https://i.ytimg.com/vi/RjJO0EkQPsQ/hqdefault.jpg
-duration: 1:12:20
+thumbnail: 'https://i.ytimg.com/vi/RjJO0EkQPsQ/hqdefault.jpg'
+duration: 4340
 syncedAt: 2025-10-06T18:34:57.222Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/RjJO0EkQPsQ/hqdefault.jpg'
 ---
 ## Episode Description
 

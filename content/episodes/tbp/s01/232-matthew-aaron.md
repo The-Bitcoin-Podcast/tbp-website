@@ -1,16 +1,17 @@
 ---
 title: Matthew Aaron
-date: 2018-11-18
+date: 2018-11-18T00:00:00.000Z
 draft: false
 episodeNumber: 232
 youtubeId: 1Punl_MiLnM
-thumbnail: https://i.ytimg.com/vi/1Punl_MiLnM/maxresdefault.jpg
-duration: 1:25:09
+thumbnail: 'https://i.ytimg.com/vi/1Punl_MiLnM/maxresdefault.jpg'
+duration: 5109
 syncedAt: 2025-10-06T18:34:57.207Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/1Punl_MiLnM/maxresdefault.jpg'
 ---
 ## Episode Description
 

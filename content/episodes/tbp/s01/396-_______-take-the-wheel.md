@@ -1,14 +1,15 @@
 ---
 title: _______ Take The Wheel
-date: 2022-06-30
+date: 2022-06-30T00:00:00.000Z
 draft: false
 episodeNumber: 396
 youtubeId: qc-adbyskY4
-thumbnail: https://i.ytimg.com/vi/qc-adbyskY4/maxresdefault.jpg
-duration: 35:05
+thumbnail: 'https://i.ytimg.com/vi/qc-adbyskY4/maxresdefault.jpg'
+duration: 2105
 syncedAt: 2025-10-06T18:34:57.237Z
 status: available
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/qc-adbyskY4/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,12 +1,15 @@
 ---
-title: "Moh Jalalzai: Carnot Consensus"
-date: 2023-06-07
+title: 'Moh Jalalzai: Carnot Consensus'
+date: 2023-06-07T00:00:00.000Z
 draft: false
 episodeNumber: 145
 rssGuid: 92d6c826-e646-4e5f-83f7-b7aecb577070
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89348276/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377948-44100-2-106b308b39c80f84.mp3
-duration: 47:51
-description: Corey, Dee, and Jessie talk to Nomos Distributed Network Researcher at Logos, Moh Jalalzai.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89348276/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377948-44100-2-106b308b39c80f84.mp3
+duration: 2871
+description: >-
+  Corey, Dee, and Jessie talk to Nomos Distributed Network Researcher at Logos,
+  Moh Jalalzai.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.597Z
 status: available
@@ -15,9 +18,12 @@ author:
   - Corey Petty
   - Demetrick Ferguson
   - Jessie Santiago
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/b4204ee3095dc0b3.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/b4204ee3095dc0b3.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/b4204ee3095dc0b3.jpg
 ---
 ## Episode Description
 

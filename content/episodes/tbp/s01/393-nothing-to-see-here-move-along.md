@@ -1,16 +1,17 @@
 ---
-title: Nothing To See Here, Move Along
-date: 2022-06-09
+title: 'Nothing To See Here, Move Along'
+date: 2022-06-09T00:00:00.000Z
 draft: false
 episodeNumber: 393
 youtubeId: DJWuSJfKEQA
-thumbnail: https://i.ytimg.com/vi/DJWuSJfKEQA/maxresdefault.jpg
-duration: 59:35
+thumbnail: 'https://i.ytimg.com/vi/DJWuSJfKEQA/maxresdefault.jpg'
+duration: 3575
 syncedAt: 2025-10-06T18:34:57.236Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/DJWuSJfKEQA/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #387 - Look, We Can and Should Do Better"
-date: 2022-03-10
+title: 'Roundtable #387 - Look, We Can and Should Do Better'
+date: 2022-03-10T00:00:00.000Z
 draft: false
 episodeNumber: 387
 youtubeId: cftQoI_Rw2w
-thumbnail: https://i.ytimg.com/vi/cftQoI_Rw2w/maxresdefault.jpg
-duration: 55:06
+thumbnail: 'https://i.ytimg.com/vi/cftQoI_Rw2w/maxresdefault.jpg'
+duration: 3306
 syncedAt: 2025-10-06T18:34:57.235Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/cftQoI_Rw2w/maxresdefault.jpg'
 ---
 ## Episode Description
 

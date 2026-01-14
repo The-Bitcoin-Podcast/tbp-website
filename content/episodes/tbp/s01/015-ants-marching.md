@@ -1,12 +1,22 @@
 ---
 title: Ants Marching
-date: 2015-08-31
+date: 2015-08-31T00:00:00.000Z
 draft: false
 episodeNumber: 15
 rssGuid: 20f20b30304478a9fbdc1907a1275372
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982049/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212961-44100-2-ce376770c58e7274.mp3
-duration: 1:12:14
-description: Are you a victim of getting caught up in the monotony of your everyday life and forget to focus on what is truly important? It’s time to break free of that, at least from your employer. Bitwage bills itself as the world’s first payroll startup to incorporate the cost- and time-saving benefits of Bitcoin. INDIVIDUAL AND EMPLOYER PAYROLL Next-Day Fiat to Bitcoin. Get outta town. Get pumped. Interview with BitWage COO Jonathan Chester joins us this week to discuss how his company brings modern financial tools to those who do not have access to the current banking system. Also joining us is Carrie Scott, the world's first bitcoin pedicab driver!
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982049/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212961-44100-2-ce376770c58e7274.mp3
+duration: 4334
+description: >-
+  Are you a victim of getting caught up in the monotony of your everyday life
+  and forget to focus on what is truly important? It’s time to break free of
+  that, at least from your employer. Bitwage bills itself as the world’s first
+  payroll startup to incorporate the cost- and time-saving benefits of Bitcoin.
+  INDIVIDUAL AND EMPLOYER PAYROLL Next-Day Fiat to Bitcoin. Get outta town. Get
+  pumped. Interview with BitWage COO Jonathan Chester joins us this week to
+  discuss how his company brings modern financial tools to those who do not have
+  access to the current banking system. Also joining us is Carrie Scott, the
+  world's first bitcoin pedicab driver!
 explicit: false
 syncedAt: 2026-01-03T00:06:18.792Z
 status: available
@@ -15,10 +25,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/87c5a3a24d52899d.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/87c5a3a24d52899d.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/87c5a3a24d52899d.jpg
 ---
 ## Episode Description
 

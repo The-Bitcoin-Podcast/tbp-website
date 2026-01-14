@@ -1,16 +1,17 @@
 ---
 title: Trent McConaghy
-date: 2018-12-02
+date: 2018-12-02T00:00:00.000Z
 draft: false
 episodeNumber: 234
 youtubeId: taw6OmJGc6U
-thumbnail: https://i.ytimg.com/vi/taw6OmJGc6U/maxresdefault.jpg
-duration: 1:29:31
+thumbnail: 'https://i.ytimg.com/vi/taw6OmJGc6U/maxresdefault.jpg'
+duration: 5371
 syncedAt: 2025-10-06T18:34:57.211Z
 status: available
-season: "1"
+season: '1'
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/taw6OmJGc6U/maxresdefault.jpg'
 ---
 ## Episode Description
 

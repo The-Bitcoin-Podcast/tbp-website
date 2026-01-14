@@ -1,21 +1,31 @@
 ---
 title: Paradigm - Dan Robinson
-date: 2020-08-28
+date: 2020-08-28T00:00:00.000Z
 draft: false
 episodeNumber: 91
 rssGuid: 18632b8d-9a27-4c8f-aa4c-6b0c88b5b00f
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345746/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374103-44100-1-71f5e7dee714787e.mp3
-duration: 54:33
-description: Dan Robinson is a Research Partner at Paradigm.xyz, an investment fund active in the DeFi space. Reflecting his interests, our conversation covers a broad range of topics, including frontrunning and MEV (the mempool as a dark forest), Uniswap and building a defensible business on-chain, and Yield protocol a novel design for fixed rate on-chain lending using Automated Market Makers.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345746/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374103-44100-1-71f5e7dee714787e.mp3
+duration: 3273
+description: >-
+  Dan Robinson is a Research Partner at Paradigm.xyz, an investment fund active
+  in the DeFi space. Reflecting his interests, our conversation covers a broad
+  range of topics, including frontrunning and MEV (the mempool as a dark
+  forest), Uniswap and building a defensible business on-chain, and Yield
+  protocol a novel design for fixed rate on-chain lending using Automated Market
+  Makers.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.615Z
 status: available
 hasPlaceholders: false
 author:
   - Corey Petty
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/cb52c1ae17041787.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/cb52c1ae17041787.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/cb52c1ae17041787.jpg
 ---
 ## Episode Description
 

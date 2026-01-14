@@ -6,9 +6,6 @@ import { JSXInternal } from "preact/src/jsx"
 import { FontSpecification, getFontSpecificationName, ThemeKey } from "./theme"
 import path from "path"
 import { QUARTZ } from "./path"
-import { formatDate, getDate } from "../components/Date"
-import readingTime from "reading-time"
-import { i18n } from "../i18n"
 import { styleText } from "util"
 
 const defaultHeaderWeight = [700]
@@ -171,6 +168,7 @@ export type ImageOptions = {
 }
 
 // This is the default template for generated social image.
+// Simplified design for clean TBP branding with Bitcoin orange accents.
 export const defaultImage: SocialImageOptions["imageStructure"] = ({
   cfg,
   userOpts,
@@ -180,21 +178,6 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
   iconBase64,
 }) => {
   const { colorScheme } = userOpts
-  const fontBreakPoint = 32
-  const useSmallerFont = title.length > fontBreakPoint
-
-  // Format date if available
-  const rawDate = getDate(cfg, fileData)
-  const date = rawDate ? formatDate(rawDate, cfg.locale) : null
-
-  // Calculate reading time
-  const { minutes } = readingTime(fileData.text ?? "")
-  const readingTimeText = i18n(cfg.locale).components.contentMeta.readingTime({
-    minutes: Math.ceil(minutes),
-  })
-
-  // Get tags if available
-  const tags = fileData.frontmatter?.tags ?? []
   const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
   const headerFont = getFontSpecificationName(cfg.theme.typography.header)
 
@@ -206,24 +189,24 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         height: "100%",
         width: "100%",
         backgroundColor: cfg.theme.colors[colorScheme].light,
-        padding: "2.5rem",
+        padding: "3rem",
         fontFamily: bodyFont,
       }}
     >
-      {/* Header Section */}
+      {/* Header Section - Small and subtle */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
           gap: "1rem",
-          marginBottom: "0.5rem",
+          marginBottom: "2rem",
         }}
       >
         {iconBase64 && (
           <img
             src={iconBase64}
-            width={56}
-            height={56}
+            width={48}
+            height={48}
             style={{
               borderRadius: "50%",
             }}
@@ -232,7 +215,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         <div
           style={{
             display: "flex",
-            fontSize: 32,
+            fontSize: 24,
             color: cfg.theme.colors[colorScheme].gray,
             fontFamily: bodyFont,
           }}
@@ -241,27 +224,39 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         </div>
       </div>
 
-      {/* Title Section */}
+      {/* Title Section with Orange Accent Bar */}
       <div
         style={{
           display: "flex",
-          marginTop: "1rem",
-          marginBottom: "1.5rem",
+          alignItems: "center",
+          gap: "1.5rem",
+          marginBottom: "2rem",
         }}
       >
+        {/* Orange accent bar */}
+        <div
+          style={{
+            width: "8px",
+            height: "200px",
+            backgroundColor: cfg.theme.colors[colorScheme].secondary,
+            borderRadius: "4px",
+            flexShrink: 0,
+          }}
+        />
         <h1
           style={{
             margin: 0,
-            fontSize: useSmallerFont ? 64 : 72,
+            fontSize: 86,
             fontFamily: headerFont,
             fontWeight: 700,
             color: cfg.theme.colors[colorScheme].dark,
-            lineHeight: 1.2,
+            lineHeight: 1.1,
             display: "-webkit-box",
             WebkitBoxOrient: "vertical",
-            WebkitLineClamp: 2,
+            WebkitLineClamp: 3,
             overflow: "hidden",
             textOverflow: "ellipsis",
+            flex: 1,
           }}
         >
           {title}
@@ -269,108 +264,51 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
       </div>
 
       {/* Description Section */}
-      <div
-        style={{
-          display: "flex",
-          flex: 1,
-          fontSize: 36,
-          color: cfg.theme.colors[colorScheme].darkgray,
-          lineHeight: 1.4,
-        }}
-      >
-        <p
+      {description && (
+        <div
           style={{
-            margin: 0,
-            display: "-webkit-box",
-            WebkitBoxOrient: "vertical",
-            WebkitLineClamp: 5,
-            overflow: "hidden",
-            textOverflow: "ellipsis",
+            display: "flex",
+            flex: 1,
+            fontSize: 32,
+            color: cfg.theme.colors[colorScheme].darkgray,
+            lineHeight: 1.5,
+            paddingLeft: "2.5rem",
           }}
         >
-          {description}
-        </p>
-      </div>
+          <p
+            style={{
+              margin: 0,
+              display: "-webkit-box",
+              WebkitBoxOrient: "vertical",
+              WebkitLineClamp: 4,
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+            }}
+          >
+            {description}
+          </p>
+        </div>
+      )}
 
-      {/* Footer with Metadata */}
+      {/* Footer with TBP Branding */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between",
-          marginTop: "2rem",
+          justifyContent: "flex-end",
+          marginTop: "auto",
           paddingTop: "2rem",
-          borderTop: `1px solid ${cfg.theme.colors[colorScheme].lightgray}`,
         }}
       >
-        {/* Left side - Date and Reading Time */}
         <div
           style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "2rem",
-            color: cfg.theme.colors[colorScheme].gray,
             fontSize: 28,
+            color: cfg.theme.colors[colorScheme].secondary,
+            fontWeight: 600,
+            fontFamily: bodyFont,
           }}
         >
-          {date && (
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <svg
-                style={{ marginRight: "0.5rem" }}
-                width="28"
-                height="28"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-              >
-                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="16" y1="2" x2="16" y2="6"></line>
-                <line x1="8" y1="2" x2="8" y2="6"></line>
-                <line x1="3" y1="10" x2="21" y2="10"></line>
-              </svg>
-              {date}
-            </div>
-          )}
-          <div style={{ display: "flex", alignItems: "center" }}>
-            <svg
-              style={{ marginRight: "0.5rem" }}
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-            >
-              <circle cx="12" cy="12" r="10"></circle>
-              <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-            {readingTimeText}
-          </div>
-        </div>
-
-        {/* Right side - Tags */}
-        <div
-          style={{
-            display: "flex",
-            gap: "0.5rem",
-            flexWrap: "wrap",
-            justifyContent: "flex-end",
-            maxWidth: "60%",
-          }}
-        >
-          {tags.slice(0, 3).map((tag: string) => (
-            <div
-              style={{
-                display: "flex",
-                padding: "0.5rem 1rem",
-                backgroundColor: cfg.theme.colors[colorScheme].highlight,
-                color: cfg.theme.colors[colorScheme].secondary,
-                borderRadius: "10px",
-                fontSize: 24,
-              }}
-            >
-              #{tag}
-            </div>
-          ))}
+          The Bitcoin Podcast Network
         </div>
       </div>
     </div>

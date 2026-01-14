@@ -19,6 +19,7 @@ tags:
   - BTC
   - ABSRDST
   - InItForTheTech
+socialImage: 'https://i.ytimg.com/vi/TGrPrqoerdQ/maxresdefault.jpg'
 ---
 ## Episode Description
 

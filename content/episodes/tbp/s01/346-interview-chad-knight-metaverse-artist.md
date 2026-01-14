@@ -1,16 +1,17 @@
 ---
-title: "Interview #346 - Chad Knight Metaverse Artist"
-date: 2021-04-13
+title: 'Interview #346 - Chad Knight Metaverse Artist'
+date: 2021-04-13T00:00:00.000Z
 draft: false
 episodeNumber: 346
 youtubeId: WnjVdWXt3Nk
-thumbnail: https://i.ytimg.com/vi/WnjVdWXt3Nk/maxresdefault.jpg
-duration: 1:09:46
+thumbnail: 'https://i.ytimg.com/vi/WnjVdWXt3Nk/maxresdefault.jpg'
+duration: 4186
 syncedAt: 2025-10-06T18:34:57.219Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/WnjVdWXt3Nk/maxresdefault.jpg'
 ---
 ## Episode Description
 

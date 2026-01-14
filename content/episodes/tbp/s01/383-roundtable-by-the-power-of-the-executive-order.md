@@ -1,16 +1,17 @@
 ---
-title: "The Bitcoin Podcast Roundtable #383- By The Power Of The Executive Order"
-date: 2022-02-03
+title: 'The Bitcoin Podcast Roundtable #383- By The Power Of The Executive Order'
+date: 2022-02-03T00:00:00.000Z
 draft: false
 episodeNumber: 383
 youtubeId: SwVPcaG4WiE
-thumbnail: https://i.ytimg.com/vi/SwVPcaG4WiE/maxresdefault.jpg
-duration: 1:08:59
+thumbnail: 'https://i.ytimg.com/vi/SwVPcaG4WiE/maxresdefault.jpg'
+duration: 4139
 syncedAt: 2025-10-06T18:34:57.233Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/SwVPcaG4WiE/maxresdefault.jpg'
 ---
 ## Episode Description
 

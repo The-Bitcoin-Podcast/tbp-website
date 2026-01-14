@@ -1,15 +1,18 @@
 ---
-title: "DEE WEEKLY 5: SEC pivot, Europe piloted blockchain-settled bonds, ZKsync interoperability"
-date: 2025-06-16
+title: >-
+  DEE WEEKLY 5: SEC pivot, Europe piloted blockchain-settled bonds, ZKsync
+  interoperability
+date: 2025-06-16T00:00:00.000Z
 draft: false
 episodeNumber: 168
 youtubeId: ozvUodm0Nd4
-thumbnail: https://i.ytimg.com/vi/ozvUodm0Nd4/maxresdefault.jpg
-duration: 7:31
+thumbnail: 'https://i.ytimg.com/vi/ozvUodm0Nd4/maxresdefault.jpg'
+duration: 451
 syncedAt: 2025-10-06T18:34:57.244Z
 status: available
 tags:
   - Dee-weekly
+socialImage: 'https://i.ytimg.com/vi/ozvUodm0Nd4/maxresdefault.jpg'
 ---
 ## Episode Description
 

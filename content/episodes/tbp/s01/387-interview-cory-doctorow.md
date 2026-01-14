@@ -1,16 +1,17 @@
 ---
-title: "Interview #387 - Cory Doctorow"
-date: 2022-03-14
+title: 'Interview #387 - Cory Doctorow'
+date: 2022-03-14T00:00:00.000Z
 draft: false
 episodeNumber: 387
 youtubeId: jr1nXPOsDMc
-thumbnail: https://i.ytimg.com/vi/jr1nXPOsDMc/maxresdefault.jpg
-duration: 56:22
+thumbnail: 'https://i.ytimg.com/vi/jr1nXPOsDMc/maxresdefault.jpg'
+duration: 3382
 syncedAt: 2025-10-06T18:34:57.235Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/jr1nXPOsDMc/maxresdefault.jpg'
 ---
 ## Episode Description
 

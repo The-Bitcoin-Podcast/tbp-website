@@ -1,16 +1,17 @@
 ---
-title: "Behind the Scenes #217"
-date: 2018-08-04
+title: 'Behind the Scenes #217'
+date: 2018-08-04T00:00:00.000Z
 draft: false
 episodeNumber: 217
 youtubeId: 8bXoxJtY_sg
-thumbnail: https://i.ytimg.com/vi/8bXoxJtY_sg/maxresdefault.jpg
-duration: 1:20:22
+thumbnail: 'https://i.ytimg.com/vi/8bXoxJtY_sg/maxresdefault.jpg'
+duration: 4822
 syncedAt: 2025-10-06T18:34:57.203Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/8bXoxJtY_sg/maxresdefault.jpg'
 ---
 ## Episode Description
 

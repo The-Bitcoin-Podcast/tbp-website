@@ -1,16 +1,17 @@
 ---
-title: "TBP Interview: Scott Rose"
-date: 2015-08-16
+title: 'TBP Interview: Scott Rose'
+date: 2015-08-16T00:00:00.000Z
 draft: false
 episodeNumber: 13
 youtubeId: pKBx-LT68V0
-thumbnail: https://i.ytimg.com/vi/pKBx-LT68V0/hqdefault.jpg
-duration: 36:25
+thumbnail: 'https://i.ytimg.com/vi/pKBx-LT68V0/hqdefault.jpg'
+duration: 2185
 syncedAt: 2025-10-06T18:34:17.478Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/pKBx-LT68V0/hqdefault.jpg'
 ---
 ## Episode Description
 

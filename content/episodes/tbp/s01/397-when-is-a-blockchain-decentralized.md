@@ -1,14 +1,15 @@
 ---
 title: When is a Blockchain Decentralized?
-date: 2022-07-07
+date: 2022-07-07T00:00:00.000Z
 draft: false
 episodeNumber: 397
 youtubeId: dsgwBeJDBzY
-thumbnail: https://i.ytimg.com/vi/dsgwBeJDBzY/maxresdefault.jpg
-duration: 47:24
+thumbnail: 'https://i.ytimg.com/vi/dsgwBeJDBzY/maxresdefault.jpg'
+duration: 2844
 syncedAt: 2025-10-06T18:34:57.237Z
 status: available
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/dsgwBeJDBzY/maxresdefault.jpg'
 ---
 ## Episode Description
 

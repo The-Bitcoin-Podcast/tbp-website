@@ -1,15 +1,16 @@
 ---
-title: "DEE WEEKLY 6: Circle's IPO, India regulates, Bitcoin is Resistant"
-date: 2025-06-16
+title: 'DEE WEEKLY 6: Circle''s IPO, India regulates, Bitcoin is Resistant'
+date: 2025-06-16T00:00:00.000Z
 draft: false
 episodeNumber: 169
 youtubeId: 89UJG75wgY4
-thumbnail: https://i.ytimg.com/vi/89UJG75wgY4/maxresdefault.jpg
-duration: 8:33
+thumbnail: 'https://i.ytimg.com/vi/89UJG75wgY4/maxresdefault.jpg'
+duration: 513
 syncedAt: 2025-10-06T18:34:57.244Z
 status: available
 tags:
   - Dee-weekly
+socialImage: 'https://i.ytimg.com/vi/89UJG75wgY4/maxresdefault.jpg'
 ---
 ## Episode Description
 

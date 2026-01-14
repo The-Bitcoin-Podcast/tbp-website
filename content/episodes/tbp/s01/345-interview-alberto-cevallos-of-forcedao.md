@@ -1,15 +1,16 @@
 ---
-title: "Interview #345 - Alberto Cevallos of ForceDao"
-date: 2021-03-29
+title: 'Interview #345 - Alberto Cevallos of ForceDao'
+date: 2021-03-29T00:00:00.000Z
 draft: false
 episodeNumber: 345
 youtubeId: hXNyrn1jIrQ
-thumbnail: https://i.ytimg.com/vi/hXNyrn1jIrQ/maxresdefault.jpg
-duration: 44:16
+thumbnail: 'https://i.ytimg.com/vi/hXNyrn1jIrQ/maxresdefault.jpg'
+duration: 2656
 syncedAt: 2025-10-06T18:34:57.218Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/hXNyrn1jIrQ/maxresdefault.jpg'
 ---
 ## Watch Episode
 

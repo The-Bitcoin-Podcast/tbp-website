@@ -1,15 +1,16 @@
 ---
-title: "Interview #367 - Nathan, Wes, & Darcy of Ubitquity"
-date: 2021-09-13
+title: 'Interview #367 - Nathan, Wes, & Darcy of Ubitquity'
+date: 2021-09-13T00:00:00.000Z
 draft: false
 episodeNumber: 367
 youtubeId: 6XjlH2QAYOI
-thumbnail: https://i.ytimg.com/vi/6XjlH2QAYOI/maxresdefault.jpg
-duration: 1:02:27
+thumbnail: 'https://i.ytimg.com/vi/6XjlH2QAYOI/maxresdefault.jpg'
+duration: 3747
 syncedAt: 2025-10-06T18:34:57.229Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/6XjlH2QAYOI/maxresdefault.jpg'
 ---
 ## Episode Description
 Jessie, Dee, and Corey interview returning company Ubitquity with its members [[Nathan Wosnack]], Wes, and Darcy. Ubitquity is a company that is seeking to allow individuals to purchase property using blockchain technology with their crypto holdings.    

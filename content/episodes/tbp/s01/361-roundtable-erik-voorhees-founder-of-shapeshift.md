@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #361 Erik Voorhees - Founder of ShapeShift"
-date: 2021-07-22
+title: 'Roundtable #361 Erik Voorhees - Founder of ShapeShift'
+date: 2021-07-22T00:00:00.000Z
 draft: false
 episodeNumber: 361
 youtubeId: mGM77wYnRMo
-thumbnail: https://i.ytimg.com/vi/mGM77wYnRMo/maxresdefault.jpg
-duration: 57:21
+thumbnail: 'https://i.ytimg.com/vi/mGM77wYnRMo/maxresdefault.jpg'
+duration: 3441
 syncedAt: 2025-10-06T18:34:57.224Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/mGM77wYnRMo/maxresdefault.jpg'
 ---
 ## Episode Description
 

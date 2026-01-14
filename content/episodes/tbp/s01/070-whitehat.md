@@ -1,16 +1,17 @@
 ---
 title: TBP70 - Whitehat
-date: 2016-07-13
+date: 2016-07-13T00:00:00.000Z
 draft: false
 episodeNumber: 70
 youtubeId: VRrsXVeALBs
-thumbnail: https://i.ytimg.com/vi/VRrsXVeALBs/maxresdefault.jpg
-duration: 1:13:45
+thumbnail: 'https://i.ytimg.com/vi/VRrsXVeALBs/maxresdefault.jpg'
+duration: 4425
 syncedAt: 2025-10-06T18:34:17.479Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/VRrsXVeALBs/maxresdefault.jpg'
 ---
 ## Episode Description
 

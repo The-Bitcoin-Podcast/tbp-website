@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #342- Origin Story"
-date: 2021-03-06
+title: 'Roundtable #342- Origin Story'
+date: 2021-03-06T00:00:00.000Z
 draft: true
 episodeNumber: 342
 youtubeId: YMPbA_SewOU
-thumbnail: https://i.ytimg.com/vi/YMPbA_SewOU/maxresdefault.jpg
-duration: 1:33:23
+thumbnail: 'https://i.ytimg.com/vi/YMPbA_SewOU/maxresdefault.jpg'
+duration: 5603
 syncedAt: 2025-10-06T18:34:57.215Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/YMPbA_SewOU/maxresdefault.jpg'
 ---
 ## Episode Description
 

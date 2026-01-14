@@ -9,6 +9,8 @@ thumbnail: >-
 duration: '20:34'
 syncedAt: '2026-01-01T21:40:18.169Z'
 status: available
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
 ---
 ## Episode Description
 

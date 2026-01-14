@@ -1,16 +1,17 @@
 ---
-title: "Interview #377 - Dan Edlebeck CEO of Exidio"
-date: 2021-12-13
+title: 'Interview #377 - Dan Edlebeck CEO of Exidio'
+date: 2021-12-13T00:00:00.000Z
 draft: false
 episodeNumber: 377
 youtubeId: 8ZwMYiP387g
-thumbnail: https://i.ytimg.com/vi/8ZwMYiP387g/maxresdefault.jpg
-duration: 49:56
+thumbnail: 'https://i.ytimg.com/vi/8ZwMYiP387g/maxresdefault.jpg'
+duration: 2996
 syncedAt: 2025-10-06T18:34:57.232Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/8ZwMYiP387g/maxresdefault.jpg'
 ---
 ## Episode Description
 

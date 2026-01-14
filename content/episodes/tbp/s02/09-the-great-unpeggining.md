@@ -1,13 +1,14 @@
 ---
 title: The Great Unpeggining
-date: 2025-11-08
+date: 2025-11-08T00:00:00.000Z
 draft: false
 episodeNumber: 189
 youtubeId: cF1VKC_s3DQ
-thumbnail: https://i.ytimg.com/vi/cF1VKC_s3DQ/maxresdefault.jpg
-duration: 1:00:05
+thumbnail: 'https://i.ytimg.com/vi/cF1VKC_s3DQ/maxresdefault.jpg'
+duration: 3605
 syncedAt: 2025-12-09T15:47:48.786Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/cF1VKC_s3DQ/maxresdefault.jpg'
 ---
 ## Episode Description
 

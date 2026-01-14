@@ -23,6 +23,7 @@ tags:
   - BTC
   - ETH
   - ETC
+socialImage: 'https://i.ytimg.com/vi/qWu_NTx97xM/maxresdefault.jpg'
 ---
 ## Episode Description
 

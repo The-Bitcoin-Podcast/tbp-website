@@ -1,13 +1,14 @@
 ---
 title: The Math ain't Mathing
-date: 2022-08-05
+date: 2022-08-05T00:00:00.000Z
 draft: false
 episodeNumber: 134
 youtubeId: 8H12JIOY6KU
-thumbnail: https://i.ytimg.com/vi/8H12JIOY6KU/maxresdefault.jpg
-duration: 56:30
+thumbnail: 'https://i.ytimg.com/vi/8H12JIOY6KU/maxresdefault.jpg'
+duration: 3390
 syncedAt: 2025-10-06T18:34:57.237Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/8H12JIOY6KU/maxresdefault.jpg'
 ---
 ## Episode Description
 

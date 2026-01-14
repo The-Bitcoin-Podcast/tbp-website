@@ -1,21 +1,27 @@
 ---
-title: "Personals: Griff Green"
-date: 2021-05-20
+title: 'Personals: Griff Green'
+date: 2021-05-20T00:00:00.000Z
 draft: false
 episodeNumber: 102
 rssGuid: 91fa4e86-6da4-4d99-8870-994349ca6421
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345777/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374143-44100-1-65a382edafacf2f4.mp3
-duration: 1:07:27
-description: On this Epiosde Dr.Corey Petty interviews Griff Green about incentivizing a better world through community building and technology.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345777/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374143-44100-1-65a382edafacf2f4.mp3
+duration: 4047
+description: >-
+  On this Epiosde Dr.Corey Petty interviews Griff Green about incentivizing a
+  better world through community building and technology.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.609Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
 tags:
   - HashingItOut
   - personals
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
 ---
 ## Episode Description
 

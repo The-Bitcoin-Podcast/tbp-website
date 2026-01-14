@@ -1,15 +1,22 @@
 ---
-title: "Interview: Fubuloubu"
-date: 2026-01-14
+title: 'Interview: Fubuloubu'
+date: 2026-01-14T00:00:00.000Z
 draft: false
 episodeNumber: 15
 youtubeId: s4fpBIQryoc
-thumbnail: https://i.ytimg.com/vi/s4fpBIQryoc/maxresdefault.jpg
-duration: 57:49
+thumbnail: 'https://i.ytimg.com/vi/s4fpBIQryoc/maxresdefault.jpg'
+duration: 3469
 syncedAt: 2026-01-14T16:50:34.092Z
 status: available
 tags:
   - TBP
+description: >-
+  In this episode, Corey and Jessie talk with fubuloubu, founder of ApeWorX and
+  Silverback. We discuss our history in the ecosystem, security, and what
+  developer tooling and automation frameworks bring to the table. We also dive
+  into what role AI plays in the future development of blockchains and
+  automation tooling.
+socialImage: 'https://i.ytimg.com/vi/s4fpBIQryoc/maxresdefault.jpg'
 ---
 ## Watch Episode
 
@@ -26,7 +33,7 @@ tags:
 
 ## Episode Description
 
-In this episode, Corey and Jessie talk with [[fubuloubu]], founder of Apeworx and Silverback. We discuss our history in the ecosystem, security, and what developer tooling and automation frameworks bring to the table. We also dive into what role AI plays in the future development of blockchains and automation tooling.   
+In this episode, Corey and Jessie talk with [[fubuloubu]], founder of ApeWorX and Silverback. We discuss our history in the ecosystem, security, and what developer tooling and automation frameworks bring to the table. We also dive into what role AI plays in the future development of blockchains and automation tooling.   
   
 **Links:**  
 - Ape Framework Github: [https://github.com/ApeWorX](https://github.com/ApeWorX)  

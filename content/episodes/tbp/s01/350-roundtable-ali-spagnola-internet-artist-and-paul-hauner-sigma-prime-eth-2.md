@@ -1,16 +1,19 @@
 ---
-title: "Roundtable #350 - Ali Spagnola Internet Artist and Paul Hauner Sigma Prime ETH-2"
-date: 2021-04-29
+title: >-
+  Roundtable #350 - Ali Spagnola Internet Artist and Paul Hauner Sigma Prime
+  ETH-2
+date: 2021-04-29T00:00:00.000Z
 draft: false
 episodeNumber: 350
 youtubeId: 3SPfdUvdCuU
-thumbnail: https://i.ytimg.com/vi/3SPfdUvdCuU/hqdefault.jpg
-duration: 1:53:59
+thumbnail: 'https://i.ytimg.com/vi/3SPfdUvdCuU/hqdefault.jpg'
+duration: 6839
 syncedAt: 2025-10-06T18:34:57.220Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/3SPfdUvdCuU/hqdefault.jpg'
 ---
 ## Episode Description
 

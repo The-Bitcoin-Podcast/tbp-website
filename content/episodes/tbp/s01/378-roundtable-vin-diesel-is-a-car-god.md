@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #378 - Vin Diesel is a Car God"
-date: 2021-12-16
+title: 'Roundtable #378 - Vin Diesel is a Car God'
+date: 2021-12-16T00:00:00.000Z
 draft: false
 episodeNumber: 378
 youtubeId: KSjSCq1v2co
-thumbnail: https://i.ytimg.com/vi/KSjSCq1v2co/maxresdefault.jpg
-duration: 1:07:05
+thumbnail: 'https://i.ytimg.com/vi/KSjSCq1v2co/maxresdefault.jpg'
+duration: 4025
 syncedAt: 2025-10-06T18:34:57.232Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/KSjSCq1v2co/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,11 +1,12 @@
 ---
-title: "Personals: Simona Pop | Creating Intentional Communities"
-date: 2023-10-20
+title: 'Personals: Simona Pop | Creating Intentional Communities'
+date: 2023-10-20T00:00:00.000Z
 draft: false
 episodeNumber: 150
 rssGuid: eed5b8de-5f2f-4900-936e-27d72d7deea6
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345687/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374037-44100-2-bf892cbddc0e77d6.mp3
-duration: 38:50
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345687/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374037-44100-2-bf892cbddc0e77d6.mp3
+duration: 2330
 description: HIO Personals
 explicit: false
 syncedAt: 2026-01-01T21:53:35.591Z
@@ -13,10 +14,13 @@ status: available
 hasPlaceholders: false
 author:
   - Corey Petty
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
 tags:
   - HashingItOut
   - personals
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
 ---
 ## Episode Description
 

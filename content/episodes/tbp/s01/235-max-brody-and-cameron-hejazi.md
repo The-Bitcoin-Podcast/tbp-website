@@ -1,16 +1,17 @@
 ---
 title: Max Brody & Cameron Hejazi
-date: 2018-12-09
+date: 2018-12-09T00:00:00.000Z
 draft: false
 episodeNumber: 235
 youtubeId: E2m-7TtO5lg
-thumbnail: https://i.ytimg.com/vi/E2m-7TtO5lg/maxresdefault.jpg
-duration: 2:16:05
+thumbnail: 'https://i.ytimg.com/vi/E2m-7TtO5lg/maxresdefault.jpg'
+duration: 8165
 syncedAt: 2025-10-06T18:34:57.212Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/E2m-7TtO5lg/maxresdefault.jpg'
 ---
 ## Episode Description
 

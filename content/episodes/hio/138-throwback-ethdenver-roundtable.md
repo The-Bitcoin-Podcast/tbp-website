@@ -1,12 +1,15 @@
 ---
-title: "Throwback: ETHDenver roundtable"
-date: 2023-03-08
+title: 'Throwback: ETHDenver roundtable'
+date: 2023-03-08T00:00:00.000Z
 draft: false
 episodeNumber: 138
 rssGuid: 969e1309-96d9-4c42-9613-caf1a5af050c
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345690/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374039-44100-2-f37c7e55c1432924.mp3
-duration: 37:28
-description: In a Bitcoin Podcast throwback, Corey and Jessie talk about their time at ETHDenver and answer questions from Christian and Dee.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345690/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374039-44100-2-f37c7e55c1432924.mp3
+duration: 2248
+description: >-
+  In a Bitcoin Podcast throwback, Corey and Jessie talk about their time at
+  ETHDenver and answer questions from Christian and Dee.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.599Z
 status: available
@@ -16,7 +19,10 @@ author:
   - Demetrick Ferguson
   - Jessie Santiago
   - Christian Noguera
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e719effd6cb389d7.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e719effd6cb389d7.jpg
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e719effd6cb389d7.jpg
 ---
 ## Episode Description
 

@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #370 - I feel wreck'd without my China Girl"
-date: 2021-09-30
+title: 'Roundtable #370 - I feel wreck''d without my China Girl'
+date: 2021-09-30T00:00:00.000Z
 draft: false
 episodeNumber: 370
 youtubeId: S-0OXjl9xaE
-thumbnail: https://i.ytimg.com/vi/S-0OXjl9xaE/maxresdefault.jpg
-duration: 1:13:02
+thumbnail: 'https://i.ytimg.com/vi/S-0OXjl9xaE/maxresdefault.jpg'
+duration: 4382
 syncedAt: 2025-10-06T18:34:57.230Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/S-0OXjl9xaE/maxresdefault.jpg'
 ---
 ## Episode Description
 

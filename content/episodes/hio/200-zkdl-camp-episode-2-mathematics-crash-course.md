@@ -1,16 +1,17 @@
 ---
-title: "ZKDL Camp - Episode 2: Mathematics Crash Course"
-date: 2025-12-28
+title: 'ZKDL Camp - Episode 2: Mathematics Crash Course'
+date: 2025-12-28T00:00:00.000Z
 draft: false
 episodeNumber: 200
 youtubeId: P2MtbyilyD4
-thumbnail: https://i.ytimg.com/vi/P2MtbyilyD4/maxresdefault.jpg
-duration: 1:04:32
+thumbnail: 'https://i.ytimg.com/vi/P2MtbyilyD4/maxresdefault.jpg'
+duration: 3872
 syncedAt: 2026-01-01T16:00:43.989Z
 status: available
 tags:
   - HashingItOut
   - zkdl
+socialImage: 'https://i.ytimg.com/vi/P2MtbyilyD4/maxresdefault.jpg'
 ---
 ## Episode Description
 

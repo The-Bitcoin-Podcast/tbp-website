@@ -1,16 +1,17 @@
 ---
 title: Ronnie Moas
-date: 2018-12-16
+date: 2018-12-16T00:00:00.000Z
 draft: false
 episodeNumber: 236
 youtubeId: a-PnkQlw44E
-thumbnail: https://i.ytimg.com/vi/a-PnkQlw44E/maxresdefault.jpg
-duration: 1:18:44
+thumbnail: 'https://i.ytimg.com/vi/a-PnkQlw44E/maxresdefault.jpg'
+duration: 4724
 syncedAt: 2025-10-06T18:34:57.214Z
 status: available
-season: "1"
+season: '1'
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/a-PnkQlw44E/maxresdefault.jpg'
 ---
 ## Episode Description
 

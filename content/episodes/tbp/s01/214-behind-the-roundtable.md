@@ -1,16 +1,17 @@
 ---
-title: "Behind the Roundtable #214"
-date: 2018-07-21
+title: 'Behind the Roundtable #214'
+date: 2018-07-21T00:00:00.000Z
 draft: false
 episodeNumber: 214
 youtubeId: KkoOsY5Am3c
-thumbnail: https://i.ytimg.com/vi/KkoOsY5Am3c/hqdefault.jpg
-duration: 58:56
+thumbnail: 'https://i.ytimg.com/vi/KkoOsY5Am3c/hqdefault.jpg'
+duration: 3536
 syncedAt: 2025-10-06T18:34:57.202Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/KkoOsY5Am3c/hqdefault.jpg'
 ---
 ## Episode Description
 

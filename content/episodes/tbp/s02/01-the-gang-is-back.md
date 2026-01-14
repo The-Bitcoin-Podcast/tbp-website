@@ -1,16 +1,17 @@
 ---
 title: THE GANG IS BACK
-date: 2025-04-27
+date: 2025-04-27T00:00:00.000Z
 draft: false
 episodeNumber: 1
 youtubeId: dC4TKn38C9c
-thumbnail: https://i.ytimg.com/vi/dC4TKn38C9c/maxresdefault.jpg
-duration: 38:30
+thumbnail: 'https://i.ytimg.com/vi/dC4TKn38C9c/maxresdefault.jpg'
+duration: 2310
 syncedAt: 2025-10-06T18:34:57.238Z
 status: available
 tags:
   - TBP
-season: "2"
+season: '2'
+socialImage: 'https://i.ytimg.com/vi/dC4TKn38C9c/maxresdefault.jpg'
 ---
 ## Watch Episode
 

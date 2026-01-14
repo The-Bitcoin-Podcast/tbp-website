@@ -1,13 +1,14 @@
 ---
 title: Fusaka To Me
-date: 2025-12-06
+date: 2025-12-06T00:00:00.000Z
 draft: false
 episodeNumber: 192
-youtubeId: -EZapxMeIWc
-thumbnail: https://i.ytimg.com/vi/-EZapxMeIWc/maxresdefault.jpg
-duration: 46:41
+youtubeId: '-EZapxMeIWc'
+thumbnail: 'https://i.ytimg.com/vi/-EZapxMeIWc/maxresdefault.jpg'
+duration: 2801
 syncedAt: 2025-12-09T15:47:48.787Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/-EZapxMeIWc/maxresdefault.jpg'
 ---
 ## Episode Description
 

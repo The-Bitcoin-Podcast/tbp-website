@@ -1,17 +1,18 @@
 ---
-title: "Interview #379- Tascha of Tascha Labs"
-date: 2021-12-27
+title: 'Interview #379- Tascha of Tascha Labs'
+date: 2021-12-27T00:00:00.000Z
 draft: false
 episodeNumber: 379
 youtubeId: 2fUH3MaKRto
-thumbnail: https://i.ytimg.com/vi/2fUH3MaKRto/maxresdefault.jpg
-duration: 44:57
+thumbnail: 'https://i.ytimg.com/vi/2fUH3MaKRto/maxresdefault.jpg'
+duration: 2697
 syncedAt: 2025-10-06T18:34:57.232Z
 status: available
 guests:
-  - name: https://opensea.io/assets/0x2a9e4045185c8d778b85610ca96d79bd8ecdc720/1
+  - name: 'https://opensea.io/assets/0x2a9e4045185c8d778b85610ca96d79bd8ecdc720/1'
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/2fUH3MaKRto/maxresdefault.jpg'
 ---
 ## Episode Description
 

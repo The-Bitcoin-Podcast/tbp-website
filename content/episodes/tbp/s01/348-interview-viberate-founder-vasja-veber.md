@@ -1,16 +1,17 @@
 ---
-title: "Interview #348 - Viberate Founder Vasja Veber and Uroš Umek"
-date: 2021-04-25
+title: 'Interview #348 - Viberate Founder Vasja Veber and Uroš Umek'
+date: 2021-04-25T00:00:00.000Z
 draft: false
 episodeNumber: 348
 youtubeId: Ed2_Jts6QCs
-thumbnail: https://i.ytimg.com/vi/Ed2_Jts6QCs/maxresdefault.jpg
-duration: 38:05
+thumbnail: 'https://i.ytimg.com/vi/Ed2_Jts6QCs/maxresdefault.jpg'
+duration: 2285
 syncedAt: 2025-12-09T15:47:48.784Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/Ed2_Jts6QCs/maxresdefault.jpg'
 ---
 
 ## Watch Episode

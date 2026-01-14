@@ -1,14 +1,15 @@
 ---
-title: "TBP Flashback: Episode 38"
-date: 2018-12-01
+title: 'TBP Flashback: Episode 38'
+date: 2018-12-01T00:00:00.000Z
 draft: true
 episodeNumber: 38
 youtubeId: AuMwtGUv824
-thumbnail: https://i.ytimg.com/vi/AuMwtGUv824/maxresdefault.jpg
-duration: 1:09:51
+thumbnail: 'https://i.ytimg.com/vi/AuMwtGUv824/maxresdefault.jpg'
+duration: 4191
 syncedAt: 2025-10-06T18:34:57.211Z
 status: available
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/AuMwtGUv824/maxresdefault.jpg'
 ---
 ## Episode Description
 

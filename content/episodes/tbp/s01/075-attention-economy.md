@@ -1,16 +1,17 @@
 ---
 title: Attention Economy
-date: 2016-07-24
+date: 2016-07-24T00:00:00.000Z
 draft: false
 episodeNumber: 75
 youtubeId: kYg3ZmvD7uk
-thumbnail: https://i.ytimg.com/vi/kYg3ZmvD7uk/maxresdefault.jpg
-duration: 1:21:05
+thumbnail: 'https://i.ytimg.com/vi/kYg3ZmvD7uk/maxresdefault.jpg'
+duration: 4865
 syncedAt: 2025-10-06T18:34:17.480Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/kYg3ZmvD7uk/maxresdefault.jpg'
 ---
 ## Episode Description
 

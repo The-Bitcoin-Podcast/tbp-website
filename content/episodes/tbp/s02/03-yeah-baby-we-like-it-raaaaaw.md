@@ -1,15 +1,16 @@
 ---
-title: Yeah Baby, We Like It Raaaaaw
-date: 2025-08-27
+title: 'Yeah Baby, We Like It Raaaaaw'
+date: 2025-08-27T00:00:00.000Z
 draft: false
 episodeNumber: 186
 youtubeId: 4GTpILipAlc
-thumbnail: https://i.ytimg.com/vi/4GTpILipAlc/maxresdefault.jpg
-duration: 47:59
+thumbnail: 'https://i.ytimg.com/vi/4GTpILipAlc/maxresdefault.jpg'
+duration: 2879
 syncedAt: 2025-10-06T18:34:57.249Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/4GTpILipAlc/maxresdefault.jpg'
 ---
 ## Episode Description
 

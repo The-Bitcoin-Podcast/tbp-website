@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #346: Chad Knight Metaverse Artist"
-date: 2021-04-01
+title: 'Roundtable #346: Chad Knight Metaverse Artist'
+date: 2021-04-01T00:00:00.000Z
 draft: false
 episodeNumber: 346
 youtubeId: hpYClWEXmhI
-thumbnail: https://i.ytimg.com/vi/hpYClWEXmhI/maxresdefault.jpg
-duration: 44:32
+thumbnail: 'https://i.ytimg.com/vi/hpYClWEXmhI/maxresdefault.jpg'
+duration: 2672
 syncedAt: 2025-10-06T18:34:57.218Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/hpYClWEXmhI/maxresdefault.jpg'
 ---
 ## Episode Description
 

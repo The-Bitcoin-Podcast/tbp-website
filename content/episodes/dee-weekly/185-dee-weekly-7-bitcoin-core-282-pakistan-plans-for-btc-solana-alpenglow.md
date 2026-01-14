@@ -10,6 +10,7 @@ syncedAt: '2025-10-06T18:34:57.249Z'
 status: available
 tags:
   - Dee-weekly
+socialImage: 'https://i.ytimg.com/vi/zLCMeP-C6hw/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,15 +1,16 @@
 ---
 title: The Bitcoin Podcast is BACK!
-date: 2025-04-25
+date: 2025-04-25T00:00:00.000Z
 draft: false
 episodeNumber: 138
 youtubeId: J5Hj_RNPcaw
-thumbnail: https://i.ytimg.com/vi/J5Hj_RNPcaw/maxresdefault.jpg
-duration: 0:20
+thumbnail: 'https://i.ytimg.com/vi/J5Hj_RNPcaw/maxresdefault.jpg'
+duration: '0:20'
 syncedAt: 2025-10-06T18:34:57.238Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/J5Hj_RNPcaw/maxresdefault.jpg'
 ---
 ## Episode Description
 

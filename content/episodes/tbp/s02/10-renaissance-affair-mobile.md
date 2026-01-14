@@ -1,13 +1,14 @@
 ---
-title: Renaissance Affair 📱
-date: 2025-11-25
+title: "Renaissance Affair \U0001F4F1"
+date: 2025-11-25T00:00:00.000Z
 draft: true
 episodeNumber: 190
 youtubeId: yrUeVfydjmE
-thumbnail: https://i.ytimg.com/vi/yrUeVfydjmE/maxresdefault.jpg
-duration: 1:00:00
+thumbnail: 'https://i.ytimg.com/vi/yrUeVfydjmE/maxresdefault.jpg'
+duration: 3600
 syncedAt: 2025-12-09T15:47:48.787Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/yrUeVfydjmE/maxresdefault.jpg'
 ---
 ## Episode Description
 

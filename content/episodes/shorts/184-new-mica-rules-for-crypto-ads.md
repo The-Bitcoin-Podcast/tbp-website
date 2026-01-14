@@ -1,15 +1,16 @@
 ---
 title: New MICA rules for Crypto Ads
-date: 2025-06-21
+date: 2025-06-21T00:00:00.000Z
 draft: true
 episodeNumber: 184
 youtubeId: EuNrKL6Kl1M
-thumbnail: https://i.ytimg.com/vi/EuNrKL6Kl1M/maxresdefault.jpg
-duration: 0:23
+thumbnail: 'https://i.ytimg.com/vi/EuNrKL6Kl1M/maxresdefault.jpg'
+duration: '0:23'
 syncedAt: 2025-10-06T18:34:57.249Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/EuNrKL6Kl1M/maxresdefault.jpg'
 ---
 ## Episode Description
 

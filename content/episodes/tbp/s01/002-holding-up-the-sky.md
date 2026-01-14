@@ -1,12 +1,16 @@
 ---
 title: Holding Up the Sky
-date: 2015-06-08
+date: 2015-06-08T00:00:00.000Z
 draft: false
 episodeNumber: 2
 rssGuid: a7fe550cf41a5fab5eab8001a9c76476
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213339-44100-2-6481c2a79cc62829.mp3
-duration: 44:18
-description: What is the Bitcoin climate like in Africa? Bitcoin evangelist Tawanda Kembo joins us all the way from Kenya to elaboration on corruption and bribing as a way of life in Africa and how Bitcoin falls into that scenario.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213339-44100-2-6481c2a79cc62829.mp3
+duration: 2658
+description: >-
+  What is the Bitcoin climate like in Africa? Bitcoin evangelist Tawanda Kembo
+  joins us all the way from Kenya to elaboration on corruption and bribing as a
+  way of life in Africa and how Bitcoin falls into that scenario.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.796Z
 status: available
@@ -15,10 +19,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/35c001d2de0eede6.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/35c001d2de0eede6.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/35c001d2de0eede6.jpg
 ---
 ## Episode Description
 

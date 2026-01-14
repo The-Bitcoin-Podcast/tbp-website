@@ -1,12 +1,22 @@
 ---
 title: The Dual Revolution
-date: 2015-09-07
+date: 2015-09-07T00:00:00.000Z
 draft: false
 episodeNumber: 16
 rssGuid: 779ebcb811b01a3d7e81f3e555bc623b
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982146/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213073-44100-2-782f526e837ba88e.mp3
-duration: 50:00
-description: We just realized that we are in the first dual revolution since 1848! How so? Well, we will tell you! This week, the CEO of iNation, Christian Saucier, designed something to let users submit documents to the blockchain where they can be held securely. With it, users will be able to keep a perfect copy of their passport or deed or will or other legal document in a cryptographically secure place, and be able to access it at anytime using a mobile app. Doesn't that just blow your hair back? We chat about The Byzantine Generals' Problem, as well as why giving your dad bitcoin for his birthday is the most disappointing gift of all-time.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982146/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213073-44100-2-782f526e837ba88e.mp3
+duration: 3000
+description: >-
+  We just realized that we are in the first dual revolution since 1848! How so?
+  Well, we will tell you! This week, the CEO of iNation, Christian Saucier,
+  designed something to let users submit documents to the blockchain where they
+  can be held securely. With it, users will be able to keep a perfect copy of
+  their passport or deed or will or other legal document in a cryptographically
+  secure place, and be able to access it at anytime using a mobile app. Doesn't
+  that just blow your hair back? We chat about The Byzantine Generals' Problem,
+  as well as why giving your dad bitcoin for his birthday is the most
+  disappointing gift of all-time.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.792Z
 status: available
@@ -15,10 +25,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/f34d06153bc05610.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/f34d06153bc05610.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/f34d06153bc05610.jpg
 ---
 ## Episode Description
 

@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #380 - It Is The End of The Year As We Know It"
-date: 2021-12-30
+title: 'Roundtable #380 - It Is The End of The Year As We Know It'
+date: 2021-12-30T00:00:00.000Z
 draft: false
 episodeNumber: 380
 youtubeId: 2LX_sVrFZJY
-thumbnail: https://i.ytimg.com/vi/2LX_sVrFZJY/maxresdefault.jpg
-duration: 54:28
+thumbnail: 'https://i.ytimg.com/vi/2LX_sVrFZJY/maxresdefault.jpg'
+duration: 3268
 syncedAt: 2025-10-06T18:34:57.232Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/2LX_sVrFZJY/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,14 +1,15 @@
 ---
 title: Crypto Isn’t for Everyone...And That Might Be the Point
-date: 2025-12-31
+date: 2025-12-31T00:00:00.000Z
 draft: false
 episodeNumber: 13
 youtubeId: Wndb4xlsgyU
-thumbnail: https://i.ytimg.com/vi/Wndb4xlsgyU/maxresdefault.jpg
-duration: 1:04:37
+thumbnail: 'https://i.ytimg.com/vi/Wndb4xlsgyU/maxresdefault.jpg'
+duration: 3877
 syncedAt: 2026-01-01T16:00:43.990Z
 status: available
-season: "2"
+season: '2'
+socialImage: 'https://i.ytimg.com/vi/Wndb4xlsgyU/maxresdefault.jpg'
 ---
 ## Episode Description
 

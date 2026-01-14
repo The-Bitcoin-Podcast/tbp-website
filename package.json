@@ -19,7 +19,9 @@
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "youtube-sync": "tsx quartz/scripts/youtube-sync.ts",
-    "rss-sync": "tsx quartz/scripts/rss-sync.ts"
+    "rss-sync": "tsx quartz/scripts/rss-sync.ts",
+    "set-episode-images": "tsx scripts/set-episode-social-images.ts",
+    "prebuild": "npm run set-episode-images"
   },
   "engines": {
     "npm": ">=10.9.2",

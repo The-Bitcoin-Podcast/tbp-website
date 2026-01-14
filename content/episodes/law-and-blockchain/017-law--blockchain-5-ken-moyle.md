@@ -19,6 +19,7 @@ tags:
   - TBPN
   - Bitcoin
   - The Bitcoin Podcast Network
+socialImage: 'https://i.ytimg.com/vi/Ver4sh_MwHo/maxresdefault.jpg'
 ---
 ## Episode Description
 

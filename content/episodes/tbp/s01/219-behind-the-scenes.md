@@ -1,16 +1,17 @@
 ---
-title: "Behind the Scenes #219"
-date: 2018-08-17
+title: 'Behind the Scenes #219'
+date: 2018-08-17T00:00:00.000Z
 draft: false
 episodeNumber: 219
 youtubeId: 1TCOwxEXp28
-thumbnail: https://i.ytimg.com/vi/1TCOwxEXp28/maxresdefault.jpg
-duration: 13:39
+thumbnail: 'https://i.ytimg.com/vi/1TCOwxEXp28/maxresdefault.jpg'
+duration: 819
 syncedAt: 2025-10-06T18:34:57.203Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/1TCOwxEXp28/maxresdefault.jpg'
 ---
 ## Episode Description
 

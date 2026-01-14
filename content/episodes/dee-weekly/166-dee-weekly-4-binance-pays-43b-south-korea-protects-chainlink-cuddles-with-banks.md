@@ -1,15 +1,18 @@
 ---
-title: "Dee Weekly 4: Binance Pays $4.3B, South Korea Protects, Chainlink Cuddles with Banks"
-date: 2025-05-27
+title: >-
+  Dee Weekly 4: Binance Pays $4.3B, South Korea Protects, Chainlink Cuddles with
+  Banks
+date: 2025-05-27T00:00:00.000Z
 draft: false
 episodeNumber: 166
 youtubeId: kojaauhYz_k
-thumbnail: https://i.ytimg.com/vi/kojaauhYz_k/maxresdefault.jpg
-duration: 10:53
+thumbnail: 'https://i.ytimg.com/vi/kojaauhYz_k/maxresdefault.jpg'
+duration: 653
 syncedAt: 2025-10-06T18:34:57.243Z
 status: available
 tags:
   - Dee-weekly
+socialImage: 'https://i.ytimg.com/vi/kojaauhYz_k/maxresdefault.jpg'
 ---
 ## Episode Description
 

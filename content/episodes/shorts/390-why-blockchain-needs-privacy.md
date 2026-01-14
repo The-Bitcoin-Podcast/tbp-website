@@ -8,6 +8,7 @@ thumbnail: 'https://i.ytimg.com/vi/NIQpFaMNpDQ/maxresdefault.jpg'
 duration: '0:41'
 syncedAt: '2026-01-14T16:50:34.091Z'
 status: available
+socialImage: 'https://i.ytimg.com/vi/NIQpFaMNpDQ/maxresdefault.jpg'
 ---
 ## Episode Description
 

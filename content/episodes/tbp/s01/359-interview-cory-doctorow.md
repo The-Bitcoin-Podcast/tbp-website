@@ -1,16 +1,17 @@
 ---
-title: "Interview #359 - Cory Doctorow"
-date: 2021-07-05
+title: 'Interview #359 - Cory Doctorow'
+date: 2021-07-05T00:00:00.000Z
 draft: false
 episodeNumber: 359
 youtubeId: WN3q5vKcJPw
-thumbnail: https://i.ytimg.com/vi/WN3q5vKcJPw/maxresdefault.jpg
-duration: 1:28:55
+thumbnail: 'https://i.ytimg.com/vi/WN3q5vKcJPw/maxresdefault.jpg'
+duration: 5335
 syncedAt: 2025-10-06T18:34:57.224Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/WN3q5vKcJPw/maxresdefault.jpg'
 ---
 ## Episode Description
 

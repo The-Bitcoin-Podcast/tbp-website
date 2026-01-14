@@ -19,6 +19,7 @@ tags:
   - Bitcoin
   - Technology
   - BTC
+socialImage: 'https://i.ytimg.com/vi/QhY1-5cPeWE/maxresdefault.jpg'
 ---
 ## Episode Description
 

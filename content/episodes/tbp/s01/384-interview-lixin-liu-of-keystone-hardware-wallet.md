@@ -1,16 +1,17 @@
 ---
-title: "Interview #384 - Lixin Liu of Keystone Hardware Wallet"
-date: 2022-02-14
+title: 'Interview #384 - Lixin Liu of Keystone Hardware Wallet'
+date: 2022-02-14T00:00:00.000Z
 draft: false
 episodeNumber: 384
 youtubeId: DyJ38B7ANYQ
-thumbnail: https://i.ytimg.com/vi/DyJ38B7ANYQ/maxresdefault.jpg
-duration: 36:42
+thumbnail: 'https://i.ytimg.com/vi/DyJ38B7ANYQ/maxresdefault.jpg'
+duration: 2202
 syncedAt: 2025-10-06T18:34:57.233Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/DyJ38B7ANYQ/maxresdefault.jpg'
 ---
 ## Episode Description
 

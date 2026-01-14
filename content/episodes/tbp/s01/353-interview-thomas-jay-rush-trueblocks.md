@@ -1,15 +1,16 @@
 ---
-title: "Interview #353 - Thomas Jay Rush of TrueBlocks"
-date: 2021-05-30
+title: 'Interview #353 - Thomas Jay Rush of TrueBlocks'
+date: 2021-05-30T00:00:00.000Z
 draft: false
 episodeNumber: 353
 youtubeId: 9OG8AeTm1qk
-thumbnail: https://i.ytimg.com/vi/9OG8AeTm1qk/maxresdefault.jpg
-duration: 1:00:35
+thumbnail: 'https://i.ytimg.com/vi/9OG8AeTm1qk/maxresdefault.jpg'
+duration: 3635
 syncedAt: 2025-10-06T18:34:57.222Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/9OG8AeTm1qk/maxresdefault.jpg'
 ---
 ## Episode Description
 

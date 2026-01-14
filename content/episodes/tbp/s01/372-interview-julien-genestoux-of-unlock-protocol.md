@@ -1,16 +1,17 @@
 ---
-title: "Inteview #372 -Julien Genestoux of Unlock Protocol"
-date: 2021-10-19
+title: 'Inteview #372 -Julien Genestoux of Unlock Protocol'
+date: 2021-10-19T00:00:00.000Z
 draft: false
 episodeNumber: 372
 youtubeId: NxM5Ru3bMwI
-thumbnail: https://i.ytimg.com/vi/NxM5Ru3bMwI/maxresdefault.jpg
-duration: 55:15
+thumbnail: 'https://i.ytimg.com/vi/NxM5Ru3bMwI/maxresdefault.jpg'
+duration: 3315
 syncedAt: 2025-10-06T18:34:57.230Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/NxM5Ru3bMwI/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,21 +1,28 @@
 ---
 title: Fetch.ai COO Toby Simpson
-date: 2020-11-05
+date: 2020-11-05T00:00:00.000Z
 draft: false
 episodeNumber: 96
 rssGuid: 7d33b8a4-b5f8-4c27-b0bb-efdd7e86ce06
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345704/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374057-44100-1-fa1b5ecedad0daaa.mp3
-duration: 55:52
-description: Toby Simpson is COO of Fetch.ai. This company is building these Autonomous Economic Agents that can perform proactive economic activity using the combination of blockchain and AI technologies.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345704/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374057-44100-1-fa1b5ecedad0daaa.mp3
+duration: 3352
+description: >-
+  Toby Simpson is COO of Fetch.ai. This company is building these Autonomous
+  Economic Agents that can perform proactive economic activity using the
+  combination of blockchain and AI technologies.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.611Z
 status: available
 hasPlaceholders: false
 author:
   - Corey Petty
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/ffc0d18f8f4b69c8.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/ffc0d18f8f4b69c8.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/ffc0d18f8f4b69c8.jpg
 ---
 ## Episode Description
 

@@ -1,20 +1,27 @@
 ---
 title: Certora - Mooly Sagiv
-date: 2020-08-23
+date: 2020-08-23T00:00:00.000Z
 draft: false
 episodeNumber: 78
 rssGuid: ae2e6b5d-07cb-48d1-9f20-1b68e3395998
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345759/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374120-44100-1-bb234f17c2217a4d.mp3
-duration: 59:52
-description: Certora provides security analysis tools for Smart Contracts. Certora has unique technology called Certora Prover capable of checking at compile-time that all executions of a Smart Contract fulfill a set of security rules.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345759/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374120-44100-1-bb234f17c2217a4d.mp3
+duration: 3592
+description: >-
+  Certora provides security analysis tools for Smart Contracts. Certora has
+  unique technology called Certora Prover capable of checking at compile-time
+  that all executions of a Smart Contract fulfill a set of security rules.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.619Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Collin Cusce
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/d653f0e0e8beccee.jpg
+author: 'Corey Petty, Collin Cusce'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/d653f0e0e8beccee.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/d653f0e0e8beccee.jpg
 ---
 ## Episode Description
 

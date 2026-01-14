@@ -19,6 +19,7 @@ tags:
   - Blockchain
   - InItForTheTech
   - The Bitcoin Podcast Network
+socialImage: 'https://i.ytimg.com/vi/ndOppn0LQzc/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,14 +1,15 @@
 ---
 title: Renaissance Affair
-date: 2025-11-25
+date: 2025-11-25T00:00:00.000Z
 draft: false
 episodeNumber: 191
 youtubeId: N_9K1Nm065I
-thumbnail: https://i.ytimg.com/vi/N_9K1Nm065I/maxresdefault.jpg
-duration: 1:00:02
+thumbnail: 'https://i.ytimg.com/vi/N_9K1Nm065I/maxresdefault.jpg'
+duration: 3602
 syncedAt: 2025-12-09T15:47:48.787Z
 status: available
-season: "2"
+season: '2'
+socialImage: 'https://i.ytimg.com/vi/N_9K1Nm065I/maxresdefault.jpg'
 ---
 ## Episode Description
 

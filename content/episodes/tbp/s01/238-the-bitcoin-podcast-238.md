@@ -1,16 +1,17 @@
 ---
-title: "The Bitcoin Podcast #238"
-date: 2018-12-30
+title: 'The Bitcoin Podcast #238'
+date: 2018-12-30T00:00:00.000Z
 draft: false
 episodeNumber: 238
 youtubeId: qeKOvUPGqhM
-thumbnail: https://i.ytimg.com/vi/qeKOvUPGqhM/maxresdefault.jpg
-duration: 1:08:47
+thumbnail: 'https://i.ytimg.com/vi/qeKOvUPGqhM/maxresdefault.jpg'
+duration: 4127
 syncedAt: 2025-10-06T18:34:57.215Z
 status: available
-season: "1"
+season: '1'
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/qeKOvUPGqhM/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #365 - The Only Good Kanye Is Back When Kanye Was Kanye"
-date: 2021-08-28
+title: 'Roundtable #365 - The Only Good Kanye Is Back When Kanye Was Kanye'
+date: 2021-08-28T00:00:00.000Z
 draft: false
 episodeNumber: 365
 youtubeId: m5-exNXpIK0
-thumbnail: https://i.ytimg.com/vi/m5-exNXpIK0/maxresdefault.jpg
-duration: 1:10:33
+thumbnail: 'https://i.ytimg.com/vi/m5-exNXpIK0/maxresdefault.jpg'
+duration: 4233
 syncedAt: 2025-10-06T18:34:57.228Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/m5-exNXpIK0/maxresdefault.jpg'
 ---
 ## Episode Description
 Our roundtable discussion Jessie, Dee, and Corey discuss the news in cryptospace and it  is kind of weird this week.  

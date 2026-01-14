@@ -1,16 +1,17 @@
 ---
-title: "Interview #358 - Juan M Hernandez CEO of Curio"
-date: 2021-06-28
+title: 'Interview #358 - Juan M Hernandez CEO of Curio'
+date: 2021-06-28T00:00:00.000Z
 draft: false
 episodeNumber: 358
 youtubeId: vDN3iy-nhHc
-thumbnail: https://i.ytimg.com/vi/vDN3iy-nhHc/maxresdefault.jpg
-duration: 50:56
+thumbnail: 'https://i.ytimg.com/vi/vDN3iy-nhHc/maxresdefault.jpg'
+duration: 3056
 syncedAt: 2025-10-06T18:34:57.224Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/vDN3iy-nhHc/maxresdefault.jpg'
 ---
 ## Episode Description
 

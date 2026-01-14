@@ -1,12 +1,21 @@
 ---
 title: The Greatest Truths
-date: 2015-08-17
+date: 2015-08-17T00:00:00.000Z
 draft: false
 episodeNumber: 13
 rssGuid: 165961be88afda28114a92b367a868b9
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89981761/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212671-44100-2-1818f538a92a46e8.mp3
-duration: 50:00
-description: We spawn last episodes ‘digi-dough’ joke into a full blown segment where we ask hip-hop artists (Hoodie Allen, Ace Cosgrove, The Roots, The Cool Kids, Zion I) to spit us a line involving bitcoin. In addition to that, gathering friends, followers and “likers” online can only take you so far in the world of networking. Organizing a ‘meetup’ is a great way to move your virtual network to a tangible territory. In addition, we talk to Scott Rose about the bitcoin climate in Austin and what it takes to successfully maintain Austin as ‘the place to be’ within the bitcoin community.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89981761/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212671-44100-2-1818f538a92a46e8.mp3
+duration: 3000
+description: >-
+  We spawn last episodes ‘digi-dough’ joke into a full blown segment where we
+  ask hip-hop artists (Hoodie Allen, Ace Cosgrove, The Roots, The Cool Kids,
+  Zion I) to spit us a line involving bitcoin. In addition to that, gathering
+  friends, followers and “likers” online can only take you so far in the world
+  of networking. Organizing a ‘meetup’ is a great way to move your virtual
+  network to a tangible territory. In addition, we talk to Scott Rose about the
+  bitcoin climate in Austin and what it takes to successfully maintain Austin as
+  ‘the place to be’ within the bitcoin community.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.793Z
 status: available
@@ -15,10 +24,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/1da43cb4f3a9fdaa.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/1da43cb4f3a9fdaa.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/1da43cb4f3a9fdaa.jpg
 ---
 ## Episode Description
 

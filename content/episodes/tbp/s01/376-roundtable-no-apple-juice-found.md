@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #376 - No Apple Juice Found"
-date: 2021-12-04
+title: 'Roundtable #376 - No Apple Juice Found'
+date: 2021-12-04T00:00:00.000Z
 draft: false
 episodeNumber: 376
 youtubeId: JgSyVQendHw
-thumbnail: https://i.ytimg.com/vi/JgSyVQendHw/maxresdefault.jpg
-duration: 51:51
+thumbnail: 'https://i.ytimg.com/vi/JgSyVQendHw/maxresdefault.jpg'
+duration: 3111
 syncedAt: 2025-10-06T18:34:57.231Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/JgSyVQendHw/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,13 +1,14 @@
 ---
 title: Crypto Scales Technically. Humans Don’t.
-date: 2026-01-07
+date: 2026-01-07T00:00:00.000Z
 draft: false
 episodeNumber: 14
 youtubeId: 9sQZVE7RTqA
-thumbnail: https://i.ytimg.com/vi/9sQZVE7RTqA/maxresdefault.jpg
-duration: 1:03:29
+thumbnail: 'https://i.ytimg.com/vi/9sQZVE7RTqA/maxresdefault.jpg'
+duration: 3809
 syncedAt: 2026-01-14T16:50:34.090Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/9sQZVE7RTqA/maxresdefault.jpg'
 ---
 ## Watch Episode
 

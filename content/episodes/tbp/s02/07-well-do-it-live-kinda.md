@@ -1,15 +1,16 @@
 ---
-title: We'll do it live, kinda.
-date: 2025-09-27
+title: 'We''ll do it live, kinda.'
+date: 2025-09-27T00:00:00.000Z
 draft: false
 episodeNumber: 187
 youtubeId: 0of1gU2vH5I
-thumbnail: https://i.ytimg.com/vi/0of1gU2vH5I/maxresdefault.jpg
-duration: 54:56
+thumbnail: 'https://i.ytimg.com/vi/0of1gU2vH5I/maxresdefault.jpg'
+duration: 3296
 syncedAt: 2025-10-06T18:34:57.249Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/0of1gU2vH5I/maxresdefault.jpg'
 ---
 ## Episode Description
 

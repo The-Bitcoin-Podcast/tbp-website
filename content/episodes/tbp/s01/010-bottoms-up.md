@@ -1,21 +1,30 @@
 ---
 title: Bottoms Up
-date: 2015-07-27
+date: 2015-07-27T00:00:00.000Z
 draft: false
 episodeNumber: 10
 rssGuid: a8e603adafa109fa9ed3d5e7204748bc
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982528/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213477-44100-2-ab4bdf0a915ec4a5.mp3
-duration: 45:31
-description: Every 10th episode we do away with the guests, pour up a few adult beverages and get comfortable. Listening to the show is a lot like hanging out in your Dad’s friends’ garage where all the neighborhood guys are gathering to talk about money. That didn't happen in your neighborhood? Well, enjoy the show anyhow! It's SMAGIC!
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982528/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213477-44100-2-ab4bdf0a915ec4a5.mp3
+duration: 2731
+description: >-
+  Every 10th episode we do away with the guests, pour up a few adult beverages
+  and get comfortable. Listening to the show is a lot like hanging out in your
+  Dad’s friends’ garage where all the neighborhood guys are gathering to talk
+  about money. That didn't happen in your neighborhood? Well, enjoy the show
+  anyhow! It's SMAGIC!
 explicit: false
 syncedAt: 2026-01-03T00:06:18.794Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/40db984d1346c7e1.jpg
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/40db984d1346c7e1.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/40db984d1346c7e1.jpg
 ---
 ## Episode Description
 

@@ -26,6 +26,7 @@ tags:
   - Interviews
   - Demetrick
   - DrPetty
+socialImage: 'https://i.ytimg.com/vi/7h1h50PeQi8/maxresdefault.jpg'
 ---
 ## Episode Description
 

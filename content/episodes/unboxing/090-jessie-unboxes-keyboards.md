@@ -37,6 +37,7 @@ tags:
   - unboxing
   - unbox
   - keycaps
+socialImage: 'https://i.ytimg.com/vi/1zUkzRvIyIc/maxresdefault.jpg'
 ---
 ## Episode Description
 

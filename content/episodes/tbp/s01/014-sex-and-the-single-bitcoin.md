@@ -1,12 +1,20 @@
 ---
 title: Sex and the Single Bitcoin
-date: 2015-08-24
+date: 2015-08-24T00:00:00.000Z
 draft: false
 episodeNumber: 14
 rssGuid: deecf40739d9398975114f50f1c3a10e
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982425/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213362-44100-2-df60f782aca82536.mp3
-duration: 43:30
-description: Girls Gone Wild go for Bitcoin as Sexy Saffron swings by this week to tell us about her site -- the world's 1st BTC only porn membership site! In addition, for the first time in the history of Bitcoin, its very existence has been put into peril by way of what is termed a ‘Hard Fork’ of the protocol. We have watched the situation develop, and we provide our thoughts on the situation as the topic is reaching alarming levels between debaters in the bitcoin community.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982425/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213362-44100-2-df60f782aca82536.mp3
+duration: 2610
+description: >-
+  Girls Gone Wild go for Bitcoin as Sexy Saffron swings by this week to tell us
+  about her site -- the world's 1st BTC only porn membership site! In addition,
+  for the first time in the history of Bitcoin, its very existence has been put
+  into peril by way of what is termed a ‘Hard Fork’ of the protocol. We have
+  watched the situation develop, and we provide our thoughts on the situation as
+  the topic is reaching alarming levels between debaters in the bitcoin
+  community.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.793Z
 status: available
@@ -15,10 +23,13 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/2b786a35a4df798f.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/2b786a35a4df798f.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/2b786a35a4df798f.jpg
 ---
 ## Episode Description
 

@@ -1,16 +1,17 @@
 ---
-title: " Interview #351- Jonny Huxtable of ChainLink/LinkPool"
-date: 2021-05-10
+title: ' Interview #351- Jonny Huxtable of ChainLink/LinkPool'
+date: 2021-05-10T00:00:00.000Z
 draft: false
 episodeNumber: 351
 youtubeId: v7bnZpXtisA
-thumbnail: https://i.ytimg.com/vi/v7bnZpXtisA/maxresdefault.jpg
-duration: 44:23
+thumbnail: 'https://i.ytimg.com/vi/v7bnZpXtisA/maxresdefault.jpg'
+duration: 2663
 syncedAt: 2025-10-06T18:34:57.221Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/v7bnZpXtisA/maxresdefault.jpg'
 ---
 ## Episode Description
 

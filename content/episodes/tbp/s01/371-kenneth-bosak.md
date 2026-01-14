@@ -1,15 +1,16 @@
 ---
-title: "Rountable #371 - Kenneth Bosak"
-date: 2021-10-11
+title: 'Rountable #371 - Kenneth Bosak'
+date: 2021-10-11T00:00:00.000Z
 draft: false
 episodeNumber: 371
 youtubeId: K2vRHQyEJmo
-thumbnail: https://i.ytimg.com/vi/K2vRHQyEJmo/maxresdefault.jpg
-duration: 1:06:05
+thumbnail: 'https://i.ytimg.com/vi/K2vRHQyEJmo/maxresdefault.jpg'
+duration: 3965
 syncedAt: 2025-10-06T18:34:57.230Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/K2vRHQyEJmo/maxresdefault.jpg'
 ---
 ## Episode Description
 

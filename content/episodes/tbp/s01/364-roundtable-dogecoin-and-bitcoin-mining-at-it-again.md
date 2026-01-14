@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #364 - Dogecoin and Bitcoin Mining At It Again"
-date: 2021-08-19
+title: 'Roundtable #364 - Dogecoin and Bitcoin Mining At It Again'
+date: 2021-08-19T00:00:00.000Z
 draft: false
 episodeNumber: 364
 youtubeId: jZjA2CPZZZY
-thumbnail: https://i.ytimg.com/vi/jZjA2CPZZZY/maxresdefault.jpg
-duration: 49:01
+thumbnail: 'https://i.ytimg.com/vi/jZjA2CPZZZY/maxresdefault.jpg'
+duration: 2941
 syncedAt: 2025-10-06T18:34:57.228Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/jZjA2CPZZZY/maxresdefault.jpg'
 ---
 ## Episode Description
 Jessie, Dee, and Corey talk about the Poly Network White Hacker, the Dogecoin glow up, and other news.   

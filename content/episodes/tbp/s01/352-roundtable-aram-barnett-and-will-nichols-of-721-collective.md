@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #352 - Aram Barnett and Will Nichols of 721 Collective"
-date: 2021-05-13
+title: 'Roundtable #352 - Aram Barnett and Will Nichols of 721 Collective'
+date: 2021-05-13T00:00:00.000Z
 draft: false
 episodeNumber: 352
 youtubeId: I3cU9DbzKXw
-thumbnail: https://i.ytimg.com/vi/I3cU9DbzKXw/maxresdefault.jpg
-duration: 1:02:50
+thumbnail: 'https://i.ytimg.com/vi/I3cU9DbzKXw/maxresdefault.jpg'
+duration: 3770
 syncedAt: 2025-10-06T18:34:57.222Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/I3cU9DbzKXw/maxresdefault.jpg'
 ---
 ## Episode Description
 

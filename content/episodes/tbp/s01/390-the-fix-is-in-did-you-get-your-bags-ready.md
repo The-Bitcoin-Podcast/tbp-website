@@ -1,16 +1,17 @@
 ---
 title: The Fix Is In Did You Get Your Bags Ready
-date: 2022-05-12
+date: 2022-05-12T00:00:00.000Z
 draft: false
 episodeNumber: 390
 youtubeId: lB6PdB8y-yo
-thumbnail: https://i.ytimg.com/vi/lB6PdB8y-yo/maxresdefault.jpg
-duration: 58:41
+thumbnail: 'https://i.ytimg.com/vi/lB6PdB8y-yo/maxresdefault.jpg'
+duration: 3521
 syncedAt: 2025-10-06T18:34:57.236Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/lB6PdB8y-yo/maxresdefault.jpg'
 ---
 ## Episode Description
 

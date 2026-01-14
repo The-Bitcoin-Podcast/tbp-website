@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #381 - Do not Call Me Solana"
-date: 2022-01-06
+title: 'Roundtable #381 - Do not Call Me Solana'
+date: 2022-01-06T00:00:00.000Z
 draft: false
 episodeNumber: 381
 youtubeId: R8KCmH1PJD0
-thumbnail: https://i.ytimg.com/vi/R8KCmH1PJD0/maxresdefault.jpg
-duration: 52:15
+thumbnail: 'https://i.ytimg.com/vi/R8KCmH1PJD0/maxresdefault.jpg'
+duration: 3135
 syncedAt: 2025-10-06T18:34:57.232Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/R8KCmH1PJD0/maxresdefault.jpg'
 ---
 ## Episode Description
 

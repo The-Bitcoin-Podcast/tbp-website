@@ -1,14 +1,15 @@
 ---
-title: "Roundtable #343--Vinay Gupta of Mattereum"
-date: 2021-03-13
+title: 'Roundtable #343--Vinay Gupta of Mattereum'
+date: 2021-03-13T00:00:00.000Z
 draft: false
 episodeNumber: 343
 youtubeId: Pzbn2Cpg_CU
-thumbnail: https://i.ytimg.com/vi/Pzbn2Cpg_CU/maxresdefault.jpg
-duration: 1:23:01
+thumbnail: 'https://i.ytimg.com/vi/Pzbn2Cpg_CU/maxresdefault.jpg'
+duration: 4981
 syncedAt: 2025-10-06T18:34:57.216Z
 status: available
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/Pzbn2Cpg_CU/maxresdefault.jpg'
 ---
 ## Watch Episode
 

@@ -1,16 +1,17 @@
 ---
-title: Privacy, Scaling, & the Crypto Narrative War
-date: 2025-12-10
+title: 'Privacy, Scaling, & the Crypto Narrative War'
+date: 2025-12-10T00:00:00.000Z
 draft: false
 episodeNumber: 12
 youtubeId: 1Mv8mhTLJuo
-thumbnail: https://i.ytimg.com/vi/1Mv8mhTLJuo/maxresdefault.jpg
-duration: 1:01:45
+thumbnail: 'https://i.ytimg.com/vi/1Mv8mhTLJuo/maxresdefault.jpg'
+duration: 3705
 syncedAt: 2025-12-12T18:30:12.080Z
 status: available
 tags:
   - TBP
-season: "2"
+season: '2'
+socialImage: 'https://i.ytimg.com/vi/1Mv8mhTLJuo/maxresdefault.jpg'
 ---
 ## Episode Description
 

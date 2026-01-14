@@ -1,15 +1,16 @@
 ---
-title: "Interview #391 - Reggie Middleton of DeFi"
-date: 2022-05-23
+title: 'Interview #391 - Reggie Middleton of DeFi'
+date: 2022-05-23T00:00:00.000Z
 draft: false
 episodeNumber: 391
 youtubeId: F1Syoq5KanI
-thumbnail: https://i.ytimg.com/vi/F1Syoq5KanI/maxresdefault.jpg
-duration: 51:37
+thumbnail: 'https://i.ytimg.com/vi/F1Syoq5KanI/maxresdefault.jpg'
+duration: 3097
 syncedAt: 2025-10-06T18:34:57.236Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/F1Syoq5KanI/maxresdefault.jpg'
 ---
 ## Episode Description
 

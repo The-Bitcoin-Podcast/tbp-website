@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #385"
-date: 2022-02-24
+title: 'Roundtable #385'
+date: 2022-02-24T00:00:00.000Z
 draft: false
 episodeNumber: 385
 youtubeId: gNFq1EGPWHc
-thumbnail: https://i.ytimg.com/vi/gNFq1EGPWHc/maxresdefault.jpg
-duration: 1:00:31
+thumbnail: 'https://i.ytimg.com/vi/gNFq1EGPWHc/maxresdefault.jpg'
+duration: 3631
 syncedAt: 2025-10-06T18:34:57.234Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/gNFq1EGPWHc/maxresdefault.jpg'
 ---
 ## Episode Description
 

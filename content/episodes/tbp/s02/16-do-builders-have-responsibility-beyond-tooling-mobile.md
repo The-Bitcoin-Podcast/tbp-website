@@ -1,13 +1,14 @@
 ---
-title: Do builders have responsibility beyond tooling? 📱
-date: 2026-01-14
+title: "Do builders have responsibility beyond tooling? \U0001F4F1"
+date: 2026-01-14T00:00:00.000Z
 draft: true
 episodeNumber: 16
 youtubeId: HAa0UucQyyI
-thumbnail: https://i.ytimg.com/vi/HAa0UucQyyI/maxresdefault.jpg
-duration: 53:26
+thumbnail: 'https://i.ytimg.com/vi/HAa0UucQyyI/maxresdefault.jpg'
+duration: 3206
 syncedAt: 2026-01-14T16:50:34.093Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/HAa0UucQyyI/maxresdefault.jpg'
 ---
 ## Episode Description
 

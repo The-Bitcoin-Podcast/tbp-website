@@ -1,21 +1,29 @@
 ---
-title: "Episode #15"
-date: 2018-04-26
+title: 'Episode #15'
+date: 2018-04-26T00:00:00.000Z
 draft: false
 episodeNumber: 15
 rssGuid: 9f1b9a572646088ae12cfd43d75c0288
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89981941/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212873-48000-2-aef20a90446c1d44.mp3
-duration: 51:23
-description: Dan Romero isn’t just a must follow on Twitter, he’s also in charge of Coinbase’s customer apps. I chat with him about his journey into the blockchain industry, how sales boosted his career, and what he’s excited about right now in crypto.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89981941/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212873-48000-2-aef20a90446c1d44.mp3
+duration: 3083
+description: >-
+  Dan Romero isn’t just a must follow on Twitter, he’s also in charge of
+  Coinbase’s customer apps. I chat with him about his journey into the
+  blockchain industry, how sales boosted his career, and what he’s excited about
+  right now in crypto.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.689Z
 status: available
 hasPlaceholders: false
 author:
   - Evan van Ness
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/b0308a195d28a487.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/b0308a195d28a487.jpg
 tags:
   - ethereum-podcast
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/b0308a195d28a487.jpg
 ---
 ## Episode Description
 

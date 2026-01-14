@@ -1,21 +1,28 @@
 ---
 title: ETH 2.0 Panel After The Launch
-date: 2020-12-15
+date: 2020-12-15T00:00:00.000Z
 draft: false
 episodeNumber: 98
 rssGuid: ee896ce8-60f5-4b14-8902-b9bbd4fcade0
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345774/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374138-44100-1-9caf7e035455c27c.mp3
-duration: 1:03:04
-description: Jaye and Corey lead a panel discussion about the Aftermath of The Beacon Chain Launch for ETH 2.0. Panel members are Ben Edington (ConsenSys) and Gregory Markou(ChainSafe)
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345774/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374138-44100-1-9caf7e035455c27c.mp3
+duration: 3784
+description: >-
+  Jaye and Corey lead a panel discussion about the Aftermath of The Beacon Chain
+  Launch for ETH 2.0. Panel members are Ben Edington (ConsenSys) and Gregory
+  Markou(ChainSafe)
 explicit: false
 syncedAt: 2026-01-01T21:53:35.610Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Jaye
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/dfd19970616381ad.jpg
+author: 'Corey Petty, Jaye'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/dfd19970616381ad.jpg
 tags:
   - HashingItOut
   - panel
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/dfd19970616381ad.jpg
 ---
 ## Episode Description
 

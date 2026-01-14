@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #386- War What is it Good For?"
-date: 2022-03-04
+title: 'Roundtable #386- War What is it Good For?'
+date: 2022-03-04T00:00:00.000Z
 draft: false
 episodeNumber: 386
 youtubeId: w3G7OZxVlKI
-thumbnail: https://i.ytimg.com/vi/w3G7OZxVlKI/maxresdefault.jpg
-duration: 57:03
+thumbnail: 'https://i.ytimg.com/vi/w3G7OZxVlKI/maxresdefault.jpg'
+duration: 3423
 syncedAt: 2025-10-06T18:34:57.235Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/w3G7OZxVlKI/maxresdefault.jpg'
 ---
 ## Episode Description
 

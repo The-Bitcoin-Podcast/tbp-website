@@ -1,15 +1,16 @@
 ---
-title: "Roundtable #347- Coinbase is a Grown"
-date: 2021-04-08
+title: 'Roundtable #347- Coinbase is a Grown'
+date: 2021-04-08T00:00:00.000Z
 draft: false
 episodeNumber: 347
 youtubeId: xlfWynF0MPw
-thumbnail: https://i.ytimg.com/vi/xlfWynF0MPw/maxresdefault.jpg
-duration: 1:17:43
+thumbnail: 'https://i.ytimg.com/vi/xlfWynF0MPw/maxresdefault.jpg'
+duration: 4663
 syncedAt: 2025-10-06T18:34:57.219Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/xlfWynF0MPw/maxresdefault.jpg'
 ---
 ## Episode Description
 

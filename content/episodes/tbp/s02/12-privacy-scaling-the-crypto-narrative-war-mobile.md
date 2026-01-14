@@ -1,13 +1,14 @@
 ---
-title: Privacy, Scaling, & the Crypto Narrative War 📱
-date: 2025-12-10
+title: "Privacy, Scaling, & the Crypto Narrative War \U0001F4F1"
+date: 2025-12-10T00:00:00.000Z
 draft: true
 episodeNumber: 12
 youtubeId: BRNZsC5W5HU
-thumbnail: https://i.ytimg.com/vi/BRNZsC5W5HU/maxresdefault.jpg
-duration: 1:01:44
+thumbnail: 'https://i.ytimg.com/vi/BRNZsC5W5HU/maxresdefault.jpg'
+duration: 3704
 syncedAt: 2025-12-12T18:30:12.081Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/BRNZsC5W5HU/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,13 +1,14 @@
 ---
-title: "TBP S02E11: Fusaka To Me 📱"
-date: 2025-12-06
+title: "TBP S02E11: Fusaka To Me \U0001F4F1"
+date: 2025-12-06T00:00:00.000Z
 draft: true
 episodeNumber: 193
 youtubeId: 4q14tLLqOaA
-thumbnail: https://i.ytimg.com/vi/4q14tLLqOaA/maxresdefault.jpg
-duration: 46:40
+thumbnail: 'https://i.ytimg.com/vi/4q14tLLqOaA/maxresdefault.jpg'
+duration: 2800
 syncedAt: 2025-12-09T15:47:48.787Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/4q14tLLqOaA/maxresdefault.jpg'
 ---
 ## Episode Description
 

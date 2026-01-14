@@ -1,20 +1,26 @@
 ---
 title: MakerDAO pt. 1 - Nik Kunkel
-date: 2019-05-30
+date: 2019-05-30T00:00:00.000Z
 draft: false
 episodeNumber: 47
 rssGuid: 753c5859-8399-4980-8d29-694ebe46e0f7
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89348337/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383378017-44100-2-3bc1f43e5e71d461.mp3
-duration: 1:04:06
-description: Interview with Nik Kunkel of MakerDAO on the cryptoeconomics behind their USD stable token.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89348337/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383378017-44100-2-3bc1f43e5e71d461.mp3
+duration: 3846
+description: >-
+  Interview with Nik Kunkel of MakerDAO on the cryptoeconomics behind their USD
+  stable token.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.626Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41658979/06e3ad4e277bdacb.jpg
 ---
 ## Episode Description
 

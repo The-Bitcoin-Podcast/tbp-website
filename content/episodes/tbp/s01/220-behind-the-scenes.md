@@ -1,16 +1,17 @@
 ---
-title: "Behind the Scenes #220"
-date: 2018-08-25
+title: 'Behind the Scenes #220'
+date: 2018-08-25T00:00:00.000Z
 draft: false
 episodeNumber: 220
 youtubeId: A1xKfuaLY4k
-thumbnail: https://i.ytimg.com/vi/A1xKfuaLY4k/maxresdefault.jpg
-duration: 1:09:10
+thumbnail: 'https://i.ytimg.com/vi/A1xKfuaLY4k/maxresdefault.jpg'
+duration: 4150
 syncedAt: 2025-10-06T18:34:57.203Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/A1xKfuaLY4k/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,15 +1,16 @@
 ---
 title: Erik Voorhees - Founder of ShapeShift Interview
-date: 2021-07-22
+date: 2021-07-22T00:00:00.000Z
 draft: false
 episodeNumber: 361
 youtubeId: QsjjbVV1rD4
-thumbnail: https://i.ytimg.com/vi/QsjjbVV1rD4/maxresdefault.jpg
-duration: 54:51
+thumbnail: 'https://i.ytimg.com/vi/QsjjbVV1rD4/maxresdefault.jpg'
+duration: 3291
 syncedAt: 2025-10-06T18:34:57.224Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/QsjjbVV1rD4/maxresdefault.jpg'
 ---
 ## Episode Description
 

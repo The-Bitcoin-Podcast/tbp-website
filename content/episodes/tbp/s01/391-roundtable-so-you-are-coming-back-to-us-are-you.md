@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #391 - So, You Are Coming Back To Us Are You?"
-date: 2022-05-19
+title: 'Roundtable #391 - So, You Are Coming Back To Us Are You?'
+date: 2022-05-19T00:00:00.000Z
 draft: false
 episodeNumber: 391
 youtubeId: _bT0a8CNZ-U
-thumbnail: https://i.ytimg.com/vi/_bT0a8CNZ-U/maxresdefault.jpg
-duration: 59:25
+thumbnail: 'https://i.ytimg.com/vi/_bT0a8CNZ-U/maxresdefault.jpg'
+duration: 3565
 syncedAt: 2025-10-06T18:34:57.236Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/_bT0a8CNZ-U/maxresdefault.jpg'
 ---
 ## Episode Description
 

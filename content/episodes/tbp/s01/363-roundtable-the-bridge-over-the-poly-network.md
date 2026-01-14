@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #363 - The Bridge Over The Poly Network"
-date: 2021-08-12
+title: 'Roundtable #363 - The Bridge Over The Poly Network'
+date: 2021-08-12T00:00:00.000Z
 draft: false
 episodeNumber: 363
 youtubeId: wvPQ2SpzYgU
-thumbnail: https://i.ytimg.com/vi/wvPQ2SpzYgU/maxresdefault.jpg
-duration: 1:20:08
+thumbnail: 'https://i.ytimg.com/vi/wvPQ2SpzYgU/maxresdefault.jpg'
+duration: 4808
 syncedAt: 2025-10-06T18:34:57.227Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/wvPQ2SpzYgU/maxresdefault.jpg'
 ---
 ## Episode Description
 Dee, Corey, and Jessie in our Roundtable discussion, talk about  the Polygon Hacking Saga and How a Bill is Made Bitcoin Style.   

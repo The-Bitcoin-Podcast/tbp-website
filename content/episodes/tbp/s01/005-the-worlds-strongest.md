@@ -1,12 +1,18 @@
 ---
 title: The World's Strongest
-date: 2015-06-30
+date: 2015-06-30T00:00:00.000Z
 draft: false
 episodeNumber: 5
 rssGuid: 36a710803c9bd5963fa6c80fea2f7608
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89982320/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213244-44100-2-b3d54ddb2df7f468.mp3
-duration: 50:01
-description: Bitcoin’s true value might not be in the currency itself but in the engine that makes it possible. Data security is becoming the sparkle in bitcoin. We discuss this, as well as invite the CEO of Airbitz, Paul Puey, to talk about how he is making it easy to send and secure this currency and other digital assets while maintaining the highest level of privacy.
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89982320/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213244-44100-2-b3d54ddb2df7f468.mp3
+duration: 3001
+description: >-
+  Bitcoin’s true value might not be in the currency itself but in the engine
+  that makes it possible. Data security is becoming the sparkle in bitcoin. We
+  discuss this, as well as invite the CEO of Airbitz, Paul Puey, to talk about
+  how he is making it easy to send and secure this currency and other digital
+  assets while maintaining the highest level of privacy.
 explicit: false
 syncedAt: 2025-10-06T18:34:17.476Z
 status: available
@@ -15,11 +21,12 @@ author:
   - Cello
   - Corey Petty
   - Demetrick Ferguson
-thumbnail: https://i.ytimg.com/vi/rVaQ2haz8Z4/maxresdefault.jpg
+thumbnail: 'https://i.ytimg.com/vi/rVaQ2haz8Z4/maxresdefault.jpg'
 youtubeId: rVaQ2haz8Z4
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/rVaQ2haz8Z4/maxresdefault.jpg'
 ---
 ## Watch Episode
 

@@ -19,6 +19,7 @@ tags:
   - InItForTheTech
   - WhenMoon
   - Cryptocurreny
+socialImage: 'https://i.ytimg.com/vi/c--4ZqZfa9A/maxresdefault.jpg'
 ---
 ## Episode Description
 

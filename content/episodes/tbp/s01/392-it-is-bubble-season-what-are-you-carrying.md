@@ -1,16 +1,17 @@
 ---
-title: It Is Bubble Season, What are you carrying?
-date: 2022-05-26
+title: 'It Is Bubble Season, What are you carrying?'
+date: 2022-05-26T00:00:00.000Z
 draft: false
 episodeNumber: 392
 youtubeId: yFo38QKoxfM
-thumbnail: https://i.ytimg.com/vi/yFo38QKoxfM/maxresdefault.jpg
-duration: 1:01:41
+thumbnail: 'https://i.ytimg.com/vi/yFo38QKoxfM/maxresdefault.jpg'
+duration: 3701
 syncedAt: 2025-10-06T18:34:57.236Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/yFo38QKoxfM/maxresdefault.jpg'
 ---
 ## Episode Description
 

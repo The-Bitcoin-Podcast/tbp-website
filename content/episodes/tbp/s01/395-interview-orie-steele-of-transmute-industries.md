@@ -1,15 +1,16 @@
 ---
-title: "Interview #395 - Orie Steele of Transmute Industries"
-date: 2022-06-27
+title: 'Interview #395 - Orie Steele of Transmute Industries'
+date: 2022-06-27T00:00:00.000Z
 draft: false
 episodeNumber: 395
 youtubeId: cvpNUKqa2Kw
-thumbnail: https://i.ytimg.com/vi/cvpNUKqa2Kw/maxresdefault.jpg
-duration: 56:09
+thumbnail: 'https://i.ytimg.com/vi/cvpNUKqa2Kw/maxresdefault.jpg'
+duration: 3369
 syncedAt: 2025-10-06T18:34:57.237Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/cvpNUKqa2Kw/maxresdefault.jpg'
 ---
 ## Episode Description
 

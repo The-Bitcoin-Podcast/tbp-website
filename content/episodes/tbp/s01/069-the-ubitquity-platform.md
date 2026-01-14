@@ -1,16 +1,17 @@
 ---
 title: TBP69 - The Ubitquity Platform
-date: 2016-07-13
+date: 2016-07-13T00:00:00.000Z
 draft: false
 episodeNumber: 69
 youtubeId: Q9Dd-ygQbCY
-thumbnail: https://i.ytimg.com/vi/Q9Dd-ygQbCY/maxresdefault.jpg
-duration: 1:07:47
+thumbnail: 'https://i.ytimg.com/vi/Q9Dd-ygQbCY/maxresdefault.jpg'
+duration: 4067
 syncedAt: 2025-10-06T18:34:17.480Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/Q9Dd-ygQbCY/maxresdefault.jpg'
 ---
 ## Episode Description
 

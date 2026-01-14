@@ -1,20 +1,28 @@
 ---
 title: FourSquare Max Sklar
-date: 2020-08-24
+date: 2020-08-24T00:00:00.000Z
 draft: false
 episodeNumber: 88
 rssGuid: bbef6511-db02-43ec-974c-3780cffbd29d
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89348313/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377956-44100-1-7c4bcda11639e817.mp3
-duration: 55:34
-description: Max Sklar is an engineer at Foursquare and is the head of a project called Swarm. John and Jaye speak with Max about this project, machine learning, how to build an app in 2020, and can tokens/NTFS on blockchain be incorporated into Foursquare.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89348313/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377956-44100-1-7c4bcda11639e817.mp3
+duration: 3334
+description: >-
+  Max Sklar is an engineer at Foursquare and is the head of a project called
+  Swarm. John and Jaye speak with Max about this project, machine learning, how
+  to build an app in 2020, and can tokens/NTFS on blockchain be incorporated
+  into Foursquare.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.616Z
 status: available
 hasPlaceholders: false
-author: John Mardlin, Jaye
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/061ab24b458e0d1f.jpg
+author: 'John Mardlin, Jaye'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/061ab24b458e0d1f.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/061ab24b458e0d1f.jpg
 ---
 ## Episode Description
 

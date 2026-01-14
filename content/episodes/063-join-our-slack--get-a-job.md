@@ -30,6 +30,7 @@ tags:
   - Yeeeeaaaah
   - Slack
   - Job
+socialImage: 'https://i.ytimg.com/vi/azIbtYQXPvk/maxresdefault.jpg'
 ---
 ## Episode Description
 

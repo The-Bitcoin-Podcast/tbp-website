@@ -1,21 +1,28 @@
 ---
 title: Optimism - Karl Floersch
-date: 2020-08-24
+date: 2020-08-24T00:00:00.000Z
 draft: false
 episodeNumber: 89
 rssGuid: 3a732301-f7ef-48d2-862e-a693afdbdd54
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345753/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374117-44100-1-e908183e51176e8b.mp3
-duration: 1:00:18
-description: Karl Floersch is an Developer that is working on layer-2 solutions for Ethereum. Karl walks us through the development Plasma, Casper, and then moving on to Optimistic Roll-ups.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345753/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374117-44100-1-e908183e51176e8b.mp3
+duration: 3618
+description: >-
+  Karl Floersch is an Developer that is working on layer-2 solutions for
+  Ethereum. Karl walks us through the development Plasma, Casper, and then
+  moving on to Optimistic Roll-ups.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.616Z
 status: available
 hasPlaceholders: false
 author:
   - Corey Petty
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e791dd792c8c7cf8.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e791dd792c8c7cf8.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/e791dd792c8c7cf8.jpg
 ---
 ## Episode Description
 

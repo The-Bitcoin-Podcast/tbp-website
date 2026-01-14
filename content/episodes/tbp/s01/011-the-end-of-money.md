@@ -1,21 +1,31 @@
 ---
 title: The End of Money
-date: 2015-08-03
+date: 2015-08-03T00:00:00.000Z
 draft: false
 episodeNumber: 11
 rssGuid: f7d61187709309e623e8ab06d4b6e5a9
-audioUrl: https://anchor.fm/s/f97fc444/podcast/play/89981970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212905-44100-2-77c2125d29980984.mp3
-duration: 44:53
-description: "Epic in scope, todays episode is all about the newly released documentary 'Bitcoin: The End of Money As We Know It'. This film examines the patterns of technological innovation and questions everything you thought you knew about money. If you trust in your money just as it is... this film has news for you. In addition, today's guest is none other than the film director, Torsten Hoffmann, to get a firsthand account of production."
+audioUrl: >-
+  https://anchor.fm/s/f97fc444/podcast/play/89981970/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212905-44100-2-77c2125d29980984.mp3
+duration: 2693
+description: >-
+  Epic in scope, todays episode is all about the newly released documentary
+  'Bitcoin: The End of Money As We Know It'. This film examines the patterns of
+  technological innovation and questions everything you thought you knew about
+  money. If you trust in your money just as it is... this film has news for you.
+  In addition, today's guest is none other than the film director, Torsten
+  Hoffmann, to get a firsthand account of production.
 explicit: false
 syncedAt: 2026-01-03T00:06:18.794Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/ef1c2e1ad0be1810.jpg
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/ef1c2e1ad0be1810.jpg
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/ef1c2e1ad0be1810.jpg
 ---
 ## Episode Description
 

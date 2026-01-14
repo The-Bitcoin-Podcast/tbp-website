@@ -1,16 +1,17 @@
 ---
-title: "Interview #394 - Anthony D' Onofrio aka Texture"
-date: 2022-06-20
+title: 'Interview #394 - Anthony D'' Onofrio aka Texture'
+date: 2022-06-20T00:00:00.000Z
 draft: false
 episodeNumber: 394
-youtubeId: -R4-mVvt2xo
-thumbnail: https://i.ytimg.com/vi/-R4-mVvt2xo/maxresdefault.jpg
-duration: 1:04:44
+youtubeId: '-R4-mVvt2xo'
+thumbnail: 'https://i.ytimg.com/vi/-R4-mVvt2xo/maxresdefault.jpg'
+duration: 3884
 syncedAt: 2025-10-06T18:34:57.237Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/-R4-mVvt2xo/maxresdefault.jpg'
 ---
 ## Episode Description
 

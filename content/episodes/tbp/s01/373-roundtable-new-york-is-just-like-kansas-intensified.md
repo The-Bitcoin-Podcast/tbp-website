@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #373- New York is just like Kansas intensified"
-date: 2021-11-04
+title: 'Roundtable #373- New York is just like Kansas intensified'
+date: 2021-11-04T00:00:00.000Z
 draft: false
 episodeNumber: 373
 youtubeId: UXqYAR6hsAY
-thumbnail: https://i.ytimg.com/vi/UXqYAR6hsAY/maxresdefault.jpg
-duration: 1:22:04
+thumbnail: 'https://i.ytimg.com/vi/UXqYAR6hsAY/maxresdefault.jpg'
+duration: 4924
 syncedAt: 2025-10-06T18:34:57.230Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/UXqYAR6hsAY/maxresdefault.jpg'
 ---
 ## Episode Description
 

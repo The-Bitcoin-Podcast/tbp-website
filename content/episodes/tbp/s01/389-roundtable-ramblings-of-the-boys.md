@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #389: Ramblings of the Boys"
-date: 2022-04-14
+title: 'Roundtable #389: Ramblings of the Boys'
+date: 2022-04-14T00:00:00.000Z
 draft: false
 episodeNumber: 389
 youtubeId: 4KmVSpkYLx8
-thumbnail: https://i.ytimg.com/vi/4KmVSpkYLx8/maxresdefault.jpg
-duration: 59:48
+thumbnail: 'https://i.ytimg.com/vi/4KmVSpkYLx8/maxresdefault.jpg'
+duration: 3588
 syncedAt: 2025-10-06T18:34:57.236Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/4KmVSpkYLx8/maxresdefault.jpg'
 ---
 ## Episode Description
 We go to ramble

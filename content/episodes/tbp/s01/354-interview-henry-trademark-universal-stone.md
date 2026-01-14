@@ -1,16 +1,17 @@
 ---
-title: "Interview #354- Henry Trademark Universal Stone"
-date: 2021-05-31
+title: 'Interview #354- Henry Trademark Universal Stone'
+date: 2021-05-31T00:00:00.000Z
 draft: false
 episodeNumber: 354
 youtubeId: gp8BG8LqnIY
-thumbnail: https://i.ytimg.com/vi/gp8BG8LqnIY/hqdefault.jpg
-duration: 1:26:07
+thumbnail: 'https://i.ytimg.com/vi/gp8BG8LqnIY/hqdefault.jpg'
+duration: 5167
 syncedAt: 2025-10-06T18:34:57.223Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/gp8BG8LqnIY/hqdefault.jpg'
 ---
 ## Episode Description
 

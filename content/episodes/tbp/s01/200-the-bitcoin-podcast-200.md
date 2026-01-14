@@ -1,16 +1,17 @@
 ---
 title: The Bitcoin Podcast 200
-date: 2018-05-08
+date: 2018-05-08T00:00:00.000Z
 draft: false
 episodeNumber: 200
 youtubeId: Wf6ToqAF5uo
-thumbnail: https://i.ytimg.com/vi/Wf6ToqAF5uo/hqdefault.jpg
-duration: 2:02:08
+thumbnail: 'https://i.ytimg.com/vi/Wf6ToqAF5uo/hqdefault.jpg'
+duration: 7328
 syncedAt: 2025-10-06T18:34:57.199Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/Wf6ToqAF5uo/hqdefault.jpg'
 ---
 ## Watch Episode
 

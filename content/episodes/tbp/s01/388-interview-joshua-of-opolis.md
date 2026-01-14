@@ -1,16 +1,17 @@
 ---
-title: "Interview #388- Joshua of Opolis"
-date: 2022-04-04
+title: 'Interview #388- Joshua of Opolis'
+date: 2022-04-04T00:00:00.000Z
 draft: false
 episodeNumber: 388
 youtubeId: Nqbln50TD4Q
-thumbnail: https://i.ytimg.com/vi/Nqbln50TD4Q/maxresdefault.jpg
-duration: 1:02:02
+thumbnail: 'https://i.ytimg.com/vi/Nqbln50TD4Q/maxresdefault.jpg'
+duration: 3722
 syncedAt: 2025-10-06T18:34:57.235Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/Nqbln50TD4Q/maxresdefault.jpg'
 ---
 ## Episode Description
 

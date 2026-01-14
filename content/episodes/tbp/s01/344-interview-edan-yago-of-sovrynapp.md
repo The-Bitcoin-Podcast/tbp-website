@@ -1,15 +1,16 @@
 ---
-title: "Interview #344-  Edan Yago of Sovryn.app"
-date: 2021-03-29
+title: 'Interview #344-  Edan Yago of Sovryn.app'
+date: 2021-03-29T00:00:00.000Z
 draft: false
 episodeNumber: 344
 youtubeId: dUulcX2_MBg
-thumbnail: https://i.ytimg.com/vi/dUulcX2_MBg/hqdefault.jpg
-duration: 59:18
+thumbnail: 'https://i.ytimg.com/vi/dUulcX2_MBg/hqdefault.jpg'
+duration: 3558
 syncedAt: 2025-10-06T18:34:57.217Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/dUulcX2_MBg/hqdefault.jpg'
 ---
 ## Episode Description
 

@@ -28,6 +28,7 @@ tags:
   - DrPetty
   - Marcello
   - Yeeeeaaaah
+socialImage: 'https://i.ytimg.com/vi/Samg4q9KdEs/maxresdefault.jpg'
 ---
 ## Episode Description
 

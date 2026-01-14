@@ -1,13 +1,14 @@
 ---
 title: Unboxing The Lattice1 from Grid+ & Roundtable
-date: 2021-07-15
+date: 2021-07-15T00:00:00.000Z
 draft: false
 episodeNumber: 360
 youtubeId: Dlp1ZsI0wlA
-thumbnail: https://i.ytimg.com/vi/Dlp1ZsI0wlA/maxresdefault.jpg
-duration: 1:19:40
+thumbnail: 'https://i.ytimg.com/vi/Dlp1ZsI0wlA/maxresdefault.jpg'
+duration: 4780
 syncedAt: 2025-10-06T18:34:57.224Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/Dlp1ZsI0wlA/maxresdefault.jpg'
 ---
 ## Episode Description
 

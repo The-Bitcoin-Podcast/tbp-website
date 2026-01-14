@@ -1,16 +1,17 @@
 ---
 title: Skynet
-date: 2016-07-31
+date: 2016-07-31T00:00:00.000Z
 draft: false
 episodeNumber: 76
 youtubeId: upnKwbE5QC4
-thumbnail: https://i.ytimg.com/vi/upnKwbE5QC4/maxresdefault.jpg
-duration: 1:11:41
+thumbnail: 'https://i.ytimg.com/vi/upnKwbE5QC4/maxresdefault.jpg'
+duration: 4301
 syncedAt: 2025-10-06T18:34:17.481Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/upnKwbE5QC4/maxresdefault.jpg'
 ---
 ## Episode Description
 

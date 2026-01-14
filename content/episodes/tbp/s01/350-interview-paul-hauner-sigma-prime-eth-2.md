@@ -1,16 +1,17 @@
 ---
-title: "Interview #350 - Paul Hauner Sigma Prime: ETH-2"
-date: 2021-05-04
+title: 'Interview #350 - Paul Hauner Sigma Prime: ETH-2'
+date: 2021-05-04T00:00:00.000Z
 draft: false
 episodeNumber: 350
 youtubeId: 0Hi1fuzTSp4
-thumbnail: https://i.ytimg.com/vi/0Hi1fuzTSp4/maxresdefault.jpg
-duration: 53:01
+thumbnail: 'https://i.ytimg.com/vi/0Hi1fuzTSp4/maxresdefault.jpg'
+duration: 3181
 syncedAt: 2025-10-06T18:34:57.221Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/0Hi1fuzTSp4/maxresdefault.jpg'
 ---
 ## Episode Description
 

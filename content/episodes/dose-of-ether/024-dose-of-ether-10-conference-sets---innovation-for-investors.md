@@ -19,6 +19,7 @@ tags:
   - WhenMoon
   - Technology
   - Bitcoin
+socialImage: 'https://i.ytimg.com/vi/1fBKezTT5vI/maxresdefault.jpg'
 ---
 ## Episode Description
 

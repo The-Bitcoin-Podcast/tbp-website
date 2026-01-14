@@ -1,15 +1,16 @@
 ---
 title: Behind the Roundtable
-date: 2018-07-28
+date: 2018-07-28T00:00:00.000Z
 draft: false
 episodeNumber: 13
 youtubeId: z_Rmn2bLhes
-thumbnail: https://i.ytimg.com/vi/z_Rmn2bLhes/maxresdefault.jpg
-duration: 1:05:15
+thumbnail: 'https://i.ytimg.com/vi/z_Rmn2bLhes/maxresdefault.jpg'
+duration: 3915
 syncedAt: 2025-10-06T18:34:57.202Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/z_Rmn2bLhes/maxresdefault.jpg'
 ---
 ## Episode Description
 

@@ -1,13 +1,14 @@
 ---
-title: The end a fun run, prolly.
-date: 2022-11-10
+title: 'The end a fun run, prolly.'
+date: 2022-11-10T00:00:00.000Z
 draft: false
 episodeNumber: 400
 youtubeId: 0Yh_ZqBB04Q
-thumbnail: https://i.ytimg.com/vi/0Yh_ZqBB04Q/maxresdefault.jpg
-duration: 1:04:49
+thumbnail: 'https://i.ytimg.com/vi/0Yh_ZqBB04Q/maxresdefault.jpg'
+duration: 3889
 syncedAt: 2025-10-06T18:34:57.238Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/0Yh_ZqBB04Q/maxresdefault.jpg'
 ---
 ## Episode Description
 

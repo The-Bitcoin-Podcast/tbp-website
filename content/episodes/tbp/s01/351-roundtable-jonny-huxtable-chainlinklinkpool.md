@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #351 - Jonny Huxtable ChainLink/Linkpool"
-date: 2021-05-09
+title: 'Roundtable #351 - Jonny Huxtable ChainLink/Linkpool'
+date: 2021-05-09T00:00:00.000Z
 draft: false
 episodeNumber: 351
 youtubeId: BXXLkfe6Wh4
-thumbnail: https://i.ytimg.com/vi/BXXLkfe6Wh4/hqdefault.jpg
-duration: 59:54
+thumbnail: 'https://i.ytimg.com/vi/BXXLkfe6Wh4/hqdefault.jpg'
+duration: 3594
 syncedAt: 2025-10-06T18:34:57.221Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/BXXLkfe6Wh4/hqdefault.jpg'
 ---
 ## Episode Description
 

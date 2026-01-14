@@ -1,15 +1,16 @@
 ---
 title: Cryptocurrency Fellowship
-date: 2016-07-21
+date: 2016-07-21T00:00:00.000Z
 draft: false
 episodeNumber: 7
 youtubeId: SzRJ16HgPzs
-thumbnail: https://i.ytimg.com/vi/SzRJ16HgPzs/maxresdefault.jpg
-duration: 1:12:49
+thumbnail: 'https://i.ytimg.com/vi/SzRJ16HgPzs/maxresdefault.jpg'
+duration: 4369
 syncedAt: 2025-10-06T18:34:17.480Z
 status: available
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/SzRJ16HgPzs/maxresdefault.jpg'
 ---
 ## Episode Description
 

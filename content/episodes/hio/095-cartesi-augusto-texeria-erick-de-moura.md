@@ -1,21 +1,29 @@
 ---
 title: Cartesi Augusto Texeria Erick De Moura
-date: 2020-10-22
+date: 2020-10-22T00:00:00.000Z
 draft: false
 episodeNumber: 95
 rssGuid: 3570ec08-0e00-4b9a-8e0d-65d8c9040c6d
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345783/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374134-44100-1-6570e1289b362b3b.mp3
-duration: 58:27
-description: Build scalable DApps using a fully-fledged Linux operating system and mainstream software stacks. Run complex computations off-chain, free from blockchain limitations and fees, while retaining decentralization and security. DApps with Cartesi are easier to build, scalable and more powerful..
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345783/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374134-44100-1-6570e1289b362b3b.mp3
+duration: 3507
+description: >-
+  Build scalable DApps using a fully-fledged Linux operating system and
+  mainstream software stacks. Run complex computations off-chain, free from
+  blockchain limitations and fees, while retaining decentralization and
+  security. DApps with Cartesi are easier to build, scalable and more powerful..
 explicit: false
 syncedAt: 2026-01-01T21:53:35.611Z
 status: available
 hasPlaceholders: false
 author:
   - Corey Petty
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/7618f3d99464317f.jpg
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/7618f3d99464317f.jpg
 tags:
   - HashingItOut
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/7618f3d99464317f.jpg
 ---
 ## Episode Description
 

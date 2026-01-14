@@ -1,13 +1,25 @@
 ---
 title: Do builders have responsibility beyond tooling?
-date: 2026-01-14
+date: 2026-01-14T00:00:00.000Z
 draft: false
 episodeNumber: 16
 youtubeId: _Hoqtpgfflc
-thumbnail: https://i.ytimg.com/vi/_Hoqtpgfflc/maxresdefault.jpg
-duration: 53:28
+thumbnail: 'https://i.ytimg.com/vi/_Hoqtpgfflc/maxresdefault.jpg'
+duration: 3208
 syncedAt: 2026-01-14T16:50:34.093Z
 status: available
+description: >-
+  Crypto didn’t remove trust — it refactored it.  Which means the real question
+  isn’t whether blockchains work… it’s whether the people who build them bear
+  any responsibility for what happens next.    In this episode we extend the
+  previous conversation on crypto literacy, privacy UX, and incentive design to
+  tackle a hard question with no clean answers:    Do builders have
+  responsibility beyond tooling?    We explore the “blacksmith problem,” the
+  myth of neutral systems, and how zero-knowledge, chain analysis, and UX
+  choices shape outcomes — intentionally or not. This is not a price talk
+  episode. It’s about the ethics, incentives, and trade-offs embedded in
+  decentralized infrastructure.
+socialImage: 'https://i.ytimg.com/vi/_Hoqtpgfflc/maxresdefault.jpg'
 ---
 ## Watch Episode
 

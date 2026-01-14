@@ -1,16 +1,17 @@
 ---
 title: Special Holiday Episode
-date: 2018-12-23
+date: 2018-12-23T00:00:00.000Z
 draft: false
 episodeNumber: 237
 youtubeId: b2YedvIBkNU
-thumbnail: https://i.ytimg.com/vi/b2YedvIBkNU/maxresdefault.jpg
-duration: 1:19:59
+thumbnail: 'https://i.ytimg.com/vi/b2YedvIBkNU/maxresdefault.jpg'
+duration: 4799
 syncedAt: 2025-10-06T18:34:57.215Z
 status: available
-season: "1"
+season: '1'
 tags:
   - TBP
+socialImage: 'https://i.ytimg.com/vi/b2YedvIBkNU/maxresdefault.jpg'
 ---
 ## Episode Description
 

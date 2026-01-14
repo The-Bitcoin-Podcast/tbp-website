@@ -1,13 +1,14 @@
 ---
-title: "Roundtable #344 - Edan Yago Sovryn.app"
-date: 2021-03-27
+title: 'Roundtable #344 - Edan Yago Sovryn.app'
+date: 2021-03-27T00:00:00.000Z
 draft: false
 episodeNumber: 344
 youtubeId: WFzpxf7EZeE
-thumbnail: https://i.ytimg.com/vi/WFzpxf7EZeE/maxresdefault.jpg
-duration: 1:16:11
+thumbnail: 'https://i.ytimg.com/vi/WFzpxf7EZeE/maxresdefault.jpg'
+duration: 4571
 syncedAt: 2025-10-06T18:34:57.216Z
 status: available
+socialImage: 'https://i.ytimg.com/vi/WFzpxf7EZeE/maxresdefault.jpg'
 ---
 ## Watch Episode
 

@@ -1,21 +1,29 @@
 ---
 title: Application infrastructure Pt. 1
-date: 2022-11-28
+date: 2022-11-28T00:00:00.000Z
 draft: false
 episodeNumber: 127
 rssGuid: 67628735-6079-423e-9d8a-b806e116878d
-audioUrl: https://anchor.fm/s/f8e7252c/podcast/play/89345693/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374052-44100-2-7c1011204edb67c0.mp3
-duration: 42:47
-description: Hashing It Out is continuing its series on the blockchain infrastructure with the Application layer. In this episode, Corey and Jessie talk to Patrick McCorry, of Infura and Lemniscap. Click here for the Infinity Keys Challenge. Part 2 of the Application layer, coming soon.
+audioUrl: >-
+  https://anchor.fm/s/f8e7252c/podcast/play/89345693/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374052-44100-2-7c1011204edb67c0.mp3
+duration: 2567
+description: >-
+  Hashing It Out is continuing its series on the blockchain infrastructure with
+  the Application layer. In this episode, Corey and Jessie talk to Patrick
+  McCorry, of Infura and Lemniscap. Click here for the Infinity Keys Challenge.
+  Part 2 of the Application layer, coming soon.
 explicit: false
 syncedAt: 2026-01-01T21:53:35.601Z
 status: available
 hasPlaceholders: false
-author: Corey Petty, Demetrick Ferguson, Jessie Santiago
-thumbnail: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/8fc74ee295d2d8c2.jpg
+author: 'Corey Petty, Demetrick Ferguson, Jessie Santiago'
+thumbnail: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/8fc74ee295d2d8c2.jpg
 tags:
   - HashingItOut
   - infra
+socialImage: >-
+  https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41658979/8fc74ee295d2d8c2.jpg
 ---
 ## Episode Description
 

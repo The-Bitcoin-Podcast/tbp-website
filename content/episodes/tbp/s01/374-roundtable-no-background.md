@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #374 - No Background"
-date: 2021-11-11
+title: 'Roundtable #374 - No Background'
+date: 2021-11-11T00:00:00.000Z
 draft: false
 episodeNumber: 374
 youtubeId: CA-uY2CoXoU
-thumbnail: https://i.ytimg.com/vi/CA-uY2CoXoU/maxresdefault.jpg
-duration: 1:10:33
+thumbnail: 'https://i.ytimg.com/vi/CA-uY2CoXoU/maxresdefault.jpg'
+duration: 4233
 syncedAt: 2025-10-06T18:34:57.230Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/CA-uY2CoXoU/maxresdefault.jpg'
 ---
 ## Episode Description
 

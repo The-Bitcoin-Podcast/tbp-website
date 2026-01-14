@@ -1,16 +1,17 @@
 ---
-title: "Roundtable #368 - QuHarrison and Ryan of NFT QT Show"
-date: 2021-09-16
+title: 'Roundtable #368 - QuHarrison and Ryan of NFT QT Show'
+date: 2021-09-16T00:00:00.000Z
 draft: false
 episodeNumber: 368
 youtubeId: eboODVFhYio
-thumbnail: https://i.ytimg.com/vi/eboODVFhYio/maxresdefault.jpg
-duration: 1:10:05
+thumbnail: 'https://i.ytimg.com/vi/eboODVFhYio/maxresdefault.jpg'
+duration: 4205
 syncedAt: 2025-10-06T18:34:57.229Z
 status: available
 tags:
   - TBP
-season: "1"
+season: '1'
+socialImage: 'https://i.ytimg.com/vi/eboODVFhYio/maxresdefault.jpg'
 ---
 ## Episode Description
 On this roundtable, Dee, Corey, and Jessie discus the ETH Killer showdown, who actually owns cryptocurrency, and what kind of regulation to expect from the US by the end of September. 
