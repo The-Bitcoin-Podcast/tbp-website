@@ -1,14 +1,27 @@
 ---
-title: "Do builders have responsibility beyond tooling? \U0001F4F1"
-date: '2026-01-14'
-draft: true
-episodeNumber: 394
-youtubeId: HAa0UucQyyI
-thumbnail: 'https://i.ytimg.com/vi/HAa0UucQyyI/maxresdefault.jpg'
-duration: '53:26'
-syncedAt: '2026-01-14T16:50:34.093Z'
+title: Do builders have responsibility beyond tooling?
+date: 2026-01-14
+draft: false
+episodeNumber: 16
+youtubeId: _Hoqtpgfflc
+thumbnail: https://i.ytimg.com/vi/_Hoqtpgfflc/maxresdefault.jpg
+duration: 53:28
+syncedAt: 2026-01-14T16:50:34.093Z
 status: available
 ---
+## Watch Episode
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/_Hoqtpgfflc"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
+
 ## Episode Description
 
 Crypto didn’t remove trust — it refactored it.  
@@ -29,33 +42,14 @@ Topics Covered
  • ZK systems, mixers, forensics, and emergent behavior  
  • Builders vs system designers vs policymakers  
   
-Key Question  
+**Key Question**  
 Where does technical responsibility end, and ethical responsibility begin?  
   
-If you’re new here  
+**If you’re new here**  
 This episode continues directly from last week’s cliffhanger. Go watch that one first if you want the full arc.  
   
-Join the Community  
-Join the Discord for builders, OGs, privacy folks, ZK learners, and lurkers:  
-\(QR code in the video\)  
-  
-Support the Show  
-Like, comment, subscribe, and clip moments that hit you. We actually watch them.  
-  
-For Commenters  
+**For Commenters**  
 Answer this in one word:  
   
 Do builders have responsibility beyond tooling? — YES or NO?
-
-## Watch Episode
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/HAa0UucQyyI"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</div>
 

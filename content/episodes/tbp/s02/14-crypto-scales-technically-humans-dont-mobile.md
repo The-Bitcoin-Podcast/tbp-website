@@ -1,12 +1,12 @@
 ---
-title: Crypto Scales Technically. Humans Don’t.
-date: '2026-01-07'
+title: Crypto Scales Technically. Humans Don’t. 📱
+date: 2026-01-07
 draft: true
-episodeNumber: 385
-youtubeId: 9sQZVE7RTqA
-thumbnail: 'https://i.ytimg.com/vi/9sQZVE7RTqA/maxresdefault.jpg'
-duration: '1:03:29'
-syncedAt: '2026-01-14T16:50:34.090Z'
+episodeNumber: 14
+youtubeId: VPSbGbiz2ng
+thumbnail: https://i.ytimg.com/vi/VPSbGbiz2ng/maxresdefault.jpg
+duration: 1:03:28
+syncedAt: 2026-01-14T16:50:34.090Z
 status: available
 ---
 ## Episode Description
@@ -22,7 +22,7 @@ It’s about filters, tradeoffs, and what “winning” actually looks like when
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/9sQZVE7RTqA"
+    src="https://www.youtube-nocookie.com/embed/VPSbGbiz2ng"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
