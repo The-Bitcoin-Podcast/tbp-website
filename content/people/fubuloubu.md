@@ -2,6 +2,8 @@
 tags:
   - guest
 ---
+![[fubuloubu_profile.jpg]]
+
 CEO of ApeWorX LTD. (https://apeworx.io)
 
 Creator of [Ape Framework](https://docs.apeworx.io/ape/stable/userguides/quickstart) and [Silverback](https://docs.apeworx.io/silverback/stable/userguides/quickstart)
