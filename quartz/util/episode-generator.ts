@@ -67,19 +67,22 @@ export async function generateEpisodeFile(
     frontmatter.tags = video.tags
   }
 
-  // Build markdown body
-  let body = "## Episode Description\n\n"
-  body += markdownDescription
-  body += "\n\n"
+  // Build markdown body - Video embed first, then description, then guests
+  let body = ""
 
-  // Add video embed if enabled
+  // Add video embed if enabled (FIRST)
   if (config.includeVideoEmbed) {
     body += "## Watch Episode\n\n"
     body += generateYouTubeEmbed(video.videoId)
     body += "\n\n"
   }
 
-  // Add guest section if guests present
+  // Add episode description (SECOND)
+  body += "## Episode Description\n\n"
+  body += markdownDescription
+  body += "\n\n"
+
+  // Add guest section if guests present (THIRD)
   if (guests.length > 0) {
     body += "## Guests\n\n"
     for (const guest of guests) {
