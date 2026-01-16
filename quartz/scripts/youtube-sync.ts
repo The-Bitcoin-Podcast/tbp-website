@@ -12,7 +12,7 @@ import type {
   SyncState,
   GenerationResult,
 } from "../types/youtube-sync.js"
-import { DEFAULT_CONFIG } from "../types/youtube-sync.js"
+import { DEFAULT_CONFIG, CHANNEL_PRESETS } from "../types/youtube-sync.js"
 import { searchChannelVideos, getVideoDetails } from "../util/youtube.js"
 import { buildSyncState, isVideoSynced } from "../util/git.js"
 import { generateEpisodeFile } from "../util/episode-generator.js"
@@ -21,6 +21,7 @@ import { generateEpisodeFile } from "../util/episode-generator.js"
  * CLI argument parser for youtube-sync script
  *
  * Supports flags:
+ * - --channel: Channel preset to sync (tbp, hio)
  * - --full: Perform full sync (ignore last sync timestamp)
  * - --dry-run: Preview changes without writing files
  * - --no-commit: Skip git commit step
@@ -30,6 +31,12 @@ import { generateEpisodeFile } from "../util/episode-generator.js"
  * - --config: Path to custom config file
  */
 const argv = yargs(hideBin(process.argv))
+  .option("channel", {
+    type: "string",
+    description: "Channel preset to sync (tbp, hio)",
+    choices: Object.keys(CHANNEL_PRESETS),
+    default: "tbp",
+  })
   .option("full", {
     type: "boolean",
     description: "Perform full sync (ignore last sync timestamp)",
@@ -67,8 +74,9 @@ const argv = yargs(hideBin(process.argv))
 
 /**
  * Load configuration from file or use defaults
+ * Merges channel preset settings when --channel flag is used
  */
-async function loadConfig(configPath?: string): Promise<SyncConfig> {
+async function loadConfig(configPath?: string, channelKey?: string): Promise<SyncConfig> {
   let userConfig: Partial<SyncConfig> = {}
 
   if (configPath) {
@@ -90,9 +98,22 @@ async function loadConfig(configPath?: string): Promise<SyncConfig> {
     process.exit(1)
   }
 
-  // Merge user config with defaults
+  // Get channel preset if specified and no custom config file provided
+  let channelPreset: Partial<SyncConfig> = {}
+  if (channelKey && !configPath) {
+    const preset = CHANNEL_PRESETS[channelKey]
+    if (preset) {
+      channelPreset = {
+        channelId: preset.channelId,
+        outputDirectory: preset.outputDirectory,
+      }
+    }
+  }
+
+  // Merge: defaults < channel preset < user config < API key
   const config: SyncConfig = {
     ...DEFAULT_CONFIG,
+    ...channelPreset,
     ...userConfig,
     youtubeApiKey,
   } as SyncConfig
@@ -187,10 +208,11 @@ async function main() {
   console.log("YouTube Channel Sync Script")
   console.log("=".repeat(50))
 
-  // 1. Load configuration
-  const config = await loadConfig(argv.config)
+  // 1. Load configuration with channel preset
+  const config = await loadConfig(argv.config, argv.channel)
+  const channelName = CHANNEL_PRESETS[argv.channel]?.name || argv.channel
   console.log(`\n✓ Configuration loaded`)
-  console.log(`  Channel: ${config.channelId}`)
+  console.log(`  Channel: ${channelName} (${config.channelId})`)
   console.log(`  Output: ${config.outputDirectory}`)
   console.log(`  Mode: ${argv.full ? "Full sync" : "Incremental sync"}`)
   if (argv.dryRun) console.log(`  [DRY RUN MODE]`)

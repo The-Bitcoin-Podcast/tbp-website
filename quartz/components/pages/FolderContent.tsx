@@ -16,12 +16,14 @@ interface FolderContentOptions {
    */
   showFolderCount: boolean
   showSubfolders: boolean
+  showTags: boolean
   sort?: SortFn
 }
 
 const defaultOptions: FolderContentOptions = {
   showFolderCount: true,
   showSubfolders: true,
+  showTags: false,
 }
 
 export default ((opts?: Partial<FolderContentOptions>) => {
@@ -94,6 +96,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       ...props,
       sort: options.sort,
       allFiles: allPagesInFolder,
+      showTags: options.showTags,
     }
 
     const content = (
