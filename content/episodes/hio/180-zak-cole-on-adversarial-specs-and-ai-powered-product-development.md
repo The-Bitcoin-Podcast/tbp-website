@@ -46,7 +46,7 @@ Whether you're a solo founder bootstrapping your next project or leading a team 
   
 ## Links  
   
-- Adversarial Specs: [https://github.com/0xZakk/adversarial-specs](https://github.com/0xZakk/adversarial-specs)  
+- Adversarial Specs: [https://github.com/zscole/adversarial-spec/tree/main](https://github.com/zscole/adversarial-spec/tree/main)  
 - Zak's website: [https://crap.dev/](https://crap.dev/)  
-- Zak on X: @0xZakk
+- Zak on X: [https://x.com/0xzak](0xzak)
 
