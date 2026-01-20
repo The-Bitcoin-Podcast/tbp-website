@@ -1,13 +1,20 @@
 ---
 title: "The Argument for an Ideal DAO \U0001F4F1"
-date: '2026-01-20'
+date: 2026-01-20T00:00:00.000Z
 draft: true
-episodeNumber: 124
+episodeNumber: 17
 youtubeId: iL_G2HH30-k
 thumbnail: 'https://i.ytimg.com/vi/iL_G2HH30-k/maxresdefault.jpg'
-duration: '59:58'
-syncedAt: '2026-01-20T14:54:08.316Z'
+duration: 3598
+syncedAt: 2026-01-20T14:54:08.316Z
 status: available
+description: >-
+  Most DAOs sound great… until it’s time to make decisions, pay contributors,
+  and ship work consistently. In this episode, we’re designing the ideal DAO and
+  confronting the hard parts: governance that doesn’t stall, incentives that
+  don’t get gamed, treasury systems that protect the community, and a structure
+  that can scale without losing its mission.
+socialImage: 'https://i.ytimg.com/vi/iL_G2HH30-k/maxresdefault.jpg'
 ---
 ## Watch Episode
 
