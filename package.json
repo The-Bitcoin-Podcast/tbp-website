@@ -20,6 +20,9 @@
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "youtube-sync": "tsx quartz/scripts/youtube-sync.ts",
     "rss-sync": "tsx quartz/scripts/rss-sync.ts",
+    "transcript-sync": "tsx quartz/scripts/transcript-sync.ts",
+    "ai-enhance": "tsx quartz/scripts/ai-enhance.ts",
+    "episode-pipeline": "npm run transcript-sync && npm run ai-enhance",
     "set-episode-images": "tsx scripts/set-episode-social-images.ts",
     "prebuild": "npm run set-episode-images"
   },
@@ -54,6 +57,7 @@
     "esbuild-sass-plugin": "^3.3.1",
     "flexsearch": "^0.8.205",
     "github-slugger": "^2.0.0",
+    "glob": "^13.0.1",
     "globby": "^15.0.0",
     "gray-matter": "^4.0.3",
     "hast-util-to-html": "^9.0.5",
