@@ -2,7 +2,7 @@
 title: Crypto + AI = Need for Better DAOs
 date: '2026-02-01'
 draft: true
-episodeNumber: 22
+episodeNumber: 18
 youtubeId: ZmRCAgCxFlw
 thumbnail: 'https://i.ytimg.com/vi/ZmRCAgCxFlw/maxresdefault.jpg'
 duration: '1:02:53'

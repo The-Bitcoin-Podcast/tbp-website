@@ -2,7 +2,7 @@
 title: 'Why we need better DAOs — oracles, dispute resolution, and more'
 date: '2026-01-27'
 draft: true
-episodeNumber: 18
+episodeNumber: 394
 youtubeId: F2R6TksI3X8
 thumbnail: 'https://i.ytimg.com/vi/F2R6TksI3X8/maxresdefault.jpg'
 duration: '1:54'

@@ -2,7 +2,7 @@
 title: 'DAO in one sentence: a practical definition'
 date: '2026-01-31'
 draft: true
-episodeNumber: 20
+episodeNumber: 396
 youtubeId: GKnN5MYQoTo
 thumbnail: 'https://i.ytimg.com/vi/GKnN5MYQoTo/maxresdefault.jpg'
 duration: '0:31'

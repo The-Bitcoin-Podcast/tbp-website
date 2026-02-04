@@ -2,7 +2,7 @@
 title: AI clones and agents to beat decision fatigue
 date: '2026-01-27'
 draft: true
-episodeNumber: 19
+episodeNumber: 395
 youtubeId: Oql2x7WJykY
 thumbnail: 'https://i.ytimg.com/vi/Oql2x7WJykY/maxresdefault.jpg'
 duration: '0:47'
