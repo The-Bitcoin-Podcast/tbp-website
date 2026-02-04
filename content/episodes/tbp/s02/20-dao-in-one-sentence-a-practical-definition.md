@@ -8,6 +8,8 @@ thumbnail: 'https://i.ytimg.com/vi/GKnN5MYQoTo/maxresdefault.jpg'
 duration: '0:31'
 syncedAt: '2026-02-04T20:45:08.771Z'
 status: available
+hasTranscript: true
+transcriptSyncedAt: '2026-02-04T20:45:35.230Z'
 ---
 ## Watch Episode
 
@@ -23,5 +25,11 @@ status: available
 
 ## Episode Description
 
+## Transcript
 
+<details>
+<summary>Click to expand transcript</summary>
 
+Well, I mean, and Corey, did you give your definition of a Dow? &gt;&gt; Yeah, I walked through the whole damn thing. Each letter &gt;&gt; you did, &gt;&gt; bro. Okay. &gt;&gt; I mean, like, I want a defin like something that can go in the dictionary, not like a like &gt;&gt; he wants a fortune cookie uh rehash of what you said &gt;&gt; in 10 words or less. It's an organization that leverages decentralized infrastructure to run itself more efficiently.
+
+</details>

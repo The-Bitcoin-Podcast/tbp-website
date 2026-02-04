@@ -24,8 +24,8 @@ export function generateFileName(episodeNumber: number, title: string): string {
     throw new Error('Title cannot be empty')
   }
 
-  // Zero-pad episode number to 3 digits
-  const paddedNumber = String(episodeNumber).padStart(3, '0')
+  // Zero-pad episode number to 2 digits (matches existing s02 pattern)
+  const paddedNumber = String(episodeNumber).padStart(2, '0')
 
   // Slugify title
   const slugger = new GithubSlugger()

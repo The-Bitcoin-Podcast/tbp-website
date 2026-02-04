@@ -26,7 +26,7 @@ import { glob } from "glob"
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434"
 const OLLAMA_MODEL = process.env.OLLAMA_MODEL || "glm-4.7-flash:q8_0"
 const CONTENT_DIRS = [
-  "content/episodes/tbp",
+  "content/episodes/tbp/s02",
   "content/episodes/hio",
 ]
 

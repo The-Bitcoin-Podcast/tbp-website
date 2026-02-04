@@ -24,7 +24,7 @@ import { glob } from "glob"
 // Configuration
 const YT_DLP_PATH = "/home/petty/ComfyUI/venv/bin/yt-dlp"
 const CONTENT_DIRS = [
-  "content/episodes/tbp",
+  "content/episodes/tbp/s02",
   "content/episodes/hio",
 ]
 

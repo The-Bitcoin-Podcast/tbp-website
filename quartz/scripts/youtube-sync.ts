@@ -16,6 +16,7 @@ import { DEFAULT_CONFIG, CHANNEL_PRESETS } from "../types/youtube-sync.js"
 import { searchChannelVideos, getVideoDetails } from "../util/youtube.js"
 import { buildSyncState, isVideoSynced } from "../util/git.js"
 import { generateEpisodeFile } from "../util/episode-generator.js"
+import { getHighestEpisodeNumber } from "../util/episode-numbering.js"
 
 /**
  * CLI argument parser for youtube-sync script
@@ -263,8 +264,10 @@ async function main() {
 
   console.log(`\nSyncing ${videosToSync.length} video(s)...`)
 
-  // 7. Assign episode numbers sequentially
-  const nextEpisodeNumber = syncState.episodeCount + 1
+  // 7. Assign episode numbers sequentially (based on existing files, not git count)
+  const highestExisting = await getHighestEpisodeNumber(config.outputDirectory)
+  const nextEpisodeNumber = highestExisting + 1
+  console.log(`  Starting from episode ${nextEpisodeNumber} (highest existing: ${highestExisting})`)
   videosToSync.forEach((video, index) => {
     video.episodeNumber = nextEpisodeNumber + index
   })
