@@ -1,8 +1,8 @@
 ---
-title: "The New Original DAO? Run it back! \U0001F4F1"
+title: 'The New Original DAO? Run it back! - Mobile'
 date: '2026-02-07'
 draft: true
-episodeNumber: 20
+episodeNumber: 21
 youtubeId: zllUOrgbbpQ
 thumbnail: 'https://i.ytimg.com/vi/zllUOrgbbpQ/maxresdefault.jpg'
 duration: '1:17:06'

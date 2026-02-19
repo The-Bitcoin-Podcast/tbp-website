@@ -1,8 +1,8 @@
 ---
-title: "Can Bitcoin Beat Quantum? \U0001F4F1"
+title: 'Can Bitcoin Beat Quantum? - Mobile'
 date: '2026-02-19'
 draft: true
-episodeNumber: 23
+episodeNumber: 22
 youtubeId: h7dWSgXUVvU
 thumbnail: 'https://i.ytimg.com/vi/h7dWSgXUVvU/maxresdefault.jpg'
 duration: '41:49'
