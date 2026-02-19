@@ -12,6 +12,25 @@ import { formatDuration } from "./duration-formatter.js"
 import { generateFileName } from "./filename-generator.js"
 import { generateYouTubeEmbed } from "./embed-generator.js"
 
+/** Unicode codepoint for the 📱 mobile phone emoji */
+const MOBILE_EMOJI = "\u{1F4F1}"
+
+/**
+ * Check whether a video title indicates a mobile/short variant.
+ * Mobile variants contain the 📱 emoji in their title.
+ */
+export function isMobileVariant(title: string): boolean {
+  return title.includes(MOBILE_EMOJI)
+}
+
+/**
+ * Strip the 📱 emoji (and surrounding whitespace) from a title to produce
+ * the base title that should match the main episode.
+ */
+export function getMobileBaseTitle(title: string): string {
+  return title.replace(MOBILE_EMOJI, "").replace(/\s+/g, " ").trim()
+}
+
 /**
  * Generate complete episode markdown file from YouTube video
  *
@@ -21,15 +40,29 @@ import { generateYouTubeEmbed } from "./embed-generator.js"
  * @param video - YouTube video data
  * @param episodeNumber - Sequential episode number
  * @param config - Sync configuration
+ * @param options - Optional generation flags
+ * @param options.isMobile - If true, treats this as a mobile variant
  * @returns Generation result with file path and content
  */
 export async function generateEpisodeFile(
   video: YouTubeVideo,
   episodeNumber: number,
   config: SyncConfig,
+  options?: { isMobile?: boolean },
 ): Promise<GenerationResult> {
+  const isMobile = options?.isMobile ?? false
+
+  // For mobile variants: clean the title (strip 📱, append ' - Mobile')
+  const displayTitle = isMobile
+    ? `${getMobileBaseTitle(video.title)} - Mobile`
+    : video.title
+
+  // For filename generation, use the base title (without ' - Mobile' suffix)
+  // so the slug matches the main episode
+  const filenameTitle = isMobile ? getMobileBaseTitle(video.title) : video.title
+
   // Generate filename
-  const filename = generateFileName(episodeNumber, video.title)
+  const filename = generateFileName(episodeNumber, filenameTitle, { isMobile })
   const filePath = join(process.cwd(), config.outputDirectory, filename)
 
   // Parse guests from description
@@ -48,9 +81,9 @@ export async function generateEpisodeFile(
 
   // Build frontmatter (NO description, NO undefined values)
   const frontmatter: Record<string, any> = {
-    title: video.title,
+    title: displayTitle,
     date,
-    draft: !config.autoPublish,
+    draft: isMobile ? true : !config.autoPublish,
     episodeNumber,
     youtubeId: video.videoId,
     thumbnail: video.thumbnailUrl,

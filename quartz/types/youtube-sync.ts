@@ -151,7 +151,7 @@ export interface ChannelPreset {
 export const CHANNEL_PRESETS: Record<string, ChannelPreset> = {
   tbp: {
     channelId: "@thebtcpodcast",
-    outputDirectory: "content/episodes/tbp",
+    outputDirectory: "content/episodes/tbp/s02",
     name: "The Bitcoin Podcast",
   },
   hio: {
