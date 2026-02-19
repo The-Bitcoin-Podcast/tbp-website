@@ -1,7 +1,7 @@
 ---
 title: The New Original DAO? Run it back!
 date: '2026-02-07'
-draft: true
+draft: false
 episodeNumber: 21
 youtubeId: 7MBX10iHpGo
 thumbnail: 'https://i.ytimg.com/vi/7MBX10iHpGo/maxresdefault.jpg'

@@ -1,7 +1,7 @@
 ---
 title: Hot wallets are causing systemic harm — smart wallets fix it
 date: '2026-02-06'
-draft: true
+draft: false
 episodeNumber: 19
 youtubeId: jI_MTm4g-hE
 thumbnail: 'https://i.ytimg.com/vi/jI_MTm4g-hE/maxresdefault.jpg'

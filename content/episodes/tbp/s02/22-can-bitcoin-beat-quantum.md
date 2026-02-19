@@ -1,7 +1,7 @@
 ---
 title: Can Bitcoin Beat Quantum?
 date: '2026-02-19'
-draft: true
+draft: false
 episodeNumber: 22
 youtubeId: mxn1AnaBhCc
 thumbnail: 'https://i.ytimg.com/vi/mxn1AnaBhCc/maxresdefault.jpg'
