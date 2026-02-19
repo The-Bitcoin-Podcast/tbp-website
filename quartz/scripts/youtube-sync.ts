@@ -15,8 +15,8 @@ import type {
 import { DEFAULT_CONFIG, CHANNEL_PRESETS } from "../types/youtube-sync.js"
 import { searchChannelVideos, getVideoDetails } from "../util/youtube.js"
 import { buildSyncState, isVideoSynced } from "../util/git.js"
-import { generateEpisodeFile } from "../util/episode-generator.js"
-import { getHighestEpisodeNumber } from "../util/episode-numbering.js"
+import { generateEpisodeFile, isMobileVariant, getMobileBaseTitle } from "../util/episode-generator.js"
+import { getHighestEpisodeNumber, findEpisodeNumberByTitle } from "../util/episode-numbering.js"
 
 /**
  * CLI argument parser for youtube-sync script
@@ -264,25 +264,63 @@ async function main() {
 
   console.log(`\nSyncing ${videosToSync.length} video(s)...`)
 
-  // 7. Assign episode numbers sequentially (based on existing files, not git count)
+  // 7. Assign episode numbers sequentially, handling mobile 📱 variants
   const highestExisting = await getHighestEpisodeNumber(config.outputDirectory)
-  const nextEpisodeNumber = highestExisting + 1
+  let nextEpisodeNumber = highestExisting + 1
   console.log(`  Starting from episode ${nextEpisodeNumber} (highest existing: ${highestExisting})`)
-  videosToSync.forEach((video, index) => {
-    video.episodeNumber = nextEpisodeNumber + index
-  })
+
+  // Build a map of base title -> episode number for batch matching
+  const batchTitleToNumber = new Map<string, number>()
+
+  // First pass: assign episode numbers to non-mobile videos
+  for (const video of videosToSync) {
+    if (isMobileVariant(video.title)) continue
+    video.episodeNumber = nextEpisodeNumber
+    batchTitleToNumber.set(video.title.trim().toLowerCase(), nextEpisodeNumber)
+    nextEpisodeNumber++
+  }
+
+  // Second pass: assign episode numbers to mobile variants
+  for (const video of videosToSync) {
+    if (!isMobileVariant(video.title)) continue
+    const baseTitle = getMobileBaseTitle(video.title).toLowerCase()
+
+    // Try matching from current batch first
+    let matchedNumber = batchTitleToNumber.get(baseTitle)
+
+    // Try matching from existing files on disk
+    if (matchedNumber === undefined) {
+      matchedNumber = await findEpisodeNumberByTitle(
+        getMobileBaseTitle(video.title),
+        config.outputDirectory,
+      )
+    }
+
+    if (matchedNumber !== undefined) {
+      video.episodeNumber = matchedNumber
+      console.log(`  📱 Mobile variant matched to episode ${matchedNumber}: ${getMobileBaseTitle(video.title)}`)
+    } else {
+      // Fallback: assign next sequential number
+      video.episodeNumber = nextEpisodeNumber
+      console.log(`  📱 Mobile variant (no match found), assigned episode ${nextEpisodeNumber}: ${getMobileBaseTitle(video.title)}`)
+      nextEpisodeNumber++
+    }
+  }
 
   // 8. Process each video
   const successfulSyncs: string[] = []
   const failedSyncs: Array<{ id: string; error: string }> = []
 
   for (const video of videosToSync) {
+    const mobile = isMobileVariant(video.title)
+
     try {
       // Generate episode file
       const result: GenerationResult = await generateEpisodeFile(
         video,
         video.episodeNumber!,
         config,
+        { isMobile: mobile },
       )
 
       if (!argv.dryRun) {
