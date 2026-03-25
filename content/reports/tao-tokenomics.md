@@ -6,7 +6,7 @@ tags: [tokenomics, bittensor, TAO, AI, crypto]
 ---
 
 <iframe 
-  src="/reports/tao-tokenomics.html" 
+  src="/static/reports/tao-tokenomics.html" 
   style="width:100%; height:90vh; border:none; display:block;"
   title="Bittensor TAO Tokenomics Interactive Breakdown"
 ></iframe>
