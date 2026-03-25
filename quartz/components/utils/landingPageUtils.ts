@@ -123,6 +123,7 @@ export function parseLandingConfig(
     contactUrl: frontmatter?.contactUrl || "/contact",
     guestsUrl: frontmatter?.guestsUrl || "/guests",
     episodesArchiveUrl: frontmatter?.episodesArchiveUrl || "/episodes",
+    reportsUrl: frontmatter?.reportsUrl || "/reports",
   }
 }
 
@@ -190,6 +191,10 @@ export function buildNavLinks(config: LandingPageFrontmatter, cfg: GlobalConfigu
     {
       label: "Guests",
       url: prependBasePath(config.guestsUrl, basePath),
+    },
+    {
+      label: "Reports",
+      url: prependBasePath(config.reportsUrl, basePath),
     },
   ]
 }

@@ -10,6 +10,7 @@ sponsorsUrl: "/sponsors"
 contactUrl: "/contact"
 guestsUrl: "/people"
 episodesArchiveUrl: "/episodes"
+reportsUrl: "/reports"
 ---
 
 Welcome to The Bitcoin Podcast.
