@@ -8,3 +8,4 @@ Research, data journalism, and interactive breakdowns published alongside the sh
 ## Tokenomics
 
 - [Bittensor ($TAO) Tokenomics — An Interactive Breakdown](/reports/tao-tokenomics)
+- [Bitcoin's Race to Quantum Resistance: BIP-360 and the Post-Quantum Fork Ahead](/reports/bitcoin-post-quantum) — *March 2026*
