@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>21 Billion Useless Nodes — Why Ethereum Uses Patricia Compression</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #080c0a;
+  --bg-raised: #0d1410;
+  --bg-panel: #111916;
+  --border: #1a2820;
+  --border-bright: #2a3e30;
+  --text: #c8dcc6;
+  --text-dim: #5a7058;
+  --text-muted: #3a5038;
+  --green: #8fae8b;
+  --green-bright: #b3d4af;
+  --amber: #c6a05a;
+  --amber-dim: #8a7040;
+  --red: #ae5a5a;
+  --cyan: #5a9eae;
+  --serif: 'Source Serif 4', Georgia, serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Noise texture overlay ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* ── Layout ── */
+.container { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+.wide-container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+/* ── Section spacing ── */
+section {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--border);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Hero ── */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 24px;
+  border-bottom: 1px solid var(--border);
+  opacity: 1;
+  transform: none;
+}
+
+.hero-number {
+  font-family: var(--mono);
+  font-size: clamp(48px, 10vw, 100px);
+  font-weight: 700;
+  color: var(--amber);
+  line-height: 1;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(24px, 4vw, 40px);
+  font-weight: 300;
+  color: var(--text);
+  line-height: 1.3;
+  max-width: 700px;
+  margin-bottom: 32px;
+}
+
+.hero-sub {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+/* ── Typography ── */
+h2 {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--green);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-family: var(--serif);
+  font-size: clamp(26px, 3.5vw, 36px);
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.25;
+  margin-bottom: 28px;
+}
+
+p { margin-bottom: 20px; color: var(--text); }
+
+.lead {
+  font-size: 21px;
+  font-weight: 300;
+  color: var(--green-bright);
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.highlight { color: var(--amber); font-weight: 600; }
+.green-hl { color: var(--green-bright); }
+.dim { color: var(--text-dim); }
+.red-hl { color: var(--red); }
+
+/* ── Code/mono spans ── */
+code, .mono {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--bg-panel);
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: var(--green);
+}
+
+/* ── Callout boxes ── */
+.callout {
+  padding: 20px 24px;
+  background: var(--bg-panel);
+  border-left: 3px solid var(--green);
+  border-radius: 0 8px 8px 0;
+  margin: 32px 0;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.callout.amber { border-left-color: var(--amber); }
+.callout.red { border-left-color: var(--red); }
+
+.callout-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--green);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.callout.amber .callout-title { color: var(--amber); }
+.callout.red .callout-title { color: var(--red); }
+
+/* ── Interactive panels ── */
+.viz-panel {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 32px 0;
+}
+
+.viz-panel canvas {
+  display: block;
+  width: 100%;
+}
+
+.viz-controls {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--bg-panel);
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.viz-btn {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border: 1px solid var(--border-bright);
+  border-radius: 5px;
+  background: var(--bg);
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.04em;
+}
+.viz-btn:hover { border-color: var(--green); color: var(--green); }
+.viz-btn.active {
+  background: rgba(143,174,139,0.12);
+  border-color: var(--green);
+  color: var(--green);
+}
+.viz-btn.amber.active {
+  background: rgba(198,160,90,0.12);
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+/* ── Data tables ── */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--mono);
+  font-size: 13px;
+  margin: 24px 0;
+}
+.data-table th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--border-bright);
+  color: var(--green);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.data-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+.data-table tr:hover td { background: rgba(143,174,139,0.04); }
+.data-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+.data-table .amber-cell { color: var(--amber); }
+.data-table .green-cell { color: var(--green); }
+.data-table .dim-cell { color: var(--text-muted); }
+.data-table .total-row td {
+  border-top: 2px solid var(--border-bright);
+  font-weight: 700;
+}
+
+/* ── Stat cards ── */
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 28px 0;
+}
+.stat-card {
+  padding: 16px 20px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+.stat-card .stat-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.stat-card .stat-value {
+  font-family: var(--mono);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.stat-card .stat-sub {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+.stat-card.green .stat-value { color: var(--green); }
+.stat-card.amber .stat-value { color: var(--amber); }
+
+/* ── Scrolly progress ── */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--green);
+  z-index: 1000;
+  transition: width 0.1s linear;
+}
+
+/* ── TOC nav ── */
+.toc {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.toc-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--border-bright);
+  transition: all 0.3s;
+  cursor: pointer;
+  border: none;
+}
+.toc-dot.active {
+  background: var(--green);
+  box-shadow: 0 0 8px rgba(143,174,139,0.5);
+}
+.toc-dot:hover { background: var(--green-bright); }
+
+/* ── Spec box (Yellow Paper) ── */
+.spec-box {
+  background: #0a0d0b;
+  border: 1px solid var(--border-bright);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--text-dim);
+}
+.spec-box .spec-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--cyan);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.spec-box .case { color: var(--green-bright); font-weight: 600; }
+.spec-box .produces { color: var(--amber); }
+
+/* ── Toggle switch ── */
+.toggle-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin: 24px 0;
+}
+.toggle {
+  width: 52px; height: 28px;
+  background: var(--bg);
+  border: 2px solid var(--border-bright);
+  border-radius: 14px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.toggle::after {
+  content: '';
+  width: 20px; height: 20px;
+  background: var(--amber);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px; left: 2px;
+  transition: all 0.3s;
+}
+.toggle.on { border-color: var(--green); }
+.toggle.on::after {
+  left: 26px;
+  background: var(--green);
+}
+.toggle-label {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .toc { display: none; }
+  .mid-grid { grid-template-columns: 1fr !important; }
+  section { padding: 50px 0; }
+  body { font-size: 16px; }
+}
+
+/* ── Fade-in utility ── */
+.fade-group > * {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.fade-group.visible > *:nth-child(1) { transition-delay: 0s; }
+.fade-group.visible > *:nth-child(2) { transition-delay: 0.08s; }
+.fade-group.visible > *:nth-child(3) { transition-delay: 0.16s; }
+.fade-group.visible > *:nth-child(4) { transition-delay: 0.24s; }
+.fade-group.visible > *:nth-child(5) { transition-delay: 0.32s; }
+.fade-group.visible > *:nth-child(6) { transition-delay: 0.4s; }
+.fade-group.visible > *:nth-child(7) { transition-delay: 0.48s; }
+.fade-group.visible > *:nth-child(8) { transition-delay: 0.56s; }
+.fade-group.visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Mid-section grid ── */
+.mid-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+/* ── Annotation arrows ── */
+.annotation {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  padding: 8px 12px;
+  background: var(--bg-panel);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  margin: 8px 0;
+}
+
+/* ── Footer ── */
+footer {
+  padding: 40px 0;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-muted);
+}
+</style>
+</head>
+<body>
+
+<div class="progress-bar" id="progress"></div>
+
+<nav class="toc" id="toc"></nav>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- HERO                                                       -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section class="hero visible" id="sec-hero">
+  <div class="hero-number" id="hero-counter">21,500,000,000</div>
+  <h1>useless nodes that Ethereum doesn't store,<br>thanks to one data structure trick from 1968</h1>
+  <p class="hero-sub">
+    An interactive investigation into how Patricia compression<br>
+    eliminates 97% of state trie nodes — and why leaf nodes,<br>
+    not extension nodes, do almost all the work.
+  </p>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §1 — THE SETUP                                             -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-setup">
+  <div class="container">
+    <h2>§1 — The Setup</h2>
+    <h3>Ethereum stores everything in tries</h3>
+
+    <p class="lead">
+      Every account balance, every smart contract variable, every nonce — all of it lives in a single data structure called the <span class="highlight">Modified Merkle Patricia Trie</span>. Understanding why that structure was chosen requires understanding the problem it solves.
+    </p>
+
+    <p>
+      Ethereum needs a key-value store with three non-negotiable properties: <span class="green-hl">cryptographic commitment</span> (a single root hash proves the entire state), <span class="green-hl">efficient proofs</span> (verify any value without downloading everything), and <span class="green-hl">deterministic structure</span> (every node with the same state gets the same root hash, regardless of insertion order).
+    </p>
+
+    <p>
+      A <em>trie</em> (from "re<strong>trie</strong>val") gives you determinism for free: the structure is entirely determined by the keys, not by the order you inserted them. A <em>Merkle</em> overlay gives you cryptographic commitment and proofs. But a naive combination of the two — a Merkle hex trie — is catastrophically wasteful at Ethereum's scale.
+    </p>
+
+    <p>
+      To see why, we need to understand how keys work in Ethereum's state trie.
+    </p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §2 — THE KEYSPACE                                          -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-keyspace">
+  <div class="container">
+    <h2>§2 — The Keyspace</h2>
+    <h3>64 nibbles into a 10<sup>77</sup> void</h3>
+
+    <p class="lead">
+      Every Ethereum address is 20 bytes. But the trie doesn't use the raw address as the key — it uses <code>keccak256(address)</code>, a 32-byte hash. This is 64 hexadecimal nibbles, and the trie uses each nibble as one step in the path from root to leaf.
+    </p>
+
+    <p>
+      At each depth, a branch node has 16 possible children — one per hex digit (0–f). This makes the trie a 16-ary tree with a maximum depth of 64.
+    </p>
+
+    <div class="callout">
+      <div class="callout-title">Why hash the address?</div>
+      Two reasons. First, it prevents malicious actors from crafting addresses that create pathologically deep or unbalanced tries (a DoS vector). Second, it uniformly distributes keys across the trie, which is exactly the property we'll exploit to model the compression savings.
+    </div>
+
+    <p>
+      The total keyspace is 16<sup>64</sup> ≈ 10<sup>77</sup> possible paths. As of early 2026, Ethereum has roughly <span class="highlight">383 million</span> unique addresses. That means the trie is occupied at a density of approximately:
+    </p>
+
+    <div class="stat-row">
+      <div class="stat-card amber">
+        <div class="stat-label">Keys</div>
+        <div class="stat-value">383M</div>
+        <div class="stat-sub">unique addresses</div>
+      </div>
+      <div class="stat-card amber">
+        <div class="stat-label">Keyspace</div>
+        <div class="stat-value">10<sup>77</sup></div>
+        <div class="stat-sub">possible paths</div>
+      </div>
+      <div class="stat-card amber">
+        <div class="stat-label">Occupancy</div>
+        <div class="stat-value">10<sup>-69</sup></div>
+        <div class="stat-sub">keys / keyspace</div>
+      </div>
+    </div>
+
+    <p>
+      This occupancy is almost incomprehensibly low. For perspective, there are roughly 10<sup>80</sup> atoms in the observable universe. The Ethereum state trie is sparser than if each atom were a slot and only one were filled.
+    </p>
+
+    <p>
+      This extreme sparsity is the entire story. Everything that follows is a consequence of putting 383 million keys into a 10<sup>77</sup>-slot structure.
+    </p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §3 — THE SPARSITY CLIFF                                    -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-sparsity">
+  <div class="wide-container">
+    <h2>§3 — The Sparsity Cliff</h2>
+    <h3>Where the trie goes from dense to desolate</h3>
+
+    <div class="container">
+      <p class="lead">
+        At every depth <em>d</em>, we can calculate exactly how many of the 16<sup>d</sup> possible prefixes actually contain at least one key. This is a classical occupancy problem: throw 383M balls into 16<sup>d</sup> bins.
+      </p>
+
+      <p>
+        The expected number of occupied prefixes at depth <em>d</em> is:
+      </p>
+
+      <div class="spec-box">
+        <div class="spec-label">Occupancy Formula</div>
+        <span class="case">E[occupied at depth d]</span> = 16<sup>d</sup> × (1 − e<sup>−N/16<sup>d</sup></sup>)<br>
+        <span class="dim">where N = 383,000,000</span>
+      </div>
+
+      <p>
+        This creates a sharp phase transition. The <span class="highlight">crossover depth</span> is log<sub>16</sub>(383M) ≈ <span class="highlight">7.13</span>. Below this depth, almost every possible prefix is occupied. Above it, almost every key is alone.
+      </p>
+    </div>
+
+    <div class="viz-panel" id="occupancy-panel">
+      <canvas id="occupancy-canvas" height="360"></canvas>
+      <div class="viz-controls">
+        <button class="viz-btn active" id="occ-btn-log" onclick="setOccScale('log')">Log Scale</button>
+        <button class="viz-btn" id="occ-btn-linear" onclick="setOccScale('linear')">Linear Scale</button>
+        <button class="viz-btn" id="occ-btn-pct" onclick="setOccScale('pct')">% Occupancy</button>
+        <span style="flex:1"></span>
+        <span class="mono" style="font-size:11px;color:var(--text-muted)" id="occ-hover-info">Hover bars for details</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        Look at the cliff between depth 7 and depth 9. At depth 6, there are 16.8 million prefixes and <em>all of them</em> contain keys — 100% occupancy. At depth 8, there are 4.3 billion possible prefixes but only 366 million are occupied — 8.5%. By depth 10, occupancy drops to 0.03%.
+      </p>
+
+      <p>
+        Past depth 8, the occupied count flatlines at ~383M — one per key. Every additional depth level has exactly 383 million branch nodes, each with <span class="highlight">exactly one child</span>. They're not branching. They're not storing useful structure. They're just passing through to the next level.
+      </p>
+
+      <div class="callout amber">
+        <div class="callout-title">The core problem</div>
+        In a plain hex trie, depths 9 through 63 contribute <strong>55 × 383M ≈ 21 billion single-child branch nodes</strong>. Each one allocates 16 child slots, 15 of which are empty. This is pure structural waste — and it's 97.3% of all nodes in the trie.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §4 — THE PLAIN TRIE                                        -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-plain">
+  <div class="wide-container">
+    <h2>§4 — The Hypothetical</h2>
+    <h3>What Ethereum would look like without Patricia compression</h3>
+
+    <div class="container">
+      <p class="lead">
+        To appreciate what Patricia compression does, we need to see the trie <em>without</em> it. In a plain Merkle hex trie, every occupied prefix at every depth is a branch node — even if it has only one child.
+      </p>
+    </div>
+
+    <div class="viz-panel" id="plain-panel">
+      <canvas id="plain-canvas" height="320"></canvas>
+      <div class="viz-controls">
+        <span class="mono" style="font-size:11px;color:var(--text-muted)" id="plain-hover-info">Hover to explore depth-by-depth</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="stat-row fade-group" id="plain-stats">
+        <div class="stat-card amber">
+          <div class="stat-label">Total Branch Nodes</div>
+          <div class="stat-value">21.65B</div>
+          <div class="stat-sub">depths 0–63</div>
+        </div>
+        <div class="stat-card amber">
+          <div class="stat-label">Single-Child Nodes</div>
+          <div class="stat-value">21.50B</div>
+          <div class="stat-sub">97.3% of total</div>
+        </div>
+        <div class="stat-card amber">
+          <div class="stat-label">Multi-Child Nodes</div>
+          <div class="stat-value">147M</div>
+          <div class="stat-sub">actual branching points</div>
+        </div>
+        <div class="stat-card amber">
+          <div class="stat-label">Estimated Storage</div>
+          <div class="stat-value">~1.17 TB</div>
+          <div class="stat-sub">state trie alone</div>
+        </div>
+      </div>
+
+      <p>
+        Those 21.5 billion single-child nodes would each require a database entry — typically a 17-element RLP-encoded array with 16 child slots and 1 value slot. Even with most slots empty, the overhead is enormous: roughly <span class="highlight">1.17 terabytes</span> just for the state trie's structural nodes, before you store any actual account data.
+      </p>
+
+      <p>
+        Every state lookup — reading your account balance, checking a contract's storage — would require traversing <span class="highlight">64 database lookups</span>, one per depth. Every Merkle proof for a light client would need 64 levels of sibling hashes: approximately <span class="highlight">30 KB per proof</span>.
+      </p>
+
+      <p>
+        This is what Patricia compression eliminates.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §5 — THE TWO COMPRESSIONS                                  -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-two-compressions">
+  <div class="wide-container">
+    <h2>§5 — The Mechanism</h2>
+    <h3>Two compressions, one goal</h3>
+
+    <div class="container">
+      <p class="lead">
+        Ethereum's MPT has three node types. Only one — the <span class="green-hl">branch node</span> — exists in a plain hex trie. The other two are Patricia inventions: <span class="highlight">leaf nodes</span> and <span class="green-hl">extension nodes</span>. Both eliminate single-child branch nodes, but they operate in different zones and at vastly different scales.
+      </p>
+    </div>
+
+    <!-- Node type cards -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:32px 0;">
+      <div style="padding:20px;background:var(--bg-panel);border:1px solid var(--border);border-radius:8px;border-top:3px solid var(--green)">
+        <div style="font-family:var(--mono);font-size:11px;color:var(--green);font-weight:700;letter-spacing:0.08em;margin-bottom:8px;">BRANCH NODE</div>
+        <div style="font-family:var(--mono);font-size:12px;color:var(--text-dim);line-height:1.7;">
+          17-element array:<br>
+          <span style="color:var(--text)">[v₀, v₁, …, v₁₅, value]</span><br>
+          16 child slots + 1 value<br><br>
+          <span style="color:var(--green)">Exists where ≥2 keys diverge</span>
+        </div>
+      </div>
+      <div style="padding:20px;background:var(--bg-panel);border:1px solid var(--border);border-radius:8px;border-top:3px solid var(--amber)">
+        <div style="font-family:var(--mono);font-size:11px;color:var(--amber);font-weight:700;letter-spacing:0.08em;margin-bottom:8px;">LEAF NODE</div>
+        <div style="font-family:var(--mono);font-size:12px;color:var(--text-dim);line-height:1.7;">
+          2-element array:<br>
+          <span style="color:var(--text)">[HP(remaining, <em>true</em>), value]</span><br>
+          Key suffix + account data<br><br>
+          <span style="color:var(--amber)">Stores all remaining nibbles<br>when key is unique in subtree</span>
+        </div>
+      </div>
+      <div style="padding:20px;background:var(--bg-panel);border:1px solid var(--border);border-radius:8px;border-top:3px solid var(--cyan)">
+        <div style="font-family:var(--mono);font-size:11px;color:var(--cyan);font-weight:700;letter-spacing:0.08em;margin-bottom:8px;">EXTENSION NODE</div>
+        <div style="font-family:var(--mono);font-size:12px;color:var(--text-dim);line-height:1.7;">
+          2-element array:<br>
+          <span style="color:var(--text)">[HP(shared, <em>false</em>), next]</span><br>
+          Shared prefix + hash of next node<br><br>
+          <span style="color:var(--cyan)">Compresses shared prefix<br>between branch points</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        The <strong>hex-prefix encoding</strong> (HP) is how Ethereum distinguishes leaf nodes from extension nodes — they share the same 2-element structure, but the first nibble of the encoded path includes a flag: <code>0x2</code>/<code>0x3</code> for leaves (terminating), <code>0x0</code>/<code>0x1</code> for extensions (non-terminating). In geth's source code, both are implemented as the same <code>shortNode</code> struct — the distinction is whether <code>Val</code> is account data (leaf) or a hash of another node (extension).
+      </p>
+
+      <h3 style="margin-top:48px">Leaf compression: the dominant mechanism</h3>
+
+      <p>
+        When a key becomes the <em>only</em> key in its subtree — which happens for every key somewhere around depth 7–9 — the entire remaining tail of single-child branch nodes is unnecessary. A <span class="highlight">leaf node</span> stores all the remaining nibbles in its encoded path and the account data in its value. One node replaces an entire chain.
+      </p>
+    </div>
+
+    <!-- Leaf compression interactive -->
+    <div class="viz-panel" id="leaf-panel">
+      <canvas id="leaf-canvas" height="340"></canvas>
+      <div class="viz-controls">
+        <div class="toggle-wrap" style="margin:0">
+          <span class="toggle-label">PLAIN TRIE</span>
+          <div class="toggle" id="leaf-toggle" onclick="toggleLeafViz()"></div>
+          <span class="toggle-label">PATRICIA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        Consider a key that becomes unique at depth 8. In a plain trie, it still needs branch nodes at depths 8, 9, 10, … 63 — that's <span class="highlight">56 single-child branch nodes</span> just to reach the leaf. In a Patricia trie, a single leaf node stores those 56 nibbles in its encoded path. One node replaces 56.
+      </p>
+
+      <p>
+        For 383M keys that become unique at an average depth of ~8, this eliminates roughly:
+      </p>
+
+      <div class="spec-box">
+        <div class="spec-label">Leaf Compression Savings</div>
+        <span class="case">383M keys × ~56 remaining depths</span> <span class="produces">≈ 21.0 billion nodes eliminated</span><br>
+        <span class="dim">Each key's tail of single-child branches → 1 leaf node</span>
+      </div>
+
+      <h3 style="margin-top:48px">Extension compression: the minor mechanism</h3>
+
+      <p>
+        Extension nodes handle a different (and much rarer) case: when <em>multiple</em> keys share a common prefix between two branch points. In the transition zone around depths 7–8, you sometimes get short runs of single-child branch nodes between two places where keys actually diverge. An extension node compresses these shared-prefix runs.
+      </p>
+
+      <p>
+        But extension nodes are comparatively rare because the dense zone (depths 0–6) has branch nodes at nearly every level already, and in the sparse zone (depths 9+), keys are alone — so they become leaves, not extensions. Extension compression accounts for roughly <span class="green-hl">~2.3% of eliminated nodes</span>.
+      </p>
+
+      <div class="callout red">
+        <div class="callout-title">The critique addressed</div>
+        The objection "leaf node compression ≠ branch node compression" is <em>taxonomically</em> correct — leaf nodes and extension nodes are different Patricia constructs. But it's <em>analytically</em> irrelevant. Both mechanisms eliminate the same thing: chains of single-child branch nodes that would exist in a plain hex trie. The 21-billion figure counts those eliminated branch nodes, regardless of whether they were replaced by a leaf or an extension. And the answer is: <strong>~97.7% were replaced by leaf suffixes</strong>.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §6 — THE YELLOW PAPER PROOF                                -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-proof">
+  <div class="container">
+    <h2>§6 — The Formal Proof</h2>
+    <h3>What the Yellow Paper actually specifies</h3>
+
+    <p class="lead">
+      The Ethereum Yellow Paper (Appendix D) defines the trie via a recursive structural composition function <code>c(J, i)</code>, where <em>J</em> is a set of key-value pairs and <em>i</em> is the current nibble position. There are three cases:
+    </p>
+
+    <div class="spec-box">
+      <div class="spec-label">Yellow Paper — Appendix D: Modified Merkle Patricia Tree</div>
+      <br>
+      <span class="case">Case 1: J = ∅</span><br>
+      <span class="produces">→ produces ()</span> — empty node, no keys remain<br><br>
+
+      <span class="case">Case 2: |J| = 1</span><br>
+      <span class="produces">→ produces RLP( ( HP(I₀[i..], true), I₁ ) )</span><br>
+      <span style="color:var(--text)">A <strong>leaf node</strong>. The remaining nibbles from position <em>i</em> onward are hex-prefix encoded with the terminator flag TRUE. The value is the account data.</span><br><br>
+
+      <span class="case">Case 3: |J| > 1</span><br>
+      Check for common prefix of length > 0:<br>
+      &nbsp;&nbsp;If prefix exists: <span class="produces">→ produces RLP( ( HP(prefix, false), c(J, i+len) ) )</span><br>
+      &nbsp;&nbsp;<span style="color:var(--text)">An <strong>extension node</strong>. The shared prefix is encoded with terminator FALSE. Points to the next node.</span><br><br>
+      &nbsp;&nbsp;If no prefix: <span class="produces">→ produces branch node [c(J₀,i+1), …, c(J₁₅,i+1), v]</span><br>
+      &nbsp;&nbsp;<span style="color:var(--text)">A <strong>branch node</strong>. Keys are partitioned by their next nibble into up to 16 subsets.</span>
+    </div>
+
+    <p>
+      The critical insight is in <strong>Case 2</strong>. When exactly <em>one</em> key-value pair remains at depth <em>i</em>, the function unconditionally produces a <span class="highlight">leaf node</span> — not an extension node. The remaining nibbles <code>I₀[i..]</code> (everything from position <em>i</em> to the end) become the leaf's encoded path.
+    </p>
+
+    <p>
+      This means: once a key is alone in its subtree, its entire tail — however many nibbles remain — collapses into a single leaf. In a 64-nibble-deep trie where keys become unique around depth 8, that's ~56 nibbles stored in one node instead of 56 separate branch nodes.
+    </p>
+
+    <p>
+      Extension nodes (Case 3, prefix branch) can <em>only</em> appear when <code>|J| > 1</code> — when multiple keys share a prefix. This is why they're rare in the sparse zone: by definition, if you're in the sparse zone, you have one key per subtree, and Case 2 (leaf) fires immediately.
+    </p>
+
+    <div class="callout">
+      <div class="callout-title">Implementation confirmation</div>
+      In geth's <code>trie/trie.go</code>, the insertion function creates a <code>shortNode{key, valueNode(value)}</code> when it encounters an empty (<code>nil</code>) slot — always a leaf. The same <code>shortNode</code> struct is used for extensions, but with a different <code>Val</code> type: a <code>hashNode</code> or nested trie node instead of a <code>valueNode</code>. The hex-prefix encoding in <code>trie/encoding.go</code> handles the terminator flag that distinguishes them at the encoding level.
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §7 — THE FULL ACCOUNTING                                   -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-accounting">
+  <div class="wide-container">
+    <h2>§7 — The Full Accounting</h2>
+    <h3>Every node, every depth, both structures</h3>
+
+    <div class="container">
+      <p class="lead">
+        Let's trace through the complete calculation depth by depth. The table below shows every zone of the trie, what the plain hex trie contains, and what Patricia compression reduces it to.
+      </p>
+    </div>
+
+    <table class="data-table" id="accounting-table">
+      <thead>
+        <tr>
+          <th>Depth</th>
+          <th class="num">16<sup>d</sup> possible</th>
+          <th class="num">Occupied</th>
+          <th class="num">Avg children</th>
+          <th class="num">Multi-child?</th>
+          <th>Patricia node type</th>
+        </tr>
+      </thead>
+      <tbody id="accounting-body"></tbody>
+    </table>
+
+    <div class="container">
+
+      <h3 style="margin-top:48px">The accounting by zone</h3>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Zone</th>
+            <th>Depths</th>
+            <th class="num">Plain branch nodes</th>
+            <th class="num">Patricia branch</th>
+            <th class="num">Single-child eliminated</th>
+            <th>Replaced by</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="green-cell">Dense</span></td>
+            <td>0–6</td>
+            <td class="num">~17.9M</td>
+            <td class="num green-cell">~17.9M</td>
+            <td class="num dim-cell">~0</td>
+            <td class="dim">—</td>
+          </tr>
+          <tr>
+            <td><span class="amber-cell">Transition</span></td>
+            <td>7–8</td>
+            <td class="num">~570M</td>
+            <td class="num green-cell">~128M</td>
+            <td class="num amber-cell">~443M</td>
+            <td>Mix of extensions + leaves</td>
+          </tr>
+          <tr>
+            <td><span class="red-hl">Sparse</span></td>
+            <td>9–63</td>
+            <td class="num">~21.07B</td>
+            <td class="num green-cell">~1.1M</td>
+            <td class="num amber-cell">~21.06B</td>
+            <td><span class="amber-cell">Leaf suffixes (97.7%)</span></td>
+          </tr>
+          <tr class="total-row">
+            <td><strong>Total</strong></td>
+            <td>0–63</td>
+            <td class="num"><strong>~21.65B</strong></td>
+            <td class="num green-cell"><strong>~147M</strong></td>
+            <td class="num amber-cell"><strong>~21.50B</strong></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Adding leaf nodes (383M) and extension nodes (~18M) to the 147M Patricia branch nodes gives a total of roughly <span class="green-hl">548 million nodes</span> — a <span class="highlight">39.5× reduction</span> from the plain trie's 21.65 billion + 383M leaves.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §8 — SIDE-BY-SIDE                                          -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-comparison">
+  <div class="wide-container">
+    <h2>§8 — The Comparison</h2>
+    <h3>Plain trie vs. Patricia trie, head to head</h3>
+
+    <div class="container">
+      <p class="lead">
+        Toggle between the two structures to see the impact on every metric that matters: node count, storage, proof size, and database I/O.
+      </p>
+    </div>
+
+    <div class="toggle-wrap">
+      <span class="toggle-label" id="comp-label-off" style="font-weight:700;color:var(--amber)">PLAIN TRIE</span>
+      <div class="toggle" id="comp-toggle" onclick="toggleComparison()"></div>
+      <span class="toggle-label" id="comp-label-on">PATRICIA TRIE</span>
+    </div>
+
+    <div class="stat-row" id="comp-stats">
+      <div class="stat-card" id="comp-nodes">
+        <div class="stat-label">Total Nodes</div>
+        <div class="stat-value" id="comp-nodes-val">22.0B</div>
+        <div class="stat-sub" id="comp-nodes-sub">branch + leaf</div>
+      </div>
+      <div class="stat-card" id="comp-branch">
+        <div class="stat-label">Branch Nodes</div>
+        <div class="stat-value" id="comp-branch-val">21.65B</div>
+        <div class="stat-sub" id="comp-branch-sub">97.3% single-child</div>
+      </div>
+      <div class="stat-card" id="comp-storage">
+        <div class="stat-label">Est. Storage</div>
+        <div class="stat-value" id="comp-storage-val">~1.17 TB</div>
+        <div class="stat-sub" id="comp-storage-sub">node data only</div>
+      </div>
+      <div class="stat-card" id="comp-proof">
+        <div class="stat-label">Proof Size</div>
+        <div class="stat-value" id="comp-proof-val">~30 KB</div>
+        <div class="stat-sub" id="comp-proof-sub">64 levels × 15 siblings</div>
+      </div>
+      <div class="stat-card" id="comp-io">
+        <div class="stat-label">DB Lookups</div>
+        <div class="stat-value" id="comp-io-val">64</div>
+        <div class="stat-sub" id="comp-io-sub">per state access</div>
+      </div>
+    </div>
+
+    <!-- Side-by-side path visualization -->
+    <div class="viz-panel">
+      <canvas id="comp-canvas" height="220"></canvas>
+    </div>
+
+    <div class="container">
+      <p>
+        The proof size reduction — from ~30 KB to ~4.7 KB — is particularly consequential. Light clients verify state by requesting Merkle proofs from full nodes. At 30 KB per proof, verifying even a few hundred accounts would be impractical over constrained connections. At 4.7 KB, light client viability becomes real.
+      </p>
+
+      <p>
+        The I/O reduction — from 64 to ~9 random disk reads — directly impacts transaction throughput. Every <code>SLOAD</code> and <code>SSTORE</code> EVM opcode must traverse the trie path. Reducing that path length by 7× is a 7× reduction in the I/O bottleneck that makes state access Ethereum's primary performance constraint.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §9 — WHAT PATRICIA CAN'T FIX                               -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-limits">
+  <div class="container">
+    <h2>§9 — The Limits</h2>
+    <h3>What Patricia compression can't fix</h3>
+
+    <p class="lead">
+      Patricia compression is enormously effective at eliminating structural waste, but the Merkle Patricia Trie still has fundamental problems that Ethereum is actively trying to solve.
+    </p>
+
+    <p>
+      <strong>State growth is unbounded.</strong> Every new account and every new storage slot adds nodes to the trie that persist indefinitely. There's no garbage collection — even abandoned contracts keep their storage trie alive because any node could be referenced by a historical state root.
+    </p>
+
+    <p>
+      <strong>The trie is hash-linked.</strong> Each node is stored in the database by its keccak256 hash. This means every traversal is a random-access disk read — the worst case for modern storage hardware. SSDs can handle hundreds of thousands of random reads per second, but with ~9 lookups per state access and millions of state accesses per block, this is still a major bottleneck.
+    </p>
+
+    <p>
+      <strong>Merkle proofs are still too large for statelessness.</strong> Even at ~4.7 KB per account proof, proving an entire block's state accesses requires megabytes of witness data. This is why Ethereum is planning to migrate to <span class="green-hl">Verkle tries</span> — which use polynomial commitments (KZG) instead of hash-based Merkle proofs, reducing proof sizes by 5–10× further.
+    </p>
+
+    <div class="callout">
+      <div class="callout-title">The hexary regret</div>
+      Ethereum's design documentation notes that using 16-ary branching was "suboptimal" — a binary trie with batch storage could achieve similar lookup performance with smaller proofs. But changing the trie structure is enormously difficult once the chain is live, so this is being addressed through the Verkle migration rather than a hex-to-binary change.
+    </div>
+
+    <p>
+      Patricia compression was the right answer for 2014. It reduced a 1.17 TB structural nightmare to an 80 GB tractable problem. But the trie is now being asked to do things — stateless validation, real-time sync, light client proofs at scale — that push beyond what any hash-linked tree structure can deliver. The next chapter is Verkle.
+    </p>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- §10 — CONCLUSION                                           -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<section id="sec-conclusion">
+  <div class="container">
+    <h2>§10 — The Bottom Line</h2>
+    <h3>21.5 billion nodes, eliminated by leaf suffixes</h3>
+
+    <p class="lead">
+      The claim stands. Ethereum's state trie, without Patricia compression, would contain approximately <span class="highlight">21.65 billion branch nodes</span>, of which 21.50 billion are single-child pass-throughs that store no useful branching information.
+    </p>
+
+    <p>
+      Patricia compression eliminates them through two mechanisms. <span class="highlight">Leaf suffix storage</span> accounts for ~97.7% of the savings — when a key is alone in its subtree, a single leaf node stores all remaining nibbles, replacing the entire tail of single-child branches. <span class="green-hl">Extension nodes</span> handle the remaining ~2.3%, compressing shared prefixes between branch points in the narrow transition zone.
+    </p>
+
+    <p>
+      The critique that "leaf node compression ≠ branch node compression" correctly identifies that these are different mechanisms, but incorrectly implies the model conflates them. The model counts eliminated branch nodes — and both leaf suffixes and extension paths eliminate branch nodes. The question is only <em>which</em> Patricia construct absorbs them. The answer is overwhelmingly leaf nodes.
+    </p>
+
+    <p>
+      The formal spec confirms it. The Yellow Paper's <code>c(J, i)</code> function produces a leaf when <code>|J| = 1</code> and an extension only when <code>|J| > 1</code> with a shared prefix. In the sparse zone (depths 9+), every subtree has exactly one key, so <code>|J| = 1</code>, and Case 2 fires unconditionally. Leaf nodes. Every time.
+    </p>
+
+    <div style="text-align:center;margin:48px 0 0;padding:32px 0;border-top:1px solid var(--border)">
+      <div style="font-family:var(--mono);font-size:48px;font-weight:700;color:var(--green);margin-bottom:8px">39.5×</div>
+      <div style="font-family:var(--mono);font-size:13px;color:var(--text-dim);letter-spacing:0.08em;">FEWER NODES WITH PATRICIA COMPRESSION</div>
+      <div style="font-family:var(--mono);font-size:11px;color:var(--text-muted);margin-top:8px;">22.0B → 548M · 1.17 TB → ~80 GB · 30 KB proofs → 4.7 KB · 64 lookups → 9</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    Data: 383M Ethereum addresses (Feb 2026). Model: classical occupancy on keccak256-distributed 64-nibble hex keys.<br>
+    Spec: Ethereum Yellow Paper, Appendix D. Implementation: go-ethereum (geth) trie package.
+  </div>
+</footer>
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!-- JAVASCRIPT                                                  -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<script>
+// ── Constants & Data ────────────────────────────────────────
+const N = 383_000_000;
+const DEPTH = 64;
+const dpr = window.devicePixelRatio || 1;
+
+function computeDepthData() {
+  const data = [];
+  for (let d = 0; d <= DEPTH; d++) {
+    const possible = Math.pow(16, d);
+    let occupied;
+    if (d === 0) occupied = 1;
+    else if (d <= 19) {
+      const lam = N / possible;
+      occupied = possible * (1 - Math.exp(-lam));
+    } else occupied = N;
+
+    const lam = d > 0 ? N / Math.pow(16, d) : Infinity;
+    const pGe2 = lam > 500 ? 1.0 : 1 - Math.exp(-lam) - lam * Math.exp(-lam);
+    const patriciaBranch = d <= 19 ? Math.pow(16, d) * pGe2 : 0;
+
+    let avgChildren = 1;
+    if (d < DEPTH) {
+      const possNext = Math.pow(16, d + 1);
+      const lamNext = N / possNext;
+      const occNext = d + 1 <= 19 ? possNext * (1 - Math.exp(-lamNext)) : N;
+      avgChildren = occNext / (occupied || 1);
+    }
+
+    data.push({
+      depth: d, possible, occupied,
+      avgChildren: Math.min(avgChildren, 16),
+      patriciaBranch,
+      isSingleChild: avgChildren <= 1.01 && d > 0 && d < DEPTH,
+    });
+  }
+  return data;
+}
+
+const depthData = computeDepthData();
+const pathNodes = depthData.slice(0, DEPTH).map(dd => ({
+  depth: dd.depth, isBranching: dd.avgChildren > 1.01,
+  avgChildren: dd.avgChildren
+}));
+
+// ── Utility ─────────────────────────────────────────────────
+function fmt(n) {
+  if (n >= 1e9) return (n / 1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+  return n.toFixed(0);
+}
+
+function fmtPct(n) { return (n * 100).toFixed(n < 0.01 ? 4 : n < 1 ? 1 : 0) + '%'; }
+
+function sizeCanvas(canvas, h) {
+  const w = canvas.parentElement.clientWidth;
+  canvas.style.width = w + 'px';
+  canvas.style.height = h + 'px';
+  canvas.width = w * dpr;
+  canvas.height = h * dpr;
+  return { w, h };
+}
+
+// ── Scroll observer ─────────────────────────────────────────
+const sections = document.querySelectorAll('section');
+const tocNav = document.getElementById('toc');
+
+sections.forEach((sec, i) => {
+  const dot = document.createElement('button');
+  dot.className = 'toc-dot';
+  dot.title = sec.querySelector('h3')?.textContent || sec.querySelector('h1')?.textContent || '';
+  dot.onclick = () => sec.scrollIntoView({ behavior: 'smooth' });
+  tocNav.appendChild(dot);
+});
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      // Activate fade groups
+      entry.target.querySelectorAll('.fade-group').forEach(fg => fg.classList.add('visible'));
+    }
+  });
+}, { threshold: 0.15 });
+
+sections.forEach(sec => observer.observe(sec));
+
+// Progress bar + toc dots
+window.addEventListener('scroll', () => {
+  const scrollPct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+  document.getElementById('progress').style.width = (scrollPct * 100) + '%';
+
+  const dots = tocNav.querySelectorAll('.toc-dot');
+  let activeIdx = 0;
+  sections.forEach((sec, i) => {
+    const rect = sec.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.5) activeIdx = i;
+  });
+  dots.forEach((d, i) => d.classList.toggle('active', i === activeIdx));
+});
+
+// ── §3: Occupancy Chart ─────────────────────────────────────
+let occScale = 'log';
+let occHover = null;
+
+function setOccScale(s) {
+  occScale = s;
+  document.querySelectorAll('#occupancy-panel .viz-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('occ-btn-' + s.replace('pct','pct')).classList.add('active');
+  drawOccupancy();
+}
+
+const occCanvas = document.getElementById('occupancy-canvas');
+occCanvas.style.cursor = 'crosshair';
+
+occCanvas.addEventListener('mousemove', e => {
+  const rect = occCanvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const padL = 70, padR = 20;
+  const plotW = rect.width - padL - padR;
+  const d = Math.floor(((mx - padL) / plotW) * DEPTH);
+  occHover = (d >= 0 && d < DEPTH) ? d : null;
+  drawOccupancy();
+});
+occCanvas.addEventListener('mouseleave', () => { occHover = null; drawOccupancy(); });
+
+function drawOccupancy() {
+  const { w: W, h: H } = sizeCanvas(occCanvas, 360);
+  const ctx = occCanvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = '#0d1410';
+  ctx.fillRect(0, 0, W, H);
+
+  const padL = 70, padR = 20, padT = 20, padB = 40;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const barW = plotW / DEPTH - 1;
+
+  // Y setup
+  let maxY, getY, yLabels;
+  if (occScale === 'log') {
+    const maxLog = Math.log10(N) + 0.5;
+    getY = v => padT + plotH - (Math.log10(Math.max(v, 1)) / maxLog) * plotH;
+    yLabels = [0, 2, 4, 6, 8].map(p => ({ val: Math.pow(10, p), label: '10^' + p, y: padT + plotH - (p / maxLog) * plotH }));
+  } else if (occScale === 'linear') {
+    const maxVal = N * 1.05;
+    getY = v => padT + plotH - (v / maxVal) * plotH;
+    yLabels = [0, 100e6, 200e6, 300e6].map(v => ({ val: v, label: fmt(v), y: getY(v) }));
+  } else { // pct
+    getY = (v, d) => {
+      const poss = Math.pow(16, d);
+      const pct = d <= 19 ? v / poss : 0;
+      return padT + plotH - pct * plotH;
+    };
+    yLabels = [0, 0.25, 0.5, 0.75, 1.0].map(p => ({ val: p, label: (p * 100) + '%', y: padT + plotH - p * plotH }));
+  }
+
+  // Y grid
+  ctx.strokeStyle = '#1a2820';
+  ctx.lineWidth = 0.5;
+  ctx.fillStyle = '#3a5038';
+  ctx.font = "10px 'JetBrains Mono', monospace";
+  ctx.textAlign = 'right';
+  yLabels.forEach(yl => {
+    ctx.beginPath();
+    ctx.moveTo(padL, yl.y);
+    ctx.lineTo(padL + plotW, yl.y);
+    ctx.stroke();
+    ctx.fillText(yl.label, padL - 8, yl.y + 3);
+  });
+
+  // Bars
+  for (let d = 0; d < DEPTH; d++) {
+    const dd = depthData[d];
+    if (dd.occupied < 1) continue;
+    const x = padL + (d / DEPTH) * plotW + 0.5;
+    const y = occScale === 'pct' ? getY(dd.occupied, d) : getY(dd.occupied);
+    const h = padT + plotH - y;
+    const isH = occHover === d;
+
+    ctx.fillStyle = dd.isSingleChild
+      ? (isH ? 'rgba(198,160,90,0.8)' : 'rgba(198,160,90,0.5)')
+      : (isH ? '#b3d4af' : '#8fae8b');
+    if (h > 0) ctx.fillRect(x, y, Math.max(barW, 2), h);
+  }
+
+  // Crossover line
+  const crossX = padL + (7.13 / DEPTH) * plotW;
+  ctx.strokeStyle = '#c6a05a';
+  ctx.lineWidth = 1;
+  ctx.setLineDash([3, 3]);
+  ctx.beginPath();
+  ctx.moveTo(crossX, padT);
+  ctx.lineTo(crossX, padT + plotH);
+  ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = '#c6a05a';
+  ctx.font = "bold 10px 'JetBrains Mono', monospace";
+  ctx.textAlign = 'left';
+  ctx.fillText('← dense | sparse →', crossX + 4, padT + 14);
+  ctx.font = "9px 'JetBrains Mono', monospace";
+  ctx.fillText('log₁₆(383M) ≈ 7.1', crossX + 4, padT + 26);
+
+  // X axis
+  ctx.fillStyle = '#3a5038';
+  ctx.font = "10px 'JetBrains Mono', monospace";
+  ctx.textAlign = 'center';
+  for (let d = 0; d < DEPTH; d += 4) {
+    ctx.fillText(d.toString(), padL + (d / DEPTH) * plotW + barW / 2, padT + plotH + 16);
+  }
+  ctx.fillText('Depth (nibble)', padL + plotW / 2, padT + plotH + 34);
+
+  // Legend
+  const lx = padL + plotW - 200, ly = padT + 16;
+  ctx.beginPath(); ctx.rect(lx, ly, 10, 10); ctx.fillStyle = '#8fae8b'; ctx.fill();
+  ctx.fillStyle = '#8fae8b'; ctx.textAlign = 'left'; ctx.font = "10px 'JetBrains Mono', monospace";
+  ctx.fillText('Multi-child (real branches)', lx + 16, ly + 9);
+  ctx.beginPath(); ctx.rect(lx, ly + 18, 10, 10); ctx.fillStyle = 'rgba(198,160,90,0.5)'; ctx.fill();
+  ctx.fillStyle = '#c6a05a';
+  ctx.fillText('Single-child (waste)', lx + 16, ly + 27);
+
+  // Tooltip
+  if (occHover !== null && occHover < DEPTH) {
+    const dd = depthData[occHover];
+    const bx = padL + (occHover / DEPTH) * plotW + barW / 2;
+    const by = occScale === 'pct' ? getY(dd.occupied, occHover) : getY(dd.occupied);
+    const tw = 220, th = 68;
+    const tx = Math.min(Math.max(bx - tw / 2, padL), W - tw - 5);
+    const ty = Math.max(by - th - 8, padT);
+
+    ctx.fillStyle = 'rgba(8,12,10,0.92)';
+    ctx.strokeStyle = '#2a3e30';
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.roundRect(tx, ty, tw, th, 5); ctx.fill(); ctx.stroke();
+
+    ctx.fillStyle = '#cde0cb';
+    ctx.font = "bold 10px 'JetBrains Mono', monospace";
+    ctx.textAlign = 'left';
+    ctx.fillText(`Depth ${occHover}`, tx + 10, ty + 16);
+    ctx.font = "10px 'JetBrains Mono', monospace";
+    ctx.fillStyle = '#8fae8b';
+    ctx.fillText(`Occupied: ${fmt(dd.occupied)}`, tx + 10, ty + 32);
+    ctx.fillStyle = dd.isSingleChild ? '#c6a05a' : '#8fae8b';
+    ctx.fillText(`Avg children: ${dd.avgChildren.toFixed(3)}`, tx + 10, ty + 46);
+    const poss = dd.depth <= 19 ? Math.pow(16, dd.depth) : Infinity;
+    const pctOcc = poss < Infinity ? dd.occupied / poss : 0;
+    ctx.fillStyle = '#5a7058';
+    ctx.fillText(`Occupancy: ${pctOcc > 0 ? fmtPct(pctOcc) : '≈ 0%'}`, tx + 10, ty + 60);
+
+    const info = document.getElementById('occ-hover-info');
+    if (info) info.textContent = dd.isSingleChild
+      ? `Depth ${occHover}: ${fmt(dd.occupied)} single-child nodes (structural waste)`
+      : `Depth ${occHover}: ${fmt(dd.occupied)} nodes, avg ${dd.avgChildren.toFixed(1)} children`;
+  }
+}
+
+// ── §4: Plain Trie Chart ────────────────────────────────────
+let plainHover = null;
+const plainCanvas = document.getElementById('plain-canvas');
+plainCanvas.style.cursor = 'crosshair';
+
+plainCanvas.addEventListener('mousemove', e => {
+  const rect = plainCanvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const padL = 70, padR = 20;
+  const plotW = rect.width - padL - padR;
+  const d = Math.floor(((mx - padL) / plotW) * DEPTH);
+  plainHover = (d >= 0 && d < DEPTH) ? d : null;
+  drawPlain();
+});
+plainCanvas.addEventListener('mouseleave', () => { plainHover = null; drawPlain(); });
+
+function drawPlain() {
+  const { w: W, h: H } = sizeCanvas(plainCanvas, 320);
+  const ctx = plainCanvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = '#0d1410'; ctx.fillRect(0, 0, W, H);
+
+  const padL = 70, padR = 20, padT = 20, padB = 40;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const barW = plotW / DEPTH - 1;
+  const maxLog = Math.log10(N) + 0.5;
+
+  // Y grid
+  ctx.strokeStyle = '#1a2820'; ctx.lineWidth = 0.5;
+  ctx.fillStyle = '#3a5038'; ctx.font = "10px 'JetBrains Mono', monospace"; ctx.textAlign = 'right';
+  for (let p = 0; p <= 9; p += 2) {
+    const y = padT + plotH - (p / maxLog) * plotH;
+    ctx.beginPath(); ctx.moveTo(padL, y); ctx.lineTo(padL + plotW, y); ctx.stroke();
+    ctx.fillText('10^' + p, padL - 8, y + 3);
+  }
+
+  // Stacked bars: multi-child (green bottom) + single-child (amber top)
+  for (let d = 0; d < DEPTH; d++) {
+    const dd = depthData[d];
+    if (dd.occupied < 1) continue;
+    const x = padL + (d / DEPTH) * plotW + 0.5;
+    const logOcc = Math.log10(Math.max(dd.occupied, 1));
+    const hTotal = (logOcc / maxLog) * plotH;
+    const yTop = padT + plotH - hTotal;
+    const isH = plainHover === d;
+
+    // Multi-child portion
+    const multiChild = dd.isSingleChild ? 0 : dd.occupied;
+    if (multiChild > 0) {
+      const logMulti = Math.log10(multiChild);
+      const hMulti = (logMulti / maxLog) * plotH;
+      ctx.fillStyle = isH ? '#b3d4af' : '#8fae8b';
+      ctx.fillRect(x, padT + plotH - hMulti, Math.max(barW, 2), hMulti);
+    }
+
+    // Single-child portion (shown differently)
+    if (dd.isSingleChild) {
+      ctx.fillStyle = isH ? 'rgba(198,160,90,0.8)' : 'rgba(198,160,90,0.5)';
+      ctx.fillRect(x, yTop, Math.max(barW, 2), hTotal);
+    }
+  }
+
+  // Annotations
+  ctx.fillStyle = '#c6a05a'; ctx.font = "bold 10px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+  const sparseX = padL + (36 / DEPTH) * plotW;
+  ctx.fillText('← 21.07B SINGLE-CHILD NODES →', sparseX, padT + 14);
+  ctx.font = "9px 'JetBrains Mono', monospace"; ctx.fillStyle = '#8a7040';
+  ctx.fillText('each one: 16 slots allocated, 15 empty', sparseX, padT + 28);
+
+  // X axis
+  ctx.fillStyle = '#3a5038'; ctx.font = "10px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+  for (let d = 0; d < DEPTH; d += 4) {
+    ctx.fillText(d.toString(), padL + (d / DEPTH) * plotW + barW / 2, padT + plotH + 16);
+  }
+  ctx.fillText('Depth', padL + plotW / 2, padT + plotH + 34);
+
+  // Tooltip
+  if (plainHover !== null && plainHover < DEPTH) {
+    const dd = depthData[plainHover];
+    const bx = padL + (plainHover / DEPTH) * plotW + barW / 2;
+    const logOcc = Math.log10(Math.max(dd.occupied, 1));
+    const by = padT + plotH - (logOcc / maxLog) * plotH;
+    const tw = 200, th = 52;
+    const tx = Math.min(Math.max(bx - tw / 2, padL), W - tw - 5);
+    const ty = Math.max(by - th - 8, padT);
+
+    ctx.fillStyle = 'rgba(8,12,10,0.92)'; ctx.strokeStyle = '#2a3e30'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.roundRect(tx, ty, tw, th, 5); ctx.fill(); ctx.stroke();
+
+    ctx.fillStyle = '#cde0cb'; ctx.font = "bold 10px 'JetBrains Mono', monospace"; ctx.textAlign = 'left';
+    ctx.fillText(`Depth ${plainHover}`, tx + 10, ty + 16);
+    ctx.font = "10px 'JetBrains Mono', monospace";
+    ctx.fillStyle = dd.isSingleChild ? '#c6a05a' : '#8fae8b';
+    ctx.fillText(`Nodes: ${fmt(dd.occupied)}`, tx + 10, ty + 32);
+    ctx.fillText(dd.isSingleChild ? 'Single-child (waste)' : `Multi-child (avg ${dd.avgChildren.toFixed(1)})`, tx + 10, ty + 46);
+  }
+}
+
+// ── §5: Leaf compression viz ────────────────────────────────
+let leafPatricia = false;
+let leafAnim = 0;
+let leafAnimTarget = 0;
+const leafCanvas = document.getElementById('leaf-canvas');
+
+function toggleLeafViz() {
+  leafPatricia = !leafPatricia;
+  leafAnimTarget = leafPatricia ? 1 : 0;
+  const tog = document.getElementById('leaf-toggle');
+  tog.classList.toggle('on', leafPatricia);
+}
+
+function drawLeaf() {
+  const { w: W, h: H } = sizeCanvas(leafCanvas, 340);
+  const ctx = leafCanvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = '#0d1410'; ctx.fillRect(0, 0, W, H);
+
+  const cx = W / 2;
+  const startY = 30;
+
+  // Draw a key that becomes unique at depth 8
+  // Show depths 5,6,7 (multi-child), then 8 (divergence point), then 9..14 (single-child tail)
+  const depths = [
+    { d: 5, label: 'depth 5', multi: true },
+    { d: 6, label: 'depth 6', multi: true },
+    { d: 7, label: 'depth 7', multi: true },
+    { d: 8, label: 'depth 8', multi: false, diverge: true },
+    { d: 9, label: '9', multi: false },
+    { d: 10, label: '10', multi: false },
+    { d: 11, label: '11', multi: false },
+    { d: 12, label: '…', multi: false },
+    { d: 63, label: '63', multi: false },
+  ];
+
+  const nodeH = 24;
+  const gapY = 8;
+  const totalH = depths.length * (nodeH + gapY);
+  const offsetY = (H - totalH) / 2;
+
+  // Title
+  ctx.fillStyle = '#8fae8b'; ctx.font = "600 11px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+  ctx.fillText(leafPatricia ? 'WITH PATRICIA: LEAF NODE ABSORBS TAIL' : 'WITHOUT PATRICIA: EVERY DEPTH IS A BRANCH NODE', cx, 16);
+
+  // Draw connections and nodes
+  depths.forEach((dep, i) => {
+    const y = offsetY + i * (nodeH + gapY);
+    const isTail = i >= 4; // depths 9+ are the single-child tail
+
+    // Connection to next
+    if (i < depths.length - 1) {
+      const ny = offsetY + (i + 1) * (nodeH + gapY);
+      if (leafPatricia && isTail) {
+        const fade = 1 - leafAnim * 0.85;
+        ctx.strokeStyle = `rgba(80,60,40,${fade * 0.3})`;
+        ctx.setLineDash([2, 3]);
+      } else {
+        ctx.strokeStyle = dep.multi ? 'rgba(143,174,139,0.5)' : 'rgba(198,160,90,0.3)';
+        ctx.setLineDash([]);
+      }
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(cx, y + nodeH); ctx.lineTo(cx, ny); ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    // Node
+    const nw = dep.multi ? 160 : (dep.diverge ? 160 : 120);
+
+    if (leafPatricia && isTail) {
+      // Fade out
+      const fade = 1 - leafAnim * 0.9;
+      ctx.globalAlpha = fade;
+      ctx.beginPath(); ctx.roundRect(cx - nw / 2, y, nw, nodeH, 5);
+      ctx.fillStyle = '#2a1f14'; ctx.fill();
+      ctx.strokeStyle = '#c6a05a44'; ctx.lineWidth = 1; ctx.stroke();
+      ctx.fillStyle = '#c6a05a'; ctx.font = "10px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+      ctx.fillText(dep.label, cx, y + nodeH / 2 + 3);
+      ctx.globalAlpha = 1;
+    } else if (leafPatricia && dep.diverge) {
+      // This becomes the leaf node
+      const leafW = 280;
+      ctx.beginPath(); ctx.roundRect(cx - leafW / 2, y, leafW, nodeH, 5);
+      ctx.fillStyle = 'rgba(198,160,90,0.15)'; ctx.fill();
+      ctx.strokeStyle = '#c6a05a'; ctx.lineWidth = 2; ctx.stroke();
+      ctx.fillStyle = '#c6a05a'; ctx.font = "bold 11px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+      ctx.fillText('LEAF: remaining 56 nibbles + value', cx, y + nodeH / 2 + 4);
+    } else {
+      ctx.beginPath(); ctx.roundRect(cx - nw / 2, y, nw, nodeH, 5);
+      if (dep.multi) {
+        ctx.fillStyle = '#142814'; ctx.fill();
+        ctx.strokeStyle = '#8fae8b'; ctx.lineWidth = 1; ctx.stroke();
+        ctx.fillStyle = '#8fae8b';
+      } else if (dep.diverge) {
+        ctx.fillStyle = '#142814'; ctx.fill();
+        ctx.strokeStyle = '#8fae8b'; ctx.lineWidth = 1.5; ctx.stroke();
+        ctx.fillStyle = '#8fae8b';
+      } else {
+        ctx.fillStyle = '#2a1f14'; ctx.fill();
+        ctx.strokeStyle = '#c6a05a55'; ctx.lineWidth = 1; ctx.stroke();
+        ctx.fillStyle = '#c6a05a';
+      }
+      ctx.font = (dep.multi || dep.diverge) ? "bold 11px 'JetBrains Mono', monospace" : "10px 'JetBrains Mono', monospace";
+      ctx.textAlign = 'center';
+      ctx.fillText(dep.label + (dep.multi ? ' — branch (multi-child)' : dep.diverge ? ' — last branch point' : ''), cx, y + nodeH / 2 + 3);
+    }
+
+    // Annotation for single-child
+    if (!dep.multi && !dep.diverge && !leafPatricia) {
+      ctx.fillStyle = '#5a4030'; ctx.font = "9px 'JetBrains Mono', monospace"; ctx.textAlign = 'left';
+      ctx.fillText('← 1 child, 15 empty slots', cx + nw / 2 + 8, y + nodeH / 2 + 3);
+    }
+  });
+
+  // Patricia annotation
+  if (leafPatricia) {
+    ctx.globalAlpha = leafAnim;
+    ctx.fillStyle = '#c6a05a'; ctx.font = "italic 11px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+    const annY = offsetY + 4 * (nodeH + gapY) + nodeH + 20;
+    ctx.fillText('↑ 56 single-child branch nodes replaced by 1 leaf node', cx, annY);
+    ctx.fillStyle = '#8a7040'; ctx.font = "10px 'JetBrains Mono', monospace";
+    ctx.fillText('Yellow Paper Case 2: |J| = 1 → leaf', cx, annY + 18);
+    ctx.globalAlpha = 1;
+  }
+}
+
+// ── §8: Comparison toggle ───────────────────────────────────
+let compPatricia = false;
+let compAnim = 0;
+let compAnimTarget = 0;
+
+function toggleComparison() {
+  compPatricia = !compPatricia;
+  compAnimTarget = compPatricia ? 1 : 0;
+  const tog = document.getElementById('comp-toggle');
+  tog.classList.toggle('on', compPatricia);
+  document.getElementById('comp-label-off').style.fontWeight = compPatricia ? '400' : '700';
+  document.getElementById('comp-label-off').style.color = compPatricia ? 'var(--text-dim)' : 'var(--amber)';
+  document.getElementById('comp-label-on').style.fontWeight = compPatricia ? '700' : '400';
+  document.getElementById('comp-label-on').style.color = compPatricia ? 'var(--green)' : 'var(--text-dim)';
+
+  updateCompStats();
+}
+
+function updateCompStats() {
+  const p = compPatricia;
+  const cards = document.querySelectorAll('#comp-stats .stat-card');
+  cards.forEach(c => { c.classList.toggle('green', p); c.classList.toggle('amber', !p); });
+
+  document.getElementById('comp-nodes-val').textContent = p ? '548M' : '22.0B';
+  document.getElementById('comp-nodes-sub').textContent = p ? '39.5× fewer' : 'branch + leaf';
+  document.getElementById('comp-branch-val').textContent = p ? '147M' : '21.65B';
+  document.getElementById('comp-branch-sub').textContent = p ? 'only divergence points' : '97.3% single-child';
+  document.getElementById('comp-storage-val').textContent = p ? '~80 GB' : '~1.17 TB';
+  document.getElementById('comp-storage-sub').textContent = p ? '14.6× smaller' : 'node data only';
+  document.getElementById('comp-proof-val').textContent = p ? '~4.7 KB' : '~30 KB';
+  document.getElementById('comp-proof-sub').textContent = p ? '~9 branch nodes' : '64 levels × 15 siblings';
+  document.getElementById('comp-io-val').textContent = p ? '~9' : '64';
+  document.getElementById('comp-io-sub').textContent = p ? '7× fewer' : 'per state access';
+}
+
+const compCanvas = document.getElementById('comp-canvas');
+
+function drawComp() {
+  const { w: W, h: H } = sizeCanvas(compCanvas, 220);
+  const ctx = compCanvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = '#0d1410'; ctx.fillRect(0, 0, W, H);
+
+  const padL = 60, padR = 20, padT = 36, padB = 30;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+
+  ctx.fillStyle = '#8fae8b'; ctx.font = "600 11px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+  ctx.fillText('LOOKUP PATH: ONE ACCOUNT VERIFICATION', W / 2, 18);
+  ctx.font = "10px 'JetBrains Mono', monospace"; ctx.fillStyle = '#5a7058';
+  ctx.fillText('Each dot = one node traversed, one database lookup', W / 2, 30);
+
+  const nodeR = Math.min(4, plotW / DEPTH / 2.5);
+  const spacing = plotW / DEPTH;
+
+  // Patricia segments
+  let patriciaSegments = [];
+  let segStart = null;
+  for (let i = 0; i < DEPTH; i++) {
+    if (!pathNodes[i].isBranching) { if (segStart === null) segStart = i; }
+    else { if (segStart !== null) { patriciaSegments.push({ start: segStart, end: i - 1 }); segStart = null; } }
+  }
+  if (segStart !== null) patriciaSegments.push({ start: segStart, end: DEPTH - 1 });
+
+  const isCollapsed = d => patriciaSegments.some(s => d >= s.start && d <= s.end);
+  const baseY = padT + plotH * 0.4;
+
+  // Extension overlays
+  if (compPatricia) {
+    patriciaSegments.forEach(seg => {
+      const x1 = padL + seg.start * spacing + spacing / 2;
+      const x2 = padL + seg.end * spacing + spacing / 2;
+      const mx = (x1 + x2) / 2, w = x2 - x1 + spacing * 0.5;
+      ctx.globalAlpha = compAnim * 0.6;
+      const grad = ctx.createLinearGradient(x1, 0, x2, 0);
+      grad.addColorStop(0, 'rgba(198,160,90,0.1)');
+      grad.addColorStop(0.5, 'rgba(198,160,90,0.2)');
+      grad.addColorStop(1, 'rgba(198,160,90,0.1)');
+      ctx.fillStyle = grad;
+      ctx.beginPath(); ctx.roundRect(mx - w / 2, baseY - 4, w, 8, 3); ctx.fill();
+      if (w > 40) {
+        ctx.fillStyle = `rgba(198,160,90,${compAnim})`;
+        ctx.font = "bold 8px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+        ctx.fillText(`skip ${seg.end - seg.start + 1}`, mx, baseY - 8);
+      }
+      ctx.globalAlpha = 1;
+    });
+  }
+
+  // Connections
+  for (let d = 0; d < DEPTH - 1; d++) {
+    const x1 = padL + d * spacing + spacing / 2;
+    const x2 = padL + (d + 1) * spacing + spacing / 2;
+    if (compPatricia && isCollapsed(d) && isCollapsed(d + 1)) {
+      const fade = 1 - compAnim * 0.8;
+      ctx.strokeStyle = `rgba(80,60,40,${fade * 0.2})`; ctx.setLineDash([2, 3]);
+    } else {
+      ctx.strokeStyle = pathNodes[d].isBranching ? 'rgba(143,174,139,0.5)' : 'rgba(80,60,40,0.3)';
+      ctx.setLineDash([]);
+    }
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(x1, baseY); ctx.lineTo(x2, baseY); ctx.stroke();
+    ctx.setLineDash([]);
+  }
+
+  // Nodes
+  for (let d = 0; d < DEPTH; d++) {
+    const x = padL + d * spacing + spacing / 2;
+    if (compPatricia && isCollapsed(d)) {
+      const fade = 1 - compAnim * 0.85;
+      ctx.beginPath(); ctx.arc(x, baseY, nodeR * 0.5, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(80,60,40,${fade})`; ctx.fill();
+    } else {
+      ctx.beginPath(); ctx.arc(x, baseY, nodeR, 0, Math.PI * 2);
+      ctx.fillStyle = pathNodes[d].isBranching ? '#8fae8b' : '#c6a05a';
+      if (pathNodes[d].isBranching) { ctx.shadowColor = '#8fae8b'; ctx.shadowBlur = 5; }
+      ctx.fill(); ctx.shadowBlur = 0;
+    }
+  }
+
+  // Depth labels
+  ctx.fillStyle = '#3a5038'; ctx.font = "9px 'JetBrains Mono', monospace"; ctx.textAlign = 'center';
+  for (let d = 0; d < DEPTH; d += 8) {
+    ctx.fillText(d.toString(), padL + d * spacing + spacing / 2, padT + plotH + 14);
+  }
+
+  // Legend
+  const lx = padL + 4, ly = padT + plotH - 16;
+  ctx.beginPath(); ctx.arc(lx, ly, 3, 0, Math.PI * 2); ctx.fillStyle = '#8fae8b'; ctx.fill();
+  ctx.textAlign = 'left'; ctx.font = "9px 'JetBrains Mono', monospace"; ctx.fillStyle = '#8fae8b';
+  ctx.fillText('Branch (≥2 children)', lx + 8, ly + 3);
+  ctx.beginPath(); ctx.arc(lx + 160, ly, 3, 0, Math.PI * 2); ctx.fillStyle = '#c6a05a'; ctx.fill();
+  ctx.fillStyle = '#c6a05a'; ctx.fillText('Single-child', lx + 168, ly + 3);
+}
+
+// ── §7: Accounting table ────────────────────────────────────
+function buildAccountingTable() {
+  const body = document.getElementById('accounting-body');
+  const showDepths = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 32, 48, 63];
+
+  showDepths.forEach((d, idx) => {
+    const dd = depthData[d];
+    const tr = document.createElement('tr');
+    const possStr = d <= 12 ? Math.pow(16, d).toLocaleString() : '16^' + d;
+    const occStr = fmt(dd.occupied);
+    const childStr = d < 64 ? dd.avgChildren.toFixed(d <= 8 ? 2 : 3) : '—';
+    const isMulti = dd.avgChildren > 1.01 || d === 0;
+    const multiStr = isMulti ? '✓ Yes' : '✗ No';
+    let patriciaType;
+    if (d === 0) patriciaType = 'Branch (root)';
+    else if (isMulti) patriciaType = 'Branch node';
+    else patriciaType = 'Eliminated → leaf suffix';
+
+    tr.innerHTML = `
+      <td class="num">${d}</td>
+      <td class="num dim-cell">${possStr}</td>
+      <td class="num">${occStr}</td>
+      <td class="num ${isMulti ? 'green-cell' : 'amber-cell'}">${childStr}</td>
+      <td class="num ${isMulti ? 'green-cell' : 'amber-cell'}">${multiStr}</td>
+      <td class="${isMulti ? 'green-cell' : 'amber-cell'}" style="font-size:12px">${patriciaType}</td>
+    `;
+    body.appendChild(tr);
+
+    // Insert separator rows
+    if (d === 6 || d === 8) {
+      const sep = document.createElement('tr');
+      const label = d === 6 ? '— DENSE → TRANSITION —' : '— TRANSITION → SPARSE —';
+      sep.innerHTML = `<td colspan="6" style="text-align:center;padding:6px;color:var(--text-muted);font-size:10px;font-family:var(--mono);letter-spacing:0.1em;border-bottom:2px solid var(--border-bright)">${label}</td>`;
+      body.appendChild(sep);
+    }
+
+    // Ellipsis rows
+    if ((d === 12 || d === 32) && idx < showDepths.length - 1) {
+      const ell = document.createElement('tr');
+      ell.innerHTML = `<td colspan="6" style="text-align:center;color:var(--text-muted);font-size:11px">⋮</td>`;
+      body.appendChild(ell);
+    }
+  });
+}
+
+// ── Animation loop ──────────────────────────────────────────
+function tick() {
+  leafAnim += (leafAnimTarget - leafAnim) * 0.07;
+  if (Math.abs(leafAnim - leafAnimTarget) < 0.005) leafAnim = leafAnimTarget;
+
+  compAnim += (compAnimTarget - compAnim) * 0.07;
+  if (Math.abs(compAnim - compAnimTarget) < 0.005) compAnim = compAnimTarget;
+
+  drawOccupancy();
+  drawPlain();
+  drawLeaf();
+  drawComp();
+  requestAnimationFrame(tick);
+}
+
+// ── Init ────────────────────────────────────────────────────
+buildAccountingTable();
+updateCompStats();
+tick();
+
+// Trigger initial section visibility
+setTimeout(() => {
+  document.querySelectorAll('section').forEach(sec => {
+    const rect = sec.getBoundingClientRect();
+    if (rect.top < window.innerHeight) sec.classList.add('visible');
+  });
+}, 100);
+</script>
+
+</body>
+</html>
