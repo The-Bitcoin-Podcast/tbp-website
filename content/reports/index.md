@@ -7,4 +7,4 @@ Research, data journalism, and interactive breakdowns published alongside the sh
 
 ## Tokenomics
 
-- [Bittensor ($TAO) Tokenomics — An Interactive Breakdown](/reports/tao-tokenomics.html)
+- [Bittensor ($TAO) Tokenomics — An Interactive Breakdown](/reports/tao-tokenomics)
