@@ -11,6 +11,8 @@ contactUrl: "/contact"
 guestsUrl: "/people"
 episodesArchiveUrl: "/episodes"
 reportsUrl: "/reports"
+newsUrl: "/news"
+businessTipsUrl: "/business-tips"
 ---
 
 Welcome to The Bitcoin Podcast.

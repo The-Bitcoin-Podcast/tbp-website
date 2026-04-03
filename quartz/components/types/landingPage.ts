@@ -106,6 +106,12 @@ export interface LandingPageFrontmatter extends QuartzPluginData {
 
   /** Path to reports & analysis section */
   reportsUrl: string
+
+  /** Path to news section */
+  newsUrl: string
+
+  /** Path to business tips section */
+  businessTipsUrl: string
 }
 
 /**
