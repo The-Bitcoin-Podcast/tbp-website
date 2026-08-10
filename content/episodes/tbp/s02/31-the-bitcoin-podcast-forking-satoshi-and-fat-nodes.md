@@ -1,11 +1,11 @@
 ---
-title: 'The Bitcoin Podcast: RWAs, Privacy Pools v2, BONKs'
-date: '2026-07-10'
+title: 'The Bitcoin Podcast: Forking Satoshi and Fat Nodes'
+date: '2026-06-25'
 draft: false
-episodeNumber: 35
-youtubeId: xFxa8-oGRnE
-thumbnail: 'https://i.ytimg.com/vi/xFxa8-oGRnE/maxresdefault.jpg'
-duration: '48:10'
+episodeNumber: 31
+youtubeId: gRgAQYn-tWo
+thumbnail: 'https://i.ytimg.com/vi/gRgAQYn-tWo/maxresdefault.jpg'
+duration: '55:45'
 syncedAt: '2026-08-10T15:03:33.528Z'
 status: available
 ---
@@ -13,7 +13,7 @@ status: available
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/xFxa8-oGRnE"
+    src="https://www.youtube-nocookie.com/embed/gRgAQYn-tWo"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -23,5 +23,5 @@ status: available
 
 ## Episode Description
 
-We're going to talk about the things in the title, maybe.
+News around the Bitcoin and Ethereum ecosystems.
 

@@ -1,19 +1,19 @@
 ---
-title: 'The Bitcoin Podcast: Providing more CLARITY, Core is your Love Doctor - Mobile'
-date: '2026-07-24'
-draft: true
-episodeNumber: 37
-youtubeId: mS6Hn85Cct4
-thumbnail: 'https://i.ytimg.com/vi/mS6Hn85Cct4/maxresdefault.jpg'
-duration: '42:31'
-syncedAt: '2026-08-10T15:03:33.529Z'
+title: TapTrade.TV
+date: '2026-06-20'
+draft: false
+episodeNumber: 2
+youtubeId: 6Bu3r0orxNU
+thumbnail: 'https://i.ytimg.com/vi/6Bu3r0orxNU/maxresdefault.jpg'
+duration: '28:51'
+syncedAt: '2026-08-10T15:03:33.527Z'
 status: available
 ---
 ## Watch Episode
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/mS6Hn85Cct4"
+    src="https://www.youtube-nocookie.com/embed/6Bu3r0orxNU"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -23,5 +23,5 @@ status: available
 
 ## Episode Description
 
-We again...provide some clarity but mostly hangout. A
+We tap to trade, we trade on taps, and the taps flow.
 

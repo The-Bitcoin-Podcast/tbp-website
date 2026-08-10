@@ -2,7 +2,7 @@
 title: 'The Bitcoin Podcast: RWAs, Privacy Pools v2, BONKs - Mobile'
 date: '2026-07-10'
 draft: true
-episodeNumber: 35
+episodeNumber: 33
 youtubeId: ppXIwSnkAgI
 thumbnail: 'https://i.ytimg.com/vi/ppXIwSnkAgI/maxresdefault.jpg'
 duration: '48:06'
