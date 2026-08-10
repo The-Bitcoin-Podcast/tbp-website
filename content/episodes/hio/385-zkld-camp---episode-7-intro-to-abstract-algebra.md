@@ -1,7 +1,7 @@
 ---
 title: 'ZKLD Camp - Episode 7: Intro to Abstract Algebra'
 date: '2026-02-17'
-draft: true
+draft: false
 episodeNumber: 385
 youtubeId: E2gMQttB4_c
 thumbnail: 'https://i.ytimg.com/vi/E2gMQttB4_c/maxresdefault.jpg'

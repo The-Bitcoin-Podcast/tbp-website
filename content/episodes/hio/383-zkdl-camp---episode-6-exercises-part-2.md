@@ -1,7 +1,7 @@
 ---
 title: 'ZKDL Camp - Episode 6: Exercises Part 2'
 date: '2026-02-03'
-draft: true
+draft: false
 episodeNumber: 383
 youtubeId: 3edExh_mwh4
 thumbnail: 'https://i.ytimg.com/vi/3edExh_mwh4/maxresdefault.jpg'

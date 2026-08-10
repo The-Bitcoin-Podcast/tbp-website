@@ -1,7 +1,7 @@
 ---
 title: 'ZKDL Camp - Episode 3: Prime Numbers and Fundamental Theorem of Arithmetic'
 date: '2026-01-04'
-draft: true
+draft: false
 episodeNumber: 381
 youtubeId: hiIgAP5IXEA
 thumbnail: 'https://i.ytimg.com/vi/hiIgAP5IXEA/maxresdefault.jpg'

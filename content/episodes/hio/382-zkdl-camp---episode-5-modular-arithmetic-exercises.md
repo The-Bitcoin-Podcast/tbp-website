@@ -1,7 +1,7 @@
 ---
 title: 'ZKDL Camp - Episode 5: Modular Arithmetic Exercises'
 date: '2026-01-27'
-draft: true
+draft: false
 episodeNumber: 382
 youtubeId: rI66Su-3X0s
 thumbnail: 'https://i.ytimg.com/vi/rI66Su-3X0s/maxresdefault.jpg'

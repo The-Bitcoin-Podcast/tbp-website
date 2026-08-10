@@ -1,7 +1,7 @@
 ---
 title: 'ZKDL Camp - Episode 4: Modular Arithmetic, Euler''s Theorem, and Exercises'
 date: '2026-01-20'
-draft: true
+draft: false
 episodeNumber: 122
 youtubeId: i0eK4XtyoMU
 thumbnail: 'https://i.ytimg.com/vi/i0eK4XtyoMU/maxresdefault.jpg'
