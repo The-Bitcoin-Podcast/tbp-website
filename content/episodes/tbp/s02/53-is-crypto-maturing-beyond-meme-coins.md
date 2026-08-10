@@ -1,0 +1,27 @@
+---
+title: Is crypto maturing beyond meme coins?
+date: '2026-05-10'
+draft: true
+episodeNumber: 53
+youtubeId: xPN4vNCdNak
+thumbnail: 'https://i.ytimg.com/vi/xPN4vNCdNak/maxresdefault.jpg'
+duration: '2:03'
+syncedAt: '2026-08-10T15:03:33.525Z'
+status: available
+---
+## Watch Episode
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/xPN4vNCdNak"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
+## Episode Description
+
+
+
