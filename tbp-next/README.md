@@ -11,6 +11,18 @@ npm run dev      # local preview on http://localhost:3334
 npm run build    # search index + static site into out/
 ```
 
+## Previewing a pull request without building
+
+Every pull request's "Deploy Next.js site to GitHub Pages" run attaches the built
+site as `site-preview-pr-<number>`; the run's summary page links to it. Download
+and unzip it, then:
+
+```bash
+npx serve <unzipped folder>
+```
+
+Open the address it prints. Opening `index.html` directly does not work.
+
 ## Clip search
 
 Search results are moments inside episodes. They come from timestamped transcripts

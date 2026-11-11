@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-  # Pull requests run the build only, to prove the site still builds; nothing is deployed.
+  # Pull requests run the build only and attach the built site as a downloadable
+  # preview; nothing is deployed.
   pull_request:
     branches:
       - main
@@ -38,6 +39,27 @@ jobs:
       # reading Markdown from ../content and static files from ../quartz/static.
       - name: Build site
         run: npm run build
+      # On pull requests: attach the built site to the run so reviewers can
+      # download it and look at it locally (see tbp-next/README.md).
+      - name: Upload preview build
+        id: preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview-pr-${{ github.event.pull_request.number }}
+          path: tbp-next/out
+          include-hidden-files: true
+          retention-days: 14
+      - name: Link the preview in the run summary
+        if: github.event_name == 'pull_request'
+        run: |
+          {
+            echo "## Site preview"
+            echo "[Download the built site](${{ steps.preview.outputs.artifact-url }}) (zip, kept for 14 days)."
+            echo
+            echo "Unzip it, then run \`npx serve <unzipped folder>\` and open the address it prints."
+            echo "Opening index.html directly does not work; the site needs to be served."
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: Upload artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
