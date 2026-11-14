@@ -1,0 +1,139 @@
+name: Sync new episodes
+
+# Every hour: look for new videos on the show's YouTube channels, file them
+# under content/episodes, fetch their captions for clip search, commit to main
+# and redeploy the site. See tbp-next/README.md ("New episodes").
+#
+# On a pull request that touches the sync it runs as a rehearsal: everything
+# up to the commit, and nothing is pushed, deployed or announced.
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/sync-episodes.yml
+      - tbp-next/scripts/sync/**
+      - tbp-next/scripts/fetch_captions.py
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-episodes-${{ github.event_name == 'pull_request' && github.ref || 'main' }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'The-Bitcoin-Podcast/tbp-website'
+    runs-on: ubuntu-22.04
+    env:
+      REHEARSAL: ${{ github.event_name == 'pull_request' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # youtube-sync reads the git history to see what's already synced.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check YouTube for new videos
+        id: check
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node tbp-next/scripts/sync/check.mjs feeds
+
+      - name: Stop if the YouTube API key is missing
+        if: steps.check.outputs.has_key != 'true'
+        run: |
+          echo "::warning::The YOUTUBE_API_KEY secret is not set, so new videos can't be found."
+          if [ "$REHEARSAL" != "true" ]; then exit 1; fi
+
+      - name: Install sync tooling
+        if: steps.check.outputs.channels != ''
+        run: npm ci
+
+      - name: Pull in and file new videos
+        if: steps.check.outputs.channels != ''
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          CHANNELS: ${{ steps.check.outputs.channels }}
+        run: node tbp-next/scripts/sync/sync.mjs "$CHANNELS"
+
+      - name: Find recent episodes without a transcript
+        id: captions
+        run: node tbp-next/scripts/sync/check.mjs captions
+
+      - uses: actions/setup-python@v5
+        if: steps.captions.outputs.slugs != ''
+        with:
+          python-version: "3.12"
+
+      # YouTube's captions show up some hours after upload, so this is retried
+      # on later runs until they exist. A failure here never blocks publishing.
+      - name: Fetch captions for clip search
+        if: steps.captions.outputs.slugs != ''
+        continue-on-error: true
+        env:
+          SLUGS: ${{ steps.captions.outputs.slugs }}
+        run: |
+          pip install --quiet yt-dlp
+          python tbp-next/scripts/fetch_captions.py --retry-missing --only "$SLUGS"
+
+      - name: See what changed
+        id: changes
+        run: |
+          git add -A content/episodes tbp-next/data/transcripts
+          episodes=$(git diff --cached --name-only -- content/episodes | wc -l | tr -d ' ')
+          transcripts=$(git diff --cached --name-only -- tbp-next/data/transcripts | wc -l | tr -d ' ')
+          echo "episodes=$episodes" >> "$GITHUB_OUTPUT"
+          echo "transcripts=$transcripts" >> "$GITHUB_OUTPUT"
+          {
+            echo "## Episode sync"
+            echo "- Episode files added or changed: $episodes"
+            echo "- Transcripts added: $transcripts"
+            if [ "$REHEARSAL" = "true" ]; then echo "- Rehearsal run: nothing was committed or deployed."; fi
+            echo
+            echo '```'
+            git diff --cached --stat | tail -40
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit to main
+        id: commit
+        if: env.REHEARSAL != 'true' && (steps.changes.outputs.episodes != '0' || steps.changes.outputs.transcripts != '0')
+        env:
+          TRANSCRIPTS_ADDED: ${{ steps.changes.outputs.transcripts }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          node tbp-next/scripts/sync/notify.mjs commit-message > "$RUNNER_TEMP/message.txt"
+          git commit --quiet -F "$RUNNER_TEMP/message.txt"
+          git pull --quiet --rebase origin main
+          git push origin HEAD:main
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # A push made by a workflow doesn't start other workflows, so ask for the
+      # deploy directly.
+      - name: Redeploy the site
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
+
+      - name: Announce on Discord
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TRANSCRIPTS_ADDED: ${{ steps.changes.outputs.transcripts }}
+        run: node tbp-next/scripts/sync/notify.mjs published
+
+      - name: Report a failure on Discord
+        if: failure() && env.REHEARSAL != 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: node tbp-next/scripts/sync/notify.mjs failed

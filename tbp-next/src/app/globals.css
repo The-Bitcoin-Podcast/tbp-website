@@ -1,0 +1,262 @@
+@import "tailwindcss";
+
+/* "Daylight Search": white ground, black ink, Bitcoin orange for fills only. */
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #101010;
+  --color-surface: #ffffff;
+  --color-surface-light: #f4f4f2;
+  --color-border: #e6e6e6;
+  --color-muted: #5c5c5c;
+  /* Bitcoin orange. Fills and highlights only: it is too light for text on white. */
+  --color-brand: #f7931a;
+  --color-brand-hover: #ffa940;
+  --color-brand-tint: #fde3bf;
+  /* Darker orange that passes contrast as text on white. */
+  --color-accent: #b45309;
+  --color-accent-hover: #92400e;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter Tight", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  letter-spacing: -0.02em;
+}
+
+/* ─── Prose: markdown + inline HTML content (episodes, reports, newsletters) ─── */
+.prose {
+  --tw-prose-body: #2a2a2a;
+  --tw-prose-headings: #101010;
+  --tw-prose-links: #b45309;
+  --tw-prose-bold: #101010;
+  --tw-prose-counters: #5c5c5c;
+  --tw-prose-bullets: #b0b0ac;
+  --tw-prose-hr: #e6e6e6;
+  --tw-prose-quotes: #2a2a2a;
+  --tw-prose-quote-borders: #f7931a;
+  --tw-prose-code: #92400e;
+  --tw-prose-pre-code: #2a2a2a;
+  --tw-prose-pre-bg: #f4f4f2;
+  --tw-prose-td-borders: #e6e6e6;
+  --tw-prose-th-borders: #101010;
+  color: #2a2a2a;
+  line-height: 1.8;
+}
+
+.prose a {
+  color: #b45309;
+  text-decoration: underline;
+  text-decoration-color: rgba(180, 83, 9, 0.35);
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+.prose a:hover {
+  color: #92400e;
+  text-decoration-color: currentColor;
+}
+
+.prose strong {
+  color: #101010;
+}
+
+.prose img {
+  border-radius: 0.75rem;
+  margin: 1.5rem auto;
+}
+
+.prose audio {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.prose iframe {
+  border-radius: 0.75rem;
+}
+
+.prose details {
+  border: 1px solid #e6e6e6;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+}
+.prose summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #101010;
+}
+
+/* Tables: newsletter and report data */
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+.prose thead th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid #101010;
+  color: #101010;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.prose tbody td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  color: #2a2a2a;
+}
+.prose tbody tr:hover {
+  background: #f4f4f2;
+}
+
+.prose blockquote {
+  border-left: 3px solid #f7931a;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  background: #f4f4f2;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.prose pre {
+  background: #f4f4f2;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+.prose :not(pre) > code {
+  background: #fde3bf;
+  color: #101010;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.25rem;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: var(--font-display);
+  color: #101010;
+  letter-spacing: -0.02em;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+.prose h1 { font-size: 1.75rem; font-weight: 800; }
+.prose h2 { font-size: 1.4rem; font-weight: 800; border-bottom: 1px solid #e6e6e6; padding-bottom: 0.5rem; }
+.prose h3 { font-size: 1.15rem; font-weight: 700; }
+
+.prose ul,
+.prose ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li {
+  margin: 0.35rem 0;
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid #e6e6e6;
+  margin: 2rem 0;
+}
+
+/* ─── Utility: card ─── */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  transition: border-color 0.2s;
+}
+.card:hover {
+  border-color: var(--color-foreground);
+}
+
+/* ─── Search: matched words in a result ─── */
+.clip-excerpt mark {
+  background: var(--color-brand-tint);
+  color: inherit;
+  border-radius: 0.25rem;
+  padding: 0 0.2rem;
+}
+
+/* ─── Hide scrollbar but allow scroll ─── */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ─── Selection ─── */
+::selection {
+  background: var(--color-brand-tint);
+  color: #101010;
+}
+
+/* ─── Keyboard focus ─── */
+:focus-visible {
+  outline: 2px solid var(--color-foreground);
+  outline-offset: 2px;
+}
+
+/* ─── Reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ─── Search results: motion ─── */
+@keyframes result-enter {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+.result-enter { animation: result-enter 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.moment-enter { animation: result-enter 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+@keyframes tick-enter {
+  from { opacity: 0; transform: translateX(-50%) scaleY(0); }
+  to { opacity: 1; transform: translateX(-50%) scaleY(1); }
+}
+.timeline-tick { animation: tick-enter 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.4) both; }
+
+@keyframes tooltip-enter {
+  from { opacity: 0; margin-bottom: -2px; }
+  to { opacity: 1; }
+}
+.tooltip-enter { animation: tooltip-enter 0.12s ease-out both; }
+.tooltip-excerpt mark {
+  background: none;
+  color: var(--color-brand);
+  font-weight: 600;
+}
+
+/* Timeline bar while an episode's moments are still loading */
+@keyframes timeline-loading {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+.timeline-loading {
+  background-image: linear-gradient(90deg, transparent 0%, var(--color-brand-tint) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: timeline-loading 1.2s linear infinite;
+}
