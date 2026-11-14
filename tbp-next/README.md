@@ -25,8 +25,15 @@ Open the address it prints. Opening `index.html` directly does not work.
 
 ## Clip search
 
-Search results are moments inside episodes. They come from timestamped transcripts
-in `data/transcripts/`, which are committed because CI cannot produce them.
+Search goes from episodes down to moments. Episodes whose title, guests,
+description or chapter list match come first, then episodes where the phrase was
+only said out loud. Each episode shows a timeline with a tick wherever the phrase
+was said, and every moment plays from that second. Wide screens show the episode
+list and a live preview side by side; narrow screens show expandable cards.
+
+Moments come from timestamped transcripts in `data/transcripts/`, which are
+committed because CI cannot produce them. Episode headlines are read from the
+Markdown in `content/episodes/` at build time.
 
 ```bash
 npm run search:captions   # YouTube captions for episodes with a youtubeId

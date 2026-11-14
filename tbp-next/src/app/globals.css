@@ -193,7 +193,7 @@ body {
   border-color: var(--color-foreground);
 }
 
-/* ─── Clip search: matched words inside a result excerpt ─── */
+/* ─── Search: matched words in a result ─── */
 .clip-excerpt mark {
   background: var(--color-brand-tint);
   color: inherit;
@@ -223,4 +223,40 @@ body {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ─── Search results: motion ─── */
+@keyframes result-enter {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+.result-enter { animation: result-enter 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.moment-enter { animation: result-enter 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+@keyframes tick-enter {
+  from { opacity: 0; transform: translateX(-50%) scaleY(0); }
+  to { opacity: 1; transform: translateX(-50%) scaleY(1); }
+}
+.timeline-tick { animation: tick-enter 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.4) both; }
+
+@keyframes tooltip-enter {
+  from { opacity: 0; margin-bottom: -2px; }
+  to { opacity: 1; }
+}
+.tooltip-enter { animation: tooltip-enter 0.12s ease-out both; }
+.tooltip-excerpt mark {
+  background: none;
+  color: var(--color-brand);
+  font-weight: 600;
+}
+
+/* Timeline bar while an episode's moments are still loading */
+@keyframes timeline-loading {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+.timeline-loading {
+  background-image: linear-gradient(90deg, transparent 0%, var(--color-brand-tint) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: timeline-loading 1.2s linear infinite;
 }

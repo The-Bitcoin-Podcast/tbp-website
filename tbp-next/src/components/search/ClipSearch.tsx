@@ -1,65 +1,63 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
-import Link from "next/link";
+import { Fragment, useCallback, useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
+import { EpisodeResult } from "./EpisodeResult";
+import {
+  formatDate,
+  headlineScore,
+  loadHeadlines,
+  loadPagefind,
+  queryTokens,
+  type EpisodeHeadline,
+} from "./pagefind";
 
-/* Pagefind is a static index in /public/pagefind, loaded in the browser on demand. */
-interface PagefindResultData {
-  url: string;
-  excerpt: string;
-  meta: Record<string, string>;
-}
-interface PagefindApi {
-  init: () => Promise<void>;
-  debouncedSearch: (
-    query: string,
-    options?: Record<string, unknown>,
-    debounceMs?: number,
-  ) => Promise<{ results: { id: string; data: () => Promise<PagefindResultData> }[] } | null>;
+/**
+ * Search that goes from high to low: episodes whose headline matches come
+ * first, then episodes where the phrase was only said out loud. Every episode
+ * opens to the exact moments, each playable from that second.
+ *
+ * Wide screens get two panes, like the search on the original site: episode
+ * titles on the left, a live preview of the selected one on the right, with
+ * arrow keys to browse. Narrow screens get a list of expandable cards.
+ */
+
+const WIDE = "(min-width: 1024px)";
+function useWideScreen(): boolean {
+  const [wide, setWide] = useState(false);
+  useEffect(() => {
+    const media = window.matchMedia(WIDE);
+    const update = () => setWide(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
+  return wide;
 }
 
-interface Clip {
-  id: string;
-  title: string;
-  slug: string;
-  date: string;
-  seconds: number;
-  excerpt: string;
-  youtubeId?: string;
-  audioUrl?: string;
+/** Wraps the words that match the query in <mark>. */
+function highlightTitle(text: string, tokens: string[]) {
+  if (tokens.length === 0) return text;
+  const escaped = tokens.map((token) => token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const pattern = new RegExp(`(?<![\\p{L}\\p{N}])((?:${escaped.join("|")})[\\p{L}\\p{N}]*)`, "giu");
+  return text.split(pattern).map((part, i) =>
+    i % 2 === 1 ? <mark key={i}>{part}</mark> : <Fragment key={i}>{part}</Fragment>,
+  );
 }
 
-const PAGE_SIZE = 8;
+const PAGE_SIZE = 6;
 const SUGGESTIONS = ["quantum computing", "lightning network", "DAO", "privacy", "stablecoins"];
 
-let pagefindPromise: Promise<PagefindApi> | null = null;
-function loadPagefind(): Promise<PagefindApi> {
-  if (!pagefindPromise) {
-    const path = "/pagefind/pagefind.js";
-    pagefindPromise = import(/* webpackIgnore: true */ path).then(async (mod: PagefindApi) => {
-      await mod.init();
-      return mod;
-    });
-    pagefindPromise.catch(() => {
-      pagefindPromise = null;
-    });
-  }
-  return pagefindPromise;
-}
-
-function formatTimestamp(totalSeconds: number): string {
-  const h = Math.floor(totalSeconds / 3600);
-  const m = Math.floor((totalSeconds % 3600) / 60);
-  const s = totalSeconds % 60;
-  const mm = h > 0 ? String(m).padStart(2, "0") : String(m);
-  return `${h > 0 ? `${h}:` : ""}${mm}:${String(s).padStart(2, "0")}`;
-}
-
-function formatDate(iso: string): string {
-  if (!iso) return "";
-  const date = new Date(`${iso}T12:00:00`);
-  if (Number.isNaN(date.getTime())) return "";
-  return date.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+interface Found {
+  query: string;
+  tokens: string[];
+  /** Episodes whose title, guests or description match. */
+  headline: EpisodeHeadline[];
+  /** Episodes where it was only said out loud, most mentions first. */
+  mentioned: EpisodeHeadline[];
+  /** Matching moments per episode slug. */
+  counts: Record<string, number>;
+  moments: number;
 }
 
 interface ClipSearchProps {
@@ -72,28 +70,17 @@ interface ClipSearchProps {
 
 export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSearchProps) {
   const [query, setQuery] = useState("");
-  const [clips, setClips] = useState<Clip[]>([]);
-  const [total, setTotal] = useState(0);
+  const [found, setFound] = useState<Found | null>(null);
   const [status, setStatus] = useState<"idle" | "searching" | "done" | "error">("idle");
   const [playingId, setPlayingId] = useState<string | null>(null);
-  const pending = useRef<{ id: string; data: () => Promise<PagefindResultData> }[]>([]);
+  const [headlineShown, setHeadlineShown] = useState(PAGE_SIZE);
+  const [mentionedShown, setMentionedShown] = useState(PAGE_SIZE);
+  const [selected, setSelected] = useState<string | null>(null);
   const latestQuery = useRef("");
-
-  const loadMore = useCallback(async () => {
-    const batch = pending.current.splice(0, PAGE_SIZE);
-    const loaded = await Promise.all(batch.map((r) => r.data()));
-    const next: Clip[] = loaded.map((data, i) => ({
-      id: batch[i].id,
-      title: data.meta.title ?? "Untitled episode",
-      slug: data.meta.slug ?? "",
-      date: data.meta.date ?? "",
-      seconds: Number(data.meta.t ?? 0),
-      excerpt: data.excerpt,
-      youtubeId: data.meta.youtubeId,
-      audioUrl: data.meta.audioUrl,
-    }));
-    setClips((current) => [...current, ...next]);
-  }, []);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const listRef = useRef<HTMLDivElement>(null);
+  const wide = useWideScreen();
+  const router = useRouter();
 
   const runSearch = useCallback(
     async (text: string) => {
@@ -104,30 +91,52 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
         window.history.replaceState(null, "", url);
       }
       if (trimmed.length < 2) {
-        pending.current = [];
-        setClips([]);
-        setTotal(0);
+        setFound(null);
         setPlayingId(null);
         setStatus("idle");
         return;
       }
       setStatus("searching");
       try {
-        const pagefind = await loadPagefind();
+        const [pagefind, episodes] = await Promise.all([loadPagefind(), loadHeadlines()]);
         const search = await pagefind.debouncedSearch(trimmed, {}, 250);
         // null means a newer keystroke superseded this search.
         if (!search || latestQuery.current !== trimmed) return;
-        pending.current = [...search.results];
-        setTotal(search.results.length);
-        setClips([]);
+
+        const counts = search.filters?.episode ?? {};
+        const tokens = queryTokens(trimmed);
+        const scored = episodes
+          .map((episode) => ({ episode, score: headlineScore(episode, tokens) }))
+          .filter((entry) => entry.score > 0)
+          .sort(
+            (a, b) =>
+              b.score - a.score ||
+              (counts[b.episode.slug] ?? 0) - (counts[a.episode.slug] ?? 0) ||
+              b.episode.date.localeCompare(a.episode.date),
+          );
+        const inHeadline = new Set(scored.map((entry) => entry.episode.slug));
+        const mentioned = episodes
+          .filter((episode) => (counts[episode.slug] ?? 0) > 0 && !inHeadline.has(episode.slug))
+          .sort((a, b) => counts[b.slug] - counts[a.slug] || b.date.localeCompare(a.date));
+
+        setFound({
+          query: trimmed,
+          tokens,
+          headline: scored.map((entry) => entry.episode),
+          mentioned,
+          counts,
+          moments: search.results.length,
+        });
+        setHeadlineShown(PAGE_SIZE);
+        setMentionedShown(PAGE_SIZE);
+        setSelected(scored[0]?.episode.slug ?? mentioned[0]?.slug ?? null);
         setPlayingId(null);
-        await loadMore();
         setStatus("done");
       } catch {
         setStatus("error");
       }
     },
-    [loadMore, syncUrl],
+    [syncUrl],
   );
 
   // Pick up a shared ?q= link on first load.
@@ -144,6 +153,138 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
     setQuery(text);
     void runSearch(text);
   };
+
+  // "/" or Cmd/Ctrl+K jumps to the search box from anywhere on the page.
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      const typing = /^(INPUT|TEXTAREA|SELECT)$/.test((event.target as HTMLElement)?.tagName ?? "");
+      const shortcut =
+        ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") ||
+        (event.key === "/" && !typing);
+      if (!shortcut) return;
+      event.preventDefault();
+      inputRef.current?.focus();
+      inputRef.current?.select();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  const all = found ? [...found.headline, ...found.mentioned] : [];
+  const selectedEpisode = all.find((episode) => episode.slug === selected) ?? all[0];
+
+  const select = (slug: string) => {
+    if (slug === selected) return;
+    setSelected(slug);
+    setPlayingId(null);
+  };
+
+  /** Arrow keys browse the episode list; Enter opens the selected episode. */
+  const onInputKey = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!wide || all.length === 0 || !selectedEpisode) return;
+    if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+      event.preventDefault();
+      const at = all.indexOf(selectedEpisode);
+      const next = all[Math.min(all.length - 1, Math.max(0, at + (event.key === "ArrowDown" ? 1 : -1)))];
+      select(next.slug);
+      listRef.current
+        ?.querySelector(`[data-slug="${CSS.escape(next.slug)}"]`)
+        ?.scrollIntoView({ block: "nearest" });
+    } else if (event.key === "Enter" && found?.query === query.trim()) {
+      event.preventDefault();
+      router.push(`/episodes/${selectedEpisode.slug}`);
+    }
+  };
+
+  const listGroup = (title: string, episodes: EpisodeHeadline[]) =>
+    found &&
+    episodes.length > 0 && (
+      <>
+        <p className="sticky top-0 z-10 border-b border-border bg-surface-light px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.06em] text-muted">
+          {title} · {episodes.length.toLocaleString()}
+        </p>
+        {episodes.map((episode) => {
+          const current = episode.slug === selectedEpisode?.slug;
+          const count = found.counts[episode.slug] ?? 0;
+          return (
+            <button
+              key={episode.slug}
+              type="button"
+              data-slug={episode.slug}
+              aria-current={current}
+              onClick={() => select(episode.slug)}
+              onMouseEnter={() => select(episode.slug)}
+              onFocus={() => select(episode.slug)}
+              className={`relative block w-full border-b border-border px-4 py-3 text-left transition-colors ${
+                current ? "bg-background" : "hover:bg-background/60"
+              }`}
+            >
+              <span
+                className={`absolute inset-y-0 left-0 w-1 origin-center bg-brand transition-transform duration-200 ${
+                  current ? "scale-y-100" : "scale-y-0"
+                }`}
+              />
+              <span className="clip-excerpt block font-display text-[15px] font-bold leading-snug">
+                {highlightTitle(episode.title, found.tokens)}
+              </span>
+              <span className="mt-1 flex items-center justify-between gap-3 text-[12px] text-muted">
+                <span className="truncate">
+                  {episode.show} · {formatDate(episode.date)}
+                </span>
+                {count > 0 && (
+                  <span className="flex-shrink-0 rounded-full bg-brand-tint px-2 py-0.5 font-mono text-[11px] text-foreground">
+                    {count.toLocaleString()}
+                  </span>
+                )}
+              </span>
+            </button>
+          );
+        })}
+      </>
+    );
+
+  const episodeCount = found ? found.headline.length + found.mentioned.length : 0;
+  const group = (
+    title: string,
+    note: string,
+    episodes: EpisodeHeadline[],
+    shown: number,
+    showMore: () => void,
+  ) =>
+    found &&
+    episodes.length > 0 && (
+      <section className="mt-9">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-4">
+          <h2 className="font-display text-2xl font-extrabold">{title}</h2>
+          <p className="text-[13px] text-muted">{note}</p>
+        </div>
+        <ul className="mt-4 space-y-4">
+          {episodes.slice(0, shown).map((episode, i) => (
+            <EpisodeResult
+              key={`${found.query}:${episode.slug}`}
+              episode={episode}
+              query={found.query}
+              tokens={found.tokens}
+              momentCount={found.counts[episode.slug] ?? 0}
+              index={i % PAGE_SIZE}
+              playingId={playingId}
+              onPlay={setPlayingId}
+            />
+          ))}
+        </ul>
+        {shown < episodes.length && (
+          <div className="mt-6 text-center">
+            <button
+              type="button"
+              onClick={showMore}
+              className="rounded-full border-2 border-foreground px-6 py-2.5 text-sm font-semibold text-foreground transition-colors hover:bg-foreground hover:text-background"
+            >
+              Show more episodes ({(episodes.length - shown).toLocaleString()} left)
+            </button>
+          </div>
+        )}
+      </section>
+    );
 
   return (
     <div className="w-full">
@@ -170,11 +311,13 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
         <input
           type="search"
           value={query}
+          ref={inputRef}
           onChange={(event) => onChange(event.target.value)}
+          onKeyDown={onInputKey}
           onFocus={() => void loadPagefind().catch(() => {})}
           autoFocus={autoFocus}
-          placeholder="Search what was said"
-          aria-label="Search episode transcripts"
+          placeholder="Search episodes and what was said"
+          aria-label="Search episodes and transcripts"
           className="min-w-0 flex-1 bg-transparent py-3 text-lg text-foreground placeholder:text-muted focus:outline-none sm:text-xl"
         />
         <button
@@ -205,104 +348,69 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
       )}
 
       <div aria-live="polite" className="mt-10 text-left">
-        {status === "searching" && <p className="text-center text-sm text-muted">Searching…</p>}
+        {status === "searching" && !found && <p className="text-center text-sm text-muted">Searching…</p>}
         {status === "error" && (
           <p className="text-center text-sm text-muted">
             Search isn’t available right now. Please try again in a moment.
           </p>
         )}
-        {status === "done" && total === 0 && (
+        {status !== "error" && found && episodeCount === 0 && (
           <p className="text-center text-sm text-muted">
-            No moments found for “{query.trim()}”. Try a different word or phrase.
+            Nothing found for “{found.query}”. Try a different word or phrase.
           </p>
         )}
-        {status === "done" && total > 0 && (
-          <p className="text-[13px] font-semibold uppercase tracking-[0.06em] text-muted">
-            {total.toLocaleString()} moment{total === 1 ? "" : "s"} for “{query.trim()}”
-          </p>
-        )}
-
-        {clips.length > 0 && (
-          <ul>
-            {clips.map((clip) => {
-              const playing = playingId === clip.id;
-              const canPlay = Boolean(clip.youtubeId || clip.audioUrl);
-              const stamp = formatTimestamp(clip.seconds);
-              return (
-                <li key={clip.id} className="border-b border-border py-6">
-                  <div className="flex flex-col items-start gap-4 sm:flex-row sm:gap-7">
-                    <button
-                      type="button"
-                      disabled={!canPlay}
-                      onClick={() => setPlayingId(playing ? null : clip.id)}
-                      aria-label={playing ? `Close player at ${stamp}` : `Play from ${stamp} in ${clip.title}`}
-                      className="flex flex-shrink-0 items-center gap-2.5 rounded-full bg-foreground py-3 pl-3.5 pr-[18px] font-mono text-[15px] text-background transition-opacity hover:opacity-85 disabled:opacity-30"
-                    >
-                      {playing ? (
-                        <svg className="h-4 w-4 text-brand" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                          <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
-                        </svg>
-                      ) : (
-                        <svg className="h-4 w-4 text-brand" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
-                      )}
-                      {stamp}
-                    </button>
-
-                    <div className="min-w-0 flex-1">
-                      <p
-                        className="clip-excerpt text-lg leading-relaxed text-foreground"
-                        dangerouslySetInnerHTML={{ __html: `“…${clip.excerpt}…”` }}
-                      />
-                      <p className="mt-2 text-sm text-muted">
-                        <Link
-                          href={`/episodes/${clip.slug}?t=${clip.seconds}`}
-                          className="font-semibold text-foreground transition-colors hover:text-accent"
-                        >
-                          {clip.title}
-                        </Link>
-                        {formatDate(clip.date) && <> · {formatDate(clip.date)}</>}
-                      </p>
-                    </div>
+        {status !== "error" && found && episodeCount > 0 && (
+          <div className={`transition-opacity duration-200 ${status === "searching" ? "opacity-50" : ""}`}>
+            <p className="text-[13px] font-semibold uppercase tracking-[0.06em] text-muted">
+              {episodeCount.toLocaleString()} episode{episodeCount === 1 ? "" : "s"} ·{" "}
+              {found.moments.toLocaleString()} moment{found.moments === 1 ? "" : "s"} for “{found.query}”
+            </p>
+            {wide && selectedEpisode ? (
+              <>
+                <div className="result-enter relative left-1/2 mt-5 grid h-[min(680px,78vh)] w-[min(1120px,calc(100vw-3rem))] -translate-x-1/2 grid-cols-[340px_minmax(0,1fr)] overflow-hidden rounded-2xl border border-border bg-background shadow-[0_24px_60px_-30px_rgba(0,0,0,0.25)]">
+                  <div ref={listRef} className="overflow-y-auto border-r border-border bg-surface-light">
+                    {listGroup("Episodes", found.headline)}
+                    {listGroup(found.headline.length > 0 ? "Also mentioned in" : "Mentioned in", found.mentioned)}
                   </div>
-
-                  {playing && clip.youtubeId && (
-                    <div className="relative mt-5 aspect-video w-full overflow-hidden rounded-2xl bg-foreground">
-                      <iframe
-                        src={`https://www.youtube-nocookie.com/embed/${clip.youtubeId}?start=${clip.seconds}&autoplay=1`}
-                        title={`${clip.title} at ${stamp}`}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="absolute inset-0 h-full w-full border-0"
-                      />
-                    </div>
-                  )}
-                  {playing && !clip.youtubeId && clip.audioUrl && (
-                    <audio
-                      controls
-                      autoPlay
-                      preload="metadata"
-                      src={`${clip.audioUrl}#t=${clip.seconds}`}
-                      className="mt-5 w-full"
-                      aria-label={`${clip.title} at ${stamp}`}
+                  <div className="overflow-y-auto p-6">
+                    <EpisodeResult
+                      key={`${found.query}:${selectedEpisode.slug}`}
+                      variant="preview"
+                      episode={selectedEpisode}
+                      query={found.query}
+                      tokens={found.tokens}
+                      momentCount={found.counts[selectedEpisode.slug] ?? 0}
+                      index={0}
+                      playingId={playingId}
+                      onPlay={setPlayingId}
                     />
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        )}
-
-        {status === "done" && clips.length < total && (
-          <div className="mt-8 text-center">
-            <button
-              type="button"
-              onClick={() => void loadMore()}
-              className="rounded-full border-2 border-foreground px-6 py-2.5 text-sm font-semibold text-foreground transition-colors hover:bg-foreground hover:text-background"
-            >
-              Show more moments
-            </button>
+                  </div>
+                </div>
+                <p className="mt-4 text-center text-[13px] text-muted">
+                  <kbd className="rounded border border-border px-1.5 py-0.5 font-mono text-[11px]">↑</kbd>{" "}
+                  <kbd className="rounded border border-border px-1.5 py-0.5 font-mono text-[11px]">↓</kbd> to browse ·{" "}
+                  <kbd className="rounded border border-border px-1.5 py-0.5 font-mono text-[11px]">Enter</kbd> to open the
+                  episode · click a tick to play from there
+                </p>
+              </>
+            ) : (
+              <>
+                {group(
+                  "Episodes",
+                  "It’s in the title, guests or description",
+                  found.headline,
+                  headlineShown,
+                  () => setHeadlineShown((n) => n + PAGE_SIZE),
+                )}
+                {group(
+                  found.headline.length > 0 ? "Also mentioned in" : "Mentioned in",
+                  "Said out loud, most mentions first",
+                  found.mentioned,
+                  mentionedShown,
+                  () => setMentionedShown((n) => n + PAGE_SIZE),
+                )}
+              </>
+            )}
           </div>
         )}
       </div>
