@@ -14,7 +14,9 @@ Usage (from tbp-next/):
 """
 import argparse
 import json
+import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -29,7 +31,11 @@ CONTENT_DIR = next((d for d in _CONTENT_DIRS if d.is_dir()), _CONTENT_DIRS[0])
 EPISODES_DIR = CONTENT_DIR / "episodes"
 OUT_DIR = ROOT / "data" / "transcripts"
 MISSING_FILE = OUT_DIR / "_missing.json"
-YT_DLP = ROOT / ".venv-tools" / "bin" / "yt-dlp"
+# Local tooling lives in .venv-tools; elsewhere (CI) use yt-dlp from PATH.
+_LOCAL_YT_DLP = ROOT / ".venv-tools" / "bin" / "yt-dlp"
+YT_DLP = os.environ.get("YT_DLP") or (
+    str(_LOCAL_YT_DLP) if _LOCAL_YT_DLP.exists() else shutil.which("yt-dlp") or "yt-dlp"
+)
 
 SEGMENT_SECONDS = 25  # target length of one searchable clip
 SEGMENT_MAX_WORDS = 80
@@ -55,7 +61,7 @@ def find_episodes():
 def download_json3(video_id, workdir):
     """Return parsed json3 captions, or None when the video has none."""
     for langs in ("en", "en.*"):
-        subprocess.run(
+        result = subprocess.run(
             [
                 str(YT_DLP), "--skip-download", "--write-subs", "--write-auto-subs",
                 "--sub-langs", langs, "--sub-format", "json3",
@@ -68,6 +74,8 @@ def download_json3(video_id, workdir):
         files = sorted(Path(workdir).glob(f"{video_id}*.json3"))
         if files:
             return json.loads(files[0].read_text(encoding="utf-8"))
+        if result.stderr.strip():
+            print(f"  yt-dlp: {result.stderr.strip().splitlines()[-1][:300]}", flush=True)
     return None
 
 
@@ -110,6 +118,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--retry-missing", action="store_true")
+    parser.add_argument("--only", help="comma-separated episode slugs to fetch")
     args = parser.parse_args()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -118,6 +127,9 @@ def main():
         missing = json.loads(MISSING_FILE.read_text())
 
     episodes = find_episodes()
+    if args.only:
+        wanted = set(args.only.split(","))
+        episodes = [e for e in episodes if e[0] in wanted]
     print(f"{len(episodes)} episodes with a youtubeId", flush=True)
 
     done = skipped = failed = 0

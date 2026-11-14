@@ -77,3 +77,20 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # The episode sync publishes without anyone watching, so say so when a
+  # deploy doesn't go through.
+  notify-failure:
+    if: failure() && github.event_name != 'pull_request'
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report the failed deploy on Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then exit 0; fi
+          curl -fsS -H "Content-Type: application/json" \
+            -d "{\"content\":\"The site deploy failed, so the live site was not updated.\\n$RUN_URL\"}" \
+            "$DISCORD_WEBHOOK_URL"

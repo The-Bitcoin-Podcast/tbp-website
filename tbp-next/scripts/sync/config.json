@@ -1,0 +1,26 @@
+{
+  "channels": [
+    {
+      "key": "tbp",
+      "name": "The Bitcoin Podcast",
+      "handle": "@thebtcpodcast",
+      "channelId": "UCZY97wqlKHsx2qFibsMLLtg",
+      "outputDirectory": "content/episodes/tbp/s02"
+    },
+    {
+      "key": "hio",
+      "name": "Hashing It Out",
+      "handle": "@HashingItOut-real",
+      "channelId": "UCJfeceoPn3MSpdNM3n-DIWg",
+      "outputDirectory": "content/episodes/hio"
+    }
+  ],
+  "shortsMaxSeconds": 180,
+  "shortsDirectory": "content/episodes/shorts",
+  "subShows": [
+    { "titlePattern": "^TapTrade\\.TV", "directory": "content/episodes/taptrade-tv" }
+  ],
+  "lookbackDays": 30,
+  "captionRetryDays": 21,
+  "siteUrl": "https://thebitcoinpodcast.com"
+}
