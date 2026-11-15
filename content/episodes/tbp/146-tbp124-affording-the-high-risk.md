@@ -1,7 +1,7 @@
 ---
 title: TBP124 - Affording the High Risk
 date: '2017-04-16'
-draft: true
+draft: false
 episodeNumber: 146
 rssGuid: 46f2bafa980a91abf7e01b6025c5730a
 audioUrl: >-

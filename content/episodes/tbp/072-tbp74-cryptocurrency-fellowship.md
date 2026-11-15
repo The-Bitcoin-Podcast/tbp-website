@@ -1,7 +1,7 @@
 ---
 title: TBP74 - Cryptocurrency Fellowship
 date: '2016-07-21'
-draft: true
+draft: false
 episodeNumber: 72
 rssGuid: 89dac58eccdb74a4b4ee88a56a1788ab
 audioUrl: >-

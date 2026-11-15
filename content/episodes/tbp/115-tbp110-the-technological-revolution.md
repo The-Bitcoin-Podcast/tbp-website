@@ -1,7 +1,7 @@
 ---
 title: TBP110 - The Technological Revolution
 date: '2017-01-15'
-draft: true
+draft: false
 episodeNumber: 115
 rssGuid: 6b326da51aae93a38d5a58eedb291c78
 audioUrl: >-

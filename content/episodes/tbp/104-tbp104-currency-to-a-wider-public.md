@@ -1,7 +1,7 @@
 ---
 title: TBP104 - Currency to a Wider Public
 date: '2016-12-11'
-draft: true
+draft: false
 episodeNumber: 104
 rssGuid: 938ff86df6689b29b1a3548570baad6d
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #364-Jonathan Chester of BitWage'
 date: '2021-08-23'
-draft: true
+draft: false
 episodeNumber: 869
 rssGuid: ab76e082-02b0-48f9-a6f9-4e6d9a83b909
 audioUrl: >-

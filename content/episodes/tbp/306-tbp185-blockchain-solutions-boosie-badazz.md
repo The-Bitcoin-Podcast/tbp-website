@@ -1,7 +1,7 @@
 ---
 title: TBP185 - Blockchain Solutions & Boosie Badazz
 date: '2018-02-18'
-draft: true
+draft: false
 episodeNumber: 306
 rssGuid: c52bf13f42b90239a6d34d5f4585a8ff
 audioUrl: >-

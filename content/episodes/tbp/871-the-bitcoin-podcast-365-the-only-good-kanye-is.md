@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #365 -The Only Good Kanye Is Back When Kanye Was Kanye'
 date: '2021-08-30'
-draft: true
+draft: false
 episodeNumber: 871
 rssGuid: 55536379-2799-43fe-b1fb-c1778a135c08
 audioUrl: >-

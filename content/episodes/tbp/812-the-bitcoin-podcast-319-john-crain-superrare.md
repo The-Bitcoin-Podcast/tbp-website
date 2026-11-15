@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #319-John Crain SuperRare'
 date: '2020-09-02'
-draft: true
+draft: false
 episodeNumber: 812
 rssGuid: 3ef2c2a6-1886-42b1-9264-6b05cbdfac13
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #357- CEO Josh Katz of Yellow Heart'
 date: '2021-06-21'
-draft: true
+draft: false
 episodeNumber: 856
 rssGuid: c30ef059-91c8-484a-b99f-2d866c935a4d
 audioUrl: >-

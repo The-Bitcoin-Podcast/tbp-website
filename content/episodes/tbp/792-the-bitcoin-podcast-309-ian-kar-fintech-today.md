@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #309-Ian Kar FinTech Today'
 date: '2020-05-18'
-draft: true
+draft: false
 episodeNumber: 792
 rssGuid: 4d2469d2-2e82-426d-a327-72b8b7987bcc
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #230'
 date: '2018-11-04'
-draft: true
+draft: false
 episodeNumber: 497
 rssGuid: 0374a95c2aa34910ba997440974ccc2b
 audioUrl: >-

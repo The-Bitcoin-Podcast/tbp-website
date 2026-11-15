@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #359- Cory Doctorow Author'
 date: '2021-07-05'
-draft: true
+draft: false
 episodeNumber: 858
 rssGuid: 542cb521-99d5-4eac-8918-a93514b65cd6
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP28 - Modern Day Gold Rush
 date: '2015-11-30'
-draft: true
+draft: false
 episodeNumber: 27
 rssGuid: 11dcdd4a06a85338d91daff05fa82af4
 audioUrl: >-

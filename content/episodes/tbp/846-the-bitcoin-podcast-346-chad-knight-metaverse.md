@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #346- Chad Knight Metaverse Artist'
 date: '2021-04-05'
-draft: true
+draft: false
 episodeNumber: 846
 rssGuid: 0e33084d-ad16-451c-8d03-5d26bbd8fc7f
 audioUrl: >-

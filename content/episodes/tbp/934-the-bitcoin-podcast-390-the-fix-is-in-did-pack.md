@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #390- The Fix Is In Did Pack Your Bags'
 date: '2022-05-16'
-draft: true
+draft: false
 episodeNumber: 934
 rssGuid: 006d0c8e-3608-4623-ae91-27894e762892
 audioUrl: >-

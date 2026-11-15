@@ -1,7 +1,7 @@
 ---
 title: TBP52 - Potential of the SDK
 date: '2016-04-14'
-draft: true
+draft: false
 episodeNumber: 51
 rssGuid: f586a665130a4310c7e3705e6965e183
 audioUrl: >-

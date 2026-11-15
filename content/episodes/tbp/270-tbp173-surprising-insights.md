@@ -1,7 +1,7 @@
 ---
 title: TBP173 - Surprising Insights
 date: '2017-12-21'
-draft: true
+draft: false
 episodeNumber: 270
 rssGuid: 558b270d481c0d0807ee218947186be7
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP176 - Even More Marketing Discipline
 date: '2018-01-07'
-draft: true
+draft: false
 episodeNumber: 278
 rssGuid: c698437962a707711165db96891a4d75
 audioUrl: >-

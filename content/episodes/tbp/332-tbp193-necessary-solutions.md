@@ -1,7 +1,7 @@
 ---
 title: TBP193 - Necessary Solutions
 date: '2018-03-29'
-draft: true
+draft: false
 episodeNumber: 332
 rssGuid: fe8932e23e373c0be7ba15996ea48d0e
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #316-Robert Materazzi & Roger Brown of Lukka'
 date: '2020-08-05'
-draft: true
+draft: false
 episodeNumber: 807
 rssGuid: 44891434-0614-4649-b324-0df8157d6352
 audioUrl: >-

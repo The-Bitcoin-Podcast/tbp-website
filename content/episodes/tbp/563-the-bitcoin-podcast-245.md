@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #245'
 date: '2019-02-17'
-draft: true
+draft: false
 episodeNumber: 563
 rssGuid: 61a0ea8f-3023-4883-9181-bd8a53a18a5c
 audioUrl: >-

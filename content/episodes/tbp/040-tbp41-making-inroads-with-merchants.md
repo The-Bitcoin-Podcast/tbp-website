@@ -1,7 +1,7 @@
 ---
 title: TBP41 - Making Inroads With Merchants
 date: '2016-02-18'
-draft: true
+draft: false
 episodeNumber: 40
 rssGuid: 2e4d4964370b8bf9e6bdabc8beeb9fc9
 audioUrl: >-

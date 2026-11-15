@@ -1,7 +1,7 @@
 ---
 title: 'TBP #207 - Haseeb Qureshi'
 date: '2018-06-06'
-draft: true
+draft: false
 episodeNumber: 374
 rssGuid: 4371ca221f5847ac9be9040b6e1c921b
 audioUrl: >-

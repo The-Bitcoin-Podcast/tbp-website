@@ -1,7 +1,7 @@
 ---
 title: TBP31 - Off the Transparency Chain
 date: '2015-12-21'
-draft: true
+draft: false
 episodeNumber: 30
 rssGuid: 6b2c4a90e20899d9c96b2170d0060520
 audioUrl: >-

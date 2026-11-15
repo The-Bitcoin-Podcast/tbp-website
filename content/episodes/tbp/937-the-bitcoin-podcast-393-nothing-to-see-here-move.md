@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #393- Nothing To See Here, Move Along Now'
 date: '2022-06-13'
-draft: true
+draft: false
 episodeNumber: 937
 rssGuid: 587eba47-1eaf-4781-8ad7-2addb53fe6dc
 audioUrl: >-

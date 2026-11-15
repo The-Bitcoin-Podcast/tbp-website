@@ -1,7 +1,7 @@
 ---
 title: TBP148 - Controversial Persona
 date: '2017-08-20'
-draft: true
+draft: false
 episodeNumber: 203
 rssGuid: b59bbfc7b97f9ab33b1f352c57f13253
 audioUrl: >-

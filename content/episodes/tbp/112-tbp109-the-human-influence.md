@@ -1,7 +1,7 @@
 ---
 title: TBP109 - The Human Influence
 date: '2017-01-08'
-draft: true
+draft: false
 episodeNumber: 112
 rssGuid: b1ce8cf02c013dd4d779f4b2e2165447
 audioUrl: >-

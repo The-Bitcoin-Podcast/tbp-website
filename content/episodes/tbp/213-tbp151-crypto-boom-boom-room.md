@@ -1,7 +1,7 @@
 ---
 title: TBP151 - Crypto Boom Boom Room
 date: '2017-09-07'
-draft: true
+draft: false
 episodeNumber: 213
 rssGuid: 6f09438f2ac785d5e08e6b08a2064051
 audioUrl: >-

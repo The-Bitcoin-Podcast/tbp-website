@@ -1,7 +1,7 @@
 ---
 title: TBP65 - Exosphere Academy
 date: '2016-06-12'
-draft: true
+draft: false
 episodeNumber: 64
 rssGuid: f20d8b60f5c8ceea2e47e8823fef2edf
 audioUrl: >-

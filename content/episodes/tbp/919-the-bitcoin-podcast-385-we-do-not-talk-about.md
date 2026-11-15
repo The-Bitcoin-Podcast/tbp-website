@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #385- We Do Not Talk About Bitcoin... No, Nooo.,Noooo'
 date: '2022-02-28'
-draft: true
+draft: false
 episodeNumber: 919
 rssGuid: 15fbc907-e82a-443a-86f5-4d8f058f896d
 audioUrl: >-

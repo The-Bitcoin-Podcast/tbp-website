@@ -1,7 +1,7 @@
 ---
 title: TBP160 - Bitcoin Beats
 date: '2017-10-15'
-draft: true
+draft: false
 episodeNumber: 236
 rssGuid: 0b70fda7f6684301ad341d6c7e56ea35
 audioUrl: >-

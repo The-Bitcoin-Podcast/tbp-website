@@ -1,7 +1,7 @@
 ---
 title: TBP76 - Skynet
 date: '2016-07-31'
-draft: true
+draft: false
 episodeNumber: 74
 rssGuid: 4c9828689b35daf2721c45979aa3033a
 audioUrl: >-

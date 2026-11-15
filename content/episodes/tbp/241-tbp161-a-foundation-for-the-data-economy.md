@@ -1,7 +1,7 @@
 ---
 title: TBP161 - A Foundation for the Data Economy
 date: '2017-10-22'
-draft: true
+draft: false
 episodeNumber: 241
 rssGuid: 0a5c5293b93b616aa3458a462aba8e09
 audioUrl: >-

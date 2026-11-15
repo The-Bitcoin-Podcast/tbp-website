@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #362- Philip Devine of CryptoBlades'
 date: '2021-08-09'
-draft: true
+draft: false
 episodeNumber: 865
 rssGuid: 4f4101a0-9927-4401-a03c-0bfd93d3a93b
 audioUrl: >-

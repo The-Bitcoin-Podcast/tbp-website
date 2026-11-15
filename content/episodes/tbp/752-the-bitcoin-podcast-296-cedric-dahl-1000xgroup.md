@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #296-Cedric Dahl-1000XGroup'
 date: '2020-02-17'
-draft: true
+draft: false
 episodeNumber: 752
 rssGuid: f1f94d47-48f9-4c89-a7e1-150ff5f70505
 audioUrl: >-

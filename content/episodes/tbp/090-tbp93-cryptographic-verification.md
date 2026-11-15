@@ -1,7 +1,7 @@
 ---
 title: TBP93 - Cryptographic Verification
 date: '2016-10-16'
-draft: true
+draft: false
 episodeNumber: 90
 rssGuid: 952cf7953a08e10328c64a03bfc12e5a
 audioUrl: >-

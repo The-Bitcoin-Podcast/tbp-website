@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #249: Brian Fabian Crain'
 date: '2019-03-17'
-draft: true
+draft: false
 episodeNumber: 581
 rssGuid: 505fe662-bcd3-43de-a018-5c7d16af9ead
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #325- Hocus Pocus Bitcoin Upgrade'
 date: '2020-10-19'
-draft: true
+draft: false
 episodeNumber: 821
 rssGuid: 2455b450-8cf5-4b7b-b365-905bd6e4f4b8
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #349-Ali Spagnola Internet Artist PT II'
 date: '2021-04-26'
-draft: true
+draft: false
 episodeNumber: 849
 rssGuid: 7733909a-8d66-4ed8-a719-099df6fb2b75
 audioUrl: >-

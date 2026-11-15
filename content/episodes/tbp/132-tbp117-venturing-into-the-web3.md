@@ -1,7 +1,7 @@
 ---
 title: TBP117 - Venturing Into the Web3
 date: '2017-03-05'
-draft: true
+draft: false
 episodeNumber: 132
 rssGuid: a55b11f71d860ed04136aa9c065969a6
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #332- X + Y + Z = B'
 date: '2020-12-07'
-draft: true
+draft: false
 episodeNumber: 831
 rssGuid: 3c9141cc-a02f-474c-82f0-f691151f86e1
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP81 - Redefining Trust
 date: '2016-08-21'
-draft: true
+draft: false
 episodeNumber: 78
 rssGuid: c1efcbfb56af729208c5aef7ad31dae9
 audioUrl: >-

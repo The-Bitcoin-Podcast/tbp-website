@@ -1,7 +1,7 @@
 ---
 title: TBP125 - False Narratives and Short Memories
 date: '2017-04-23'
-draft: true
+draft: false
 episodeNumber: 149
 rssGuid: 020895cc0a9b3e4e0ec933a995460f7f
 audioUrl: >-

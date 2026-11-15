@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #218: Saifedean Ammous'
 date: '2018-08-12'
-draft: true
+draft: false
 episodeNumber: 425
 rssGuid: 54e60e939fd940d4b780bf61c62331f3
 audioUrl: >-

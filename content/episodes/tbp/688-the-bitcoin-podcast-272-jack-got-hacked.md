@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #272: Jack Got Hacked'
 date: '2019-09-08'
-draft: true
+draft: false
 episodeNumber: 688
 rssGuid: 3fa48305-d6d4-460c-b7bd-ca837064f539
 audioUrl: >-

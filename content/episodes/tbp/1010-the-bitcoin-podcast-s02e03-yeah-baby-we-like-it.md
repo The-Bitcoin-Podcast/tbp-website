@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast S02E03 - Yeah Baby, We Like It Raaaaaw'
 date: '2025-08-28'
-draft: true
+draft: false
 episodeNumber: 1010
 rssGuid: dffdac02-6519-4fa1-ae95-7c8d7efdc614
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #212: Alex Bosworth'
 date: '2018-07-09'
-draft: true
+draft: false
 episodeNumber: 400
 rssGuid: e37a02334b8f4fc0989f7f7bd4b432c6
 audioUrl: >-

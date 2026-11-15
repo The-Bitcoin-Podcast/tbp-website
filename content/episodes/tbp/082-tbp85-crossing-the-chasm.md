@@ -1,7 +1,7 @@
 ---
 title: TBP85 - Crossing the Chasm
 date: '2016-09-11'
-draft: true
+draft: false
 episodeNumber: 82
 rssGuid: 05797dc97dd20509e576a84e8c35f135
 audioUrl: >-

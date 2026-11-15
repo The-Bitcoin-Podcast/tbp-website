@@ -1,7 +1,7 @@
 ---
 title: TBP156 - Combined Forces for Better Results
 date: '2017-09-28'
-draft: true
+draft: false
 episodeNumber: 226
 rssGuid: ee67f1667964218c8855c75834cd79fc
 audioUrl: >-

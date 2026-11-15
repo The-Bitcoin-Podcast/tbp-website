@@ -1,7 +1,7 @@
 ---
 title: 'Flashback: The Bitcoin Podcast #209: Emin Gun Sirer'
 date: '2022-03-22'
-draft: true
+draft: false
 episodeNumber: 927
 rssGuid: 8da0585f-03dd-4836-9c37-55c3d7782dff
 audioUrl: >-

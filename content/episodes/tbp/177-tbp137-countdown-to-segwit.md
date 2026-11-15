@@ -1,7 +1,7 @@
 ---
 title: TBP137 - Countdown to SegWit
 date: '2017-07-09'
-draft: true
+draft: false
 episodeNumber: 177
 rssGuid: ef781fbb58bd6e91995cc2002a5c79f6
 audioUrl: >-

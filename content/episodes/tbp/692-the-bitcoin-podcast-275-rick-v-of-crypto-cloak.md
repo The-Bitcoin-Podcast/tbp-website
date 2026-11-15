@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #275 - Rick V of Crypto Cloak'
 date: '2019-09-24'
-draft: true
+draft: false
 episodeNumber: 692
 rssGuid: d8b61271-1436-4cd5-8292-2dae4e8e455f
 audioUrl: >-

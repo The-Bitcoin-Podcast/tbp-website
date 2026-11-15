@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #268: Ray Redacted'
 date: '2019-08-05'
-draft: true
+draft: false
 episodeNumber: 669
 rssGuid: 392775f8-a449-4aa7-b4f8-4550709d0ecf
 audioUrl: >-

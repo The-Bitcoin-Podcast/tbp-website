@@ -1,7 +1,7 @@
 ---
 title: TBP118 - Bitcoin or How I Learned to Stop Worrying and Love Crypto
 date: '2017-03-12'
-draft: true
+draft: false
 episodeNumber: 135
 rssGuid: 09cddee075b43be63cc7e4e453f47b9e
 audioUrl: >-

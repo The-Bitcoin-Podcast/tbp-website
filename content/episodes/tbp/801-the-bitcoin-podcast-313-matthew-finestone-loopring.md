@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #313-Matthew Finestone Loopring'
 date: '2020-07-06'
-draft: true
+draft: false
 episodeNumber: 801
 rssGuid: ecbe0187-2082-44a4-9c95-9e5d63177271
 audioUrl: >-

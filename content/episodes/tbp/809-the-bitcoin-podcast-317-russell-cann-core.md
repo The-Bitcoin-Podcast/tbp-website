@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #317- Russell Cann Core Scientific'
 date: '2020-08-17'
-draft: true
+draft: false
 episodeNumber: 809
 rssGuid: 836964aa-91a2-45f3-bfbc-876f75a65444
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP189 - The Innovative Investor
 date: '2018-03-08'
-draft: true
+draft: false
 episodeNumber: 316
 rssGuid: 98000ca16c3cd464362fee479eee234f
 audioUrl: >-

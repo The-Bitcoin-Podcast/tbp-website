@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast Interview #394- Anthony D'' Onofrio aka Texture'
 date: '2022-06-20'
-draft: true
+draft: false
 episodeNumber: 938
 rssGuid: 163cfc59-fd6c-4301-9cda-ee14a1db0e1c
 audioUrl: >-

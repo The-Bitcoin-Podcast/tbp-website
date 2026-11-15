@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #321-Joots Jager Bitcoin Developer'
 date: '2020-09-22'
-draft: true
+draft: false
 episodeNumber: 815
 rssGuid: a9403883-a73a-42be-8214-bb245734a433
 audioUrl: >-

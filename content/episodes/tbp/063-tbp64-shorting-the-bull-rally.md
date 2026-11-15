@@ -1,7 +1,7 @@
 ---
 title: TBP64 - Shorting the Bull Rally
 date: '2016-06-09'
-draft: true
+draft: false
 episodeNumber: 63
 rssGuid: b2f8645f209a2deafe56f5105d7c32f6
 audioUrl: >-

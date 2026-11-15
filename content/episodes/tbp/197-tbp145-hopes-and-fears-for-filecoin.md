@@ -1,7 +1,7 @@
 ---
 title: TBP145 - Hopes and Fears for Filecoin
 date: '2017-08-09'
-draft: true
+draft: false
 episodeNumber: 197
 rssGuid: 5c1c0d29f2c69b238c484b17bc39b5fc
 audioUrl: >-

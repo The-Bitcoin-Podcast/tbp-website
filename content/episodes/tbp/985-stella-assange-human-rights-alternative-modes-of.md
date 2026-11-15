@@ -3,7 +3,7 @@ title: >-
   Stella Assange: Human Rights & Alternative Modes of Organising | Logos Podcast
   with Jarrad Hope
 date: '2023-12-13'
-draft: true
+draft: false
 episodeNumber: 985
 rssGuid: fa2fe9ca-d441-4f96-97b9-6555713ec5cf
 audioUrl: >-

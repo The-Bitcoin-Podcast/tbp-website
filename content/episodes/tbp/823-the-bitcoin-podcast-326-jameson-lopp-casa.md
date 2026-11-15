@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #326-Jameson Lopp Casa'
 date: '2020-10-26'
-draft: true
+draft: false
 episodeNumber: 823
 rssGuid: c4140a12-5659-48e9-8b07-fb3058342185
 audioUrl: >-

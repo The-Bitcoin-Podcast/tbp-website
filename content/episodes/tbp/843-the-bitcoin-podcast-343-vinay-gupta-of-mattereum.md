@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #343-Vinay Gupta of Mattereum'
 date: '2021-03-15'
-draft: true
+draft: false
 episodeNumber: 843
 rssGuid: fb759975-c078-47a3-b424-28c1c7716a3b
 audioUrl: >-

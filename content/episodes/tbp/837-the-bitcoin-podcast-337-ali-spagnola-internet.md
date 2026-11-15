@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #337-Ali Spagnola- Internet Artist'
 date: '2021-02-01'
-draft: true
+draft: false
 episodeNumber: 837
 rssGuid: ebe7b806-9dd8-47ca-8336-82a9a976f2b8
 audioUrl: >-

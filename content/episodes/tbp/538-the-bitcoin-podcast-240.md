@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #240'
 date: '2019-01-13'
-draft: true
+draft: false
 episodeNumber: 538
 rssGuid: add1b15ec61242ec95cda035893af71c
 audioUrl: >-

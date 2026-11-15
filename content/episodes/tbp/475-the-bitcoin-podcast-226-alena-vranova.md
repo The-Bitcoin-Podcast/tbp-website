@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #226: Alena Vranova'
 date: '2018-10-07'
-draft: true
+draft: false
 episodeNumber: 475
 rssGuid: ea7838d31b3345949198627af13ac506
 audioUrl: >-

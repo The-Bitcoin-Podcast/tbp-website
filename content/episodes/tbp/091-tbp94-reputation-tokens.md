@@ -1,7 +1,7 @@
 ---
 title: TBP94 - Reputation Tokens
 date: '2016-10-23'
-draft: true
+draft: false
 episodeNumber: 91
 rssGuid: d6af164dde0c07b17e0e472db58cb430
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP142 - The Need For More Information
 date: '2017-07-30'
-draft: true
+draft: false
 episodeNumber: 190
 rssGuid: d664597aeabb72f33ffb9c7db13bfe63
 audioUrl: >-

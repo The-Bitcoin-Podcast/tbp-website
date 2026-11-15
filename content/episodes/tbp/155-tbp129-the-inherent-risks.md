@@ -1,7 +1,7 @@
 ---
 title: TBP129 - The Inherent Risks
 date: '2017-05-21'
-draft: true
+draft: false
 episodeNumber: 155
 rssGuid: cc197c84f699e234638b79c0f477990e
 audioUrl: >-

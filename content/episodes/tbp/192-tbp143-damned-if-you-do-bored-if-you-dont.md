@@ -1,7 +1,7 @@
 ---
 title: 'TBP143 - Damned If You Do, Bored If You Don''t'
 date: '2017-08-04'
-draft: true
+draft: false
 episodeNumber: 192
 rssGuid: b18bdb20c6b1c02dd80acc58d538fabc
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #328-Evan Kuo Ampleforth'
 date: '2020-11-09'
-draft: true
+draft: false
 episodeNumber: 826
 rssGuid: 8568a6a2-52a3-46d3-af24-3df3522fd15d
 audioUrl: >-

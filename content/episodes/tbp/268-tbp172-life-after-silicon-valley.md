@@ -1,7 +1,7 @@
 ---
 title: TBP172 - Life After Silicon Valley
 date: '2017-12-17'
-draft: true
+draft: false
 episodeNumber: 268
 rssGuid: 8f8c46fa081a8406b3ff0ad994a28268
 audioUrl: >-

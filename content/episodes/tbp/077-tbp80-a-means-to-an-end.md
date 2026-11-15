@@ -1,7 +1,7 @@
 ---
 title: TBP80 - A Means to an End
 date: '2016-08-18'
-draft: true
+draft: false
 episodeNumber: 77
 rssGuid: 74e368f90672419d298763506c1eaa0b
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #358-Juan M Hernandez CEO of Curio'
 date: '2021-06-28'
-draft: true
+draft: false
 episodeNumber: 857
 rssGuid: 78cd92d5-da36-491c-9270-676d33db3657
 audioUrl: >-

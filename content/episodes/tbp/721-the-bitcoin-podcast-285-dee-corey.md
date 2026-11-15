@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #285-Dee & Corey'
 date: '2019-12-02'
-draft: true
+draft: false
 episodeNumber: 721
 rssGuid: 73a0afa9-acc6-444e-a66d-26ca462ea3a4
 audioUrl: >-

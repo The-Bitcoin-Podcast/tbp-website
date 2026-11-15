@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #339- Jon Tompkins Badger'
 date: '2021-02-15'
-draft: true
+draft: false
 episodeNumber: 839
 rssGuid: 9f2530ac-0b68-4b54-b867-8cfb63add7e7
 audioUrl: >-

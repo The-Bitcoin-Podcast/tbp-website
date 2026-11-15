@@ -1,7 +1,7 @@
 ---
 title: TBP67 - Follow the LeadTuur
 date: '2016-06-22'
-draft: true
+draft: false
 episodeNumber: 65
 rssGuid: 5daeb01a2c296ccfeb27dca28a2e2954
 audioUrl: >-

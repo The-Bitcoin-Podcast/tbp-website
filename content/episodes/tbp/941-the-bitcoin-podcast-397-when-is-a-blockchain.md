@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #397- When is a Blockchain Decentralized ?'
 date: '2022-07-11'
-draft: true
+draft: false
 episodeNumber: 941
 rssGuid: 730ece76-d22c-4598-b4dd-d57356a2b48c
 audioUrl: >-

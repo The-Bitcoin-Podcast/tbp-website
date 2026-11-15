@@ -1,7 +1,7 @@
 ---
 title: TBP170 - A New Kind of Legal
 date: '2017-12-03'
-draft: true
+draft: false
 episodeNumber: 260
 rssGuid: f195212ab0a539b746ce102676e94615
 audioUrl: >-

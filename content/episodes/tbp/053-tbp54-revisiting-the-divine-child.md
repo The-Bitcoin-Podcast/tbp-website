@@ -1,7 +1,7 @@
 ---
 title: TBP54 - Revisiting the Divine Child
 date: '2016-04-21'
-draft: true
+draft: false
 episodeNumber: 53
 rssGuid: 91887d4975e912a0a9b499cdc29bfcad
 audioUrl: >-

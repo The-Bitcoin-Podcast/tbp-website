@@ -1,7 +1,7 @@
 ---
 title: 'TBP #204 - Chris DeRose'
 date: '2018-05-20'
-draft: true
+draft: false
 episodeNumber: 363
 rssGuid: 0e895e94f8df47d3ac359f0ff4853b0d
 audioUrl: >-

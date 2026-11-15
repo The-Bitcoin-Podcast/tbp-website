@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #279: Cory Doctorow --Journalist and Author'
 date: '2019-10-21'
-draft: true
+draft: false
 episodeNumber: 709
 rssGuid: c166b6eb-1073-4706-bcca-0a867590946f
 audioUrl: >-

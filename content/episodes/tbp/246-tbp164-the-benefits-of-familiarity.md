@@ -1,7 +1,7 @@
 ---
 title: TBP164 - The Benefits of Familiarity
 date: '2017-10-31'
-draft: true
+draft: false
 episodeNumber: 246
 rssGuid: 95fc50752e47857540e943e1bc335bb4
 audioUrl: >-

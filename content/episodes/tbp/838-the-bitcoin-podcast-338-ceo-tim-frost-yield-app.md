@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #338-CEO Tim Frost YIELD App'
 date: '2021-02-08'
-draft: true
+draft: false
 episodeNumber: 838
 rssGuid: 0a48199e-36cb-4e98-be44-e1c52c678f36
 audioUrl: >-

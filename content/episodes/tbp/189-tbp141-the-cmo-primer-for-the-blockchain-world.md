@@ -1,7 +1,7 @@
 ---
 title: TBP141 - The CMO Primer For the Blockchain World
 date: '2017-07-27'
-draft: true
+draft: false
 episodeNumber: 189
 rssGuid: 53a1b0e6088c9ce0e29273dda2ad3337
 audioUrl: >-

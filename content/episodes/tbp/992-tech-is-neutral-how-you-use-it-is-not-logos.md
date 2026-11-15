@@ -1,7 +1,7 @@
 ---
 title: 'Tech is neutral: How you use it is not | Logos Podcast with Jarrad Hope'
 date: '2024-03-14'
-draft: true
+draft: false
 episodeNumber: 992
 rssGuid: 7a011c57-958b-4000-8346-52c4a1282a38
 audioUrl: >-

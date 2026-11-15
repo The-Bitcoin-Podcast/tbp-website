@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #239'
 date: '2019-01-06'
-draft: true
+draft: false
 episodeNumber: 535
 rssGuid: 4dd106f668b14228a9d787bfe13745e8
 audioUrl: >-

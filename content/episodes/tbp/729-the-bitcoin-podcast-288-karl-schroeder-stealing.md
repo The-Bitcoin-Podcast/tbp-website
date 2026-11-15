@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #288-Karl Schroeder-Stealing Worlds'
 date: '2019-12-23'
-draft: true
+draft: false
 episodeNumber: 729
 rssGuid: 99f5d653-9298-45ef-b68e-1bf148082b31
 audioUrl: >-

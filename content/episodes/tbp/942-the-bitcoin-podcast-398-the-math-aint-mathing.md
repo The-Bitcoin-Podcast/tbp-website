@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #398- The Math Ain''t Mathing...... Manye'
 date: '2022-08-08'
-draft: true
+draft: false
 episodeNumber: 942
 rssGuid: 13561c54-e8a8-45e8-97dd-f3522b9adeb5
 audioUrl: >-

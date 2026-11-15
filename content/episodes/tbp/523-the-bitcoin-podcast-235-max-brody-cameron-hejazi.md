@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #235: Max Brody & Cameron Hejazi'
 date: '2018-12-09'
-draft: true
+draft: false
 episodeNumber: 523
 rssGuid: 818577abe8114db1b39e678c91398dc0
 audioUrl: >-

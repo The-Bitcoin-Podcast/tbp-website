@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #223: Zvika Landau'
 date: '2018-09-16'
-draft: true
+draft: false
 episodeNumber: 457
 rssGuid: ee767354c534462aabaec37d346f1506
 audioUrl: >-

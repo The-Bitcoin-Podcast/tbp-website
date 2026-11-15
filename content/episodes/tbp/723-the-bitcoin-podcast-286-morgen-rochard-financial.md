@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #286- Morgen Rochard Financial Advisor'
 date: '2019-12-09'
-draft: true
+draft: false
 episodeNumber: 723
 rssGuid: 2ab064ad-145a-4a5f-b5b1-7ce12b8c62ef
 audioUrl: >-

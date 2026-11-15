@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #322-Stani Kulechov AAVE'
 date: '2020-09-29'
-draft: true
+draft: false
 episodeNumber: 816
 rssGuid: 0d6055af-718d-4542-9631-158cbd89e08b
 audioUrl: >-

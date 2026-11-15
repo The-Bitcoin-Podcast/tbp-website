@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #392-It is Bubble Season , What Are You Carrying ?'
 date: '2022-05-30'
-draft: true
+draft: false
 episodeNumber: 936
 rssGuid: 23a42286-4b0e-4c4c-b238-49e1fc00d523
 audioUrl: >-

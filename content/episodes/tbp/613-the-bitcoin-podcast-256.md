@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #256'
 date: '2019-05-06'
-draft: true
+draft: false
 episodeNumber: 613
 rssGuid: ae39459a-acf2-4849-ad85-485397b43df6
 audioUrl: >-

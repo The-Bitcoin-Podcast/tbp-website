@@ -1,7 +1,7 @@
 ---
 title: TBP102 - Building Bridges Initiative
 date: '2016-11-30'
-draft: true
+draft: false
 episodeNumber: 101
 rssGuid: 9549965bc7e391eece30f595005bbb93
 audioUrl: >-

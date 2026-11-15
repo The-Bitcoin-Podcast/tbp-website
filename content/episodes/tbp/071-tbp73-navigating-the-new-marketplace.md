@@ -1,7 +1,7 @@
 ---
 title: TBP73 - Navigating the New Marketplace
 date: '2016-07-18'
-draft: true
+draft: false
 episodeNumber: 71
 rssGuid: 46646d708e042d4b2453742cd22062da
 audioUrl: >-

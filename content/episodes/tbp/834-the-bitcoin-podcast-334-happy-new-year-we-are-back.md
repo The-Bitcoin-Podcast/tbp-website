@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #334- Happy New Year We Are Back'
 date: '2021-01-11'
-draft: true
+draft: false
 episodeNumber: 834
 rssGuid: 86a8773a-f8cd-4e8a-9e4b-c3e86113fc10
 audioUrl: >-

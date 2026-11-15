@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast S02E02: THE GANG TALKS ORDINALS'
 date: '2025-05-27'
-draft: true
+draft: false
 episodeNumber: 1007
 rssGuid: 88bff3ba-8cdd-46a9-bc8e-7f2bdbfe7d76
 audioUrl: >-

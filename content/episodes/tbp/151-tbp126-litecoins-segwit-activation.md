@@ -1,7 +1,7 @@
 ---
 title: TBP126 - Litecoin's SegWit Activation
 date: '2017-05-01'
-draft: true
+draft: false
 episodeNumber: 151
 rssGuid: 393fdfde3653c8a3961920a072fc33e5
 audioUrl: >-

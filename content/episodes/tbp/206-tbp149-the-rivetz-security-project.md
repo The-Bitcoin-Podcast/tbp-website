@@ -1,7 +1,7 @@
 ---
 title: TBP149 - The Rivetz Security Project
 date: '2017-08-27'
-draft: true
+draft: false
 episodeNumber: 206
 rssGuid: 33a3507bf355fb43e0ec5fecd0f33266
 audioUrl: >-

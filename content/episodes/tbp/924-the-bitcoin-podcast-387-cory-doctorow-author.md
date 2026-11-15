@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #387 -Cory Doctorow Author'
 date: '2022-03-14'
-draft: true
+draft: false
 episodeNumber: 924
 rssGuid: 57c40f57-2fbb-49c5-86a9-401aac180f94
 audioUrl: >-

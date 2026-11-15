@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #229: Chris Horlacher & Christian Saucier'
 date: '2018-10-28'
-draft: true
+draft: false
 episodeNumber: 492
 rssGuid: e7e4105965a841e7bee9128dbd20eb4f
 audioUrl: >-

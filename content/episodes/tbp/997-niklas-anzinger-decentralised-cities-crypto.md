@@ -3,7 +3,7 @@ title: >-
   Niklas Anzinger: Decentralised cities & crypto-driven biotech | Logos Podcast
   with Jarrad Hope
 date: '2024-07-04'
-draft: true
+draft: false
 episodeNumber: 997
 rssGuid: 74a01677-edb8-4685-a183-4c4c15481fc4
 audioUrl: >-

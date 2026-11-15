@@ -1,7 +1,7 @@
 ---
 title: 'Flashback:The Bitcoin Podcast #361-Erik Voorhees Founder of Shapeshift'
 date: '2022-03-08'
-draft: true
+draft: false
 episodeNumber: 923
 rssGuid: c43a5af6-f21c-4f6f-99e8-e744522e6a7d
 audioUrl: >-

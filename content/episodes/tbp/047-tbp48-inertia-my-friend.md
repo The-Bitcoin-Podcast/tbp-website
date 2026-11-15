@@ -1,7 +1,7 @@
 ---
 title: 'TBP48 - Inertia, My Friend!'
 date: '2016-03-28'
-draft: true
+draft: false
 episodeNumber: 47
 rssGuid: 136819c1b57dfe57aa3906f9bd086aa8
 audioUrl: >-

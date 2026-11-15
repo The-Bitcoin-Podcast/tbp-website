@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast-#399- Sir, You Cannot Do That Here'
 date: '2022-08-15'
-draft: true
+draft: false
 episodeNumber: 944
 rssGuid: 22e173ff-af53-4848-b8d2-096eb1220a5e
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP136 - A New Type of Ownership
 date: '2017-07-02'
-draft: true
+draft: false
 episodeNumber: 174
 rssGuid: 765a8f9d9c9f0cc5adbda885d384249e
 audioUrl: >-

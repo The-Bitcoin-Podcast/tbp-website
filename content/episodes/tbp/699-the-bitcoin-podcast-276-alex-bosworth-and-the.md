@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #276 - Alex Bosworth and the Lightning Loop'
 date: '2019-10-02'
-draft: true
+draft: false
 episodeNumber: 699
 rssGuid: f4ba279a-70c3-4eee-a88b-c572d18afae1
 audioUrl: >-

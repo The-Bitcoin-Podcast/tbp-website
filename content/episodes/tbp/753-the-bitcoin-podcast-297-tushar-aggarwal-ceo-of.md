@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #297-Tushar Aggarwal CEO of Persistence'
 date: '2020-02-24'
-draft: true
+draft: false
 episodeNumber: 753
 rssGuid: 7e353057-41f8-4271-8ed5-4e51a5f0fd5d
 audioUrl: >-

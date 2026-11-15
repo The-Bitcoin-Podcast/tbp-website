@@ -1,7 +1,7 @@
 ---
 title: TBP29 - Take the Power Back
 date: '2015-12-07'
-draft: true
+draft: false
 episodeNumber: 28
 rssGuid: 0fe8044c78bab366ce28be24bfd004c7
 audioUrl: >-

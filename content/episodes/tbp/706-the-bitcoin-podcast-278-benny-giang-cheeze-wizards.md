@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #278: Benny Giang -- Cheeze Wizards'
 date: '2019-10-17'
-draft: true
+draft: false
 episodeNumber: 706
 rssGuid: 4b99be91-fbb6-4ca7-85ee-2e8cfdf3689e
 audioUrl: >-

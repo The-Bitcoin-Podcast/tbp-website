@@ -1,7 +1,7 @@
 ---
 title: TBP152 - Pally on the Block
 date: '2017-09-10'
-draft: true
+draft: false
 episodeNumber: 215
 rssGuid: b9ee8386d63e22524cbea5cb1d914824
 audioUrl: >-

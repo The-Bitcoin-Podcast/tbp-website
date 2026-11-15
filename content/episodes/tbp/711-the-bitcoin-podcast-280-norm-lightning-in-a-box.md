@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #280: Norm -- Lightning in a Box'
 date: '2019-10-30'
-draft: true
+draft: false
 episodeNumber: 711
 rssGuid: b24ba23c-657e-4073-a795-7c33246c7405
 audioUrl: >-

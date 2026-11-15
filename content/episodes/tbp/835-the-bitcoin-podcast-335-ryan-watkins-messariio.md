@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #335- Ryan Watkins Messari.io'
 date: '2021-01-18'
-draft: true
+draft: false
 episodeNumber: 835
 rssGuid: 6603c07f-51ee-4e8b-a503-44d9949b59fe
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP196 - Ethereum 4 Impact
 date: '2018-04-12'
-draft: true
+draft: false
 episodeNumber: 340
 rssGuid: ecbf8cd1ba89b36abe0f743e48241509
 audioUrl: >-

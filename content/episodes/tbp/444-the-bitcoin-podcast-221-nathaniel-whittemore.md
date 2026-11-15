@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #221: Nathaniel Whittemore'
 date: '2018-09-02'
-draft: true
+draft: false
 episodeNumber: 444
 rssGuid: c1d04dc832c04337a593eca722aa1dee
 audioUrl: >-

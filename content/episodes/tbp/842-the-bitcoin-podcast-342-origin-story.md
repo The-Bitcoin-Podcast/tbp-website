@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #342- Origin Story'
 date: '2021-03-08'
-draft: true
+draft: false
 episodeNumber: 842
 rssGuid: a4646c27-9d56-4674-ad50-d0b274eb90af
 audioUrl: >-

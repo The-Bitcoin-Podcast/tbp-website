@@ -1,7 +1,7 @@
 ---
 title: TBP96 - A Fireside Chat
 date: '2016-10-30'
-draft: true
+draft: false
 episodeNumber: 94
 rssGuid: 4788460e9db4c11a0c8e099584ca910b
 audioUrl: >-

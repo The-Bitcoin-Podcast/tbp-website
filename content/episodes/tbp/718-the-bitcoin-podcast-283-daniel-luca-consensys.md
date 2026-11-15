@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #283 - Daniel Luca - ConsenSys Diligence'
 date: '2019-11-18'
-draft: true
+draft: false
 episodeNumber: 718
 rssGuid: f09b0a20-d334-4745-9a0e-cc5425462f8c
 audioUrl: >-

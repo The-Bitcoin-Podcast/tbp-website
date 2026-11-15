@@ -1,7 +1,7 @@
 ---
 title: TBP133 - ICO Woes with MyEtherWallet
 date: '2017-06-16'
-draft: true
+draft: false
 episodeNumber: 165
 rssGuid: 0fd4f974ba6ca897b6faa22dcdc19a1c
 audioUrl: >-

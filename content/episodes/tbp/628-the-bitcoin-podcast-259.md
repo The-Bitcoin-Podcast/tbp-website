@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #259'
 date: '2019-05-27'
-draft: true
+draft: false
 episodeNumber: 628
 rssGuid: ca7ac757-3a38-4ca8-a249-cc8133e46221
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP127 - Marketing Discipline
 date: '2017-05-07'
-draft: true
+draft: false
 episodeNumber: 153
 rssGuid: ad9f320fd0144ca6fd25e60ed9f6dc9c
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP77 - Collective Governance
 date: '2016-08-03'
-draft: true
+draft: false
 episodeNumber: 75
 rssGuid: cf538145e3dcb5890a198d2335bc6cb1
 audioUrl: >-

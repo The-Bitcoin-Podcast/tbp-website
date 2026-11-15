@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #320- Devin Finzer OpenSea'
 date: '2020-09-15'
-draft: true
+draft: false
 episodeNumber: 813
 rssGuid: adbfb6d2-0c05-4d5a-a13a-7b19a9b614bb
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP61 - Escaping War Zones
 date: '2016-05-27'
-draft: true
+draft: false
 episodeNumber: 60
 rssGuid: bbe15885eaab5742ac8aa0b40dea0da7
 audioUrl: >-

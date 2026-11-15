@@ -1,7 +1,7 @@
 ---
 title: TBP157 - Modern Day Gold Rush Pt. II
 date: '2017-10-01'
-draft: true
+draft: false
 episodeNumber: 227
 rssGuid: 2d8dbcab3e7ef640f50967e2e78fcb0f
 audioUrl: >-

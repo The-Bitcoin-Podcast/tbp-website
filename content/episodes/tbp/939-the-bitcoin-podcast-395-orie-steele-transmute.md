@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #395- Orie Steele Transmute Industries'
 date: '2022-06-27'
-draft: true
+draft: false
 episodeNumber: 939
 rssGuid: 533bfd95-80e8-435b-af67-227cca2d686f
 audioUrl: >-

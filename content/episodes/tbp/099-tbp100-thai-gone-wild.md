@@ -1,7 +1,7 @@
 ---
 title: TBP100 - Thai Gone Wild
 date: '2016-11-20'
-draft: true
+draft: false
 episodeNumber: 99
 rssGuid: 01a9c08cdf99d48e189cbe4f42a82ea7
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP174 - Determining the Reliability of Sources
 date: '2017-12-24'
-draft: true
+draft: false
 episodeNumber: 273
 rssGuid: 3434a7593937912d90343ca50eca90f8
 audioUrl: >-

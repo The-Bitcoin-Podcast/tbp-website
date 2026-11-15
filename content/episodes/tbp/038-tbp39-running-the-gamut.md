@@ -1,7 +1,7 @@
 ---
 title: TBP39 - Running the Gamut
 date: '2016-02-08'
-draft: true
+draft: false
 episodeNumber: 38
 rssGuid: bba094223b242dcf9c24744dd79a9bfb
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast # 306- Dee and Corey With Updates'
 date: '2020-04-27'
-draft: true
+draft: false
 episodeNumber: 784
 rssGuid: 824d0389-3755-4740-822c-3c377d311ae8
 audioUrl: >-

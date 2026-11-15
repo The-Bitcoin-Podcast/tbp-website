@@ -1,7 +1,7 @@
 ---
 title: TBP159 - Diary of a Made Man
 date: '2017-10-08'
-draft: true
+draft: false
 episodeNumber: 234
 rssGuid: d4a9dec1e0969276145888a3ea9f794e
 audioUrl: >-

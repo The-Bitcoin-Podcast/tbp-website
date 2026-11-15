@@ -1,7 +1,7 @@
 ---
 title: TBP51 - Such Wow
 date: '2016-04-11'
-draft: true
+draft: false
 episodeNumber: 50
 rssGuid: 0a26f4ee2a0f6a61e18abf3419c6ff9e
 audioUrl: >-

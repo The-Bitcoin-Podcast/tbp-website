@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #330- Rachel Siegel CryptoFinally'
 date: '2020-11-23'
-draft: true
+draft: false
 episodeNumber: 829
 rssGuid: 81f46899-a15b-4849-94ba-298114de458d
 audioUrl: >-

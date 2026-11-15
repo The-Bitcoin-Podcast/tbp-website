@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #333- Happy Birthday Jesse'
 date: '2020-12-14'
-draft: true
+draft: false
 episodeNumber: 832
 rssGuid: a5279990-c8a3-4dd3-b3f4-6f990d90059e
 audioUrl: >-

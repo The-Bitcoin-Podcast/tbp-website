@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #292- Bitwise- Hong Kim'
 date: '2020-01-20'
-draft: true
+draft: false
 episodeNumber: 740
 rssGuid: 4338e8c1-aade-4eb7-aef3-aa66a04a6332
 audioUrl: >-

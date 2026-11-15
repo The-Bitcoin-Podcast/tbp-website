@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #237'
 date: '2018-12-23'
-draft: true
+draft: false
 episodeNumber: 531
 rssGuid: aaa2daa60f064f468aa379621b7034a5
 audioUrl: >-

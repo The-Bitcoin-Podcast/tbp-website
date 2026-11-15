@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #377- Dan Edlebeck CEO of Exidio'
 date: '2021-12-16'
-draft: true
+draft: false
 episodeNumber: 899
 rssGuid: 02ce85c8-9248-4842-a245-51d3e93ee1f3
 audioUrl: >-

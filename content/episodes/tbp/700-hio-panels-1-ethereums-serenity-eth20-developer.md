@@ -1,7 +1,7 @@
 ---
 title: 'HIO Panels #1 - Ethereum''s Serenity (ETH2.0) Developer Experience'
 date: '2019-10-03'
-draft: true
+draft: false
 episodeNumber: 700
 rssGuid: 6c522506-7c2a-4567-90a2-fa82ffc44b56
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP134 - More Marketing Discipline
 date: '2017-06-18'
-draft: true
+draft: false
 episodeNumber: 166
 rssGuid: fc38eddc2e17b33ca6ee93e41aa79b5b
 audioUrl: >-

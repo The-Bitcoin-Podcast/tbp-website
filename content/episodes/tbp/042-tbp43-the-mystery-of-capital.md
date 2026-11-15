@@ -1,7 +1,7 @@
 ---
 title: TBP43 - The Mystery of Capital
 date: '2016-02-29'
-draft: true
+draft: false
 episodeNumber: 42
 rssGuid: 7187f83169b020d691bfd42c834c1767
 audioUrl: >-

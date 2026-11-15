@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #352- Aram Barnett Will Nichols 721 Collective'
 date: '2021-05-17'
-draft: true
+draft: false
 episodeNumber: 852
 rssGuid: ac49aee3-edf8-4ca0-91ea-b87c3eeb9df8
 audioUrl: >-

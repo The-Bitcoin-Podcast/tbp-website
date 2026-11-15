@@ -1,7 +1,7 @@
 ---
 title: TBP56 - Exploring European Fintech
 date: '2016-05-02'
-draft: true
+draft: false
 episodeNumber: 55
 rssGuid: a10cf993937c977c04bdc069fce4036d
 audioUrl: >-

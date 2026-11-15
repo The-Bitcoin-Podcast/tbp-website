@@ -1,7 +1,7 @@
 ---
 title: TBP181 - Disrupting the Antivirus Market
 date: '2018-01-28'
-draft: true
+draft: false
 episodeNumber: 292
 rssGuid: 08e21e68dad1c3763bd625b96dad2fb2
 audioUrl: >-

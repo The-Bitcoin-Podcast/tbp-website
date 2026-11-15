@@ -1,7 +1,7 @@
 ---
 title: TBP131 - Ending Corporate Dominance
 date: '2017-06-04'
-draft: true
+draft: false
 episodeNumber: 162
 rssGuid: 1a63ecbe0d7641da9ad072963d1e8580
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #241'
 date: '2019-01-20'
-draft: true
+draft: false
 episodeNumber: 543
 rssGuid: 0756ff57de174a4a9a738c42313b23dc
 audioUrl: >-

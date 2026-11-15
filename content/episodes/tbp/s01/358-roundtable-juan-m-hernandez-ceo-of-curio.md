@@ -1,7 +1,7 @@
 ---
 title: 'Roundtable #358 - Juan M Hernandez, CEO of Curio'
 date: 2021-06-24T00:00:00.000Z
-draft: true
+draft: false
 episodeNumber: 358
 youtubeId: Mdv-xOH6CBE
 thumbnail: 'https://i.ytimg.com/vi/Mdv-xOH6CBE/maxresdefault.jpg'

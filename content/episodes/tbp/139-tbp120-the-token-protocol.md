@@ -1,7 +1,7 @@
 ---
 title: TBP120 - The Token Protocol
 date: '2017-03-26'
-draft: true
+draft: false
 episodeNumber: 139
 rssGuid: e4c985112720265ef10c0de4de2733cc
 audioUrl: >-

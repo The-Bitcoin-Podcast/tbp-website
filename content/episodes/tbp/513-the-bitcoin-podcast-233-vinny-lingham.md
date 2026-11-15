@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #233: Vinny Lingham'
 date: '2018-11-25'
-draft: true
+draft: false
 episodeNumber: 513
 rssGuid: a64207b6b1964a9d9de2e60d5c573319
 audioUrl: >-

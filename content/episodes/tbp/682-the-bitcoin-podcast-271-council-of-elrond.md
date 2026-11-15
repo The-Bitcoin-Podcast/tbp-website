@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #271 - Council of Elrond'
 date: '2019-08-28'
-draft: true
+draft: false
 episodeNumber: 682
 rssGuid: 10a66fb1-0fb4-4fc3-b8a1-2785c55a8921
 audioUrl: >-

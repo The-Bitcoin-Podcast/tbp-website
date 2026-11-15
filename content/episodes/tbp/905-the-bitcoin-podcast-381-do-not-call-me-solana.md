@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #381- Do Not Call Me Solana'
 date: '2022-01-10'
-draft: true
+draft: false
 episodeNumber: 905
 rssGuid: b945fe1d-e7fd-47e8-aa42-2a54547ce887
 audioUrl: >-

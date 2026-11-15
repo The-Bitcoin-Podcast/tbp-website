@@ -1,7 +1,7 @@
 ---
 title: TBP154 - Bitcoin For The Bottom Billion Pt. 2
 date: '2017-09-22'
-draft: true
+draft: false
 episodeNumber: 221
 rssGuid: eee5b8566d65257543fea298c7e07adf
 audioUrl: >-

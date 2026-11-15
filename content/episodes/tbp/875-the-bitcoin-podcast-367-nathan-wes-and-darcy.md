@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #367- Nathan, Wes, and Darcy Ubitquity'
 date: '2021-09-13'
-draft: true
+draft: false
 episodeNumber: 875
 rssGuid: ac39eeed-a515-4317-82a6-dba40f05ebf4
 audioUrl: >-

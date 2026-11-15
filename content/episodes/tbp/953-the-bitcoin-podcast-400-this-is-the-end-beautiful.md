@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #400-This is the End, Beautiful Friend'
 date: '2022-11-15'
-draft: true
+draft: false
 episodeNumber: 953
 rssGuid: 5ac0c424-75bd-48bb-b4ce-54f7bebbd709
 audioUrl: >-

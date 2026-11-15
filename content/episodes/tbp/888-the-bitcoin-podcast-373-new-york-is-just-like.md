@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #373- New York Is Just Like Kansas Intendified'
 date: '2021-11-08'
-draft: true
+draft: false
 episodeNumber: 888
 rssGuid: ff70b371-4934-49bb-9760-172bcc27a4da
 audioUrl: >-

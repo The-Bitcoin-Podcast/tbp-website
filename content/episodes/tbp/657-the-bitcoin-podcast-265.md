@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #265'
 date: '2019-07-15'
-draft: true
+draft: false
 episodeNumber: 657
 rssGuid: 06c90528-a2f9-4e82-965d-4182fe511c29
 audioUrl: >-

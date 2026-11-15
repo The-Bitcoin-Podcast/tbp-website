@@ -1,7 +1,7 @@
 ---
 title: TBP71 - Bitcoin Wealth Alliance
 date: '2016-07-10'
-draft: true
+draft: false
 episodeNumber: 69
 rssGuid: ecc66e406b04166cb89d43b26e36b6cd
 audioUrl: >-

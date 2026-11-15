@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #216: Naomi Brockwell'
 date: '2018-08-02'
-draft: true
+draft: false
 episodeNumber: 417
 rssGuid: 87e0c43e66db40a18301fde7d1162b60
 audioUrl: >-

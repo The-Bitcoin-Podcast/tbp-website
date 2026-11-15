@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #236: Ronnie Moas'
 date: '2018-12-16'
-draft: true
+draft: false
 episodeNumber: 528
 rssGuid: 5bd1ecdfd4744edd8c2d97ef5a1a40f7
 audioUrl: >-

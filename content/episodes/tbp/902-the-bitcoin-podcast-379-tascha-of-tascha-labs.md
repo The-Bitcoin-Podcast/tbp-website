@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #379- Tascha of Tascha Labs'
 date: '2021-12-27'
-draft: true
+draft: false
 episodeNumber: 902
 rssGuid: 52100a9f-b7e3-4bc2-9588-d9ff9a61c753
 audioUrl: >-

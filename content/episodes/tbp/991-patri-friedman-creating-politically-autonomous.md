@@ -3,7 +3,7 @@ title: >-
   Patri Friedman: Creating politically autonomous communities | Logos Podcast
   with Jarrad Hope
 date: '2024-02-28'
-draft: true
+draft: false
 episodeNumber: 991
 rssGuid: 18eff833-02cf-4bd2-9a59-211edc999475
 audioUrl: >-

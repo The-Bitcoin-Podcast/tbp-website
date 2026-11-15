@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #371- Kenneth Bosak Bro Bros 420'
 date: '2021-10-11'
-draft: true
+draft: false
 episodeNumber: 882
 rssGuid: e3ae3042-1532-4b86-8777-938ee6e28bfb
 audioUrl: >-

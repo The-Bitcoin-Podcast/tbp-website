@@ -1,7 +1,7 @@
 ---
 title: TBP155 - Crypto Swan Song
 date: '2017-09-24'
-draft: true
+draft: false
 episodeNumber: 222
 rssGuid: ff4c6f8b78150b5a1884111f4e86be6a
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #273: Exiled Surfer doesn''t like 401k''s'
 date: '2019-09-12'
-draft: true
+draft: false
 episodeNumber: 689
 rssGuid: a23f8f4f-ce21-4754-9ce7-62bc7aa3e5ca
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast S02E12 - Privacy, Scaling, & the Crypto Narrative War'
 date: '2025-12-18'
-draft: true
+draft: false
 episodeNumber: 1014
 rssGuid: 9e57ca95-2352-41fa-a554-ae4fb2f8de8b
 audioUrl: >-

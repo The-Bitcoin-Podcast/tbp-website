@@ -1,7 +1,7 @@
 ---
 title: TBP99 - Blockchain Supercomputer
 date: '2016-11-13'
-draft: true
+draft: false
 episodeNumber: 98
 rssGuid: e92e57bc6f2b9c18f00ca9d4903b7065
 audioUrl: >-

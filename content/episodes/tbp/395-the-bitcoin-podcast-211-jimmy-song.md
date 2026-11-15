@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #211: Jimmy Song'
 date: '2018-07-01'
-draft: true
+draft: false
 episodeNumber: 395
 rssGuid: 65ae77a6f112446eaa6d0cf7652c7eff
 audioUrl: >-

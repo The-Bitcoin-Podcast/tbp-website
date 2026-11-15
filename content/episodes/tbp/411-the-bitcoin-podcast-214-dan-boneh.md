@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #214: Dan Boneh'
 date: '2018-07-22'
-draft: true
+draft: false
 episodeNumber: 411
 rssGuid: 4c62113bea87486794dfea4b1044030a
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #290 - The Recap Of The Year 2019'
 date: '2020-01-06'
-draft: true
+draft: false
 episodeNumber: 732
 rssGuid: f75d50a9-4c89-47f3-a539-3141a3cdbc29
 audioUrl: >-

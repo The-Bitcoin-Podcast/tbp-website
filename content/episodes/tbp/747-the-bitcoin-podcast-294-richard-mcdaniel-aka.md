@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #294-Richard McDaniel aka NghtRppr'
 date: '2020-02-03'
-draft: true
+draft: false
 episodeNumber: 747
 rssGuid: a1d9a038-78b7-4bcf-ab08-27d10e545bed
 audioUrl: >-

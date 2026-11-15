@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #224: Ray Redacted'
 date: '2018-09-23'
-draft: true
+draft: false
 episodeNumber: 463
 rssGuid: 1583ac2423204ced9fa29445c7db760c
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP36 - Bakesales for Bombers
 date: '2016-01-25'
-draft: true
+draft: false
 episodeNumber: 35
 rssGuid: 532483b8f50a104c7989cc4874c003dc
 audioUrl: >-

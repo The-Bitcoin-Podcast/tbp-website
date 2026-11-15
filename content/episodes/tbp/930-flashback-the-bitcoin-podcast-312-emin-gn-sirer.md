@@ -1,7 +1,7 @@
 ---
 title: 'Flashback: The Bitcoin Podcast #312--Emin Gün Sirer CEO of AVA LABS'
 date: '2022-04-05'
-draft: true
+draft: false
 episodeNumber: 930
 rssGuid: c19412b4-8267-4dd4-b375-85d9e996231e
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #293-Kevin Sekniqi-Ava Labs'
 date: '2020-01-27'
-draft: true
+draft: false
 episodeNumber: 743
 rssGuid: 9f8b2a90-9d54-4362-97d5-bd8df563e364
 audioUrl: >-

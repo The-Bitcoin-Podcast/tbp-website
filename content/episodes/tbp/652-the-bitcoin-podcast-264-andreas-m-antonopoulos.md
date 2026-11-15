@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #264: Andreas M. Antonopoulos'
 date: '2019-07-08'
-draft: true
+draft: false
 episodeNumber: 652
 rssGuid: 57d180ab-0d3e-4c30-b7ea-d77855829c82
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #291- Dee + Corey + Lucian'
 date: '2020-01-13'
-draft: true
+draft: false
 episodeNumber: 736
 rssGuid: 959964a3-0430-41f8-8cde-c6461a3b1441
 audioUrl: >-

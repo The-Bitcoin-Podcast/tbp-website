@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #247: We Don''t Deserve Booth Babes'
 date: '2019-03-03'
-draft: true
+draft: false
 episodeNumber: 572
 rssGuid: 13464afc-4958-44fc-98f4-8a6f8922dc5e
 audioUrl: >-

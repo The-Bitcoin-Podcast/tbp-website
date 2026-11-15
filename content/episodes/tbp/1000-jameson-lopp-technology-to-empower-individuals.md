@@ -3,7 +3,7 @@ title: >-
   Jameson Lopp: Technology to empower individuals | Logos Podcast with Jarrad
   Hope
 date: '2024-09-05'
-draft: true
+draft: false
 episodeNumber: 1000
 rssGuid: 1dc82542-abbf-454d-8a8b-19f066564ff5
 audioUrl: >-

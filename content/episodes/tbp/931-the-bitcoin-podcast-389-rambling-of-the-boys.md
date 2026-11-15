@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #389- Rambling of The Boys'
 date: '2022-04-18'
-draft: true
+draft: false
 episodeNumber: 931
 rssGuid: 2ec2fdd4-1456-46a4-8332-98cc12d3d959
 audioUrl: >-

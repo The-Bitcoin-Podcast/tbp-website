@@ -1,7 +1,7 @@
 ---
 title: TBP190 - Welterweight Gold II
 date: '2018-03-11'
-draft: true
+draft: false
 episodeNumber: 318
 rssGuid: ee15c20e478287b01d96f1c53dd97ea8
 audioUrl: >-

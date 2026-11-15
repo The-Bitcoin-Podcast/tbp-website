@@ -1,7 +1,7 @@
 ---
 title: TBP165 - Praise for Cryptoassets
 date: '2017-11-05'
-draft: true
+draft: false
 episodeNumber: 248
 rssGuid: f42dccea52ae1ff516b596314c141044
 audioUrl: >-

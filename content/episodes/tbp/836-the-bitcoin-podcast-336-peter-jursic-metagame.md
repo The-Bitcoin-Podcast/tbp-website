@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #336- Peter Jursic MetaGame'
 date: '2021-01-25'
-draft: true
+draft: false
 episodeNumber: 836
 rssGuid: 4afa9284-c8c1-4d27-9e89-87a7e18b921e
 audioUrl: >-

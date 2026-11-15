@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #217: Rory MacDonald'
 date: '2018-08-05'
-draft: true
+draft: false
 episodeNumber: 420
 rssGuid: b7dc2bd7a4ea434db8a90d04ab2eacd4
 audioUrl: >-

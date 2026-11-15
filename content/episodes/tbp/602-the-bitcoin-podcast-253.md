@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #253'
 date: '2019-04-14'
-draft: true
+draft: false
 episodeNumber: 602
 rssGuid: 10a8c2fd-d8ec-419a-816f-9240b5c15be8
 audioUrl: >-

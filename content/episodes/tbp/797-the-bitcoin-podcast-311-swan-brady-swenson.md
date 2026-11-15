@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #311 - Swan - Brady Swenson'
 date: '2020-06-01'
-draft: true
+draft: false
 episodeNumber: 797
 rssGuid: 8633d77b-ebe6-497d-8c64-bc3b0cbf8967
 audioUrl: >-

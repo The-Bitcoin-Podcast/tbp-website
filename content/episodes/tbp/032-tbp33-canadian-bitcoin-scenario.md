@@ -1,7 +1,7 @@
 ---
 title: TBP33 - Canadian Bitcoin Scenario
 date: '2016-01-04'
-draft: true
+draft: false
 episodeNumber: 32
 rssGuid: eeafbaf83876479624014821c924c3ae
 audioUrl: >-

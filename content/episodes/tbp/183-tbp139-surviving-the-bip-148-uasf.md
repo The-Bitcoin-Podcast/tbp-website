@@ -1,7 +1,7 @@
 ---
 title: TBP139 - Surviving the BIP 148 UASF
 date: '2017-07-17'
-draft: true
+draft: false
 episodeNumber: 183
 rssGuid: a894baa41697fdda7925154bdce414bc
 audioUrl: >-

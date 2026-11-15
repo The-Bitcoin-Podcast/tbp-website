@@ -1,7 +1,7 @@
 ---
 title: TBP108 - Ether Camp
 date: '2017-01-05'
-draft: true
+draft: false
 episodeNumber: 111
 rssGuid: 3995939f66669d702b2c6ae09326c1dc
 audioUrl: >-

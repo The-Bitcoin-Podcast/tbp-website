@@ -1,7 +1,7 @@
 ---
 title: TBP55 - The Cryptocurrency 2.0 Project
 date: '2016-04-24'
-draft: true
+draft: false
 episodeNumber: 54
 rssGuid: da040a6e4cb03e6f19af0945e6d96636
 audioUrl: >-

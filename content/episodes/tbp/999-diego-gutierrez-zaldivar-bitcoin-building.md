@@ -3,7 +3,7 @@ title: >-
   Diego Gutierrez-Zaldivar: Bitcoin & Building Communities | Logos Podcast with
   Jarrad Hope
 date: '2024-08-22'
-draft: true
+draft: false
 episodeNumber: 999
 rssGuid: 0e3a4013-edd1-403c-b63e-b5a27b03974c
 audioUrl: >-

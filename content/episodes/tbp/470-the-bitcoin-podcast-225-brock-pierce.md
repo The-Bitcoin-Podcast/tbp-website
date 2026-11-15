@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #225: Brock Pierce'
 date: '2018-09-30'
-draft: true
+draft: false
 episodeNumber: 470
 rssGuid: c5f6c7d1bc9e4808b1a027a045335a0b
 audioUrl: >-

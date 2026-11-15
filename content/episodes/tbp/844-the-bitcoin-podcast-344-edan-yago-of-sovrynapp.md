@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #344- Edan Yago of Sovryn.app'
 date: '2021-03-29'
-draft: true
+draft: false
 episodeNumber: 844
 rssGuid: e3695803-c0e7-4cdf-988d-6e7a2b104293
 audioUrl: >-

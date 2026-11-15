@@ -1,7 +1,7 @@
 ---
 title: TBP45 - Bitcoin Evangelism
 date: '2016-03-07'
-draft: true
+draft: false
 episodeNumber: 44
 rssGuid: fbbc8e7c0bb81133d5c29601aa9a50ec
 audioUrl: >-

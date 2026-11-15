@@ -1,7 +1,7 @@
 ---
 title: 'TBP Flashback: Episode 7'
 date: '2018-07-18'
-draft: true
+draft: false
 episodeNumber: 408
 rssGuid: a3a68d70360140baa662aee6d82c804b
 audioUrl: >-

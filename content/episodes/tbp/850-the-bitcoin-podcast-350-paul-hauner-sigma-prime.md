@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #350- Paul Hauner Sigma Prime: ETH-2'
 date: '2021-05-03'
-draft: true
+draft: false
 episodeNumber: 850
 rssGuid: b2f4d048-5558-400f-acca-645de9e36c2d
 audioUrl: >-

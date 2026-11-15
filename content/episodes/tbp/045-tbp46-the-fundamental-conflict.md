@@ -1,7 +1,7 @@
 ---
 title: TBP46 - The Fundamental Conflict
 date: '2016-03-14'
-draft: true
+draft: false
 episodeNumber: 45
 rssGuid: 8dbf0a73c74799c01819cdffd1185bed
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP58 - The Art of the Deal
 date: '2016-05-09'
-draft: true
+draft: false
 episodeNumber: 57
 rssGuid: 297cd216885e7fdd71cedae8c8f8edc7
 audioUrl: >-

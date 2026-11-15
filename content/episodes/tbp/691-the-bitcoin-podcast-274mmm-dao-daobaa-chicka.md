@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #274:Mmm DAO DAO...baa-chicka-chicka'
 date: '2019-09-19'
-draft: true
+draft: false
 episodeNumber: 691
 rssGuid: 1d289d53-d3b2-40a2-bb08-85fd713fef7f
 audioUrl: >-

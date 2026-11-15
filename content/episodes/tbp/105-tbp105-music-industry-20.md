@@ -1,7 +1,7 @@
 ---
 title: TBP105 - Music Industry 2.0
 date: '2016-12-18'
-draft: true
+draft: false
 episodeNumber: 105
 rssGuid: 8885ee303e71c4bf4997f930e4f6037c
 audioUrl: >-

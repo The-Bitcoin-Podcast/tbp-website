@@ -1,7 +1,7 @@
 ---
 title: TBP192 - New Year and a New Exchange
 date: '2018-03-25'
-draft: true
+draft: false
 episodeNumber: 329
 rssGuid: 3fc99f1e6f48d23fa4d715ff643aff0e
 audioUrl: >-

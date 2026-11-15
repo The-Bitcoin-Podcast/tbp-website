@@ -1,7 +1,7 @@
 ---
 title: TBP132 - Dark Side of the Prism
 date: '2017-06-11'
-draft: true
+draft: false
 episodeNumber: 163
 rssGuid: eeaab7d843ad26de747d4957562ad7ba
 audioUrl: >-

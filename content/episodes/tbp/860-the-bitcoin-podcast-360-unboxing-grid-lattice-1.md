@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #360- Unboxing Grid+ Lattice 1'
 date: '2021-07-19'
-draft: true
+draft: false
 episodeNumber: 860
 rssGuid: 3cb1f169-64ea-4f27-a0b7-fd64eb57a434
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #248'
 date: '2019-03-10'
-draft: true
+draft: false
 episodeNumber: 576
 rssGuid: ca62bd38-2b08-4987-a0d4-1636d926c680
 audioUrl: >-

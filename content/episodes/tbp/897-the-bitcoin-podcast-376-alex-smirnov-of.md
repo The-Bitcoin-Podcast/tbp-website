@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #376- Alex Smirnov of debridge.finance'
 date: '2021-12-06'
-draft: true
+draft: false
 episodeNumber: 897
 rssGuid: efa1f5fe-e268-4ec2-9be4-3e283dc01935
 audioUrl: >-

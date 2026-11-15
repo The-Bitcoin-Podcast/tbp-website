@@ -1,7 +1,7 @@
 ---
 title: TBP68 - Deconstructing theDAO Attack
 date: '2016-06-27'
-draft: true
+draft: false
 episodeNumber: 66
 rssGuid: f6fd3b495037f27c93eaf4f661565faa
 audioUrl: >-

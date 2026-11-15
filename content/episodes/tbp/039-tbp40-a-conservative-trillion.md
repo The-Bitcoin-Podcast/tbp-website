@@ -1,7 +1,7 @@
 ---
 title: TBP40 - A Conservative Trillion
 date: '2016-02-14'
-draft: true
+draft: false
 episodeNumber: 39
 rssGuid: e2c0859078ac3a62965e0fd16f1c9f4d
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP84 - Arcade City Glorification
 date: '2016-09-04'
-draft: true
+draft: false
 episodeNumber: 81
 rssGuid: 78b64047b8ea42dba9f3d42b9d0e52e3
 audioUrl: >-

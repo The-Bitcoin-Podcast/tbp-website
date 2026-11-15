@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #215: Isaiah Jackson a.k.a. Bitcoin Zay'
 date: '2018-07-29'
-draft: true
+draft: false
 episodeNumber: 415
 rssGuid: 83f5edbbced84a75a38019aee8a0f168
 audioUrl: >-

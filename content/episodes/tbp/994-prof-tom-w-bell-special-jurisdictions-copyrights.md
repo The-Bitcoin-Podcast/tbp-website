@@ -3,7 +3,7 @@ title: >-
   Prof. Tom W. Bell: Special jurisdictions, Copyrights & Internet law | Logos
   Podcast with Jarrad Hope
 date: '2024-04-10'
-draft: true
+draft: false
 episodeNumber: 994
 rssGuid: 961f3f1c-6fe0-48eb-8303-d1487af062c2
 audioUrl: >-

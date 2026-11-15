@@ -1,7 +1,7 @@
 ---
 title: TBP146 - The Rise and Rise of Charlie Shrem
 date: '2017-08-13'
-draft: true
+draft: false
 episodeNumber: 198
 rssGuid: 84715f9fb4088e64c99e1bbcf0c27825
 audioUrl: >-

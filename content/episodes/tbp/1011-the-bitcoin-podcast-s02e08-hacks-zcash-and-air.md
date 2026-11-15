@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast S02E08 - Hacks, ZCash, and Air Fryers'
 date: '2025-11-12'
-draft: true
+draft: false
 episodeNumber: 1011
 rssGuid: 4039d4de-3668-4cc0-b4ee-295c0684299a
 audioUrl: >-

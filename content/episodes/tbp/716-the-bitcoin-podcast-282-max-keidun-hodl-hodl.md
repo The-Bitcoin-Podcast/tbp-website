@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast-#282: Max Keidun- Hodl Hodl Exchange'
 date: '2019-11-15'
-draft: true
+draft: false
 episodeNumber: 716
 rssGuid: a72d90de-6ec6-46db-a3ac-36ffdd4732c3
 audioUrl: >-

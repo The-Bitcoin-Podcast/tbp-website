@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast S02E09: The Great Unpeggining'
 date: '2025-12-25'
-draft: true
+draft: false
 episodeNumber: 1015
 rssGuid: fe8d6db2-3785-4df8-98ae-ebdc3ffddca3
 audioUrl: >-

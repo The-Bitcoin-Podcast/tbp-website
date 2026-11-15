@@ -1,7 +1,7 @@
 ---
 title: TBP147 - History of Security
 date: '2017-08-17'
-draft: true
+draft: false
 episodeNumber: 200
 rssGuid: 47230d07826d426e852e6f4bfdc79a0e
 audioUrl: >-

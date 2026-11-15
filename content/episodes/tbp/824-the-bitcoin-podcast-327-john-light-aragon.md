@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #327- John Light Aragon'
 date: '2020-11-02'
-draft: true
+draft: false
 episodeNumber: 824
 rssGuid: 6fe3d7e1-32ac-4c1a-be0e-4e45bda3b9dd
 audioUrl: >-

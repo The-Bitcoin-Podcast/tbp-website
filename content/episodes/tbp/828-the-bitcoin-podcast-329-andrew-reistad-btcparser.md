@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #329- Andrew Reistad BTCParser'
 date: '2020-11-16'
-draft: true
+draft: false
 episodeNumber: 828
 rssGuid: c6d073c0-b6e0-4e12-b712-049790ba22fc
 audioUrl: >-

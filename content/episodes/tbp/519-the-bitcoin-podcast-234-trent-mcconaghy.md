@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #234: Trent McConaghy'
 date: '2018-12-02'
-draft: true
+draft: false
 episodeNumber: 519
 rssGuid: 598fcbc7089c45b4af5a606ee48708ba
 audioUrl: >-

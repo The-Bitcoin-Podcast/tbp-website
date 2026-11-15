@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast - S02E11: Fusaka To Me'
 date: '2025-12-08'
-draft: true
+draft: false
 episodeNumber: 1013
 rssGuid: 4c22bfba-26ee-452e-8a9f-bf7b340ce9ac
 audioUrl: >-

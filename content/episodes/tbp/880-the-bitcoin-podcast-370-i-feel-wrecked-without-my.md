@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #370- I feel wrecked without my China girl'
 date: '2021-10-04'
-draft: true
+draft: false
 episodeNumber: 880
 rssGuid: e5f90ec3-b48e-48d2-89cf-e01848cf97c1
 audioUrl: >-

@@ -3,7 +3,7 @@ title: >-
   Federico Ast, Kleros: Decentralised Arbitration System | Logos Podcast with
   Jarrad Hope
 date: '2024-09-18'
-draft: true
+draft: false
 episodeNumber: 1001
 rssGuid: fa0bdb1a-5139-43a4-8f1a-c53d4dd007cb
 audioUrl: >-

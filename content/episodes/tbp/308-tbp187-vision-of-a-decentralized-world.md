@@ -1,7 +1,7 @@
 ---
 title: TBP187 - Vision of a Decentralized World
 date: '2018-02-25'
-draft: true
+draft: false
 episodeNumber: 308
 rssGuid: 47cdbc53af568e853490042e245590d8
 audioUrl: >-

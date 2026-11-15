@@ -1,7 +1,7 @@
 ---
 title: 'Mark Lutter: Charter Cities | Logos Podcast with Jarrad Hope'
 date: '2024-07-18'
-draft: true
+draft: false
 episodeNumber: 998
 rssGuid: 7dfb044d-e9ea-4e96-9323-88ddebd600dc
 audioUrl: >-

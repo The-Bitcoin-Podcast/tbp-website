@@ -1,7 +1,7 @@
 ---
 title: 'TBP Presents: Social Implementations of Blockchain Infrastructure'
 date: '2018-03-16'
-draft: true
+draft: false
 episodeNumber: 321
 rssGuid: 2a4ab5a3dca075cda79f22a931300e03
 audioUrl: >-

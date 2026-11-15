@@ -1,7 +1,7 @@
 ---
 title: TBP44 - Who Is Bitcoin Girl?
 date: '2016-03-03'
-draft: true
+draft: false
 episodeNumber: 43
 rssGuid: e30a7187b19a96d4464bdbb5c6b1dae9
 audioUrl: >-

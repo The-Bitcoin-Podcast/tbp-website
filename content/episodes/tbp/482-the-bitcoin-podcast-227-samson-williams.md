@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #227: Samson Williams'
 date: '2018-10-14'
-draft: true
+draft: false
 episodeNumber: 482
 rssGuid: b18724b941e745d19d63c2cea6f06103
 audioUrl: >-

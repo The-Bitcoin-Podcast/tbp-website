@@ -3,7 +3,7 @@ title: >-
   The Bitcoin Podcast #366-The greatest crimes in the world are not committed by
   people breaking the rules but by people following the rules- Bansky
 date: '2021-09-06'
-draft: true
+draft: false
 episodeNumber: 873
 rssGuid: 9129f2e0-70be-4972-a987-3c4ea3ff0973
 audioUrl: >-

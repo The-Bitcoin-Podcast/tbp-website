@@ -1,7 +1,7 @@
 ---
 title: TBP50 - Not Giving a Good Got Damn
 date: '2016-04-04'
-draft: true
+draft: false
 episodeNumber: 49
 rssGuid: 9b874cf9fb072d0bc797e4b3468caf1e
 audioUrl: >-

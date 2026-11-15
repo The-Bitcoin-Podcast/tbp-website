@@ -1,7 +1,7 @@
 ---
 title: TBP97 - Hype or Hope
 date: '2016-11-06'
-draft: true
+draft: false
 episodeNumber: 95
 rssGuid: 1d3fba9b7ea6a8f51b2719c2ebb74876
 audioUrl: >-

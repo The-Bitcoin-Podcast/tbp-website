@@ -1,7 +1,7 @@
 ---
 title: 'Ben Wizner: Speech, Privacy, and Technology | Logos Podcast with Jarrad Hope'
 date: '2024-02-15'
-draft: true
+draft: false
 episodeNumber: 990
 rssGuid: d908da62-e03e-4061-a5e8-2a544b351bd8
 audioUrl: >-

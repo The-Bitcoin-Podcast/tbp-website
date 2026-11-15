@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #340-21 Years Old Drunk Episode'
 date: '2021-02-22'
-draft: true
+draft: false
 episodeNumber: 840
 rssGuid: b496d285-4c38-48f2-8b37-b5e8bd7901a7
 audioUrl: >-

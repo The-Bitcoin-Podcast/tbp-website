@@ -1,7 +1,7 @@
 ---
 title: TBP111 - Disrupting Global Commerce
 date: '2017-01-22'
-draft: true
+draft: false
 episodeNumber: 116
 rssGuid: 78b30a19b81d3eeb91599e19a31c222a
 audioUrl: >-

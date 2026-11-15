@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #380- It Is The End Of The Year As We Know It'
 date: '2022-01-03'
-draft: true
+draft: false
 episodeNumber: 903
 rssGuid: cb0c272c-96c7-4cce-9687-fd850715eae2
 audioUrl: >-

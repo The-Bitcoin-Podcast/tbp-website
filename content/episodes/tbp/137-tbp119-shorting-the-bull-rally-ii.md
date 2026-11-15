@@ -1,7 +1,7 @@
 ---
 title: TBP119 - Shorting the Bull Rally II
 date: '2017-03-20'
-draft: true
+draft: false
 episodeNumber: 137
 rssGuid: 2ad874b95265eed98f28205b79b20747
 audioUrl: >-

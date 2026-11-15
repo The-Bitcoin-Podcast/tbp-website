@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #353- TJ Rush TrueBlocks'
 date: '2021-05-24'
-draft: true
+draft: false
 episodeNumber: 853
 rssGuid: 1b6906d9-fc4a-436e-92db-62b185f0c29d
 audioUrl: >-

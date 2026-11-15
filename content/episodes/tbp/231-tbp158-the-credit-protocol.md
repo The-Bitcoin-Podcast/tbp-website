@@ -1,7 +1,7 @@
 ---
 title: TBP158 - The Credit Protocol
 date: '2017-10-05'
-draft: true
+draft: false
 episodeNumber: 231
 rssGuid: f3c09fb206255e06ae25338273e0b6c4
 audioUrl: >-

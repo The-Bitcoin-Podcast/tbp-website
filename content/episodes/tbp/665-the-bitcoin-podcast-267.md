@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #267'
 date: '2019-07-29'
-draft: true
+draft: false
 episodeNumber: 665
 rssGuid: 2a298171-8309-45ce-bb31-71cdf6fdf995
 audioUrl: >-

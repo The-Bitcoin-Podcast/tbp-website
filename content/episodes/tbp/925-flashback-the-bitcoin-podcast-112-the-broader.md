@@ -1,7 +1,7 @@
 ---
 title: 'Flashback: The Bitcoin Podcast #112: The Broader Economy II'
 date: '2022-03-15'
-draft: true
+draft: false
 episodeNumber: 925
 rssGuid: e0fe7018-a711-4258-acd8-f75bd891e04d
 audioUrl: >-

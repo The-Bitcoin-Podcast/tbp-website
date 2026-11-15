@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #307 - Dr. Muneeb Ali Of Blockstack'
 date: '2020-05-04'
-draft: true
+draft: false
 episodeNumber: 787
 rssGuid: 75f0312e-6530-42ba-9b80-2dadef4d22e4
 audioUrl: >-

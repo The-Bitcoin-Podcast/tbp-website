@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #243: Taylor Monahan & Ray Redacted'
 date: '2019-02-03'
-draft: true
+draft: false
 episodeNumber: 552
 rssGuid: 49e773d8cebc4708876a41dcb5b63efc
 audioUrl: >-

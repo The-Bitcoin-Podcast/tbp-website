@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #263'
 date: '2019-06-24'
-draft: true
+draft: false
 episodeNumber: 646
 rssGuid: d7291d4e-ea30-480e-8ead-4dc92be74a8d
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'Flashback: The Bitcoin Podcast #46- The Fundamental Conflict'
 date: '2022-02-08'
-draft: true
+draft: false
 episodeNumber: 912
 rssGuid: 97628d09-a887-4e85-9725-99a121647364
 audioUrl: >-

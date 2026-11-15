@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #289-Jamie Bartlett-The Missing Crypto Queen'
 date: '2019-12-30'
-draft: true
+draft: false
 episodeNumber: 730
 rssGuid: 9c9662e8-8800-41f2-9dbb-b61d8ee456d1
 audioUrl: >-

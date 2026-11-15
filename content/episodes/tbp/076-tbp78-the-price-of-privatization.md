@@ -1,7 +1,7 @@
 ---
 title: TBP78 - The Price of Privatization
 date: '2016-08-07'
-draft: true
+draft: false
 episodeNumber: 76
 rssGuid: fea7305dc9dd66e2341548ad14bc4645
 audioUrl: >-

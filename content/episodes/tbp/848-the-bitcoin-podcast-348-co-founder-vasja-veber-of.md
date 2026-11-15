@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #348-Co-Founder Vasja Veber Of Viberate'
 date: '2021-04-19'
-draft: true
+draft: false
 episodeNumber: 848
 rssGuid: 0ada063a-d08d-4284-a780-75db313865e8
 audioUrl: >-

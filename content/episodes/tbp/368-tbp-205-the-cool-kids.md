@@ -1,7 +1,7 @@
 ---
 title: 'TBP #205 - The Cool Kids'
 date: '2018-05-27'
-draft: true
+draft: false
 episodeNumber: 368
 rssGuid: 06352253338b4179802c514080ad9586
 audioUrl: >-

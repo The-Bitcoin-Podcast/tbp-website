@@ -1,7 +1,7 @@
 ---
 title: 'TBP #208 - Taylor Pearson'
 date: '2018-06-10'
-draft: true
+draft: false
 episodeNumber: 377
 rssGuid: b0a6cc1f9e4f4d43af2f6d50b52748f7
 audioUrl: >-

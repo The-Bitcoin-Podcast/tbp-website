@@ -1,7 +1,7 @@
 ---
 title: TBP153 - Bitcoin Sell Out
 date: '2017-09-17'
-draft: true
+draft: false
 episodeNumber: 218
 rssGuid: 08d8057437cfe192be3bde673843f569
 audioUrl: >-

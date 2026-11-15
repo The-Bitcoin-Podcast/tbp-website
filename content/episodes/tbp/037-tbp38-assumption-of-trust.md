@@ -1,7 +1,7 @@
 ---
 title: TBP38 - Assumption of Trust
 date: '2016-02-04'
-draft: true
+draft: false
 episodeNumber: 37
 rssGuid: 1f4a431c60aac628015fd1f62e48fb5c
 audioUrl: >-

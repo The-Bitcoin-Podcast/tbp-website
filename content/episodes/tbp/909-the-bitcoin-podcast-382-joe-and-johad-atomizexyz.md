@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #382- Joe and Johad Atomize.xyz'
 date: '2022-01-31'
-draft: true
+draft: false
 episodeNumber: 909
 rssGuid: f19ca577-cca5-411d-a0da-204051a0b918
 audioUrl: >-

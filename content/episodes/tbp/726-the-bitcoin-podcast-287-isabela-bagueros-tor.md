@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #287- Isabela Bagueros-Tor Project'
 date: '2019-12-16'
-draft: true
+draft: false
 episodeNumber: 726
 rssGuid: 8e0d77d2-96e7-459c-b8b5-9d1f39f4ed7e
 audioUrl: >-

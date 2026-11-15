@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #386- War What Is It Good For ?'
 date: '2022-03-07'
-draft: true
+draft: false
 episodeNumber: 922
 rssGuid: 247406ae-4bc4-4f88-aca8-1204a7e290ef
 audioUrl: >-

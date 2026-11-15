@@ -1,7 +1,7 @@
 ---
 title: 'Roundtable #342- Origin Story'
 date: 2021-03-06T00:00:00.000Z
-draft: true
+draft: false
 episodeNumber: 342
 youtubeId: YMPbA_SewOU
 thumbnail: 'https://i.ytimg.com/vi/YMPbA_SewOU/maxresdefault.jpg'

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #244'
 date: '2019-02-10'
-draft: true
+draft: false
 episodeNumber: 558
 rssGuid: 7167fba9d7b4490da8e4b3b0fd7eabb3
 audioUrl: >-

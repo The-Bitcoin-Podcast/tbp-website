@@ -1,7 +1,7 @@
 ---
 title: TBP57 - Future of a Shared Economy
 date: '2016-05-03'
-draft: true
+draft: false
 episodeNumber: 56
 rssGuid: aa8a185fea62432997aa28bef1f90f92
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP103 - A Jack of All Trades
 date: '2016-12-04'
-draft: true
+draft: false
 episodeNumber: 103
 rssGuid: dcf57346ee7afd0331931f43591f7029
 audioUrl: >-

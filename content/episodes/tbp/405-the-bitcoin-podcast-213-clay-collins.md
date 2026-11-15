@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #213: Clay Collins'
 date: '2018-07-15'
-draft: true
+draft: false
 episodeNumber: 405
 rssGuid: b21152967fea425697a70be6376b3383
 audioUrl: >-

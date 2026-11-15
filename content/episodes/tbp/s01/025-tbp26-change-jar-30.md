@@ -1,7 +1,7 @@
 ---
 title: TBP26 - Change Jar 3.0
 date: '2015-11-16'
-draft: true
+draft: false
 episodeNumber: 25
 rssGuid: cc9cd6e6b1839fe73ffd07407f9c1edd
 audioUrl: >-

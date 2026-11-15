@@ -1,7 +1,7 @@
 ---
 title: TBP194 - Edge Security
 date: '2018-04-01'
-draft: true
+draft: false
 episodeNumber: 334
 rssGuid: bd2a5d0af23db583fcd9d2fcc0c8cb6a
 audioUrl: >-

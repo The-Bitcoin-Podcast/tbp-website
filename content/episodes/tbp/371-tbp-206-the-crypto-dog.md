@@ -1,7 +1,7 @@
 ---
 title: 'TBP #206 - The Crypto Dog'
 date: '2018-05-31'
-draft: true
+draft: false
 episodeNumber: 371
 rssGuid: 007e84d4fe694fd3a5f131d19b246cb1
 audioUrl: >-

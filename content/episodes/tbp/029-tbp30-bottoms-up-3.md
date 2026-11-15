@@ -1,7 +1,7 @@
 ---
 title: TBP30 - Bottoms Up 3
 date: '2015-12-14'
-draft: true
+draft: false
 episodeNumber: 29
 rssGuid: 7ed3630750527c466689ab449c2e1da6
 audioUrl: >-

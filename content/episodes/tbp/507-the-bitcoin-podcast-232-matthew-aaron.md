@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #232: Matthew Aaron'
 date: '2018-11-18'
-draft: true
+draft: false
 episodeNumber: 507
 rssGuid: c5ef3acaa88c43ffa16fbebe163bcdb0
 audioUrl: >-

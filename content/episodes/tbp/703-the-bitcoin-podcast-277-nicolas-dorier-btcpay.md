@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #277 - Nicolas Dorier - BTCPay Server'
 date: '2019-10-10'
-draft: true
+draft: false
 episodeNumber: 703
 rssGuid: 356a2b0b-cf2b-4ff5-86ad-a7e28e7f4a08
 audioUrl: >-

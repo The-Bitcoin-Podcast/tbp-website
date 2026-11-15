@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #254: Eric Conner'
 date: '2019-04-23'
-draft: true
+draft: false
 episodeNumber: 605
 rssGuid: 9b88d047-641a-489c-9497-e89ffe22c275
 audioUrl: >-

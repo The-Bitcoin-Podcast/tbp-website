@@ -1,7 +1,7 @@
 ---
 title: 'HIO Panels #2 - Scaling Ethereum - Nick Johnson and Kevin Sekniqi'
 date: '2019-10-24'
-draft: true
+draft: false
 episodeNumber: 710
 rssGuid: b094df19-bd99-4a6a-83c5-f2e262749fd5
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP32 - The Marketing Blueprint
 date: '2015-12-28'
-draft: true
+draft: false
 episodeNumber: 31
 rssGuid: befcb399f66f1ecce4716f357e0bda82
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #314- Corey and Dee Just The Two Of Us'
 date: '2020-07-13'
-draft: true
+draft: false
 episodeNumber: 803
 rssGuid: e00be6dd-9d5d-496c-93f1-db8a90db317f
 audioUrl: >-

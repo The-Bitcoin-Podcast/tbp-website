@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #323- Patrick Stanley Freehold'
 date: '2020-10-05'
-draft: true
+draft: false
 episodeNumber: 818
 rssGuid: f78175b0-f460-45ea-8f21-6437e0334020
 audioUrl: >-

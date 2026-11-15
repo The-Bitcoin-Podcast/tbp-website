@@ -1,7 +1,7 @@
 ---
 title: TBP75 - Attention Economy
 date: '2016-07-24'
-draft: true
+draft: false
 episodeNumber: 73
 rssGuid: 249a3432162b95f4e943a70bf416754d
 audioUrl: >-

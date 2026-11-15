@@ -1,7 +1,7 @@
 ---
 title: TBP42 - True Micropayments
 date: '2016-02-22'
-draft: true
+draft: false
 episodeNumber: 41
 rssGuid: 0a73e10954b1dcd22415d26c7a276fd5
 audioUrl: >-

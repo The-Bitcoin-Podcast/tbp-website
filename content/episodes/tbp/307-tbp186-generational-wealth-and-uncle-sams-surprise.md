@@ -1,7 +1,7 @@
 ---
 title: TBP186 - Generational Wealth and Uncle Sam's Surprise
 date: '2018-02-22'
-draft: true
+draft: false
 episodeNumber: 307
 rssGuid: 355d489afe2df1d9c47325b3ea3dd34f
 audioUrl: >-

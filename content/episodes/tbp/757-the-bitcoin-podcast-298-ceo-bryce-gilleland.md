@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #298- CEO Bryce Gilleland Coincident Capital'
 date: '2020-03-02'
-draft: true
+draft: false
 episodeNumber: 757
 rssGuid: b337e9b2-5e02-4bf3-8f24-a83de0fe09b2
 audioUrl: >-

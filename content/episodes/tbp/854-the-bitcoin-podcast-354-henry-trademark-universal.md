@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #354- Henry Trademark Universal Stone'
 date: '2021-05-31'
-draft: true
+draft: false
 episodeNumber: 854
 rssGuid: 59d5fb35-1d16-4a7d-a3bd-3fd0020f14eb
 audioUrl: >-

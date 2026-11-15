@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #304-Camila Russo The Defiant Newsletter'
 date: '2020-04-13'
-draft: true
+draft: false
 episodeNumber: 779
 rssGuid: 9779b18d-3e6a-4f5f-aac5-9b40941f9cf4
 audioUrl: >-

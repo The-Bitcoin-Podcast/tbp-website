@@ -1,7 +1,7 @@
 ---
 title: TBP88 - Bitcoin Bike-Shed
 date: '2016-09-22'
-draft: true
+draft: false
 episodeNumber: 85
 rssGuid: 477ab8deffc8ccc5659d061225b4d569
 audioUrl: >-

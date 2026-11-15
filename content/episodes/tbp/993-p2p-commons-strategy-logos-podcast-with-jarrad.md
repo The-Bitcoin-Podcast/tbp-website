@@ -1,7 +1,7 @@
 ---
 title: P2P & Commons Strategy | Logos Podcast with Jarrad Hope
 date: '2024-03-27'
-draft: true
+draft: false
 episodeNumber: 993
 rssGuid: d320e471-ed51-4006-a0c5-d1d9b2ac461a
 audioUrl: >-

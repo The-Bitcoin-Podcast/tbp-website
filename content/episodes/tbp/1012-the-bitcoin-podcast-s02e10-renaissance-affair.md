@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast - S02E10: Renaissance Affair'
 date: '2025-11-25'
-draft: true
+draft: false
 episodeNumber: 1012
 rssGuid: e5e60e23-d6d4-4610-a964-46e50b84a00f
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #303-Dee and Corey- The Answer Is [Insert Here]'
 date: '2020-04-06'
-draft: true
+draft: false
 episodeNumber: 776
 rssGuid: 2145ea57-f2ab-4fee-a7df-3e8d70ae8089
 audioUrl: >-

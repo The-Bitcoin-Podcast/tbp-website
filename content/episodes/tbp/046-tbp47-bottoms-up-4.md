@@ -1,7 +1,7 @@
 ---
 title: TBP47 - Bottoms Up 4
 date: '2016-03-21'
-draft: true
+draft: false
 episodeNumber: 46
 rssGuid: d320c0d300427cd7581e2cd0575596aa
 audioUrl: >-

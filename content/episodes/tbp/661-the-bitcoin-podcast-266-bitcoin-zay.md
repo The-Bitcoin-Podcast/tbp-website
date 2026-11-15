@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #266: Bitcoin Zay'
 date: '2019-07-22'
-draft: true
+draft: false
 episodeNumber: 661
 rssGuid: 92c5b72f-5208-41fc-9e4a-20f98ad283b0
 audioUrl: >-

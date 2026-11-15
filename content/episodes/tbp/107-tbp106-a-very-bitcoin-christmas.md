@@ -1,7 +1,7 @@
 ---
 title: TBP106 - A Very Bitcoin Christmas
 date: '2016-12-25'
-draft: true
+draft: false
 episodeNumber: 107
 rssGuid: 0c7803a08dec4fdddae96db12386ae08
 audioUrl: >-

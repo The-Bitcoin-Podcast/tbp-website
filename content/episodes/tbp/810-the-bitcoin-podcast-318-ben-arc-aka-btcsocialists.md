@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #318-Ben Arc aka BTCSocialists'
 date: '2020-08-24'
-draft: true
+draft: false
 episodeNumber: 810
 rssGuid: adc256a5-be2d-4766-88d4-bb3af5126245
 audioUrl: >-

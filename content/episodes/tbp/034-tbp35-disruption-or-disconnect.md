@@ -1,7 +1,7 @@
 ---
 title: TBP35 - Disruption or Disconnect
 date: '2016-01-17'
-draft: true
+draft: false
 episodeNumber: 34
 rssGuid: 7b6e2b07d7da70653dd8a9a3078d306c
 audioUrl: >-

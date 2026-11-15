@@ -1,7 +1,7 @@
 ---
 title: 'Flashback: The Bitcoin Podcast #68: Deconstructing theDAO Attack'
 date: '2022-03-01'
-draft: true
+draft: false
 episodeNumber: 920
 rssGuid: 18fa6e88-2831-4713-8c17-15ec40f104a2
 audioUrl: >-

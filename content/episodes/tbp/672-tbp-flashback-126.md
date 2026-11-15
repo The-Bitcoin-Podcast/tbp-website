@@ -1,7 +1,7 @@
 ---
 title: 'TBP Flashback #126'
 date: '2019-08-10'
-draft: true
+draft: false
 episodeNumber: 672
 rssGuid: f66c1a1f-ee6a-4994-8039-e94588cbd98f
 audioUrl: >-

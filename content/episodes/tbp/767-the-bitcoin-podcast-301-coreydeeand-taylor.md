@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #301 Corey,Dee,and Taylor Netflix and Work'
 date: '2020-03-23'
-draft: true
+draft: false
 episodeNumber: 767
 rssGuid: 078ac7cc-3534-43eb-a6e9-4c52a8bd2434
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP91 - Exosphere Academy II
 date: '2016-10-02'
-draft: true
+draft: false
 episodeNumber: 88
 rssGuid: 33ec86b92c012d3c4763dcbbe82c7dd7
 audioUrl: >-

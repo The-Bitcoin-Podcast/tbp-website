@@ -1,7 +1,7 @@
 ---
 title: 'TBP107 - Like Father, Like Son'
 date: '2017-01-01'
-draft: true
+draft: false
 episodeNumber: 108
 rssGuid: ea2e9cae60ce99fd10ec03eadd900e17
 audioUrl: >-

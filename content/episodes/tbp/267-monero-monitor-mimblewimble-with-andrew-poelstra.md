@@ -1,7 +1,7 @@
 ---
 title: 'Monero Monitor: Mimblewimble with Andrew Poelstra'
 date: '2017-12-11'
-draft: true
+draft: false
 episodeNumber: 267
 rssGuid: 4ebfbd25a624710cd7a177dd100b127b
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP178 - Paving the Road to Self-Sovereign Identity
 date: '2018-01-14'
-draft: true
+draft: false
 episodeNumber: 282
 rssGuid: b20441828e90215b57a993e1ffa31ec6
 audioUrl: >-

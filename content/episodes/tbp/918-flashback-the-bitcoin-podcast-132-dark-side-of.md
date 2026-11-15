@@ -1,7 +1,7 @@
 ---
 title: 'Flashback: The Bitcoin Podcast #132- Dark Side of the Prism'
 date: '2022-02-22'
-draft: true
+draft: false
 episodeNumber: 918
 rssGuid: f0ccdeee-85d1-4d52-af06-20b122a2b849
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #250'
 date: '2019-03-24'
-draft: true
+draft: false
 episodeNumber: 586
 rssGuid: 2ed97d9c-79a4-45aa-8b22-8ec2d926fcce
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'Does of Ether #19: Light Clients'
 date: '2019-06-01'
-draft: true
+draft: false
 episodeNumber: 632
 rssGuid: 61b2e215-52dc-4644-831b-e6fe41467f5d
 audioUrl: >-

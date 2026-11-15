@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #299-Corey, Dee, and Ray From Paris with COVID-19'
 date: '2020-03-09'
-draft: true
+draft: false
 episodeNumber: 760
 rssGuid: a5c0d462-9019-4f08-8098-b0b73daa443e
 audioUrl: >-

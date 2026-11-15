@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #255'
 date: '2019-04-30'
-draft: true
+draft: false
 episodeNumber: 610
 rssGuid: fa9ceee0-caf4-4fa7-a743-a3e9cfe9fde2
 audioUrl: >-

@@ -3,7 +3,7 @@ title: >-
   The Bitcoin Podcast Show #302- CTO Dávid Molnár and Lucas Ontivero Wasabi
   Wallet
 date: '2020-03-30'
-draft: true
+draft: false
 episodeNumber: 771
 rssGuid: 0e19e1ed-44b2-4089-833f-c880f086a0ac
 audioUrl: >-

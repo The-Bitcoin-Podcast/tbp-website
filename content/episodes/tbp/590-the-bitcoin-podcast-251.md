@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #251'
 date: '2019-03-31'
-draft: true
+draft: false
 episodeNumber: 590
 rssGuid: 08acefbf-2e9b-42d4-9040-844ecf337626
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #270:Bit Block Boom and Coinbase Custody'
 date: '2019-08-20'
-draft: true
+draft: false
 episodeNumber: 679
 rssGuid: 1572515e-4782-44ab-b760-d5270f15da96
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #228: Rene Pickhardt'
 date: '2018-10-21'
-draft: true
+draft: false
 episodeNumber: 488
 rssGuid: 333eb7ffa6ac4b7e9304a5618a8fb280
 audioUrl: >-

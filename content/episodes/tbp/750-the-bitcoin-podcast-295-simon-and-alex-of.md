@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #295-Simon and Alex of Liquality /Consensys'
 date: '2020-02-10'
-draft: true
+draft: false
 episodeNumber: 750
 rssGuid: bf1c8c27-f9bf-442e-88bd-125dcc609562
 audioUrl: >-

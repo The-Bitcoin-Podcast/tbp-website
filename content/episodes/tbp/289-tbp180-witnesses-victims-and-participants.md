@@ -1,7 +1,7 @@
 ---
 title: 'TBP180 - Witnesses, Victims and Participants'
 date: '2018-01-24'
-draft: true
+draft: false
 episodeNumber: 289
 rssGuid: fffb97edc1853735eb10b38204b47d58
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP191 - Beards and Blockchains
 date: '2018-03-18'
-draft: true
+draft: false
 episodeNumber: 324
 rssGuid: f0f6b3bce7ecaea314e355e95e1d1cb7
 audioUrl: >-

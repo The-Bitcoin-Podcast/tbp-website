@@ -1,7 +1,7 @@
 ---
 title: 'Devcon3: Recap Part 2'
 date: '2017-11-05'
-draft: true
+draft: false
 episodeNumber: 249
 rssGuid: 520b529121ccf54bbaf421c39830e98e
 audioUrl: >-

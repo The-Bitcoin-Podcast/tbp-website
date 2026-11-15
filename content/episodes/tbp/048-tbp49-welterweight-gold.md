@@ -1,7 +1,7 @@
 ---
 title: TBP49 - Welterweight Gold
 date: '2016-03-31'
-draft: true
+draft: false
 episodeNumber: 48
 rssGuid: 9891e7957b28bd818610d9cd6b3347c5
 audioUrl: >-

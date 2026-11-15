@@ -1,7 +1,7 @@
 ---
 title: TBP184 - MyCrypto and the Current State of the Network
 date: '2018-02-11'
-draft: true
+draft: false
 episodeNumber: 304
 rssGuid: 788d72d7861e4d25086fadb7afa56547
 audioUrl: >-

@@ -1,7 +1,7 @@
 ---
 title: TBP37 - Bitcoining with The BasedGod
 date: '2016-01-31'
-draft: true
+draft: false
 episodeNumber: 36
 rssGuid: 27ed9588cf43a01eeab5d608d088f3c1
 audioUrl: >-

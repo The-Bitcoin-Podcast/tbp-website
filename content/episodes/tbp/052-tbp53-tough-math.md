@@ -1,7 +1,7 @@
 ---
 title: TBP53 - Tough Math
 date: '2016-04-18'
-draft: true
+draft: false
 episodeNumber: 52
 rssGuid: 63191c7e188ed2a20f162f5f0ea74114
 audioUrl: >-

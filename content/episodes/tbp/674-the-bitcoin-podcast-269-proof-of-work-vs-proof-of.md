@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #269: Proof of Work vs. Proof of Stake'
 date: '2019-08-14'
-draft: true
+draft: false
 episodeNumber: 674
 rssGuid: 5037ebd5-7f12-4ccf-bebf-698b9fa33d66
 audioUrl: >-

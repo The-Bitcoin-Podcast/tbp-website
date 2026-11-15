@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #391-Reggie Middleton of Vertaseum'
 date: '2022-05-23'
-draft: true
+draft: false
 episodeNumber: 935
 rssGuid: 9e6585aa-bbc7-41d8-b793-010f441bf433
 audioUrl: >-

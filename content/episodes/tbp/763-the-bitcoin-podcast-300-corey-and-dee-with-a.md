@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #300- Corey and Dee With A Message: Wash Your Hands'
 date: '2020-03-16'
-draft: true
+draft: false
 episodeNumber: 763
 rssGuid: cd5bdcf6-b47a-474b-97cc-5cd140fbc260
 audioUrl: >-

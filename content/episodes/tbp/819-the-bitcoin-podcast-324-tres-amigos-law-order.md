@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #324- Tres Amigos Law & Order'
 date: '2020-10-12'
-draft: true
+draft: false
 episodeNumber: 819
 rssGuid: 058c8d23-fe57-4ccd-86e7-f893f8a08a5b
 audioUrl: >-

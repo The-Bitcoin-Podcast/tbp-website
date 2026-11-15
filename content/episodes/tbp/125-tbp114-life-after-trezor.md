@@ -1,7 +1,7 @@
 ---
 title: TBP114 - Life After Trezor
 date: '2017-02-12'
-draft: true
+draft: false
 episodeNumber: 125
 rssGuid: 8c5c4d37eae5ee5a432667c547e22289
 audioUrl: >-

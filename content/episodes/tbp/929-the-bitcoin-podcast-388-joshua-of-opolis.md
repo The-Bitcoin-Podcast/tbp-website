@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #388- Joshua of Opolis'
 date: '2022-04-04'
-draft: true
+draft: false
 episodeNumber: 929
 rssGuid: 3352652f-bcef-498b-bc88-76476f02f174
 audioUrl: >-

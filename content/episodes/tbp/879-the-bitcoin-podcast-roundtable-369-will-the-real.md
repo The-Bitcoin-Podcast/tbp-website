@@ -3,7 +3,7 @@ title: >-
   The Bitcoin Podcast Roundtable #369- Will The Real Stable Coin Please Show Up
   ?
 date: '2021-09-27'
-draft: true
+draft: false
 episodeNumber: 879
 rssGuid: cce986ee-2f15-46b2-94bb-51461f0a6e5e
 audioUrl: >-

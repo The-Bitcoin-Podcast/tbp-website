@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #312-Emin Gün Sirer CEO of AVA LABS'
 date: '2020-06-08'
-draft: true
+draft: false
 episodeNumber: 798
 rssGuid: 366ee9be-4556-4a61-9541-50065d24c4e8
 audioUrl: >-

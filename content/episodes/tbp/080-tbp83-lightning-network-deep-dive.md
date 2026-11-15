@@ -1,7 +1,7 @@
 ---
 title: TBP83 - Lightning Network Deep Dive
 date: '2016-09-01'
-draft: true
+draft: false
 episodeNumber: 80
 rssGuid: 036e8f11da42fb591e8f2e255ef200a6
 audioUrl: >-

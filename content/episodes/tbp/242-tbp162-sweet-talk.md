@@ -1,7 +1,7 @@
 ---
 title: TBP162 - Sweet Talk
 date: '2017-10-26'
-draft: true
+draft: false
 episodeNumber: 242
 rssGuid: c9e86e30de2f59d42d4f24942e8b7180
 audioUrl: >-

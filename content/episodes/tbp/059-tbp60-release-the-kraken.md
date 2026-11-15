@@ -1,7 +1,7 @@
 ---
 title: TBP60 - Release the Kraken
 date: '2016-05-23'
-draft: true
+draft: false
 episodeNumber: 59
 rssGuid: aa559fcb7317b83aeb538c6a4eb34b08
 audioUrl: >-

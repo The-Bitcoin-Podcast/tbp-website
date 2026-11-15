@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #305- Henry Bitmod Crypto In Nigeria'
 date: '2020-04-20'
-draft: true
+draft: false
 episodeNumber: 781
 rssGuid: 7ecd5453-65bb-4ef7-9722-8979298be138
 audioUrl: >-

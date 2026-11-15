@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #220: Andrew Yang'
 date: '2018-08-26'
-draft: true
+draft: false
 episodeNumber: 439
 rssGuid: 7309240943944c99a6f2558db2936c20
 audioUrl: >-

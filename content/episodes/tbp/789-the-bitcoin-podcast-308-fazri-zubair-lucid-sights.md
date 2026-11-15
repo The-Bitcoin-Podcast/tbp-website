@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #308- Fazri Zubair Lucid Sights'
 date: '2020-05-10'
-draft: true
+draft: false
 episodeNumber: 789
 rssGuid: 1d311d6b-aec5-48e2-8eaf-e5f545090073
 audioUrl: >-

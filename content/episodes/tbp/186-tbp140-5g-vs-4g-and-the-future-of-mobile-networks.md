@@ -1,7 +1,7 @@
 ---
 title: TBP140 - 5G vs 4G and the Future of Mobile Networks
 date: '2017-07-23'
-draft: true
+draft: false
 episodeNumber: 186
 rssGuid: 885ee995de1724c17d97159be993e0be
 audioUrl: >-

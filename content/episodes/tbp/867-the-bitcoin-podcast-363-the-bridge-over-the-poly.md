@@ -1,7 +1,7 @@
 ---
 title: 'The Bitcoin Podcast #363-The Bridge Over The Poly Network'
 date: '2021-08-16'
-draft: true
+draft: false
 episodeNumber: 867
 rssGuid: ed4d9021-fa98-42ce-b718-1db1e0eac159
 audioUrl: >-
