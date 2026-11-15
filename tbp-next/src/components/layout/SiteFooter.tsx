@@ -18,7 +18,7 @@ export function SiteFooter() {
   return (
     <footer className="bg-background">
       <div className="mx-auto flex max-w-[1160px] flex-wrap items-center justify-between gap-4 px-6 pb-10 pt-7 text-[13px] text-muted sm:px-8">
-        <span>&copy; {new Date().getFullYear()} The Bitcoin Podcast Network</span>
+        <span>&copy; 2015 The Bitcoin Podcast Network</span>
         <nav className="flex flex-wrap gap-x-6 gap-y-2">
           {siteLinks.map((link) => (
             <Link key={link.href} href={link.href} className={linkClass}>
