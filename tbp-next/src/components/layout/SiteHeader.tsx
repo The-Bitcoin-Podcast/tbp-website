@@ -21,9 +21,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-[1160px] items-center justify-between gap-4 px-6 py-4 sm:px-8">
         <Link href="/" className="flex items-center gap-3 font-display text-lg font-extrabold">
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-brand">
-            B
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element -- static export, no image optimizer */}
+          <img src="/tbp-logo.png" alt="" width={40} height={40} className="h-10 w-10" />
           The Bitcoin Podcast
         </Link>
 
