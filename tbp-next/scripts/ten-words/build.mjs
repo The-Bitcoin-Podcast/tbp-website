@@ -156,6 +156,82 @@ for (const answer of answers) {
   });
 }
 
+// ─── Re-published interviews ─────────────────────────────────────────────────
+// Many interviews went out more than once: "Interview #344" and "The Bitcoin
+// Podcast #344" on the same day, or a "Flashback" re-release years later. Each
+// copy was transcribed on its own, so the same answer reads slightly
+// differently and an exact-text match misses it. Short answers are no help
+// either: plenty of different guests said "Bitcoin is money for the internet".
+// What does give a copy away is the conversation leading up to the question,
+// so compare the 90 seconds before each answer, as overlapping three-word runs.
+// Real copies score 0.5 to 1.0; different interviews stay under about 0.12.
+const SAME_INTERVIEW = 0.3;
+const CONTEXT_BEFORE = 90;
+
+function trigrams(moment) {
+  const words = transcript(moment.slug)
+    .segments.filter(([start]) => start >= moment.start - CONTEXT_BEFORE && start <= moment.end)
+    .map(([, text]) => text)
+    .join(" ")
+    .toLowerCase()
+    .replace(/[^a-z0-9' ]+/g, " ")
+    .split(/\s+/)
+    .filter(Boolean);
+  const grams = new Set();
+  for (let i = 0; i + 2 < words.length; i++) grams.add(`${words[i]} ${words[i + 1]} ${words[i + 2]}`);
+  return grams;
+}
+
+function overlap(a, b) {
+  let shared = 0;
+  for (const gram of a) if (b.has(gram)) shared++;
+  return shared / Math.max(1, Math.min(a.size, b.size));
+}
+
+/** Which copy of an interview to keep: playable audio, then the original airing, then the full episode over an "Interview #" cut. */
+function preference(m) {
+  return [m.audioUrl ? 0 : 1, m.date, /^\s*inte?r?view\b/i.test(m.episode) ? 1 : 0, m.slug];
+}
+function prefer(a, b) {
+  const [pa, pb] = [preference(a), preference(b)];
+  for (let i = 0; i < pa.length; i++) {
+    if (pa[i] < pb[i]) return -1;
+    if (pa[i] > pb[i]) return 1;
+  }
+  return 0;
+}
+
+const grams = moments.map(trigrams);
+// Copies can chain (original, "Interview #", "Flashback"), so join matching
+// answers into groups. When co-guests answer back to back, both of their
+// answers share the same lead-up and land in one group; keeping every answer
+// from the preferred episode in the group keeps both guests, once each.
+const parent = moments.map((_, i) => i);
+const find = (i) => (parent[i] === i ? i : (parent[i] = find(parent[i])));
+for (let i = 0; i < moments.length; i++) {
+  for (let j = i + 1; j < moments.length; j++) {
+    const [a, b] = [moments[i], moments[j]];
+    if (a.question !== b.question || a.slug === b.slug) continue;
+    if (overlap(grams[i], grams[j]) >= SAME_INTERVIEW) parent[find(j)] = find(i);
+  }
+}
+/** The preferred answer in each group; its episode is the copy that is kept. */
+const keeper = new Map();
+moments.forEach((m, i) => {
+  const root = find(i);
+  const current = keeper.get(root);
+  if (!current || prefer(m, current) < 0) keeper.set(root, m);
+});
+const removed = [];
+const unique = moments.filter((m, i) => {
+  const kept = keeper.get(find(i));
+  if (m.slug === kept.slug) return true;
+  removed.push(`${m.answeredBy || "Guest"} (${m.question}) in "${m.episode}", kept "${kept.episode}"`);
+  return false;
+});
+moments.length = 0;
+moments.push(...unique);
+
 moments.sort((a, b) => a.date.localeCompare(b.date) || a.start - b.start);
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, JSON.stringify(moments));
@@ -163,4 +239,5 @@ fs.writeFileSync(OUT, JSON.stringify(moments));
 const byQuestion = {};
 for (const m of moments) byQuestion[m.question] = (byQuestion[m.question] ?? 0) + 1;
 console.log(`${moments.length} moments`, byQuestion, `-> ${path.relative(ROOT, OUT)}`);
+if (removed.length) console.log(`${removed.length} re-published copies removed:\n  ${removed.join("\n  ")}`);
 if (problems.length) console.warn(`${problems.length} skipped:\n  ${problems.join("\n  ")}`);
