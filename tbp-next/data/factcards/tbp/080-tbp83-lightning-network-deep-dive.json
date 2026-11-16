@@ -1,0 +1,487 @@
+{
+ "episode_summary": "TBP83 (September 2016) explores the Lightning Network with guest Olaoluwa Osuntokun (Roast Beef), who covers the layered design, payment channels, onion-routed payments, the draft specification, his Go implementation and throughput tests, cross-chain use, and the time-lock and usability challenges. Steven Mackie (Yours) and Valerian Bennett (PopChest) describe how Lightning micropayments would fit their content platforms.",
+ "guests": [
+  "Olaoluwa Osuntokun",
+  "Steven Mackie",
+  "Valerian Bennett"
+ ],
+ "topics": [
+  "lightning",
+  "payment-channels",
+  "micropayments",
+  "specification",
+  "cross-chain",
+  "yours",
+  "popchest",
+  "user-experience"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In September 2016 Olaoluwa Osuntokun said several teams were building Lightning, including Rusty and Christian Decker at Blockstream.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 731.0,
+   "quote": "There's several teams working on Lightning currently. There's Rusty and Christian Decker at Blockstream.",
+   "tags": [
+    "lightning",
+    "blockstream",
+    "development"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2016 Osuntokun said the Lightning specification would probably have an initial V1 out pretty soon.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 807.1,
+   "quote": "And that's what we're doing on the specification realm. We'll probably have initial V1 out pretty soon.",
+   "tags": [
+    "lightning",
+    "specification",
+    "bolts"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2016 Osuntokun said his Lightning implementation could open and close channels and send single-hop payments quickly.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 832.3,
+   "quote": "And where our implementation is currently is, you can open and close channels. You can do single-hot payments pretty quickly.",
+   "tags": [
+    "lightning",
+    "implementation",
+    "channels"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2016 Osuntokun reported a re-recorded Lightning demo between two DigitalOcean nodes that ran 1,000 HTLCs a second.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 884.3,
+   "quote": "I found it basically just a full blast test. I got to run 1,000 HTLCs a second,",
+   "tags": [
+    "lightning",
+    "throughput",
+    "htlc",
+    "benchmarks"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun explained that in Lightning's onion-routed payments each hop learns only the previous and next destination, not the source or final recipient.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 781.1,
+   "quote": "So each person within the route only learns basically the previous and the next destination, and they don't learn the source or the ultimate destination.",
+   "tags": [
+    "lightning",
+    "onion-routing",
+    "privacy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun described Lightning as layered, with Bitcoin as the base layer and bidirectional payment channels as the second layer.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1020.6,
+   "quote": "Then the second layer is basically the payment channels, the bidirectional payment channels.",
+   "tags": [
+    "lightning",
+    "layers",
+    "payment-channels"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun compared Lightning's bonded channels to proof-of-stake, where smart contracts make cheaters lose their funds.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1086.0,
+   "quote": "in this you have a similar bonding system and you set up a series of smart contracts such that you will lose your bond if you try to violate the contract.",
+   "tags": [
+    "lightning",
+    "proof-of-stake",
+    "smart-contracts"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2016 Osuntokun said Lightning throughput could scale linearly with the number of nodes and channels.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1140.7,
+   "quote": "It can essentially scale linearly as the number of nodes and the number of increases.",
+   "tags": [
+    "lightning",
+    "scaling",
+    "throughput"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2016 Osuntokun predicted that once the Lightning specification was published, any company or wallet provider could implement Lightning and a diverse network would follow.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1233.8,
+   "quote": "And once we get that out there, basically, anyone can implement Lightning. Any company, any wallet provider, and we'll have basically a pretty diverse network, I'm imagining.",
+   "tags": [
+    "lightning",
+    "specification",
+    "wallets",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2016 Osuntokun predicted Lightning would let altcoins such as Dogecoin and Litecoin trade by routing through Bitcoin.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1337.0,
+   "quote": "so i have like dogecoin on one side and light coin on the other side and we're trading we're actually going through bitcoin",
+   "tags": [
+    "lightning",
+    "altcoins",
+    "cross-chain",
+    "dogecoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun said the main compatibility requirement for other blockchains to join Lightning is the same hash function as Bitcoin.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1390.9,
+   "quote": "the main compatibility layer is kind of in the smart contract system of the blockchains where we basically require one of two things.",
+   "tags": [
+    "lightning",
+    "cross-chain",
+    "hash-function"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun said other blockchains joining Lightning would also need time locks such as CSV or CheckLockTimeVerify.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1417.2,
+   "quote": "And then also you need some sort of notion of time locks where you say I can't spend this Bitcoin until or whatever coin you have until either some block or some actual absolute time within the future.",
+   "tags": [
+    "lightning",
+    "timelocks",
+    "csv",
+    "cltv"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun described Lightning as a series of atomic swaps, with only the entry transaction made on-chain.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 1502.2,
+   "quote": "Well, Lightning is basically a series of atomic swaps, but completely on-chain.",
+   "tags": [
+    "lightning",
+    "atomic-swaps",
+    "sidechains"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2016 Valerian Bennett said user experience was an even bigger hurdle than the technology for PopChest's micropayments.",
+   "speaker": "Valerian Bennett",
+   "start": 1582.2,
+   "quote": "But an even bigger part, at least initially, is really just the user experience part of it.",
+   "tags": [
+    "popchest",
+    "user-experience",
+    "micropayments"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2016 Valerian Bennett said PopChest was a pay-per-view platform that would need to cut per-second costs to sub-penny levels for streaming and music.",
+   "speaker": "Valerian Bennett",
+   "start": 1607.9,
+   "quote": "So right now we're basically a pay-per-view system, but if we ever want to do streaming, if we ever want to do live streaming, if we ever want to do music",
+   "tags": [
+    "popchest",
+    "micropayments",
+    "streaming",
+    "pay-per-view"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2016 Stephen Mackie described Yours as a Reddit-like site where users submit links and content and micro-endorse posts with Lightning payments.",
+   "speaker": "Steven Mackie",
+   "start": 1771.6,
+   "quote": "So essentially what you do is you submit links and threads and content onto the site.",
+   "tags": [
+    "yours",
+    "lightning",
+    "social-media",
+    "micropayments"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2016 Stephen Mackie said Yours users would have complete control of their funds and could withdraw them at any time.",
+   "speaker": "Steven Mackie",
+   "start": 1880.0,
+   "quote": "And users have complete control of their funds at any time.",
+   "tags": [
+    "yours",
+    "private-keys",
+    "custody"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2016 Stephen Mackie described Steemit as a platform for content creation and curation where rewards depended on existing steem power and reputation.",
+   "speaker": "Steven Mackie",
+   "start": 1959.8,
+   "quote": "trying to be like a platform for content creation and curation, right? More so at this point, it seems to be curation and people writing very interesting thought pieces.",
+   "tags": [
+    "steemit",
+    "yours",
+    "content",
+    "rewards"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2016 Osuntokun said Lightning's pain points were both technical and in how the technology is presented to users.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 2344.6,
+   "quote": "Yeah, so there are pain points in the technology itself, but then also the presentation to the user.",
+   "tags": [
+    "lightning",
+    "user-experience",
+    "limitations"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun said that after a Lightning node failed, users might wait a day or two, or up to a week, to get their money back.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 2370.6,
+   "quote": "you get your money back, but you may need to wait like a day or two or, you know, or like maybe up to a week.",
+   "tags": [
+    "lightning",
+    "timelocks",
+    "user-experience",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun proposed watchers, or outsourcers, who would claim a user's funds on their behalf if the user was offline.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 2426.1,
+   "quote": "you can have basically something we'll call them like a watcher or like an outsourcer kind of help you out with that.",
+   "tags": [
+    "lightning",
+    "watchtowers",
+    "outsourcing",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2016 Osuntokun said the Bitcoin space lacked designers and UX engineers, and that wallets such as Electrum were rudimentary.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 2451.4,
+   "quote": "We don't have as many like designers and, you know, UX engineers actually in the space.",
+   "tags": [
+    "user-experience",
+    "wallets",
+    "electrum"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2016 Osuntokun said Lightning routing fees would be very low at first, perhaps zero, and rise as competition developed.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 2202.6,
+   "quote": "we expect that fee to be very, very low initially just because, you know, maybe it'll be zero at first.",
+   "tags": [
+    "lightning",
+    "fees",
+    "routing",
+    "incentives"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Osuntokun explained that Lightning uses a contestation period after an event, so a party can challenge an invalid action before the blockchain settles it.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 2585.2,
+   "quote": "what Lightning does is when an event happens, there's kind of like a contestation period where you need to wait a certain amount of time",
+   "tags": [
+    "lightning",
+    "contestation-period",
+    "miners",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2016 Stephen Mackie said channels needed someone online to close them once they had accumulated enough funds, a problem Yours wanted to solve.",
+   "speaker": "Steven Mackie",
+   "start": 2533.8,
+   "quote": "It's accumulated enough funds. Like someone needs to come online and say, hey, close this close, close this channel",
+   "tags": [
+    "yours",
+    "payment-channels",
+    "user-experience"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2016 an unnamed guest said the plan was technology people could use without knowing how the underlying system works.",
+   "speaker": "unknown",
+   "start": 2641.0,
+   "quote": "The plan is to create technology that people can use without having to know what they're doing.",
+   "tags": [
+    "user-experience",
+    "adoption",
+    "lightning"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2016 Osuntokun said he hoped users would eventually just download a Lightning app on their phone, as with early browsers.",
+   "speaker": "Olaoluwa Osuntokun",
+   "start": 2697.9,
+   "quote": "hopefully we get to that point where it's just like, you know, download the app on your phone",
+   "tags": [
+    "user-experience",
+    "adoption",
+    "wallets"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2016 Stephen Mackie said Yours users would not need to go through an exchange to get their money out.",
+   "speaker": "Steven Mackie",
+   "start": 2012.6,
+   "quote": "you don't have to go through an exchange to get your money out",
+   "tags": [
+    "yours",
+    "exchanges",
+    "custody"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2016 an unnamed host said Bitcoin's technical innovation in cryptography came from problems Bitcoin itself offered to solve.",
+   "speaker": "unknown",
+   "start": 3644.7,
+   "quote": "A lot of the world's first so far in innovations in cryptography that no one has really given a lot of thought to have come to being because they needed to solve a problem that Bitcoin offered.",
+   "tags": [
+    "cryptography",
+    "innovation",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2016 a host said academics were increasingly engaging with Bitcoin, with top conferences starting to accept papers on it.",
+   "speaker": "unknown",
+   "start": 3672.0,
+   "quote": "and then also increasingly more so now, academics are starting to become more involved in Bitcoin.",
+   "tags": [
+    "academia",
+    "research",
+    "conferences"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/080-tbp83-lightning-network-deep-dive",
+ "title": "TBP83 - Lightning Network Deep Dive",
+ "date": "2016-09-01",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982596/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213541-44100-2-2afada181e5940dd.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

@@ -1,0 +1,473 @@
+{
+ "episode_summary": "Bitcoin Podcast episode 274, recorded in September 2019, a DAO discussion with guest Lucian, host of Dose of Ether. The hosts recall the original DAO hack and the 'code is law' mindset that left it without fail-safes. They then debate DAO governance, low voter turnout, DAOs linked to legal entities (the first limited liability DAO in Vermont), crowdfunding and ICO-era parallels, and Status's planned liquid funding framework. The episode closes with a Bitcoin versus Ethereum discussion about money, speed and competition, plus a note on the Moloch DAO.",
+ "guests": [
+  "Lucian"
+ ],
+ "topics": [
+  "dao",
+  "ethereum",
+  "ico",
+  "governance",
+  "legal-wrapper",
+  "status-network",
+  "bitcoin-fees"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host said the original DAO carried strong 'code is law' branding, which became a major lesson learned from the DAO hack.",
+   "speaker": "unknown",
+   "start": 509.0,
+   "quote": "And it had this really, really strong branding at the time, which is code is law, right?",
+   "tags": [
+    "dao",
+    "code-is-law",
+    "lessons"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2019 a host called the original DAO's decision to allow no human interaction or fail-safes a really dumb move for Ethereum at that time.",
+   "speaker": "unknown",
+   "start": 562.9,
+   "quote": "they didn't allow any human interaction, no fail safes, no trap doors. And at that time in Ethereum, I'd call that a really dumb move.",
+   "tags": [
+    "dao",
+    "fail-safes",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host said the number one metric for a secure smart contract is how much it has been used, how long it has been deployed and how much money it holds.",
+   "speaker": "unknown",
+   "start": 641.6,
+   "quote": "I would say the number one metric for a secure smart contract is how much it's been used, for how long it's been deployed",
+   "tags": [
+    "smart-contracts",
+    "security",
+    "bug-bounty"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2019 a host predicted that DAOs, whatever they end up being called, would be an inevitable consequence of smart contracts wherever smart contracts exist.",
+   "speaker": "unknown",
+   "start": 912.3,
+   "quote": "it seems as though dals or whatever we end up calling them in the long run because there's a lot of different names for them these days is an inevitable consequence of smart contracts wherever smart contracts exist",
+   "tags": [
+    "dao",
+    "prediction",
+    "smart-contracts"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2019 a host predicted that any DAO released would have about 1% of owners holding 99% of its value, based on past ICO token distributions.",
+   "speaker": "host",
+   "start": 969.8,
+   "quote": "With any Dow that's released, it's that 1% ownership of that thing is going to have 99% of the wealth or the value.",
+   "tags": [
+    "dao",
+    "token-distribution",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2019 a host said the D.org founders had created the first limited liability DAO.",
+   "speaker": "host",
+   "start": 1080.1,
+   "quote": "The D.org founders have created the first limited liability DAO.",
+   "tags": [
+    "dao",
+    "legal-wrapper",
+    "dorg"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2019 a host said the DAO was linked to a blockchain-based limited liability company, a Vermont legal entity built by a cooperative of blockchain developers.",
+   "speaker": "host",
+   "start": 1107.5,
+   "quote": "LLC linking the DAO to this BB LLC, blockchain-based limited liability company, is the name of the traditional legal entity.",
+   "tags": [
+    "legal-wrapper",
+    "vermont",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2019 a host proposed structuring the Bitcoin Podcast Network as an LLC whose ownership is delegated to a DAO.",
+   "speaker": "host",
+   "start": 1192.0,
+   "quote": "Well, the way I kind of see, if I were to like, the way I imagine doing something like this, at least within the context of the Bitcoin Podcast Network, is that we build an LLC.",
+   "tags": [
+    "legal-wrapper",
+    "bitcoin-podcast-network",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2019 a host said the voting that actually happens in DAOs running at the time was a small percentage of stakeholders.",
+   "speaker": "unknown",
+   "start": 1246.5,
+   "quote": "that's a big problem right now with anything currently running on a DAO is that the voting that actually happens is a small percentage of the stakeholders involved.",
+   "tags": [
+    "dao",
+    "voter-turnout",
+    "governance"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2019 a host predicted that DAOs would eventually let designers make rules that keep people engaged and voting on issues.",
+   "speaker": "unknown",
+   "start": 1328.6,
+   "quote": "maybe not right now, but eventually, because smart contracts are arbitrary, you can make fun rules to keep people engaged in the issues that they're voting on or not voting on.",
+   "tags": [
+    "dao",
+    "governance",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2019 a host predicted that a lot of DAOs would not work very well because the people running them would be poor operators.",
+   "speaker": "unknown",
+   "start": 1445.8,
+   "quote": "there's gonna be a lot of dallas that don't work very well because the people running them suck",
+   "tags": [
+    "dao",
+    "prediction",
+    "governance"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2019 a host said the US JOBS Act was a very recent law that permitted equity crowdfunding.",
+   "speaker": "host",
+   "start": 1587.0,
+   "quote": "right so equity crowdfunding and the jobs act in the united states that was very recent",
+   "tags": [
+    "crowdfunding",
+    "jobs-act",
+    "regulation"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In September 2019 a host said he had backed a Kickstarter for a DIY 4G phone kit three years earlier and was still getting updates but had no control.",
+   "speaker": "host",
+   "start": 1615.8,
+   "quote": "was supposed to like build a do-it-yourself mobile phone 4g kit right so that i could basically solder and build myself as like a learning exercise",
+   "tags": [
+    "kickstarter",
+    "crowdfunding",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host described a DAO as a pool of money that backers vote to distribute over time to the people building the project as it gets built.",
+   "speaker": "host",
+   "start": 1699.7,
+   "quote": "And you throw money in a pool. But you then vote on how that money gets distributed over a certain amount, over time, to the people who are building it",
+   "tags": [
+    "dao",
+    "funding",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host said the DAO's mechanism for issuing new funds on milestones was already built, but its implementation had a severe security vulnerability.",
+   "speaker": "unknown",
+   "start": 1754.3,
+   "quote": "That was actually built into the DAO That type of mechanism was already built, we just didn't do the whole thing correctly and it had a severe security vulnerability",
+   "tags": [
+    "dao",
+    "security",
+    "funding"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In September 2019 Lucian said a friend's startup at the peak of the ICO boom used deliverable-linked time locks, but the ether price swings left the project unable to fund development and it was abandoned.",
+   "speaker": "guest",
+   "start": 1780.1,
+   "quote": "one of my friends joined a startup and at the very peak of the ICO boom, people like wanted more control because it was getting out of hand.",
+   "tags": [
+    "ico",
+    "time-locks",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host asked what it would look like to build code that makes Uber owned by its drivers as a cooperative.",
+   "speaker": "host",
+   "start": 1897.0,
+   "quote": "What if you could build code that makes Uber actually owned by the drivers themselves, right?",
+   "tags": [
+    "cooperatives",
+    "gig-economy",
+    "dao"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2019 a host said he was strongly betting that people's self-interest would push them toward owning and governing the services they use.",
+   "speaker": "host",
+   "start": 2045.9,
+   "quote": "i'm strongly betting that in the long term people's self-interest if the services are usable will push them towards like something in which they get to participate in the ownership in the governance in the management",
+   "tags": [
+    "ownership",
+    "governance",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2019 a host said the best thing about the ICO boom was that it taught many young people how to make their money work for them.",
+   "speaker": "unknown",
+   "start": 2074.3,
+   "quote": "I'd say what I liked most about the ICO boom was it at least gave a lot of young people the concept of how to make your money work for you.",
+   "tags": [
+    "ico",
+    "investing",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2019 a host predicted that people in crypto would become the new plumbers, supplying the infrastructure that others rely on 20 years later.",
+   "speaker": "host",
+   "start": 2162.1,
+   "quote": "I think that the most beneficial thing that's going to come from all this passion that we've had in crypto and blockchain and this technology is that we're going to be the new plumbers 20 years from now.",
+   "tags": [
+    "prediction",
+    "crypto-culture",
+    "infrastructure"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2019 a host predicted that DAOs would produce a similar socioeconomic structure to today, but skewed a bit more toward the average person.",
+   "speaker": "unknown",
+   "start": 2190.4,
+   "quote": "this is what i think like my like prognostication what's going to happen is that we're going to have a similar socioeconomic structure",
+   "tags": [
+    "dao",
+    "prediction",
+    "socioeconomics"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2019 a host said Status had a framework called liquid funding that was close to release and let anyone submit a project for funding.",
+   "speaker": "host",
+   "start": 2526.6,
+   "quote": "one of the frameworks that we came up with that is close to being um released and it's like and it's you know first form is this thing called liquid funding",
+   "tags": [
+    "status",
+    "liquid-funding",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2019 a host said money does not need to be fast, it just needs to be hard, which drew a silent reaction from the room.",
+   "speaker": "unknown",
+   "start": 2909.3,
+   "quote": "what people fail to understand is like money doesn't need to be fast it just needs to be hard",
+   "tags": [
+    "bitcoin",
+    "money",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host argued that innovative technologies start by serving a niche that their eventual competitor does not even see, then grow to consume the market.",
+   "speaker": "unknown",
+   "start": 3219.6,
+   "quote": "any innovative technology that that's that like consumes um another technology doesn't start out by being a direct competitor ever it fulfills a niche market that its eventual competitor doesn't even realize exists",
+   "tags": [
+    "disruption",
+    "competition",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host repeated an idea from a tech author that a 10x improvement is required to radically disrupt a business.",
+   "speaker": "unknown",
+   "start": 3276.5,
+   "quote": "a 10x improvement is what's required to radically disrupt any business",
+   "tags": [
+    "disruption",
+    "10x",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2019 a host said trucking and driving jobs were visibly disappearing because automation removes human costs.",
+   "speaker": "unknown",
+   "start": 3327.2,
+   "quote": "however the trucking and the driving industry it's like right there we're watching it completely disappear because you don't have human",
+   "tags": [
+    "automation",
+    "disruption",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2019 a host said a bitcoin transaction moving about a billion dollars' worth of bitcoin paid around $700 in fees, which he thought was too much.",
+   "speaker": "host",
+   "start": 3466.5,
+   "quote": "there was this big hoopla about the billion dollar bitcoin transaction that somebody paid what four hundred dollars for seven hundred dollars for seven hundred i think seven hundred paid way too much",
+   "tags": [
+    "bitcoin-fees",
+    "transactions",
+    "fact"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host explained that a large bitcoin transaction cost so much because it consolidated many small UTXOs from different accounts into one.",
+   "speaker": "host",
+   "start": 3466.5,
+   "quote": "the transaction had a tremendous amount of UTXOs, which means it was moving a bunch of Bitcoin from a bunch of different accounts",
+   "tags": [
+    "utxo",
+    "bitcoin-fees",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2019 a host said the Moloch DAO was already functioning, had more than $1.2 million of value and was funding projects.",
+   "speaker": "unknown",
+   "start": 3723.3,
+   "quote": "there's already a functioning DAO. It's called Moolock. It's got over $1.2 million of value",
+   "tags": [
+    "moloch",
+    "dao",
+    "funding"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2019 a host said Bitcoin, Ethereum, Avalanche and Stellar are all built on very similar base-level primitives.",
+   "speaker": "unknown",
+   "start": 3779.6,
+   "quote": "all these things are basically built on uh very similar primitives like the base level stuff",
+   "tags": [
+    "primitives",
+    "blockchains",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/691-the-bitcoin-podcast-274mmm-dao-daobaa-chicka",
+ "title": "The Bitcoin Podcast #274:Mmm DAO DAO...baa-chicka-chicka",
+ "date": "2019-09-19",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213302-44100-1-24c4f5b1201b1bbf.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

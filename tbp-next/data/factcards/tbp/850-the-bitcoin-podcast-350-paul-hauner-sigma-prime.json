@@ -1,0 +1,492 @@
+{
+ "episode_summary": "The May 2021 Bitcoin Podcast roundtable covers Dogecoin, BitClout creator coins, airdrops, wrapped bitcoin, Bitcoin's energy use and NFTs, then interviews Paul Hauner of Sigma Prime about Ethereum 2.0. Paul covers the beacon chain launch, Lighthouse and the other clients, fuzzing and security reviews, and a projected Merge and sharding timeline. The episode also includes a short clip of the Ali Spagnola interview.",
+ "guests": [
+  "Ali Spagnola",
+  "Paul Hauner"
+ ],
+ "topics": [
+  "ethereum-2",
+  "proof-of-stake",
+  "sharding",
+  "dogecoin",
+  "bitclout",
+  "airdrops",
+  "security-audits",
+  "bitcoin-energy"
+ ],
+ "cards": [
+  {
+   "type": "prediction",
+   "claim": "In May 2021 the host said Dogecoin holders were wrong to believe it would become a formidable currency.",
+   "speaker": "host",
+   "start": 369.3,
+   "quote": "the rest of you are believing that doge is going to be a formidable currency or monetary system somehow. And I would like all of you to know that you're wrong.",
+   "tags": [
+    "dogecoin",
+    "memecoin",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 the hosts described BitClout as a social network where people bet on the value of creators through creator coins.",
+   "speaker": "host",
+   "start": 1091.2,
+   "quote": "bit cloud is a social network where you basically like people bet on the value of you as a social person as an influencer um and it's got the form and feel of twitter",
+   "tags": [
+    "bitclout",
+    "creator-coins",
+    "social-media"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2021 the hosts read BitClout figures for Elon Musk's creator coin: $7.8 million locked and a USD market cap of $22.147.",
+   "speaker": "host",
+   "start": 1248.6,
+   "quote": "Elon Musk has 16,000 followers. He's got 360.5 coins in circulation. The total US dollars locked is $7.8 million and his USD market cap is $22.147.",
+   "tags": [
+    "bitclout",
+    "creator-coins",
+    "elon-musk"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In May 2021 the host recounted how NFL running back Arian Foster sold shares of himself to the public instead of taking a salary.",
+   "speaker": "host",
+   "start": 1568.4,
+   "quote": "instead of taking a salary he was like you know what forget it i'm just gonna sell shares of my own success in the nfl",
+   "tags": [
+    "arian-foster",
+    "personal-tokens",
+    "anecdote"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 the host said Bitcoin's energy use would spark a clean energy revolution, calling it the only natural convergence.",
+   "speaker": "host",
+   "start": 1873.2,
+   "quote": "the only natural convergence that's going to happen is that Bitcoin's consumption of energy is going to spark the emergence of a clean energy revolution, baby.",
+   "tags": [
+    "bitcoin",
+    "energy",
+    "renewables"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 a host predicted newly mined bitcoin would carry a price premium well under 100 percent, around 15 to 20 percent.",
+   "speaker": "host",
+   "start": 2265.5,
+   "quote": "I don't think it's even going to be a hundred percent. 15 to 20.",
+   "tags": [
+    "bitcoin",
+    "premium",
+    "green-bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 the host said he was not convinced proof of work would dominate crypto market cap in ten years, since most valuable coins would not be proof-of-work minted.",
+   "speaker": "host",
+   "start": 2405.8,
+   "quote": "like most of the coins in circulation that have value will not be minted off proof of work",
+   "tags": [
+    "proof-of-work",
+    "proof-of-stake",
+    "market-cap"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 the host predicted Bitcoin's market dominance would keep falling because anyone can create new cryptocurrencies.",
+   "speaker": "host",
+   "start": 2769.0,
+   "quote": "Bitcoin's dominance is going to continue to go down because you could make infinite mini cryptocurrencies.",
+   "tags": [
+    "bitcoin",
+    "dominance",
+    "altcoins"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 the hosts explained that wrapped bitcoin locks BTC in a special address so it can be used on another chain.",
+   "speaker": "host",
+   "start": 2605.3,
+   "quote": "You're locking it in a specific type of Bitcoin address that has accounting with it so that it can't just be arbitrarily moved. You're basically putting it in a bank.",
+   "tags": [
+    "wrapped-bitcoin",
+    "bridges",
+    "multisig"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 a host said the upcoming Schnorr-style signatures would make every transaction look the same, adding privacy.",
+   "speaker": "host",
+   "start": 2690.4,
+   "quote": "That's kind of one of the nice parts about store signatures is that it adds a level of privacy because all transactions look the same.",
+   "tags": [
+    "schnorr",
+    "privacy",
+    "taproot"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In May 2021 a host said he had found about $3,000 worth of Dogecoin in an old wallet.",
+   "speaker": "host",
+   "start": 396.1,
+   "quote": "I found a random like $3,000 worth of Doge the other day and like an old wallet.",
+   "tags": [
+    "dogecoin",
+    "anecdote",
+    "old-wallets"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 the hosts said modern airdrops no longer push tokens into wallets, because transfer fees made it too expensive.",
+   "speaker": "host",
+   "start": 621.7,
+   "quote": "Modern airdrops don't really place tokens in people's accounts anymore. That's something that used to happen because it used to be cheap enough to do it.",
+   "tags": [
+    "airdrops",
+    "fees",
+    "tokens"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2021 a host said China was rolling out its digital fiat in June.",
+   "speaker": "host",
+   "start": 3100.7,
+   "quote": "they're already coming out with like digital fiat like china is right they're rolling it out in june and even i think june or july",
+   "tags": [
+    "cbdc",
+    "china",
+    "digital-fiat"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 a host predicted governments would rebuild the financial system rather than let it break.",
+   "speaker": "host",
+   "start": 3155.5,
+   "quote": "so i think that the governments will find a way to just kind of build a new system",
+   "tags": [
+    "cbdc",
+    "governments",
+    "financial-system"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2021 Paul Hauner said Lighthouse had been running since the Ethereum 2 beacon chain launch in December 2020, and had run smoothly since.",
+   "speaker": "Paul Hauner",
+   "start": 4989.1,
+   "quote": "we were there for the F2 beacon chain launch in December. and we've been running pretty smoothly since that.",
+   "tags": [
+    "lighthouse",
+    "beacon-chain",
+    "ethereum-2"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2021 Paul Hauner said Lighthouse had about eight to ten full-time developers.",
+   "speaker": "Paul Hauner",
+   "start": 5014.6,
+   "quote": "we've just added people. So it must be somewhere around eight or 10 people on a full time at the moment.",
+   "tags": [
+    "lighthouse",
+    "team",
+    "developers"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 Paul Hauner said spreading Ethereum state across 64 shards would give at least 64 times the transaction capacity.",
+   "speaker": "Paul Hauner",
+   "start": 5195.7,
+   "quote": "and kind of spread it out across, say, 64 shards, and then we have at least 64 times the transaction capacity to process transactions.",
+   "tags": [
+    "sharding",
+    "capacity",
+    "scaling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2021 Paul Hauner said there were four primary running Ethereum 2 client implementations: Lighthouse, Prysm, Nimbus and Teku.",
+   "speaker": "Paul Hauner",
+   "start": 5354.6,
+   "quote": "So there's I guess four primary active running implementations of F2 now.",
+   "tags": [
+    "clients",
+    "lighthouse",
+    "prysm",
+    "nimbus",
+    "teku"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 Paul Hauner said Sigma Prime fuzzes all Ethereum 2 clients with random block input to catch any disagreement between them.",
+   "speaker": "Paul Hauner",
+   "start": 5385.4,
+   "quote": "one of the other things we do at sigma prime is a thing called fuzzing where we um have these uh programs that um we hook all the different clients into into this kind of harness",
+   "tags": [
+    "fuzzing",
+    "security",
+    "clients"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2021 Paul Hauner said Sigma Prime's fuzzing had found roughly 30 or more bugs in Ethereum 2 clients.",
+   "speaker": "Paul Hauner",
+   "start": 5468.3,
+   "quote": "we've got a bunch of them actually i think maybe 30 plus",
+   "tags": [
+    "fuzzing",
+    "bugs",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In May 2021 Paul Hauner said he and a friend got into computer networks as teenagers, breaking passwords and exploring them.",
+   "speaker": "Paul Hauner",
+   "start": 5777.1,
+   "quote": "So we ended up kind of, I guess, getting into our computer networks. It's, I guess, it's like not super legal.",
+   "tags": [
+    "security",
+    "anecdote",
+    "hacking"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 Paul Hauner said remote code execution was the worst class of bug to watch for in Ethereum 2 clients, though none had been found.",
+   "speaker": "Paul Hauner",
+   "start": 5642.1,
+   "quote": "And then the absolute worst class of these problems is remote code execution.",
+   "tags": [
+    "security",
+    "rce",
+    "fuzzing"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 Paul Hauner explained that the 2016 DAO hack exploited re-entrancy, a class of bug nobody had considered before.",
+   "speaker": "Paul Hauner",
+   "start": 6114.7,
+   "quote": "there was a new class of bug that no one had ever considered before it's called the re-entrancy basically you call to another contract you can call back",
+   "tags": [
+    "dao",
+    "reentrancy",
+    "smart-contracts"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2021 Paul Hauner said Sigma Prime calls its work security reviews rather than audits, because software cannot be certified the way a tax audit can.",
+   "speaker": "Paul Hauner",
+   "start": 6818.7,
+   "quote": "Well, security reviews is what we call them.",
+   "tags": [
+    "audits",
+    "security",
+    "terminology"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2021 Paul Hauner said no one can honestly declare complex software safe, and anyone who claims it should be treated with caution.",
+   "speaker": "Paul Hauner",
+   "start": 6897.6,
+   "quote": "you really can't say that a piece of software is safe or it is secure um you should be really cautious of anyone that does that",
+   "tags": [
+    "security",
+    "audits",
+    "risk"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2021 Paul Hauner said he was not a fan of high-risk speculative investment in new projects on Binance Smart Chain.",
+   "speaker": "Paul Hauner",
+   "start": 7007.9,
+   "quote": "I know this kind of really high-risk, not-well-thought-out speculative investment is not something that I'm a huge fan of.",
+   "tags": [
+    "speculation",
+    "binance-smart-chain",
+    "risk"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In May 2021 Paul Hauner said he had been involved in the 2017 ICO rush.",
+   "speaker": "Paul Hauner",
+   "start": 7098.1,
+   "quote": "i was involved in the 2017 ico rush so you know you know what that's like",
+   "tags": [
+    "ico",
+    "2017",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2021 Paul Hauner explained that fast layer-two rollups trade some trust, because the system relies on others to check transactions.",
+   "speaker": "Paul Hauner",
+   "start": 7533.4,
+   "quote": "generally the trade-off with that is you change the trust model a little bit in the system. You're trusting the system and not necessarily providing validation.",
+   "tags": [
+    "layer-two",
+    "rollups",
+    "trust"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2021 Paul Hauner said the Ethereum 2 Beacon Chain had launched as a separate chain disconnected from the existing Ethereum chain.",
+   "speaker": "Paul Hauner",
+   "start": 7174.5,
+   "quote": "is we launched the Beacon Chain, so a separate chain, which is disconnected from the current Ethereum chain.",
+   "tags": [
+    "beacon-chain",
+    "merge",
+    "ethereum-2"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 Paul Hauner predicted the Merge would happen around the end of 2021 or early 2022, while warning timelines often slip.",
+   "speaker": "Paul Hauner",
+   "start": 7256.6,
+   "quote": "So I think the timeline for that is probably the end of this year, early next year. These timelines always tend to blow out in my experience.",
+   "tags": [
+    "merge",
+    "timeline",
+    "ethereum-2"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2021 Paul Hauner estimated the next big step, running several Ethereum versions together through sharding, would land in late 2022 or the year after.",
+   "speaker": "Paul Hauner",
+   "start": 7284.4,
+   "quote": "this thing is probably like you know late next year looking at maybe the year after",
+   "tags": [
+    "sharding",
+    "timeline",
+    "ethereum-2"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/850-the-bitcoin-podcast-350-paul-hauner-sigma-prime",
+ "title": "The Bitcoin Podcast #350- Paul Hauner Sigma Prime: ETH-2",
+ "date": "2021-05-03",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981571/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212404-44100-1-27017d6ad8af21c5.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

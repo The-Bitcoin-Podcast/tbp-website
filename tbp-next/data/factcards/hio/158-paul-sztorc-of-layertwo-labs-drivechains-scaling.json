@@ -1,0 +1,475 @@
+{
+ "episode_summary": "Hashing It Out interview with Paul Sztorc of LayerTwo Labs on DriveChain (BIP300/BIP301) as a permissionless sidechain approach to Bitcoin scaling, with his critiques of Lightning and of the 2015-2017 block size war, his account of SPV mining, the soft-fork activation logjam, and fee-economics predictions for L1 and L2.",
+ "guests": [
+  "Paul Sztorc"
+ ],
+ "topics": [
+  "drivechain",
+  "bip300",
+  "bip301",
+  "sidechains",
+  "bitcoin-scaling",
+  "soft-forks",
+  "mining",
+  "lightning",
+  "block-size-war"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said BIP300 and BIP301 together are known as DriveChain.",
+   "speaker": "Paul Sztorc",
+   "start": 659.3,
+   "quote": "One of those ideas became BIP300 and another one became BIP301. And collectively, those are known as DriveChain.",
+   "tags": [
+    "drivechain",
+    "bip300",
+    "bip301"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Paul Sztorc explained that BIP301 blind merge mining lets miners earn sidechain fees without running the sidechain node.",
+   "speaker": "Paul Sztorc",
+   "start": 714.6,
+   "quote": "So in blind merge mining, you don't need to run anything other than the L1 node.",
+   "tags": [
+    "blind-merge-mining",
+    "bip301",
+    "merged-mining"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Paul Sztorc described merged mining as a miner finding blocks for two chains at once with no additional hashing work.",
+   "speaker": "Paul Sztorc",
+   "start": 792.4,
+   "quote": "a miner can find two blocks, a block for different blockchains all at the same time with no additional work.",
+   "tags": [
+    "merged-mining",
+    "mining",
+    "sidechains"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said he published DriveChain in November 2015.",
+   "speaker": "Paul Sztorc",
+   "start": 1526.1,
+   "quote": "And I published DriveChain in November 2015.",
+   "tags": [
+    "drivechain",
+    "history",
+    "2015"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said he published an essay called Measuring Decentralization in September 2015.",
+   "speaker": "Paul Sztorc",
+   "start": 1579.6,
+   "quote": "in september 2015 i had published an essay called measuring decentralization",
+   "tags": [
+    "decentralization",
+    "block-size-war",
+    "2015"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said the orphan rate fell back to zero by 2015 after miners worked around the latency of validating full blocks.",
+   "speaker": "Paul Sztorc",
+   "start": 1797.1,
+   "quote": "But by 2015, it had already crashed back down to zero because the miners had already set to work solving this problem.",
+   "tags": [
+    "orphan-rate",
+    "mining",
+    "block-size"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Paul Sztorc said miners started using SPV mining, switching to the next block before validating it, to cut corners.",
+   "speaker": "Paul Sztorc",
+   "start": 1824.2,
+   "quote": "the miners started to cut corners and cheat they use spv and spy mining to just switch to the next block without validating it at all.",
+   "tags": [
+    "spv-mining",
+    "mining",
+    "full-nodes"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Paul Sztorc said Satoshi got almost everything right but wrongly assumed every miner would run a full node.",
+   "speaker": "Paul Sztorc",
+   "start": 1849.7,
+   "quote": "I think Satoshi got almost everything right, but there's one thing he didn't quite get right",
+   "tags": [
+    "satoshi",
+    "full-nodes",
+    "mining"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc calculated that losing a few seconds of block time is roughly a 20% loss of revenue efficiency for a miner.",
+   "speaker": "Paul Sztorc",
+   "start": 1930.3,
+   "quote": "So losing a few seconds actually is like a minus 20% loss of revenue efficiency.",
+   "tags": [
+    "mining",
+    "revenue",
+    "block-time"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Paul Sztorc said the whole idea of sidechains is that users run whichever sidechain node they want, so miners do not need to run it.",
+   "speaker": "Paul Sztorc",
+   "start": 2035.7,
+   "quote": "the whole idea of sidechains is the users run whichever sidechain node they want.",
+   "tags": [
+    "sidechains",
+    "full-nodes",
+    "drivechain"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said Ethereum's daily fees were in the millions of dollars, with a seven-day average of about 2.3 million.",
+   "speaker": "Paul Sztorc",
+   "start": 2361.9,
+   "quote": "Ethereum's daily fees are millions of dollars a day",
+   "tags": [
+    "ethereum",
+    "fees",
+    "economics"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Paul Sztorc argued that 51% hashrate can already interfere with every L2 because it already controls every L1.",
+   "speaker": "Paul Sztorc",
+   "start": 2467.5,
+   "quote": "51% hashrate can already interfere with every L2.",
+   "tags": [
+    "51-attack",
+    "layer2",
+    "mining"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Paul Sztorc said Lightning node operators or Ark super nodes collect L2 fees, whereas under BIP300 the miners would collect them.",
+   "speaker": "Paul Sztorc",
+   "start": 2584.0,
+   "quote": "The Lightning node operator is going to collect the fee, or the Arc Super node is going to collect the fee.",
+   "tags": [
+    "lightning",
+    "fees",
+    "bip300"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said L1 fees were usually about $400,000 a day, much less than the roughly $2.3 million a day in Ethereum L2-style fees he cited.",
+   "speaker": "Paul Sztorc",
+   "start": 2616.8,
+   "quote": "which are usually like $400,000 a day or something like that",
+   "tags": [
+    "fees",
+    "l1-fees",
+    "economics"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Paul Sztorc predicted L1 fees would stay around 500,000 a day while total L2 transactions could grow to planetary scale very quickly.",
+   "speaker": "Paul Sztorc",
+   "start": 2643.3,
+   "quote": "l1 fees on the future will stay at around 500 000 but the l2 the total number of l2 transactions I think could grow to a planetary scale very, very quickly.",
+   "tags": [
+    "fees",
+    "layer2",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Paul Sztorc predicted there would eventually be a conflict in which miners make themselves the L2 because L2 fees would be far higher than L1 fees.",
+   "speaker": "Paul Sztorc",
+   "start": 2675.1,
+   "quote": "And so there will eventually be some kind of conflict.",
+   "tags": [
+    "miners",
+    "fees",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Paul Sztorc said sidechains would let Bitcoin reach planetary scale in a non-ideal form, giving eight billion people a UTXO and Zcash-level privacy.",
+   "speaker": "Paul Sztorc",
+   "start": 3429.1,
+   "quote": "the idea allows Bitcoin to have planetary scale in some form not the ideal form but it gives 8 billion people",
+   "tags": [
+    "planetary-scale",
+    "drivechain",
+    "privacy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said Bitcoin miners only very recently learned about the DriveChain idea, around July of the previous year.",
+   "speaker": "Paul Sztorc",
+   "start": 3484.4,
+   "quote": "the Bitcoin miners only very recently found out about this idea as of like July or something.",
+   "tags": [
+    "drivechain",
+    "miners",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Paul Sztorc predicted that Lightning needing more soft forks would break the soft-fork logjam in Bitcoin.",
+   "speaker": "Paul Sztorc",
+   "start": 3546.0,
+   "quote": "and now with Lightning needing more soft forks in order to work, that will probably break a lot of the logjam of the soft fork.",
+   "tags": [
+    "soft-forks",
+    "lightning",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said SegWit took about 20 months from when it was first proposed to when it was coded.",
+   "speaker": "Paul Sztorc",
+   "start": 1313.6,
+   "quote": "it took segwit 20 months from when",
+   "tags": [
+    "segwit",
+    "soft-forks",
+    "bitcoin-history"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said Bitcoin did something like 16 or 17 soft forks in its first seven years, and only SegWit and Taproot since then.",
+   "speaker": "Paul Sztorc",
+   "start": 1313.6,
+   "quote": "In the first seven years of Bitcoin's existence, we did something like 16 or 17 different soft forks.",
+   "tags": [
+    "soft-forks",
+    "bitcoin-history",
+    "segwit"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Paul Sztorc said Taproot was proposed in January 2018 and not activated until November 2021, 46 months later.",
+   "speaker": "Paul Sztorc",
+   "start": 1341.8,
+   "quote": "It was activated, but it wasn't until November 2021, 46 months.",
+   "tags": [
+    "taproot",
+    "soft-forks",
+    "activation"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Paul Sztorc said miners' guilt over SegWit2x is a big barrier to activating the drivechain soft fork.",
+   "speaker": "Paul Sztorc",
+   "start": 3654.9,
+   "quote": "So that is all because of guilt over Segway2x",
+   "tags": [
+    "segwit2x",
+    "miners",
+    "soft-forks"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Paul Sztorc argued soft forks are not a risk because a soft fork does not change the protocol for anyone running a node.",
+   "speaker": "Paul Sztorc",
+   "start": 3710.0,
+   "quote": "because a soft work does not change the protocol for anyone who's running a node",
+   "tags": [
+    "soft-forks",
+    "consensus",
+    "risk"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Paul Sztorc argued that the victory in the block size war created many of Bitcoin's later problems.",
+   "speaker": "Paul Sztorc",
+   "start": 3899.2,
+   "quote": "So all of the biggest problems in Bitcoin were actually created as a result of our victory in the box size war.",
+   "tags": [
+    "block-size-war",
+    "bitcoin-culture",
+    "lightning"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Paul Sztorc predicted that Namecoin and prediction markets would be huge, with one name serving as a person's identity everywhere.",
+   "speaker": "Paul Sztorc",
+   "start": 4173.9,
+   "quote": "But I think honestly, Namecoin and prediction markets, those will be huge.",
+   "tags": [
+    "namecoin",
+    "prediction-markets",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Paul Sztorc said he had predicted that darknet markets would decentralise into middlemen and Telegram bots.",
+   "speaker": "Paul Sztorc",
+   "start": 4361.8,
+   "quote": "I predicted that the darknet markets, since all they do is introduce the buyer and seller to each other",
+   "tags": [
+    "darknet-markets",
+    "telegram",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Paul Sztorc said the Canadian truckers protest showed that Bitcoin did not work for protest funding, because the government confiscated the Bitcoin.",
+   "speaker": "Paul Sztorc",
+   "start": 4585.4,
+   "quote": "And what we did is we just showed everyone that it didn't work.",
+   "tags": [
+    "canada",
+    "truckers-protest",
+    "bitcoin-use"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Paul Sztorc summed up drivechains in ten words as devs competing and users winning.",
+   "speaker": "Paul Sztorc",
+   "start": 4612.0,
+   "quote": "When devs compete, users win.",
+   "tags": [
+    "drivechain",
+    "permissionless-innovation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host argued that L1 chains are essentially different countries that will never agree on one global currency.",
+   "speaker": "host",
+   "start": 5286.1,
+   "quote": "all these L1s are essentially different countries.",
+   "tags": [
+    "alt-l1",
+    "ethereum",
+    "bitcoin",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/158-paul-sztorc-of-layertwo-labs-drivechains-scaling",
+ "title": "Paul Sztorc of LayerTwo Labs | Drivechains, Scaling Bitcoin without Compromise",
+ "date": "2024-03-08 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89345739/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374081-44100-2-569006ede1ca0ad5.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

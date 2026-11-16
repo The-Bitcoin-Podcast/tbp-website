@@ -1,0 +1,497 @@
+{
+ "episode_summary": "Episode 308 (May 2020): the hosts discuss the upcoming Bitcoin halving and price, explain public-key cryptography and digital signatures, then interview Fazri Zubair, CTO of LucidSight, about the blockchain games Crypto Space Commander and MLB Champions and their in-game economies.",
+ "guests": [
+  "Fazri Zubair"
+ ],
+ "topics": [
+  "bitcoin halving",
+  "bitcoin price",
+  "public-key cryptography",
+  "digital signatures",
+  "blockchain gaming",
+  "nfts",
+  "in-game economies",
+  "scarcity engine"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In May 2020 Bitcoin had repeatedly touched and dropped back from $10,000 before the halving.",
+   "speaker": "host",
+   "start": 563.6,
+   "quote": "It's seen 10,000 and dropped. It's been above 10,000 and dropped. It hit 10,000 again.",
+   "tags": [
+    "bitcoin",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2020 a host relayed Willy Woo's view that large exchanges, not miners, would increasingly set the Bitcoin price.",
+   "speaker": "host",
+   "start": 685.1,
+   "quote": "he thinks that large exchanges are now going to determine the price because they hold most of it.",
+   "tags": [
+    "bitcoin",
+    "exchanges",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020, ahead of the third Bitcoin halving, hosts explained that miner block rewards would be cut in half.",
+   "speaker": "host",
+   "start": 767.0,
+   "quote": "it's going to be cut in half and that means that basically the amount of money that miners are making is cut in half",
+   "tags": [
+    "halving",
+    "mining",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2020 a host explained that Bitcoin's block subsidy halves roughly every four years on a geometrically decreasing curve.",
+   "speaker": "host",
+   "start": 794.5,
+   "quote": "This is on a geometrically decreasing curve over time that halves every four years.",
+   "tags": [
+    "halving",
+    "mining",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2020 a host predicted Bitcoin's network security would decline after the halving unless transaction fees rose enough to replace lost block rewards.",
+   "speaker": "host",
+   "start": 820.8,
+   "quote": "the inevitable conclusion is that the quote unquote security of the Bitcoin network will go down",
+   "tags": [
+    "halving",
+    "fees",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 hosts observed that Ether's price was starting to decouple from Bitcoin.",
+   "speaker": "host",
+   "start": 880.9,
+   "quote": "Ether is starting to decouple from Bitcoin as far as its behavior.",
+   "tags": [
+    "ethereum",
+    "bitcoin",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2020 a host explained public-key encryption: anyone can encrypt to your public key, but only your private key can decrypt the message.",
+   "speaker": "host",
+   "start": 1208.3,
+   "quote": "the only person that's capable of decrypting that thing is going to be me with my private key.",
+   "tags": [
+    "cryptography",
+    "private-keys"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2020 a host explained that each blockchain transaction is digitally signed with the sender's private key so miners can verify it came from that address.",
+   "speaker": "host",
+   "start": 1405.6,
+   "quote": "when i make a transaction i'm signing it with my private key so that everyone knows it came from a specific public key",
+   "tags": [
+    "signatures",
+    "cryptography",
+    "blockchain"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2020 a host argued that digital uniqueness and ownership had become permanent, so people must take responsibility for their digital identity.",
+   "speaker": "host",
+   "start": 1666.7,
+   "quote": "digital uniqueness is a thing that's out of the box now and it's not coming back",
+   "tags": [
+    "identity",
+    "ownership"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 Fazri Zubair said LucidSight was founded in 2015 as a game development studio in Santa Monica.",
+   "speaker": "Fazri Zubair",
+   "start": 2198.2,
+   "quote": "LucidSight was founded in 2015 as a game development studio here in Santa Monica.",
+   "tags": [
+    "lucidsight",
+    "gaming"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 LucidSight said its MLB Champions was a licensed Major League Baseball game made with MLB and the MLB Players Association.",
+   "speaker": "Fazri Zubair",
+   "start": 2227.0,
+   "quote": "it's a licensed major league baseball game with both the mlb and the mlb pa",
+   "tags": [
+    "mlb-champions",
+    "licensing",
+    "gaming"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 Fazri Zubair said Crypto Space Commander had been in early access for about six months.",
+   "speaker": "Fazri Zubair",
+   "start": 2254.6,
+   "quote": "This is a social economic driven game that's been live now in early access for about six months",
+   "tags": [
+    "crypto-space-commander",
+    "gaming"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Fazri Zubair recounted an EVE Online incident in which a large in-game bank took its members' money and bought the biggest ship possible.",
+   "speaker": "Fazri Zubair",
+   "start": 2312.7,
+   "quote": "basically just said, screw y'all, I'm taking all your money, bought the biggest ship that was possible",
+   "tags": [
+    "eve-online",
+    "gaming",
+    "economy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 LucidSight said a dreadnought ship in its game had sold for $42,000.",
+   "speaker": "Fazri Zubair",
+   "start": 2398.8,
+   "quote": "We have a dreadnought in our game that's sold for $42,000.",
+   "tags": [
+    "nft",
+    "crypto-space-commander",
+    "prices"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 LucidSight said its Enterprise ship had sold for $30,000.",
+   "speaker": "Fazri Zubair",
+   "start": 2428.8,
+   "quote": "our enterprise sold for 30 000",
+   "tags": [
+    "nft",
+    "star-trek",
+    "ships"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2020 Fazri Zubair said that after full persistence launched, a destroyed ship's blockchain record would be burned.",
+   "speaker": "Fazri Zubair",
+   "start": 2455.0,
+   "quote": "ship gets destroyed we burn the blockchain record it's gone that asset is nullified",
+   "tags": [
+    "persistence",
+    "nft",
+    "burn"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 LucidSight said Crypto Space Commander was doing about $100,000 of player-to-player volume a day.",
+   "speaker": "Fazri Zubair",
+   "start": 2512.4,
+   "quote": "But we do $100,000 of volume a day in CSE right now.",
+   "tags": [
+    "marketplace",
+    "volume",
+    "nft"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Fazri Zubair described Trilite as a scarce resource in Crypto Space Commander that is used to craft almost everything and found only in the fringe space.",
+   "speaker": "Fazri Zubair",
+   "start": 2590.9,
+   "quote": "We have a resource, one of our largest commodities in the game called Trilite. It's used for crafting almost everything.",
+   "tags": [
+    "crypto-space-commander",
+    "economy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Fazri Zubair said LucidSight built Scarcity Engine, an off-chain system that emulates Ethereum on fast databases, so about 99% of game actions happen off-chain.",
+   "speaker": "Fazri Zubair",
+   "start": 2675.0,
+   "quote": "We created our own system called Scarcity Engine, which emulates Ethereum blockchain but on high-speed databases with high-speed APIs.",
+   "tags": [
+    "scarcity-engine",
+    "ethereum",
+    "layer-2"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Fazri Zubair described GALE, LucidSight's analytics system that assigns dollar values to in-game resources and items.",
+   "speaker": "Fazri Zubair",
+   "start": 2950.9,
+   "quote": "We have this system that we kind of built. It's an analytics system called a GALE.",
+   "tags": [
+    "economy",
+    "analytics",
+    "gaming"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Fazri Zubair said one ton of iron mined in Crypto Space Commander could be used to craft about 1,400 different items.",
+   "speaker": "Fazri Zubair",
+   "start": 2978.5,
+   "quote": "if you mine one ton of iron, that one ton of iron could be used to create about 1400 different items.",
+   "tags": [
+    "economy",
+    "crypto-space-commander",
+    "crafting"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In April 2020 LucidSight sold station facilities in Crypto Space Commander, and more than 50 sold out within the first day.",
+   "speaker": "Fazri Zubair",
+   "start": 3088.0,
+   "quote": "within the first day over 50 were sold out and most of them were bought by you know large groups of players",
+   "tags": [
+    "stations",
+    "economy",
+    "monopolies"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2020 LucidSight said item destruction on ship loss would begin within about two weeks, burning around half of a destroyed ship's equipment.",
+   "speaker": "Fazri Zubair",
+   "start": 3113.5,
+   "quote": "After about, in the next two weeks here, destruction will happen.",
+   "tags": [
+    "persistence",
+    "destruction",
+    "gaming"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Fazri Zubair said that when Gale first launched, a mined resource in Crypto Space Commander showed a value of $1 million, which was corrected as data accumulated.",
+   "speaker": "Fazri Zubair",
+   "start": 3432.6,
+   "quote": "When you mined one of it, it said it was worth a million dollars.",
+   "tags": [
+    "economy",
+    "gale",
+    "pricing"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "A host said Diablo 3's real-money auction house capped sales at about $500 per item, and players bought the game to flip loot for profit.",
+   "speaker": "host",
+   "start": 3561.9,
+   "quote": "I think the maximum you could make was $500 for any given item.",
+   "tags": [
+    "diablo-3",
+    "auction-house",
+    "gaming"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "A host said the majority of the Diablo 3 real-money auction house user base was botted accounts.",
+   "speaker": "host",
+   "start": 3587.8,
+   "quote": "the majority of the user base was botted accounts",
+   "tags": [
+    "diablo-3",
+    "bots",
+    "gaming"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2020 Fazri Zubair said MLB Champions had recently launched on iOS and Android and was at about 40,000 monthly active users.",
+   "speaker": "Fazri Zubair",
+   "start": 3966.9,
+   "quote": "MLB Champions recently launched on iOS and Android. We're up to like 40,000 monthly active users.",
+   "tags": [
+    "mlb-champions",
+    "mobile",
+    "users"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Fazri Zubair said MLB Champions NFTs could never be destroyed because its contract had no burn function, unlike Crypto Space Commander.",
+   "speaker": "Fazri Zubair",
+   "start": 4107.7,
+   "quote": "once you mint a figure, it can never be destroyed. By the design of the contract, we have no burn functionality in it, unlike CSC.",
+   "tags": [
+    "nft",
+    "smart-contracts",
+    "mlb-champions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Fazri Zubair argued players should be able to sell digital items such as Fortnite skins and recoup their value when they move to another game.",
+   "speaker": "Fazri Zubair",
+   "start": 4527.6,
+   "quote": "And if you play Fortnite and you buy 100 skins and you decide you're done with Fortnite",
+   "tags": [
+    "nft",
+    "gaming",
+    "digital-assets"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Fazri Zubair said an iridium spike when players found a node doubled the total iridium in Crypto Space Commander, and the economic indicators flagged it within 24 hours.",
+   "speaker": "Fazri Zubair",
+   "start": 4658.5,
+   "quote": "It actually doubled the entire amount that existed in the universe at that time.",
+   "tags": [
+    "economy",
+    "rng",
+    "gaming"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Fazri Zubair said Crypto Space Commander's 24 core resources are technically ERC-20 tokens that can be checked out and burned to create virtual items.",
+   "speaker": "Fazri Zubair",
+   "start": 4818.8,
+   "quote": "Those are technically ERC-20. So when you check them out of the system, you could actually get a token for them.",
+   "tags": [
+    "erc-20",
+    "tokens",
+    "gaming"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2020 a host said many blockchain-game companies interviewed in 2017 were really using Amazon web servers while claiming to use the blockchain.",
+   "speaker": "host",
+   "start": 4954.7,
+   "quote": "they were just using a bunch of Amazon web servers and lying about it.",
+   "tags": [
+    "blockchain-games",
+    "hype"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/789-the-bitcoin-podcast-308-fazri-zubair-lucid-sights",
+ "title": "The Bitcoin Podcast #308- Fazri Zubair Lucid Sights",
+ "date": "2020-05-10",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982577/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213505-44100-1-a0644c3dab6ed8b9.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

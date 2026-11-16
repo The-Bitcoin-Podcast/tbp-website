@@ -1,0 +1,564 @@
+{
+ "episode_summary": "Episode 68 of The Bitcoin Podcast, recorded in late June 2016 after the DAO hack. The hosts discuss whether the attacker did anything wrong given that the code allowed the withdrawals, and who is to blame. They then interview Cornell computer scientist Emin Gun Sirer about the recursive call bug, Solidity versus the EVM, the failure of the DAO's design (no kill switch, fully autonomous), and the hard fork versus soft fork options. They close with speculation on DAO token and ETH prices and a Bitcoin versus Ethereum comparison.",
+ "guests": [
+  "Emin Gün Sirer",
+  "Valerian Bennett"
+ ],
+ "topics": [
+  "dao",
+  "ethereum",
+  "hard-fork",
+  "solidity",
+  "smart-contracts",
+  "security",
+  "bitcoin-vs-ethereum"
+ ],
+ "cards": [
+  {
+   "type": "anecdote",
+   "claim": "In June 2016 the hosts said that the DAO's remaining ether was being moved into white-hat DAOs while an attacker's DAO used the same code.",
+   "speaker": "host",
+   "start": 433.0,
+   "quote": "So we have this, what's currently going on, we have these white hack attacks that have essentially done the same thing that the attacker did to the DAO to move all of the remaining funds into a separate DAO",
+   "tags": [
+    "dao",
+    "whitehat",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2016 a host predicted that the DAO attacks would keep going on indefinitely unless the network hard forked.",
+   "speaker": "host",
+   "start": 458.3,
+   "quote": "they have the exact same code as the original DAO which means this can just keep going on forever under the current the only way to really fix this cleanly is to hard fork",
+   "tags": [
+    "dao",
+    "hard-fork",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2016 the DAO had raised more than $200 million during its crowdfunding phase.",
+   "speaker": "guest",
+   "start": 1226.9,
+   "quote": "This first experiment was a huge success in its initial phases. It ended up getting more than $200 million.",
+   "tags": [
+    "dao",
+    "crowdsale",
+    "fundraising"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2016 a host said Stephen Toole accused Sirer of knowing about the DAO bug without disclosing it, which escalated to accusations that Sirer was the DAO hacker.",
+   "speaker": "host",
+   "start": 1049.4,
+   "quote": "Stephen Toole accused Goon Sarir of knowing but not disclosing the bug, and this escalated to accusations that he was the DAO hacker.",
+   "tags": [
+    "dao",
+    "controversy",
+    "disclosure"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the EVM was blameless in the DAO hack because no EVM bug was involved, and Ethereum's foundation was holding up.",
+   "speaker": "guest",
+   "start": 1502.8,
+   "quote": "The EVM is blameless in all of this. There is no EVM bug that was affected in this hack, and the EVM did its part perfectly, which I think is a great sign.",
+   "tags": [
+    "evm",
+    "ethereum",
+    "dao"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said Solidity had blame for the DAO hack because the external-call vulnerability was already well known.",
+   "speaker": "guest",
+   "start": 1620.4,
+   "quote": "And there is some blame to be levied against solidity in the sense that there was this problem about calls to external contracts. And we just, you know, we knew it.",
+   "tags": [
+    "solidity",
+    "reentrancy",
+    "dao"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer compared writing Solidity smart contracts to writing code for a nuclear power reactor, because failures are hard to undo.",
+   "speaker": "guest",
+   "start": 1674.1,
+   "quote": "And it's much more like writing code for a nuclear power reactor than it is like writing code for Node.js.",
+   "tags": [
+    "solidity",
+    "smart-contracts",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the DAO was deliberately designed with no escape hatches, which was not a well-thought-out design decision.",
+   "speaker": "guest",
+   "start": 1336.3,
+   "quote": "Well, there were absolutely no escape hatches built into this particular construct. In fact, it was probably engineered to not have any escape hatches.",
+   "tags": [
+    "dao",
+    "design",
+    "kill-switch"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the DAO team should have sought outside expertise and written an English spec before launching.",
+   "speaker": "guest",
+   "start": 1868.1,
+   "quote": "Before this thing, they really should have sought expertise. And by expertise, there's no shortage of friendly people in academia who will come to their aid.",
+   "tags": [
+    "dao",
+    "security",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the DAO was deliberately made fully autonomous, with no safety switch, kill switch or human oversight.",
+   "speaker": "guest",
+   "start": 1923.0,
+   "quote": "they decided to make this thing be completely autonomous. And they did not involve a safety switch, a kill switch, or any kind of human oversight at the back end",
+   "tags": [
+    "dao",
+    "kill-switch",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the DAO team hyped the project too quickly and needed another six months of scrutiny before release.",
+   "speaker": "guest",
+   "start": 1949.6,
+   "quote": "They really went very quickly and hyped this thing that really needed another six months of scrutiny and development, in my opinion.",
+   "tags": [
+    "dao",
+    "security",
+    "launch"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the DAO team's response to security disclosures was pretty bad, and that blaming the messenger creates a toxic environment.",
+   "speaker": "guest",
+   "start": 1976.4,
+   "quote": "And it's been pretty bad, actually. So there's no other way to put this. There are some standard mistakes that you are not supposed to make",
+   "tags": [
+    "dao",
+    "disclosure",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2016 Sirer said anonymous internet trolls were calling him the DAO hacker, which he described as a felony accusation.",
+   "speaker": "guest",
+   "start": 2059.1,
+   "quote": "There are anonymous trolls on the internet now saying things like, I'm the DAO hacker. That's a felony accusation.",
+   "tags": [
+    "dao",
+    "controversy",
+    "sirer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer compared the DAO failure to the Tacoma Narrows bridge collapse, arguing the field would learn from it as engineers did.",
+   "speaker": "guest",
+   "start": 2141.0,
+   "quote": "so just like the Tacoma Narrows bridge you know spectacular failure absolutely horrible to watch very dramatic but we learned how to build big bridges after that",
+   "tags": [
+    "dao",
+    "ethereum",
+    "analogy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2016 Sirer predicted Ethereum would become much more robust in the long term despite the DAO failure.",
+   "speaker": "guest",
+   "start": 2170.6,
+   "quote": "I think on the whole and in the long term, I am supremely positive about Ethereum. It's going to be much more robust.",
+   "tags": [
+    "ethereum",
+    "prediction",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2016 Sirer said Solidity itself would not need to change, but infrastructure would be needed on top so developers write secure code.",
+   "speaker": "guest",
+   "start": 2196.8,
+   "quote": "And I don't know that Solidity itself needs to change, but we need to build some infrastructure on top that allows people to write secure code.",
+   "tags": [
+    "solidity",
+    "security",
+    "tooling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer explained that on Ethereum a hard fork could selectively undo the operations causally following the hack and restore the DAO to its pre-hack state.",
+   "speaker": "guest",
+   "start": 2329.7,
+   "quote": "But in Ethereum, it's possible to selectively undo some of the operations that are sort of related or causally followed the initial hack.",
+   "tags": [
+    "hard-fork",
+    "ethereum",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer argued that a hard fork refunding DAO holders was the simplest path and would reduce liability for Slocket.",
+   "speaker": "guest",
+   "start": 2362.8,
+   "quote": "This, I believe, would be the simplest, easiest path. It reduces liability on Slocket.",
+   "tags": [
+    "hard-fork",
+    "dao",
+    "governance"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer said some smart contracts, such as provably fair gambling sites, require no human intervention and should carry no regulatory overhead.",
+   "speaker": "guest",
+   "start": 2444.5,
+   "quote": "There exists a class of smart contracts out there that require absolutely no human intervention, right? So the simplest example I can give for this is if I go to a gambling website",
+   "tags": [
+    "smart-contracts",
+    "classification",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer proposed Solidity features that let programmers define invariants and trigger a fail-safe shutdown when they are violated.",
+   "speaker": "guest",
+   "start": 2515.6,
+   "quote": "So here is a set of circumstances where if this happens, then I want you to shut down the contract and put it into a fail-safe mode.",
+   "tags": [
+    "solidity",
+    "kill-switch",
+    "smart-contracts"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the DAO's proposal process was completely insufficient because it was supremely biased toward positive votes.",
+   "speaker": "guest",
+   "start": 2543.7,
+   "quote": "the current set of processes that this crowd of developers selected are completely insufficient",
+   "tags": [
+    "dao",
+    "governance",
+    "voting"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2016 Sirer said he had been considering submitting a proposal to the DAO, which he described as a cash machine that was designed to pay out.",
+   "speaker": "guest",
+   "start": 2570.8,
+   "quote": "so it was really dumb money sitting there and I was thinking of going before it with a proposal",
+   "tags": [
+    "dao",
+    "governance",
+    "funding"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 Sirer said the Ethereum community was more open to collaboration than Bitcoin's, which he said had many pump-and-dump traders.",
+   "speaker": "guest",
+   "start": 2878.7,
+   "quote": "And the pump and dumpers there, the people who are in it for short-term gains, they are quite numerous.",
+   "tags": [
+    "bitcoin-vs-ethereum",
+    "community",
+    "scams"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Sirer said in June 2016 that he first worked on cryptocurrency in 2002 with a proof-of-work system called Karma, before moving on to Bitcoin.",
+   "speaker": "guest",
+   "start": 2791.7,
+   "quote": "I started out on a system called Karma back in 2002 that had proof of work in it. But my first foray into cryptocurrencies, as the mainstream knows them now, was with Bitcoin.",
+   "tags": [
+    "bitcoin",
+    "history",
+    "karma"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2016 Sirer said a planned change to proof of stake made it dangerous for a hacker to hold a large share of the ether supply.",
+   "speaker": "guest",
+   "start": 3066.5,
+   "quote": "And it puts the shift to, you know, there's a planned change to proof of stake. And it's a little dangerous to have a hacker hold, you know, whatever percent of the ether out there",
+   "tags": [
+    "proof-of-stake",
+    "ethereum",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer explained that a Bitcoin hard fork would require rolling back all transactions because Bitcoin has no per-address account accounting.",
+   "speaker": "guest",
+   "start": 3738.0,
+   "quote": "Because there's no general accounting of what address has what tokens associated with it.",
+   "tags": [
+    "hard-fork",
+    "bitcoin",
+    "accounting"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer said Ethereum keeps a separate balance ledger of accounts, so a hard fork can move ether between accounts rather than rolling back transactions.",
+   "speaker": "guest",
+   "start": 3764.4,
+   "quote": "But with Ethereum, they have almost like a separate ledger. It's just balance.",
+   "tags": [
+    "hard-fork",
+    "ethereum",
+    "accounting"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer described a hard fork in which all DAO-linked ether is gathered into one contract that accounts from the creation phase can withdraw from.",
+   "speaker": "guest",
+   "start": 3793.3,
+   "quote": "They then take the Ether associated with those current accounts and then throw them into a single contract.",
+   "tags": [
+    "hard-fork",
+    "dao",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2016 a host said he had bought $100 worth of DAO tokens, then moved them to an exchange and sold them for bitcoin when the drain began.",
+   "speaker": "host",
+   "start": 3847.3,
+   "quote": "full disclosure, I bought $100 worth of DAO tokens. when everything went started going sideways i was like i'm out so i moved those tokens to an exchange sold them for bitcoin",
+   "tags": [
+    "dao",
+    "anecdote",
+    "markets"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In June 2016 Sirer argued that a global reset could let people double dip if they had already sold their DAO tokens, which would make a balance reset unlikely.",
+   "speaker": "guest",
+   "start": 3880.6,
+   "quote": "Now, because that was possible and people did that, such as yourself, that makes what I just said an unlikely scenario because that's exactly what would happen.",
+   "tags": [
+    "hard-fork",
+    "dao",
+    "accounting"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2016 Sirer proposed that a hard fork could track DAO tokens and set an exchange rate against the ether that was originally put into the DAO.",
+   "speaker": "guest",
+   "start": 3933.0,
+   "quote": "We can just pause at the end of the creation phase and say this much Ether went into the DAO.",
+   "tags": [
+    "hard-fork",
+    "dao",
+    "tokens"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2016 a host said DAO tokens bought below their crowdsale rate could roughly double an investor's money if the fork restored a 10 to 1 exchange rate.",
+   "speaker": "host",
+   "start": 4030.3,
+   "quote": "if the exchange rate is 20 to 1 when you bought the dow and you're going to get back 10 to 1 you've basically doubled your money",
+   "tags": [
+    "dao",
+    "markets",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2016 a host said he traded Mt. Gox coins for regular coins at about a 0.6 to 1 ratio at a loss because he felt they would not come back.",
+   "speaker": "host",
+   "start": 4096.1,
+   "quote": "I think that when I had a coin on Mt. Gox, and I immediately traded my Mt. Gox coins for regular coins at like a 0.6 to 1 ratio at a loss because I knew",
+   "tags": [
+    "mt-gox",
+    "markets",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2016 a host said the fact that the DAO ran on a blockchain made a roll-back possible, unlike Mt. Gox, which was off-chain.",
+   "speaker": "host",
+   "start": 4157.5,
+   "quote": "the fact that all of this was on a blockchain allows us to have even the possibility to roll it back.",
+   "tags": [
+    "blockchain",
+    "mt-gox",
+    "dao"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2016 a host said he might become completely pro-Ethereum in the coming weeks after being bearish for most of the saga.",
+   "speaker": "host",
+   "start": 4123.1,
+   "quote": "I've been sort of bearish Ethereum for a while at the beginning of this whole saga. I'm kind of in the middle right now. And maybe in the coming weeks, I'll be completely pro-Ethereum.",
+   "tags": [
+    "ethereum",
+    "prediction",
+    "markets"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2016 a host said ether would not dip far below $10 because of the positivity of the Ethereum community.",
+   "speaker": "unknown",
+   "start": 4269.9,
+   "quote": "I think that it's not going to dip too far below $10 if it does even get there.",
+   "tags": [
+    "ethereum",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/066-tbp68-deconstructing-thedao-attack",
+ "title": "TBP68 - Deconstructing theDAO Attack",
+ "date": "2016-06-27",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981830/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212721-44100-2-e7b0dcdf41fa9050.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

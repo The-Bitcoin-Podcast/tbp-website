@@ -1,0 +1,609 @@
+{
+ "episode_summary": "Episode 138 opens with hosts' banter about the August 1, 2017 hype and a debate over Bitcoin's staying power versus Ethereum, with SegWit and the Lightning Network discussed as scaling paths. The main interview is with Dave Carlson, CEO of Gigawatt, about its mining hosting business and Watt token sale. They cover power costs, mining centralization, the history of MegaBigPower, ASIC chip development costs, data center economics, and the tokenized access model.",
+ "guests": [
+  "Dave Carlson"
+ ],
+ "topics": [
+  "bitcoin mining",
+  "gigawatt",
+  "watt token",
+  "icos",
+  "segwit",
+  "asic chips",
+  "mining centralization",
+  "power costs"
+ ],
+ "cards": [
+  {
+   "type": "prediction",
+   "claim": "In July 2017 a host said that getting past Bitcoin's scaling issue would bring SegWit and the Lightning Network into use.",
+   "speaker": "host",
+   "start": 349.3,
+   "quote": "I think if we can get past this scaling issue, then we've got Segwit.",
+   "tags": [
+    "segwit",
+    "scaling",
+    "lightning"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 a host argued that Bitcoin's main edge over other coins was its largest mining community and its age, not any technical feature.",
+   "speaker": "host",
+   "start": 377.6,
+   "quote": "the only thing that bitcoin currently has is the fact that it has the largest mining community and it's the oldest network",
+   "tags": [
+    "bitcoin",
+    "mining",
+    "altcoins"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 a host argued that SegWit's added headroom was not enough by itself to solve Bitcoin's scaling problem.",
+   "speaker": "host",
+   "start": 455.3,
+   "quote": "The minimal amount of headroom that Segwit gives us that releases some of the pressure that Bitcoin currently faces is not enough to be a scaling solution.",
+   "tags": [
+    "segwit",
+    "scaling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 a host argued that Bitcoin changes paradigms while Ethereum mostly reinforces things already in play.",
+   "speaker": "host",
+   "start": 561.7,
+   "quote": "Because Bitcoin changes paradigms. These other things don't change any paradigms. They don't. Ethereum is really cool. But what paradigm does it change?",
+   "tags": [
+    "ethereum",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 a host criticized Coinbase for charging high fees while doing little to educate its new users.",
+   "speaker": "host",
+   "start": 752.5,
+   "quote": "They're hawking fees like it's going out of style.",
+   "tags": [
+    "coinbase",
+    "education",
+    "exchanges"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 the Watt token sale had started a few days earlier and was set to run until July 31, 2017.",
+   "speaker": "host",
+   "start": 969.8,
+   "quote": "The Watt token sales started a few days ago, and it's going to continue until July 31st.",
+   "tags": [
+    "ico",
+    "watt token",
+    "gigawatt"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 a host said Watt token holders would be able to mine Bitcoin on Gigawatt-hosted equipment for 50 years.",
+   "speaker": "host",
+   "start": 998.0,
+   "quote": "The Watt token holders will be able to mine Bitcoin with equipment hosted by Gigawatt for 50 freaking years, man.",
+   "tags": [
+    "watt token",
+    "gigawatt",
+    "ico"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2017 Dave Carlson said power cost is the most important factor a miner must weigh for long-term mining.",
+   "speaker": "Dave Carlson",
+   "start": 1192.4,
+   "quote": "And power cost is the most important thing that you have to consider if you're going to try to mine long term.",
+   "tags": [
+    "mining",
+    "power costs",
+    "economics"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2017 Dave Carlson said a miner should switch off its hardware once the power bill exceeds the value of the Bitcoin it earns.",
+   "speaker": "Dave Carlson",
+   "start": 1223.4,
+   "quote": "And at that crossover point, that's when it makes sense to just sort of turn them off and they're done.",
+   "tags": [
+    "mining",
+    "power costs",
+    "economics"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 Dave Carlson said centralization of mining hardware is unavoidable because mining economics are tied to the cost of power.",
+   "speaker": "Dave Carlson",
+   "start": 1307.1,
+   "quote": "But fundamentally, when the economics are tied back to the cost of power, you're going to have centralization of the hardware.",
+   "tags": [
+    "centralization",
+    "mining",
+    "power costs"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 Dave Carlson argued that aggregation of hash power into a few large pools is a bigger centralization risk than centralized hardware.",
+   "speaker": "Dave Carlson",
+   "start": 1402.9,
+   "quote": "So the pools, the largest pools or networks of large pools that have been broken up into small pools, collectively, those are the biggest risk to centralization, not centralized mining.",
+   "tags": [
+    "mining pools",
+    "centralization",
+    "hashrate"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Dave Carlson said a chip project his team worked on, after GPUs fell out of favor and FPGAs briefly took over, became the Bitfury 55 nanometer chip.",
+   "speaker": "Dave Carlson",
+   "start": 1515.3,
+   "quote": "And then during that time is when we worked on this chip project, which became the Bitfury 55 nanometer chip.",
+   "tags": [
+    "bitfury",
+    "asic chips",
+    "fpga",
+    "history"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Dave Carlson said critics on the forums claimed a megawatt could not be put into a single mining facility because of the heat.",
+   "speaker": "Dave Carlson",
+   "start": 1554.9,
+   "quote": "You can't put a megawatt in a single facility. It's too much heat.",
+   "tags": [
+    "megabigpower",
+    "mining facilities",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Dave Carlson said MegaBigPower's first 100 terahash deployment took up about 2,000 square feet of space.",
+   "speaker": "Dave Carlson",
+   "start": 1584.5,
+   "quote": "the 100 terahash when we deployed it took up a 2 000 square foot space",
+   "tags": [
+    "megabigpower",
+    "hashrate",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 Dave Carlson predicted that growth would continue while mining economics for the latest equipment declined as competition arrived.",
+   "speaker": "Dave Carlson",
+   "start": 1661.1,
+   "quote": "we'll still see a lot of growth and we'll see the economics of running latest and greatest equipment decline as competition comes in",
+   "tags": [
+    "mining",
+    "economics",
+    "hashrate"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Dave Carlson said overmining in 2014 depressed mining economics and kept the Bitcoin price flat to declining for a year and a half or more.",
+   "speaker": "Dave Carlson",
+   "start": 1716.2,
+   "quote": "And so in 2014, when it was truly a massive gold rush, there was essentially overmining.",
+   "tags": [
+    "mining",
+    "hashrate",
+    "history",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 Dave Carlson predicted that GPU mining would become a reprogrammable global supercomputing layer on which blockchains deliver apps and services.",
+   "speaker": "Dave Carlson",
+   "start": 1868.3,
+   "quote": "essentially a massive global supercomputing layer on which blockchains deliver apps and services",
+   "tags": [
+    "gpu mining",
+    "supercomputing",
+    "blockchain apps"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 Dave Carlson said GPU mining would completely redefine how computing is done at massive scale.",
+   "speaker": "Dave Carlson",
+   "start": 1910.3,
+   "quote": "The way I see this is completely redefining the way computing can be done at massive scale.",
+   "tags": [
+    "gpu mining",
+    "computing",
+    "gigawatt"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 Gigawatt said its first phase was building over 50 megawatts of modular, distributed infrastructure, including a 30 megawatt site coming up.",
+   "speaker": "Dave Carlson",
+   "start": 1940.3,
+   "quote": "Our first phase, we're actually building over 50 megawatts of infrastructure in a modular, distributed way.",
+   "tags": [
+    "gigawatt",
+    "data centers",
+    "megawatts"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 Dave Carlson said Bitcoin ASICs had moved from 55 nm to 28 nm to 16 nm and that someone was surely working on 7 nm, near the edge of what was feasible.",
+   "speaker": "Dave Carlson",
+   "start": 2111.6,
+   "quote": "and now i'm sure somebody's working on seven but like you said we're we're getting right there to the edge of what's even feasible",
+   "tags": [
+    "asic chips",
+    "process nodes",
+    "moore's law"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 Dave Carlson said the efficiency gain target for new Bitcoin chips had shrunk to about 30 percent rather than multiples.",
+   "speaker": "Dave Carlson",
+   "start": 2138.7,
+   "quote": "but it's not two and three X anymore or five or 10 X anymore. It's 30% is the target",
+   "tags": [
+    "asic chips",
+    "efficiency",
+    "mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 Dave Carlson estimated that developing a Bitcoin ASIC chip costs about 20 million dollars before production.",
+   "speaker": "Dave Carlson",
+   "start": 2169.0,
+   "quote": "extremely expensive at these process nodes is probably 20 million dollars to develop a Bitcoin chip today.",
+   "tags": [
+    "asic chips",
+    "cost",
+    "mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 Dave Carlson estimated that keeping pace with network growth would require roughly 400,000 S9 miners.",
+   "speaker": "Dave Carlson",
+   "start": 2254.2,
+   "quote": "today you'd need something you'd need like 400 000 s9s or something",
+   "tags": [
+    "s9",
+    "hashrate",
+    "network growth"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 Dave Carlson argued that network growth timelines had stretched out because a massively more efficient chip was much harder to bring to market.",
+   "speaker": "Dave Carlson",
+   "start": 2280.8,
+   "quote": "And I think that those timelines all stretch way out now that it's just that much harder to bring a massively more efficient chip.",
+   "tags": [
+    "asic chips",
+    "network growth",
+    "mining"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 Dave Carlson predicted that specialized chips would be built for high-performance computing functions once those functions proved valuable.",
+   "speaker": "Dave Carlson",
+   "start": 2312.0,
+   "quote": "what I'm expecting to see over time is to the extent that there's value in primitive HPC like high performance computing",
+   "tags": [
+    "asic chips",
+    "hpc",
+    "gpu mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 Dave Carlson predicted that separate specialized ASICs would be developed for each valuable compute function, such as floating point.",
+   "speaker": "Dave Carlson",
+   "start": 2339.5,
+   "quote": "you'll have an asic that does floating point or whatever you'll you know you'll have these different very highly specialized chips",
+   "tags": [
+    "asic chips",
+    "sha-256",
+    "hpc"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2017 Dave Carlson said blockchains are inherently fault tolerant, so Gigawatt's mining facilities did not need the redundancy of a data center.",
+   "speaker": "Dave Carlson",
+   "start": 2395.9,
+   "quote": "And then now with blockchain, in our infrastructure, blockchains are inherently fault tolerant.",
+   "tags": [
+    "data centers",
+    "fault tolerance",
+    "gigawatt"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2017 Dave Carlson said the blockchain keeps working when one mining site goes offline, because transactions keep moving forward on the network.",
+   "speaker": "Dave Carlson",
+   "start": 2427.8,
+   "quote": "If I go offline, the blockchain continues to work. Everything keeps moving forward. Transactions flow.",
+   "tags": [
+    "fault tolerance",
+    "mining",
+    "blockchain"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 Dave Carlson said a data center would typically ask around $150 a month to host a 1,000-watt device, while Gigawatt offered hosting as low as $55.",
+   "speaker": "Dave Carlson",
+   "start": 2489.3,
+   "quote": "they're going to ask you for somewhere in the range of $150.",
+   "tags": [
+    "data centers",
+    "hosting costs",
+    "gigawatt"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2017 Dave Carlson said mining does not need the fast interconnect scientific supercomputers use, since each miner is its own entity.",
+   "speaker": "Dave Carlson",
+   "start": 2585.8,
+   "quote": "And with blockchain, since essentially every miner is its own entity, you don't need this super fast interconnect",
+   "tags": [
+    "supercomputing",
+    "mining",
+    "infrastructure"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 Dave Carlson said he saw Gigawatt as building the largest global supercomputer mankind had ever seen.",
+   "speaker": "Dave Carlson",
+   "start": 2729.6,
+   "quote": "I get to essentially build or take part in building the largest global supercomputer man has ever seen",
+   "tags": [
+    "gigawatt",
+    "supercomputing",
+    "gpu mining"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 Dave Carlson said the cost of hydropower production in his local public utility district area was about two and a half cents per kilowatt-hour.",
+   "speaker": "Dave Carlson",
+   "start": 2853.6,
+   "quote": "the cost of production of hydropower is in that two and a half cent per kilowatt hour range.",
+   "tags": [
+    "power costs",
+    "hydropower",
+    "gigawatt"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2017 Dave Carlson said Gigawatt's token model sold one token per watt, so 10,000 tokens gave a holder 10,000 watts of mining at cost.",
+   "speaker": "Dave Carlson",
+   "start": 2949.9,
+   "quote": "We could tokenize it per watt. So if you need 10,000 watts for your little mine, then you buy 10,000 tokens.",
+   "tags": [
+    "watt token",
+    "tokenization",
+    "gigawatt"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In July 2017 the host argued that the incentive structure of Bitcoin, Ethereum and Litecoin leaves the people with governance power caring least about decisions, and Dave Carlson agreed that miners focus on survival.",
+   "speaker": "host",
+   "start": 3103.3,
+   "quote": "the incentive structure of blockchains like Bitcoin and Ethereum and Litecoin have aligned themselves in such a way",
+   "tags": [
+    "governance",
+    "miners",
+    "block size"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Dave Carlson said that while running his own pool at MegaBigPower he found larger blocks hurt pool performance.",
+   "speaker": "Dave Carlson",
+   "start": 3258.6,
+   "quote": "when I was running my own pool at MegaBigPower, it became apparent that larger blocks actually was bad for performance.",
+   "tags": [
+    "megabigpower",
+    "block size",
+    "mining pools"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Dave Carlson said that during transaction-spam attacks he once turned off all transactions except the coinbase, because the spam was crashing his pool and costing him money.",
+   "speaker": "Dave Carlson",
+   "start": 3300.4,
+   "quote": "at one point i turned off all transactions except for the one coinbase transaction that paid me the reward",
+   "tags": [
+    "transaction spam",
+    "mining pools",
+    "block size"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2017 Dave Carlson said the block size debate would be settled when someone releases a version that makes miners more money.",
+   "speaker": "Dave Carlson",
+   "start": 3446.3,
+   "quote": "So I always felt that the block size debate is solved when someone puts up a version that makes me more money.",
+   "tags": [
+    "block size",
+    "consensus",
+    "miners"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 Dave Carlson said Gigawatt would still be strong after the token-sale money raises went away.",
+   "speaker": "Dave Carlson",
+   "start": 3648.9,
+   "quote": "I feel like the token sale, the crazy token money raises that we've seen, when those go away, we'll still be strong.",
+   "tags": [
+    "watt token",
+    "ico",
+    "gigawatt"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2017 Dave Carlson described the blockchain as a peer-to-peer database for transactional data that was increasingly used to store document-type data.",
+   "speaker": "Dave Carlson",
+   "start": 3676.5,
+   "quote": "Well, to me, the blockchain is a peer-to-peer database that can be utilized for transactional data",
+   "tags": [
+    "blockchain",
+    "database",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/181-tbp138-the-21st-century-49ers",
+ "title": "TBP138 - The 21st Century 49ers",
+ "date": "2017-07-16",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981908/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212828-48000-2-c0c90db10522eade.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

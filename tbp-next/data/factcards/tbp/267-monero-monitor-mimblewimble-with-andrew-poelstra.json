@@ -1,0 +1,450 @@
+{
+ "episode_summary": "Cross-aired episode (Dec 2017) of the Monero Monitor podcast, hosted by Mike, with Andrew Poelstra of Blockstream. They cover Mimblewimble: how cut-through removes intermediate transactions, the origin of the 'Tom Elvis Jedusor' white paper and its links to Bytecoin and OWAS, confidential transactions and ValueShuffle for privacy, Bulletproofs for range-proof size and speed, interactive payments to merchants, scriptless scripts for atomic swaps, and the Grin project.",
+ "guests": [
+  "Andrew Poelstra"
+ ],
+ "topics": [
+  "mimblewimble",
+  "monero",
+  "confidential-transactions",
+  "bulletproofs",
+  "valueshuffle",
+  "zcash",
+  "grin",
+  "scriptless-scripts"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In 2016 Andrew Poelstra gave the first public talk about Mimblewimble at Scaling Bitcoin.",
+   "speaker": "Andrew Poelstra",
+   "start": 324.2,
+   "quote": "I gave the first public talk about it and scaling Bitcoin in 2016.",
+   "tags": [
+    "mimblewimble",
+    "scaling-bitcoin",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra explained that Mimblewimble's key trick is a quirk of confidential-transaction algebra that lets transactions be cut through, so intermediate steps can be deleted from the chain.",
+   "speaker": "Andrew Poelstra",
+   "start": 550.6,
+   "quote": "it exploits a quirk of confidential transactions algebra to allow transactions to be cut through.",
+   "tags": [
+    "mimblewimble",
+    "cut-through",
+    "confidential-transactions"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra said a Mimblewimble chain can be treated as one enormous transaction, so a verifier only needs to check each original transaction's signature.",
+   "speaker": "Andrew Poelstra",
+   "start": 602.1,
+   "quote": "In Mimblewimble you can take the blockchain essentially treat it as one enormous transaction",
+   "tags": [
+    "mimblewimble",
+    "validation",
+    "scalability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra explained that a verifier of a Mimblewimble chain needs only a single digital signature per original transaction rather than replaying every historic transaction.",
+   "speaker": "Andrew Poelstra",
+   "start": 631.5,
+   "quote": "All they need to check is for each original transaction just a single digital signature.",
+   "tags": [
+    "mimblewimble",
+    "validation",
+    "signatures"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said Monero was based on Bytecoin, which he called a bizarre pre-mine scam, and that Monero's ring signature came from it.",
+   "speaker": "Andrew Poelstra",
+   "start": 856.4,
+   "quote": "So Monero, as you know, is based off of Bytecoin, which was some bizarre pre-mine scam.",
+   "tags": [
+    "monero",
+    "bytecoin",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said there was a lot of evidence that the signature on the December 2012 white paper by Nicholas Van Saberhagen was faked, with software that did not exist in 2012.",
+   "speaker": "Andrew Poelstra",
+   "start": 910.2,
+   "quote": "there's a whole lot of evidence that the signature on that white paper was faked and that it was signed with software that didn't even exist in 2012.",
+   "tags": [
+    "monero",
+    "cryptonote",
+    "history",
+    "bytecoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra described OWAS, a one-way aggregate signature paper published on Bitcoin Talk in September 2013 under the pseudonym Horace, as a direct precursor to Mimblewimble.",
+   "speaker": "Andrew Poelstra",
+   "start": 967.2,
+   "quote": "it was published by a person under the name horace which is my best pronunciation of this is an anagram of anonymous author",
+   "tags": [
+    "owas",
+    "mimblewimble",
+    "history",
+    "pairing-cryptography"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2016 a pseudonymous developer calling himself Tom Elvis Jedusor signed on to the Bitcoin Wizards IRC channel as Major Player and then vanished.",
+   "speaker": "Andrew Poelstra",
+   "start": 1059.9,
+   "quote": "he signed on to the Bitcoin Wizards IRC channel under the name Major Player from an IP address that is somewhere outside of Los Angeles",
+   "tags": [
+    "mimblewimble",
+    "history",
+    "bitcoin-wizards"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2016 Tom Elvis Jedusor posted a link to a Tor hidden service hosting a plain-text Mimblewimble white paper on the Bitcoin Wizards IRC channel.",
+   "speaker": "Andrew Poelstra",
+   "start": 1086.6,
+   "quote": "It was a .onion link to a Tor hidden service that was just a plain text white paper.",
+   "tags": [
+    "mimblewimble",
+    "history",
+    "tor"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra said there was no reliable way to prove the author of the Mimblewimble paper was who he claimed, since he left no cryptographic key beyond the Tor service URL.",
+   "speaker": "Andrew Poelstra",
+   "start": 1165.9,
+   "quote": "there isn't really any way to figure out that this is him. He didn't leave a cryptographic key or anything like that.",
+   "tags": [
+    "mimblewimble",
+    "anonymity",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Mike noted that Tom Elvis Jedusor is the French name of Lord Voldemort in the Harry Potter books, which is one reason the author was thought to be French.",
+   "speaker": "Mike",
+   "start": 1245.9,
+   "quote": "Tom Elvis Jedusor is the French name of Lord Voldemort in the Harry Potter books.",
+   "tags": [
+    "mimblewimble",
+    "harry-potter",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said he wrote his own Mimblewimble white paper a couple of months after the Jedusor paper, presenting it at Scaling Bitcoin Milan in 2016.",
+   "speaker": "Andrew Poelstra",
+   "start": 1550.2,
+   "quote": "a couple months after the Voldemort paper dropped I wrote my own white paper that I published at Scaling Bitcoin Milan in 2016",
+   "tags": [
+    "mimblewimble",
+    "scaling-bitcoin",
+    "history"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said his 2016 pairing-based kernel compression could shrink a Mimblewimble blockchain from about 80 GB to 15 GB as Jedusor had done, and then down to about 1 MB.",
+   "speaker": "Andrew Poelstra",
+   "start": 1633.4,
+   "quote": "shrink not only from like 80 gig to 15 gig as Voldemort had done, but from 15 gig down to like one megabyte",
+   "tags": [
+    "mimblewimble",
+    "blockchain-size",
+    "pairings"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra described ValueShuffle, developed by Tim Ruffing and Pedro Moreno-Sanchez, as a way to CoinJoin confidential transactions so that outputs look unrelated.",
+   "speaker": "Andrew Poelstra",
+   "start": 2124.4,
+   "quote": "So there's a technology called Value Shuffle that was developed by Tim Ruffing and Pedro Marino-Sanchez.",
+   "tags": [
+    "valueshuffle",
+    "coinjoin",
+    "privacy"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra said ValueShuffle is interactive, so participants must be online to run it, unlike miners who can cut through Mimblewimble transactions on their own.",
+   "speaker": "Andrew Poelstra",
+   "start": 2175.9,
+   "quote": "And value shuffle is an interactive protocol. The miners can't just do this themselves the way that they can in Mimblewimble blocks.",
+   "tags": [
+    "valueshuffle",
+    "coinjoin",
+    "mimblewimble"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Mike estimated that Mimblewimble with ValueShuffle would give about 95 to 99 percent of the privacy of Zcash or Monero in exchange for far better scaling.",
+   "speaker": "Mike",
+   "start": 2450.4,
+   "quote": "we have maybe 99% of the privacy with this as we might have, or maybe 95% or something.",
+   "tags": [
+    "privacy",
+    "mimblewimble",
+    "scalability",
+    "zcash"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In December 2017 the hosts said only one or two percent of Zcash transactions were shielded, because shielded proofs were too expensive to produce on a phone or at exchange volumes.",
+   "speaker": "unknown",
+   "start": 2511.3,
+   "quote": "Only like one or two percent of all Zcash transactions are shielded",
+   "tags": [
+    "zcash",
+    "shielded-transactions",
+    "privacy",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "Mike said a Mimblewimble node could sync almost instantly, and Andrew Poelstra replied that this was too optimistic because it still takes time to validate the unspent outputs.",
+   "speaker": "Andrew Poelstra",
+   "start": 2656.6,
+   "quote": "The big thing that's too optimistic right now is this comment about instant. It's not quite instant. It's still slow.",
+   "tags": [
+    "mimblewimble",
+    "full-node",
+    "validation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said that in December 2017 validating one range proof took about eight milliseconds per output on his system, and each range proof was four to five kilobytes.",
+   "speaker": "Andrew Poelstra",
+   "start": 2736.8,
+   "quote": "on my system, for example, it takes about eight milliseconds per output to validate these range proofs",
+   "tags": [
+    "range-proofs",
+    "confidential-transactions",
+    "performance"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said Bulletproofs would cut an individual range proof from about 5 KB to about 750 bytes.",
+   "speaker": "Andrew Poelstra",
+   "start": 2790.7,
+   "quote": "The first is that for individual rangeproofs, this 5 kilobyte size goes down to about 750 bytes with a massive space decrease.",
+   "tags": [
+    "bulletproofs",
+    "range-proofs",
+    "monero"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said combining Bulletproof range proofs adds only about 64 bytes per doubling, so two proofs cost about 64 extra bytes rather than another 750.",
+   "speaker": "Andrew Poelstra",
+   "start": 2817.3,
+   "quote": "Well to put two of them together you can do that with only 64 extra bytes not another 750.",
+   "tags": [
+    "bulletproofs",
+    "range-proofs",
+    "scaling"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andrew Poelstra said a 64-bit Bulletproof range proof verified in about 2.2 milliseconds on his machine, roughly a 3.5 times speedup over the original 8 ms.",
+   "speaker": "Andrew Poelstra",
+   "start": 2873.1,
+   "quote": "I can do a 64-bit bulletproof range proof, and that takes something like 2.5, I think 2.2 milliseconds.",
+   "tags": [
+    "bulletproofs",
+    "performance",
+    "range-proofs"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In December 2017 Andrew Poelstra predicted that Monero and other confidential-transaction chains could get two to three times faster with extra engineering after Bulletproofs.",
+   "speaker": "Andrew Poelstra",
+   "start": 2950.7,
+   "quote": "I would expect we can get two to three times just with extra engineering effort.",
+   "tags": [
+    "bulletproofs",
+    "monero",
+    "predictions",
+    "performance"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra explained that in an interactive Mimblewimble payment the joint signature on the kernel, which goes on chain, proves the payer paid the store.",
+   "speaker": "Andrew Poelstra",
+   "start": 3377.3,
+   "quote": "And it turns out that this joint signature itself, and that will go in the blockchain, is evidence that you paid the store.",
+   "tags": [
+    "mimblewimble",
+    "payments",
+    "proof-of-payment"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra called scriptless scripts the more exciting Mimblewimble development, letting signatures carry conditions such as atomic swaps without a script system.",
+   "speaker": "Andrew Poelstra",
+   "start": 3773.5,
+   "quote": "As far as scriptless scripts, this is really the more exciting thing.",
+   "tags": [
+    "scriptless-scripts",
+    "atomic-swaps",
+    "mimblewimble"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In December 2017 Andrew Poelstra predicted Bitcoin would be able to use Schnorr-signature scriptless scripts, hopefully within the next 12 months.",
+   "speaker": "Andrew Poelstra",
+   "start": 3958.1,
+   "quote": "You can do it in Bitcoin. Well, you will be able to soon. Soon meaning hopefully in the next 12 months.",
+   "tags": [
+    "schnorr",
+    "bitcoin",
+    "predictions",
+    "scriptless-scripts"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andrew Poelstra said scriptless scripts can build atomic swaps and lightning-style channels by using signatures in place of script.",
+   "speaker": "Andrew Poelstra",
+   "start": 3986.8,
+   "quote": "And that you can use to build atomic swaps. You can use it to build kind of lightning channels.",
+   "tags": [
+    "scriptless-scripts",
+    "atomic-swaps",
+    "lightning"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In December 2017 Andrew Poelstra said Grin looked likely to be the first real-life Mimblewimble implementation people could use, ahead of Blockstream's Elements.",
+   "speaker": "Andrew Poelstra",
+   "start": 4069.1,
+   "quote": "it does seem like they're going to be the first real-life instantiation of Mimblewimble that people can play with and use.",
+   "tags": [
+    "grin",
+    "mimblewimble",
+    "predictions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/267-monero-monitor-mimblewimble-with-andrew-poelstra",
+ "title": "Monero Monitor: Mimblewimble with Andrew Poelstra",
+ "date": "2017-12-11",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982090/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213002-44100-2-38673fb5e1b7ddae.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

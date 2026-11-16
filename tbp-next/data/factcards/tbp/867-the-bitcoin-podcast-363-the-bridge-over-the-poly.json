@@ -1,0 +1,405 @@
+{
+ "episode_summary": "Episode 363 (August 2021): a roundtable of the hosts on the Poly Network hack of about $600 million and the hacker's returns, a US infrastructure-bill provision that would have covered wallet software, the New York BitLicense, China's BSN network, the London upgrade's ether burn, USDC backing, DeFi token proliferation, and crypto's energy use.",
+ "guests": [],
+ "topics": [
+  "poly network hack",
+  "infrastructure bill",
+  "bitlicense",
+  "china bsn",
+  "usdc stablecoin",
+  "eip-1559 burn",
+  "defi",
+  "nft"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In August 2021 about $600 million was stolen in a hack of the Poly Network, which the hosts called the largest hack of all time.",
+   "speaker": "host",
+   "start": 197.5,
+   "quote": "$600 million stolen from the Polygon Network",
+   "tags": [
+    "poly-network",
+    "hack",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 the Poly Network hacker reportedly returned about $120 million of the stolen funds.",
+   "speaker": "host",
+   "start": 254.2,
+   "quote": "And he's given back, I think, $120 million of it because he feels bad.",
+   "tags": [
+    "poly-network",
+    "hack"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts recalled the Mt. Gox hack as roughly 850,000 bitcoin, worth about $450 million at the time.",
+   "speaker": "host",
+   "start": 338.4,
+   "quote": "It was $450 million at the time, but 850,000 Bitcoins.",
+   "tags": [
+    "mt-gox",
+    "hack",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2021 the Poly Network hacker reportedly sent $48,200 worth of ether to a person who warned him that stolen tether would be blacklisted.",
+   "speaker": "host",
+   "start": 392.4,
+   "quote": "Here's $48,200 worth of ether.",
+   "tags": [
+    "poly-network",
+    "hack",
+    "tether"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 the Poly Network hacker was reportedly trying to work with the Polygon team to return the stolen funds.",
+   "speaker": "host",
+   "start": 421.1,
+   "quote": "he's trying to work with the Polygon team to give it back",
+   "tags": [
+    "poly-network",
+    "hack"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 a proposed clause in the US infrastructure bill would have treated anyone touching crypto, including personal wallet developers, as a money services provider.",
+   "speaker": "host",
+   "start": 703.9,
+   "quote": "they tried to squeeze in some legislation that would mean that like you have to keep track of like you become a money services provider",
+   "tags": [
+    "infrastructure-bill",
+    "regulation",
+    "wallets"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 a host said his company, which runs a non-custodial wallet, offered no services in the United States and operated from Singapore.",
+   "speaker": "host",
+   "start": 1387.2,
+   "quote": "My company doesn't offer services to the United States.",
+   "tags": [
+    "regulation",
+    "wallets",
+    "status"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 a host argued the New York BitLicense, authored by a regulator, stifled crypto development in New York and protected the stock market.",
+   "speaker": "host",
+   "start": 893.4,
+   "quote": "right after he authored and pushed through the BitLicense in New York, which essentially stifled all development in New York",
+   "tags": [
+    "bitlicense",
+    "new-york",
+    "regulation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "After the BitLicense, many crypto services said they served Americans except in New York, a point the hosts raised in August 2021.",
+   "speaker": "host",
+   "start": 952.4,
+   "quote": "yeah, we offer service to Americans except for New York",
+   "tags": [
+    "bitlicense",
+    "regulation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 a host said the BitLicense required almost $750,000 of capital to run a Bitcoin business in New York.",
+   "speaker": "host",
+   "start": 1141.3,
+   "quote": "it says pretty much you need like almost three quarters of a million dollars just to have a Bitcoin business in New York",
+   "tags": [
+    "bitlicense",
+    "capital-requirements"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 a host warned that China was investing heavily in blockchain infrastructure over the next decade or two in order to control it.",
+   "speaker": "host",
+   "start": 1225.2,
+   "quote": "because they're dumping a tremendous amount of money in blockchain",
+   "tags": [
+    "china",
+    "blockchain-infrastructure",
+    "geopolitics"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 a host explained the Blockchain Services Network (BSN) as China's central hub through which blockchains would connect.",
+   "speaker": "host",
+   "start": 1278.7,
+   "quote": "Blockchain Services Network. That's what China's central hub that all the blockchain is connected to.",
+   "tags": [
+    "bsn",
+    "china",
+    "blockchain-infrastructure"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 the hosts said the infrastructure bill hoped to raise roughly $50 to $200 billion from crypto taxes alone.",
+   "speaker": "host",
+   "start": 1444.6,
+   "quote": "they're hoping to raise like something like 50 to 200 something billion dollars from crypto taxes alone",
+   "tags": [
+    "infrastructure-bill",
+    "taxes",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 a host argued DeFi had grown fast on a technology stack that was not yet ready for the money it handled.",
+   "speaker": "host",
+   "start": 1541.6,
+   "quote": "Look at how fast DeFi has blown up on a technology stack that isn't ready for that kind of money yet.",
+   "tags": [
+    "defi",
+    "scaling"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 a host argued the US gained an edge by not overregulating the automobile, unlike England, and warned crypto could face the same mistake.",
+   "speaker": "host",
+   "start": 1596.4,
+   "quote": "But all across the pond over in England, they overregulated the automobile.",
+   "tags": [
+    "regulation",
+    "innovation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2021 a host warned that overregulating crypto would leave America behind other countries.",
+   "speaker": "host",
+   "start": 1627.6,
+   "quote": "I hope legislators wake up and realize that if we are hard, take a hard line of not knowing what we're doing and overregulate crypto",
+   "tags": [
+    "regulation",
+    "us-policy",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021, after the London upgrade, the hosts said ether was being burned in fees at a fast rate.",
+   "speaker": "host",
+   "start": 1861.3,
+   "quote": "there's been an ether burn been burning ether like it's going out of style",
+   "tags": [
+    "eip-1559",
+    "ethereum",
+    "london-upgrade"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Coinbase reportedly removed its claim that USDC was backed by US dollars.",
+   "speaker": "host",
+   "start": 2484.6,
+   "quote": "So Coinbase removes backed by US dollars claim for USDC stablecoin.",
+   "tags": [
+    "usdc",
+    "coinbase",
+    "stablecoins"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 a host explained fractional reserve banking as a bank holding less cash than its deposit liabilities, and compared stablecoin backing to it.",
+   "speaker": "host",
+   "start": 2543.0,
+   "quote": "fractional reserve banking is like hey i don't have enough money in this bank to even support the number of deposits that i have",
+   "tags": [
+    "banking",
+    "stablecoins",
+    "reserves"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 a host said many DeFi projects minted tokens with no real value, a sign that crypto was repeating its own mistakes.",
+   "speaker": "host",
+   "start": 2694.8,
+   "quote": "everybody's running up defy projects that essentially mint random ass tokens for nothing",
+   "tags": [
+    "defi",
+    "tokens",
+    "speculation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 a host argued Bitcoin's appeal had been its limited supply, which DeFi was abandoning.",
+   "speaker": "host",
+   "start": 2665.5,
+   "quote": "the crypto that we were talking about bitcoin specifically it was cool because it was limited",
+   "tags": [
+    "bitcoin",
+    "scarcity",
+    "defi"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 a host said EIP-1559's fee burn had made ether deflationary, giving it some of Bitcoin's properties.",
+   "speaker": "host",
+   "start": 3168.8,
+   "quote": "you essentially have made Ether deflationary overnight",
+   "tags": [
+    "ethereum",
+    "eip-1559",
+    "deflation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In August 2021 a host argued that crypto networks, after a decade, all centralize in some way despite being designed to be decentralized.",
+   "speaker": "host",
+   "start": 3447.9,
+   "quote": "all of these networks centralize in some way, shape, or form",
+   "tags": [
+    "decentralization",
+    "centralization"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 a host defended Bitcoin mining's energy use as turning energy into money for a potential global currency.",
+   "speaker": "host",
+   "start": 3997.1,
+   "quote": "because we're turning energy into money and potentially a main currency system that runs on the planet",
+   "tags": [
+    "mining",
+    "energy",
+    "environment"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 a host said NFTs were about more than JPEGs on a hard drive, pointing to decentralized storage such as the interplanetary filing system (IPFS).",
+   "speaker": "host",
+   "start": 4218.6,
+   "quote": "NFTs aren't just about JPEGs stored on someone's hard drive.",
+   "tags": [
+    "nft",
+    "ipfs",
+    "storage"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 the hosts pointed listeners to ultrasound.money to track the Ethereum burn.",
+   "speaker": "host",
+   "start": 4496.2,
+   "quote": "is a website where you can see how quickly the Ethereum burn is happening",
+   "tags": [
+    "ethereum",
+    "eip-1559",
+    "tools"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/867-the-bitcoin-podcast-363-the-bridge-over-the-poly",
+ "title": "The Bitcoin Podcast #363-The Bridge Over The Poly Network",
+ "date": "2021-08-16",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982135/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213047-44100-1-929bff3b64c01966.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

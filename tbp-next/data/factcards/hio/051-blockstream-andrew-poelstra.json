@@ -1,0 +1,414 @@
+{
+ "episode_summary": "Corey Petty and Colin Couchet interview Blockstream Director of Research Andrew Poelstra about why ECDSA is not a strong signature, the history of transaction malleability and SegWit, the Schnorr signature patent story, and Taproot with Pay-to-Contract. They also cover Mimblewimble, adaptor signatures, and criticism of Ethereum's design and node storage costs.",
+ "guests": [
+  "Andrew Poelstra"
+ ],
+ "topics": [
+  "schnorr signatures",
+  "taproot",
+  "segwit",
+  "mimblewimble",
+  "ecdsa",
+  "ethereum",
+  "transaction malleability",
+  "scriptless scripts"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said transaction malleability was a really big deal before SegWit.",
+   "speaker": "Andrew Poelstra",
+   "start": 500.3,
+   "quote": "This used to be a really big deal before Segwit.",
+   "tags": [
+    "transaction malleability",
+    "segwit"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra explained third-party malleability: an attacker could alter a transaction's signature, changing its transaction ID while keeping it valid.",
+   "speaker": "Andrew Poelstra",
+   "start": 531.4,
+   "quote": "somebody is able to tweak your signature somehow, or like add padding to your signature or do something",
+   "tags": [
+    "transaction malleability",
+    "txid",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra explained first-party malleability: each co-signer's signature changed a multisig transaction's TXID.",
+   "speaker": "Andrew Poelstra",
+   "start": 635.1,
+   "quote": "every time somebody adds their own signature to the transaction, that causes the TXID to change",
+   "tags": [
+    "multisig",
+    "segwit",
+    "txid"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra described SegWit as moving witness data, including signatures, out of the part of the transaction that feeds the transaction ID.",
+   "speaker": "Andrew Poelstra",
+   "start": 689.2,
+   "quote": "the witness data, which includes signatures like this, is simply moved out of the part of the transaction that goes into the TXID",
+   "tags": [
+    "segwit",
+    "txid",
+    "witness"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said Satoshi needed a strong signature scheme, not plain ECDSA, so that transaction IDs could not be malleated.",
+   "speaker": "Andrew Poelstra",
+   "start": 773.4,
+   "quote": "what Satoshi needed to use was something called a strong signature",
+   "tags": [
+    "ecdsa",
+    "strong signature",
+    "malleability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra explained that an ECDSA signature can be tweaked by negating its S value, because verification checks only the x-coordinate of the final point.",
+   "speaker": "Andrew Poelstra",
+   "start": 1138.2,
+   "quote": "in the ECDSA signature verification equation, the only thing that gets checked is the x-coordinate of the final point",
+   "tags": [
+    "ecdsa",
+    "elliptic curves",
+    "malleability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra explained that in Schnorr the nonce goes into the hash, so the signer's nonce is fixed before the message hash is chosen.",
+   "speaker": "Andrew Poelstra",
+   "start": 1547.7,
+   "quote": "in Schnorr, the nonce goes into the hash",
+   "tags": [
+    "schnorr",
+    "nonce",
+    "ecdsa"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2019 Andrew Poelstra said ECDSA's nonce handling was a patent-evasion trick against the 1991 Schnorr signature patent held by Klaus Schnorr.",
+   "speaker": "Andrew Poelstra",
+   "start": 1638.8,
+   "quote": "the reason this is done is basically to evade a patent that Schnorr put, that Klaus Schnorr put on the Schnorr signature algorithm in 1991",
+   "tags": [
+    "ecdsa",
+    "schnorr",
+    "patent"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2019 Andrew Poelstra said the Schnorr patent expired in 2008, and Ed25519 in 2011 was the first use of Schnorr-style signatures he knew of after that.",
+   "speaker": "Andrew Poelstra",
+   "start": 2126.3,
+   "quote": "the Schnorr just didn't get used until the patent expired in 2008",
+   "tags": [
+    "schnorr",
+    "patent",
+    "ed25519"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2019 Andrew Poelstra said the Schnorr patent holder made no money from it, because NIST defined ECDSA to evade the patent.",
+   "speaker": "Andrew Poelstra",
+   "start": 2098.4,
+   "quote": "he didn't make a dime because NIST defined the ECDSA algorithm to evade this patent",
+   "tags": [
+    "schnorr",
+    "patent",
+    "nist",
+    "ecdsa"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said SHA-2 is treated as uniformly random because the most efficient known SHA-2 proof of work is just hashing over and over.",
+   "speaker": "Andrew Poelstra",
+   "start": 2012.3,
+   "quote": "the most efficient way to do SHA-2 proof of work that anyone found is to just hash over and over and over",
+   "tags": [
+    "sha-256",
+    "randomness",
+    "proof of work"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra described Taproot as a proposal that makes a Bitcoin output's witness program just a public key, spent with a Schnorr signature.",
+   "speaker": "Andrew Poelstra",
+   "start": 2242.8,
+   "quote": "rather than having the program be a hash of a bunch of Bitcoin script opcodes describing a program, the program will just be a public key",
+   "tags": [
+    "taproot",
+    "schnorr",
+    "witness program"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2019 Andrew Poelstra said Blockstream Green wallet coins were typically controlled by a 2-of-2 output, with Blockstream co-signing.",
+   "speaker": "Andrew Poelstra",
+   "start": 2326.5,
+   "quote": "if you use the Blockstream green wallet, I believe all the coins are controlled by a two of two output, so you need to sign and Blockstream needs to sign",
+   "tags": [
+    "blockstream green",
+    "multisig",
+    "custody"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said Blockstream's Liquid sidechain is federated, with 11 of 15 participants needing to sign to move coins back.",
+   "speaker": "Andrew Poelstra",
+   "start": 2728.6,
+   "quote": "The way that I'm aware of it being used is in Blockstream's Liquid, which is a side chain",
+   "tags": [
+    "liquid",
+    "sidechain",
+    "pay to contract"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra explained pay to contract as tweaking an elliptic curve public key with a hash so it commits to hidden extra data.",
+   "speaker": "Andrew Poelstra",
+   "start": 2672.1,
+   "quote": "where you take an elliptic curve point and you add to that point another point, which is a hash of the original point and then also some extra data",
+   "tags": [
+    "pay to contract",
+    "taproot",
+    "commitments"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said that with Taproot an observer sees one key and one signature, and cannot tell how many signers are involved or what contract sits inside.",
+   "speaker": "Andrew Poelstra",
+   "start": 2896.6,
+   "quote": "it's indistinguishable how many signers are involved. It's indistinguishable what kind of threshold or weird policy of signers involved.",
+   "tags": [
+    "taproot",
+    "privacy",
+    "multisig"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2019 Andrew Poelstra said Taproot is ultimately rolling your own crypto, but that new cryptography has to be reviewed by the wider community.",
+   "speaker": "Andrew Poelstra",
+   "start": 3183.6,
+   "quote": "ultimately, this is rolling your own crypto. But ultimately, somebody has to roll new crypto",
+   "tags": [
+    "taproot",
+    "rolling your own crypto",
+    "review"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said Confidential Transactions, developed by Greg Maxwell in 2015, replace transaction amounts with hiding, binding commitments.",
+   "speaker": "Andrew Poelstra",
+   "start": 3504.5,
+   "quote": "Confidential transactions was a scheme for replacing all of the inputs and outputs amounts in transactions with these hiding binding commitments",
+   "tags": [
+    "confidential transactions",
+    "mimblewimble",
+    "pedersen commitments"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said Mimblewimble transactions are authorized by a Schnorr signature over a kernel that is both a commitment to zero and a joint public key of all participants.",
+   "speaker": "Andrew Poelstra",
+   "start": 3699.6,
+   "quote": "It's both a commitment to zero, and it's also a public key belonging jointly to all of the participants in the transaction",
+   "tags": [
+    "mimblewimble",
+    "schnorr",
+    "kernel"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said Mimblewimble could not support hash-preimage atomic swaps or Lightning, because deleting transaction data means the chain cannot enforce them.",
+   "speaker": "Andrew Poelstra",
+   "start": 3810.4,
+   "quote": "You can't do this in Mimblewimble because you're deleting all of the transaction data.",
+   "tags": [
+    "mimblewimble",
+    "atomic swaps",
+    "lightning"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said he found a way to put hash preimages into Mimblewimble using an adaptive signature, a two-party Schnorr scheme.",
+   "speaker": "Andrew Poelstra",
+   "start": 3864.9,
+   "quote": "I found a way through something called an adaptive signature",
+   "tags": [
+    "adaptor signatures",
+    "mimblewimble",
+    "schnorr"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In July 2019 Andrew Poelstra said Ethereum was a fractal of bad design choices, with a smart-contract language designed to be undecidable.",
+   "speaker": "Andrew Poelstra",
+   "start": 4833.5,
+   "quote": "my feeling on Ethereum more generally is that it is just a fractal of bad design choices",
+   "tags": [
+    "ethereum",
+    "evm",
+    "smart contracts"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2019 Andrew Poelstra said a full Ethereum node needed roughly a terabyte of storage, while a Bitcoin node was about 250 to 300 gigabytes.",
+   "speaker": "Andrew Poelstra",
+   "start": 5140.1,
+   "quote": "In Bitcoin, that's probably 250, almost 300 gigabytes",
+   "tags": [
+    "ethereum",
+    "bitcoin",
+    "node storage"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said the EVM's per-contract data stores make Ethereum expensive to verify, with a full equivalent of a transaction index about a terabyte.",
+   "speaker": "Andrew Poelstra",
+   "start": 5033.1,
+   "quote": "If you maintain like a full equivalent to TX index on Ethereum, it's like a terabyte or something",
+   "tags": [
+    "ethereum",
+    "evm",
+    "verification"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2019 Andrew Poelstra said the Snarks for Sea paper in October 2013 was the first hint that compact zero-knowledge proofs might be practical.",
+   "speaker": "Andrew Poelstra",
+   "start": 160.0,
+   "quote": "This was the first paper that hinted that maybe these Snarks, these compact zero-knowledge proofs might be practical",
+   "tags": [
+    "zero knowledge",
+    "snarks",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In July 2019 Andrew Poelstra said IOTA's signatures are insecure, because an adversary who sees more than one signature learns parts of the secret key.",
+   "speaker": "Andrew Poelstra",
+   "start": 885.9,
+   "quote": "they learn parts of the secret key, and then they can produce forged signatures using those parts of the secret key",
+   "tags": [
+    "iota",
+    "signatures",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/051-blockstream-andrew-poelstra",
+ "title": "Blockstream - Andrew Poelstra",
+ "date": "2019-07-04 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89348302/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377975-44100-2-0cdc2797090bd97b.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

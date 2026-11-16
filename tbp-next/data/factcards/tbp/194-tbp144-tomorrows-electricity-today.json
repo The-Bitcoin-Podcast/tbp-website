@@ -1,0 +1,625 @@
+{
+ "episode_summary": "Episode 144 opens with recording problems and banter, then the hosts discuss the ICO boom: the IPFS/Filecoin token sale, Ethereum's readiness, unicorn tokens, and greed in token sales. The main interview is with Power Ledger representatives David Martin and Nuno Martens about peer-to-peer renewable energy trading on a blockchain, including their proof-of-stake and Ethereum migration plans, the Sparks token, and their regulatory approach. The show closes with a description of blockchain and off-topic chat.",
+ "guests": [
+  "David Martin",
+  "Nuno Martens"
+ ],
+ "topics": [
+  "power ledger",
+  "renewable energy",
+  "icos",
+  "ethereum",
+  "proof of stake",
+  "ipfs",
+  "filecoin",
+  "token economics"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In August 2017 a host described the Filecoin token as the native asset for incentivizing people to store files on IPFS.",
+   "speaker": "host",
+   "start": 450.9,
+   "quote": "the native asset for using our incentivizing people to use ips ipfs to store people's files",
+   "tags": [
+    "filecoin",
+    "ipfs",
+    "ico"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host called the Filecoin team ridiculously greedy for trying to make an absurd amount of money from its token sale.",
+   "speaker": "host",
+   "start": 480.9,
+   "quote": "They're so ridiculously greedy. They want to try and make an absurd amount of money.",
+   "tags": [
+    "filecoin",
+    "greed",
+    "ico"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In August 2017 one host argued that greed fuels great results in a hyper-capitalist system, and the other host disagreed that it was the best thing ever.",
+   "speaker": "host",
+   "start": 510.0,
+   "quote": "And capitalism, hyper-capitalism, if things are as capitalist as they could possibly be, greed is the best thing ever. Greed fuels it.",
+   "tags": [
+    "greed",
+    "capitalism",
+    "ico"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host said he did not care how rich someone got for making something, if what they made really changed the world.",
+   "speaker": "host",
+   "start": 564.4,
+   "quote": "I don't really care how rich someone gets for making something if what they make really changes the world",
+   "tags": [
+    "greed",
+    "ico",
+    "utility"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host said Ethereum 'doesn't scale at all' and was not yet a working base for the ICO projects being built on it.",
+   "speaker": "host",
+   "start": 677.1,
+   "quote": "but ethereum doesn't even work yet like it works don't get me wrong It doesn't scale.",
+   "tags": [
+    "ethereum",
+    "scaling",
+    "ico"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 a host predicted the ICO rush would slow the Ethereum network down for a good portion of time.",
+   "speaker": "host",
+   "start": 731.0,
+   "quote": "It's going to destroy it for a good portion of time.",
+   "tags": [
+    "ethereum",
+    "ico",
+    "network"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 a host said Bitcoin was really not going to go anywhere, despite attacks on it since 2009.",
+   "speaker": "host",
+   "start": 870.0,
+   "quote": "But Bitcoin is really not going to go anywhere.",
+   "tags": [
+    "bitcoin",
+    "proof of stake",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host recalled a well-known analogy that Bitcoin is like a disease-infested rat that keeps living.",
+   "speaker": "host",
+   "start": 895.6,
+   "quote": "Bitcoin is like the disease-infested rat that keeps living.",
+   "tags": [
+    "bitcoin",
+    "attacks",
+    "analogy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host argued that IPFS needed a huge capital raise to get its idea into the world's consciousness.",
+   "speaker": "host",
+   "start": 946.9,
+   "quote": "you need that much money to get a good idea like that into the psyche of the world.",
+   "tags": [
+    "ipfs",
+    "ico",
+    "funding"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 a host predicted the ICO boom would swing back once there were more developers than ideas.",
+   "speaker": "host",
+   "start": 1006.8,
+   "quote": "The pendulum is going to swing back when there are going to be more developers than ideas.",
+   "tags": [
+    "ico",
+    "developers",
+    "market cycle"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 a host said IPFS had raised $750 million in its token sale.",
+   "speaker": "host",
+   "start": 1144.7,
+   "quote": "this mystery thing named IPFS raised $750 million",
+   "tags": [
+    "ipfs",
+    "ico",
+    "filecoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 a host said an ICO had made about $30 million in 30 minutes.",
+   "speaker": "host",
+   "start": 1171.5,
+   "quote": "this ICO made like $30 million in 30 minutes.",
+   "tags": [
+    "ico",
+    "fundraising",
+    "hype"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host said he was not against ICOs but against the abuse of them driven by selfish and greedy motives.",
+   "speaker": "host",
+   "start": 1233.5,
+   "quote": "I'm not against them. I'm against the abuse of them.",
+   "tags": [
+    "ico",
+    "greed",
+    "regulation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 a host said the Ethereum Foundation gave back a zero-value unicorn token to anyone who sent it ether at its donation address.",
+   "speaker": "host",
+   "start": 1285.3,
+   "quote": "it's called unicorn token it has zero value there's infinite of them",
+   "tags": [
+    "ethereum foundation",
+    "unicorn token",
+    "ether"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host argued that tokens with no real use cannot hold value, while Bitcoin and Ethereum demand grew because they had use.",
+   "speaker": "host",
+   "start": 1343.6,
+   "quote": "Bitcoin has a use and that's why its demand grows. Ethereum has a use that's why its demand grows",
+   "tags": [
+    "token economics",
+    "bitcoin",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 the Power Ledger team said falling energy storage prices gave customers a growing incentive to leave the grid by installing their own solar.",
+   "speaker": "guest",
+   "start": 1734.5,
+   "quote": "as energy storage fell in price, there was a greater and greater incentive for energy customers to defect from the network.",
+   "tags": [
+    "energy storage",
+    "grid defection",
+    "renewable energy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Power Ledger said a blockchain could provide an immutable record of physical energy transactions to support the financial settlement.",
+   "speaker": "guest",
+   "start": 1787.3,
+   "quote": "we realized that the blockchain provided a really secure and immutable record of that physical transaction and could be used to support a financial transaction on the back of that.",
+   "tags": [
+    "power ledger",
+    "blockchain",
+    "energy trading"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 Power Ledger said it required its initial blockchain to use proof of stake, in line with its sustainability ideology.",
+   "speaker": "guest",
+   "start": 1867.5,
+   "quote": "One of them is it has to be proof of stake. So it goes with our sustainable ideology.",
+   "tags": [
+    "proof of stake",
+    "power ledger",
+    "sustainability"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 Power Ledger said it planned to migrate its platform to Ethereum to gain smart contracts.",
+   "speaker": "guest",
+   "start": 1893.0,
+   "quote": "we are migrating to ethereum because it allows us uh to have smart contracts",
+   "tags": [
+    "ethereum",
+    "power ledger",
+    "smart contracts"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 Power Ledger said it would migrate to Ethereum's proof of stake once Ethereum had become stable.",
+   "speaker": "guest",
+   "start": 1918.3,
+   "quote": "we will just wait for ethereum to become stable",
+   "tags": [
+    "ethereum",
+    "proof of stake",
+    "power ledger"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 Power Ledger said it was keeping proof of work for now but aimed to move to proof of stake one way or the other.",
+   "speaker": "guest",
+   "start": 1943.9,
+   "quote": "So at the moment, we are keeping the proof of work. But our goal is to migrate proof of stake one way or the other.",
+   "tags": [
+    "proof of stake",
+    "proof of work",
+    "power ledger"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Power Ledger said its goal was disruption of the energy industry without the destruction of value.",
+   "speaker": "guest",
+   "start": 2006.1,
+   "quote": "our focus has always been on the disruption of the industry without the destruction of value.",
+   "tags": [
+    "energy",
+    "disruption",
+    "power ledger"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Power Ledger said peer-to-peer trading would segment the grid into switchable sections or communities rather than rely on distant power stations.",
+   "speaker": "guest",
+   "start": 2061.5,
+   "quote": "So what we can do with peer-to-peer trading is to segment the network down to switchable sections or communities.",
+   "tags": [
+    "peer-to-peer energy",
+    "microgrids",
+    "grid"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Power Ledger said distributed solar would let thousands of households invest a few thousand dollars each, rather than big players investing hundreds of millions.",
+   "speaker": "guest",
+   "start": 2091.1,
+   "quote": "You've got thousands of mums and dads consumers spending a couple of thousand dollars and investing in that technology.",
+   "tags": [
+    "distributed solar",
+    "energy",
+    "power ledger"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Power Ledger said its power token mainly lets holders exchange it for the secondary Sparks token, which is used to trade energy peer-to-peer.",
+   "speaker": "guest",
+   "start": 2231.8,
+   "quote": "the most important one is that allows you to exchange that for the secondary token or sparks",
+   "tags": [
+    "power token",
+    "sparks",
+    "tokenomics"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Power Ledger said it was creating an ERC20 contract on its consortium network for the Sparks token, and that the private token there had no value.",
+   "speaker": "guest",
+   "start": 2317.9,
+   "quote": "using the private token which has no value so there is no incentive for a miner to to to mess around with the security of the network",
+   "tags": [
+    "sparks",
+    "consortium network",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 Power Ledger said its trial in Auckland, New Zealand, ran across the regulated network with the company Vector.",
+   "speaker": "guest",
+   "start": 2383.0,
+   "quote": "our trial in Auckland in New Zealand is using the broader regulated network in Auckland with a company there called Vector",
+   "tags": [
+    "power ledger",
+    "new zealand",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Power Ledger argued that regulators do not create business models but regulate them, so they would look to innovative companies for new models.",
+   "speaker": "guest",
+   "start": 2438.1,
+   "quote": "Regulators don't create business models. They regulate them.",
+   "tags": [
+    "regulation",
+    "energy",
+    "peer-to-peer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Power Ledger said a transactive financial platform needs to be the central component of the energy future.",
+   "speaker": "guest",
+   "start": 2552.0,
+   "quote": "So we think that the transactive platform needs to be the central component of the energy future.",
+   "tags": [
+    "energy",
+    "transactive platform",
+    "power ledger"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Power Ledger said surplus rooftop solar spills into the grid and is consumed at the closest point of demand, so its platform changes the value of energy flows rather than the physics.",
+   "speaker": "guest",
+   "start": 2635.4,
+   "quote": "If you're generating electricity on your roof and you're not consuming all of that energy, it's spilling into the grid and it's being consumed at the closest point of demand.",
+   "tags": [
+    "rooftop solar",
+    "peer-to-peer energy",
+    "grid"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 Power Ledger said Australian feed-in tariffs were about 7 cents while a neighbour would pay about 27 cents for the same power.",
+   "speaker": "guest",
+   "start": 2688.1,
+   "quote": "feed-in tariffs, where we are, is about 7 cents.",
+   "tags": [
+    "feed-in tariff",
+    "australia",
+    "solar"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 Power Ledger said the traditional generator-to-retailer reconciliation process could take 60 to 80 days.",
+   "speaker": "guest",
+   "start": 2908.2,
+   "quote": "And that process can take between 60 and 80 days. And that's just too long.",
+   "tags": [
+    "energy markets",
+    "settlement",
+    "blockchain"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Power Ledger said blockchain was the only way to avoid a central market operator reconciling peer-to-peer energy trades.",
+   "speaker": "guest",
+   "start": 2937.0,
+   "quote": "the only way we could avoid all of those costs and all of that requirement for some sort of centralized authority managing and reconciling those transactions is to use the blockchain.",
+   "tags": [
+    "blockchain",
+    "energy markets",
+    "reconciliation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 Power Ledger said it chose to host its ICO in Australia so that it could operate in full view of existing regulators.",
+   "speaker": "guest",
+   "start": 3048.8,
+   "quote": "so we've chosen to host our ICO in Australia",
+   "tags": [
+    "ico",
+    "regulation",
+    "australia"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Power Ledger said its power token was a protocol token and not a security.",
+   "speaker": "guest",
+   "start": 3077.2,
+   "quote": "The power token isn't a security. It's a protocol token that allows the",
+   "tags": [
+    "securities",
+    "regulation",
+    "power token"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 a guest described the blockchain as basically a database with the deletes and updates removed.",
+   "speaker": "guest",
+   "start": 3187.2,
+   "quote": "in my view the blockchain it's basically a database so of course it operates differently",
+   "tags": [
+    "blockchain",
+    "database",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 a guest said a blockchain uses cryptography to verify block authenticity and elliptic curves to generate keys.",
+   "speaker": "guest",
+   "start": 3215.7,
+   "quote": "Of course, you have cryptography to verify the authenticity of blocks and you have elliptical curves, generate private and public keys.",
+   "tags": [
+    "cryptography",
+    "blockchain",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In August 2017 a host said he saw no real downside to people jumping into Bitcoin for money, while others noted that newcomers who mishandle their keys lose money.",
+   "speaker": "host",
+   "start": 3815.7,
+   "quote": "Honestly, I don't see a downside to it.",
+   "tags": [
+    "bitcoin",
+    "newcomers",
+    "private keys"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 a host said Ethereum had no address checksums, though some existed but were not used.",
+   "speaker": "host",
+   "start": 3842.7,
+   "quote": "There's no checksums in Ethereum. Well, there kind of are, but no one uses them.",
+   "tags": [
+    "ethereum",
+    "checksums",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2017 a host reported that a man took a $325,000 equity loan on his house and saw it grow to $623,000 in Bitcoin.",
+   "speaker": "host",
+   "start": 3926.0,
+   "quote": "A guy took out $325,000 equity loan on his house. That amount is now worth $623,000.",
+   "tags": [
+    "bitcoin",
+    "price",
+    "leverage"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/194-tbp144-tomorrows-electricity-today",
+ "title": "TBP144 - Tomorrow's Electricity Today",
+ "date": "2017-08-06",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982413/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213340-48000-2-0456b20b7de7232a.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

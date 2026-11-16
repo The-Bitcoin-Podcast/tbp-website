@@ -1,0 +1,370 @@
+{
+ "episode_summary": "Episode 383, recorded in early 2022, with Dee and Jesse catching up with guest Corey Petty. The conversation covers NFTs and play-to-earn games (Avalanche chickens, Axie Infinity scholarships), the middleman problem, skepticism about USDC, Tether, HEX and Luna, India's tax treatment of crypto, the threat of government bans and CBDCs, and Helium's wireless network. It closes with the planned move to Hashing It Out and the DAD DAO built on Algorand.",
+ "guests": [
+  "Corey Petty"
+ ],
+ "topics": [
+  "nft",
+  "play-to-earn",
+  "stablecoins",
+  "tether",
+  "hex",
+  "helium",
+  "regulation",
+  "algorand"
+ ],
+ "cards": [
+  {
+   "type": "opinion",
+   "claim": "One speaker said the largest and still sustainable threat to crypto is that governments will ban it, with central bank digital currency the hardest existential threat.",
+   "speaker": "unknown",
+   "start": 2007.4,
+   "quote": "the largest and still sustainable threat to crypto is that governments will ban it.",
+   "tags": [
+    "regulation",
+    "cbdc",
+    "bans"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker argued that a government ban makes crypto harder to access in that jurisdiction but does not kill a globally dispersed asset, pointing to China.",
+   "speaker": "unknown",
+   "start": 2092.1,
+   "quote": "But just because a given jurisdiction makes it more difficult to access a globally dispersed asset doesn't kill it.",
+   "tags": [
+    "china",
+    "bans",
+    "regulation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said India had gone from banning bitcoin to making it legal, but applies a 30 percent VAT-style tax when crypto is spent.",
+   "speaker": "unknown",
+   "start": 2130.8,
+   "quote": "they're applying a 30 percent vat tax when you spend it",
+   "tags": [
+    "india",
+    "tax",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker questioned how USDC, a stablecoin, could rank in the top 10 crypto assets by market cap, saying it did not make sense.",
+   "speaker": "unknown",
+   "start": 2187.3,
+   "quote": "How does it even make sense that USDC is in the top 10 and USDC is just a stable coin?",
+   "tags": [
+    "usdc",
+    "stablecoins",
+    "market-cap"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "One speaker predicted that the Tether bomb, a Tether collapse, would become the biggest crypto myth that never materializes.",
+   "speaker": "unknown",
+   "start": 2379.3,
+   "quote": "I think the Tether Bomb is going to be something in crypto that is like the biggest myth that never materializes",
+   "tags": [
+    "tether",
+    "stablecoins",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "One speaker predicted Tether would not implode because too many very wealthy people hold its money and would not let it fail.",
+   "speaker": "unknown",
+   "start": 2436.3,
+   "quote": "the reason why usdt is not going to implode is because too many really really wealthy people have money so they're not going to let it implode period",
+   "tags": [
+    "tether",
+    "stablecoins",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "The hosts debated HEX: one called it a garbage, well-made Ponzi that only funnels money to Richard Heart, while another argued the Ponzi label misses nuance in how its value rises.",
+   "speaker": "unknown",
+   "start": 2574.2,
+   "quote": "hex is garbage it's it's the best made ponzi and all ponzi that have ever ponzi",
+   "tags": [
+    "hex",
+    "ponzi",
+    "richard-heart"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker said HEX is a single point of failure in Richard Heart, and suggested a clone without his primary account would be interesting.",
+   "speaker": "unknown",
+   "start": 2721.8,
+   "quote": "but he is a complete single point of failure.",
+   "tags": [
+    "hex",
+    "richard-heart",
+    "single-point-of-failure"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "One speaker defined a Ponzi scheme as making money by getting other people to put money in, and the hosts debated whether that also describes an MLM.",
+   "speaker": "unknown",
+   "start": 2773.8,
+   "quote": "Ponzi is I make money by getting other people to put money in.",
+   "tags": [
+    "ponzi",
+    "mlm",
+    "scams"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained that Axie Infinity already has middlemen who issue 'scholarships', letting players use their accounts in exchange for a share of earnings.",
+   "speaker": "unknown",
+   "start": 1051.1,
+   "quote": "the concept of middlemen already exists in the way that there are people",
+   "tags": [
+    "axie-infinity",
+    "play-to-earn",
+    "middlemen"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Corey said that the more inclusive and generalized a platform is, the more likely it is to attract scammers, fraud and pyramid schemes.",
+   "speaker": "Corey",
+   "start": 1161.5,
+   "quote": "the more inclusive and generalized of a platform you create the more likely there is to be scammers, fraud, pyramid schemes",
+   "tags": [
+    "moderation",
+    "scams",
+    "decentralization"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker said pay-to-earn is turning into microloans, which can help a community or hurt it depending on the system.",
+   "speaker": "unknown",
+   "start": 1253.6,
+   "quote": "I think pay to earn is turning into microloans.",
+   "tags": [
+    "play-to-earn",
+    "microloans",
+    "scams"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "One speaker predicted that crypto businesses will always be middlemen, because most people will pay someone else to manage their assets.",
+   "speaker": "unknown",
+   "start": 907.0,
+   "quote": "We're going to be middlemen, bro. There's no way around it.",
+   "tags": [
+    "middlemen",
+    "custody",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker said most top-20 tokens have serious technical problems, and that the market would catch up with that in time.",
+   "speaker": "unknown",
+   "start": 3099.3,
+   "quote": "From a technical perspective, there's serious problems with the majority of the top 20 tokens.",
+   "tags": [
+    "top-tokens",
+    "technology",
+    "market"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker said Avalanche is one of the most novel projects in the ecosystem and has potential to scale.",
+   "speaker": "unknown",
+   "start": 3016.6,
+   "quote": "Avalanche is, in my opinion, one of the most novel projects in the entire ecosystem that has potential to scale.",
+   "tags": [
+    "avalanche",
+    "scaling",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts said Helium node operators earn more return on investment in elevated rural areas, and the first node in a location gets the most.",
+   "speaker": "unknown",
+   "start": 3287.9,
+   "quote": "You actually get more ROI if you're the first node.",
+   "tags": [
+    "helium",
+    "node-economics",
+    "iot"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts described Helium's initial network as low-bandwidth, long-range LoRa coverage for IoT devices, not Wi-Fi for phones.",
+   "speaker": "unknown",
+   "start": 3455.0,
+   "quote": "It's a low bandwidth, long range coverage for IoT devices. Not for your phone connecting to Wi-Fi.",
+   "tags": [
+    "helium",
+    "lora",
+    "iot"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In early 2022 the hosts announced the Bitcoin Podcast was moving over to a new show called Hashing It Out, with no migration details yet.",
+   "speaker": "unknown",
+   "start": 1667.2,
+   "quote": "everything's moving over to hashing it out we have no details as to what that migration looks like",
+   "tags": [
+    "hashing-it-out",
+    "show-news",
+    "migration"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said they were building a DAO on Algorand, with a Discord gated by holding a specific Algorand asset.",
+   "speaker": "unknown",
+   "start": 3681.0,
+   "quote": "We're actually trying to build a distributed autonomous organization on top of Algorand",
+   "tags": [
+    "dao",
+    "algorand",
+    "dad-dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker said Solana is really crappy and that its good performance rests on a strong marketing team and branding.",
+   "speaker": "unknown",
+   "start": 2353.0,
+   "quote": "I think Solana is really crappy. It's good at one thing, but it's got a really good marketing team behind it",
+   "tags": [
+    "solana",
+    "opinion",
+    "marketing"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The hosts said the US Congress was already framing USDC as something the government would one day take over.",
+   "speaker": "unknown",
+   "start": 1925.6,
+   "quote": "the u.s congress has already started to paint the picture in verbiage that one day they're just going to take usdc",
+   "tags": [
+    "usdc",
+    "congress",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Corey said he bought his wife an Avalanche chicken NFT, and the chicken game's egg and feed token mechanics were too hard for his family to understand.",
+   "speaker": "Corey",
+   "start": 682.2,
+   "quote": "the concept of the avalanche chickens came up because i bought my wife a chicken",
+   "tags": [
+    "nft",
+    "chicken",
+    "avalanche",
+    "play-to-earn"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Corey said the Chicken NFT was the first real NFT project that caught his eye, though not because it does anything phenomenal.",
+   "speaker": "Corey",
+   "start": 824.8,
+   "quote": "it's the first real nft project that caught my eye",
+   "tags": [
+    "nft",
+    "chicken",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/911-the-bitcoin-podcast-383-bythe-power-of-the",
+ "title": "The Bitcoin Podcast #383- ByThe Power of the Executive Order",
+ "date": "2022-02-07",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982062/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212975-44100-1-2b560f22cc3ea888.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

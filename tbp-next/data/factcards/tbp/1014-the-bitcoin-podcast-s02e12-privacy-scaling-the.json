@@ -1,0 +1,368 @@
+{
+ "episode_summary": "The Bitcoin Podcast S02E12 (dated 2025-12-18) covers the hosts' idea of asshole-resistant technology, privacy tools under pressure from EU chat control, the 2016 DAO hack and hard fork, the practical limits of DAO governance and business-process automation, BitTorrent as an example of resilient networks, crypto influencer red flags such as guaranteed price targets and token vesting, and an argument about financial literacy.",
+ "guests": [],
+ "topics": [
+  "privacy",
+  "daos",
+  "dao-hack",
+  "governance",
+  "crypto-influencers",
+  "token-vesting",
+  "bittorrent",
+  "literacy"
+ ],
+ "cards": [
+  {
+   "type": "opinion",
+   "claim": "D argued that crypto's real purpose is asshole-resistant technology that stops any single actor from taking over the system.",
+   "speaker": "D",
+   "start": 165.5,
+   "quote": "the deeper we go into privacy tool scaling wars, blobs, L2s, the more critical world looks like the old world that we're trying to escape.",
+   "tags": [
+    "asshole-resistant",
+    "decentralization",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "The hosts predicted privacy tools would become relevant to everyone as countries such as the EU pushed chat control.",
+   "speaker": "unknown",
+   "start": 218.1,
+   "quote": "they are moving that way in many countries in the eu chat control is doing a thing",
+   "tags": [
+    "privacy",
+    "chat-control",
+    "eu"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the 2016 DAO attack was a re-entrancy bug, and the Ethereum community hard forked to refund everyone's money.",
+   "speaker": "host",
+   "start": 736.0,
+   "quote": "a really cool idea they got ruined by a bug because someone found what's now called a re-entrancy bug and then the entire community of ethereum decided to hard fork to refund everyone's money",
+   "tags": [
+    "dao-hack",
+    "ethereum",
+    "hard-fork"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "D said his team's attempt to automate business processes with BPMN showed that copying automation from one company to another would not work.",
+   "speaker": "D",
+   "start": 960.4,
+   "quote": "So when it came to actually applying these things to automate the business at a grand scale and then being able to copy and paste those processes into different businesses, well, that just will never work.",
+   "tags": [
+    "bpmn",
+    "automation",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "D said people who think everything should run on a blockchain are naive.",
+   "speaker": "D",
+   "start": 1016.0,
+   "quote": "those who think all this stuff should run on a blockchain i think are a bit naive",
+   "tags": [
+    "blockchain",
+    "daos",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "D argued that for a for-profit business, DAOs are not for humans because the voting requirement reintroduces centralization.",
+   "speaker": "D",
+   "start": 1176.9,
+   "quote": "What I think is that for a business or a for-profit business, DAOs are not for humans.",
+   "tags": [
+    "daos",
+    "governance",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The hosts said ConstitutionDAO was a failure because it lacked privacy.",
+   "speaker": "unknown",
+   "start": 1401.0,
+   "quote": "The Constitution DAO was a failure because it lacked privacy.",
+   "tags": [
+    "constitutiondao",
+    "daos",
+    "privacy"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The hosts cited a Twitch streamer who was given 50k to trade stocks on Robinhood live with chat, and called the experiment a failure.",
+   "speaker": "unknown",
+   "start": 1458.1,
+   "quote": "when you know some dude gave you know twitch stream for his channel 50k to throw at stocks on robinhood",
+   "tags": [
+    "daos",
+    "twitch",
+    "robinhood",
+    "anecdote"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "D said he once managed a friend's crypto as a favor and returned all the money after the friend refused to use a hardware wallet.",
+   "speaker": "D",
+   "start": 1914.3,
+   "quote": "And so finally, it just got to a point over the years where I was like, here's all your money back because I don't trust your stupidity.",
+   "tags": [
+    "self-custody",
+    "hardware-wallet",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The hosts said Coinbase is a centralizing layer on top of decentralized technology, useful for onboarding but not for ultimate control.",
+   "speaker": "unknown",
+   "start": 1701.2,
+   "quote": "It's a centralizing entity on top of decentralized technology and that's good for some things.",
+   "tags": [
+    "coinbase",
+    "centralization",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "A host argued that users must be able to exit a platform with their funds or vote, otherwise the platform can control them.",
+   "speaker": "unknown",
+   "start": 1753.5,
+   "quote": "If you can exit with your funds or your vote or your identity or whatever it is, then that platform can't control you.",
+   "tags": [
+    "exit",
+    "self-custody",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "The hosts predicted that it would take only a flip of a switch for a bad actor to label private money as bad money for terrorism.",
+   "speaker": "unknown",
+   "start": 2311.5,
+   "quote": "it will be the flip of a switch for an asshole to say oh that crazy good private money",
+   "tags": [
+    "privacy",
+    "regulation",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "D said Napster was shut down because it had centralizing aspects, and the later networks became more resilient by fixing those attack vectors.",
+   "speaker": "D",
+   "start": 2365.7,
+   "quote": "And the Napster got shut down because it had centralizing aspects to it.",
+   "tags": [
+    "bittorrent",
+    "napster",
+    "resilience"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the ARPANET was established in 1969 and closed in 1990.",
+   "speaker": "unknown",
+   "start": 2565.4,
+   "quote": "It was established in 1969, closed in 1990",
+   "tags": [
+    "arpanet",
+    "internet-history",
+    "fact"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the Bitcoin white paper came out in 2008 and the client was released in 2009.",
+   "speaker": "unknown",
+   "start": 2652.5,
+   "quote": "2008 was the white paper. 2009 was the release of the client.",
+   "tags": [
+    "bitcoin",
+    "history",
+    "fact"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "The hosts said Bitcoin was about 10 years away from its AOL moment, meaning mass adoption.",
+   "speaker": "unknown",
+   "start": 2652.5,
+   "quote": "We're like 10 years away from the AOL moment, but early.",
+   "tags": [
+    "adoption",
+    "bitcoin",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The hosts said anyone giving guaranteed price targets or secret information is full of it, and offered those as red flags for crypto influencers.",
+   "speaker": "unknown",
+   "start": 2706.3,
+   "quote": "If anybody's giving you guaranteed price targets",
+   "tags": [
+    "influencers",
+    "price-predictions",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The hosts said buying a token after it is publicly listed usually means getting dumped on, because the team is funded by early sales.",
+   "speaker": "unknown",
+   "start": 2734.6,
+   "quote": "if you're buying a token after it's publicly listed you're getting dumped on more often than not",
+   "tags": [
+    "token-launch",
+    "tokenomics",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "A host said most VCs expect a turnaround back to their LPs in one to two years, which conflicts with how tokens should be held.",
+   "speaker": "unknown",
+   "start": 2821.8,
+   "quote": "most VCs, depending on how sharky they are, they expect turnaround back to their LPs of profit in one to two years.",
+   "tags": [
+    "vc",
+    "token-vesting",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts described typical ICO token lockups as usually a one-year cliff followed by four or five years of vesting.",
+   "speaker": "unknown",
+   "start": 2850.6,
+   "quote": "usually some sort of one-year cliff where nobody gets access to any liquidity for tokens",
+   "tags": [
+    "ico",
+    "vesting",
+    "tokenomics"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts said Ethereum is a good example of a utility token because it fuels computation and secures the network.",
+   "speaker": "unknown",
+   "start": 2967.2,
+   "quote": "Ethereum is a really good example of a utility token. It is the thing that fuels the network.",
+   "tags": [
+    "ethereum",
+    "utility-token",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The hosts said meme coins have no utility by design, so hype is the only thing that moves their value.",
+   "speaker": "unknown",
+   "start": 3018.8,
+   "quote": "If you look at any meme coin, it literally doesn't have any utility on purpose by definition.",
+   "tags": [
+    "meme-coins",
+    "utility",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "D said 50 to 54 percent of Americans read at a sixth-grade level or below, a figure the hosts then tried to check against a 21 percent illiteracy figure.",
+   "speaker": "D",
+   "start": 3446.6,
+   "quote": "50 54 percent of americans read at a sixth grade or below reading level",
+   "tags": [
+    "literacy",
+    "statistics",
+    "fact"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/1014-the-bitcoin-podcast-s02e12-privacy-scaling-the",
+ "title": "The Bitcoin Podcast S02E12 - Privacy, Scaling, & the Crypto Narrative War",
+ "date": "2025-12-18",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/112800207/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-18%2F414598571-44100-2-0871360d6c809.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

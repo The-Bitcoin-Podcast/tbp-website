@@ -1,0 +1,425 @@
+{
+ "episode_summary": "The hosts interview Roger Ver of Bitcoin.com about why he considers Bitcoin Cash better money than Bitcoin Core, the block size debate, Lightning Network capacity and merchant adoption, SegWit and the SegWit2x deal, Moore's law and on-chain scaling, and the Bitcoin.com labelling controversy. The episode also covers a Reddit story about cashing out bitcoin for a Mercedes.",
+ "guests": [
+  "Roger Ver"
+ ],
+ "topics": [
+  "bitcoin cash",
+  "block size",
+  "lightning network",
+  "segwit2x",
+  "on-chain scaling",
+  "bitcoin.com",
+  "store of value"
+ ],
+ "cards": [
+  {
+   "type": "prediction",
+   "claim": "In May 2018 Roger Ver predicted that multiple blockchains would share the market, with one, two or three of them holding the lion's share.",
+   "speaker": "Roger Ver",
+   "start": 4576.5,
+   "quote": "I think there'll be lots of blockchains for lots of different things. But I think one, two, or three of those blockchains will have the lion's share of the market.",
+   "tags": [
+    "blockchain",
+    "market share",
+    "altcoins"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2018 Roger Ver predicted that Bitcoin Cash would surpass Bitcoin Core in total value stored within about one and a half years.",
+   "speaker": "Roger Ver",
+   "start": 2643.1,
+   "quote": "Bitcoin Cash is going to surpass Bitcoin Core in terms of the total amount of value being stored with it",
+   "tags": [
+    "bitcoin cash",
+    "bitcoin core",
+    "store of value"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2018 Roger Ver said he was so bullish that Bitcoin Cash would be the cryptocurrency most people use as cash around the world.",
+   "speaker": "Roger Ver",
+   "start": 2444.9,
+   "quote": "I'm so bullish that Bitcoin Cash is the one that's most likely to get the most adoption and the most people around the world using it as cash",
+   "tags": [
+    "bitcoin cash",
+    "adoption",
+    "cash"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2018 Roger Ver predicted that more of the world would use Bitcoin Cash as money than Bitcoin Core.",
+   "speaker": "Roger Ver",
+   "start": 1554.5,
+   "quote": "is going to start using Bitcoin Cash as money than Bitcoin Core, simply because",
+   "tags": [
+    "bitcoin cash",
+    "bitcoin core",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said Bitcoin Cash was plainly better money than Bitcoin Core, whatever the coins were called.",
+   "speaker": "Roger Ver",
+   "start": 1503.4,
+   "quote": "bitcoin cash is just plain better money no matter what you call it",
+   "tags": [
+    "bitcoin cash",
+    "bitcoin core",
+    "money"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2018 Roger Ver said only around 17 bitcoin were tied up in the Lightning Network.",
+   "speaker": "Roger Ver",
+   "start": 1745.1,
+   "quote": "there's only around 17 Bitcoin tied up in the Lightning Network",
+   "tags": [
+    "lightning network",
+    "capacity"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2018 Roger Ver said there were maybe three web shops accepting Lightning, compared with over 100,000 sites accepting Bitcoin Cash.",
+   "speaker": "Roger Ver",
+   "start": 1745.1,
+   "quote": "maybe three web shops that accept it, compared to 100,000-plus sites that accept Bitcoin Cash for payments",
+   "tags": [
+    "lightning network",
+    "merchant adoption",
+    "bitcoin cash"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said the Bitcoin Core team intentionally undermined on-chain transactions, pushing users toward altcoins instead of Lightning.",
+   "speaker": "Roger Ver",
+   "start": 1939.0,
+   "quote": "the Bitcoin Core team intentionally undermined the usefulness of those on-chain transactions",
+   "tags": [
+    "bitcoin core",
+    "on-chain",
+    "altcoins"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 a host said the one-megabyte Bitcoin block size was probably too small, and that not raising it had been a poor decision.",
+   "speaker": "host",
+   "start": 1964.6,
+   "quote": "The core block size of one megabyte is probably too small.",
+   "tags": [
+    "block size",
+    "bitcoin core"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2018 Roger Ver said on-chain capacity would take at least 10 years to fill, so on-chain scaling would remain a long-term solution.",
+   "speaker": "Roger Ver",
+   "start": 3653.6,
+   "quote": "It's probably going to be at least 10 years before we come anywhere even remotely close to filling up what's possible right now today with the transactions on-chain",
+   "tags": [
+    "on-chain scaling",
+    "moore's law",
+    "block size"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver argued that blockchains are inherently serial, so base-layer scaling could not keep up with the parallel computing trend.",
+   "speaker": "Roger Ver",
+   "start": 3411.7,
+   "quote": "doing a blockchain is inherently serial. You have to do things sequentially",
+   "tags": [
+    "moore's law",
+    "scaling",
+    "consensus"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2018 a host said increasing the block size was not the final answer, and Roger Ver said he would disagree.",
+   "speaker": "host",
+   "start": 3517.9,
+   "quote": "increasing the block size is not the final answer period",
+   "tags": [
+    "block size",
+    "scaling",
+    "debate"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said layer one had been strangled and layer two solutions were not yet available.",
+   "speaker": "Roger Ver",
+   "start": 3545.9,
+   "quote": "layer one has been strangled and the layer two solutions aren't available yet",
+   "tags": [
+    "layer two",
+    "lightning",
+    "block size"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said the network could handle 100 megabyte blocks without any problem.",
+   "speaker": "Roger Ver",
+   "start": 4415.3,
+   "quote": "could handle 100 megabyte blocks without any problem whatsoever",
+   "tags": [
+    "block size",
+    "scaling",
+    "bitcoin cash"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said the market, not a couple of Bitcoin developers, should decide the block size.",
+   "speaker": "Roger Ver",
+   "start": 3799.0,
+   "quote": "I think the market should decide, not a couple of Bitcoin wizards",
+   "tags": [
+    "block size",
+    "miners",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said Bitcoin Cash had an acceptance advantage over privacy coins because Bitcoin is in its name.",
+   "speaker": "Roger Ver",
+   "start": 2389.3,
+   "quote": "that it already has acceptance because it has Bitcoin right there in the name",
+   "tags": [
+    "branding",
+    "bitcoin cash",
+    "privacy coins"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In May 2018 Roger Ver said he sold his Lamborghini to buy more bitcoin, having owned it before bitcoin was invented.",
+   "speaker": "Roger Ver",
+   "start": 2127.3,
+   "quote": "I had a Lamborghini before Bitcoin had even been invented. And I sold my Lamborghini to buy more Bitcoin",
+   "tags": [
+    "roger ver",
+    "bitcoin",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2018 Roger Ver said he had given 1,000 bitcoin to the Foundation for Economic Education, worth about $1.2 to $1.3 million at the time.",
+   "speaker": "Roger Ver",
+   "start": 2189.0,
+   "quote": "I gave 1,000 big coins to the Foundation for Economic Education",
+   "tags": [
+    "donations",
+    "foundation for economic education",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2018 Roger Ver said Bitcoin Core supporters did not understand the underlying economics, so he moved his store of value into Bitcoin Cash.",
+   "speaker": "Roger Ver",
+   "start": 2588.6,
+   "quote": "I watched the Bitcoin core people, not because they're bad people. It's just because they don't understand the underlying economics",
+   "tags": [
+    "store of value",
+    "bitcoin core",
+    "bitcoin cash"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In May 2018 Roger Ver recounted that Lightning Labs CEO Elizabeth Stark called paying for coffee on Lightning stupid.",
+   "speaker": "Roger Ver",
+   "start": 2100.2,
+   "quote": "And she said, that's stupid. Why would you want to even do that?",
+   "tags": [
+    "lightning network",
+    "lightning labs",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2018 Roger Ver said Bitcoin.com then had almost 100 people on its payroll.",
+   "speaker": "Roger Ver",
+   "start": 3162.3,
+   "quote": "So at Bitcoin.com now we have almost 100 people on the payroll",
+   "tags": [
+    "bitcoin.com",
+    "company"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2018 Roger Ver said nobody was misled by Bitcoin.com's labelling and that a threatened lawsuit over it was ridiculous.",
+   "speaker": "Roger Ver",
+   "start": 3217.5,
+   "quote": "Nobody's being misled. There's no victim there.",
+   "tags": [
+    "bitcoin.com",
+    "lawsuit",
+    "bitcoin cash"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said he supported Bitcoin Cash because it works as money, not because it matches Satoshi's white paper.",
+   "speaker": "Roger Ver",
+   "start": 3328.6,
+   "quote": "So I don't support Bitcoin Cash because it's in line with the white paper.",
+   "tags": [
+    "satoshi",
+    "white paper",
+    "bitcoin cash"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2018 Roger Ver said SegWit had never gotten more than about 35% of miners signaling for it before the SegWit2x agreement.",
+   "speaker": "Roger Ver",
+   "start": 3028.5,
+   "quote": "And up to that point, SegWit had never really gotten more than maybe 35% of the miners around the world signaling for it",
+   "tags": [
+    "segwit",
+    "miners",
+    "segwit2x"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2018 Roger Ver said Bitcoin Cash would not have gotten any traction without the SegWit2x bait and switch.",
+   "speaker": "Roger Ver",
+   "start": 3028.5,
+   "quote": "Bitcoin Cash wouldn't have been anything. It wouldn't have gotten any traction at all had there not been a bait and switch in regards to the SegWit2x thing",
+   "tags": [
+    "segwit2x",
+    "bitcoin cash",
+    "bait and switch"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2018 an unidentified speaker said Satoshi was not God, though the white paper still defines what the words mean.",
+   "speaker": "unknown",
+   "start": 4215.5,
+   "quote": "Satoshi is not God, although I do think we can still look at the white paper for the definitions of what the words mean",
+   "tags": [
+    "satoshi",
+    "white paper",
+    "mining pools"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2018 Roger Ver said Bitcoin Cash does not need SegWit to fix transaction malleability, and could add Lightning later.",
+   "speaker": "Roger Ver",
+   "start": 2973.4,
+   "quote": "Bitcoin Cash doesn't necessarily need segregated witness to fix transaction malleability",
+   "tags": [
+    "segwit",
+    "transaction malleability",
+    "lightning network"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/359-tbp-202-roger-ver",
+ "title": "TBP #202 - Roger Ver",
+ "date": "2018-05-13",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982118/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213036-44100-1-149e15d969975218.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

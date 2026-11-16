@@ -1,0 +1,623 @@
+{
+ "episode_summary": "Hashing It Out episode 92, recorded in September 2020, with Rex Hygate, founder of DefiSafety. He explains DefiSafety's process quality audit and the DeFi Safety score: a public-information-only, four-section questionnaire rated red, yellow or green. The hosts and Rex discuss the audit's turnaround and price, how developers respond, audits used as marketing, private repositories, the limits of a score, funding by users rather than developers, and planned version 0.6 changes.",
+ "guests": [
+  "Rex Hygate"
+ ],
+ "topics": [
+  "defi",
+  "smart-contracts",
+  "audits",
+  "security",
+  "ethereum",
+  "defisafety",
+  "due-diligence"
+ ],
+ "cards": [
+  {
+   "type": "anecdote",
+   "claim": "In September 2020 Rex Hygate said he started looking at Ethereum right after the DAO hack and only lurked at first.",
+   "speaker": "guest",
+   "start": 310.2,
+   "quote": "So I actually started looking at Ethereum right after the DAO, which was really cool. And I just lurked.",
+   "tags": [
+    "ethereum",
+    "dao",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In 2018 Rex Hygate met Bryant at a hackathon in Denver and they started securef.org, focused on software process and documentation for blockchain software.",
+   "speaker": "guest",
+   "start": 337.2,
+   "quote": "And there I met Bryant and we started securef.org, which was focused on software process and documentation for making blockchain software.",
+   "tags": [
+    "securef",
+    "history",
+    "documentation"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Rex Hygate said he created the DeFi safety score by taking the testing, coding and documentation process from securef and adapting it into a DeFi safety audit.",
+   "speaker": "guest",
+   "start": 390.3,
+   "quote": "So I took the roots of the concept of Secureth, looking at the testing process and the coding process and the documentation process. And from that, I came up with the idea of a DeFi safety score",
+   "tags": [
+    "defisafety",
+    "methodology",
+    "audits"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2020 Rex Hygate said DeFi Safety had gone live in July and had completed 23 audits.",
+   "speaker": "guest",
+   "start": 417.2,
+   "quote": "and I invented the process and in July we went live and I think we've got 23 audits completed now.",
+   "tags": [
+    "defisafety",
+    "audits",
+    "history"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said DeFi Safety audits only use publicly available information such as the website, GitHub and Medium articles.",
+   "speaker": "guest",
+   "start": 445.0,
+   "quote": "I only look at publicly available audits or publicly available information.",
+   "tags": [
+    "defisafety",
+    "methodology",
+    "audits"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said most DeFi developers did not yet trace software requirements to code and tests, which he called a real aerospace-style practice.",
+   "speaker": "guest",
+   "start": 502.7,
+   "quote": "can you trace from the software from the requirements to the code and to the test like did they put in traceability and that's something that i would say most people don't do yet",
+   "tags": [
+    "traceability",
+    "aerospace",
+    "documentation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2020 Rex Hygate said a DeFi Safety audit would cost under $5K and usually take about a week.",
+   "speaker": "guest",
+   "start": 587.1,
+   "quote": "It will be under 5K and generally results can be done in about a week",
+   "tags": [
+    "pricing",
+    "defisafety",
+    "audits"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said every question in a DeFi Safety report is paired with guidance on how to improve the score.",
+   "speaker": "guest",
+   "start": 690.9,
+   "quote": "In fact, underneath every question in the report is how to improve the score.",
+   "tags": [
+    "defisafety",
+    "methodology",
+    "scoring"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said DeFi Safety scored each question on a fixed percentage rubric, such as 100 for an audit before deployment.",
+   "speaker": "guest",
+   "start": 748.9,
+   "quote": "a hundred percent means this zero percent means this forty percent means this sixty percent means this",
+   "tags": [
+    "defisafety",
+    "scoring",
+    "methodology"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said a project that claims an audit it cannot show should score zero, since such claims are sometimes invalid.",
+   "speaker": "guest",
+   "start": 804.8,
+   "quote": "is 20 zero percent is saying you have an audit when you don't really",
+   "tags": [
+    "audits",
+    "scoring",
+    "transparency"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said DeFi Safety would not give scores to projects whose code or audits were not public.",
+   "speaker": "guest",
+   "start": 833.7,
+   "quote": "I audit public things. If it's not public, I'm not going to give scores on it.",
+   "tags": [
+    "defisafety",
+    "transparency",
+    "scoring"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2020 Rex Hygate said he had committed to releasing version 0.6 of the DeFi Safety process.",
+   "speaker": "guest",
+   "start": 833.7,
+   "quote": "And actually, I'm at version 0.5 of my process. I've committed that I'm going to do 0.6.",
+   "tags": [
+    "defisafety",
+    "roadmap",
+    "methodology"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2020 Rex Hygate said a lot of DeFi projects were moving to private repositories because they were afraid of getting forked.",
+   "speaker": "guest",
+   "start": 833.7,
+   "quote": "a lot of people are having private repositories because they're afraid of getting forked.",
+   "tags": [
+    "forks",
+    "private-repos",
+    "defi"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said Aave kept its development in a private GitLab and published releases to stop people taking the code before launch.",
+   "speaker": "guest",
+   "start": 885.2,
+   "quote": "the purpose for that is so that people can't take the code before they release it",
+   "tags": [
+    "aave",
+    "forks",
+    "private-repos"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2020 Rex Hygate said he was getting one or two audit requests a day from users, many of them repeats.",
+   "speaker": "guest",
+   "start": 995.0,
+   "quote": "I'm getting one or two requests a day from users. A lot of them are repeats.",
+   "tags": [
+    "defisafety",
+    "demand",
+    "audits"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2020 Rex Hygate said DeFi Safety was not yet charging for audits but expected to start offering paid audits to skip the line.",
+   "speaker": "guest",
+   "start": 1021.8,
+   "quote": "And at this point, I'm not really charging, but I think I'm getting into the field where I will be offering four charge audits for people to, you know, sort of skip the line.",
+   "tags": [
+    "pricing",
+    "defisafety",
+    "business-model"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In 2020 Rex Hygate said one of his early audits of Aave took a long time because he could not find where its smart contract addresses were listed.",
+   "speaker": "guest",
+   "start": 1077.0,
+   "quote": "one of my early audits was ave and i never found where they had their smart contract addresses so that was a huge thing",
+   "tags": [
+    "aave",
+    "audits",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said a DeFi project with anonymous developers and no published contracts or GitHub is a giant red flag.",
+   "speaker": "guest",
+   "start": 1253.1,
+   "quote": "Because if you're capable of creating smart contracts that do the complex things that keep up with the other programs, then you know what's going on.",
+   "tags": [
+    "red-flags",
+    "anonymous-teams",
+    "due-diligence"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said he reads the audit reports himself, giving projects benefit of the doubt but checking whether bugs were actually fixed.",
+   "speaker": "guest",
+   "start": 1314.6,
+   "quote": "So when I look at the audits, I actually do read the audits. And I am not a smart contract auditor, but I'm pretty good on quality.",
+   "tags": [
+    "audits",
+    "methodology",
+    "due-diligence"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said an audit that was all bad and was done after deployment with no changes would be a giant red flag for him.",
+   "speaker": "guest",
+   "start": 1346.1,
+   "quote": "the audit was all bad and there's no you know say it was audited after deployment and there were no changes, that would be a giant red flag for me.",
+   "tags": [
+    "audits",
+    "red-flags",
+    "due-diligence"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In 2020 Rex Hygate said projects pointed to audits as cover after hacks, but when people read the auditor's report it often said bad things.",
+   "speaker": "unknown",
+   "start": 1432.6,
+   "quote": "And inevitably, people actually look at the audit and they're like, oh, it didn't actually, the auditor didn't even say very good things about it.",
+   "tags": [
+    "audits",
+    "hacks",
+    "marketing"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said DeFi Safety was paid by the developers it rated, which created pressure to stay quiet about risks.",
+   "speaker": "guest",
+   "start": 1461.3,
+   "quote": "Because frankly, we get paid by the developer, right? And if I'm really brutal in my language,",
+   "tags": [
+    "conflicts",
+    "funding",
+    "audits"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said it was not his job to tell people whether to invest, and that doing so could cause trouble if the call was wrong.",
+   "speaker": "guest",
+   "start": 1489.8,
+   "quote": "like it's not my job to say do or do not put money in this. And if we start doing that, we're gonna get trouble",
+   "tags": [
+    "disclaimers",
+    "investing",
+    "defisafety"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said he wanted DeFi Safety funded by users for users, not by developers, and said it was too early to know how.",
+   "speaker": "guest",
+   "start": 1543.3,
+   "quote": "I want it to be funded by the users, independent of the developers, funded by the users giving information for the users.",
+   "tags": [
+    "funding",
+    "defisafety",
+    "conflicts"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Rex Hygate said in September 2020 that the 2008 credit rating agencies had a system where issuers paid for their own ratings, which became corrupt over time.",
+   "speaker": "guest",
+   "start": 1572.0,
+   "quote": "You go back, you look at the rating agencies in 2008. You know, you had a perfectly good system where the ratings were paid for by the people who were getting the ratings.",
+   "tags": [
+    "ratings",
+    "conflicts",
+    "funding"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In 2020 Rex Hygate said he audited BZX v1 after its first hack to test whether his process would raise red flags, and it did.",
+   "speaker": "guest",
+   "start": 1769.6,
+   "quote": "I actually audited BZX v1 after their first hack just to see whether or not my process would bring up any red flags.",
+   "tags": [
+    "bzx",
+    "hacks",
+    "audits"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In 2020 Rex Hygate said OPEN had been hacked but still received a really good DeFi Safety score in his audit.",
+   "speaker": "guest",
+   "start": 1802.9,
+   "quote": "And it did. And then I audited OPEN, which had a hack, and they got a really good score.",
+   "tags": [
+    "open",
+    "hacks",
+    "scoring"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said a DeFi Safety score cannot detect dishonest incentives because the process does not read or review the code's behaviour.",
+   "speaker": "guest",
+   "start": 1864.8,
+   "quote": "I don't read the code. I don't go over what the code does. So that's a huge hole.",
+   "tags": [
+    "limitations",
+    "defisafety",
+    "scoring"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said a developer who has honest work but dishonest incentives would not be caught by a DeFi Safety score.",
+   "speaker": "guest",
+   "start": 1899.7,
+   "quote": "So if somebody's done honest work but has dishonest incentives, I won't catch that.",
+   "tags": [
+    "limitations",
+    "scoring",
+    "incentives"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said he checked test presence and test-to-code ratios rather than running the tests himself.",
+   "speaker": "guest",
+   "start": 2160.9,
+   "quote": "I only look at tests. Oh, look, he has lots of tests. And, you know, I can do a test to code ratio.",
+   "tags": [
+    "testing",
+    "methodology",
+    "scoring"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said finding the GitHub repository matching the code on mainnet was one of his biggest technical challenges.",
+   "speaker": "guest",
+   "start": 2333.9,
+   "quote": "frequently one of my biggest technical challenges is just trying to find the the github repository that matches the code on the mainnet",
+   "tags": [
+    "github",
+    "mainnet",
+    "verification"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2020 Rex Hygate said a DeFi Safety score could be shown in a wallet when a user connects to an app or confirms a transaction.",
+   "speaker": "guest",
+   "start": 2479.4,
+   "quote": "you can actually display that on the wallet when you're connecting to an app and when you're about to do a confirm.",
+   "tags": [
+    "wallets",
+    "defisafety",
+    "incentives"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said every DeFi project should have a security page answering the DeFi Safety questions so it could self-score.",
+   "speaker": "guest",
+   "start": 2592.5,
+   "quote": "I think every project should have a like slash security page. You know, if they have a bounty, that's where all the information should be about their bounty, their contact information.",
+   "tags": [
+    "security",
+    "transparency",
+    "disclosure"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2020 Rex Hygate predicted that DeFi auditing would become a quality industry with standard processes as the field grew.",
+   "speaker": "guest",
+   "start": 2647.6,
+   "quote": "the idea this is it'll become a quality industry at a certain point as this grows with lots of people involved in it.",
+   "tags": [
+    "industry",
+    "standards",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2020 Rex Hygate said he had read there were around 30,000 DeFi deployments a month, up from about 50.",
+   "speaker": "guest",
+   "start": 2799.6,
+   "quote": "I think I read that there were, what, 30,000 deployments a month now, which is insane, where it used to be like 50.",
+   "tags": [
+    "deployments",
+    "defi",
+    "growth"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said he planned to add a risk metric that measures total value locked over time, where a bigger area under the curve means a safer protocol.",
+   "speaker": "guest",
+   "start": 3055.2,
+   "quote": "you look at total value over time, and you take the area of the curve, and the bigger that is, the safer it is the time without hacks or whatever.",
+   "tags": [
+    "tvl",
+    "risk",
+    "scoring"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said he ran the SCC code-counting tool on core contracts to get lines of code, comments and a complexity figure.",
+   "speaker": "guest",
+   "start": 3293.0,
+   "quote": "And I run a tool called SCC on it, which gives, you know, the number of lines, number of comments and a generic code complexity thing",
+   "tags": [
+    "tooling",
+    "complexity",
+    "methodology"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In September 2020 a host asked what DeFi Safety would do if a user offered to pay for a worse score.",
+   "speaker": "host",
+   "start": 3508.4,
+   "quote": "Now, what do you do when a user says, like, find the problem with this shit project, and I'll pay you more if you give it a worse score?",
+   "tags": [
+    "conflicts",
+    "credibility",
+    "scoring"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2020 Rex Hygate said credibility was the only thing DeFi Safety had going for it, so bribes for a worse score would be expensive to accept.",
+   "speaker": "guest",
+   "start": 3537.7,
+   "quote": "on something like this, credibility is the only thing you've got going for you.",
+   "tags": [
+    "credibility",
+    "conflicts",
+    "defisafety"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2020 Rex Hygate said DeFi Safety screenshots public web pages and links them in reports so later changes can be compared to what was seen.",
+   "speaker": "guest",
+   "start": 3590.2,
+   "quote": "And with websites, I try to do a screen cap and then put it in there with the link. So if it changes a week later, I can at least say this is what I saw when I did it.",
+   "tags": [
+    "methodology",
+    "transparency",
+    "defisafety"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/092-defisafety-rex-hygate",
+ "title": "DefiSafety - Rex Hygate",
+ "date": "2020-09-19 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89345742/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374096-44100-1-0513508604d35034.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

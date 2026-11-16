@@ -1,0 +1,461 @@
+{
+ "episode_summary": "Episode 72, recorded in July 2016 as the bitcoin halving approached, with hosts Marcello and Dimitri and a long interview with Andreas Antonopoulos. Antonopoulos discusses the centralization of mining in China, how mining hardware gains are slowing, the bubble he expects after the halving, and why Bitcoin should prepare for a global currency crisis rather than act as a life raft for everyone. The show also covers his life on the road, Bitcoin debit cards, and the hosts' sponsor plugs.",
+ "guests": [
+  "Andreas Antonopoulos",
+  "Stephen Mackey"
+ ],
+ "topics": [
+  "halving",
+  "mining",
+  "centralization",
+  "bubbles",
+  "currency-crisis",
+  "bitcoin-debit-card",
+  "exchanges"
+ ],
+ "cards": [
+  {
+   "type": "prediction",
+   "claim": "In July 2016 Andreas Antonopoulos predicted that the coming post-halving rush would create a giant bubble that collapses back to more reasonable levels.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1680.2,
+   "quote": "It will lead to a giant bubble, which will then collapse back to more reasonable levels.",
+   "tags": [
+    "halving",
+    "bubble",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andreas Antonopoulos said most people only noticed the 2013 bitcoin bubble, which by percentage was not even among the top three bubbles.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1708.5,
+   "quote": "most people only noticed the 2013 one which in terms of percentages wasn't wasn't even in the top three in size",
+   "tags": [
+    "bubbles",
+    "2013",
+    "price-history"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Andreas Antonopoulos said exchange and trading failures, as with Mt. Gox, could slow Bitcoin adoption for a year or two.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1739.1,
+   "quote": "as long as you don't have exchange failures trading failures or massive steps in between slow down the the adoption for a year or two as we saw with Gox.",
+   "tags": [
+    "mt-gox",
+    "exchanges",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Andreas Antonopoulos said he would rather ride Bitcoin's volatile inflatable than the US dollar, which he called a stable Titanic heading for an iceberg.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1770.4,
+   "quote": "I'd rather be on the inflatable that's bouncing up and down than be on the very, very stable Titanic of the US dollar",
+   "tags": [
+    "volatility",
+    "us-dollar",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2016 Andreas Antonopoulos said mining chips had reached 16 nanometer, slowing hardware gains from 10,000 to 100,000 percent a year to 100 percent every 18 months.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1115.4,
+   "quote": "We hit 16 nanometer, which is Moore's Law, and we're now going to go from 10,000% increases or 100,000% increases per year to a 100% increase every 18 months.",
+   "tags": [
+    "mining",
+    "moores-law",
+    "asic"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Andreas Antonopoulos predicted that mining equipment's productive shelf life would grow from about three months to two years.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1143.3,
+   "quote": "the equipment will now go from a shelf life of three months to a shelf life of two years",
+   "tags": [
+    "mining",
+    "asic",
+    "shelf-life",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Andreas Antonopoulos predicted a re-decentralization of mining, with a massive reduction in the pressure to centralize.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1199.5,
+   "quote": "I think we're going to see the re-decentralization of mining, or at least certainly a massive reduction in the pressure to centralize.",
+   "tags": [
+    "mining",
+    "decentralization",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Andreas Antonopoulos disagreed that China's mining concentration is dangerous to Bitcoin, arguing consensus has many constituencies including developers, exchanges and merchants.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1265.6,
+   "quote": "The consensus function has multiple constituencies. It's not just miners who decide.",
+   "tags": [
+    "mining",
+    "china",
+    "consensus",
+    "centralization"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Andreas Antonopoulos said that as Bitcoin goes global, the average user would be a 23-year-old Han Chinese male, which explains China's large share of transactions.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 991.6,
+   "quote": "And the average person is a 23-year-old Han Chinese male.",
+   "tags": [
+    "china",
+    "adoption",
+    "transactions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andreas Antonopoulos said mining hardware performance improved by 1,000 to 10,000 fold a year moving from CPU to GPU to FPGA to ASIC.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1023.2,
+   "quote": "we've gone through these improvements of 1,000-fold to 10,000-fold each year, from CPU to GPU to FPGA to ASIC.",
+   "tags": [
+    "mining",
+    "asic",
+    "hardware"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andreas Antonopoulos explained that ASIC miners had only about two and a half to three months of usable life, which forced mining to cluster near factories.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1049.2,
+   "quote": "The minute you load it on the truck, it starts getting obsolete, right? And now you've got maybe two and a half to three months of usable life.",
+   "tags": [
+    "mining",
+    "asic",
+    "centralization"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andreas Antonopoulos described using Bitcoin mining to soak up excess renewable energy, storing that energy as mined bitcoin for later use.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1504.5,
+   "quote": "If you redirected all of the excess capacity that you're producing without demand, paying for it into Bitcoin mining, essentially you're storing that energy",
+   "tags": [
+    "mining",
+    "energy",
+    "renewables"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the July 2016 bitcoin halving was about 48 hours away at the time of recording.",
+   "speaker": "unknown",
+   "start": 1619.2,
+   "quote": "It's like almost 48 hours away, something like that.",
+   "tags": [
+    "halving",
+    "2016",
+    "timing"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2016 Andreas Antonopoulos said Deutsche Bank was on the precipice of collapsing in a massive 60 trillion dollar derivatives implosion.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2071.3,
+   "quote": "Deutsche Bank is on the precipice of collapsing in a massive $60 trillion derivatives explosion or implosion.",
+   "tags": [
+    "deutsche-bank",
+    "derivatives",
+    "banking-crisis"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Andreas Antonopoulos argued the real risk was that mega banks like Citi could fail, which he said nobody wanted to discuss, rather than Bitcoin dying.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2149.5,
+   "quote": "the argument that Citi will die as a bank or that these kinds of mega banks are in very, very big danger is the thing that nobody wants to talk about",
+   "tags": [
+    "citigroup",
+    "banks",
+    "currency-crisis"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker asked what happens when China starts behaving like Argentina, framing a currency crisis as Bitcoin's real test.",
+   "speaker": "unknown",
+   "start": 2175.0,
+   "quote": "when China starts behaving like Argentina, then what?",
+   "tags": [
+    "china",
+    "currency-crisis",
+    "argentina"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Andreas Antonopoulos said Bitcoin may not be ready for global wealth in two or three decades and may never be the right place to park the world's wealth.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2265.4,
+   "quote": "It may not even be ready in two, three decades, and it may never be the right place to consider parking the world's wealth",
+   "tags": [
+    "scaling",
+    "store-of-value",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Andreas Antonopoulos recounted that Vitalik Buterin said Ethereum could only handle everyone's money two or three years out, and said Bitcoin was the same.",
+   "speaker": "unknown",
+   "start": 2234.5,
+   "quote": "And Vitalik just straight up said, no, two or three years from now, maybe.",
+   "tags": [
+    "ethereum",
+    "scaling",
+    "vitalik"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Andreas Antonopoulos argued Bitcoin should survive the currency crisis to reach its next level, not serve as a life raft for everyone.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2299.6,
+   "quote": "Not as a life raft. You can't get everyone in the Titanic to jump onto the little inflatable and carry them to safety.",
+   "tags": [
+    "currency-crisis",
+    "life-raft",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andreas Antonopoulos said holding Bitcoin during a financial collapse is like swimming in Mordor with the one ring, which could melt at any moment.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2408.1,
+   "quote": "you're swimming in Mordor, but you're holding the one ring, and at any moment it could just melt.",
+   "tags": [
+    "currency-crisis",
+    "analogy",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Andreas Antonopoulos warned that a broad recession would quickly dry up the tech investment that funds Bitcoin development and jobs.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2435.7,
+   "quote": "If you have a broad and deep-based recession in the economy, all of that in tech investment is going to dry up very, very quickly.",
+   "tags": [
+    "recession",
+    "tech-investment",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Andreas Antonopoulos said he was more concerned about the world economy than about Bitcoin, which he said was doing fine.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2580.2,
+   "quote": "I'm much more concerned at the moment as to what happens with the world economy than what happens with Bitcoin.",
+   "tags": [
+    "macro",
+    "bitcoin",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andreas Antonopoulos said Bitcoin provides a store of value in hyperinflation and a safety valve for people trapped by currency controls.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 2606.6,
+   "quote": "It's providing a safety valve for people who are trapped in currency controls.",
+   "tags": [
+    "hyperinflation",
+    "capital-controls",
+    "use-cases"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In July 2016 Andreas Antonopoulos said his entire life fit in two 49.5-pound suitcases, after about 220 days on the road the previous year.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 486.0,
+   "quote": "my entire life now fits in two suitcases. 49.5 pounds each.",
+   "tags": [
+    "travel",
+    "lifestyle",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2016 Andreas Antonopoulos said bitcoin could be exchanged at 300 or 400 exchanges, after the first exchange came only after there were none.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 565.7,
+   "quote": "there are 300 or 400 exchanges where I can exchange it.",
+   "tags": [
+    "exchanges",
+    "usability",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andreas Antonopoulos explained that card networks use a pull architecture, so a card gives merchants authority to make unlimited withdrawals.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 740.8,
+   "quote": "they've designed a system that is based on a pull architecture, meaning that every time I give my card",
+   "tags": [
+    "credit-cards",
+    "security",
+    "pull-architecture"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Andreas Antonopoulos said his bitcoin debit card has a withdrawal limit and sends an instant message on every charge, so he can drain the balance from his phone.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 828.9,
+   "quote": "My Bitcoin debit card has a withdrawal limit, and I get an instantaneous message whenever a charge is made at the authorization stage.",
+   "tags": [
+    "bitcoin-debit-card",
+    "security",
+    "fraud"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Asked to describe Bitcoin in ten words or less, Andreas Antonopoulos answered 'the internet of money', and the hosts then cut the limit to under four words.",
+   "speaker": "unknown",
+   "start": 3325.9,
+   "quote": "the internet of money that's all the words we'll accept",
+   "tags": [
+    "definition",
+    "bitcoin",
+    "interview"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Andreas Antonopoulos argued that Bitcoin is a real-life experiment at scale, and that people underestimate the value of that learning.",
+   "speaker": "Andreas Antonopoulos",
+   "start": 1939.7,
+   "quote": "This is a real-life experiment, and I think people underestimate the value of that.",
+   "tags": [
+    "experiment",
+    "development",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/070-tbp72-the-broader-economy",
+ "title": "TBP72 - The Broader Economy",
+ "date": "2016-07-13",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982171/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213096-44100-2-97300e91b3450fd0.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

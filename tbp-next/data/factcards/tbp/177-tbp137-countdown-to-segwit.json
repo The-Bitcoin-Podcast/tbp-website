@@ -1,0 +1,429 @@
+{
+ "episode_summary": "TBP137 (2017-07-09) is a hosts' segment on the upcoming August 1 2017 SegWit2x and user-activated soft fork uncertainty, including advice on holding private keys and a debate about Ethereum, proof of stake and the DAO hard fork. The second half is an interview with Jonathan Chester of BitWage about its UK launch, trust model, payment reputation idea, and history since 2015.",
+ "guests": [
+  "Jonathan Chester"
+ ],
+ "topics": [
+  "segwit",
+  "bitcoin-fork",
+  "private-keys",
+  "ethereum",
+  "proof-of-stake",
+  "bitwage",
+  "payroll",
+  "icos"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In July 2017 the hosts said many new listeners were asking what to do on August 1 because of a possible Bitcoin fork.",
+   "speaker": "host",
+   "start": 335.1,
+   "quote": "This is a question every time someone joins our Slack lately. They say, what do I do on August 1st?",
+   "tags": [
+    "bitcoin-fork",
+    "august-1",
+    "segwit"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said Coinbase had stated it would probably shut down for about 24 hours if a fork happened.",
+   "speaker": "host",
+   "start": 447.2,
+   "quote": "coinbase has said that when a fork happens if it happens they'll probably shut down for 24 hours or so in order to figure out how to best serve their customers",
+   "tags": [
+    "coinbase",
+    "bitcoin-fork",
+    "exchanges"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained that if you own your private keys during a fork, you hold coins on every resulting chain.",
+   "speaker": "host",
+   "start": 531.1,
+   "quote": "If you own your own private keys and the Bitcoin network forks, then you have new Bitcoin on every single one of those networks.",
+   "tags": [
+    "private-keys",
+    "fork",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 the hosts said there had not been a contentious hard fork since they started covering Bitcoin.",
+   "speaker": "host",
+   "start": 882.3,
+   "quote": "There has not been a hard fork since we've started.",
+   "tags": [
+    "hard-fork",
+    "bitcoin",
+    "history"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The host said Ethereum's hard fork produced a roughly 90-10 network split as a faction left the chain that reversed the DAO hack.",
+   "speaker": "host",
+   "start": 908.5,
+   "quote": "they had a 90-10 network split when they had a hard fork because of an ideology ideological",
+   "tags": [
+    "ethereum",
+    "dao",
+    "hard-fork"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 the host predicted a 90-10 Bitcoin split would cause a short-term price drop followed by a recovery.",
+   "speaker": "host",
+   "start": 963.1,
+   "quote": "even if we have a 90 10 split of ideology which i think will probably be larger my personal opinion then we'll have at least a short-term price drop",
+   "tags": [
+    "bitcoin-fork",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host argued that Bitcoin's technical progress had stalled because it had been taken over by saboteurs in 2017.",
+   "speaker": "host",
+   "start": 827.8,
+   "quote": "it had been taken over by its saboteurs and its growth and technical progress stopped.",
+   "tags": [
+    "bitcoin",
+    "governance",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host blamed an artificially inflated fee market, spam and politics for making Bitcoin less functional in 2017.",
+   "speaker": "host",
+   "start": 854.9,
+   "quote": "I would say an artificially inflated fee market the spam the politics around Bitcoin have made it not as functional as what it could be",
+   "tags": [
+    "fees",
+    "bitcoin",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "The hosts debated whether Ethereum overtaking Bitcoin's market cap would be a sign of doom, with one host calling the flippening talk garbage.",
+   "speaker": "host",
+   "start": 1256.7,
+   "quote": "there's no flippening and that the what the community needs to realize is that it's not a damn zero sum game",
+   "tags": [
+    "ethereum",
+    "market-cap",
+    "debate"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The host said Ethereum came very close to overtaking Bitcoin's market cap for a short time in 2017.",
+   "speaker": "host",
+   "start": 1382.8,
+   "quote": "Ethereum came really close to overtaking the market cap for a small amount of time of Bitcoin.",
+   "tags": [
+    "ethereum",
+    "market-cap",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host called proof of work a very beautiful consensus algorithm that had proved itself for nine years.",
+   "speaker": "host",
+   "start": 1441.5,
+   "quote": "proof of work is a very beautiful consensus algorithm for what it's proved for the past nine years",
+   "tags": [
+    "proof-of-work",
+    "consensus",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained proof of stake: validators bond money so cheaters can be penalized, enabling faster finality and more transactions per second.",
+   "speaker": "host",
+   "start": 1554.2,
+   "quote": "If you can prove that they have cheated the system, then you can just take all their money away and there's nothing they can do about it.",
+   "tags": [
+    "proof-of-stake",
+    "ethereum",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host said in July 2017 that proof of stake's scalability had not yet been proven in practice.",
+   "speaker": "host",
+   "start": 1638.2,
+   "quote": "we just don't know if it works at scale yet",
+   "tags": [
+    "proof-of-stake",
+    "scaling",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The host said BitWage had over 13,000 registered workers.",
+   "speaker": "host",
+   "start": 1868.7,
+   "quote": "over 13,000 registered workers.",
+   "tags": [
+    "bitwage",
+    "payroll",
+    "users"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In July 2017 Jonathan Chester said BitWage had raised close to a million dollars, led by Draper Associates.",
+   "speaker": "Jonathan Chester",
+   "start": 1989.4,
+   "quote": "And since that time, we've raised close to a million dollars with Draper Associates.",
+   "tags": [
+    "bitwage",
+    "funding",
+    "draper"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jonathan Chester said BitWage had just launched UK bank accounts the week before the episode.",
+   "speaker": "Jonathan Chester",
+   "start": 2140.0,
+   "quote": "this past Monday, we just launched the ability to also have bank accounts in the UK.",
+   "tags": [
+    "bitwage",
+    "uk",
+    "launch"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jonathan Chester said BitWage was purely transactional and held almost no bitcoin, so user funds were exposed only briefly.",
+   "speaker": "Jonathan Chester",
+   "start": 2256.0,
+   "quote": "we are purely transactional. You don't hold your money with us.",
+   "tags": [
+    "bitwage",
+    "custody",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jonathan Chester said BitWage had processed $22 million in transactions by July 2017.",
+   "speaker": "Jonathan Chester",
+   "start": 2367.9,
+   "quote": "Besides that, we've done $22 million in transactions.",
+   "tags": [
+    "bitwage",
+    "volume",
+    "payments"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jonathan Chester said BitWage had recently added an in-house TOTP login in its iOS and Android apps to guard against SMS porting attacks.",
+   "speaker": "Jonathan Chester",
+   "start": 2342.6,
+   "quote": "we actually recently developed an in-house TOTP login mechanism in our iOS and Android BitRage apps",
+   "tags": [
+    "bitwage",
+    "2fa",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jonathan Chester said about 70 percent of BitWage volume came from people receiving international payments.",
+   "speaker": "Jonathan Chester",
+   "start": 3254.6,
+   "quote": "which by the way that's that's like about 70 percent of uh of our volume is people who are receiving payments internationally",
+   "tags": [
+    "bitwage",
+    "volume",
+    "international-payments"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the UK and Germany opposed EU plans to regulate Bitcoin around 2015.",
+   "speaker": "host",
+   "start": 3442.9,
+   "quote": "But there were two countries that opposed it. And one of those countries was Germany because they didn't want to give legitimacy to Bitcoin.",
+   "tags": [
+    "regulation",
+    "eu",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jonathan Chester described a payment reputation: verified Bitcoin payment history that international workers can carry as a resume.",
+   "speaker": "Jonathan Chester",
+   "start": 3900.2,
+   "quote": "which is the concept of having a payment reputation, right?",
+   "tags": [
+    "bitwage",
+    "reputation",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Jonathan Chester described a blockchain in 2017 as a database distributed across nodes with a consensus mechanism for updating it.",
+   "speaker": "Jonathan Chester",
+   "start": 4804.6,
+   "quote": "Well, the way that I describe a blockchain is essentially a database that's distributed",
+   "tags": [
+    "blockchain",
+    "definition",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Jonathan Chester defined Bitcoin in ten words as the easiest commodity to use and store the world has ever seen.",
+   "speaker": "Jonathan Chester",
+   "start": 4862.3,
+   "quote": "The easiest commodity to use and store that the world's ever seen.",
+   "tags": [
+    "bitcoin",
+    "definition",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "A guest said that even though the ICO craze was out of control in 2017, the idea of a tradable digital token is valuable.",
+   "speaker": "guest",
+   "start": 4661.0,
+   "quote": "even though there's the ico craze is is out of control uh right now",
+   "tags": [
+    "ico",
+    "tokens",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In July 2017 the host predicted a big market shock as ICO tokens and Ether holdings were sold.",
+   "speaker": "host",
+   "start": 4777.1,
+   "quote": "and I think a lot of the market is going to feel a big shock. The reckoning is coming.",
+   "tags": [
+    "ico",
+    "ethereum",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said that after the DAO hack Ethereum's developers changed the blockchain state to return funds to original investors.",
+   "speaker": "host",
+   "start": 2922.1,
+   "quote": "Vitalik and friends decided to, uh, uh, take the money away from the hackers",
+   "tags": [
+    "dao",
+    "ethereum",
+    "history"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/177-tbp137-countdown-to-segwit",
+ "title": "TBP137 - Countdown to SegWit",
+ "date": "2017-07-09",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982458/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213379-44100-2-4c9f7a56e32d7c6b.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

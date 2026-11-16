@@ -1,0 +1,412 @@
+{
+ "episode_summary": "August 2019 episode 269 with hosts Corey and D, the first show after Cello left the podcast. They explain proof of work versus proof of stake: what each one stakes, Sybil or civil resistance, the longest-chain rule and double spending, the history from CPUs to GPUs to ASICs, energy use and coal, and why they want to think in satoshis.",
+ "guests": [],
+ "topics": [
+  "proof of work",
+  "proof of stake",
+  "ethereum 2.0",
+  "sybil resistance",
+  "asics",
+  "energy use",
+  "satoshis",
+  "mining history"
+ ],
+ "cards": [
+  {
+   "type": "anecdote",
+   "claim": "In August 2019 the hosts announced that Cello had stepped away from the show after long-running disagreements, leaving Corey and D as the hosts.",
+   "speaker": "host",
+   "start": 194.8,
+   "quote": "Cello has decided to step away and leave.",
+   "tags": [
+    "podcast history",
+    "cello",
+    "announcement"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 the hosts said Bitcoin and Ethereum were both proof-of-work systems, secured by computers solving a very large Sudoku-like puzzle.",
+   "speaker": "host",
+   "start": 331.0,
+   "quote": "they're both secured by computers playing the equivalent of what would be a very large Sudoku puzzle",
+   "tags": [
+    "proof of work",
+    "bitcoin",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2019 the hosts said Ethereum was transitioning toward Ethereum 2.0, a proof-of-stake system.",
+   "speaker": "host",
+   "start": 356.3,
+   "quote": "So Ethereum is working on moving, transitioning towards F2.0, which is a proof of stake system.",
+   "tags": [
+    "ethereum 2.0",
+    "proof of stake",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host said proof of work means putting an external resource up front, usually your energy bill and mining hardware.",
+   "speaker": "host",
+   "start": 466.4,
+   "quote": "proof of work typically means you're putting an external resource up front. And that's usually in the form of your energy bill",
+   "tags": [
+    "proof of work",
+    "energy",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host said proof of stake means putting all of your money into an internal resource, the coin of the network itself.",
+   "speaker": "host",
+   "start": 495.0,
+   "quote": "And proof of stake, you're putting all of your money into an internal resource of the system, namely the coin of that network.",
+   "tags": [
+    "proof of stake",
+    "explainer",
+    "validators"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host explained that civil, or Sybil, resistance means you cannot spin up many fake identities to sway a vote.",
+   "speaker": "host",
+   "start": 523.1,
+   "quote": "What that means is that you can't just spin up a bunch of fake people and pretend to vote to try and sway a vote",
+   "tags": [
+    "sybil resistance",
+    "consensus",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host said stake-based voting works because a participant must put up a resource they do not want to lose for each vote.",
+   "speaker": "host",
+   "start": 629.4,
+   "quote": "They have to have stake in the game. They need to put a resource up front that they don't want to lose.",
+   "tags": [
+    "proof of stake",
+    "sybil resistance",
+    "consensus"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host said the original point of Bitcoin was solving the double spending problem.",
+   "speaker": "host",
+   "start": 879.8,
+   "quote": "The original bullet point of Bitcoin was it solved the double spending problem.",
+   "tags": [
+    "double spending",
+    "bitcoin",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host described Nakamoto consensus as the golden rule that nodes add blocks only to the longest chain.",
+   "speaker": "host",
+   "start": 905.4,
+   "quote": "I'm only going to add to the longest one. That's the golden rule.",
+   "tags": [
+    "longest chain",
+    "nakamoto consensus",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host explained that cheating the longest-chain rule requires mining several blocks in a row and submitting them together, which needs more work than available resources allow.",
+   "speaker": "host",
+   "start": 959.5,
+   "quote": "mine multiple blocks in a row so that you can make the adjustment you want and submit them all at the same time, which is more work than is capable of being done based on the available resources",
+   "tags": [
+    "51 percent attack",
+    "longest chain",
+    "proof of work"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2019 a host said the energy pumped into Bitcoin was larger than the output of many countries, though it was still smaller than some.",
+   "speaker": "host",
+   "start": 1025.9,
+   "quote": "pumped into Bitcoin is, you know, larger than a lot of countries output.",
+   "tags": [
+    "energy use",
+    "bitcoin security",
+    "proof of work"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2019 a host said you cannot solve the energy problem with an off switch, and proof of work was not going anywhere soon.",
+   "speaker": "host",
+   "start": 1082.4,
+   "quote": "you can't always just solve a problem with an off switch. You've got to kind of build your way there",
+   "tags": [
+    "energy use",
+    "proof of work",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host described the original Bitcoin idea of one CPU, one vote, with commodity hardware and no mining pools.",
+   "speaker": "host",
+   "start": 1164.4,
+   "quote": "The idea was one CPU, one vote. It was commoditized hardware.",
+   "tags": [
+    "mining history",
+    "cpu mining",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host defined mining efficiency as the number of SHA-256 hashes per second obtained for a given amount of energy.",
+   "speaker": "host",
+   "start": 1191.1,
+   "quote": "By efficiently, I mean turn the same or less amount of wattage or kilowatt hours",
+   "tags": [
+    "sha-256",
+    "mining efficiency",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host said mining moved from CPUs to GPUs and then to ASICs, which are application specific integrated circuits.",
+   "speaker": "host",
+   "start": 1218.6,
+   "quote": "we can actually make specific pieces of hardware we call them asics now application specific integrated circuit",
+   "tags": [
+    "asics",
+    "mining history",
+    "gpu mining"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2019 a host said ASICs made commodity hardware worthless for contributing to Bitcoin mining.",
+   "speaker": "host",
+   "start": 1244.4,
+   "quote": "It basically makes all of the computation that we have as like normal commoditized hardware that everyone has access to is worthless",
+   "tags": [
+    "asics",
+    "centralization",
+    "mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2019 a host said Bitcoin's energy mix right then mostly came from coal.",
+   "speaker": "host",
+   "start": 1284.3,
+   "quote": "Right now, it mostly comes from coal. That's a problem.",
+   "tags": [
+    "energy mix",
+    "coal",
+    "bitcoin mining"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host said proof of stake can punish misbehavior by slashing stake, while proof of work only offers incentives.",
+   "speaker": "host",
+   "start": 1559.5,
+   "quote": "So there's incentives and disincentives to behave correctly with a proof-of-stake system. You cannot do that with a proof-of-work system.",
+   "tags": [
+    "slashing",
+    "proof of stake",
+    "proof of work"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2019 a host said proof-of-work miners can move hash power to another chain such as BCash, which proof-of-stake stake cannot do.",
+   "speaker": "host",
+   "start": 1584.8,
+   "quote": "if I'm trying to mine there I can take it and mine on Bcash",
+   "tags": [
+    "bcash",
+    "proof of work",
+    "proof of stake"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2019 a host said he leaned toward proof of stake because it might give the same security as proof of work without needlessly running SHA-256.",
+   "speaker": "host",
+   "start": 1612.0,
+   "quote": "I lean towards proof-of-stake systems because I think there's a potential that they'll be able to provide",
+   "tags": [
+    "proof of stake",
+    "security",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2019 a host said that Bitcoin being worth global GDP was not going to happen anytime soon, or probably ever.",
+   "speaker": "host",
+   "start": 2160.8,
+   "quote": "That's not going to happen anytime soon or probably ever for that matter.",
+   "tags": [
+    "satoshis",
+    "bitcoin price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2019 a host calculated that if all bitcoin were worth global GDP, one satoshi would be about a cent.",
+   "speaker": "host",
+   "start": 2160.8,
+   "quote": "then one Satoshi would be around half a cent to a cent, one penny.",
+   "tags": [
+    "satoshis",
+    "bitcoin price",
+    "global gdp"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2019 a host predicted that thinking in satoshis would happen quickly, but more slowly in Western nations than in other countries.",
+   "speaker": "host",
+   "start": 2187.7,
+   "quote": "It can happen really quick. It just won't happen in the Western nations as quickly as it would happen in the other countries.",
+   "tags": [
+    "satoshis",
+    "adoption",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2019 a host said Bitcoin forces everyone to adopt the mental model that people in other nations already use for large numbers.",
+   "speaker": "host",
+   "start": 2212.8,
+   "quote": "it's almost like Bitcoin forces everyone to go to what other nations have been doing naturally for a very long time.",
+   "tags": [
+    "satoshis",
+    "currency",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2019 a host urged the community to start thinking and pricing in satoshis, to make bitcoin more accessible.",
+   "speaker": "host",
+   "start": 2296.5,
+   "quote": "hey guys we're thinking in satoshis now and i know we tried it before but this might be a good time",
+   "tags": [
+    "satoshis",
+    "community",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2019 a host said the Winklevoss twins held tens of thousands of bitcoin, which would be trillions of satoshis.",
+   "speaker": "host",
+   "start": 2326.8,
+   "quote": "Tens of thousands, right? They would have instead have trillions of Satoshis, right?",
+   "tags": [
+    "winklevoss",
+    "satoshis",
+    "bitcoin holdings"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/674-the-bitcoin-podcast-269-proof-of-work-vs-proof-of",
+ "title": "The Bitcoin Podcast #269: Proof of Work vs. Proof of Stake",
+ "date": "2019-08-14",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981676/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212594-44100-1-acb681897472a0a0.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

@@ -1,0 +1,338 @@
+{
+ "episode_summary": "Season 2 episode 8 of The Bitcoin Podcast (Nov 2025), recorded with two hosts (Corey absent). Mostly banter, but the hosts riff on Coinbase's Web3 wallet and Base chain, airdrop claims, Tether's profits, real-world asset tokenization (houses, stocks, BlackRock funds, ERC-1155 vs per-asset contracts), Zcash price action and privacy-coin pump cycles, and EV stocks. Few hard numbers; many opinions and loose predictions.",
+ "guests": [],
+ "topics": [
+  "coinbase",
+  "tokenization",
+  "real-world-assets",
+  "privacy-coins",
+  "zcash",
+  "stablecoins",
+  "market-cycles"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In November 2025 a host said Tether had made $10 billion in the first nine months of that year, which he found hard to square with a stablecoin.",
+   "speaker": "host",
+   "start": 619.2,
+   "quote": "Tether made $10 billion in the first nine months of this year. And I'm like, how does a stable coin make $10 billion?",
+   "tags": [
+    "stablecoins",
+    "tether",
+    "business-model"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host argued that Bitcoin adoption was nearing its peak and that the asset was becoming a commoditised stock, endorsed by the White House and many governments.",
+   "speaker": "host",
+   "start": 875.2,
+   "quote": "So I think we're, we're nearing the peak of what actual Bitcoin adoption looks like.",
+   "tags": [
+    "bitcoin",
+    "adoption",
+    "price-action"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In November 2025 the hosts disagreed over whether Bitcoin's benefits were being delivered through price action, with one saying it was very institutionalised.",
+   "speaker": "unknown",
+   "start": 847.0,
+   "quote": "I think it's very institutionalized. I mean, the benefit that you're speaking as price action, right?",
+   "tags": [
+    "bitcoin",
+    "institutions",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host said Bitcoin was no closer to the reliable financial system it promised, because the market was fragmenting into many stablecoins.",
+   "speaker": "host",
+   "start": 733.8,
+   "quote": "I don't think we're close to that anymore, right? Everything's fragmenting. It's a bunch of stable coins.",
+   "tags": [
+    "stablecoins",
+    "bitcoin",
+    "fragmentation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host said Coinbase had gone full circle from refusing crypto features to launching a Web3 wallet and the Base chain, while claiming alignment with Ethereum.",
+   "speaker": "host",
+   "start": 418.7,
+   "quote": "they did the wallet and they're like uh yeah we're really aligned with ethereum we want to make sure that their roadmap comes to completion",
+   "tags": [
+    "coinbase",
+    "base",
+    "ethereum",
+    "layer-2"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host accused Coinbase of hoarding users' money from forks and airdrops that users had never claimed.",
+   "speaker": "host",
+   "start": 280.8,
+   "quote": "coinbase is hoarding a lot of people's money and they're just hoping everyone forgets about it",
+   "tags": [
+    "coinbase",
+    "airdrops",
+    "custody"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2025 a host pointed listeners to Lofty as a platform that pays token holders a percentage of rent on tokenised property.",
+   "speaker": "host",
+   "start": 1258.0,
+   "quote": "Go to Lofty. It pays you a percentage of the rent.",
+   "tags": [
+    "real-world-assets",
+    "tokenization",
+    "real-estate"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host said attempts to tokenise fractional real estate equity had been tried often but never scaled, and that he had not seen a working platform.",
+   "speaker": "host",
+   "start": 1583.1,
+   "quote": "we haven't we've seen this attempted a lot never scales so i don't know",
+   "tags": [
+    "real-world-assets",
+    "tokenization",
+    "real-estate"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host argued privacy tokens get pumped late in the crypto cycle because they are an easy narrative on a small market cap.",
+   "speaker": "host",
+   "start": 2063.5,
+   "quote": "i think it's because it's an easy kind of narrative to pump it's an easy thing to kind of work with and on top of that it's a such a smaller market cap",
+   "tags": [
+    "privacy-coins",
+    "market-cycles",
+    "monero",
+    "zcash"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 the hosts joked that crypto runs a three-pump cycle, with Bitcoin pumping first, then altcoins, and privacy coins last.",
+   "speaker": "host",
+   "start": 2143.8,
+   "quote": "Crypto is the three pump chump market. You got a Bitcoin pumps, then alt's pump, and then privacy coins pump.",
+   "tags": [
+    "market-cycles",
+    "privacy-coins",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2025 a host said Zcash's price had surged because traders moved funds through shielded transactions, which pushed up demand for a limited ZEC supply.",
+   "speaker": "host",
+   "start": 1976.6,
+   "quote": "Zcash is like blown up like price wise because, you know, when people do a bunch of trades and they don't want to let people know what they're going to do with the money.",
+   "tags": [
+    "zcash",
+    "privacy-coins",
+    "price-action"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host said privacy is largely fake, since anyone who really wants to find someone will be able to.",
+   "speaker": "host",
+   "start": 1922.2,
+   "quote": "privacy to me gets interesting but also not interesting because i know it's like fake so it's just like you know privacy is fake",
+   "tags": [
+    "privacy",
+    "privacy-coins",
+    "surveillance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host argued that in this day and age anyone who wants to find you will find you, so privacy is a weak promise.",
+   "speaker": "host",
+   "start": 1950.6,
+   "quote": "if somebody wants to find you, you'll be found.",
+   "tags": [
+    "privacy",
+    "surveillance",
+    "opsec"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2025 a host said the DevConnect developer event was next month in Argentina, running from November 17 to 21.",
+   "speaker": "host",
+   "start": 1094.8,
+   "quote": "yeah you gotta go to dev you gotta go to dev connect that's uh next month in argentina",
+   "tags": [
+    "events",
+    "ethereum",
+    "devconnect"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2025 a host named Custodia as an example of a crypto bank being set up by wealthy players.",
+   "speaker": "host",
+   "start": 1180.3,
+   "quote": "i think it's called custodia okay custodia is one of them where it's like interesting",
+   "tags": [
+    "crypto-banks",
+    "custody",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2025 a host said people would not self-custody their own crypto, and that they had wrongly expected everyone to use a hardware wallet ten years earlier.",
+   "speaker": "host",
+   "start": 1180.3,
+   "quote": "people aren't going to custody their own crypto like people don't want that smoke.",
+   "tags": [
+    "self-custody",
+    "custody",
+    "wallets"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In November 2025 a host said stocks and securities were the easiest real-world assets to tokenise, since a blockchain could expose them to buyers worldwide.",
+   "speaker": "host",
+   "start": 2279.4,
+   "quote": "I think the easiest real world asset to see tokenizing is stocks and securities.",
+   "tags": [
+    "real-world-assets",
+    "tokenization",
+    "securities"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In November 2025 a host said he had considered buying Kia stock two years earlier on the view that electric vehicles would take off in the US, but dropped the idea because of foreign-stock rules.",
+   "speaker": "host",
+   "start": 2313.7,
+   "quote": "i thought electric vehicles were going to take off here in the States. So I was like, oh, let me be a smart guy.",
+   "tags": [
+    "tokenization",
+    "stocks",
+    "ev"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2025 a host said BlackRock was planning to tokenise one of its funds so buyers could hold tokens representing partial ownership.",
+   "speaker": "host",
+   "start": 2427.1,
+   "quote": "literally BlackRock is like, hey, we're going to tokenize our fund and you can buy tokens of our fund that represent a partial ownership of the",
+   "tags": [
+    "blackrock",
+    "real-world-assets",
+    "tokenization"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In November 2025 the hosts summarised that tokenised assets can use one contract per asset, which gives clear legal ownership but does not scale, or one shared ERC-1155 contract, which is cheaper but less legally isolated.",
+   "speaker": "host",
+   "start": 2482.1,
+   "quote": "It doesn't scale. Or one shared contract for many assets like an ERC-1155.",
+   "tags": [
+    "tokenization",
+    "erc-1155",
+    "smart-contracts"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In November 2025 a host said electric vehicles would still take off in the US, though not as dramatically as he had expected, citing a Cadillac with a 500-mile range.",
+   "speaker": "host",
+   "start": 2562.5,
+   "quote": "i'm just like dude electrics cars are going to take off here in the states now do i think they're taking off as vertical as I thought they would? No.",
+   "tags": [
+    "ev",
+    "predictions",
+    "stocks"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/1011-the-bitcoin-podcast-s02e08-hacks-zcash-and-air",
+ "title": "The Bitcoin Podcast S02E08 - Hacks, ZCash, and Air Fryers",
+ "date": "2025-11-12",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/110709342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-12%2F412306412-44100-2-5c1059a3327de.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

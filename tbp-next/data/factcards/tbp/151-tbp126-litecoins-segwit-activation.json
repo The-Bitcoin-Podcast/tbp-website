@@ -1,0 +1,414 @@
+{
+ "episode_summary": "Litecoin podcast-style episode TBP126 (2017-05-01) interviews Litecoin creator Charlie Lee about Litecoin's SegWit activation through miner signaling. Covers why miners and pools resisted, the F2Pool signaling turn, the price moving in step with signaling, user-activated soft fork fallback, Lightning and confidential transactions on Litecoin, Coinbase's Token wallet, and a host segment on the Antminer call-home switch.",
+ "guests": [
+  "Charlie Lee"
+ ],
+ "topics": [
+  "litecoin",
+  "segwit",
+  "soft-fork",
+  "miner-signaling",
+  "lightning",
+  "mining",
+  "antminer",
+  "coinbase"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In May 2017 the hosts explained that Litecoin was designed to resist ASICs so people could mine it on GPUs.",
+   "speaker": "host",
+   "start": 294.7,
+   "quote": "Litecoin was created to try and keep people from having specialized hardware so they can do it on GPUs and so on and so forth",
+   "tags": [
+    "litecoin",
+    "mining",
+    "asic-resistance"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2017 the hosts said the Lightning Network had already worked on the Litecoin testnet.",
+   "speaker": "host",
+   "start": 399.4,
+   "quote": "the lightning network already worked on the Litecoin test net it works flawlessly",
+   "tags": [
+    "lightning",
+    "litecoin",
+    "testnet"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2017 Litecoin was trading around $14.80 on Coinbase, down from $16.11 earlier.",
+   "speaker": "host",
+   "start": 477.5,
+   "quote": "It's at 14.80, according to Coinbase. 14.80 is not bad. It was at 16.11.",
+   "tags": [
+    "litecoin",
+    "price",
+    "market"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Charlie Lee argued that SegWit was sold as a scaling solution, so people only saw it as that and missed its other benefits.",
+   "speaker": "Charlie Lee",
+   "start": 964.0,
+   "quote": "Segwit was sold as a scaling solution in the Bitcoin space. And unfortunately, that caused people to only see it as a scaling solution.",
+   "tags": [
+    "segwit",
+    "scaling",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Charlie Lee said SegWit enables Lightning and confidential transactions, not just scaling.",
+   "speaker": "Charlie Lee",
+   "start": 964.0,
+   "quote": "in reality Segwit allows us to do like lightning networks to do a lot of other things with software like confidential transactions",
+   "tags": [
+    "segwit",
+    "lightning",
+    "confidential-transactions"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Charlie Lee said Litecoin would complement Bitcoin as a payment network for smaller everyday purchases.",
+   "speaker": "Charlie Lee",
+   "start": 1115.3,
+   "quote": "I see Litecoin as always complementing Bitcoin to be more of a form of payment for buying smaller things",
+   "tags": [
+    "litecoin",
+    "payments",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Charlie Lee said Litecoin had four times Bitcoin's throughput because its blocks arrive every two and a half minutes.",
+   "speaker": "Charlie Lee",
+   "start": 1272.3,
+   "quote": "But off the get-go, we have four times the capacity of Bitcoin",
+   "tags": [
+    "litecoin",
+    "block-time",
+    "throughput"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Charlie Lee predicted Litecoin would have many years before it ran into scaling problems.",
+   "speaker": "Charlie Lee",
+   "start": 1301.8,
+   "quote": "And if we do, I think we'll have many years to go before we actually run into any scaling issues.",
+   "tags": [
+    "scaling",
+    "litecoin",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Charlie Lee said most miners are driven by cash flow rather than ideology and do not understand the protocol.",
+   "speaker": "Charlie Lee",
+   "start": 1446.8,
+   "quote": "They're not driven by ideology. They're driven by the cash flow that they're printing.",
+   "tags": [
+    "miners",
+    "governance",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Charlie Lee said SegWit on Litecoin would activate if the five or six big mining pools started signaling for it.",
+   "speaker": "Charlie Lee",
+   "start": 1480.1,
+   "quote": "so it mostly comes down to like the five or six big pools if we manage to convince um the pools to start signaling to support segwit then it'll activate",
+   "tags": [
+    "segwit",
+    "miner-signaling",
+    "pools"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Charlie Lee said he persuaded an individual miner with about 10% of global hashrate to signal for SegWit on Litecoin.",
+   "speaker": "Charlie Lee",
+   "start": 1826.8,
+   "quote": "So I talked to an individual miner who had like 10% of the global hash rate, a pretty big miner.",
+   "tags": [
+    "segwit",
+    "hashrate",
+    "miner-signaling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Charlie Lee said F2Pool started signaling for SegWit on Litecoin after its owner was persuaded.",
+   "speaker": "Charlie Lee",
+   "start": 1882.3,
+   "quote": "f2 pool after talking to him for a while um the the owner decided to",
+   "tags": [
+    "f2pool",
+    "segwit",
+    "miner-signaling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Charlie Lee said the Litecoin price moved in lockstep with the SegWit signaling percentage after F2Pool began signaling.",
+   "speaker": "Charlie Lee",
+   "start": 1910.4,
+   "quote": "from that point onwards, the price of Litecoin was in lockstep with the signaling percentage.",
+   "tags": [
+    "price",
+    "segwit",
+    "signaling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Charlie Lee described a user-activated soft fork, where exchanges and wallets enforce activation after a set period if users want it.",
+   "speaker": "Charlie Lee",
+   "start": 2097.1,
+   "quote": "So the idea was the user-activated software. Basically, if users all want it and exchanges serve the users",
+   "tags": [
+    "user-activated-soft-fork",
+    "segwit",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Charlie Lee said SegWit is an opt-in soft fork, so users who do not want SegWit transactions do not have to use them.",
+   "speaker": "Charlie Lee",
+   "start": 2124.3,
+   "quote": "Because SegWit is a soft fork and it's opt-in. If you don't want to use SegWit transactions, you don't have to.",
+   "tags": [
+    "soft-fork",
+    "segwit",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2017 Charlie Lee said he was never in doubt that SegWit would activate on Litecoin, whether by miner or user activation.",
+   "speaker": "Charlie Lee",
+   "start": 2150.3,
+   "quote": "So I was never really in doubt that SegWit would activate on Litecoin.",
+   "tags": [
+    "segwit",
+    "litecoin",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Charlie Lee explained BIP 9 miner activation: after code release, miners upgrade over months until about 95 percent signal, then the soft fork locks in.",
+   "speaker": "Charlie Lee",
+   "start": 2237.1,
+   "quote": "So eventually, 95% of miners or pools have all upgraded. And once they've upgraded, then you can lock in the soft fork.",
+   "tags": [
+    "bip9",
+    "soft-fork",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Charlie Lee said the team hoped to have Lightning Network working on Litecoin by the time SegWit activated, about two weeks later.",
+   "speaker": "Charlie Lee",
+   "start": 2461.1,
+   "quote": "and hopefully we'll have something actually working by the time Segwit activates in two weeks",
+   "tags": [
+    "lightning",
+    "litecoin",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Charlie Lee said confidential transactions could be added to Litecoin as a soft fork once SegWit was in place.",
+   "speaker": "Charlie Lee",
+   "start": 2461.1,
+   "quote": "So with Segwit, confidential transactions can be done as a soft fork and that's exciting.",
+   "tags": [
+    "confidential-transactions",
+    "segwit",
+    "explainer"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Charlie Lee said speculation is currently the main killer app for Bitcoin and Litecoin.",
+   "speaker": "Charlie Lee",
+   "start": 3178.7,
+   "quote": "Right now, it's kind of just like mostly on trading, right? Speculation is the killer app.",
+   "tags": [
+    "adoption",
+    "speculation",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Charlie Lee said Coinbase was working on Token, its Ethereum wallet, as a product the company was exploring.",
+   "speaker": "Charlie Lee",
+   "start": 3204.9,
+   "quote": "we have a team working on a product called Token, which is our Ethereum wallet",
+   "tags": [
+    "coinbase",
+    "token-wallet",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Charlie Lee gave a ten-word definition of Bitcoin as an electronic currency not backed by government.",
+   "speaker": "Charlie Lee",
+   "start": 3550.1,
+   "quote": "so bitcoin is a electronic currency that is not backed by government",
+   "tags": [
+    "bitcoin",
+    "definition",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2017 the host predicted the ICO space might implode because too much money was chasing speculative projects.",
+   "speaker": "host",
+   "start": 3407.4,
+   "quote": "i think the the whole icl space is is kind of scary to me i think it might kind of implode",
+   "tags": [
+    "ico",
+    "speculation",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the Antminer S9 included an undocumented call-home function that checked in every 1 to 11 minutes and could shut miners off.",
+   "speaker": "host",
+   "start": 3968.1,
+   "quote": "Every 1 to 11 minutes, it sends a signal back to AntMiner servers to essentially verify that it's mining.",
+   "tags": [
+    "antminer",
+    "bitmain",
+    "call-home"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the fix for the Antminer call-home issue sat in GitHub for seven months without being implemented.",
+   "speaker": "host",
+   "start": 4029.1,
+   "quote": "the fix for this sat in GitHub for seven months and just wasn't ever implemented",
+   "tags": [
+    "antminer",
+    "bitmain",
+    "github"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host said the SegWit experiment on Litecoin would give Bitcoin developers real-world confidence to deploy the same technology on Bitcoin.",
+   "speaker": "host",
+   "start": 4430.4,
+   "quote": "we now have an experiment, a side experiment, to test everything that we've been creating in Bitcoin",
+   "tags": [
+    "segwit",
+    "bitcoin",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/151-tbp126-litecoins-segwit-activation",
+ "title": "TBP126 - Litecoin's SegWit Activation",
+ "date": "2017-05-01",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982281/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213201-44100-2-1e2978dddb87b205.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

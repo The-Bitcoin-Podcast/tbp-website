@@ -1,0 +1,456 @@
+{
+ "episode_summary": "June 2017 interview with Taylor Monahan of MyEtherWallet about how the free client-side Ethereum wallet grew, the key and gas confusion new users faced, and the 2017 ICO scene of gas wars, phishing clones, dumb money and scam tokens.",
+ "guests": [
+  "Taylor Monahan"
+ ],
+ "topics": [
+  "myetherwallet",
+  "ethereum",
+  "ico",
+  "gas fees",
+  "wallets",
+  "phishing",
+  "token sales"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In June 2017 Taylor Monahan described MyEtherWallet as a client-side browser wallet for Ethereum and tokens.",
+   "speaker": "Taylor Monahan",
+   "start": 552.6,
+   "quote": "So MyEtherWallet is a client-side browser-based wallet for Ethereum and tokens.",
+   "tags": [
+    "myetherwallet",
+    "wallets",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2017 Taylor Monahan said MyEtherWallet stored no keys on a central server and worked as an interface for generating wallets.",
+   "speaker": "Taylor Monahan",
+   "start": 580.2,
+   "quote": "but there's no like server central server or anything that stores your keys so you basically it's like a interface almost that allows you to generate a wallet",
+   "tags": [
+    "myetherwallet",
+    "keys",
+    "custody"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2017 Taylor Monahan said she started MyEtherWallet because she was uncomfortable moving Ether around on the command line.",
+   "speaker": "Taylor Monahan",
+   "start": 609.2,
+   "quote": "We got started basically because I wasn't comfortable with the command line and I really didn't feel like moving a bunch of ether around in terminal.",
+   "tags": [
+    "myetherwallet",
+    "origin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2017 Taylor Monahan said MyEtherWallet took off after a simple wallet page was shared with friends and then posted on Reddit.",
+   "speaker": "Taylor Monahan",
+   "start": 635.6,
+   "quote": "and then we posted it on reddit and then that was like pretty much the end of everything like it just blew up from there",
+   "tags": [
+    "myetherwallet",
+    "reddit",
+    "growth"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2017 Taylor Monahan said MyEtherWallet grew largely because it let users send or add any token very early on.",
+   "speaker": "Taylor Monahan",
+   "start": 663.9,
+   "quote": "one of the biggest reasons that we got like so big was just was because of these tokens actually we like very early in the process um allowed you to send like any token or add any token",
+   "tags": [
+    "myetherwallet",
+    "erc20",
+    "tokens"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2017 Taylor Monahan explained that Ethereum gas is not a plain transaction fee but the fuel that runs the network.",
+   "speaker": "Taylor Monahan",
+   "start": 751.2,
+   "quote": "it's like not a transaction fee it's like gas and ether is supposed to be like the fuel of the network.",
+   "tags": [
+    "ethereum",
+    "gas"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2017 Taylor Monahan said Ethereum users still pay gas when a transaction fails, unlike a Bitcoin fee.",
+   "speaker": "Taylor Monahan",
+   "start": 778.1,
+   "quote": "And that gas is paid in ETH and it kind of acts as a transaction fee, but it's not exactly the same because even if your transaction fails, you still have to pay for that gas.",
+   "tags": [
+    "ethereum",
+    "gas",
+    "fees"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2017 Taylor Monahan said MyEtherWallet was building a new interface that would force new users through a wizard teaching them to back up keys.",
+   "speaker": "Taylor Monahan",
+   "start": 863.6,
+   "quote": "We're working on a new interface right now that will hopefully, like, you know, basically force new users through a wizard",
+   "tags": [
+    "myetherwallet",
+    "ux",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2017 Taylor Monahan explained that MyEtherWallet has no username and password, so users load a wallet file or seed phrase for every action.",
+   "speaker": "Taylor Monahan",
+   "start": 945.6,
+   "quote": "With MyEtherWallet, you don't have any of that. Like you're just basically dropped onto the site and every time you want to interact with your wallet",
+   "tags": [
+    "myetherwallet",
+    "keys",
+    "seed-phrase"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In 2017 Taylor Monahan said that during the Bancor token sale users paid large gas fees to cut the line despite Bancor's gas price limit.",
+   "speaker": "Taylor Monahan",
+   "start": 1066.8,
+   "quote": "people still threw large transaction fees at them to try and cut in line and just paid a shitload of money to the miners",
+   "tags": [
+    "bancor",
+    "ico",
+    "gas"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2017 Taylor Monahan said MyEtherWallet capped gas prices at 50 in its interface, so higher prices required the offline tab.",
+   "speaker": "Taylor Monahan",
+   "start": 1092.1,
+   "quote": "So you can't put a gas price above 50 unless you like go through the offline tab, which is more complicated and beyond most users' skill.",
+   "tags": [
+    "myetherwallet",
+    "gas"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Taylor Monahan said MyEtherWallet's gas estimation failed during one ICO, estimating 90 when the limit should have been 150, so most transactions ran out of gas.",
+   "speaker": "Taylor Monahan",
+   "start": 1145.6,
+   "quote": "The gas limit should have been 150, and it was estimating 90.",
+   "tags": [
+    "gas",
+    "ico",
+    "myetherwallet"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2017 the hosts noted that early Ethereum pre-sale buyers had bought ETH at around 33 cents.",
+   "speaker": "unknown",
+   "start": 1259.8,
+   "quote": "if you got in on the Ethereum pre-sale, you bought your ETH at like 33 cents.",
+   "tags": [
+    "ethereum",
+    "presale",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2017 the hosts said Juicero had raised $120 million in venture capital for its juice press.",
+   "speaker": "unknown",
+   "start": 1395.3,
+   "quote": "$120 million in venture capital. and it's like who how does this happen the answer is a bunch of people got lucky and got rich early",
+   "tags": [
+    "juicero",
+    "venture-capital",
+    "dumb-money"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2017 the hosts argued that early crypto investors who got lucky act as dumb money, funding speculative projects during booms.",
+   "speaker": "unknown",
+   "start": 1420.3,
+   "quote": "It's called dumb money. And we saw it in the dot-com boom. We saw it in the Bitcoin boom.",
+   "tags": [
+    "dumb-money",
+    "speculation",
+    "ico"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2017 the hosts said the FreeWallet scam had drained wallets for about eight million dollars and that the total was still rising.",
+   "speaker": "unknown",
+   "start": 1562.3,
+   "quote": "they drained all the wallets and i think it's like eight it's up to eight million right now but it's it's still going up",
+   "tags": [
+    "scam",
+    "wallets",
+    "freewallet"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Taylor Monahan said the Ethereum Chamber clone wallet was online for less than 24 hours before the warnings spread.",
+   "speaker": "Taylor Monahan",
+   "start": 1648.0,
+   "quote": "That's what we saw with Ethereum Chamber. They were online for less than 24 hours.",
+   "tags": [
+    "phishing",
+    "scam",
+    "ethereum-chamber"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2017 Taylor Monahan described Status's ICO design, in which pre-release tokens were mapped to 10 percent of the amount raised.",
+   "speaker": "Taylor Monahan",
+   "start": 2066.0,
+   "quote": "that will be mapped to 10% of whatever they end up raising",
+   "tags": [
+    "status",
+    "ico",
+    "token-sale-design"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2017 Taylor Monahan said the main mistake in Gnosis's Dutch auction was setting the initial cap too low.",
+   "speaker": "Taylor Monahan",
+   "start": 2151.3,
+   "quote": "I think the only thing they did wrong, or, like, the main thing they did wrong, was set their initial cap too low.",
+   "tags": [
+    "gnosis",
+    "ico",
+    "auction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2017 Taylor Monahan said Bancor's gas price cap backfired because users created many addresses and sent multiple transactions at once, clogging the network.",
+   "speaker": "Taylor Monahan",
+   "start": 2757.4,
+   "quote": "because they set the gas price they ddos themselves because people just created multiple addresses and sent multiple transactions at the same time",
+   "tags": [
+    "bancor",
+    "gas",
+    "ddos"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2017 Taylor Monahan predicted that ICO investing would become mostly automated contracts, with the secondary market becoming where ordinary people buy.",
+   "speaker": "Taylor Monahan",
+   "start": 2814.5,
+   "quote": "at the end of the day we're gonna reach a point where like it's just all contracts are robots and the secondary market is like probably just going to be the place that normal people get it.",
+   "tags": [
+    "ico",
+    "secondary-market",
+    "bots"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2017 the hosts described DGX as a token whose value was tied to gold, one gram per token.",
+   "speaker": "unknown",
+   "start": 2921.6,
+   "quote": "like the dgx token it's tied to whatever like a percent or a something of gold right like a gram of gold or something",
+   "tags": [
+    "dgx",
+    "digix",
+    "gold"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2017 the hosts described MKR as Maker's governance token, which only holds value if it is actively used.",
+   "speaker": "unknown",
+   "start": 2953.7,
+   "quote": "So Maker is the governance token that requires actual use, otherwise it goes wrong with it.",
+   "tags": [
+    "maker",
+    "mkr",
+    "governance",
+    "dai"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2017 Taylor Monahan said the Hacker Gold ICO worried her most because the token's value was unclear.",
+   "speaker": "Taylor Monahan",
+   "start": 3011.0,
+   "quote": "I think the hacker gold ICO which was a few months back was one of the ones that kind of worried me the most",
+   "tags": [
+    "hacker-gold",
+    "ico",
+    "token-value"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2017 Taylor Monahan said most tokens were purely speculative vehicles because their practical utility had not yet arrived.",
+   "speaker": "Taylor Monahan",
+   "start": 3128.3,
+   "quote": "right now, you think of a token from a traditional perspective, it is a speculative vehicle.",
+   "tags": [
+    "tokens",
+    "speculation",
+    "utility"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2017 Taylor Monahan warned that something would go terribly wrong in the ICO market, and that only a major scam would change speculators' behavior.",
+   "speaker": "Taylor Monahan",
+   "start": 3367.7,
+   "quote": "Something is going to go terribly wrong. And that's the only catalyst that's going to keep people from doing this crazy shit.",
+   "tags": [
+    "ico",
+    "scams",
+    "speculation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2017 Taylor Monahan said it had become easier for ICO founders to avoid an outright scam and cash out slowly over time.",
+   "speaker": "Taylor Monahan",
+   "start": 3393.9,
+   "quote": "What I realized like recently is that it's actually easier to not scam, like not blatantly like run away with everyone's money.",
+   "tags": [
+    "ico",
+    "scams",
+    "founders"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "The hosts recalled that Taylor Monahan had earlier suggested Ether might reach $100 by the end of 2017, when ETH was already trading in the $400s.",
+   "speaker": "host",
+   "start": 3705.0,
+   "quote": "you're saying maybe by the end of the year we might hit a hundred dollars",
+   "tags": [
+    "ethereum",
+    "price-prediction",
+    "eth"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2017 Taylor Monahan said the next MyEtherWallet version would include a 10-week email newsletter for new users.",
+   "speaker": "Taylor Monahan",
+   "start": 4039.2,
+   "quote": "So people that are new and stuff can sign up for it when they create an account. And then it's going to do an auto, like a 10-week thing where you get an email a week.",
+   "tags": [
+    "myetherwallet",
+    "education",
+    "newsletter"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/165-tbp133-ico-woes-with-myetherwallet",
+ "title": "TBP133 - ICO Woes with MyEtherWallet",
+ "date": "2017-06-16",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982382/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213314-44100-2-40087a804ac15aa1.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

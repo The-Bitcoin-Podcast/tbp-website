@@ -1,0 +1,534 @@
+{
+ "episode_summary": "Hashing It Out interview with John Adler of ConsenSys on the history of Layer 2 scaling (state channels, sidechains, Plasma, Plasma Cash) and how Optimistic Rollups use fraud proofs and posted data to scale Ethereum, with throughput predictions for Fuel Labs, EIP 2242 and Lazy Ledger.",
+ "guests": [
+  "John Adler"
+ ],
+ "topics": [
+  "layer2",
+  "optimistic-rollups",
+  "plasma",
+  "state-channels",
+  "data-availability",
+  "ethereum-scaling",
+  "fraud-proofs"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "John Adler explained that state channels such as Lightning, Raiden and Connext progress through unanimous consent, with all parties signing each state update.",
+   "speaker": "John Adler",
+   "start": 321.3,
+   "quote": "And you log coins between two or more parties, and then the state progresses through unanimous consent.",
+   "tags": [
+    "state-channels",
+    "lightning",
+    "layer2"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said state channels are capital inefficient because every party must pre-collateralize all its coins before using the channel.",
+   "speaker": "John Adler",
+   "start": 376.4,
+   "quote": "They're capital inefficient because they require full pre-collateralization. So all the parties need to lock up all the coins before using the channel.",
+   "tags": [
+    "state-channels",
+    "capital-efficiency"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said sidechains depend on trusting their block producers, a different security model from the main chain.",
+   "speaker": "John Adler",
+   "start": 510.4,
+   "quote": "Because now you have trust, you have the trust that these block producers that are securing the sidechain won't produce an invalid block",
+   "tags": [
+    "sidechains",
+    "security-model"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said the forward peg from the main chain to a sidechain is easy, while the reverse peg is where the difficulty lies.",
+   "speaker": "John Adler",
+   "start": 537.1,
+   "quote": "The forward peg from the mainchain to the sidechain is easy.",
+   "tags": [
+    "two-way-peg",
+    "sidechains"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said in 2020 that there was still no clear definition of Plasma, which he called unfortunate.",
+   "speaker": "John Adler",
+   "start": 590.2,
+   "quote": "So there's no clear definition of Plasma to this day, which is unfortunate.",
+   "tags": [
+    "plasma",
+    "layer2"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler described Plasma, citing how Georgio describes it, as a sidechain that stays safe under data unavailability.",
+   "speaker": "John Adler",
+   "start": 620.5,
+   "quote": "it's a sidechain that's safe under data unavailability so your coins can't get stolen even if the data is withheld",
+   "tags": [
+    "plasma",
+    "data-availability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said Plasma has to be permissioned because a majority of operators could otherwise withhold data from a minority.",
+   "speaker": "John Adler",
+   "start": 649.7,
+   "quote": "Plasma is permissioned, there's just no way around it.",
+   "tags": [
+    "plasma",
+    "permissionless"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said the Plasma MVP exit game is basically a queue that users must exit through if the operator withholds a block.",
+   "speaker": "John Adler",
+   "start": 704.2,
+   "quote": "The exit game is basically just a queue.",
+   "tags": [
+    "plasma",
+    "exit-game"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In 2020 John Adler said Plasma MVP was a dead end because the safe throughput of all Plasma MVP chains on Ethereum was basically zero.",
+   "speaker": "John Adler",
+   "start": 760.6,
+   "quote": "So on Ethereum, the safe throughput of all Plasma MVP chains is basically zero. That's why Plasma MVP is basically a dead end.",
+   "tags": [
+    "plasma",
+    "ethereum",
+    "scaling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said Plasma Cash combines channels and a blockchain, inheriting the worst of both worlds.",
+   "speaker": "John Adler",
+   "start": 998.2,
+   "quote": "So it's kind of a combination of channels and a blockchain.",
+   "tags": [
+    "plasma-cash",
+    "channels"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said Plasma Cash exits need an on-chain interactive challenge that is more vulnerable to chain congestion than ordinary channels.",
+   "speaker": "John Adler",
+   "start": 1049.9,
+   "quote": "and this is vulnerable, like, it's even more vulnerable to chain congestion than usual channels.",
+   "tags": [
+    "plasma-cash",
+    "chain-congestion"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said Plasma Cash must use a coins data model, so it cannot use a UTXO or accounts model that would support Uniswap.",
+   "speaker": "John Adler",
+   "start": 1155.9,
+   "quote": "You can't use a UTXO data model and you can't use an accounts data model.",
+   "tags": [
+    "plasma-cash",
+    "data-model"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said in rollups the only thing posted on-chain is the actual data, while state accesses happen off-chain.",
+   "speaker": "John Adler",
+   "start": 1996.9,
+   "quote": "The only thing that gets posted on-chain is the actual data.",
+   "tags": [
+    "rollups",
+    "scaling",
+    "data-availability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "John Adler stated that the uncompressed Ethereum state was 45 gigabytes at the time.",
+   "speaker": "John Adler",
+   "start": 1940.5,
+   "quote": "In Ethereum, the uncompressed state size is 45 gigabytes.",
+   "tags": [
+    "ethereum",
+    "state-size"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "John Adler said Eric Wall took about 25 days to sync an Ethereum full node from scratch.",
+   "speaker": "John Adler",
+   "start": 1968.1,
+   "quote": "It took him like 25 days to sync an Ethereum full node from scratch.",
+   "tags": [
+    "ethereum",
+    "full-node",
+    "sync"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "John Adler said the Bitcoin UTXO set was about three and a half gigabytes, which everyday computers can handle.",
+   "speaker": "John Adler",
+   "start": 1911.8,
+   "quote": "i think it's three and a half gigabytes pretty manageable by everyday computers",
+   "tags": [
+    "bitcoin",
+    "utxo",
+    "full-node"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "John Adler said Vitalik Buterin's post on scaling Ethereum to 500 transactions per second improved on Barry Whitehat's rollup idea.",
+   "speaker": "John Adler",
+   "start": 1666.6,
+   "quote": "later improved by Vitalik Buterin in his fairly famous post, you know, the scaling to 500 transactions per second on E3 Search.",
+   "tags": [
+    "rollups",
+    "vitalik",
+    "scaling"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "John Adler said the rollup idea was started by Barry Whitehat in the summer of the previous year, using zero-knowledge proofs.",
+   "speaker": "John Adler",
+   "start": 1637.5,
+   "quote": "was started by Barry Whitehat sometime in, I guess, the summer of last year.",
+   "tags": [
+    "rollups",
+    "barry-whitehat",
+    "zk-proofs"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "John Adler said the community would socially refuse to accept a two-week reorg or censorship attack by block producers, even though it is economically possible.",
+   "speaker": "John Adler",
+   "start": 1558.3,
+   "quote": "socially we will not accept a two week long reorg or two week long censorship attack by block producers",
+   "tags": [
+    "social-consensus",
+    "reorg",
+    "censorship"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "John Adler argued that Ethereum should move to an ASIC-friendly hashing algorithm so it has recourse if miners start censoring transactions.",
+   "speaker": "John Adler",
+   "start": 1583.4,
+   "quote": "That's one more reason that Ethereum should move to something that's ASIC-friendly",
+   "tags": [
+    "ethereum",
+    "asic",
+    "censorship",
+    "mining"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler proposed that optimistic rollup leader selection be first-come, first-served, with transaction fees providing sybil resistance.",
+   "speaker": "John Adler",
+   "start": 2623.7,
+   "quote": "So the way I originally proposed is that you can just do a first-come, first-served.",
+   "tags": [
+    "optimistic-rollups",
+    "leader-selection"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said an optimistic rollup fraud prover claims half of the orphaned bonds while the other half is burned, to prevent front-running.",
+   "speaker": "John Adler",
+   "start": 2324.9,
+   "quote": "they will claim half the bonds of all the orphan blocks and the other half is burned.",
+   "tags": [
+    "optimistic-rollups",
+    "fraud-proofs"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler explained that optimistic rollup withdrawals can be completed non-interactively on-chain once the sidechain block is finalized.",
+   "speaker": "John Adler",
+   "start": 2408.7,
+   "quote": "you can complete the withdrawal non-interactively on-chain.",
+   "tags": [
+    "optimistic-rollups",
+    "withdrawals"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said optimistic rollups are fork-free, so users can accept valid blocks immediately instead of waiting two weeks.",
+   "speaker": "John Adler",
+   "start": 2916.7,
+   "quote": "Since it's fork-free, you're guaranteed that valid blocks will eventually finalize.",
+   "tags": [
+    "optimistic-rollups",
+    "finality"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said Fuel Labs, which was pretty close to launching a public testnet, used a UTXO data model with compact fraud proofs.",
+   "speaker": "John Adler",
+   "start": 4052.9,
+   "quote": "So one example is Fuel Labs, which is pretty close to launching a public testnet, is using a UTXO data model",
+   "tags": [
+    "fuel-labs",
+    "utxo",
+    "optimistic-rollups"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler said running EVM fraud proofs inside the EVM is a terrible idea because it is far too expensive.",
+   "speaker": "John Adler",
+   "start": 4106.1,
+   "quote": "It turns out that's a terrible idea because you can't easily verify EVM inside the EVM non-interactively.",
+   "tags": [
+    "evm",
+    "fraud-proofs",
+    "arbitrum"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "John Adler predicted Fuel Labs would probably launch with about 200 transactions per second on Ethereum.",
+   "speaker": "John Adler",
+   "start": 4452.0,
+   "quote": "So when FuelLab launches, it'll probably have about 200 transactions per second on current ethereum",
+   "tags": [
+    "fuel-labs",
+    "throughput",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "John Adler predicted that with post data and other optimizations Ethereum could reach about 2,000 transactions per second with the same security guarantees.",
+   "speaker": "John Adler",
+   "start": 4480.2,
+   "quote": "you can probably get the number up to about 2 000 transactions per second on ethereum",
+   "tags": [
+    "ethereum",
+    "throughput",
+    "post-data",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "John Adler said he had written EIP 2242, which adds a post data field to transactions that the EVM cannot access.",
+   "speaker": "John Adler",
+   "start": 4265.6,
+   "quote": "The first one is EIP 2242, which introduces a new field in the transaction, which I call post data, name subject to change.",
+   "tags": [
+    "eip-2242",
+    "data-availability",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "John Adler said Lazy Ledger was being built to offer massive data availability throughput for rollups.",
+   "speaker": "John Adler",
+   "start": 4209.5,
+   "quote": "there's new projects, for example, lazy ledger that are built from the ground up to offer massive data availability throughput.",
+   "tags": [
+    "lazy-ledger",
+    "data-availability",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "John Adler said he saw a 12 terabyte hard drive for about $400 in Black Friday deals.",
+   "speaker": "John Adler",
+   "start": 4426.6,
+   "quote": "Friday deals and I saw a 12 terabyte hard drive and it was like $400.",
+   "tags": [
+    "hardware",
+    "storage",
+    "full-node"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "John Adler argued that blockchains rely on altruism, since full nodes can prune history and nothing forces anyone to keep it.",
+   "speaker": "John Adler",
+   "start": 3295.1,
+   "quote": "So here's the evil, like I was saying, is that blockchains rely on altruism.",
+   "tags": [
+    "history",
+    "full-nodes",
+    "altruism"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "John Adler said Nakamoto consensus does not work for rollup leader selection because it tightly couples fork choice, leader selection and sybil resistance.",
+   "speaker": "John Adler",
+   "start": 2518.9,
+   "quote": "And we know that Nakamoto consensus doesn't work because it kind of tightly couples the fork choice rule, the leader selection, and the simple resistance.",
+   "tags": [
+    "consensus",
+    "nakamoto",
+    "optimistic-rollups"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "John Adler said optimistic rollups need no honest-majority assumption, no notarizing blocks and no longest-chain rule.",
+   "speaker": "John Adler",
+   "start": 2650.3,
+   "quote": "There's no honest majority assumption. There's no notarizing block. There's no longest chain.",
+   "tags": [
+    "optimistic-rollups",
+    "consensus"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "John Adler classified rollups into non-interactive ZK rollups, single-round interactive optimistic rollups, and multi-round interactive rollups such as the one Arbitrum was building.",
+   "speaker": "John Adler",
+   "start": 3947.8,
+   "quote": "there's kind of three there's three types of rollups according to their classification which I agree with.",
+   "tags": [
+    "rollups",
+    "arbitrum",
+    "classification"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/067-optimistic-rollups-john-adler",
+ "title": "Optimistic Rollups - John Adler",
+ "date": "2020-08-22 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89345744/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374092-44100-1-dd9efa1f582a4c9a.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

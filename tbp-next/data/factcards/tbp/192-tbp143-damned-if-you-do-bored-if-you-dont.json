@@ -1,0 +1,457 @@
+{
+ "episode_summary": "Mid-week episode on the Bitcoin Cash fork: the hosts recap the split, Coinbase's plan to support Bitcoin Cash by January 1, 2018, and the SegWit2x hard fork that was expected in November. They debate mass adoption and financial literacy, then interview Rodolfo Novak of CoinKite about the OpenDime physical bearer device, multisig, Tor-connected terminals and why Bitcoin lacks a marketing department.",
+ "guests": [
+  "Rodolfo Novak"
+ ],
+ "topics": [
+  "bitcoin cash",
+  "coinbase",
+  "opendime",
+  "coinkite",
+  "segwit",
+  "financial literacy",
+  "mass adoption"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In August 2017 the hosts explained that Bitcoin Cash split from Bitcoin after BIP 148 pushed the network to accept SegWit blocks.",
+   "speaker": "host",
+   "start": 4294.5,
+   "quote": "Bitcoin forked. So when basically BIP 148 passed and everyone switched over to accepting Segwit blocks",
+   "tags": [
+    "bitcoin cash",
+    "segwit",
+    "hard fork"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 the hosts said that anyone holding bitcoin at the Bitcoin Cash fork also automatically held the same amount of Bitcoin Cash.",
+   "speaker": "host",
+   "start": 4349.4,
+   "quote": "if you had bitcoin before this fork you also automatically have bitcoin or bcash as well in the exact same amount",
+   "tags": [
+    "bitcoin cash",
+    "hard fork",
+    "airdrop"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 the hosts said Coinbase had decided not to support Bitcoin Cash, so Coinbase customers did not get it at the fork.",
+   "speaker": "host",
+   "start": 4375.2,
+   "quote": "decided that says we're not even going to support bcash so if you left your money on coinbase",
+   "tags": [
+    "coinbase",
+    "bitcoin cash"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 a Coinbase customer email said customers with bitcoin balances at the fork would have an equal quantity of Bitcoin Cash stored by Coinbase.",
+   "speaker": "host",
+   "start": 4522.2,
+   "quote": "customers with balances of Bitcoin at the time of the fork now have an equal quantity of Bitcoin Cash stored by Coinbase",
+   "tags": [
+    "coinbase",
+    "bitcoin cash",
+    "fork"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 Coinbase said it planned to support Bitcoin Cash by January 1, 2018, assuming no additional risks emerged.",
+   "speaker": "host",
+   "start": 4581.8,
+   "quote": "we're planning to have support for Bitcoin Cash by the 1st of January, assuming no additional risks emerge at that time",
+   "tags": [
+    "coinbase",
+    "bitcoin cash"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 a host predicted that Bitcoin Cash would be worth close to nothing on January 1, 2018.",
+   "speaker": "host",
+   "start": 4634.2,
+   "quote": "It's probably closer to nothing in my opinion",
+   "tags": [
+    "bitcoin cash",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 a host predicted that Bitcoin Cash would be nearly worthless by January 1st.",
+   "speaker": "host",
+   "start": 4831.5,
+   "quote": "come January 1st, your Bitcoin cash is probably going to be worth, I don't know, about as much as a hippopotamus' ass",
+   "tags": [
+    "bitcoin cash",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 a host said there would be a SegWit2x hard fork in November, with contention possibly causing yet another fork.",
+   "speaker": "host",
+   "start": 4776.3,
+   "quote": "So there's going to be a 2x hard fork, I believe, in November",
+   "tags": [
+    "segwit2x",
+    "hard fork",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host said that Coinbase withholding Bitcoin Cash from customers would amount to stealing.",
+   "speaker": "host",
+   "start": 4405.7,
+   "quote": "Would you consider that stealing? I would.",
+   "tags": [
+    "coinbase",
+    "bitcoin cash",
+    "custody"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 a host explained that Bitcoin Cash has larger blocks and does not accept SegWit transactions, while Bitcoin accepted SegWit through a soft fork.",
+   "speaker": "host",
+   "start": 4715.7,
+   "quote": "Bitcoin Cash is larger blocks. The Bitcoin that you probably are most familiar with since you've been listening to this show is Bitcoin that now accepts SegWit.",
+   "tags": [
+    "bitcoin cash",
+    "segwit",
+    "soft fork",
+    "block size"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host argued that personal finance tools must be transparent so users understand how they work, rather than handing off responsibility for their wealth.",
+   "speaker": "host",
+   "start": 1164.1,
+   "quote": "we need to build tools that are transparent, allow you to have a better understanding of how",
+   "tags": [
+    "financial literacy",
+    "personal finance",
+    "tools"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In August 2017 the hosts debated whether mass adoption requires users to understand Bitcoin, with one saying people using it without understanding still counts as mass adoption.",
+   "speaker": "host",
+   "start": 503.9,
+   "quote": "Well, it is mass adoption. They're using the thing they don't understand, right?",
+   "tags": [
+    "mass adoption",
+    "financial literacy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 a host cited that roughly 70% of Americans were financially illiterate.",
+   "speaker": "host",
+   "start": 478.5,
+   "quote": "if roughly 70% of Americans are financially illiterate, then that's not mass adoption on an understanding level",
+   "tags": [
+    "financial literacy",
+    "statistic",
+    "mass adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host said mass adoption is not as grassroots as it seems, arguing government and private industry push it.",
+   "speaker": "host",
+   "start": 748.7,
+   "quote": "I don't think mass adoption is as grassroots as it seems",
+   "tags": [
+    "mass adoption",
+    "government",
+    "industry"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 a host proposed that banks partner with hardware wallet makers such as Ledger so customers could hold multisig keys for their money.",
+   "speaker": "host",
+   "start": 831.7,
+   "quote": "Why don't we partner up with hardware wallets? And we can sell people on the idea of having a banking terminal in your house.",
+   "tags": [
+    "banks",
+    "hardware wallets",
+    "ledger",
+    "multisig"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Rodolfo Novak explained that to spend an OpenDime you break it, first by breaking part of the PCB and later by pulling a part with a pin.",
+   "speaker": "Rodolfo Novak",
+   "start": 1941.7,
+   "quote": "The first version you broke part of the PCB and the second version you stick a pin and you remove a part",
+   "tags": [
+    "opendime",
+    "coinkite",
+    "hardware wallet"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Rodolfo Novak said that a broken OpenDime exposes its private key, so the owner can sweep the funds into a wallet such as Electrum.",
+   "speaker": "Rodolfo Novak",
+   "start": 2876.2,
+   "quote": "now he's gonna have an open dime that's unsealed that means now the private key is visible",
+   "tags": [
+    "opendime",
+    "private key",
+    "sweep"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Rodolfo Novak explained that OpenDime can be used as a bearer bond, with its value passed on by handing over the stick.",
+   "speaker": "Rodolfo Novak",
+   "start": 2792.5,
+   "quote": "You can use Open Dime as a bearer bond.",
+   "tags": [
+    "opendime",
+    "bearer bond",
+    "cash"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 Rodolfo Novak said CoinKite was selling thousands of OpenDime units, and that it was almost out of stock again.",
+   "speaker": "Rodolfo Novak",
+   "start": 2684.3,
+   "quote": "We're selling like thousands and thousands of this stuff and people are using it",
+   "tags": [
+    "opendime",
+    "coinkite",
+    "sales"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Rodolfo Novak said a technology is not massively adopted until people change their physical behavior.",
+   "speaker": "Rodolfo Novak",
+   "start": 2464.1,
+   "quote": "I don't think any technology is massively adopted until there's a behavior change like a physical change in people's behavior",
+   "tags": [
+    "adoption",
+    "behavior change",
+    "opendime"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Rodolfo Novak said Bitcoin is underutilized, and its existing features such as multisig could support smart-contract-like uses.",
+   "speaker": "Rodolfo Novak",
+   "start": 3191.3,
+   "quote": "Bitcoin is so underutilized in terms of features features that it has that could be used for those smart contracts",
+   "tags": [
+    "bitcoin",
+    "multisig",
+    "smart contracts"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2017 Rodolfo Novak predicted that big banks, which he said were slow to add new features, would eventually face their demise.",
+   "speaker": "Rodolfo Novak",
+   "start": 3333.6,
+   "quote": "this will also be their demise",
+   "tags": [
+    "banks",
+    "disruption",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Rodolfo Novak said he was mostly a Bitcoin maximalist because the market did not need what other coins did.",
+   "speaker": "Rodolfo Novak",
+   "start": 3110.1,
+   "quote": "i don't see any need from the market for the things that other coins do right now",
+   "tags": [
+    "bitcoin maximalism",
+    "altcoins",
+    "market need"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Rodolfo Novak said that because Bitcoin has no marketing department, people drift to other coins for smart-contract-like features.",
+   "speaker": "Rodolfo Novak",
+   "start": 3165.4,
+   "quote": "because Bitcoin doesn't have a marketing department, I feel like people sort of drift to other coins for those things",
+   "tags": [
+    "bitcoin",
+    "marketing",
+    "altcoins"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2017 Rodolfo Novak said CoinKite's point-of-sale terminals connected back to the user's wallet through Tor.",
+   "speaker": "Rodolfo Novak",
+   "start": 3389.4,
+   "quote": "they actually had a way of connecting back through Tor to your wallet",
+   "tags": [
+    "coinkite",
+    "tor",
+    "point of sale"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2017 Rodolfo Novak said CoinKite shipped its terminals with a SIM card that CoinKite paid for, so they worked anywhere on Earth.",
+   "speaker": "Rodolfo Novak",
+   "start": 3421.5,
+   "quote": "we shipped them with a SIM card that was paid by us",
+   "tags": [
+    "coinkite",
+    "point of sale",
+    "sim card"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Rodolfo Novak said bulk OpenDime orders were Bitcoin-only because credit card chargebacks were a risk for merchants.",
+   "speaker": "Rodolfo Novak",
+   "start": 3598.2,
+   "quote": "if you want to buy bulk quantities of OpenDime, we only accept Bitcoin",
+   "tags": [
+    "opendime",
+    "chargebacks",
+    "merchants"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2017 Rodolfo Novak described Bitcoin in ten words as a decentralized and sensible means of free speech.",
+   "speaker": "Rodolfo Novak",
+   "start": 3841.1,
+   "quote": "Bitcoin is a decentralized and sensible means of free speech",
+   "tags": [
+    "bitcoin",
+    "free speech",
+    "definition"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2017 a host said he loaded three OpenDime sticks with different amounts of Bitcoin to give to his niece.",
+   "speaker": "host",
+   "start": 3920.7,
+   "quote": "I loaded three different amounts of Bitcoin onto them",
+   "tags": [
+    "opendime",
+    "gift",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/192-tbp143-damned-if-you-do-bored-if-you-dont",
+ "title": "TBP143 - Damned If You Do, Bored If You Don't",
+ "date": "2017-08-04",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981762/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212656-48000-2-9271ad4e9303737f.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

@@ -1,0 +1,352 @@
+{
+ "episode_summary": "September 2021 roundtable (episode 369) with hosts Jesse, Dee and Corey. Much of it is tangents on NFTs and cross-game assets, but it also covers how ERC-721 NFTs store attributes, stablecoin peg mechanics and DAI, the Evergrande market shock, El Salvador's Bitcoin experiment, Tom Brady and athletes taking Bitcoin pay, and Bitcoin multisig size limits.",
+ "guests": [],
+ "topics": [
+  "nft",
+  "erc-721",
+  "stablecoins",
+  "dai",
+  "bitcoin multisig",
+  "el salvador",
+  "evergrande",
+  "gaming interoperability"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In September 2021 a host described an ERC-721 NFT as basically a repository or list of links to attributes.",
+   "speaker": "host",
+   "start": 696.9,
+   "quote": "a repository or a list of links if if you will right",
+   "tags": [
+    "nft",
+    "erc-721",
+    "metadata"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2021 a host said an NFT is really only a list of attributes and values for those attributes, using crypto kitties DNA as an example.",
+   "speaker": "host",
+   "start": 723.5,
+   "quote": "in reality an nft is only a list of attributes and then values for those attributes",
+   "tags": [
+    "nft",
+    "crypto kitties",
+    "metadata"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2021 a host said the picture in an NFT is just a convenience, since NFTs do not always need one.",
+   "speaker": "host",
+   "start": 752.5,
+   "quote": "the picture part of an nft is just our way of making it easier to understand what an nft is",
+   "tags": [
+    "nft",
+    "metadata",
+    "art"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2021 a host said game NFT attributes are hard-coded and cannot be altered or extended unless the original company allows it.",
+   "speaker": "host",
+   "start": 869.0,
+   "quote": "alter the original one unless the original company says you can and they've pre-built it in",
+   "tags": [
+    "nft",
+    "gaming",
+    "interoperability"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2021 a host said moving game assets between games failed because the work to earn an item in one game does not map equally to another, creating imbalances.",
+   "speaker": "host",
+   "start": 895.8,
+   "quote": "the amount of work associated with one game is not it's not equally mapped to the amount of work of a different game",
+   "tags": [
+    "gaming",
+    "interoperability",
+    "nft"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2021 a host said he had heard that stablecoins are a marketing scheme, and tweeted that view.",
+   "speaker": "host",
+   "start": 1257.3,
+   "quote": "And I said, stable coins, and I put it in quotations, sounds like a marketing is a marketing scheme.",
+   "tags": [
+    "stablecoins",
+    "marketing",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2021 a host argued that no asset is truly stable, since the dollar, gold and silver all move in value over time.",
+   "speaker": "host",
+   "start": 1286.3,
+   "quote": "Nothing is truly stable. The dollar moves in value. Gold moves in value. Silver moves in value. Everything moves in value because humanity changes, right?",
+   "tags": [
+    "stablecoins",
+    "stability",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2021 a host argued that profits earned by keeping DAI pegged are justified by the value of maintaining the peg and the forecasts it enables.",
+   "speaker": "host",
+   "start": 1664.5,
+   "quote": "And so to argue with your opinion, for things like DAI, the value associated with maintaining the peg when it goes out of its variation is well worth the profit those people make",
+   "tags": [
+    "dai",
+    "stablecoins",
+    "peg"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2021 a host said Bitcoin had recently dropped from about 50 something to 40 thousand dollars quite quickly.",
+   "speaker": "host",
+   "start": 1741.4,
+   "quote": "it went from like 50 something to 40 pretty quick",
+   "tags": [
+    "bitcoin price",
+    "china",
+    "volatility"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2021 a host said Evergrande's debt was only about 300 billion dollars, mostly real estate, while the market shed over 200 billion dollars on the news.",
+   "speaker": "host",
+   "start": 1796.4,
+   "quote": "it's only 300 billion right and it's real estate largely right",
+   "tags": [
+    "evergrande",
+    "tether",
+    "china"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2021 a host calculated that earning 200 billion dollars on a 60,000 dollar salary would take about 3.3 million years of work.",
+   "speaker": "host",
+   "start": 1986.3,
+   "quote": "3.3 million years of working to get to that right",
+   "tags": [
+    "wealth",
+    "math",
+    "jeff bezos"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2021 a host said El Salvador's Bitcoin adoption was a live experiment, and that it was the first nation to do it.",
+   "speaker": "host",
+   "start": 2224.2,
+   "quote": "And it's a live experiment. But they're the first nation, really.",
+   "tags": [
+    "el salvador",
+    "bitcoin adoption",
+    "legal tender"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2021 a host predicted Ukraine was around the corner from following El Salvador in adopting Bitcoin.",
+   "speaker": "host",
+   "start": 2253.1,
+   "quote": "I think Ukraine's around the corner from doing it, too.",
+   "tags": [
+    "ukraine",
+    "bitcoin adoption",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In September 2021 a host said he saw a photo of three or four dozen people queuing for a Bitcoin ATM in El Salvador.",
+   "speaker": "host",
+   "start": 2309.1,
+   "quote": "it looked like three to four dozen people waiting to use a Bitcoin ATM",
+   "tags": [
+    "el salvador",
+    "bitcoin atm",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2021 a host said hierarchical deterministic wallets and seed phrases were created because people kept losing their wallet.dat files.",
+   "speaker": "host",
+   "start": 2343.2,
+   "quote": "the reason we came up with hierarchical deterministic wallets is because people kept losing their wallet.dat file and everything",
+   "tags": [
+    "hd wallets",
+    "seed phrases",
+    "wallet.dat"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2021 a host said the US was close to regulating crypto and that it would be foolish to assume it would not drop a regulation announcement in any year.",
+   "speaker": "host",
+   "start": 2793.1,
+   "quote": "I think they're close to regulating. I think that you would be foolish to not think that any year it'll be dropped on the public",
+   "tags": [
+    "regulation",
+    "us policy",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2021 a host said that if large institutions could hold and custody crypto for clients, then crypto had officially won.",
+   "speaker": "host",
+   "start": 2984.8,
+   "quote": "If you're telling me there's a chance that big and large entities will be able to buy, hold, sell and store cryptocurrency on behalf of their clients, then crypto has officially won at that point.",
+   "tags": [
+    "institutions",
+    "custody",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2021 a host guessed native Bitcoin multisig was limited to five or seven keys.",
+   "speaker": "host",
+   "start": 2876.8,
+   "quote": "i think it's only five i'm pretty sure it's seven",
+   "tags": [
+    "multisig",
+    "bitcoin script",
+    "guess"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2021 Corey said Bitcoin multisig size is limited by the redemption script size, which depends on the standardness rules.",
+   "speaker": "Corey Petty",
+   "start": 3053.1,
+   "quote": "It's basically the size of the redemption script. You're limited by the size of the redemption script.",
+   "tags": [
+    "multisig",
+    "bitcoin script",
+    "standardness"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2021 Corey said Bitcoin standardness rules allowed multisig up to one of 12, two of 10 and three of eight.",
+   "speaker": "Corey Petty",
+   "start": 3108.4,
+   "quote": "you can go up to one of 12 two of 10 three of eight",
+   "tags": [
+    "multisig",
+    "standardness",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2021 a host said Tom Brady had publicly said he would take some of his salary in Bitcoin.",
+   "speaker": "host",
+   "start": 3384.9,
+   "quote": "Tom Brady have publicly said he's willing to take some of his salary in Bitcoin recently, which is a big deal.",
+   "tags": [
+    "athletes",
+    "bitcoin salary",
+    "tom brady"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2021 a host said the first athlete to take a Bitcoin salary was an offensive lineman, later named as Russell Okung.",
+   "speaker": "host",
+   "start": 3411.2,
+   "quote": "I think the first athlete was that offensive lineman who's really, really big into Bitcoin.",
+   "tags": [
+    "athletes",
+    "bitcoin salary",
+    "russell okung"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/879-the-bitcoin-podcast-roundtable-369-will-the-real",
+ "title": "The Bitcoin Podcast Roundtable #369- Will The Real Stable Coin Please Show Up ?",
+ "date": "2021-09-27",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981891/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212802-44100-1-b2bfab5452a174d7.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}
