@@ -1,0 +1,973 @@
+[
+ {
+  "id": "hio/090-core-scientific-ian-ferreira@2677",
+  "slug": "hio/090-core-scientific-ian-ferreira",
+  "question": "ask",
+  "subject": "",
+  "asked": "are there any questions that you wished I would have asked that I didn't?",
+  "answer": "No, I think you guys did great.",
+  "answeredBy": "Ian Ferreira",
+  "highlight": false,
+  "answerContinued": "I mean, I'm really excited with the AI space."
+ },
+ {
+  "id": "tbp/810-the-bitcoin-podcast-318-ben-arc-aka-btcsocialists@4294",
+  "slug": "tbp/810-the-bitcoin-podcast-318-ben-arc-aka-btcsocialists",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Permissionless, controlled, regulated by the community as a whole.",
+  "answeredBy": "Ben (BTC Socialist)",
+  "highlight": false
+ },
+ {
+  "id": "tbp/812-the-bitcoin-podcast-319-john-crain-superrare@3066",
+  "slug": "tbp/812-the-bitcoin-podcast-319-john-crain-superrare",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "I'd say a secure",
+  "answeredBy": "John Crain",
+  "highlight": false,
+  "answerContinued": "shared store of information"
+ },
+ {
+  "id": "tbp/813-the-bitcoin-podcast-320-devin-finzer-opensea@3695",
+  "slug": "tbp/813-the-bitcoin-podcast-320-devin-finzer-opensea",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything we should have asked you that we didn't",
+  "answer": "no not that I can think of",
+  "answeredBy": "Devin Finzer",
+  "highlight": false
+ },
+ {
+  "id": "tbp/813-the-bitcoin-podcast-320-devin-finzer-opensea@3695",
+  "slug": "tbp/813-the-bitcoin-podcast-320-devin-finzer-opensea",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "10 words or less can you describe Ethereum",
+  "answer": "I mean I like the world computer",
+  "answeredBy": "Devin Finzer",
+  "highlight": false,
+  "answerContinued": "characterization so I'll just go with that"
+ },
+ {
+  "id": "hio/093-sigma-prime-mehdi-zerouali@3278",
+  "slug": "hio/093-sigma-prime-mehdi-zerouali",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there something that you think I should have asked you that you would have liked to have put out there that I didn't?",
+  "answer": "We did cover a lot. There's obviously a lot more that we can talk about.",
+  "answeredBy": "Mehdi Zerouali",
+  "highlight": false
+ },
+ {
+  "id": "tbp/818-the-bitcoin-podcast-323-patrick-stanley-freehold@3791",
+  "slug": "tbp/818-the-bitcoin-podcast-323-patrick-stanley-freehold",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Crystallized robot sweat.",
+  "answeredBy": "Patrick Stanley",
+  "highlight": true
+ },
+ {
+  "id": "hio/060-balance-research-arthur-gervais@3134",
+  "slug": "hio/060-balance-research-arthur-gervais",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that you wish I would have asked you that I didn't get around to asking?",
+  "answer": "Got them all.",
+  "answeredBy": "Arthur Gervais or Dominik Harz",
+  "highlight": false
+ },
+ {
+  "id": "hio/062-bolt-labs-ayo-akinyele@2751",
+  "slug": "hio/062-bolt-labs-ayo-akinyele",
+  "question": "ask",
+  "subject": "",
+  "asked": "are there any questions that you wish I would have asked you or that you would like to have talked about that I didn't get around to",
+  "answer": "that is a great question actually not really",
+  "answeredBy": "Ayo Akinyele",
+  "highlight": false
+ },
+ {
+  "id": "hio/063-nano-colin-lemahieu@2920",
+  "slug": "hio/063-nano-colin-lemahieu",
+  "question": "ask",
+  "subject": "",
+  "asked": "What questions should we have asked you that we haven't asked you?",
+  "answer": "um i mean i i i think that the biggest thing that i like is going to be what it can do to",
+  "answeredBy": "Colin LeMahieu",
+  "highlight": false,
+  "answerContinued": "help people in a lot of these countries that have their own currency supply"
+ },
+ {
+  "id": "hio/095-cartesi-augusto-texeria-erick-de-moura@3023",
+  "slug": "hio/095-cartesi-augusto-texeria-erick-de-moura",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there something that you wish I would have asked you that I didn't?",
+  "answer": "No, I think it's going super well.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/823-the-bitcoin-podcast-326-jameson-lopp-casa@4682",
+  "slug": "tbp/823-the-bitcoin-podcast-326-jameson-lopp-casa",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "10 words or less can you describe bitcoin",
+  "answer": "Bitcoin is an open collaborative project to create perfect money",
+  "answeredBy": "Jameson Lopp",
+  "highlight": false
+ },
+ {
+  "id": "tbp/824-the-bitcoin-podcast-327-john-light-aragon@5468",
+  "slug": "tbp/824-the-bitcoin-podcast-327-john-light-aragon",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "Bitcoin is a peer to peer electronic cash system.",
+  "answeredBy": "John Light",
+  "highlight": false
+ },
+ {
+  "id": "tbp/826-the-bitcoin-podcast-328-evan-kuo-ampleforth@5652",
+  "slug": "tbp/826-the-bitcoin-podcast-328-evan-kuo-ampleforth",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less,",
+  "answer": "Bitcoin is a rules-based fixed supply digital commodity money.",
+  "answeredBy": "Evan Kuo",
+  "highlight": false
+ },
+ {
+  "id": "tbp/828-the-bitcoin-podcast-329-andrew-reistad-btcparser@5343",
+  "slug": "tbp/828-the-bitcoin-podcast-329-andrew-reistad-btcparser",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "how would you sum up Bitcoin or blockchain in 10 words or less?",
+  "answer": "it's finally money that is limited and reliable.",
+  "answeredBy": "Andrew Reistad",
+  "highlight": false
+ },
+ {
+  "id": "tbp/829-the-bitcoin-podcast-330-rachel-siegel@4890",
+  "slug": "tbp/829-the-bitcoin-podcast-330-rachel-siegel",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is a peer-to-peer decentralized network. Without trust.",
+  "answeredBy": "Rachel Siegel",
+  "highlight": false
+ },
+ {
+  "id": "tbp/830-the-bitcoin-podcast-331-sebastien-borget-the@3951",
+  "slug": "tbp/830-the-bitcoin-podcast-331-sebastien-borget-the",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you sum up bitcoin or blockchain in 10 words or less",
+  "answer": "It's a disruption where 100% power goes to players and users.",
+  "answeredBy": "Sebastien Borget",
+  "highlight": false
+ },
+ {
+  "id": "tbp/835-the-bitcoin-podcast-335-ryan-watkins-messariio@4065",
+  "slug": "tbp/835-the-bitcoin-podcast-335-ryan-watkins-messariio",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is the world's first digital asset with absolute scarcity governed by the people.",
+  "answeredBy": "Ryan Watkins",
+  "highlight": false
+ },
+ {
+  "id": "tbp/835-the-bitcoin-podcast-335-ryan-watkins-messariio@5780",
+  "slug": "tbp/835-the-bitcoin-podcast-335-ryan-watkins-messariio",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what we do actually hard",
+  "answer": "I would say that now now no in the beginning yes depends some people just got it",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/836-the-bitcoin-podcast-336-peter-jursic-metagame@5268",
+  "slug": "tbp/836-the-bitcoin-podcast-336-peter-jursic-metagame",
+  "question": "ten",
+  "subject": "Bitcoin / blockchain",
+  "asked": "in 10 words or less how would you describe bitcoin or the blockchain in general",
+  "answer": "an admin-less database.",
+  "answeredBy": "Peter Jursic",
+  "highlight": false
+ },
+ {
+  "id": "tbp/837-the-bitcoin-podcast-337-ali-spagnola-internet@3719",
+  "slug": "tbp/837-the-bitcoin-podcast-337-ali-spagnola-internet",
+  "question": "hard",
+  "subject": "",
+  "asked": "So is what you do actually hard? How would you respond?",
+  "answer": "I mean, technically, anybody with an email address can sign up for YouTube. Good luck, kid.",
+  "answeredBy": "Ali Spagnola",
+  "highlight": true
+ },
+ {
+  "id": "tbp/837-the-bitcoin-podcast-337-ali-spagnola-internet@3719",
+  "slug": "tbp/837-the-bitcoin-podcast-337-ali-spagnola-internet",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "digital recreation of gold.",
+  "answeredBy": "Ali Spagnola",
+  "highlight": false
+ },
+ {
+  "id": "tbp/838-the-bitcoin-podcast-338-ceo-tim-frost-yield-app@3394",
+  "slug": "tbp/838-the-bitcoin-podcast-338-ceo-tim-frost-yield-app",
+  "question": "hard",
+  "subject": "",
+  "asked": "Is what you do hard?",
+  "answer": "Well, in my opinion, at this point, it is hard. We're in kind of an emerging field. Right now, we're getting off a public launch right now. and just handling a very volatile market and I guess in a very uncertain kind of global time.",
+  "answeredBy": "Tim Frost",
+  "highlight": false
+ },
+ {
+  "id": "tbp/838-the-bitcoin-podcast-338-ceo-tim-frost-yield-app@3394",
+  "slug": "tbp/838-the-bitcoin-podcast-338-ceo-tim-frost-yield-app",
+  "question": "ten",
+  "subject": "DeFi",
+  "asked": "in 10 words or less, Mr. Frost, can you describe DeFi?",
+  "answer": "It's a peer-to-peer finance.",
+  "answeredBy": "Tim Frost",
+  "highlight": false
+ },
+ {
+  "id": "tbp/839-the-bitcoin-podcast-339-jon-tompkins-badger@4841",
+  "slug": "tbp/839-the-bitcoin-podcast-339-jon-tompkins-badger",
+  "question": "ten",
+  "subject": "DeFi",
+  "asked": "In 10 words or less, can you describe",
+  "answer": "Money games with a purpose.",
+  "answeredBy": "Jon Tompkins",
+  "highlight": true
+ },
+ {
+  "id": "tbp/840-the-bitcoin-podcast-340-21-years-old-drunk-episode@4713",
+  "slug": "tbp/840-the-bitcoin-podcast-340-21-years-old-drunk-episode",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "It's a way for me to send you money and you know I don't have it.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/841-the-bitcoin-podcast-341-luke-stokes-fioprotocol@4710",
+  "slug": "tbp/841-the-bitcoin-podcast-341-luke-stokes-fioprotocol",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "global non-violent consensus for controlling your own value",
+  "answeredBy": "Luke Stokes",
+  "highlight": false
+ },
+ {
+  "id": "tbp/843-the-bitcoin-podcast-343-vinay-gupta-of-mattereum@4949",
+  "slug": "tbp/843-the-bitcoin-podcast-343-vinay-gupta-of-mattereum",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "10 words or less could you describe nfts",
+  "answer": "an nft is a transferable property right",
+  "answeredBy": "Vinay Gupta",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/343-interview-vinay-gupta-ceo-of-mattereum@3574",
+  "slug": "tbp/s01/343-interview-vinay-gupta-ceo-of-mattereum",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "10 words or less could you describe nfts",
+  "answer": "an nft is a transferable property right",
+  "answeredBy": "Vinay Gupta",
+  "highlight": false
+ },
+ {
+  "id": "tbp/844-the-bitcoin-podcast-344-edan-yago-of-sovrynapp@5571",
+  "slug": "tbp/844-the-bitcoin-podcast-344-edan-yago-of-sovrynapp",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually hard?",
+  "answer": "I mean, it certainly feels hard.",
+  "answeredBy": "Edan Yago",
+  "highlight": false,
+  "answerContinued": "Like, I don't sleep Thank you very much. And I'm constantly stressed"
+ },
+ {
+  "id": "tbp/844-the-bitcoin-podcast-344-edan-yago-of-sovrynapp@5705",
+  "slug": "tbp/844-the-bitcoin-podcast-344-edan-yago-of-sovrynapp",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is the measure of value in the same way that a meter is a measure of length,",
+  "answeredBy": "Edan Yago",
+  "highlight": true,
+  "answerContinued": "or a liter or if you're american gallon is a is a measure of volume"
+ },
+ {
+  "id": "tbp/845-the-bitcoin-podcast-345-alberto-cevallos-lead@5053",
+  "slug": "tbp/845-the-bitcoin-podcast-345-alberto-cevallos-lead",
+  "question": "ten",
+  "subject": "DeFi",
+  "asked": "in 10 words or less can you describe defy",
+  "answer": "permissionless censorship resistant",
+  "answeredBy": "Alberto Cevallos",
+  "highlight": false,
+  "answerContinued": "pure to pure finance that can't be stopped"
+ },
+ {
+  "id": "tbp/s01/344-interview-edan-yago-of-sovrynapp@3201",
+  "slug": "tbp/s01/344-interview-edan-yago-of-sovrynapp",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually hard",
+  "answer": "i mean it certainly feels hard like i i don't sleep very much and uh and i'm constantly stressed",
+  "answeredBy": "Edan Yago",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/344-interview-edan-yago-of-sovrynapp@3340",
+  "slug": "tbp/s01/344-interview-edan-yago-of-sovrynapp",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "bitcoin is the measure of value in the same way that a meter is a measure of length or a liter if your american gallon is a is a measure of volume",
+  "answeredBy": "Edan Yago",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/345-interview-alberto-cevallos-of-forcedao@2510",
+  "slug": "tbp/s01/345-interview-alberto-cevallos-of-forcedao",
+  "question": "ten",
+  "subject": "DeFi",
+  "asked": "in 10 words or less can you describe defy",
+  "answer": "permissionless censorship persistent peer-to-peer finance that can't be stopped",
+  "answeredBy": "Alberto Cevallos",
+  "highlight": false
+ },
+ {
+  "id": "tbp/846-the-bitcoin-podcast-346-chad-knight-metaverse@5677",
+  "slug": "tbp/846-the-bitcoin-podcast-346-chad-knight-metaverse",
+  "question": "ten",
+  "subject": "Bitcoin / DeFi / NFTs",
+  "asked": "how would you describe, and this can be, you could use Bitcoin, DeFi, NFTs in 10 words or less.",
+  "answer": "The democratization of our world, I would say, or our experiences.",
+  "answeredBy": "Chad Knight",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/346-interview-chad-knight-metaverse-artist@4017",
+  "slug": "tbp/s01/346-interview-chad-knight-metaverse-artist",
+  "question": "ten",
+  "subject": "Bitcoin / DeFi / NFTs",
+  "asked": "bitcoin d5 nfts in 10 words or less",
+  "answer": "the democratization of um our world i would say or our experiences",
+  "answeredBy": "Chad Knight",
+  "highlight": false
+ },
+ {
+  "id": "tbp/848-the-bitcoin-podcast-348-co-founder-vasja-veber-of@4713",
+  "slug": "tbp/848-the-bitcoin-podcast-348-co-founder-vasja-veber-of",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "in 10 words or less can you describe",
+  "answer": "well I would say it's like the original Mona Lisa so it's only one original",
+  "answeredBy": "Vasja Veber",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/348-interview-viberate-founder-vasja-veber@2130",
+  "slug": "tbp/s01/348-interview-viberate-founder-vasja-veber",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "in 10 words or less can you describe a non-fungible token",
+  "answer": "well i would say",
+  "answeredBy": "Vasja Veber",
+  "highlight": true,
+  "answerContinued": "it's like the original mona lisa so it's only one original"
+ },
+ {
+  "id": "tbp/s01/349-interview-ali-spagnola-internet-artist-pt-ii@2919",
+  "slug": "tbp/s01/349-interview-ali-spagnola-internet-artist-pt-ii",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "in 10 words or less can you describe an nft",
+  "answer": "okay the",
+  "answeredBy": "Ali Spagnola",
+  "highlight": false,
+  "answerContinued": "original piece of artwork but digital"
+ },
+ {
+  "id": "tbp/849-the-bitcoin-podcast-349-ali-spagnola-internet@2959",
+  "slug": "tbp/849-the-bitcoin-podcast-349-ali-spagnola-internet",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "in 10 words or less can you describe an nft",
+  "answer": "okay",
+  "answeredBy": "Ali Spagnola",
+  "highlight": false,
+  "answerContinued": "the original piece of artwork but digital"
+ },
+ {
+  "id": "tbp/850-the-bitcoin-podcast-350-paul-hauner-sigma-prime@7693",
+  "slug": "tbp/850-the-bitcoin-podcast-350-paul-hauner-sigma-prime",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually hard",
+  "answer": "i guess i find it pretty hard um i would i would i would say yeah seems so yeah it's not i mean i know when i when i wasn't doing this kind of stuff i i looked up and i thought wow these people that are you know like you know all these client devs they",
+  "answeredBy": "Paul Hauner",
+  "highlight": false,
+  "answerContinued": "must be just like these gods of people that just on another realm that's that's not the case"
+ },
+ {
+  "id": "tbp/850-the-bitcoin-podcast-350-paul-hauner-sigma-prime@7693",
+  "slug": "tbp/850-the-bitcoin-podcast-350-paul-hauner-sigma-prime",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe",
+  "answer": "a brand new global computing platform",
+  "answeredBy": "Paul Hauner",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/350-interview-paul-hauner-sigma-prime-eth-2@3016",
+  "slug": "tbp/s01/350-interview-paul-hauner-sigma-prime-eth-2",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually hard",
+  "answer": "i guess i find it pretty hard this kind of stuff i i looked up and i thought wow these people that are you know like you know all these clients they must be just like these gods of people they're just",
+  "answeredBy": "Paul Hauner",
+  "highlight": false,
+  "answerContinued": "on another realm that's that's not the case um it's just everyone's just like normal people just trying to make it through um but i would say it's hard"
+ },
+ {
+  "id": "tbp/s01/350-interview-paul-hauner-sigma-prime-eth-2@3016",
+  "slug": "tbp/s01/350-interview-paul-hauner-sigma-prime-eth-2",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe",
+  "answer": "a brand new global computing platform",
+  "answeredBy": "Paul Hauner",
+  "highlight": false
+ },
+ {
+  "id": "tbp/851-the-bitcoin-podcast-351-jonny-huxtable@4375",
+  "slug": "tbp/851-the-bitcoin-podcast-351-jonny-huxtable",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Could you describe blockchain in 10 words or less?",
+  "answer": "it's a trustless settlement layer allowing people to exchange and define contractual agreements without any third parties.",
+  "answeredBy": "Jonny Huxtable",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/351-interview-jonny-huxtable-of-chainlink-linkpool@2555",
+  "slug": "tbp/s01/351-interview-jonny-huxtable-of-chainlink-linkpool",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "could you describe blockchain and 10 words or less",
+  "answer": "it's a trustless supplement layer allowing people to exchange and define contractual agreements without any third parties",
+  "answeredBy": "Jonny Huxtable",
+  "highlight": false
+ },
+ {
+  "id": "tbp/852-the-bitcoin-podcast-352-aram-barnett-will-nichols@4840",
+  "slug": "tbp/852-the-bitcoin-podcast-352-aram-barnett-will-nichols",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "and 10 words or less can you describe blockchain",
+  "answer": "it's a distributed",
+  "answeredBy": "Will Nichols",
+  "highlight": false,
+  "answerContinued": "a distributed record of account and whatever account period distributed record of account period"
+ },
+ {
+  "id": "tbp/s01/352-interview-aram-barnett-and-will-nichols-of-721-collective@3235",
+  "slug": "tbp/s01/352-interview-aram-barnett-and-will-nichols-of-721-collective",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually hard",
+  "answer": "is what i do actually hard yeah yeah because it doesn't i can't force it it's not like i can go in to the gym and get a workout it's mentally it has to hit me more than i can force it i can't force an idea inspiration just strikes so i consider that hard to deal with and hard to manage and",
+  "answeredBy": "Will Nichols",
+  "highlight": false,
+  "answerContinued": "hard to to to to find inspiration it's hard to find inspiration in things"
+ },
+ {
+  "id": "tbp/s01/352-interview-aram-barnett-and-will-nichols-of-721-collective@3235",
+  "slug": "tbp/s01/352-interview-aram-barnett-and-will-nichols-of-721-collective",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "and 10 words or less can you describe blockchain",
+  "answer": "a distributed record of account in whatever account period",
+  "answeredBy": "Will Nichols",
+  "highlight": false
+ },
+ {
+  "id": "tbp/853-the-bitcoin-podcast-353-tj-rush-trueblocks@5934",
+  "slug": "tbp/853-the-bitcoin-podcast-353-tj-rush-trueblocks",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult?",
+  "answer": "For me, no.",
+  "answeredBy": "TJ Rush",
+  "highlight": true
+ },
+ {
+  "id": "tbp/853-the-bitcoin-podcast-353-tj-rush-trueblocks@5934",
+  "slug": "tbp/853-the-bitcoin-podcast-353-tj-rush-trueblocks",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "In 10 words or less, can you describe Ethereum?",
+  "answer": "the best data that's ever existed in the world history, the best data that's ever existed in the history of the world.",
+  "answeredBy": "TJ Rush",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/353-interview-thomas-jay-rush-trueblocks@3438",
+  "slug": "tbp/s01/353-interview-thomas-jay-rush-trueblocks",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult",
+  "answer": "for me now",
+  "answeredBy": "TJ Rush",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/353-interview-thomas-jay-rush-trueblocks@3438",
+  "slug": "tbp/s01/353-interview-thomas-jay-rush-trueblocks",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe ethereum",
+  "answer": "the best data that's ever existed in the world it's history the best data that's ever existed in the history of",
+  "answeredBy": "TJ Rush",
+  "highlight": false,
+  "answerContinued": "the world"
+ },
+ {
+  "id": "tbp/s01/355-rountable-a-kickback-celebrating-six-years@5948",
+  "slug": "tbp/s01/355-rountable-a-kickback-celebrating-six-years",
+  "question": "ten",
+  "subject": "The Bitcoin Podcast",
+  "asked": "in 10 words or less",
+  "answer": "i would say uh the bitcoin podcast is a show where you can get easily digestible crypto information",
+  "answeredBy": "Dee",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/355-rountable-a-kickback-celebrating-six-years@5948",
+  "slug": "tbp/s01/355-rountable-a-kickback-celebrating-six-years",
+  "question": "ask",
+  "subject": "",
+  "asked": "was there anything we should have asked you but didn't",
+  "answer": "now we covered",
+  "answeredBy": "Corey",
+  "highlight": false
+ },
+ {
+  "id": "tbp/855-the-bitcoin-podcast-355-a-kickback-celebrating@5962",
+  "slug": "tbp/855-the-bitcoin-podcast-355-a-kickback-celebrating",
+  "question": "ten",
+  "subject": "The Bitcoin Podcast",
+  "asked": "in 10 words or less",
+  "answer": "the bitcoin podcast is uh a show where you can get easily digestible crypto information.",
+  "answeredBy": "Dee",
+  "highlight": false
+ },
+ {
+  "id": "tbp/855-the-bitcoin-podcast-355-a-kickback-celebrating@5962",
+  "slug": "tbp/855-the-bitcoin-podcast-355-a-kickback-celebrating",
+  "question": "ask",
+  "subject": "",
+  "asked": "was there anything we should have asked you, but didn't?",
+  "answer": "No, we covered it.",
+  "answeredBy": "Corey",
+  "highlight": false
+ },
+ {
+  "id": "tbp/856-the-bitcoin-podcast-357-ceo-josh-katz-of-yellow@5869",
+  "slug": "tbp/856-the-bitcoin-podcast-357-ceo-josh-katz-of-yellow",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "in 10 words or less can you describe an nft non-fungible token",
+  "answer": "freedom",
+  "answeredBy": "Josh Katz",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/357-interview-ceo-josh-katz-of-yellowheart@2664",
+  "slug": "tbp/s01/357-interview-ceo-josh-katz-of-yellowheart",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "in 10 words or less can you describe an nft non-fungible token",
+  "answer": "freedom",
+  "answeredBy": "Josh Katz",
+  "highlight": false
+ },
+ {
+  "id": "tbp/857-the-bitcoin-podcast-358-juan-m-hernandez-ceo-of@5930",
+  "slug": "tbp/857-the-bitcoin-podcast-358-juan-m-hernandez-ceo-of",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "it is a very expensive and inefficient",
+  "answeredBy": "Juan Hernandez",
+  "highlight": true,
+  "answerContinued": "public data."
+ },
+ {
+  "id": "tbp/s01/358-interview-juan-m-hernandez-ceo-of-curio@2862",
+  "slug": "tbp/s01/358-interview-juan-m-hernandez-ceo-of-curio",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "it is a very expensive and inefficient public database",
+  "answeredBy": "Juan Hernandez",
+  "highlight": true
+ },
+ {
+  "id": "tbp/858-the-bitcoin-podcast-359-cory-doctorow-author@4956",
+  "slug": "tbp/858-the-bitcoin-podcast-359-cory-doctorow-author",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult?",
+  "answer": "Yeah, I, a hundred percent. I would say that what I'm doing now is something that I took 20 years of practice to get good at.",
+  "answeredBy": "Cory Doctorow",
+  "highlight": false
+ },
+ {
+  "id": "tbp/858-the-bitcoin-podcast-359-cory-doctorow-author@4956",
+  "slug": "tbp/858-the-bitcoin-podcast-359-cory-doctorow-author",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "kind of a mixed bag",
+  "answeredBy": "Cory Doctorow",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/359-interview-cory-doctorow@4838",
+  "slug": "tbp/s01/359-interview-cory-doctorow",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult",
+  "answer": "yeah i 100 i would say that what i'm doing now is something that",
+  "answeredBy": "Cory Doctorow",
+  "highlight": false,
+  "answerContinued": "i took 20 years of practice to get good at"
+ },
+ {
+  "id": "tbp/s01/359-interview-cory-doctorow@4838",
+  "slug": "tbp/s01/359-interview-cory-doctorow",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "kind of a mixed bag",
+  "answeredBy": "Cory Doctorow",
+  "highlight": true
+ },
+ {
+  "id": "hio/105-optimism@3438",
+  "slug": "hio/105-optimism",
+  "question": "ask",
+  "subject": "",
+  "asked": "I usually ask what question should I have asked that I didn't",
+  "answer": "one of the things that we're most excited by,",
+  "answeredBy": "Ben",
+  "highlight": false,
+  "answerContinued": "right, is to basically put our money where our mouth is in terms of this public good stuff."
+ },
+ {
+  "id": "tbp/s01/361-interview-erik-voorhees-founder-of-shapeshift@3131",
+  "slug": "tbp/s01/361-interview-erik-voorhees-founder-of-shapeshift",
+  "question": "ten",
+  "subject": "DAO",
+  "asked": "in 10 words or less can you describe a dao",
+  "answer": "a dao is a decentralized organization period",
+  "answeredBy": "Erik Voorhees",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/361-interview-erik-voorhees-founder-of-shapeshift@3131",
+  "slug": "tbp/s01/361-interview-erik-voorhees-founder-of-shapeshift",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything else that um like you feel we should have asked you that you would have liked to have talked about that we didn't",
+  "answer": "no this was a good conversation i like getting into the philosophical stuff",
+  "answeredBy": "Erik Voorhees",
+  "highlight": false
+ },
+ {
+  "id": "tbp/862-the-bitcoin-podcast-361-erik-voorhees-founder-of@5639",
+  "slug": "tbp/862-the-bitcoin-podcast-361-erik-voorhees-founder-of",
+  "question": "ten",
+  "subject": "DAO",
+  "asked": "in 10 words or less, can you describe a DAO?",
+  "answer": "a DAO is a decentralized economic organization, period.",
+  "answeredBy": "Erik Voorhees",
+  "highlight": false
+ },
+ {
+  "id": "tbp/862-the-bitcoin-podcast-361-erik-voorhees-founder-of@5639",
+  "slug": "tbp/862-the-bitcoin-podcast-361-erik-voorhees-founder-of",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there anything else that you feel we should have asked you that you would have liked to have talked about that we didn't?",
+  "answer": "No, this was a good conversation. I like getting into the philosophical stuff.",
+  "answeredBy": "Erik Voorhees",
+  "highlight": false
+ },
+ {
+  "id": "tbp/869-the-bitcoin-podcast-364-jonathan-chester-of@5737",
+  "slug": "tbp/869-the-bitcoin-podcast-364-jonathan-chester-of",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "less can you describe Bitcoin",
+  "answer": "permissionless censorship resistant digital gold.",
+  "answeredBy": "Jonathan Chester",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/364-interview-johnathan-chester-of-bitwage@3453",
+  "slug": "tbp/s01/364-interview-johnathan-chester-of-bitwage",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "10 words or less can you describe bitcoin",
+  "answer": "permissionless sensorship resistant digital gold",
+  "answeredBy": "Jonathan Chester",
+  "highlight": false
+ },
+ {
+  "id": "tbp/875-the-bitcoin-podcast-367-nathan-wes-and-darcy@5237",
+  "slug": "tbp/875-the-bitcoin-podcast-367-nathan-wes-and-darcy",
+  "question": "ask",
+  "subject": "",
+  "asked": "any questions you wish we would have asked that we didn't",
+  "answer": "No, you guys asked great questions. It was awesome.",
+  "answeredBy": "Nathan Wosnack",
+  "highlight": false
+ },
+ {
+  "id": "tbp/875-the-bitcoin-podcast-367-nathan-wes-and-darcy@5237",
+  "slug": "tbp/875-the-bitcoin-podcast-367-nathan-wes-and-darcy",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult?",
+  "answer": "When we first started, I think it was education and just getting our first customers, having someone put the risk, you know, take the risk into putting their money into our company",
+  "answeredBy": "Nathan",
+  "highlight": false
+ },
+ {
+  "id": "tbp/875-the-bitcoin-podcast-367-nathan-wes-and-darcy@5402",
+  "slug": "tbp/875-the-bitcoin-podcast-367-nathan-wes-and-darcy",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "decentralized money essentially that allows anybody to access it in a means that's transparent",
+  "answeredBy": "Wes",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/367-interview-nathan-wes--darcy-of-ubitquity@3419",
+  "slug": "tbp/s01/367-interview-nathan-wes--darcy-of-ubitquity",
+  "question": "ask",
+  "subject": "",
+  "asked": "any questions you wish we would have asked that we didn't",
+  "answer": "no you guys asked great questions it was awesome",
+  "answeredBy": "Nathan Wosnack",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/367-interview-nathan-wes--darcy-of-ubitquity@3419",
+  "slug": "tbp/s01/367-interview-nathan-wes--darcy-of-ubitquity",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult",
+  "answer": "when we first started i think it was education and uh just getting our first customers uh having someone put their you know take the risk into putting their money into our company",
+  "answeredBy": "Nathan Wosnack",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/367-interview-nathan-wes--darcy-of-ubitquity@3580",
+  "slug": "tbp/s01/367-interview-nathan-wes--darcy-of-ubitquity",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "10 words or less can you describe bitcoin",
+  "answer": "decentralized money essentially that allows anybody to",
+  "answeredBy": "Wes",
+  "highlight": false,
+  "answerContinued": "access it in in in in a means that's transparent"
+ },
+ {
+  "id": "tbp/877-ththe-bitcoin-podcast-368-quharrison-and-ryan-of@6491",
+  "slug": "tbp/877-ththe-bitcoin-podcast-368-quharrison-and-ryan-of",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "In 10 words or less, can you describe NFTs?",
+  "answer": "Digital receipts for images.",
+  "answeredBy": "Ryan",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/368-interview-quharrison-and-ryan-of-the-nft-qt-show@2979",
+  "slug": "tbp/s01/368-interview-quharrison-and-ryan-of-the-nft-qt-show",
+  "question": "ten",
+  "subject": "NFTs",
+  "asked": "in 10 words or less can you describe nfts",
+  "answer": "digital receipts for images",
+  "answeredBy": "Ryan",
+  "highlight": false
+ },
+ {
+  "id": "tbp/895-the-bitcoin-podcast-375-evan-van-ness-starbloom@4558",
+  "slug": "tbp/895-the-bitcoin-podcast-375-evan-van-ness-starbloom",
+  "question": "ask",
+  "subject": "",
+  "asked": "anything we should have asked you you would have liked to have said that we didn't",
+  "answer": "no no this was fun I mean you know I'm here talking about rollups, I think in general, that's the way Ethereum is going.",
+  "answeredBy": "Evan Van Ness",
+  "highlight": false
+ },
+ {
+  "id": "tbp/895-the-bitcoin-podcast-375-evan-van-ness-starbloom@4558",
+  "slug": "tbp/895-the-bitcoin-podcast-375-evan-van-ness-starbloom",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "ten words or less and you describe blockchain",
+  "answer": "blockchain is decentralization so users can be self-sovereign",
+  "answeredBy": "Evan Van Ness",
+  "highlight": false
+ },
+ {
+  "id": "tbp/895-the-bitcoin-podcast-375-evan-van-ness-starbloom@4558",
+  "slug": "tbp/895-the-bitcoin-podcast-375-evan-van-ness-starbloom",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult?",
+  "answer": "Yeah, that's shockingly difficult. I think, you know, I get a lot of questions at conferences that are really demotivating, like, or I've had over the years, like, what else are you doing aside from the newsletter?",
+  "answeredBy": "Evan Van Ness",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/375-interview-evan-van-ness-starbloom-ventures@4382",
+  "slug": "tbp/s01/375-interview-evan-van-ness-starbloom-ventures",
+  "question": "ask",
+  "subject": "",
+  "asked": "we should have asked you you would have liked to have said that",
+  "answer": "no no this is fun i mean you know i'm here talking about roll-ups i think in general that's like the way ethereum is going",
+  "answeredBy": "Evan Van Ness",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/375-interview-evan-van-ness-starbloom-ventures@4382",
+  "slug": "tbp/s01/375-interview-evan-van-ness-starbloom-ventures",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "words or less and you describe blockchain",
+  "answer": "blockchain is decentralization so",
+  "answeredBy": "Evan Van Ness",
+  "highlight": false,
+  "answerContinued": "users can be self-sovereign"
+ },
+ {
+  "id": "tbp/s01/375-interview-evan-van-ness-starbloom-ventures@4382",
+  "slug": "tbp/s01/375-interview-evan-van-ness-starbloom-ventures",
+  "question": "hard",
+  "subject": "",
+  "asked": "is what you do actually difficult",
+  "answer": "that's that's shockingly difficult uh i think you know i get a lot of questions at conferences that are really demotivating",
+  "answeredBy": "Evan Van Ness",
+  "highlight": false
+ },
+ {
+  "id": "tbp/897-the-bitcoin-podcast-376-alex-smirnov-of@2430",
+  "slug": "tbp/897-the-bitcoin-podcast-376-alex-smirnov-of",
+  "question": "ten",
+  "subject": "interoperability",
+  "asked": "In 10 words or less, can you describe interoperability?",
+  "answer": "Interoperability is a great user experience.",
+  "answeredBy": "Alex Smirnov",
+  "highlight": false
+ },
+ {
+  "id": "tbp/897-the-bitcoin-podcast-376-alex-smirnov-of@2430",
+  "slug": "tbp/897-the-bitcoin-podcast-376-alex-smirnov-of",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything that you hoped that we would have asked that we didn't",
+  "answer": "i don't know like you can ask anything",
+  "answeredBy": "Alex Smirnov",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/376-interview-alex-smirnov-of-debridgefinance@2312",
+  "slug": "tbp/s01/376-interview-alex-smirnov-of-debridgefinance",
+  "question": "ten",
+  "subject": "interoperability",
+  "asked": "in 10 words or less can you describe interoperability",
+  "answer": "interoperability is a great user experience i would say",
+  "answeredBy": "Alex Smirnov",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/376-interview-alex-smirnov-of-debridgefinance@2312",
+  "slug": "tbp/s01/376-interview-alex-smirnov-of-debridgefinance",
+  "question": "ask",
+  "subject": "",
+  "asked": "is it anything that you hoped that we would have asked that we didn't",
+  "answer": "i i don't know like you can ask anything",
+  "answeredBy": "Alex Smirnov",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/377-interview-dan-edlebeck-ceo-of-exidio@2847",
+  "slug": "tbp/s01/377-interview-dan-edlebeck-ceo-of-exidio",
+  "question": "ten",
+  "subject": "Cosmos",
+  "asked": "in 10 words or less can you define uh cosmos",
+  "answer": "it's the internet of blockchains it's uh live interoperability",
+  "answeredBy": "Dan Edlebeck",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/377-interview-dan-edlebeck-ceo-of-exidio@2847",
+  "slug": "tbp/s01/377-interview-dan-edlebeck-ceo-of-exidio",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything uh that you wish we'd asked you or wish we said that we didn't",
+  "answer": "yeah i mean",
+  "answeredBy": "Dan Edlebeck",
+  "highlight": false,
+  "answerContinued": "come check us out if you're excited about using the apps download the apps"
+ },
+ {
+  "id": "tbp/884-the-bitcoin-podcast-372-julien-genestoux-unlock@2850",
+  "slug": "tbp/884-the-bitcoin-podcast-372-julien-genestoux-unlock",
+  "question": "ask",
+  "subject": "",
+  "asked": "else that we should have asked you that we didn't",
+  "answer": "i'm no i think you asked the right things i I mean, yeah, you ask the right things for sure.",
+  "answeredBy": "Julien Genestoux",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/372-interview-julien-genestoux-of-unlock-protocol@2714",
+  "slug": "tbp/s01/372-interview-julien-genestoux-of-unlock-protocol",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything else that we should have asked you that we didn't",
+  "answer": "no i think you asked the right things i mean yeah i think you asked the right things for sure",
+  "answeredBy": "Julien Genestoux",
+  "highlight": false
+ }
+]

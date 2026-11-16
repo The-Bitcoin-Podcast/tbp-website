@@ -1,0 +1,744 @@
+[
+ {
+  "id": "tbp/s01/235-max-brody-and-cameron-hejazi@5480",
+  "slug": "tbp/s01/235-max-brody-and-cameron-hejazi",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in ten words or less can you describe ethereal in ten words or less",
+  "answer": "I would say an updated substructure of the internet that eliminates",
+  "answerContinued": "middlemen in transactions",
+  "answeredBy": "Max Brody",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/235-max-brody-and-cameron-hejazi@5480",
+  "slug": "tbp/s01/235-max-brody-and-cameron-hejazi",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in ten words or less can you describe ethereal in ten words or less",
+  "answer": "I would say that it's a public ledger secured by digital signatures and random computers",
+  "answeredBy": "Cameron Hejazi",
+  "highlight": false
+ },
+ {
+  "id": "hio/033-loom-network-plasma-cash@4019",
+  "slug": "hio/033-loom-network-plasma-cash",
+  "question": "ask",
+  "subject": "",
+  "asked": "what is there something that you wanted to talk about that we didn't get around to asking",
+  "answer": "oh the main thing that i wanted to talk about was how bad the plasma naming is and i believe we got into it a bit",
+  "answeredBy": "Georgios Konstantopoulos",
+  "highlight": true
+ },
+ {
+  "id": "hio/034-storj-shawn-wilkinson-jt-olio@4424",
+  "slug": "hio/034-storj-shawn-wilkinson-jt-olio",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there something that we should have asked you or you hoped we asked you that we didn't get around to?",
+  "answer": "No, I mean, personally, I thought this was a great conversation. Wonderful questions. Very, very insightful.",
+  "answeredBy": "Shawn Wilkinson or JT Olio",
+  "highlight": false
+ },
+ {
+  "id": "hio/034-storj-shawn-wilkinson-jt-olio@4424",
+  "slug": "hio/034-storj-shawn-wilkinson-jt-olio",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there something that we should have asked you or you hoped we asked you that we didn't get around to?",
+  "answer": "I would like to highlight one thing. I really recommend your listeners to go to storage.io, S-T-O-R-J.io,",
+  "answerContinued": "and take a look at the white paper, become a storage node operator, and play around with our tools and library",
+  "answeredBy": "Shawn Wilkinson or JT Olio",
+  "highlight": false
+ },
+ {
+  "id": "hio/035-constantinople-postponement@4122",
+  "slug": "hio/035-constantinople-postponement",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there anything that we should have asked y'all or gotten to that we didn't get a chance to, starting with Jocelyn?",
+  "answer": "No, I think we did a pretty good tour of all the without important information",
+  "answerContinued": "in the security ecosystem I can think of.",
+  "answeredBy": "Jocelyn",
+  "highlight": false
+ },
+ {
+  "id": "hio/035-constantinople-postponement@4122",
+  "slug": "hio/035-constantinople-postponement",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there anything that we should have asked y'all or gotten to that we didn't get a chance to, starting with Jocelyn?",
+  "answer": "Yeah, so if there's two things that people do after listening to this talk, it's probably check out our blog because we have a great set of videos for you to learn more about security in Ethereum and blockchain security.",
+  "answeredBy": "Dan",
+  "highlight": false
+ },
+ {
+  "id": "hio/036-dan-robinson-htlcs-and-why-they-suck@3541",
+  "slug": "hio/036-dan-robinson-htlcs-and-why-they-suck",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that you hoped we would have asked you and we didn't?",
+  "answer": "No, I mean, I think we got to a lot of them. The one thing I want to say, because I want to be fair to the critics, is that there's one other downside of the interledger approach that I forgot to mention, which is that you can sometimes have payments partially complete.",
+  "answeredBy": "Dan Robinson",
+  "highlight": false
+ },
+ {
+  "id": "hio/037-base-zero-matt-zimmerman-ken-sedgwick@3131",
+  "slug": "hio/037-base-zero-matt-zimmerman-ken-sedgwick",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything else that you'd like to talk about that we didn't ask you?",
+  "answer": "Just to mention that our website's got a white paper with some of the details and the justifications for why we've built things the way that we've built. And we've published an article",
+  "answerContinued": "to Medium recently as well.",
+  "answeredBy": "Matt Zimmerman",
+  "highlight": false
+ },
+ {
+  "id": "hio/040-liam-horne-l4@3516",
+  "slug": "hio/040-liam-horne-l4",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions or things that you would have liked us to discuss that we didn't get around to asking you about?",
+  "answer": "No, I think I'm good. From my point of view, our team at L4 and with the Counterfactual Project, our main mission right now is just keep getting this protocol to be simple",
+  "answerContinued": "and easy to understand and have tangible entry points for developers to look at it and build on it with.",
+  "answeredBy": "Liam Horne",
+  "highlight": false
+ },
+ {
+  "id": "tbp/605-the-bitcoin-podcast-254-eric-conner@3816",
+  "slug": "tbp/605-the-bitcoin-podcast-254-eric-conner",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe Ethereum",
+  "answer": "I would say it's the programmable money of the internet",
+  "answeredBy": "Eric Conner",
+  "highlight": false
+ },
+ {
+  "id": "hio/042-monero-research-lab-brandon@4061",
+  "slug": "hio/042-monero-research-lab-brandon",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that we probably should have asked you or you wanted us to ask you that we didn't get around to?",
+  "answer": "i'll be honest i don't have any i don't have any i can talk about monero all day",
+  "answeredBy": "Brandon Goodell",
+  "highlight": false
+ },
+ {
+  "id": "hio/044-blockstream-russell-oconnor@3670",
+  "slug": "hio/044-blockstream-russell-oconnor",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that you would have liked us to ask you or something you'd like to kind of get off your chest or something you think is important that we didn't get around to saying?",
+  "answer": "Well, yeah. So let's talk a little bit about how simplicity is coming along, right? So we have a GitHub repository.",
+  "answeredBy": "Russell O'Connor",
+  "highlight": false
+ },
+ {
+  "id": "tbp/619-the-bitcoin-podcast-257@4308",
+  "slug": "tbp/619-the-bitcoin-podcast-257",
+  "question": "ten",
+  "subject": "MyCrypto",
+  "asked": "Hey, Jordan, plug my crypto at 10 words or less.",
+  "answer": "The leading Ethereum interface to help you manage your crypto.",
+  "answeredBy": "Jordan",
+  "highlight": false
+ },
+ {
+  "id": "hio/047-makerdao-pt-1-nik-kunkel@3384",
+  "slug": "hio/047-makerdao-pt-1-nik-kunkel",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything that you wish we would have asked you that we didn't get around to",
+  "answer": "Oh man, kind of the where, you know, we've talked about where things are now. I want to talk about where things are going.",
+  "answeredBy": "Nik Kunkel",
+  "highlight": false
+ },
+ {
+  "id": "tbp/641-the-bitcoin-podcast-262@3813",
+  "slug": "tbp/641-the-bitcoin-podcast-262",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything that like we you would have wanted us to ask you that we didn't",
+  "answer": "good question you guys asked some great questions",
+  "answeredBy": "Alex Edelman",
+  "highlight": false
+ },
+ {
+  "id": "hio/049-xdai-burner-wallet-austin@3142",
+  "slug": "hio/049-xdai-burner-wallet-austin",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there any questions that, uh, you wish we would have asked you or something you would like to talk about that we didn't get around to?",
+  "answer": "No, I think you guys hit it. I, I, um, like you said, getting funded by the ecosystem would be so awesome.",
+  "answeredBy": "Austin Griffith",
+  "highlight": false
+ },
+ {
+  "id": "hio/050-ava-labs-emin-gun-sirer@3998",
+  "slug": "hio/050-ava-labs-emin-gun-sirer",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there any questions that you wish we would have asked you that we didn't get around to?",
+  "answer": "Not really. I think we touched upon, we spent a lot of our time on Avalanche. So it makes sense to do so because it's maturing now and it's taking form.",
+  "answeredBy": "Emin Gün Sirer",
+  "highlight": false
+ },
+ {
+  "id": "tbp/652-the-bitcoin-podcast-264-andreas-m-antonopoulos@5018",
+  "slug": "tbp/652-the-bitcoin-podcast-264-andreas-m-antonopoulos",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "bitcoin is freedom and if what you need is freedom nothing else will do",
+  "answeredBy": "Andreas Antonopoulos",
+  "highlight": true
+ },
+ {
+  "id": "hio/053-trail-of-bits-dan-guido@3254",
+  "slug": "hio/053-trail-of-bits-dan-guido",
+  "question": "ask",
+  "subject": "",
+  "asked": "are there any questions that you wish i would have asked that we didn't get to ask",
+  "answer": "yeah i i don't know i mean i i think that if you do anything after listening to this podcast go grab yourself a copy of slither run it",
+  "answeredBy": "Dan Guido",
+  "highlight": false
+ },
+ {
+  "id": "hio/054-ethereum-geth-190-pter-szilgyi@5746",
+  "slug": "hio/054-ethereum-geth-190-pter-szilgyi",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that you would have liked us to ask you about any of this",
+  "answer": "so there are two unicorns that we've been chasing one of them is pruning which peter has spent quite a lot of time",
+  "answerContinued": "trying to get to work i mean more permanent pruning than the in-memory improvement pruning that we have now",
+  "answeredBy": "Martin Swende",
+  "highlight": false
+ },
+ {
+  "id": "tbp/665-the-bitcoin-podcast-267@3635",
+  "slug": "tbp/665-the-bitcoin-podcast-267",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you define blockchain?",
+  "answer": "a badass globally connected Excel spreadsheet that we glorify",
+  "answeredBy": "Sam Rod",
+  "highlight": true
+ },
+ {
+  "id": "hio/055-consensys-diligence-steve-marx@3245",
+  "slug": "hio/055-consensys-diligence-steve-marx",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that you wish I would have asked that I didn't?",
+  "answer": "Oh, man, that's good. Maybe. Well, all right. I don't know what question you would have asked to lead me to talk about this, but I will give sort of one final thought I think that has been on my mind a lot lately, which we touched on, which is how to get involved earlier.",
+  "answeredBy": "Steve Marx",
+  "highlight": false
+ },
+ {
+  "id": "tbp/672-tbp-flashback-126@3549",
+  "slug": "tbp/672-tbp-flashback-126",
+  "question": "ask",
+  "subject": "",
+  "asked": "Charlie, is there anything else that we should have asked",
+  "answer": "Not that I can think of.",
+  "answeredBy": "Charlie Lee",
+  "highlight": false
+ },
+ {
+  "id": "tbp/672-tbp-flashback-126@3549",
+  "slug": "tbp/672-tbp-flashback-126",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Charlie, could you give us your best answer on what is Bitcoin in 10 words or less.",
+  "answer": "Bitcoin is a electronic currency that is not backed by government.",
+  "answeredBy": "Charlie Lee",
+  "highlight": false
+ },
+ {
+  "id": "hio/056-mattereum-vinay-gupta@4495",
+  "slug": "hio/056-mattereum-vinay-gupta",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there anything that you would have liked me to ask you that I didn't ask?",
+  "answer": "so I think we covered pretty much everything um the one bit of it that might be worth talking",
+  "answerContinued": "about in the you know kind of intro or the show notes or something like that is just to say that you know this is fundamentally about transaction costs right",
+  "answeredBy": "Vinay Gupta",
+  "highlight": false
+ },
+ {
+  "id": "hio/057-consensys-labs-tachyon-gabriel@3384",
+  "slug": "hio/057-consensys-labs-tachyon-gabriel",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there something that you would have liked me to ask you that I didn't?",
+  "answer": "Oh, man. I don't know. We went all around the board.",
+  "answeredBy": "Gabriel Anderson",
+  "highlight": false
+ },
+ {
+  "id": "hio/058-stellar-nikhil-saraf@3867",
+  "slug": "hio/058-stellar-nikhil-saraf",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there any questions you wish we would have asked that we didn't?",
+  "answer": "So I would love to sort of talk about the project that I do spend most of my time on. It's this project called Kelp, which is a market making bot for the Stellar Network.",
+  "answeredBy": "Nikhil Saraf",
+  "highlight": false
+ },
+ {
+  "id": "tbp/692-the-bitcoin-podcast-275-rick-v-of-crypto-cloak@2734",
+  "slug": "tbp/692-the-bitcoin-podcast-275-rick-v-of-crypto-cloak",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Giving people the power of money again?",
+  "answeredBy": "Rick V",
+  "highlight": false
+ },
+ {
+  "id": "tbp/699-the-bitcoin-podcast-276-alex-bosworth-and-the@3354",
+  "slug": "tbp/699-the-bitcoin-podcast-276-alex-bosworth-and-the",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there something you wanted to say that we didn't ask you?",
+  "answer": "Well, one thing I wanted to talk about is Lightning Loop. in the context of the hyperloop. So that's something that I'm working on that is potentially not even related to the Lightning Network.",
+  "answeredBy": "Alex Bosworth",
+  "highlight": false
+ },
+ {
+  "id": "tbp/699-the-bitcoin-podcast-276-alex-bosworth-and-the@3690",
+  "slug": "tbp/699-the-bitcoin-podcast-276-alex-bosworth-and-the",
+  "question": "ten",
+  "subject": "Lightning Network",
+  "asked": "one last question in 10 words or less can you describe the lightning network",
+  "answer": "the lightning network",
+  "answerContinued": "is a way to pay from anyone to anyone in the world",
+  "answeredBy": "Alex Bosworth",
+  "highlight": false
+ },
+ {
+  "id": "tbp/703-the-bitcoin-podcast-277-nicolas-dorier-btcpay@3835",
+  "slug": "tbp/703-the-bitcoin-podcast-277-nicolas-dorier-btcpay",
+  "question": "ask",
+  "subject": "",
+  "asked": "Well, is there anything that I should have asked you that I didn't?",
+  "answer": "I think no, I think we're good.",
+  "answeredBy": "Nicolas Dorier",
+  "highlight": false
+ },
+ {
+  "id": "tbp/703-the-bitcoin-podcast-277-nicolas-dorier-btcpay@3835",
+  "slug": "tbp/703-the-bitcoin-podcast-277-nicolas-dorier-btcpay",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "my last question to you nicholas is in 10 words or less can you describe bitcoin",
+  "answer": "I have only one actually that come in my mind which is freedom",
+  "answeredBy": "Nicolas Dorier",
+  "highlight": false
+ },
+ {
+  "id": "tbp/709-the-bitcoin-podcast-279-cory-doctorow-journalist@4871",
+  "slug": "tbp/709-the-bitcoin-podcast-279-cory-doctorow-journalist",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "I don't know if this is 10 words or less, but it's a definition I like,",
+  "answerContinued": "which is that 90% of all Bitcoin-related conversations are non-consensual.",
+  "answeredBy": "Cory Doctorow",
+  "highlight": true
+ },
+ {
+  "id": "tbp/711-the-bitcoin-podcast-280-norm-lightning-in-a-box@3602",
+  "slug": "tbp/711-the-bitcoin-podcast-280-norm-lightning-in-a-box",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "10 words or less, can you describe Bitcoin?",
+  "answer": "Right now, Bitcoin on a base layer is a savings account. On Lightning, it's a checking account.",
+  "answeredBy": "Norman Moore",
+  "highlight": true
+ },
+ {
+  "id": "tbp/714-the-bitcoin-podcast-281-eric-fulton-of-keybase@3246",
+  "slug": "tbp/714-the-bitcoin-podcast-281-eric-fulton-of-keybase",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "i mean in one word it would be freedom",
+  "answeredBy": "Eric Fulton",
+  "highlight": false
+ },
+ {
+  "id": "tbp/716-the-bitcoin-podcast-282-max-keidun-hodl-hodl@3336",
+  "slug": "tbp/716-the-bitcoin-podcast-282-max-keidun-hodl-hodl",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "and 10 words or less can you describe bitcoin",
+  "answer": "i think that bitcoin is a main tool for your financial freedom",
+  "answeredBy": "Max Keidun",
+  "highlight": false
+ },
+ {
+  "id": "tbp/718-the-bitcoin-podcast-283-daniel-luca-consensys@4486",
+  "slug": "tbp/718-the-bitcoin-podcast-283-daniel-luca-consensys",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "Can you explain Ethereum in 10 words or less?",
+  "answer": "Ethereum is a world computer.",
+  "answeredBy": "Daniel Luca",
+  "highlight": false
+ },
+ {
+  "id": "tbp/720-the-bitcoin-podcast-284-julien-genestoux-unlock@3290",
+  "slug": "tbp/720-the-bitcoin-podcast-284-julien-genestoux-unlock",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "can you describe Ethereum?",
+  "answer": "programmable money with an emphasis on programmable",
+  "answeredBy": "Julien Genestoux",
+  "highlight": false
+ },
+ {
+  "id": "tbp/723-the-bitcoin-podcast-286-morgen-rochard-financial@4740",
+  "slug": "tbp/723-the-bitcoin-podcast-286-morgen-rochard-financial",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "it's a money",
+  "answeredBy": "Morgen Rochard",
+  "highlight": false
+ },
+ {
+  "id": "tbp/726-the-bitcoin-podcast-287-isabela-bagueros-tor@4952",
+  "slug": "tbp/726-the-bitcoin-podcast-287-isabela-bagueros-tor",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Well, I feel the value proposition of having a currency that is democratic owners and my people, you know, it's very important.",
+  "answeredBy": "Isabela Bagueros",
+  "highlight": false
+ },
+ {
+  "id": "tbp/729-the-bitcoin-podcast-288-karl-schroeder-stealing@3576",
+  "slug": "tbp/729-the-bitcoin-podcast-288-karl-schroeder-stealing",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you describe Bitcoin?",
+  "answer": "a way of giving virtual objects some of the characteristics of physical objects.",
+  "answeredBy": "Karl Schroeder",
+  "highlight": true
+ },
+ {
+  "id": "tbp/747-the-bitcoin-podcast-294-richard-mcdaniel-aka@3736",
+  "slug": "tbp/747-the-bitcoin-podcast-294-richard-mcdaniel-aka",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you describe bitcoin",
+  "answer": "digital money skadoosh",
+  "answeredBy": "Richard McDaniel",
+  "highlight": true
+ },
+ {
+  "id": "tbp/750-the-bitcoin-podcast-295-simon-and-alex-of@4474",
+  "slug": "tbp/750-the-bitcoin-podcast-295-simon-and-alex-of",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "It's a chain of blocks.",
+  "answeredBy": "Alex",
+  "highlight": false
+ },
+ {
+  "id": "tbp/750-the-bitcoin-podcast-295-simon-and-alex-of@4474",
+  "slug": "tbp/750-the-bitcoin-podcast-295-simon-and-alex-of",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "a removal of third parties so that no one person can be in control",
+  "answeredBy": "Simon",
+  "highlight": false
+ },
+ {
+  "id": "tbp/752-the-bitcoin-podcast-296-cedric-dahl-1000xgroup@4471",
+  "slug": "tbp/752-the-bitcoin-podcast-296-cedric-dahl-1000xgroup",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "It's the first fair money we've ever had.",
+  "answeredBy": "Cedric Dahl",
+  "highlight": false
+ },
+ {
+  "id": "tbp/753-the-bitcoin-podcast-297-tushar-aggarwal-ceo-of@3793",
+  "slug": "tbp/753-the-bitcoin-podcast-297-tushar-aggarwal-ceo-of",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "I think blockchain is essentially a distributed database with certain crypto economic incentives tied to ensure there's no malicious activity.",
+  "answeredBy": "Tushar Aggarwal",
+  "highlight": false
+ },
+ {
+  "id": "tbp/757-the-bitcoin-podcast-298-ceo-bryce-gilleland@3480",
+  "slug": "tbp/757-the-bitcoin-podcast-298-ceo-bryce-gilleland",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "Distributed transparent database. Power to the people. Here's to the future.",
+  "answeredBy": "Bryce Gilleland",
+  "highlight": false
+ },
+ {
+  "id": "tbp/771-the-bitcoin-podcast-show-302-cto-dvid-molnr-and@4501",
+  "slug": "tbp/771-the-bitcoin-podcast-show-302-cto-dvid-molnr-and",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In ten words or less, can you both describe Bitcoin?",
+  "answer": "Free market money.",
+  "answeredBy": "Lucas Ontivero",
+  "highlight": false
+ },
+ {
+  "id": "tbp/771-the-bitcoin-podcast-show-302-cto-dvid-molnr-and@4501",
+  "slug": "tbp/771-the-bitcoin-podcast-show-302-cto-dvid-molnr-and",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In ten words or less, can you both describe Bitcoin?",
+  "answer": "decentralized trust",
+  "answeredBy": "David Molnár",
+  "highlight": false
+ },
+ {
+  "id": "tbp/779-the-bitcoin-podcast-304-camila-russo-the-defiant@4407",
+  "slug": "tbp/779-the-bitcoin-podcast-304-camila-russo-the-defiant",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less, can you define Ethereum?",
+  "answer": "Okay, so Ethereum is a global network that lets anyone anywhere in the world to build on it, anything that they dream of, using a computer that can never shut down.",
+  "answeredBy": "Camila Russo",
+  "highlight": false
+ },
+ {
+  "id": "tbp/781-the-bitcoin-podcast-305-henry-bitmod-crypto-in@3737",
+  "slug": "tbp/781-the-bitcoin-podcast-305-henry-bitmod-crypto-in",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that you would have liked me to ask that I didn't ask you?",
+  "answer": "No, no, no.",
+  "answeredBy": "Henry Bitmod",
+  "highlight": false
+ },
+ {
+  "id": "tbp/787-the-bitcoin-podcast-307-dr-muneeb-ali-of@4524",
+  "slug": "tbp/787-the-bitcoin-podcast-307-dr-muneeb-ali-of",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "I think Bitcoin is a reserve currency and an anchor point for the internet.",
+  "answeredBy": "Muneeb Ali",
+  "highlight": false
+ },
+ {
+  "id": "tbp/789-the-bitcoin-podcast-308-fazri-zubair-lucid-sights@4845",
+  "slug": "tbp/789-the-bitcoin-podcast-308-fazri-zubair-lucid-sights",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "In 10 words or less, can you describe Ethereum?",
+  "answer": "a cryptographically secured",
+  "answerContinued": "distributed record a digital app",
+  "answeredBy": "Fazri Zubair",
+  "highlight": false
+ },
+ {
+  "id": "tbp/792-the-bitcoin-podcast-309-ian-kar-fintech-today@4028",
+  "slug": "tbp/792-the-bitcoin-podcast-309-ian-kar-fintech-today",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything i should have asked you that i didn't",
+  "answer": "i mean uh we talked we talked a pretty good amount about like the convergence of fintech and crypto",
+  "answeredBy": "Ian Kar",
+  "highlight": false
+ },
+ {
+  "id": "tbp/792-the-bitcoin-podcast-309-ian-kar-fintech-today@4028",
+  "slug": "tbp/792-the-bitcoin-podcast-309-ian-kar-fintech-today",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "it's a currency that's not owned by anyone",
+  "answeredBy": "Ian Kar",
+  "highlight": false
+ },
+ {
+  "id": "tbp/795-the-bitcoin-podcast-310-jessica-angel-crypto@3978",
+  "slug": "tbp/795-the-bitcoin-podcast-310-jessica-angel-crypto",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "I would say a root, digital, abstract structure with roots in the physical world.",
+  "answeredBy": "Jessica Angel",
+  "highlight": false
+ },
+ {
+  "id": "tbp/797-the-bitcoin-podcast-311-swan-brady-swenson@4028",
+  "slug": "tbp/797-the-bitcoin-podcast-311-swan-brady-swenson",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is the future of money.",
+  "answeredBy": "Brady Swenson",
+  "highlight": false
+ },
+ {
+  "id": "tbp/798-the-bitcoin-podcast-312-emin-gn-sirer-ceo-of-ava@4358",
+  "slug": "tbp/798-the-bitcoin-podcast-312-emin-gn-sirer-ceo-of-ava",
+  "question": "ten",
+  "subject": "Ava",
+  "asked": "in 10 words or less, can you describe Ava?",
+  "answer": "building the internet of finance",
+  "answeredBy": "Emin Gün Sirer",
+  "highlight": false
+ },
+ {
+  "id": "tbp/801-the-bitcoin-podcast-313-matthew-finestone-loopring@1056",
+  "slug": "tbp/801-the-bitcoin-podcast-313-matthew-finestone-loopring",
+  "question": "ten",
+  "subject": "governance",
+  "asked": "can you can you describe in 10 words or less governance",
+  "answer": "An emergent Characteristic Of structured",
+  "answerContinued": "Civility",
+  "answeredBy": "Matthew Finestone",
+  "highlight": false
+ },
+ {
+  "id": "tbp/801-the-bitcoin-podcast-313-matthew-finestone-loopring@3871",
+  "slug": "tbp/801-the-bitcoin-podcast-313-matthew-finestone-loopring",
+  "question": "ask",
+  "subject": "",
+  "asked": "Do you think there's anything I should have asked you that I didn't.",
+  "answer": "But I think we covered most bases. No, I think you asked great questions and even helped me with some",
+  "answerContinued": "explanations.",
+  "answeredBy": "Matthew Finestone",
+  "highlight": false
+ },
+ {
+  "id": "tbp/801-the-bitcoin-podcast-313-matthew-finestone-loopring@4139",
+  "slug": "tbp/801-the-bitcoin-podcast-313-matthew-finestone-loopring",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe uh bitcoin or nope ethereum",
+  "answer": "open permissionless parallel financial and property system",
+  "answeredBy": "Matthew Finestone",
+  "highlight": false
+ },
+ {
+  "id": "tbp/804-the-bitcoin-podcast-315-overbit-ceo-chieh-liu@4142",
+  "slug": "tbp/804-the-bitcoin-podcast-315-overbit-ceo-chieh-liu",
+  "question": "ask",
+  "subject": "",
+  "asked": "was there any questions that you hoped we would have asked you that we didn't ask you",
+  "answer": "I think you covered pretty much what I want to talk",
+  "answeredBy": "Chieh Liu",
+  "highlight": false
+ },
+ {
+  "id": "tbp/804-the-bitcoin-podcast-315-overbit-ceo-chieh-liu@4142",
+  "slug": "tbp/804-the-bitcoin-podcast-315-overbit-ceo-chieh-liu",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain?",
+  "answer": "blockchain is a new technology that will live in our life forever",
+  "answeredBy": "Chieh Liu",
+  "highlight": true
+ },
+ {
+  "id": "tbp/807-the-bitcoin-podcast-316-robert-materazzi-roger@3501",
+  "slug": "tbp/807-the-bitcoin-podcast-316-robert-materazzi-roger",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "the first cryptocurrency that is the most widely used today",
+  "answeredBy": "Robert Materazzi",
+  "highlight": false
+ },
+ {
+  "id": "tbp/809-the-bitcoin-podcast-317-russell-cann-core@3567",
+  "slug": "tbp/809-the-bitcoin-podcast-317-russell-cann-core",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe",
+  "answer": "blockchain is like toilet paper on a roll",
+  "answeredBy": "Russell Cann",
+  "highlight": true
+ },
+ {
+  "id": "hio/068-sergi-delgado-whatsat-and-lightnight-network@3121",
+  "slug": "hio/068-sergi-delgado-whatsat-and-lightnight-network",
+  "question": "ask",
+  "subject": "",
+  "asked": "Sergei, is there anything else you'd like to say that I didn't ask you or something",
+  "answer": "No, it's that's well, I mean, I would say like that we are also like building watch hours for the landing network and it's like another.",
+  "answeredBy": "Sergi Delgado",
+  "highlight": false
+ },
+ {
+  "id": "hio/078-certora-mooly-sagiv@3328",
+  "slug": "hio/078-certora-mooly-sagiv",
+  "question": "ask",
+  "subject": "",
+  "asked": "are there any questions that you wish I would have asked during this that I didn't?",
+  "answer": "I think you covered it all.",
+  "answeredBy": "Mooly Sagiv",
+  "highlight": false
+ },
+ {
+  "id": "hio/079-alex-masmejean-rocket@3306",
+  "slug": "hio/079-alex-masmejean-rocket",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there any questions that you wished we would have asked you that we didn't before we get to how people contact you?",
+  "answer": "I would say like, what are you changing due to these events? Because sure, like I don't want to make this podcast too time dependent, but there's kind of a virus right now and it should like touch a lot of projects in the coming year.",
+  "answeredBy": "Alex Masmejean",
+  "highlight": false
+ },
+ {
+  "id": "hio/080-golem-ceo-piotr-janiuk@3159",
+  "slug": "hio/080-golem-ceo-piotr-janiuk",
+  "question": "ask",
+  "subject": "",
+  "asked": "were there any questions that you would have liked me to ask that I didn't?",
+  "answer": "Well, in fact, I believe it was quite true. So not necessarily.",
+  "answeredBy": "Piotr Janiuk",
+  "highlight": false
+ },
+ {
+  "id": "hio/081-unstoppable-domains-brad-kam@3442",
+  "slug": "hio/081-unstoppable-domains-brad-kam",
+  "question": "ask",
+  "subject": "",
+  "asked": "Are there any questions that you would have liked me to ask that I didn't?",
+  "answer": "No, this was actually, this was amazing. This was super, this was super deep down in the, in the way everything works.",
+  "answeredBy": "Brad Kam",
+  "highlight": false
+ },
+ {
+  "id": "hio/086-ethereum-founder-vitalik-buterin@4690",
+  "slug": "hio/086-ethereum-founder-vitalik-buterin",
+  "question": "ask",
+  "subject": "",
+  "asked": "Vitalik, is there anything that you would have liked me to ask you that I didn't get around to asking you?",
+  "answer": "I can't think of anything.",
+  "answeredBy": "Vitalik Buterin",
+  "highlight": false
+ },
+ {
+  "id": "hio/089-optimism-karl-floersch@3393",
+  "slug": "hio/089-optimism-karl-floersch",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there any question that you wish we would have asked that we didn't",
+  "answer": "i honestly i don't have a question i tried really hard i tried really really hard there. It just didn't come.",
+  "answeredBy": "Karl Floersch",
+  "highlight": true
+ }
+]

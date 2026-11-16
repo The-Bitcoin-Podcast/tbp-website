@@ -8,6 +8,8 @@
     "search:captions": ".venv-tools/bin/python scripts/fetch_captions.py",
     "search:whisper": ".venv-tools/bin/python scripts/transcribe_audio.py",
     "search:index": "node scripts/build-search-index.mjs",
+    "ten-words:candidates": "node scripts/ten-words/find-candidates.mjs",
+    "ten-words:build": "node scripts/ten-words/build.mjs",
     "start": "next start"
   },
   "dependencies": {
