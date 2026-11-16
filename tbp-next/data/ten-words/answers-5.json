@@ -48,7 +48,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "So censorship resistant, zero counterparty risk value.",
-  "answeredBy": "",
+  "answeredBy": "Joe Blau",
   "highlight": false
  },
  {
@@ -58,7 +58,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "Number go up.",
-  "answeredBy": "",
+  "answeredBy": "Johad Ellis",
   "highlight": true
  },
  {
@@ -391,7 +391,7 @@
   "subject": "",
   "asked": "Are there any questions that you would have liked us to ask that we didn't?",
   "answer": "I think I don't think so.",
-  "answeredBy": "",
+  "answeredBy": "Mohammad Mussadiq Jalalzai",
   "highlight": false
  },
  {
@@ -401,7 +401,7 @@
   "subject": "",
   "asked": "Is there anything else you would have liked us to ask",
   "answer": "But I think this journey of how we went from an untrusted internet to kind of like an encrypted internet and now verified internet, it's really representative on a whole lot of levels.",
-  "answeredBy": "",
+  "answeredBy": "Jacek Sieka",
   "highlight": false
  },
  {
@@ -422,7 +422,7 @@
   "subject": "",
   "asked": "is there anything that you wish we would have asked you or you wanted to talk about that we didn't get to?",
   "answer": "I think the only thing that might be interesting for this discussion is sort of why is something like why is this service like Inferior useful or like a new provider useful?",
-  "answeredBy": "",
+  "answeredBy": "Patrick McCorry",
   "highlight": false
  },
  {
@@ -432,7 +432,7 @@
   "subject": "",
   "asked": "Is there anything that you would have liked us to ask that we didn't?",
   "answer": "Maybe how I could get people to help what we're looking for.",
-  "answeredBy": "Patrick",
+  "answeredBy": "Patrick O'Grady",
   "highlight": false
  },
  {
@@ -666,7 +666,7 @@
   "subject": "FHE",
   "asked": "in 10 words of less can you describe fhe",
   "answer": "It's the same as today, but cheaper and faster.",
-  "answeredBy": "",
+  "answeredBy": "Jason Delabay",
   "highlight": false
  },
  {
@@ -676,7 +676,7 @@
   "subject": "FHE",
   "asked": "in 10 words of less can you describe fhe",
   "answer": "So FHE is a way of computing on data while it remains encrypted.",
-  "answeredBy": "",
+  "answeredBy": "Morten Dahl",
   "highlight": false
  },
  {
@@ -696,7 +696,7 @@
   "subject": "DAS",
   "asked": "in 10 words or less, can you describe DAS?",
   "answer": "So DAS is a way of sublinearly checking that something has been published in its entirety.",
-  "answeredBy": "",
+  "answeredBy": "Vitalik Buterin, Dankrad Feist or Dmitriy Ryajov",
   "highlight": false
  },
  {
@@ -727,7 +727,7 @@
   "asked": "is what you do actually hard",
   "answer": "It's all relative. I think it's very interesting.",
   "answerContinued": "I think it's very cool. I think it's relatively hard. But again, it's very relative. I don't know. I enjoy it.",
-  "answeredBy": "",
+  "answeredBy": "Vitalik Buterin, Dankrad Feist or Dmitriy Ryajov",
   "highlight": false
  },
  {
@@ -847,7 +847,7 @@
   "subject": "",
   "asked": "Is what you do actually difficult?",
   "answer": "I would say yes, in terms of there's just this like such a rich design space that even smart people, even smarter people than I like your first instinct is often incorrect.",
-  "answeredBy": "Matty",
+  "answeredBy": "Matty Tokenomics",
   "highlight": false
  },
  {
@@ -858,7 +858,7 @@
   "asked": "is there anything that um you'd hoped that we'd asked you that we didn't",
   "answer": "oh um I guess just like the, you know, I mean, I know we spoke a bit of my origin story, but I guess",
   "answerContinued": "my first kind of moment when Bitcoin kind of clicked to me or like when, you know, when crypto was the, when I first maybe bought my first crypto would perhaps be the question.",
-  "answeredBy": "Matty",
+  "answeredBy": "Matty Tokenomics",
   "highlight": false
  },
  {
@@ -868,7 +868,7 @@
   "subject": "tokenomics",
   "asked": "in 10 words or less, can you describe tokenomics?",
   "answer": "the set of rules to incentivize users towards a goal",
-  "answeredBy": "Matty",
+  "answeredBy": "Matty Tokenomics",
   "highlight": false
  },
  {
@@ -938,7 +938,7 @@
   "subject": "",
   "asked": "Is there anything that you wish we would have asked that we didn't?",
   "answer": "No, I think we covered basically everything.",
-  "answeredBy": "",
+  "answeredBy": "Nathan Sexer",
   "highlight": false
  },
  {
@@ -1093,7 +1093,7 @@
   "subject": "DAO",
   "asked": "in 10 words or less, uh, describe, define Dao.",
   "answer": "Like adding seven bottomup decision- making for communities.",
-  "answeredBy": "Griff",
+  "answeredBy": "Griff Green",
   "highlight": false
  },
  {

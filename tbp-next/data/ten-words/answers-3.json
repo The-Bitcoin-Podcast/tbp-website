@@ -27,7 +27,7 @@
   "subject": "",
   "asked": "what is there something that you wanted to talk about that we didn't get around to asking",
   "answer": "oh the main thing that i wanted to talk about was how bad the plasma naming is and i believe we got into it a bit",
-  "answeredBy": "",
+  "answeredBy": "Georgios Konstantopoulos",
   "highlight": true
  },
  {
@@ -37,7 +37,7 @@
   "subject": "",
   "asked": "is there something that we should have asked you or you hoped we asked you that we didn't get around to?",
   "answer": "No, I mean, personally, I thought this was a great conversation. Wonderful questions. Very, very insightful.",
-  "answeredBy": "",
+  "answeredBy": "Shawn Wilkinson or JT Olio",
   "highlight": false
  },
  {
@@ -48,7 +48,7 @@
   "asked": "is there something that we should have asked you or you hoped we asked you that we didn't get around to?",
   "answer": "I would like to highlight one thing. I really recommend your listeners to go to storage.io, S-T-O-R-J.io,",
   "answerContinued": "and take a look at the white paper, become a storage node operator, and play around with our tools and library",
-  "answeredBy": "",
+  "answeredBy": "Shawn Wilkinson or JT Olio",
   "highlight": false
  },
  {
@@ -121,7 +121,7 @@
   "subject": "",
   "asked": "Are there any questions that we probably should have asked you or you wanted us to ask you that we didn't get around to?",
   "answer": "i'll be honest i don't have any i don't have any i can talk about monero all day",
-  "answeredBy": "Brandon",
+  "answeredBy": "Brandon Goodell",
   "highlight": false
  },
  {
@@ -212,7 +212,7 @@
   "asked": "Are there any questions that you would have liked us to ask you about any of this",
   "answer": "so there are two unicorns that we've been chasing one of them is pruning which peter has spent quite a lot of time",
   "answerContinued": "trying to get to work i mean more permanent pruning than the in-memory improvement pruning that we have now",
-  "answeredBy": "Martin",
+  "answeredBy": "Martin Swende",
   "highlight": false
  },
  {
@@ -273,7 +273,7 @@
   "subject": "",
   "asked": "is there something that you would have liked me to ask you that I didn't?",
   "answer": "Oh, man. I don't know. We went all around the board.",
-  "answeredBy": "Paul",
+  "answeredBy": "Gabriel Anderson",
   "highlight": false
  },
  {
@@ -495,7 +495,7 @@
   "subject": "Bitcoin",
   "asked": "In ten words or less, can you both describe Bitcoin?",
   "answer": "Free market money.",
-  "answeredBy": "Lukas",
+  "answeredBy": "Lucas Ontivero",
   "highlight": false
  },
  {
@@ -525,7 +525,7 @@
   "subject": "",
   "asked": "Are there any questions that you would have liked me to ask that I didn't ask you?",
   "answer": "No, no, no.",
-  "answeredBy": "Henry",
+  "answeredBy": "Henry Bitmod",
   "highlight": false
  },
  {

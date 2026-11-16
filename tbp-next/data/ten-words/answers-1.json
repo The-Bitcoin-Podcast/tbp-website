@@ -47,7 +47,7 @@
   "subject": "Bitcoin",
   "asked": "Can you just write Bitcoin in 10 words or less?",
   "answer": "It's digital money that you and I own and no one else.",
-  "answeredBy": "Paul",
+  "answeredBy": "Paul Puey",
   "highlight": false
  },
  {
@@ -57,7 +57,7 @@
   "subject": "",
   "asked": "Any questions that I should have asked but didn't?",
   "answer": "Only thing is where we're going to be. We're doing a couple of roadshows, or at least I will be.",
-  "answeredBy": "Paul",
+  "answeredBy": "Paul Puey",
   "highlight": false
  },
  {
@@ -67,7 +67,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less, can you describe Bitcoin?",
   "answer": "I would describe Bitcoin as an effective implementation for decentralizing trust in a financial transaction.",
-  "answeredBy": "James",
+  "answeredBy": "James Lloyd",
   "highlight": false
  },
  {
@@ -77,7 +77,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less, can you describe Bitcoin?",
   "answer": "digital magic money or something like that.",
-  "answeredBy": "",
+  "answeredBy": "QuHarrison Terry",
   "highlight": true
  },
  {
@@ -87,7 +87,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less, can you describe Bitcoin?",
   "answer": "changing the world one block at a time",
-  "answeredBy": "Nathan",
+  "answeredBy": "Nathan Wosnack",
   "highlight": false
  },
  {
@@ -97,7 +97,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less, can you describe Bitcoin?",
   "answer": "the penicillin to the old school archaic systems of the world",
-  "answeredBy": "Marina",
+  "answeredBy": "Marina Reznik",
   "highlight": true
  },
  {
@@ -108,7 +108,7 @@
   "asked": "Can you describe Ethereum?",
   "answer": "ethereum is a internet service which provides",
   "answerContinued": "crap that's seven words yeah Trusted code execution",
-  "answeredBy": "Alex",
+  "answeredBy": "Alex Leverington",
   "highlight": false
  },
  {
@@ -118,7 +118,7 @@
   "subject": "Bitcoin",
   "asked": "Can you describe Bitcoin in 10 words or less?",
   "answer": "bitcoin is the is the money of the internet",
-  "answeredBy": "",
+  "answeredBy": "Keni Styles",
   "highlight": false
  },
  {
@@ -128,7 +128,7 @@
   "subject": "blockchain",
   "asked": "can you describe blockchain in 10 words or less?",
   "answer": "blockchain a a a database system that pays you to maintain it.",
-  "answeredBy": "Chris",
+  "answeredBy": "Chris Horlacher",
   "highlight": true
  },
  {
@@ -139,7 +139,7 @@
   "asked": "is there anything that you'd like to plug or say? Or is there a question that we should have asked that we didn't?",
   "answer": "Oh, well, if your audience wants to follow us, we have",
   "answerContinued": "Facebook, Twitter, all the other social media channels.",
-  "answeredBy": "Chris",
+  "answeredBy": "Chris Horlacher",
   "highlight": false
  },
  {
@@ -149,7 +149,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "it's a shared database that no one owns but everyone can participate in",
-  "answeredBy": "Alex",
+  "answeredBy": "Alex Wearn",
   "highlight": false
  },
  {
@@ -159,7 +159,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less. Can you describe Bitcoin?",
   "answer": "Bitcoin is the transfer of assets without intermediation using cryptography and distributed ledgers",
-  "answeredBy": "Steve",
+  "answeredBy": "Stephen McKeon",
   "highlight": false
  },
  {
@@ -231,7 +231,7 @@
   "asked": "In 10 words or less, can you describe blockchain?",
   "answer": "a decentralized trustless system",
   "answerContinued": "for transacting with one another",
-  "answeredBy": "Preethi",
+  "answeredBy": "Preethi Kasireddy",
   "highlight": false
  },
  {
@@ -251,7 +251,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "broadly distributed ledger publicly auditable you know infinitely scalable transformational",
-  "answeredBy": "Amit",
+  "answeredBy": "Amit Rathore",
   "highlight": false
  },
  {
@@ -272,7 +272,7 @@
   "subject": "blockchain",
   "asked": "10 words or less can you describe the blockchain",
   "answer": "it's a technology that's gonna basically disrupt the the world and basically what's gonna remain there after all this hype is over",
-  "answeredBy": "Fran",
+  "answeredBy": "Fran Villalba Segarra",
   "highlight": false
  },
  {
@@ -282,7 +282,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "A decentralized peer-to-peer electronic financial system without borders or central control.",
-  "answeredBy": "Edmund",
+  "answeredBy": "Edmund John Lowell",
   "highlight": false
  },
  {
@@ -313,7 +313,7 @@
   "subject": "blockchain",
   "asked": "10 words or less, can you describe blockchain?",
   "answer": "a permissionless canvas to build new solutions that don't need to worry about borders and traditional infrastructure",
-  "answeredBy": "Bassey",
+  "answeredBy": "Steve Bassi",
   "highlight": false
  },
  {
@@ -334,7 +334,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "blockchain is the biggest middle dash man eliminator on planet earth",
-  "answeredBy": "",
+  "answeredBy": "Trevor Koverko",
   "highlight": true
  },
  {
@@ -364,7 +364,7 @@
   "subject": "blockchain",
   "asked": "In 10 words or less, can you describe blockchain?",
   "answer": "Global computer clock. Asynchronous ledger. Immutable state.",
-  "answeredBy": "",
+  "answeredBy": "Hunter Prendergast or Forrest Marshall",
   "highlight": true
  },
  {
@@ -375,7 +375,7 @@
   "asked": "In 10 words or less, can you describe blockchain?",
   "answer": "distributed decentralized updated access controlled history book of",
   "answerContinued": "state change",
-  "answeredBy": "",
+  "answeredBy": "Hunter Prendergast or Forrest Marshall",
   "highlight": false
  },
  {
@@ -385,7 +385,7 @@
   "subject": "ARK",
   "asked": "in 10 words or less, can you describe ARK?",
   "answer": "ARK is a bridged blockchain system to connect other chains so that they may communicate with each other.",
-  "answeredBy": "Mike",
+  "answeredBy": "Mike Doty",
   "highlight": false
  },
  {
@@ -395,7 +395,7 @@
   "subject": "Bitcoin",
   "asked": "Can you describe Bitcoin in 10 words or less?",
   "answer": "bitcoin is a digital currency that can solve many of the problems of society and also benefit you as an investment vehicle as well",
-  "answeredBy": "",
+  "answeredBy": "Jack Tatar",
   "highlight": false
  },
  {
@@ -406,7 +406,7 @@
   "asked": "10 words or less. Can you describe Bitcoin?",
   "answer": "Bitcoin is probably the best innovation",
   "answerContinued": "that I've seen in my lifetime.",
-  "answeredBy": "Stephen",
+  "answeredBy": "Stephen Pair",
   "highlight": false
  },
  {
@@ -427,7 +427,7 @@
   "subject": "Bitcoin",
   "asked": "Can you explain Bitcoin in 10 words or less?",
   "answer": "Bitcoin is an alternate to cash.",
-  "answeredBy": "",
+  "answeredBy": "Elias Player",
   "highlight": false
  },
  {
@@ -438,7 +438,7 @@
   "asked": "in 10 words or less can you explain blockchain?",
   "answer": "It's a way to",
   "answerContinued": "ensure to achieve trust in transactions between people which is not relying on the central authority.",
-  "answeredBy": "Dimitri",
+  "answeredBy": "Dmitry Buterin",
   "highlight": false
  },
  {
@@ -448,7 +448,7 @@
   "subject": "",
   "asked": "is there any questions that we should have asked you that we didn't",
   "answer": "Well, feedback. Feedback. We are really looking for feedback and ideas because a lot of people told us stuff during the competition,",
-  "answeredBy": "Roman",
+  "answeredBy": "Roman Mandeleil",
   "highlight": false
  },
  {
@@ -459,7 +459,7 @@
   "asked": "can you explain blockchain in 10 words or less",
   "answer": "I will say it's a complete freedom of controlling your value",
   "answerContinued": "or your asset.",
-  "answeredBy": "Roman",
+  "answeredBy": "Roman Mandeleil",
   "highlight": false
  },
  {
@@ -469,7 +469,7 @@
   "subject": "Bitcoin",
   "asked": "can you describe Bitcoin in 10 words or less?",
   "answer": "Bitcoin is the safest way to pay for sex.",
-  "answeredBy": "Chris",
+  "answeredBy": "Chris Omenihu",
   "highlight": true
  },
  {
@@ -479,7 +479,7 @@
   "subject": "blockchain",
   "asked": "Can you explain blockchain in 10 words or less?",
   "answer": "It's decentralization technology that is a general purpose technology for the world.",
-  "answeredBy": "Bruce",
+  "answeredBy": "Bruce Pon",
   "highlight": false
  },
  {
@@ -510,7 +510,7 @@
   "subject": "Bitcoin",
   "asked": "can you explain bitcoin in 10 words or less",
   "answer": "I'd say for most of the participants in the market, Bitcoin today, as I see it, is digital gold.",
-  "answeredBy": "",
+  "answeredBy": "Alena Vranova",
   "highlight": false
  },
  {
@@ -530,7 +530,7 @@
   "subject": "Ethereum",
   "asked": "can you explain Ethereum in 10 words or less?",
   "answer": "a technology that allows for hyperintegration of other technologies",
-  "answeredBy": "",
+  "answeredBy": "Mel Gelderman",
   "highlight": false
  },
  {
@@ -630,7 +630,7 @@
   "subject": "blockchain",
   "asked": "can you explain blockchain in 10 words or less?",
   "answer": "it's a decentralized trust protocol that enables you to cryptographically secure information and it's also mutable so that information cannot be changed",
-  "answeredBy": "",
+  "answeredBy": "Daren Seymour",
   "highlight": false
  },
  {
@@ -681,7 +681,7 @@
   "subject": "",
   "asked": "is there some question that I should have asked you that I didn't?",
   "answer": "i i don't know i don't i can't i can't think of anything i guess wait you could ask when i'm writing my tell-all book about blockchain people",
-  "answeredBy": "Margo",
+  "answeredBy": "Margaux Avedisian",
   "highlight": true
  },
  {
@@ -691,7 +691,7 @@
   "subject": "blockchain",
   "asked": "In 10 words or less, can you describe the blockchain?",
   "answer": "the blockchain so it's a ledger that is immutable and has no central authority",
-  "answeredBy": "Margo",
+  "answeredBy": "Margaux Avedisian",
   "highlight": false
  },
  {
@@ -711,7 +711,7 @@
   "subject": "blockchain",
   "asked": "Can you explain blockchain in 10 words for less?",
   "answer": "a blockchain is a way for people for human beings to transact without trusting each other personally",
-  "answeredBy": "Marcin",
+  "answeredBy": "Marcin Rudolf",
   "highlight": false
  },
  {
@@ -731,7 +731,7 @@
   "subject": "blockchain",
   "asked": "Can you explain blockchain in 10 words for less?",
   "answer": "magic internet money",
-  "answeredBy": "",
+  "answeredBy": "Moritz",
   "highlight": false
  },
  {
@@ -762,7 +762,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe the blockchain?",
   "answer": "to me, the blockchain is a peer-to-peer database that can be utilized for transactional data, but more and more so finding ways to even store document-type data.",
-  "answeredBy": "",
+  "answeredBy": "David Carlson",
   "highlight": false
  },
  {
@@ -773,7 +773,7 @@
   "asked": "in 10 words or less, could you explain the blockchain?",
   "answer": "It's actually very simple from the principles that you have just a ledger",
   "answerContinued": "where you mark all your transactions.",
-  "answeredBy": "",
+  "answeredBy": "Mikko Linnamäki",
   "highlight": false
  },
  {
@@ -794,7 +794,7 @@
   "subject": "Bitcoin, cryptocurrency and blockchain",
   "asked": "in 10 words or less you describe",
   "answer": "I think Bitcoin, cryptocurrency, and blockchain are just the future and the most exciting technologies of our entire generation.",
-  "answeredBy": "Alex",
+  "answeredBy": "Alex Sunnarborg",
   "highlight": true
  },
  {
@@ -894,7 +894,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less can you describe Bitcoin",
   "answer": "digital gold",
-  "answeredBy": "",
+  "answeredBy": "Samson Mow",
   "highlight": false
  },
  {
@@ -904,7 +904,7 @@
   "subject": "",
   "asked": "Is there anything that we should have asked you That we didn't ask?",
   "answer": "Well you could ask me What's the next debate",
-  "answeredBy": "",
+  "answeredBy": "Samson Mow",
   "highlight": false
  },
  {
@@ -935,7 +935,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less, can you describe Bitcoin?",
   "answer": "it's it's the future of currency in our present time",
-  "answeredBy": "Stefan",
+  "answeredBy": "Stephan Bonnar",
   "highlight": false
  },
  {
@@ -955,7 +955,7 @@
   "subject": "Bitcoin",
   "asked": "Describe Bitcoin in 10 words or less.",
   "answer": "i just say it's unstoppable money man",
-  "answeredBy": "",
+  "answeredBy": "Brian Hoffman",
   "highlight": false
  },
  {
@@ -965,7 +965,7 @@
   "subject": "Bitcoin",
   "asked": "in 10 words or less, can you describe Bitcoin?",
   "answer": "Bitcoin is a currency that has the power to bridge the digital divide.",
-  "answeredBy": "",
+  "answeredBy": "Fereshteh",
   "highlight": false
  },
  {
@@ -985,7 +985,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "blockchain is a way of synchronizing all the computers in the world so that when you do something, everybody that needs to know does know, and there's no fraud.",
-  "answeredBy": "",
+  "answeredBy": "Vinay Gupta",
   "highlight": false
  },
  {
@@ -1037,7 +1037,7 @@
   "asked": "in 10 words or less, can you describe Bitcoin?",
   "answer": "Bitcoin is the new paradigm that will",
   "answerContinued": "change the world.",
-  "answeredBy": "",
+  "answeredBy": "DJsNeverEndingStory",
   "highlight": false
  },
  {
@@ -1047,7 +1047,7 @@
   "subject": "",
   "asked": "Is there anything you feel like I should ask you that I haven't asked you?",
   "answer": "No, I really appreciate it. I appreciate, you know, obviously folks like you that are leading the charge.",
-  "answeredBy": "Adam",
+  "answeredBy": "Adam Nestler",
   "highlight": false
  },
  {
@@ -1057,7 +1057,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "it's an immutable ledger based upon um the application of hashing um in a distributed environment distributed server environment",
-  "answeredBy": "",
+  "answeredBy": "Charlie Silver or Robin Bloor",
   "highlight": false
  },
  {
@@ -1067,7 +1067,7 @@
   "subject": "blockchain",
   "asked": "in 10 words or less, can you describe blockchain?",
   "answer": "A decentralized ledger where all data is immutable and blocks.",
-  "answeredBy": "Charlie",
+  "answeredBy": "Charlie Silver",
   "highlight": false
  },
  {
@@ -1077,7 +1077,7 @@
   "subject": "blockchain",
   "asked": "Can you describe blockchain?",
   "answer": "Blockchain is a shared database of value, legal status, and state.",
-  "answeredBy": "",
+  "answeredBy": "Scott Nelson",
   "highlight": false
  },
  {
@@ -1097,7 +1097,7 @@
   "subject": "",
   "asked": "any questions that we didn't get to ask that you wish we did?",
   "answer": "So I think I kind of mentioned about our, you know, next steps on the exchange side. So this is really kind of the beginning of a broader project.",
-  "answeredBy": "",
+  "answeredBy": "Alex Wearn",
   "highlight": false
  }
 ]
