@@ -6,6 +6,7 @@ import Link from "next/link";
 const navLinks = [
   { label: "Search clips", href: "/search" },
   { label: "Episodes", href: "/episodes" },
+  { label: "In Ten Words", href: "/in-ten-words" },
   { label: "Guests", href: "/people" },
   { label: "Reports", href: "/reports" },
   { label: "Newsletter", href: "/news" },
@@ -31,7 +32,7 @@ export function SiteHeader() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-muted transition-colors hover:text-foreground"
+              className="whitespace-nowrap text-muted transition-colors hover:text-foreground"
             >
               {link.label}
             </Link>

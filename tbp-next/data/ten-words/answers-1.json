@@ -1,0 +1,1103 @@
+[
+ {
+  "id": "tbp/089-tbp92-myceliated@2512",
+  "slug": "tbp/089-tbp92-myceliated",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "I would say financial freedom",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/089-tbp92-myceliated@2512",
+  "slug": "tbp/089-tbp92-myceliated",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "it's just decentralized secure",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/090-tbp93-cryptographic-verification@4057",
+  "slug": "tbp/090-tbp93-cryptographic-verification",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is a new way of doing money.",
+  "answeredBy": "Gavin Andresen",
+  "highlight": false
+ },
+ {
+  "id": "tbp/090-tbp93-cryptographic-verification@4057",
+  "slug": "tbp/090-tbp93-cryptographic-verification",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there any questions that I should have asked you that I didn't?",
+  "answer": "I don't know.",
+  "answerContinued": "it's been fun talking to you guys.",
+  "answeredBy": "Gavin Andresen",
+  "highlight": false
+ },
+ {
+  "id": "tbp/092-tbp95-the-jobs-act@3910",
+  "slug": "tbp/092-tbp95-the-jobs-act",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you just write Bitcoin in 10 words or less?",
+  "answer": "It's digital money that you and I own and no one else.",
+  "answeredBy": "Paul",
+  "highlight": false
+ },
+ {
+  "id": "tbp/092-tbp95-the-jobs-act@3910",
+  "slug": "tbp/092-tbp95-the-jobs-act",
+  "question": "ask",
+  "subject": "",
+  "asked": "Any questions that I should have asked but didn't?",
+  "answer": "Only thing is where we're going to be. We're doing a couple of roadshows, or at least I will be.",
+  "answeredBy": "Paul",
+  "highlight": false
+ },
+ {
+  "id": "tbp/095-tbp97-hype-or-hope@3106",
+  "slug": "tbp/095-tbp97-hype-or-hope",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "I would describe Bitcoin as an effective implementation for decentralizing trust in a financial transaction.",
+  "answeredBy": "James",
+  "highlight": false
+ },
+ {
+  "id": "tbp/095-tbp97-hype-or-hope@3106",
+  "slug": "tbp/095-tbp97-hype-or-hope",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "digital magic money or something like that.",
+  "answeredBy": "",
+  "highlight": true
+ },
+ {
+  "id": "tbp/096-tbp98-ubitquity-part-duex@2995",
+  "slug": "tbp/096-tbp98-ubitquity-part-duex",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "changing the world one block at a time",
+  "answeredBy": "Nathan",
+  "highlight": false
+ },
+ {
+  "id": "tbp/096-tbp98-ubitquity-part-duex@2995",
+  "slug": "tbp/096-tbp98-ubitquity-part-duex",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "the penicillin to the old school archaic systems of the world",
+  "answeredBy": "Marina",
+  "highlight": true
+ },
+ {
+  "id": "tbp/098-tbp99-blockchain-supercomputer@4676",
+  "slug": "tbp/098-tbp99-blockchain-supercomputer",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "Can you describe Ethereum?",
+  "answer": "ethereum is a internet service which provides",
+  "answerContinued": "crap that's seven words yeah Trusted code execution",
+  "answeredBy": "Alex",
+  "highlight": false
+ },
+ {
+  "id": "tbp/099-tbp100-thai-gone-wild@3888",
+  "slug": "tbp/099-tbp100-thai-gone-wild",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you describe Bitcoin in 10 words or less?",
+  "answer": "bitcoin is the is the money of the internet",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/100-tbp101-worlds-first-supernode-infrastructure@3034",
+  "slug": "tbp/100-tbp101-worlds-first-supernode-infrastructure",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "can you describe blockchain in 10 words or less?",
+  "answer": "blockchain a a a database system that pays you to maintain it.",
+  "answeredBy": "Chris",
+  "highlight": true
+ },
+ {
+  "id": "tbp/100-tbp101-worlds-first-supernode-infrastructure@3034",
+  "slug": "tbp/100-tbp101-worlds-first-supernode-infrastructure",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything that you'd like to plug or say? Or is there a question that we should have asked that we didn't?",
+  "answer": "Oh, well, if your audience wants to follow us, we have",
+  "answerContinued": "Facebook, Twitter, all the other social media channels.",
+  "answeredBy": "Chris",
+  "highlight": false
+ },
+ {
+  "id": "tbp/246-tbp164-the-benefits-of-familiarity@4149",
+  "slug": "tbp/246-tbp164-the-benefits-of-familiarity",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "it's a shared database that no one owns but everyone can participate in",
+  "answeredBy": "Alex",
+  "highlight": false
+ },
+ {
+  "id": "tbp/248-tbp165-praise-for-cryptoassets@2169",
+  "slug": "tbp/248-tbp165-praise-for-cryptoassets",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less. Can you describe Bitcoin?",
+  "answer": "Bitcoin is the transfer of assets without intermediation using cryptography and distributed ledgers",
+  "answeredBy": "Steve",
+  "highlight": false
+ },
+ {
+  "id": "tbp/250-tbp166-atms-and-icos@3421",
+  "slug": "tbp/250-tbp166-atms-and-icos",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "if the government is in your way use blockchain",
+  "answeredBy": "",
+  "highlight": true
+ },
+ {
+  "id": "tbp/253-tbp167-the-broader-economy-iii@4880",
+  "slug": "tbp/253-tbp167-the-broader-economy-iii",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "Bitcoin is a decentralized platform of trust that can be used as a currency and payment network and yet so much more",
+  "answeredBy": "Andreas Antonopoulos",
+  "highlight": false
+ },
+ {
+  "id": "tbp/256-tbp168-passion-pain-unicorn-slayin@2920",
+  "slug": "tbp/256-tbp168-passion-pain-unicorn-slayin",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you describe Bitcoin?",
+  "answer": "Bitcoin is a decentralized payment and exchange network.",
+  "answeredBy": "Arianna Simpson",
+  "highlight": false
+ },
+ {
+  "id": "tbp/260-tbp170-a-new-kind-of-legal@3662",
+  "slug": "tbp/260-tbp170-a-new-kind-of-legal",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "A distributed ledger on acid.",
+  "answeredBy": "Amy Wan",
+  "highlight": true
+ },
+ {
+  "id": "tbp/264-tbp171-the-future-of-giving@3570",
+  "slug": "tbp/264-tbp171-the-future-of-giving",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in uh 10 words or less can you Describe Bitcoin.",
+  "answer": "Bitcoin is a safe, stable, decentralized store of value.",
+  "answeredBy": "Griff Green",
+  "highlight": false
+ },
+ {
+  "id": "tbp/264-tbp171-the-future-of-giving@3570",
+  "slug": "tbp/264-tbp171-the-future-of-giving",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "10 words or less describe blockchain",
+  "answer": "the future of money digital assets governance identity",
+  "answerContinued": "and trust mitigation",
+  "answeredBy": "Griff Green",
+  "highlight": false
+ },
+ {
+  "id": "tbp/268-tbp172-life-after-silicon-valley@3879",
+  "slug": "tbp/268-tbp172-life-after-silicon-valley",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "a decentralized trustless system",
+  "answerContinued": "for transacting with one another",
+  "answeredBy": "Preethi",
+  "highlight": false
+ },
+ {
+  "id": "tbp/270-tbp173-surprising-insights@4744",
+  "slug": "tbp/270-tbp173-surprising-insights",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "Blockchain is a tidal wave that is going to hit every single industry.",
+  "answeredBy": "Noah",
+  "highlight": false
+ },
+ {
+  "id": "tbp/273-tbp174-determining-the-reliability-of-sources@3851",
+  "slug": "tbp/273-tbp174-determining-the-reliability-of-sources",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "broadly distributed ledger publicly auditable you know infinitely scalable transformational",
+  "answeredBy": "Amit",
+  "highlight": false
+ },
+ {
+  "id": "tbp/278-tbp176-even-more-marketing-discipline@3944",
+  "slug": "tbp/278-tbp176-even-more-marketing-discipline",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "what is blockchain in 10 words or less",
+  "answer": "blockchain enables asset tokenization with –",
+  "answerContinued": "God, this is hard. with universal trust to unleash innovation.",
+  "answeredBy": "Jeremy Epstein",
+  "highlight": false
+ },
+ {
+  "id": "tbp/280-tbp177-internet-of-a-new-generation@2935",
+  "slug": "tbp/280-tbp177-internet-of-a-new-generation",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "10 words or less can you describe the blockchain",
+  "answer": "it's a technology that's gonna basically disrupt the the world and basically what's gonna remain there after all this hype is over",
+  "answeredBy": "Fran",
+  "highlight": false
+ },
+ {
+  "id": "tbp/282-tbp178-paving-the-road-to-self-sovereign-identity@4142",
+  "slug": "tbp/282-tbp178-paving-the-road-to-self-sovereign-identity",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "A decentralized peer-to-peer electronic financial system without borders or central control.",
+  "answeredBy": "Edmund",
+  "highlight": false
+ },
+ {
+  "id": "an-ethereum-podcast/episode-11@2286",
+  "slug": "an-ethereum-podcast/episode-11",
+  "question": "ask",
+  "subject": "",
+  "asked": "Anything else that you feel like I failed to ask you or would like to talk about?",
+  "answer": "I would just add something about ArgonOS and how developers can build whatever they want with ArgonOS and plug it with other governance systems, just in case there's some developer hearing this.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/288-tbp179-innovations-and-healthcare@4281",
+  "slug": "tbp/288-tbp179-innovations-and-healthcare",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "I try to explain to everyone that blockchain is a distributed ledger that is replicated across different stakeholders",
+  "answerContinued": "in a manner that we can all have concurrency and agreement on events that have occurred or did not occur without having to talk to each other.",
+  "answeredBy": "Pradeep",
+  "highlight": false
+ },
+ {
+  "id": "tbp/292-tbp181-disrupting-the-antivirus-market@2773",
+  "slug": "tbp/292-tbp181-disrupting-the-antivirus-market",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "10 words or less, can you describe blockchain?",
+  "answer": "a permissionless canvas to build new solutions that don't need to worry about borders and traditional infrastructure",
+  "answeredBy": "Bassey",
+  "highlight": false
+ },
+ {
+  "id": "tbp/297-tbp182-facilitating-positive-change@3340",
+  "slug": "tbp/297-tbp182-facilitating-positive-change",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe the blockchain?",
+  "answer": "It's a certain layer in which you can trust",
+  "answerContinued": "because the transactions are mathematically sealed and crypto incentives are in a way that happens.",
+  "answeredBy": "Luis Coende",
+  "highlight": false
+ },
+ {
+  "id": "tbp/302-tbp183-stampeding-with-the-big-blue-bull@2972",
+  "slug": "tbp/302-tbp183-stampeding-with-the-big-blue-bull",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "blockchain is the biggest middle dash man eliminator on planet earth",
+  "answeredBy": "",
+  "highlight": true
+ },
+ {
+  "id": "tbp/304-tbp184-mycrypto-and-the-current-state-of-the@4682",
+  "slug": "tbp/304-tbp184-mycrypto-and-the-current-state-of-the",
+  "question": "ask",
+  "subject": "",
+  "asked": "Jameson, is there anything that we didn't ask you that you'd like to say or that we should have?",
+  "answer": "No, I mean, my main thing about this space is that it is this ultimate freedom that we're all trying to strive for.",
+  "answeredBy": "Jameson Lopp",
+  "highlight": false
+ },
+ {
+  "id": "tbp/304-tbp184-mycrypto-and-the-current-state-of-the@4682",
+  "slug": "tbp/304-tbp184-mycrypto-and-the-current-state-of-the",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "a trustworthy system of record no one controls",
+  "answeredBy": "Jameson Lopp",
+  "highlight": true
+ },
+ {
+  "id": "tbp/306-tbp185-blockchain-solutions-boosie-badazz@2073",
+  "slug": "tbp/306-tbp185-blockchain-solutions-boosie-badazz",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "Global computer clock. Asynchronous ledger. Immutable state.",
+  "answeredBy": "",
+  "highlight": true
+ },
+ {
+  "id": "tbp/306-tbp185-blockchain-solutions-boosie-badazz@2073",
+  "slug": "tbp/306-tbp185-blockchain-solutions-boosie-badazz",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "distributed decentralized updated access controlled history book of",
+  "answerContinued": "state change",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/101-tbp102-building-bridges-initiative@3722",
+  "slug": "tbp/101-tbp102-building-bridges-initiative",
+  "question": "ten",
+  "subject": "ARK",
+  "asked": "in 10 words or less, can you describe ARK?",
+  "answer": "ARK is a bridged blockchain system to connect other chains so that they may communicate with each other.",
+  "answeredBy": "Mike",
+  "highlight": false
+ },
+ {
+  "id": "tbp/103-tbp103-a-jack-of-all-trades@3239",
+  "slug": "tbp/103-tbp103-a-jack-of-all-trades",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you describe Bitcoin in 10 words or less?",
+  "answer": "bitcoin is a digital currency that can solve many of the problems of society and also benefit you as an investment vehicle as well",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/104-tbp104-currency-to-a-wider-public@3523",
+  "slug": "tbp/104-tbp104-currency-to-a-wider-public",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "10 words or less. Can you describe Bitcoin?",
+  "answer": "Bitcoin is probably the best innovation",
+  "answerContinued": "that I've seen in my lifetime.",
+  "answeredBy": "Stephen",
+  "highlight": false
+ },
+ {
+  "id": "tbp/105-tbp105-music-industry-20@3756",
+  "slug": "tbp/105-tbp105-music-industry-20",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "can you explain blockchain in 10 words or less?",
+  "answer": "blockchain allows trustless transactions between individuals on a global micro scale like if we take if we take micro scale to be a hyphenated word then that was",
+  "answerContinued": "10 words exactly.",
+  "answeredBy": "Jesse Grushack",
+  "highlight": true
+ },
+ {
+  "id": "tbp/107-tbp106-a-very-bitcoin-christmas@5182",
+  "slug": "tbp/107-tbp106-a-very-bitcoin-christmas",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you explain Bitcoin in 10 words or less?",
+  "answer": "Bitcoin is an alternate to cash.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/108-tbp107-like-father-like-son@3191",
+  "slug": "tbp/108-tbp107-like-father-like-son",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you explain blockchain?",
+  "answer": "It's a way to",
+  "answerContinued": "ensure to achieve trust in transactions between people which is not relying on the central authority.",
+  "answeredBy": "Dimitri",
+  "highlight": false
+ },
+ {
+  "id": "tbp/111-tbp108-ether-camp@1942",
+  "slug": "tbp/111-tbp108-ether-camp",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there any questions that we should have asked you that we didn't",
+  "answer": "Well, feedback. Feedback. We are really looking for feedback and ideas because a lot of people told us stuff during the competition,",
+  "answeredBy": "Roman",
+  "highlight": false
+ },
+ {
+  "id": "tbp/111-tbp108-ether-camp@2174",
+  "slug": "tbp/111-tbp108-ether-camp",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "can you explain blockchain in 10 words or less",
+  "answer": "I will say it's a complete freedom of controlling your value",
+  "answerContinued": "or your asset.",
+  "answeredBy": "Roman",
+  "highlight": false
+ },
+ {
+  "id": "tbp/112-tbp109-the-human-influence@4495",
+  "slug": "tbp/112-tbp109-the-human-influence",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you describe Bitcoin in 10 words or less?",
+  "answer": "Bitcoin is the safest way to pay for sex.",
+  "answeredBy": "Chris",
+  "highlight": true
+ },
+ {
+  "id": "tbp/115-tbp110-the-technological-revolution@3394",
+  "slug": "tbp/115-tbp110-the-technological-revolution",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you explain blockchain in 10 words or less?",
+  "answer": "It's decentralization technology that is a general purpose technology for the world.",
+  "answeredBy": "Bruce",
+  "highlight": false
+ },
+ {
+  "id": "tbp/119-tbp112-the-broader-economy-ii@5170",
+  "slug": "tbp/119-tbp112-the-broader-economy-ii",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Andreas, could you explain blockchain in ten words or less?",
+  "answer": "Blockchain is a marketing term invented by those who fear the disruption that true decentralized technology will bring...",
+  "answerContinued": "and want to use a placebo in its place that lacks all of the interesting features of decentralized technology, and that's blockchain. It's just a different word for database.",
+  "answeredBy": "Andreas Antonopoulos",
+  "highlight": true
+ },
+ {
+  "id": "tbp/123-tbp113-innovators-lab@2757",
+  "slug": "tbp/123-tbp113-innovators-lab",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there any question that I should have asked but didn't?",
+  "answer": "I guess we have a wonderful weekly newsletter at ConsenSys.",
+  "answeredBy": "Amanda Gutterman",
+  "highlight": false
+ },
+ {
+  "id": "tbp/125-tbp114-life-after-trezor@3277",
+  "slug": "tbp/125-tbp114-life-after-trezor",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you explain bitcoin in 10 words or less",
+  "answer": "I'd say for most of the participants in the market, Bitcoin today, as I see it, is digital gold.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/131-tbp116-building-the-iron-man-suit@3989",
+  "slug": "tbp/131-tbp116-building-the-iron-man-suit",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you explain Bitcoin in 10 words or less?",
+  "answer": "Oh, internet money.",
+  "answeredBy": "Adam Draper",
+  "highlight": false
+ },
+ {
+  "id": "tbp/132-tbp117-venturing-into-the-web3@3739",
+  "slug": "tbp/132-tbp117-venturing-into-the-web3",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "can you explain Ethereum in 10 words or less?",
+  "answer": "a technology that allows for hyperintegration of other technologies",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/137-tbp119-shorting-the-bull-rally-ii@2369",
+  "slug": "tbp/137-tbp119-shorting-the-bull-rally-ii",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "can you explain blockchain in 10 words or less?",
+  "answer": "Yeah, distributed, decentralized distributed ledger.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/139-tbp120-the-token-protocol@3960",
+  "slug": "tbp/139-tbp120-the-token-protocol",
+  "question": "ask",
+  "subject": "",
+  "asked": "anything else that i that i should have asked you that i didn't get around to doing",
+  "answer": "i think we we covered a lot of the foundational parts um you know to us we just want people to know that we're very very serious uh with our ambition here um",
+  "answeredBy": "Mike Wagner",
+  "highlight": false
+ },
+ {
+  "id": "tbp/139-tbp120-the-token-protocol@3960",
+  "slug": "tbp/139-tbp120-the-token-protocol",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you explain blockchain in 10 words or less?",
+  "answer": "Blockchain is a decentralized method of transferring value between people.",
+  "answeredBy": "Mike Wagner",
+  "highlight": false
+ },
+ {
+  "id": "tbp/143-tbp123-asicboost-catch-22@3206",
+  "slug": "tbp/143-tbp123-asicboost-catch-22",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you describe blockchain in 10 words or less?",
+  "answer": "Distributed database with consensus about the information, about the accurate information therein.",
+  "answeredBy": "Jeremy Epstein",
+  "highlight": false
+ },
+ {
+  "id": "tbp/146-tbp124-affording-the-high-risk@3785",
+  "slug": "tbp/146-tbp124-affording-the-high-risk",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you describe Bitcoin in 10 words or less?",
+  "answer": "it's a way of basically resurrection of value and trading on a customer level.",
+  "answeredBy": "Cynthia Gates",
+  "highlight": false
+ },
+ {
+  "id": "tbp/151-tbp126-litecoins-segwit-activation@3491",
+  "slug": "tbp/151-tbp126-litecoins-segwit-activation",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything else that we should have asked you that you'd like to tell our audience that we didn't?",
+  "answer": "not that i can think of",
+  "answeredBy": "Charlie Lee",
+  "highlight": false
+ },
+ {
+  "id": "tbp/151-tbp126-litecoins-segwit-activation@3491",
+  "slug": "tbp/151-tbp126-litecoins-segwit-activation",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "what is bitcoin in 10 words or less",
+  "answer": "bitcoin is a electronic currency that is not backed by government",
+  "answeredBy": "Charlie Lee",
+  "highlight": false
+ },
+ {
+  "id": "tbp/155-tbp129-the-inherent-risks@3739",
+  "slug": "tbp/155-tbp129-the-inherent-risks",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there anything else that I should have asked that I didn't ask that you'd like to kind of put out there?",
+  "answer": "Nothing springs me deeply to mind, no.",
+  "answeredBy": "Nick Johnson",
+  "highlight": false
+ },
+ {
+  "id": "tbp/155-tbp129-the-inherent-risks@3739",
+  "slug": "tbp/155-tbp129-the-inherent-risks",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "can you describe Ethereum in 10 words or less?",
+  "answer": "Distributed blockchain platform for building trustless applications.",
+  "answeredBy": "Nick Johnson",
+  "highlight": false
+ },
+ {
+  "id": "tbp/159-tbp130-consensus-recap-and-sphre@2777",
+  "slug": "tbp/159-tbp130-consensus-recap-and-sphre",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "can you explain blockchain in 10 words or less?",
+  "answer": "it's a decentralized trust protocol that enables you to cryptographically secure information and it's also mutable so that information cannot be changed",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/162-tbp131-ending-corporate-dominance@3581",
+  "slug": "tbp/162-tbp131-ending-corporate-dominance",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you explain blockchain in 10 words or less?",
+  "answer": "technology that enables computers to work together without electing leaders",
+  "answeredBy": "Muneeb Ali",
+  "highlight": true
+ },
+ {
+  "id": "tbp/163-tbp132-dark-side-of-the-prism@1903",
+  "slug": "tbp/163-tbp132-dark-side-of-the-prism",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there something that I should have asked you that I didn't get around to that you'd like to tell our listeners?",
+  "answer": "I think a really important point of Prism is not just that it's kind of a cool new product, but that it's arguably the first commercial product, the first commercial financial product",
+  "answerContinued": "built on Ethereum smart contracts that's actually live.",
+  "answeredBy": "Erik Voorhees",
+  "highlight": false
+ },
+ {
+  "id": "tbp/163-tbp132-dark-side-of-the-prism@1903",
+  "slug": "tbp/163-tbp132-dark-side-of-the-prism",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you explain blockchain?",
+  "answer": "a blockchain is a ledger which is shared among computers",
+  "answeredBy": "Erik Voorhees",
+  "highlight": false
+ },
+ {
+  "id": "tbp/165-tbp133-ico-woes-with-myetherwallet@3817",
+  "slug": "tbp/165-tbp133-ico-woes-with-myetherwallet",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "can you explain blockchain in 10 words or less",
+  "answer": "the blockchain is a chain of blocks that lets you do stuff",
+  "answeredBy": "Taylor",
+  "highlight": true
+ },
+ {
+  "id": "tbp/171-tbp135-yanking-our-blockchain@3426",
+  "slug": "tbp/171-tbp135-yanking-our-blockchain",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there some question that I should have asked you that I didn't?",
+  "answer": "i i don't know i don't i can't i can't think of anything i guess wait you could ask when i'm writing my tell-all book about blockchain people",
+  "answeredBy": "Margo",
+  "highlight": true
+ },
+ {
+  "id": "tbp/171-tbp135-yanking-our-blockchain@3426",
+  "slug": "tbp/171-tbp135-yanking-our-blockchain",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe the blockchain?",
+  "answer": "the blockchain so it's a ledger that is immutable and has no central authority",
+  "answeredBy": "Margo",
+  "highlight": false
+ },
+ {
+  "id": "tbp/174-tbp136-a-new-type-of-ownership@3104",
+  "slug": "tbp/174-tbp136-a-new-type-of-ownership",
+  "question": "ask",
+  "subject": "",
+  "asked": "What else is there that we didn't quite get to ask you about that you wanted to tell us about?",
+  "answer": "Well, I think one thing that Marcin mentioned kind of in flying over it, which is interesting to explore, is what we did with our ESOP or our employee stock option program or plan, which we tokenized.",
+  "answeredBy": "Moritz",
+  "highlight": false
+ },
+ {
+  "id": "tbp/174-tbp136-a-new-type-of-ownership@3421",
+  "slug": "tbp/174-tbp136-a-new-type-of-ownership",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you explain blockchain in 10 words for less?",
+  "answer": "a blockchain is a way for people for human beings to transact without trusting each other personally",
+  "answeredBy": "Marcin",
+  "highlight": false
+ },
+ {
+  "id": "tbp/174-tbp136-a-new-type-of-ownership@3421",
+  "slug": "tbp/174-tbp136-a-new-type-of-ownership",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you explain blockchain in 10 words for less?",
+  "answer": "it's a techno god that uh gives its tribes new ways to succeed",
+  "answeredBy": "Moritz",
+  "highlight": true
+ },
+ {
+  "id": "tbp/174-tbp136-a-new-type-of-ownership@3421",
+  "slug": "tbp/174-tbp136-a-new-type-of-ownership",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you explain blockchain in 10 words for less?",
+  "answer": "magic internet money",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/177-tbp137-countdown-to-segwit@4777",
+  "slug": "tbp/177-tbp137-countdown-to-segwit",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Jonathan, are you able to explain the blockchain in 10 words or less?",
+  "answer": "the way that I describe a blockchain is essentially a database that's distributed",
+  "answerContinued": "among more than a single node and has a consensus mechanism for updating it.",
+  "answeredBy": "Jonathan Chester",
+  "highlight": false
+ },
+ {
+  "id": "tbp/177-tbp137-countdown-to-segwit@4777",
+  "slug": "tbp/177-tbp137-countdown-to-segwit",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you explain Bitcoin in 10 words or less?",
+  "answer": "I would describe it as the easiest to use and the easiest to store. The easiest commodity to use and store that the world's ever seen.",
+  "answeredBy": "Jonathan Chester",
+  "highlight": false
+ },
+ {
+  "id": "tbp/181-tbp138-the-21st-century-49ers@3648",
+  "slug": "tbp/181-tbp138-the-21st-century-49ers",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe the blockchain?",
+  "answer": "to me, the blockchain is a peer-to-peer database that can be utilized for transactional data, but more and more so finding ways to even store document-type data.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/186-tbp140-5g-vs-4g-and-the-future-of-mobile-networks@2759",
+  "slug": "tbp/186-tbp140-5g-vs-4g-and-the-future-of-mobile-networks",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, could you explain the blockchain?",
+  "answer": "It's actually very simple from the principles that you have just a ledger",
+  "answerContinued": "where you mark all your transactions.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/189-tbp141-the-cmo-primer-for-the-blockchain-world@2289",
+  "slug": "tbp/189-tbp141-the-cmo-primer-for-the-blockchain-world",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain once again?",
+  "answer": "i usually say that it's um imagine everyone has a copy of a",
+  "answerContinued": "google sheet and it's not controlled in one central place it's all uh you know um on on your computer and therefore maintaining the integrity of the data is extremely um uh um it's easier to do it's less costly or it's more cost effective and you use this pretty cool like proof of work",
+  "answeredBy": "Jeremy Epstein",
+  "highlight": false
+ },
+ {
+  "id": "tbp/190-tbp142-the-need-for-more-information@3551",
+  "slug": "tbp/190-tbp142-the-need-for-more-information",
+  "question": "ten",
+  "subject": "Bitcoin, cryptocurrency and blockchain",
+  "asked": "in 10 words or less you describe",
+  "answer": "I think Bitcoin, cryptocurrency, and blockchain are just the future and the most exciting technologies of our entire generation.",
+  "answeredBy": "Alex",
+  "highlight": true
+ },
+ {
+  "id": "tbp/192-tbp143-damned-if-you-do-bored-if-you-dont@3815",
+  "slug": "tbp/192-tbp143-damned-if-you-do-bored-if-you-dont",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "Bitcoin is a decentralized and sensible means of free speech",
+  "answeredBy": "Rodolfo Novak",
+  "highlight": false
+ },
+ {
+  "id": "tbp/194-tbp144-tomorrows-electricity-today@2937",
+  "slug": "tbp/194-tbp144-tomorrows-electricity-today",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there anything that we haven't asked you that you would like to inform our audience or anything that's important?",
+  "answer": "No, I think you've covered most of those things.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/194-tbp144-tomorrows-electricity-today@3162",
+  "slug": "tbp/194-tbp144-tomorrows-electricity-today",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "in my view the blockchain it's basically a database so of course it operates differently but essentially it's it's a database you just remove all the deletes and update commands",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/194-tbp144-tomorrows-electricity-today@3162",
+  "slug": "tbp/194-tbp144-tomorrows-electricity-today",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "I think it's the ultimate platform for human transactions.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/197-tbp145-hopes-and-fears-for-filecoin@3594",
+  "slug": "tbp/197-tbp145-hopes-and-fears-for-filecoin",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there something that we didn't get to that you'd like to kind of cover or bring up?",
+  "answer": "No, I think it was a great discussion.",
+  "answeredBy": "Stefano",
+  "highlight": false
+ },
+ {
+  "id": "tbp/197-tbp145-hopes-and-fears-for-filecoin@3594",
+  "slug": "tbp/197-tbp145-hopes-and-fears-for-filecoin",
+  "question": "ask",
+  "subject": "",
+  "asked": "Richard, you got something for us?",
+  "answer": "Yeah, I think I'd leave by saying I am most impressed by the teams who have the restraint to ask for a sensible sum of capital in a manic bubble.",
+  "answeredBy": "Richard",
+  "highlight": false
+ },
+ {
+  "id": "tbp/198-tbp146-the-rise-and-rise-of-charlie-shrem@4835",
+  "slug": "tbp/198-tbp146-the-rise-and-rise-of-charlie-shrem",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, Charlie, can you describe Bitcoin?",
+  "answer": "Bitcoin is a digital payment system, and it's also the unit of value that's being sent across the system. It has become wonderfully a store of value at the same time.",
+  "answeredBy": "Charlie Shrem",
+  "highlight": false
+ },
+ {
+  "id": "tbp/200-tbp147-history-of-security@3387",
+  "slug": "tbp/200-tbp147-history-of-security",
+  "question": "ask",
+  "subject": "",
+  "asked": "is there any other question that we should have asked you that we didn't get around to",
+  "answer": "I don't know if you want to talk about August 1st doomsday but I just want to say that we look at blockchain as if you were to ask",
+  "answeredBy": "Moosh Akimian",
+  "highlight": false
+ },
+ {
+  "id": "tbp/200-tbp147-history-of-security@3576",
+  "slug": "tbp/200-tbp147-history-of-security",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "It's a virtual money where you trust the community to verify that it is real, the owner owns it, and they can spend it only once.",
+  "answeredBy": "Moosh Akimian",
+  "highlight": false
+ },
+ {
+  "id": "tbp/203-tbp148-controversial-persona@4103",
+  "slug": "tbp/203-tbp148-controversial-persona",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "digital gold",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/203-tbp148-controversial-persona@4103",
+  "slug": "tbp/203-tbp148-controversial-persona",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there anything that we should have asked you That we didn't ask?",
+  "answer": "Well you could ask me What's the next debate",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/206-tbp149-the-rivetz-security-project@3742",
+  "slug": "tbp/206-tbp149-the-rivetz-security-project",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "Blockchain is the ability for the internet to store a fact.",
+  "answeredBy": "Stephen Sprague",
+  "highlight": true
+ },
+ {
+  "id": "tbp/206-tbp149-the-rivetz-security-project@3742",
+  "slug": "tbp/206-tbp149-the-rivetz-security-project",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there something that I didn't get a chance to ask you that you'd like to kind of talk about or discuss?",
+  "answer": "No, I think we covered the topic really broadly.",
+  "answerContinued": "I think the ICO space is an incredible opportunity for a new business model for how software and services are built by a community and not just built by a single company.",
+  "answeredBy": "Stephen Sprague",
+  "highlight": false
+ },
+ {
+  "id": "tbp/213-tbp151-crypto-boom-boom-room@2800",
+  "slug": "tbp/213-tbp151-crypto-boom-boom-room",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "it's it's the future of currency in our present time",
+  "answeredBy": "Stefan",
+  "highlight": false
+ },
+ {
+  "id": "tbp/215-tbp152-pally-on-the-block@3471",
+  "slug": "tbp/215-tbp152-pally-on-the-block",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "Decentralized ledger technology that increases transparency in a peer-to-peer type way.",
+  "answeredBy": "Oliver Anderson",
+  "highlight": false
+ },
+ {
+  "id": "tbp/218-tbp153-bitcoin-sell-out@4780",
+  "slug": "tbp/218-tbp153-bitcoin-sell-out",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Describe Bitcoin in 10 words or less.",
+  "answer": "i just say it's unstoppable money man",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/221-tbp154-bitcoin-for-the-bottom-billion-pt-2@2295",
+  "slug": "tbp/221-tbp154-bitcoin-for-the-bottom-billion-pt-2",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is a currency that has the power to bridge the digital divide.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/222-tbp155-crypto-swan-song@2816",
+  "slug": "tbp/222-tbp155-crypto-swan-song",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Sound money.",
+  "answeredBy": "Jimmy Song",
+  "highlight": true
+ },
+ {
+  "id": "tbp/226-tbp156-combined-forces-for-better-results@3881",
+  "slug": "tbp/226-tbp156-combined-forces-for-better-results",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "blockchain is a way of synchronizing all the computers in the world so that when you do something, everybody that needs to know does know, and there's no fraud.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/227-tbp157-modern-day-gold-rush-pt-ii@3532",
+  "slug": "tbp/227-tbp157-modern-day-gold-rush-pt-ii",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "The best damn thing that's ever happened to our generation.",
+  "answeredBy": "Joshua Agala",
+  "highlight": false
+ },
+ {
+  "id": "tbp/231-tbp158-the-credit-protocol@3711",
+  "slug": "tbp/231-tbp158-the-credit-protocol",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "something along the lines of trustless",
+  "answerContinued": "forever storage.",
+  "answeredBy": "Jared",
+  "highlight": false
+ },
+ {
+  "id": "tbp/231-tbp158-the-credit-protocol@3711",
+  "slug": "tbp/231-tbp158-the-credit-protocol",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain",
+  "answer": "Fucking amazing database money money money money money money.",
+  "answeredBy": "Tim",
+  "highlight": true
+ },
+ {
+  "id": "tbp/234-tbp159-diary-of-a-made-man@4063",
+  "slug": "tbp/234-tbp159-diary-of-a-made-man",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "Blockchain is a network without a middleman. Simple as that.",
+  "answeredBy": "Ian Balina",
+  "highlight": false
+ },
+ {
+  "id": "tbp/236-tbp160-bitcoin-beats@3737",
+  "slug": "tbp/236-tbp160-bitcoin-beats",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is the new paradigm that will",
+  "answerContinued": "change the world.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "an-ethereum-podcast/episode-5@2166",
+  "slug": "an-ethereum-podcast/episode-5",
+  "question": "ask",
+  "subject": "",
+  "asked": "Is there anything you feel like I should ask you that I haven't asked you?",
+  "answer": "No, I really appreciate it. I appreciate, you know, obviously folks like you that are leading the charge.",
+  "answeredBy": "Adam",
+  "highlight": false
+ },
+ {
+  "id": "tbp/241-tbp161-a-foundation-for-the-data-economy@4286",
+  "slug": "tbp/241-tbp161-a-foundation-for-the-data-economy",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "it's an immutable ledger based upon um the application of hashing um in a distributed environment distributed server environment",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/241-tbp161-a-foundation-for-the-data-economy@4286",
+  "slug": "tbp/241-tbp161-a-foundation-for-the-data-economy",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "A decentralized ledger where all data is immutable and blocks.",
+  "answeredBy": "Charlie",
+  "highlight": false
+ },
+ {
+  "id": "tbp/242-tbp162-sweet-talk@4893",
+  "slug": "tbp/242-tbp162-sweet-talk",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "Can you describe blockchain?",
+  "answer": "Blockchain is a shared database of value, legal status, and state.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/245-tbp163-savings-and-savior@2518",
+  "slug": "tbp/245-tbp163-savings-and-savior",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "can you describe blockchain?",
+  "answer": "Encrypted data information that's open source and available.",
+  "answeredBy": "Luke Forrestman",
+  "highlight": false
+ },
+ {
+  "id": "tbp/246-tbp164-the-benefits-of-familiarity@3937",
+  "slug": "tbp/246-tbp164-the-benefits-of-familiarity",
+  "question": "ask",
+  "subject": "",
+  "asked": "any questions that we didn't get to ask that you wish we did?",
+  "answer": "So I think I kind of mentioned about our, you know, next steps on the exchange side. So this is really kind of the beginning of a broader project.",
+  "answeredBy": "",
+  "highlight": false
+ }
+]

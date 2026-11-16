@@ -1,0 +1,893 @@
+[
+ {
+  "id": "tbp/s01/002-holding-up-the-sky@1515",
+  "slug": "tbp/s01/002-holding-up-the-sky",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "if you could describe Bitcoin in 10 words or less, what would be that description?",
+  "answer": "Well, it would be a decentralized digital currency. And what I mean by that is digital cash for the internet.",
+  "answeredBy": "Zawanda",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/003-bridging-the-gender-gap@1610",
+  "slug": "tbp/s01/003-bridging-the-gender-gap",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Sarah, lastly, very simple, in 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin",
+  "answerContinued": "is email for money.",
+  "answeredBy": "Sarah",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/004-change-jar-20@1740",
+  "slug": "tbp/s01/004-change-jar-20",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less define Bitcoin",
+  "answer": "a digital borderless free fast money alternative",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/005-the-worlds-strongest@1654",
+  "slug": "tbp/s01/005-the-worlds-strongest",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "could you describe Bitcoin in 10 words or less",
+  "answer": "people finally hold their own digital value",
+  "answeredBy": "Paul",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/006-aboard-the-pequod@3115",
+  "slug": "tbp/s01/006-aboard-the-pequod",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, what is your best description of Bitcoin, Gil?",
+  "answer": "Money that can free the world, I guess.",
+  "answeredBy": "Gil",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/007-under-the-iron-veil@2118",
+  "slug": "tbp/s01/007-under-the-iron-veil",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, could you describe Bitcoin?",
+  "answer": "Yeah, Bitcoin is a currency and a payment system.",
+  "answeredBy": "Eric Voorhees",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/008-the-curious-case-of-remittance@1943",
+  "slug": "tbp/s01/008-the-curious-case-of-remittance",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, could you describe Bitcoin?",
+  "answer": "I call it the email for money. And for me personally, the definition for Bitcoins is a little bit more grander.",
+  "answerContinued": "It's the Internet of Trust.",
+  "answeredBy": "Sandeep Goenka",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/011-the-end-of-money@2100",
+  "slug": "tbp/s01/011-the-end-of-money",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "What about a peer-to-peer system to exchange values without friction?",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/012-boring-economics@2378",
+  "slug": "tbp/s01/012-boring-economics",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less could you describe bitcoin for our listeners",
+  "answer": "it's a a value transfer system Or magical internet money.",
+  "answeredBy": "Perianne Boring",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/013-interview-scott-rose@2041",
+  "slug": "tbp/s01/013-interview-scott-rose",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or words or less how would I describe Bitcoin",
+  "answer": "bitcoin is independent money",
+  "answeredBy": "Scott Rose",
+  "highlight": false
+ },
+ {
+  "id": "tbp/066-tbp68-deconstructing-thedao-attack@3066",
+  "slug": "tbp/066-tbp68-deconstructing-thedao-attack",
+  "question": "ten",
+  "subject": "cryptocurrencies",
+  "asked": "In 10 words or less, can you describe cryptocurrencies?",
+  "answer": "It's just some things are hard to reduce. So it's very hard to be pithy and to sort of summarize my excitement about the ability to automate those things that you really can automate.",
+  "answeredBy": "Dr. Gunsare",
+  "highlight": true
+ },
+ {
+  "id": "tbp/069-tbp71-bitcoin-wealth-alliance@3733",
+  "slug": "tbp/069-tbp71-bitcoin-wealth-alliance",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you describe Bitcoin?",
+  "answer": "Borderless money that gives you access to a global economy.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/070-tbp72-the-broader-economy@3270",
+  "slug": "tbp/070-tbp72-the-broader-economy",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Andreas, in ten words or less, can you describe Bitcoin?",
+  "answer": "the internet of money",
+  "answeredBy": "Andreas Antonopoulos",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/069-the-ubitquity-platform@3348",
+  "slug": "tbp/s01/069-the-ubitquity-platform",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "bitcoins a peer-to-peer revolution of money",
+  "answeredBy": "Marina Resnick",
+  "highlight": false
+ },
+ {
+  "id": "tbp/071-tbp73-navigating-the-new-marketplace@3488",
+  "slug": "tbp/071-tbp73-navigating-the-new-marketplace",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Ten words or less, can you explain Bitcoin?",
+  "answer": "Bitcoin is a decentralized virtual currency that's going to change everything.",
+  "answeredBy": "Andrew Lee",
+  "highlight": false
+ },
+ {
+  "id": "tbp/072-tbp74-cryptocurrency-fellowship@3341",
+  "slug": "tbp/072-tbp74-cryptocurrency-fellowship",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "In 10 words or less, can you describe",
+  "answer": "It's a distributed peer-to-peer global computer.",
+  "answeredBy": "Joey Krug",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/074-cryptocurrency-fellowship@3339",
+  "slug": "tbp/s01/074-cryptocurrency-fellowship",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe a theorem",
+  "answer": "it's a distributed peer-to-peer global computer",
+  "answeredBy": "Joey Krug",
+  "highlight": false
+ },
+ {
+  "id": "tbp/073-tbp75-attention-economy@3681",
+  "slug": "tbp/073-tbp75-attention-economy",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "It's a great educational experiment in decentralized digital currency.",
+  "answeredBy": "Greg",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/075-attention-economy@3693",
+  "slug": "tbp/s01/075-attention-economy",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "it's a great educational exper experiment in in decentralized digital currency",
+  "answeredBy": "Greg",
+  "highlight": false
+ },
+ {
+  "id": "tbp/074-tbp76-skynet@2106",
+  "slug": "tbp/074-tbp76-skynet",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe Ethereum",
+  "answer": "A framework or a platform for building an algorithmic world.",
+  "answeredBy": "Mackie",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/076-skynet@2094",
+  "slug": "tbp/s01/076-skynet",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you describe etherium",
+  "answer": "a framework or a platform for building an algorithmic world",
+  "answeredBy": "Mackie",
+  "highlight": false
+ },
+ {
+  "id": "tbp/075-tbp77-collective-governance@3230",
+  "slug": "tbp/075-tbp77-collective-governance",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "It's basically digital gold that you can send over the internet.",
+  "answeredBy": "Greg",
+  "highlight": false
+ },
+ {
+  "id": "tbp/077-tbp80-a-means-to-an-end@4836",
+  "slug": "tbp/077-tbp80-a-means-to-an-end",
+  "question": "ten",
+  "subject": "Lisk",
+  "asked": "can you explain Lisk in 10 words or less?",
+  "answer": "LISC will finally make the world more decentralized.",
+  "answeredBy": "Max",
+  "highlight": false
+ },
+ {
+  "id": "tbp/078-tbp81-redefining-trust@2867",
+  "slug": "tbp/078-tbp81-redefining-trust",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "I would say it's an inspiring human trial to advance the future.",
+  "answeredBy": "Mariana Dahan",
+  "highlight": false
+ },
+ {
+  "id": "tbp/079-tbp82-unifying-blockchain-tech@2632",
+  "slug": "tbp/079-tbp82-unifying-blockchain-tech",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "In 10 words or less, can you describe Ethereum?",
+  "answer": "It's a platform for building decentralized applications.",
+  "answeredBy": "Anthony DiOrio",
+  "highlight": false
+ },
+ {
+  "id": "tbp/080-tbp83-lightning-network-deep-dive@3370",
+  "slug": "tbp/080-tbp83-lightning-network-deep-dive",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In ten words or less, can you describe Bitcoin?",
+  "answer": "I guess it's kind of like global decentralized e-cash and very",
+  "answerContinued": "empowering technology that can allow people to gain full sovereignty of their financial situation",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/081-tbp84-arcade-city-glorification@2938",
+  "slug": "tbp/081-tbp84-arcade-city-glorification",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Ten words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is magic internet money brought to you by secret ninjas.",
+  "answeredBy": "Chris David",
+  "highlight": true
+ },
+ {
+  "id": "tbp/082-tbp85-crossing-the-chasm@3150",
+  "slug": "tbp/082-tbp85-crossing-the-chasm",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is a peer-to-peer money transfer system, purely peer-to-peer.",
+  "answeredBy": "Matej Michalko",
+  "highlight": false
+ },
+ {
+  "id": "tbp/083-tbp86-exploring-macroeconomics@3214",
+  "slug": "tbp/083-tbp86-exploring-macroeconomics",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "In 10 words or less, can you describe blockchain?",
+  "answer": "I would say a magical database in the cloud.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/084-tbp87-the-world-is-yours@4389",
+  "slug": "tbp/084-tbp87-the-world-is-yours",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "I would say it's internet money.",
+  "answeredBy": "Ryan X. Charles",
+  "highlight": false
+ },
+ {
+  "id": "tbp/085-tbp88-bitcoin-bike-shed@2684",
+  "slug": "tbp/085-tbp88-bitcoin-bike-shed",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "it's like digital cash you know",
+  "answeredBy": "JJ",
+  "highlight": false
+ },
+ {
+  "id": "tbp/086-tbp89-the-iot-frontier@2547",
+  "slug": "tbp/086-tbp89-the-iot-frontier",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less, can you describe blockchain?",
+  "answer": "I think I would just say like just an evolution of all the systems that we currently have.",
+  "answeredBy": "Connor",
+  "highlight": false
+ },
+ {
+  "id": "tbp/087-tbp90-silicon-valley-in-a-box@3776",
+  "slug": "tbp/087-tbp90-silicon-valley-in-a-box",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "If you can describe Bitcoin in 10 words or less.",
+  "answer": "for me Bitcoin is the world's first transparent financial opportunity that's indiscriminate to whoever uses it",
+  "answeredBy": "Scott",
+  "highlight": false
+ },
+ {
+  "id": "tbp/088-tbp91-exosphere-academy-ii@3410",
+  "slug": "tbp/088-tbp91-exosphere-academy-ii",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain?",
+  "answer": "an interesting frontier in technology that could use some adulthood",
+  "answeredBy": "Moritz",
+  "highlight": false
+ },
+ {
+  "id": "tbp/088-tbp91-exosphere-academy-ii@3410",
+  "slug": "tbp/088-tbp91-exosphere-academy-ii",
+  "question": "ten",
+  "subject": "blockchain",
+  "asked": "in 10 words or less can you describe blockchain?",
+  "answer": "another layer of bureaucracy computer science",
+  "answeredBy": "Shlomi",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/013-the-greatest-truths@2161",
+  "slug": "tbp/s01/013-the-greatest-truths",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, how would I describe Bitcoin?",
+  "answer": "Bitcoin is independent money.",
+  "answeredBy": "Scott Rose",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/014-sex-and-the-single-bitcoin@1551",
+  "slug": "tbp/s01/014-sex-and-the-single-bitcoin",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, could you describe Bitcoin?",
+  "answer": "Bitcoin is the future of money. And currency. And smart contracts. And lots of that.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/015-ants-marching@2048",
+  "slug": "tbp/s01/015-ants-marching",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, could you describe Bitcoin?",
+  "answer": "I think that Bitcoin is like the revolution of money and the revolution of finance.",
+  "answeredBy": "Jonathan",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/015-ants-marching@3277",
+  "slug": "tbp/s01/015-ants-marching",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you explain Bitcoin in 10 words or less?",
+  "answer": "new payment network new digital assets free and open to everyone",
+  "answeredBy": "Keri Scott",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/016-the-dual-revolution@1759",
+  "slug": "tbp/s01/016-the-dual-revolution",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, describe Bitcoin?",
+  "answer": "For me, Bitcoin is private money. And I think it's money.",
+  "answeredBy": "Christian Solcia",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/017-oiling-the-squeaky-wheel@2239",
+  "slug": "tbp/s01/017-oiling-the-squeaky-wheel",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less could you describe Bitcoin",
+  "answer": "Bitcoin is money without the central",
+  "answerContinued": "bank involved. It's peer-to-peer.",
+  "answeredBy": "Mark Burgender",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/018-from-cradle-to-grave@1913",
+  "slug": "tbp/s01/018-from-cradle-to-grave",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "digital money that takes advantage of the power of mathematics to trade safely and efficiently.",
+  "answeredBy": "Judd Bagley",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/019-branding-the-disruptive@1897",
+  "slug": "tbp/s01/019-branding-the-disruptive",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you describe Bitcoin in 10 words or less?",
+  "answer": "The exchange of currency in a decentralized, under a decentralized system.",
+  "answeredBy": "Erica Pierce",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/020-bottoms-up-2@2240",
+  "slug": "tbp/s01/020-bottoms-up-2",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less describe Bitcoin",
+  "answer": "electronic people electronic money for the people",
+  "answeredBy": "Mark",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/020-bottoms-up-2@2240",
+  "slug": "tbp/s01/020-bottoms-up-2",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less describe Bitcoin",
+  "answer": "It's money that will free your mind.",
+  "answeredBy": "Marcello",
+  "highlight": true
+ },
+ {
+  "id": "tbp/s01/021-call-for-papers@2668",
+  "slug": "tbp/s01/021-call-for-papers",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you describe bitcoin for us in 10 words or less",
+  "answer": "the world's first digital decentralized currency",
+  "answeredBy": "Chris",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/022-vote-with-your-feet@2064",
+  "slug": "tbp/s01/022-vote-with-your-feet",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Mr. Pierce, in 10 words or less, could you describe Bitcoin?",
+  "answer": "We're democratizing the global financial system in a way where everyone has equal access.",
+  "answeredBy": "Pierce",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/023-its-a-mad-mad-mad-mad-bitcoin-world@2183",
+  "slug": "tbp/s01/023-its-a-mad-mad-mad-mad-bitcoin-world",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less could you describe Bitcoin",
+  "answer": "Bitcoin is a new kind of money",
+  "answerContinued": "where people don't lose money from inflation",
+  "answeredBy": "Mad Bitcoins",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/025-the-199-incentive@2076",
+  "slug": "tbp/s01/025-the-199-incentive",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you explain Bitcoin?",
+  "answer": "Bitcoin is the toll used to put stuff on the world's first completely immutable distributed ledger",
+  "answeredBy": "Melanie Shapiro",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/025-tbp26-change-jar-30@3300",
+  "slug": "tbp/s01/025-tbp26-change-jar-30",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Describe Bitcoin in 10 words or less.",
+  "answer": "I would say that in simplest terms, Bitcoin is just cash for the internet.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/s01/027-london-calling@1989",
+  "slug": "tbp/s01/027-london-calling",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you describe Bitcoin in 10 words or less?",
+  "answer": "Bitcoin is easy, futuristic, and fun.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/027-tbp28-modern-day-gold-rush@1868",
+  "slug": "tbp/027-tbp28-modern-day-gold-rush",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, describe Bitcoin.",
+  "answer": "Bitcoin is the most evolutionary thing of our lifetime.",
+  "answerContinued": "A true separation of money and state and a peaceful exit.",
+  "answeredBy": "Josh",
+  "highlight": false
+ },
+ {
+  "id": "tbp/028-tbp29-take-the-power-back@2841",
+  "slug": "tbp/028-tbp29-take-the-power-back",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "can you explain Bitcoin in 10 words or less?",
+  "answer": "Bitcoin is digital cash free of central authority.",
+  "answeredBy": "Philip",
+  "highlight": false
+ },
+ {
+  "id": "tbp/030-tbp31-off-the-transparency-chain@2517",
+  "slug": "tbp/030-tbp31-off-the-transparency-chain",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "Bitcoin is freedom",
+  "answeredBy": "Jesse",
+  "highlight": true
+ },
+ {
+  "id": "tbp/031-tbp32-the-marketing-blueprint@2959",
+  "slug": "tbp/031-tbp32-the-marketing-blueprint",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "the internet controlled by people",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/032-tbp33-canadian-bitcoin-scenario@2929",
+  "slug": "tbp/032-tbp33-canadian-bitcoin-scenario",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less describe bitcoin",
+  "answer": "bitcoin is the liberation of mankind from financial toil",
+  "answeredBy": "Chris Horlacher",
+  "highlight": true
+ },
+ {
+  "id": "tbp/033-tbp34-20000-lines-under-the-code@2988",
+  "slug": "tbp/033-tbp34-20000-lines-under-the-code",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "Bitcoin is permissionless internet money",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/034-tbp35-disruption-or-disconnect@1864",
+  "slug": "tbp/034-tbp35-disruption-or-disconnect",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you describe Bitcoin in ten words or less?",
+  "answer": "one to one",
+  "answerContinued": "simple fair payment",
+  "answeredBy": "Imogen Heap",
+  "highlight": false
+ },
+ {
+  "id": "tbp/035-tbp36-bakesales-for-bombers@2230",
+  "slug": "tbp/035-tbp36-bakesales-for-bombers",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is a payment system that facilitates the transfer of digital currency.",
+  "answeredBy": "MK",
+  "highlight": false
+ },
+ {
+  "id": "tbp/036-tbp37-bitcoining-with-the-basedgod@3071",
+  "slug": "tbp/036-tbp37-bitcoining-with-the-basedgod",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "it's the streets man it's the hood",
+  "answeredBy": "Lil B",
+  "highlight": true
+ },
+ {
+  "id": "tbp/037-tbp38-assumption-of-trust@2926",
+  "slug": "tbp/037-tbp38-assumption-of-trust",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "it's the first private money you know that you can hold and you don't have to ask anyone for permission",
+  "answeredBy": "Elena",
+  "highlight": false
+ },
+ {
+  "id": "tbp/038-tbp39-running-the-gamut@2731",
+  "slug": "tbp/038-tbp39-running-the-gamut",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "bitcoin is a network that allows people to transfer value.",
+  "answeredBy": "Justin Newton",
+  "highlight": false
+ },
+ {
+  "id": "tbp/039-tbp40-a-conservative-trillion@2574",
+  "slug": "tbp/039-tbp40-a-conservative-trillion",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "I would say it's gold without the shortcomings and without the gold.",
+  "answeredBy": "Noel Lovisa",
+  "highlight": true
+ },
+ {
+  "id": "tbp/040-tbp41-making-inroads-with-merchants@3166",
+  "slug": "tbp/040-tbp41-making-inroads-with-merchants",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is an incredibly cool way to store value.",
+  "answeredBy": "Michael",
+  "highlight": false
+ },
+ {
+  "id": "tbp/041-tbp42-true-micropayments@3547",
+  "slug": "tbp/041-tbp42-true-micropayments",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Magic internet money.",
+  "answeredBy": "Bennett",
+  "highlight": true
+ },
+ {
+  "id": "tbp/042-tbp43-the-mystery-of-capital@3157",
+  "slug": "tbp/042-tbp43-the-mystery-of-capital",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "Bitcoin is the foundation of a decentralized financial system.",
+  "answeredBy": "Matt",
+  "highlight": false
+ },
+ {
+  "id": "tbp/042-tbp43-the-mystery-of-capital@3157",
+  "slug": "tbp/042-tbp43-the-mystery-of-capital",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in nine words or less christian can you describe bitcoin",
+  "answer": "Bitcoin is money by the people for the people.",
+  "answeredBy": "Christian",
+  "highlight": false
+ },
+ {
+  "id": "tbp/043-tbp44-who-is-bitcoin-girl@2618",
+  "slug": "tbp/043-tbp44-who-is-bitcoin-girl",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you naomi describe bitcoin",
+  "answer": "bitcoin is money for the internet",
+  "answeredBy": "Naomi Brockwell",
+  "highlight": false
+ },
+ {
+  "id": "tbp/044-tbp45-bitcoin-evangelism@1623",
+  "slug": "tbp/044-tbp45-bitcoin-evangelism",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is money that's beyond the control of anyone.",
+  "answeredBy": "Roger Ver",
+  "highlight": false
+ },
+ {
+  "id": "tbp/045-tbp46-the-fundamental-conflict@3405",
+  "slug": "tbp/045-tbp46-the-fundamental-conflict",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "the first thing that comes to mind was power.",
+  "answeredBy": "Emin Gun Sirer",
+  "highlight": false
+ },
+ {
+  "id": "tbp/047-tbp48-inertia-my-friend@3016",
+  "slug": "tbp/047-tbp48-inertia-my-friend",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin?",
+  "answer": "Bitcoin is the best",
+  "answerContinued": "proof of concept that the decentralized nature of the blockchain works.",
+  "answeredBy": "Aldo",
+  "highlight": false
+ },
+ {
+  "id": "tbp/048-tbp49-welterweight-gold@3388",
+  "slug": "tbp/048-tbp49-welterweight-gold",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Freedom through decentralization.",
+  "answeredBy": "John Fitch",
+  "highlight": false
+ },
+ {
+  "id": "tbp/049-tbp50-not-giving-a-good-got-damn@3776",
+  "slug": "tbp/049-tbp50-not-giving-a-good-got-damn",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "Altruism. Decentralization.",
+  "answerContinued": "Freedom. peer-to-peer choices.",
+  "answeredBy": "Lil Buterin",
+  "highlight": true
+ },
+ {
+  "id": "tbp/050-tbp51-such-wow@2736",
+  "slug": "tbp/050-tbp51-such-wow",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "decentralized digital currency not controlled by a government.",
+  "answeredBy": "Laura Lopez",
+  "highlight": false
+ },
+ {
+  "id": "tbp/051-tbp52-potential-of-the-sdk@3043",
+  "slug": "tbp/051-tbp52-potential-of-the-sdk",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "Can you describe Bitcoin in 10 words or less?",
+  "answer": "the description I always give people is digital cash.",
+  "answeredBy": "Tim",
+  "highlight": false
+ },
+ {
+  "id": "tbp/052-tbp53-tough-math@3916",
+  "slug": "tbp/052-tbp53-tough-math",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "Decentralized consensus, period.",
+  "answeredBy": "D'Angelo",
+  "highlight": false
+ },
+ {
+  "id": "tbp/054-tbp55-the-cryptocurrency-20-project@4056",
+  "slug": "tbp/054-tbp55-the-cryptocurrency-20-project",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less, can you describe Ethereum?",
+  "answer": "Ethereum is a decentralized application platform that everybody can trust because everybody has their own local copy of it.",
+  "answeredBy": "Joseph Lubin",
+  "highlight": false
+ },
+ {
+  "id": "tbp/055-tbp56-exploring-european-fintech@3438",
+  "slug": "tbp/055-tbp56-exploring-european-fintech",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe Bitcoin",
+  "answer": "pretty damn awesome",
+  "answeredBy": "Philip Martinka",
+  "highlight": true
+ },
+ {
+  "id": "tbp/056-tbp57-future-of-a-shared-economy@1511",
+  "slug": "tbp/056-tbp57-future-of-a-shared-economy",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "in 10 words or less can you explain Ethereum",
+  "answer": "computer we all have access to but only pay for what we use.",
+  "answeredBy": "Stephan Tual",
+  "highlight": false
+ },
+ {
+  "id": "tbp/057-tbp58-the-art-of-the-deal@4170",
+  "slug": "tbp/057-tbp58-the-art-of-the-deal",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "A value transfer internet protocol.",
+  "answeredBy": "Trace Mayer",
+  "highlight": false
+ },
+ {
+  "id": "tbp/058-tbp59-incredible-india@2676",
+  "slug": "tbp/058-tbp59-incredible-india",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "In 10 words, it will be",
+  "answerContinued": "peer-to-peer, transparent, decentralized, financial independence.",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/059-tbp60-release-the-kraken@3979",
+  "slug": "tbp/059-tbp60-release-the-kraken",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "a uh decentralized peer-to-peer digital currency",
+  "answeredBy": "Jesse Powell",
+  "highlight": false
+ },
+ {
+  "id": "tbp/060-tbp61-escaping-war-zones@3001",
+  "slug": "tbp/060-tbp61-escaping-war-zones",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "In 10 words or less, can you describe Bitcoin?",
+  "answer": "I always say it's three things it's the network blockchain",
+  "answerContinued": "that is a means to exchange assets or exchange value",
+  "answeredBy": "Frank Chih",
+  "highlight": false
+ },
+ {
+  "id": "tbp/061-tbp62-still-holding-up-the-sky@3156",
+  "slug": "tbp/061-tbp62-still-holding-up-the-sky",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "Bitcoin is a form of money which kind of works like magic because it's better than the money we've been using all these years.",
+  "answeredBy": "Tawanda Kimbo",
+  "highlight": false
+ },
+ {
+  "id": "tbp/063-tbp64-shorting-the-bull-rally@2529",
+  "slug": "tbp/063-tbp64-shorting-the-bull-rally",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less can you describe bitcoin",
+  "answer": "it's magic internet money",
+  "answeredBy": "",
+  "highlight": false
+ },
+ {
+  "id": "tbp/064-tbp65-exosphere-academy@3329",
+  "slug": "tbp/064-tbp65-exosphere-academy",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "In 10 words or less, can you describe Ethereum?",
+  "answer": "I was going to go for smartphone for blockchain, maybe?",
+  "answeredBy": "Philip Saunders",
+  "highlight": false
+ },
+ {
+  "id": "tbp/064-tbp65-exosphere-academy@3329",
+  "slug": "tbp/064-tbp65-exosphere-academy",
+  "question": "ten",
+  "subject": "Ethereum",
+  "asked": "In 10 words or less, can you describe Ethereum?",
+  "answer": "the next frontier for how society organizes itself",
+  "answeredBy": "Moritz",
+  "highlight": false
+ },
+ {
+  "id": "tbp/065-tbp67-follow-the-leadtuur@3524",
+  "slug": "tbp/065-tbp67-follow-the-leadtuur",
+  "question": "ten",
+  "subject": "Bitcoin",
+  "asked": "in 10 words or less, can you describe Bitcoin?",
+  "answer": "bitcoin is money for the internet",
+  "answeredBy": "",
+  "highlight": false
+ }
+]
