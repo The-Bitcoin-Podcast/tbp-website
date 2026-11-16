@@ -14,7 +14,7 @@ import { AudioPlayer } from "@/components/episode/AudioPlayer";
 import { GuestList } from "@/components/episode/GuestList";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { EpisodeArchive } from "@/components/archive/EpisodeArchive";
-import { buildEpisodeIndex } from "@/lib/episode-index";
+import { buildEpisodeIndex, buildShowSummaries } from "@/lib/episode-index";
 
 export const dynamicParams = false;
 
@@ -30,11 +30,13 @@ async function getChannelPage(slug: string[]) {
   if (slug.length !== 1 || !getChannels().includes(slug[0])) return null;
   const channel = slug[0];
   const index = await getPageContent(`episodes/${channel}/index.md`);
+  const all = buildEpisodeIndex();
+  const shows = buildShowSummaries(all);
   return {
     channel,
-    title: (index?.frontmatter.title as string) || channel.replace(/-/g, " "),
-    intro: index?.content,
-    episodes: buildEpisodeIndex().filter((episode) => episode.channel === channel),
+    title: shows.find((show) => show.slug === channel)?.name || (index?.frontmatter.title as string) || channel.replace(/-/g, " "),
+    shows,
+    episodes: all.filter((episode) => episode.channel === channel),
   };
 }
 
@@ -83,26 +85,18 @@ export default async function EpisodePage({
     if (!channelPage) notFound();
 
     return (
-      <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
-        <nav className="mb-8 flex items-center gap-2 text-xs text-muted">
+      <div className="mx-auto max-w-[1160px] px-6 py-12 sm:px-8 sm:py-16">
+        <nav className="mb-6 flex items-center gap-2 text-xs text-muted">
           <Link href="/" className="hover:text-accent transition-colors">Home</Link>
           <span>/</span>
           <Link href="/episodes" className="hover:text-accent transition-colors">Episodes</Link>
         </nav>
-        <h1 className="font-display text-4xl font-extrabold capitalize sm:text-5xl">
-          {channelPage.title}
-        </h1>
-        <p className="mt-2 text-sm text-muted">
-          {channelPage.episodes.length} episodes
-        </p>
-        {channelPage.intro && (
-          <div className="mt-8">
-            <MarkdownContent html={channelPage.intro} />
-          </div>
-        )}
-        <div className="mt-10">
-          <EpisodeArchive episodes={channelPage.episodes} channels={[]} />
-        </div>
+        <EpisodeArchive
+          episodes={channelPage.episodes}
+          shows={channelPage.shows}
+          activeShow={channelPage.channel}
+          title={channelPage.title}
+        />
       </div>
     );
   }
