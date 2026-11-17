@@ -50,6 +50,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       {sponsor.website && (
         <SponsorWebsiteLink
           website={sponsor.website}
+          sponsor={sponsor.name}
+          slot="sponsor-page"
           className="mt-6 inline-block rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background transition-opacity hover:opacity-85"
         >
           Visit {sponsor.name}

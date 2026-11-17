@@ -145,6 +145,8 @@ export interface SponsorPackage {
   price?: string;
   summary?: string;
   includes: string[];
+  /** A hosted payment or booking page for this package. */
+  bookingUrl?: string;
 }
 
 export interface SponsorPageConfig {
@@ -152,12 +154,25 @@ export interface SponsorPageConfig {
   contactEmail?: string;
   audience: { value: string; label: string }[];
   rates: Record<string, string>;
+  /** Hosted payment or booking pages, by placement id. */
+  booking: Record<string, string>;
   packages: SponsorPackage[];
 }
 
 function text(value: unknown): string | undefined {
   if (typeof value === "number") return String(value);
   return typeof value === "string" && value.trim() ? value.trim() : undefined;
+}
+
+/** A link we are willing to send a buyer to: https only. */
+function httpsUrl(value: unknown): string | undefined {
+  const raw = text(value);
+  if (!raw) return undefined;
+  try {
+    return new URL(raw).protocol === "https:" ? raw : undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 /** Settings for the sales page, from the frontmatter of content/sponsors/index.md. */
@@ -181,6 +196,14 @@ export function getSponsorPageConfig(): SponsorPageConfig {
     }
   }
 
+  const booking: Record<string, string> = {};
+  if (data.booking && typeof data.booking === "object") {
+    for (const [id, link] of Object.entries(data.booking)) {
+      const url = httpsUrl(link);
+      if (url) booking[id] = url;
+    }
+  }
+
   const packages: SponsorPackage[] = (Array.isArray(data.packages) ? data.packages : []).flatMap(
     (row: Record<string, unknown>) => {
       const name = text(row?.name);
@@ -188,7 +211,15 @@ export function getSponsorPageConfig(): SponsorPageConfig {
       const includes = (Array.isArray(row.includes) ? row.includes : []).flatMap(
         (item: unknown) => text(item) ?? []
       );
-      return [{ name, price: text(row.price), summary: text(row.summary), includes }];
+      return [
+        {
+          name,
+          price: text(row.price),
+          summary: text(row.summary),
+          includes,
+          bookingUrl: httpsUrl(row.bookingUrl),
+        },
+      ];
     }
   );
 
@@ -197,6 +228,7 @@ export function getSponsorPageConfig(): SponsorPageConfig {
     contactEmail: text(data.contactEmail),
     audience,
     rates,
+    booking,
     packages,
   };
 }
@@ -354,13 +386,18 @@ export async function getSponsor(urlSlug: string): Promise<Sponsor | undefined> 
   return (await getAllSponsors()).find((sponsor) => sponsor.slug === urlSlug);
 }
 
-/** A sponsor's link, tagged so they can see our traffic in their own analytics. */
-export function sponsorHref(url: string): string {
+/**
+ * A sponsor's link, tagged so they can see our traffic in their own analytics:
+ * the placement becomes the campaign, and the show, episode or section the content.
+ */
+export function sponsorHref(url: string, slot?: string, target?: string): string {
   try {
     const tagged = new URL(url);
     if (!tagged.searchParams.has("utm_source")) {
       tagged.searchParams.set("utm_source", "thebitcoinpodcast");
       tagged.searchParams.set("utm_medium", "sponsorship");
+      if (slot) tagged.searchParams.set("utm_campaign", slot);
+      if (target) tagged.searchParams.set("utm_content", target);
     }
     return tagged.toString();
   } catch {

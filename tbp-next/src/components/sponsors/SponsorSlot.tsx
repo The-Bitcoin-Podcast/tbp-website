@@ -23,9 +23,25 @@ interface SponsorSlotProps {
   className?: string;
 }
 
-function SponsorName({ sponsor, className }: { sponsor: SlotSponsor["sponsor"]; className?: string }) {
+function SponsorName({
+  sponsor,
+  slot,
+  target,
+  className,
+}: {
+  sponsor: SlotSponsor["sponsor"];
+  slot: SponsorSlotName;
+  target?: string;
+  className?: string;
+}) {
   return sponsor.website ? (
-    <SponsorWebsiteLink website={sponsor.website} className={className}>
+    <SponsorWebsiteLink
+      website={sponsor.website}
+      sponsor={sponsor.name}
+      slot={slot}
+      target={target}
+      className={className}
+    >
       {sponsor.name}
     </SponsorWebsiteLink>
   ) : (
@@ -49,15 +65,25 @@ export async function SponsorSlot({
   const sponsors = await getSponsorsFor(slot, target);
   if (sponsors.length === 0) return null;
 
+  // Read by SponsorAnalytics, which reports a `sponsor_impression` when this scrolls into view.
+  const viewed = (name: string) => ({
+    "data-sponsor-view": "",
+    "data-sponsor": name,
+    "data-sponsor-slot": slot,
+    "data-sponsor-target": target,
+  });
+
   if (variant === "line") {
     return (
       <p className={className}>
         {label}{" "}
         {sponsors.map(({ sponsor }, index) => (
-          <span key={sponsor.slug}>
+          <span key={sponsor.slug} {...viewed(sponsor.name)}>
             {index > 0 && (index === sponsors.length - 1 ? " and " : ", ")}
             <SponsorName
               sponsor={sponsor}
+              slot={slot}
+              target={target}
               className="font-semibold text-foreground underline-offset-2 hover:underline"
             />
           </span>
@@ -74,11 +100,13 @@ export async function SponsorSlot({
       <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-muted">{label}</p>
       <ul className="mt-3 flex flex-col gap-3">
         {sponsors.map(({ sponsor, message }) => (
-          <li key={sponsor.slug} className="flex items-center gap-3">
+          <li key={sponsor.slug} className="flex items-center gap-3" {...viewed(sponsor.name)}>
             <SponsorMark sponsor={sponsor} size="sm" />
             <p className="min-w-0 text-[15px] leading-snug">
               <SponsorName
                 sponsor={sponsor}
+                slot={slot}
+                target={target}
                 className="font-semibold underline-offset-2 hover:underline"
               />
               {(message ?? sponsor.blurb) && (

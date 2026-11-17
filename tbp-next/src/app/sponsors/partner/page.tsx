@@ -19,6 +19,23 @@ const STEPS = [
   ["You go live", "We write the read with you, put your name on the site and send you the links."],
 ];
 
+/** Opens the hosted payment or booking page set for a placement or package. */
+function BookingLink({ href, item }: { href: string; item: string }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener"
+      className="rounded-full bg-foreground px-4 py-2 text-sm font-semibold text-background transition-opacity hover:opacity-85"
+      data-sponsor-event="sponsor_booking_start"
+      data-sponsor-slot={item}
+    >
+      Book now <span aria-hidden="true">&rarr;</span>
+      <span className="sr-only"> (opens in a new tab)</span>
+    </a>
+  );
+}
+
 export default async function SponsorPartnerPage() {
   const config = getSponsorPageConfig();
   const sponsors = await getAllSponsors();
@@ -92,9 +109,14 @@ export default async function SponsorPartnerPage() {
                 <h3 className="font-display text-xl font-extrabold">{placement.name}</h3>
                 <p className="mt-3 text-[15px] leading-relaxed">{placement.where}</p>
                 <p className="mt-2 flex-1 text-[15px] leading-relaxed text-muted">{placement.why}</p>
-                <p className="mt-5 border-t border-border pt-4 font-mono text-xs text-muted">
-                  {config.rates[placement.id] ?? "Rates on request"}
-                </p>
+                <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-border pt-4">
+                  <p className="font-mono text-xs text-muted">
+                    {config.rates[placement.id] ?? "Rates on request"}
+                  </p>
+                  {config.booking[placement.id] && (
+                    <BookingLink href={config.booking[placement.id]} item={placement.id} />
+                  )}
+                </div>
               </article>
             ))}
           </div>
@@ -159,6 +181,11 @@ export default async function SponsorPartnerPage() {
                         <li key={item}>{item}</li>
                       ))}
                     </ul>
+                  )}
+                  {pack.bookingUrl && (
+                    <p className="mt-auto pt-5">
+                      <BookingLink href={pack.bookingUrl} item={pack.name} />
+                    </p>
                   )}
                 </article>
               ))}

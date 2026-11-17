@@ -37,7 +37,15 @@ audience: []
 #     episode: "From $500 per episode"
 rates: {}
 
-# Bundles shown under the placements. Example:
+# Self-serve booking. Give a placement the link to a hosted payment or booking
+# page (a Stripe Payment Link, a Calendly page...) and it gets a "Book now"
+# button. Links must start with https://. Same keys as rates. Example:
+#   booking:
+#     episode: "https://buy.stripe.com/your-link"
+booking: {}
+
+# Bundles shown under the placements. `bookingUrl` is optional and adds a
+# "Book now" button to that package. Example:
 #   packages:
 #     - name: Launch
 #       price: "$2,000 / month"
@@ -45,5 +53,9 @@ rates: {}
 #       includes:
 #         - Two episode sponsorships
 #         - One newsletter issue
+#       bookingUrl: "https://buy.stripe.com/your-link"
 packages: []
+
+# Reporting: sponsor views and clicks go to Google Analytics. See
+# "Sponsors" in tbp-next/README.md for the events and how to report on them.
 ---

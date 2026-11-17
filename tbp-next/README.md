@@ -74,3 +74,38 @@ Actions tab with "Run workflow".
 
 Set `NEXT_PUBLIC_NEWSLETTER_FORM_ACTION` (see `.env.example`) to the email
 service's form URL. Until it is set the form shows "Signups open soon."
+
+## Sponsors
+
+The sales page is `/sponsors/partner`. Its contact route, audience numbers,
+rates, packages and booking links are set in `content/sponsors/index.md`.
+
+To place a sponsor, add a `placements` list to their file in
+`content/sponsors/`; the format is in the comments of `index.md`. A placement
+starts or ends at the first deploy after its date.
+
+### Reporting
+
+Sponsor activity is sent to the site's Google Analytics property as events:
+
+| Event | When |
+|---|---|
+| `sponsor_impression` | A sponsor's name has been at least half on screen. Once per sponsor, per spot, per page view. |
+| `sponsor_click` | Someone follows a sponsor's link. |
+| `sponsor_inquiry` | Someone uses the contact route on the sales page. |
+| `sponsor_booking_start` | Someone opens a "Book now" link. |
+
+Each event carries `sponsor` (the sponsor's name), `sponsor_slot` (the
+placement: `network`, `show`, `episode`...; `sponsor-page` for the sponsor's
+own page) and `sponsor_target` (the show, episode file or section).
+
+Before these can be used in reports, register `sponsor`, `sponsor_slot` and
+`sponsor_target` once as event-scoped custom dimensions in Google Analytics
+(Admin > Custom definitions). Values are only collected from that point on.
+For a sponsor's report, build an exploration filtered to their `sponsor`
+value, with `sponsor_slot` as rows and the event counts as values.
+
+Visitors who block Google Analytics are not counted, so these numbers are a
+floor. Sponsor links also carry `utm_source=thebitcoinpodcast`,
+`utm_medium=sponsorship`, `utm_campaign=<placement>` and
+`utm_content=<target>`, so sponsors can check clicks in their own analytics.

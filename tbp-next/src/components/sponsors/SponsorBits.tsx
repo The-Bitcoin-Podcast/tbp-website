@@ -39,18 +39,38 @@ export function sponsorTally(sponsor: Pick<Sponsor, "episodes" | "years">): stri
   return sponsor.years ? `${label} · ${sponsor.years}` : label;
 }
 
-/** Outbound link to a sponsor's site: marked as paid, and tagged for their analytics. */
+/**
+ * Outbound link to a sponsor's site: marked as paid, tagged for their analytics,
+ * and counted as a `sponsor_click` in ours (see SponsorAnalytics).
+ */
 export function SponsorWebsiteLink({
   website,
+  sponsor,
+  slot,
+  target,
   className,
   children,
 }: {
   website: string;
+  /** Sponsor name, as reported in analytics. */
+  sponsor: string;
+  /** Where the link sits: a placement id, or "sponsor-page". */
+  slot: string;
+  target?: string;
   className?: string;
   children: React.ReactNode;
 }) {
   return (
-    <a href={sponsorHref(website)} target="_blank" rel="sponsored noopener" className={className}>
+    <a
+      href={sponsorHref(website, slot, target)}
+      target="_blank"
+      rel="sponsored noopener"
+      className={className}
+      data-sponsor-event="sponsor_click"
+      data-sponsor={sponsor}
+      data-sponsor-slot={slot}
+      data-sponsor-target={target}
+    >
       {children}
     </a>
   );

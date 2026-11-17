@@ -59,7 +59,7 @@ export function SponsorInquiry({ formAction, contactEmail, discordUrl }: Sponsor
           <textarea name="message" rows={4} required className={fieldClass} />
         </label>
         <div className="sm:col-span-2">
-          <button type="submit" className={buttonClass}>
+          <button type="submit" className={buttonClass} data-sponsor-event="sponsor_inquiry" data-sponsor-slot="form">
             Send inquiry
           </button>
         </div>
@@ -73,6 +73,8 @@ export function SponsorInquiry({ formAction, contactEmail, discordUrl }: Sponsor
         <a
           href={`mailto:${contactEmail}?subject=${encodeURIComponent("Sponsoring The Bitcoin Podcast Network")}`}
           className={buttonClass}
+          data-sponsor-event="sponsor_inquiry"
+          data-sponsor-slot="email"
         >
           Email {contactEmail}
         </a>
@@ -85,7 +87,14 @@ export function SponsorInquiry({ formAction, contactEmail, discordUrl }: Sponsor
 
   return (
     <div>
-      <a href={discordUrl} target="_blank" rel="noopener noreferrer" className={buttonClass}>
+      <a
+        href={discordUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={buttonClass}
+        data-sponsor-event="sponsor_inquiry"
+        data-sponsor-slot="discord"
+      >
         Message us on Discord
       </a>
       <p className="mt-4 text-[15px] leading-relaxed text-[#b8b8b4]">
