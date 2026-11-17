@@ -10086,55 +10086,6 @@
   ]
  },
  {
-  "name": "Jesse Broke",
-  "slug": "Jesse-Broke",
-  "host": true,
-  "hosted": [
-   "tbp"
-  ],
-  "links": {},
-  "tenWords": 0,
-  "shows": [
-   "tbp"
-  ],
-  "first": "2020-08-24",
-  "last": "2020-10-19",
-  "episodes": [
-   {
-    "slug": "tbp/821-the-bitcoin-podcast-325-hocus-pocus-bitcoin",
-    "show": "tbp",
-    "title": "The Bitcoin Podcast #325- Hocus Pocus Bitcoin Upgrade",
-    "date": "2020-10-19",
-    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/5ba866088e875fae.jpg",
-    "role": "host"
-   },
-   {
-    "slug": "tbp/813-the-bitcoin-podcast-320-devin-finzer-opensea",
-    "show": "tbp",
-    "title": "The Bitcoin Podcast #320- Devin Finzer OpenSea",
-    "date": "2020-09-15",
-    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/6335725bbf5d8abf.jpg",
-    "role": "host"
-   },
-   {
-    "slug": "tbp/812-the-bitcoin-podcast-319-john-crain-superrare",
-    "show": "tbp",
-    "title": "The Bitcoin Podcast #319-John Crain SuperRare",
-    "date": "2020-09-02",
-    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/5636a44cf055d72b.jpg",
-    "role": "host"
-   },
-   {
-    "slug": "tbp/810-the-bitcoin-podcast-318-ben-arc-aka-btcsocialists",
-    "show": "tbp",
-    "title": "The Bitcoin Podcast #318-Ben Arc aka BTCSocialists",
-    "date": "2020-08-24",
-    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/07f11419fc319e2a.jpg",
-    "role": "guest"
-   }
-  ]
- },
- {
   "name": "Jesse Grushack",
   "slug": "Jesse-Grushack",
   "host": false,
@@ -10248,7 +10199,12 @@
    "hio",
    "just-the-headers"
   ],
-  "links": {},
+  "links": {
+   "twitter": "https://x.com/JessieBroke",
+   "github": "https://github.com/jessiebroke",
+   "website": "https://jessiebroke.com"
+  },
+  "avatar": "/people/avatars/jessie-santiago.jpg",
   "tenWords": 0,
   "shows": [
    "tbp",
@@ -11490,6 +11446,14 @@
     "role": "host"
    },
    {
+    "slug": "tbp/821-the-bitcoin-podcast-325-hocus-pocus-bitcoin",
+    "show": "tbp",
+    "title": "The Bitcoin Podcast #325- Hocus Pocus Bitcoin Upgrade",
+    "date": "2020-10-19",
+    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/5ba866088e875fae.jpg",
+    "role": "host"
+   },
+   {
     "slug": "tbp/819-the-bitcoin-podcast-324-tres-amigos-law-order",
     "show": "tbp",
     "title": "The Bitcoin Podcast #324- Tres Amigos Law & Order",
@@ -11520,6 +11484,30 @@
     "date": "2020-09-22",
     "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/02dc83dc9fa132ef.jpg",
     "role": "host"
+   },
+   {
+    "slug": "tbp/813-the-bitcoin-podcast-320-devin-finzer-opensea",
+    "show": "tbp",
+    "title": "The Bitcoin Podcast #320- Devin Finzer OpenSea",
+    "date": "2020-09-15",
+    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/6335725bbf5d8abf.jpg",
+    "role": "host"
+   },
+   {
+    "slug": "tbp/812-the-bitcoin-podcast-319-john-crain-superrare",
+    "show": "tbp",
+    "title": "The Bitcoin Podcast #319-John Crain SuperRare",
+    "date": "2020-09-02",
+    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/5636a44cf055d72b.jpg",
+    "role": "host"
+   },
+   {
+    "slug": "tbp/810-the-bitcoin-podcast-318-ben-arc-aka-btcsocialists",
+    "show": "tbp",
+    "title": "The Bitcoin Podcast #318-Ben Arc aka BTCSocialists",
+    "date": "2020-08-24",
+    "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/41759001/07f11419fc319e2a.jpg",
+    "role": "guest"
    },
    {
     "slug": "tbp/674-the-bitcoin-podcast-269-proof-of-work-vs-proof-of",

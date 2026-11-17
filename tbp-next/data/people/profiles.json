@@ -42,9 +42,17 @@
  },
  "Jessie Santiago": {
   "aliases": [
-   "Cello"
+   "Cello",
+   "Jesse Broke",
+   "Jessie Broke",
+   "JessieBroke"
   ],
-  "host": true
+  "host": true,
+  "links": {
+   "twitter": "https://x.com/JessieBroke",
+   "github": "https://github.com/jessiebroke",
+   "website": "https://jessiebroke.com"
+  }
  },
  "fubuloubu": {
   "aliases": [
@@ -188,9 +196,6 @@
   "host": true
  },
  "Ahmad": {
-  "host": true
- },
- "Jesse Broke": {
   "host": true
  },
  "Ben Arc": {
