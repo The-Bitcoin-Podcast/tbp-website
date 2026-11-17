@@ -291,10 +291,10 @@ export function FeaturedGuests({ pool }: { pool: FeaturedGuest[] }) {
       >
         <div className="overflow-hidden" inert={!open}>
           <div className="relative mx-auto max-w-xl px-1 pb-6 pt-4">
-            {/* Notch pointing back at the chosen face */}
+            {/* Orange pointer back at the chosen face; the card covers its lower half */}
             <span
               aria-hidden="true"
-              className="absolute left-1/2 top-[9px] z-10 h-3.5 w-3.5 rounded-[3px] border-l border-t border-border bg-surface transition-transform duration-500 ease-[cubic-bezier(0.2,0.9,0.3,1.2)]"
+              className="absolute left-1/2 top-[5px] h-4 w-4 rounded-[3px] bg-brand transition-transform duration-500 ease-[cubic-bezier(0.2,0.9,0.3,1.2)]"
               style={{ transform: `translateX(calc(-50% + ${notchOffset}px)) rotate(45deg)` }}
             />
             {guest && (
