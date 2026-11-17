@@ -9,6 +9,8 @@ interface ContentDetailPageProps {
   section: string;
   sectionLabel: string;
   slug: string;
+  /** A <SponsorSlot> shown above the content. It brings its own bottom margin. */
+  sponsor?: ReactNode;
   /** Rendered after the content, before the back link. */
   footer?: ReactNode;
 }
@@ -17,6 +19,7 @@ export async function ContentDetailPage({
   section,
   sectionLabel,
   slug,
+  sponsor,
   footer,
 }: ContentDetailPageProps) {
   const decoded = decodeURIComponent(slug);
@@ -53,6 +56,8 @@ export async function ContentDetailPage({
         </p>
       )}
       {!date && <div className="mb-10" />}
+
+      {sponsor}
 
       {page.isHtmlDocument ? (
         <HtmlDocumentFrame html={page.content} title={title} />

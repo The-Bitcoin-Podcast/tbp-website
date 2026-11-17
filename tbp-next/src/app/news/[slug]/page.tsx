@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getAllContentSlugs, getPageContent } from "@/lib/content";
 import { ContentDetailPage } from "@/components/shared/ContentDetailPage";
 import { NewsletterSignup } from "@/components/shared/NewsletterSignup";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 export const dynamicParams = false;
 
@@ -33,6 +34,9 @@ export default async function NewsDetailPage({
       section="news"
       sectionLabel="News"
       slug={slug}
+      sponsor={
+        <SponsorSlot slot="newsletter" target={decodeURIComponent(slug)} className="mb-10" />
+      }
       footer={<NewsletterSignup />}
     />
   );

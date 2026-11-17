@@ -28,7 +28,7 @@ const markdownProcessor = unified()
   .use(rehypeSlug)
   .use(rehypeStringify);
 
-async function processMarkdown(raw: string): Promise<string> {
+export async function processMarkdown(raw: string): Promise<string> {
   const result = await markdownProcessor.process(raw);
   return String(result);
 }

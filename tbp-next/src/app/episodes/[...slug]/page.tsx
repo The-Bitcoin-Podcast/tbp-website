@@ -15,6 +15,7 @@ import { GuestList } from "@/components/episode/GuestList";
 import { MarkdownContent } from "@/components/shared/MarkdownContent";
 import { EpisodeArchive } from "@/components/archive/EpisodeArchive";
 import { buildEpisodeIndex, buildShowSummaries } from "@/lib/episode-index";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 export const dynamicParams = false;
 
@@ -91,6 +92,7 @@ export default async function EpisodePage({
           <span>/</span>
           <Link href="/episodes" className="hover:text-accent transition-colors">Episodes</Link>
         </nav>
+        <SponsorSlot slot="show" target={channelPage.channel} className="mb-8" />
         <EpisodeArchive
           episodes={channelPage.episodes}
           shows={channelPage.shows}
@@ -139,6 +141,10 @@ export default async function EpisodePage({
           </p>
         )}
       </header>
+
+      {/* Sponsors: of this episode, then of the show it belongs to */}
+      <SponsorSlot slot="episode" target={slug[slug.length - 1]} className="mb-10" />
+      {slug.length > 1 && <SponsorSlot slot="show" target={slug[0]} className="mb-10" />}
 
       {/* Player */}
       {fm.youtubeId && (

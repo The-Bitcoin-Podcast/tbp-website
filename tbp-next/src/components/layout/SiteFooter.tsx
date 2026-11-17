@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 const siteLinks = [
   { label: "About", href: "/about" },
@@ -17,6 +18,11 @@ const linkClass = "text-muted transition-colors hover:text-foreground";
 export function SiteFooter() {
   return (
     <footer className="bg-background">
+      <SponsorSlot
+        slot="network"
+        variant="line"
+        className="mx-auto max-w-[1160px] px-6 pt-7 text-[13px] text-muted sm:px-8"
+      />
       <div className="mx-auto flex max-w-[1160px] flex-wrap items-center justify-between gap-4 px-6 pb-10 pt-7 text-[13px] text-muted sm:px-8">
         <span>&copy; 2015 The Bitcoin Podcast Network</span>
         <nav className="flex flex-wrap gap-x-6 gap-y-2">
