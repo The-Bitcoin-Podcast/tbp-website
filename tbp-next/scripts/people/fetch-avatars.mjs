@@ -47,7 +47,12 @@ for (const p of people) {
   if (fetched >= LIMIT) break;
   const key = avatarKey(p.name);
   if (existing.has(key)) continue;
-  const github = p.links.github?.match(/github\.com\/([^/?#]+)/)?.[1];
+  let github = p.links.github?.match(/github\.com\/([^/?#]+)/)?.[1];
+  // An organization's avatar is a company logo, not the person.
+  if (github) {
+    const res = await fetch(`https://api.github.com/users/${github}`, { headers: { "User-Agent": "tbp-website avatar fetch" } });
+    if (res.ok && (await res.json()).type !== "User") github = undefined;
+  }
   const x = p.links.twitter?.replace("https://x.com/", "");
   const sources = [
     github && `https://github.com/${github}.png?size=192`,

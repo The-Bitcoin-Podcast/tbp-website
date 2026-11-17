@@ -24,7 +24,15 @@
    "Dee",
    "Dee Ferguson"
   ],
-  "host": true
+  "host": true,
+  "links": {
+   "twitter": "https://x.com/fergulati",
+   "website": "https://thebitcoinpodcast.com",
+   "github": "https://github.com/Fergulati",
+   "other": [
+    "https://magosconsulting.com"
+   ]
+  }
  },
  "Corey Petty": {
   "aliases": [

@@ -5471,7 +5471,15 @@
    "onramping-with-dee",
    "what-the-header"
   ],
-  "links": {},
+  "links": {
+   "twitter": "https://x.com/fergulati",
+   "other": [
+    "https://magosconsulting.com"
+   ],
+   "website": "https://thebitcoinpodcast.com",
+   "github": "https://github.com/Fergulati"
+  },
+  "avatar": "/people/avatars/demetrick-ferguson.jpg",
   "tenWords": 2,
   "shows": [
    "tbp",
