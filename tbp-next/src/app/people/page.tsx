@@ -3,7 +3,9 @@ import Link from "next/link";
 import { getAllPeople, summarize } from "@/lib/people";
 import { isRegularHost } from "@/lib/hosts";
 import { PeopleDirectory } from "@/components/people/PeopleDirectory";
-import { Avatar } from "@/components/people/PersonBits";
+import { FeaturedGuests, type FeaturedGuest } from "@/components/people/FeaturedGuests";
+import type { TenWordsMoment } from "@/components/ten-words/TenWordsTimeline";
+import tenWords from "@/data/ten-words.json";
 
 export const metadata: Metadata = {
   title: "Guests & Hosts",
@@ -20,11 +22,40 @@ export default function PeoplePage() {
   const guestHosts = people.length - guests - hosts;
   const firstYear = people.map((p) => p.first).filter(Boolean).sort()[0]?.slice(0, 4);
 
-  // A strip of faces for the header: frequent guests who have a photo.
-  const faces = people
+  // Faces for the header: every guest with a photo. The strip shows nine at a
+  // time and rotates through the rest; those who answered the ten-words
+  // question lead, since clicking a face plays their answer back.
+  const moments = tenWords as TenWordsMoment[];
+  const featured: FeaturedGuest[] = people
     .filter((p) => p.avatar && !p.host)
-    .sort((a, b) => b.episodes.length - a.episodes.length)
-    .slice(0, 9);
+    .map((p) => {
+      const answer = moments
+        .filter((m) => m.answeredBy === p.name && m.question === "ten" && m.words <= 16)
+        .sort((a, b) => Number(b.highlight) - Number(a.highlight) || a.words - b.words)[0];
+      const latest = [...p.episodes].sort((a, b) => b.date.localeCompare(a.date))[0];
+      const a = p.first?.slice(0, 4);
+      const b = p.last?.slice(0, 4) || a;
+      return {
+        name: p.name,
+        slug: p.slug,
+        avatar: p.avatar!,
+        affiliation: p.affiliation,
+        count: p.episodes.length,
+        years: a ? (a === b ? a : `${a}–${b}`) : undefined,
+        quote: answer && {
+          subject: answer.subject,
+          answer: answer.answer,
+          words: answer.words,
+          episode: answer.episode,
+          slug: answer.slug,
+          start: answer.start,
+          end: answer.end,
+          audioUrl: answer.audioUrl,
+        },
+        latest: latest && { title: latest.title, slug: latest.slug, show: latest.show },
+      };
+    })
+    .sort((a, b) => Number(Boolean(b.quote)) - Number(Boolean(a.quote)) || b.count - a.count);
 
   return (
     <div className="mx-auto max-w-[1160px] px-6 py-12 sm:px-8 sm:py-16">
@@ -39,13 +70,7 @@ export default function PeoplePage() {
           where they post now.
         </p>
 
-        {faces.length > 0 && (
-          <div className="mt-8 flex justify-center -space-x-3" aria-hidden="true">
-            {faces.map((p) => (
-              <Avatar key={p.slug} name={p.name} src={p.avatar} size={44} className="ring-4 ring-background" />
-            ))}
-          </div>
-        )}
+        {featured.length > 0 && <FeaturedGuests pool={featured} />}
 
         <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-4 divide-x divide-border rounded-2xl border border-border bg-surface-light/60">
           {[
