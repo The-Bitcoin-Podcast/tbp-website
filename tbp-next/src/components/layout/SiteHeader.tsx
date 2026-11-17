@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Search clips", href: "/search" },
   { label: "Episodes", href: "/episodes" },
   { label: "In Ten Words", href: "/in-ten-words" },
+  { label: "Scorecard", href: "/predictions" },
   { label: "Guests", href: "/people" },
   { label: "Reports", href: "/reports" },
   { label: "Newsletter", href: "/news" },
