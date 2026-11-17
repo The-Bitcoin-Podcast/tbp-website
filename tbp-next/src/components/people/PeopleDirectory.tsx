@@ -3,6 +3,7 @@
 import { useDeferredValue, useMemo, useState } from "react";
 import Link from "next/link";
 import { getShowMeta } from "@/lib/show-meta";
+import { isRegularHost } from "@/lib/hosts";
 import { Avatar, SocialIconRow, type PersonLinks } from "./PersonBits";
 
 export interface PersonSummary {
@@ -58,14 +59,21 @@ function ShowDot({ show }: { show: string }) {
 
 /* ─── Hosts: the people behind the mics ────────────────────────────────── */
 
-function HostCard({ person }: { person: PersonSummary }) {
+function HostCard({ person, compact = false }: { person: PersonSummary; compact?: boolean }) {
   const shows = person.hosted.length ? person.hosted : person.shows;
   return (
-    <div className="group relative flex flex-col items-center rounded-2xl border border-border bg-surface p-5 text-center transition-all hover:-translate-y-0.5 hover:border-brand/50 hover:shadow-lg hover:shadow-brand/5">
-      <Avatar name={person.name} src={person.avatar} size={72} className="ring-4 ring-brand-tint" />
+    <div
+      className={`group relative flex flex-col items-center rounded-2xl border border-border bg-surface text-center transition-all hover:-translate-y-0.5 hover:border-brand/50 hover:shadow-lg hover:shadow-brand/5 ${compact ? "p-4" : "p-6"}`}
+    >
+      <Avatar
+        name={person.name}
+        src={person.avatar}
+        size={compact ? 56 : 96}
+        className={compact ? "ring-2 ring-brand-tint" : "ring-4 ring-brand-tint"}
+      />
       <Link
         href={`/people/${encodeURIComponent(person.slug)}`}
-        className="mt-3 font-display text-lg font-bold leading-tight after:absolute after:inset-0 group-hover:text-accent"
+        className={`mt-3 font-display font-bold leading-tight after:absolute after:inset-0 group-hover:text-accent ${compact ? "text-base" : "text-xl"}`}
       >
         {person.name}
       </Link>
@@ -101,7 +109,7 @@ function PersonCard({ person }: { person: PersonSummary }) {
           </Link>
           {person.host && (
             <span className="flex-shrink-0 rounded-full bg-brand-tint px-2 py-px text-[10px] font-bold uppercase tracking-wide text-accent-hover">
-              Host
+              {isRegularHost(person) ? "Host" : "Guest host"}
             </span>
           )}
         </div>
@@ -144,10 +152,13 @@ export function PeopleDirectory({ people }: { people: PersonSummary[] }) {
   const [linkedOnly, setLinkedOnly] = useState(false);
   const deferredQuery = useDeferredValue(query);
 
-  const hosts = useMemo(
-    () => people.filter((p) => p.host).sort((a, b) => b.count - a.count),
-    [people],
-  );
+  const [hosts, guestHosts] = useMemo(() => {
+    const all = people.filter((p) => p.host).sort((a, b) => b.count - a.count);
+    return [
+      all.filter(isRegularHost),
+      all.filter((p) => !isRegularHost(p)),
+    ];
+  }, [people]);
 
   const showOptions = useMemo(() => {
     const counts = new Map<string, number>();
@@ -190,9 +201,27 @@ export function PeopleDirectory({ people }: { people: PersonSummary[] }) {
             </h2>
             <span className="font-mono text-xs text-muted">{hosts.length} voices behind the mic</span>
           </div>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
             {hosts.map((p) => (
               <HostCard key={p.slug} person={p} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {showingAll && guestHosts.length > 0 && (
+        <section className="mt-12" aria-labelledby="guest-hosts-heading">
+          <div className="mb-5 flex items-baseline justify-between">
+            <h2 id="guest-hosts-heading" className="font-display text-xl font-extrabold">
+              Guest hosts
+            </h2>
+            <span className="font-mono text-xs text-muted">
+              {guestHosts.length} who took a turn at the mic
+            </span>
+          </div>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
+            {guestHosts.map((p) => (
+              <HostCard key={p.slug} person={p} compact />
             ))}
           </div>
         </section>

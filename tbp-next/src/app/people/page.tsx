@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPeople, summarize } from "@/lib/people";
+import { isRegularHost } from "@/lib/hosts";
 import { PeopleDirectory } from "@/components/people/PeopleDirectory";
 import { Avatar } from "@/components/people/PersonBits";
 
@@ -15,7 +16,8 @@ export default function PeoplePage() {
   const summaries = people.map(summarize);
   const appearances = people.reduce((n, p) => n + p.episodes.length, 0);
   const guests = people.filter((p) => !p.host).length;
-  const hosts = people.length - guests;
+  const hosts = summaries.filter(isRegularHost).length;
+  const guestHosts = people.length - guests - hosts;
   const firstYear = people.map((p) => p.first).filter(Boolean).sort()[0]?.slice(0, 4);
 
   // A strip of faces for the header: frequent guests who have a photo.
@@ -45,16 +47,17 @@ export default function PeoplePage() {
           </div>
         )}
 
-        <dl className="mx-auto mt-8 grid max-w-xl grid-cols-3 divide-x divide-border rounded-2xl border border-border bg-surface-light/60">
+        <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-4 divide-x divide-border rounded-2xl border border-border bg-surface-light/60">
           {[
             [guests, "guests"],
             [hosts, "hosts"],
+            [guestHosts, "guest hosts"],
             [appearances, "appearances"],
           ].map(([n, label]) => (
-            <div key={label} className="px-3 py-4">
+            <div key={label} className="px-2 py-4 sm:px-3">
               <dt className="sr-only">{label}</dt>
-              <dd className="font-display text-2xl font-extrabold sm:text-3xl">{n.toLocaleString()}</dd>
-              <dd className="mt-0.5 font-mono text-[11px] uppercase tracking-wider text-muted">{label}</dd>
+              <dd className="font-display text-xl font-extrabold sm:text-3xl">{n.toLocaleString()}</dd>
+              <dd className="mt-0.5 font-mono text-[10px] uppercase tracking-wider text-muted sm:text-[11px]">{label}</dd>
             </div>
           ))}
         </dl>
