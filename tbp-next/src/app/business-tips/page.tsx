@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ContentListPage } from "@/components/shared/ContentListPage";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 export const metadata: Metadata = {
   title: "Business Tips",
@@ -12,6 +13,7 @@ export default function BusinessTipsPage() {
       section="business-tips"
       title="Business Tips"
       description="Practical business insights from the Bitcoin ecosystem"
+      sponsor={<SponsorSlot slot="section" target="business-tips" className="mb-10" />}
     />
   );
 }

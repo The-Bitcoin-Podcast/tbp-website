@@ -1,6 +1,9 @@
-## Bio:
-Manscaped is a men's personal healthcare brand.
-
+---
+title: Manscaped
+blurb: Manscaped is a men's personal healthcare brand.
+tags:
+  - sponsor
+---
 ## Sponsored Episodes:
 - [[360-roundtable-unboxing-the-lattice1-from-gridplus]]
 - [[361-interview-erik-voorhees-founder-of-shapeshift]]

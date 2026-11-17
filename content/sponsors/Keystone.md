@@ -1,9 +1,11 @@
 ---
+title: Keystone
+website: https://keyst.one/
+blurb: Keystone makes hardware wallets for cryptocurrency.
 tags:
   - sponsor
 ---
-## Bio:
-- Website: [https://keyst.one/](https://keyst.one/)  
+## Links:
 - Store: [https://shop.keyst.one/](https://shop.keyst.one/)  
 - Twitter: [https://twitter.com/KeystoneWallet](https://twitter.com/KeystoneWallet)  
 - Telegram: [https://t.me/KeystoneWallet](https://t.me/KeystoneWallet)  

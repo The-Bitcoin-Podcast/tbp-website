@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPeople, summarize } from "@/lib/people";
 import { isRegularHost } from "@/lib/hosts";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 import { PeopleDirectory } from "@/components/people/PeopleDirectory";
 import { FeaturedGuests, type FeaturedGuest } from "@/components/people/FeaturedGuests";
 import type { TenWordsMoment } from "@/components/ten-words/TenWordsTimeline";
@@ -94,6 +95,8 @@ export default function PeoplePage() {
           </Link>
         </p>
       </header>
+
+      <SponsorSlot slot="section" target="people" className="mx-auto mt-10 max-w-3xl" />
 
       <PeopleDirectory people={summaries} />
     </div>

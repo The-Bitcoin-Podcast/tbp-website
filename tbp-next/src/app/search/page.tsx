@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ClipSearch } from "@/components/search/ClipSearch";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 export const metadata: Metadata = {
   title: "Search Clips",
@@ -18,6 +19,7 @@ export default function SearchPage() {
           Type a word or phrase. We’ll find the moment it was said and play it for you.
         </p>
       </div>
+      <SponsorSlot slot="section" target="search" className="mb-8" />
       <ClipSearch syncUrl autoFocus />
     </div>
   );

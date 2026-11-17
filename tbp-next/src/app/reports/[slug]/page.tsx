@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getAllContentSlugs, getPageContent } from "@/lib/content";
 import { ContentDetailPage } from "@/components/shared/ContentDetailPage";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 export const dynamicParams = false;
 
@@ -28,6 +29,11 @@ export default async function ReportDetailPage({
 }) {
   const { slug } = await params;
   return (
-    <ContentDetailPage section="reports" sectionLabel="Reports" slug={slug} />
+    <ContentDetailPage
+      section="reports"
+      sectionLabel="Reports"
+      slug={slug}
+      sponsor={<SponsorSlot slot="reports" target={decodeURIComponent(slug)} className="mb-10" />}
+    />
   );
 }

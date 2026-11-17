@@ -9,6 +9,7 @@ import { HeroSection } from "@/components/landing/HeroSection";
 import { LatestEpisode } from "@/components/landing/LatestEpisode";
 import { RecentEpisodes } from "@/components/landing/RecentEpisodes";
 import { NewsletterSignup } from "@/components/shared/NewsletterSignup";
+import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 export default function HomePage() {
   const [latest, ...recent] = getLatestEpisodes(5);
@@ -38,6 +39,9 @@ export default function HomePage() {
         />
       )}
       <RecentEpisodes episodes={recent} totalEpisodes={totalEpisodes} />
+      <div className="mx-auto max-w-[1160px] px-6 sm:px-8">
+        <SponsorSlot slot="network" className="mb-16" />
+      </div>
       <NewsletterSignup variant="band" />
     </>
   );

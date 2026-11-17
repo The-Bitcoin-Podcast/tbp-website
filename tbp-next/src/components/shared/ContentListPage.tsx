@@ -7,6 +7,8 @@ interface ContentListPageProps {
   section: string;
   title: string;
   description: string;
+  /** A <SponsorSlot> shown under the page header. It brings its own bottom margin. */
+  sponsor?: ReactNode;
   /** Rendered between the page header and the list. */
   afterHeader?: ReactNode;
 }
@@ -15,6 +17,7 @@ export async function ContentListPage({
   section,
   title,
   description,
+  sponsor,
   afterHeader,
 }: ContentListPageProps) {
   const indexPage = await getPageContent(`${section}/index.md`);
@@ -47,6 +50,8 @@ export async function ContentListPage({
         </h1>
         <p className="mt-2 text-sm text-muted">{description}</p>
       </div>
+
+      {sponsor}
 
       {afterHeader && <div className="mb-10">{afterHeader}</div>}
 
