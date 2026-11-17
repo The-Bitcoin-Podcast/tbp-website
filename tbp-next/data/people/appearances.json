@@ -1,0 +1,7331 @@
+{
+ "an-ethereum-podcast/episode-1": [
+  {
+   "name": "Dunning_Krugerrands",
+   "role": "guest",
+   "affiliation": "Reddit"
+  }
+ ],
+ "an-ethereum-podcast/episode-13": [
+  {
+   "name": "Kenny Rowe",
+   "role": "guest",
+   "affiliation": "RChain"
+  }
+ ],
+ "an-ethereum-podcast/episode-15": [
+  {
+   "name": "Dan Romero",
+   "role": "guest",
+   "affiliation": "Coinbase"
+  }
+ ],
+ "an-ethereum-podcast/episode-2": [
+  {
+   "name": "Doug Petkanics",
+   "role": "guest",
+   "affiliation": "LivePeer"
+  }
+ ],
+ "an-ethereum-podcast/episode-4": [
+  {
+   "name": "Karl Kreder",
+   "role": "guest",
+   "affiliation": "Grid+"
+  },
+  {
+   "name": "Alex Miller",
+   "role": "guest",
+   "affiliation": "Grid+"
+  }
+ ],
+ "an-ethereum-podcast/episode-5": [
+  {
+   "name": "Evan Van Ness",
+   "role": "host"
+  },
+  {
+   "name": "Adam Nestler",
+   "role": "guest",
+   "affiliation": "Skedaddle"
+  }
+ ],
+ "conferences/social-implications-of-blockchain-infrastructure-dr-corey-petty": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "dee-weekly/160-dee-weekly-3-crypto-markets-tread-sec-punts-a-decision-eth-etf-polygon-agglayer": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "dee-weekly/166-dee-weekly-4-binance-pays-43b-south-korea-protects-chainlink-cuddles-with-banks": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "dee-weekly/168-dee-weekly-5-sec-pivot-europe-piloted-blockchain-settled-bonds-zksync-interoperability": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "dee-weekly/169-dee-weekly-6-circles-ipo-india-regulates-bitcoin-is-resistant": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "dee-weekly/185-dee-weekly-7-bitcoin-core-282-pakistan-plans-for-btc-solana-alpenglow": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "hio/001-1-nick-johnson": [
+  {
+   "name": "Nick Johnson",
+   "role": "guest",
+   "affiliation": "Ethereum Foundation; Ethereum Name Service"
+  }
+ ],
+ "hio/002-orie-steele": [
+  {
+   "name": "Orie Steele",
+   "role": "guest",
+   "affiliation": "CTO of Transmute Industries"
+  }
+ ],
+ "hio/003-fabian-vogelsteller": [
+  {
+   "name": "Fabian Vogelsteller",
+   "role": "guest",
+   "affiliation": "Creator of Mist wallet and Web3.js; Lukso"
+  }
+ ],
+ "hio/004-william-obeirne": [
+  {
+   "name": "William O'Beirne",
+   "role": "guest",
+   "affiliation": "MyCrypto"
+  }
+ ],
+ "hio/005-zaki-manian": [
+  {
+   "name": "Zaki Manian",
+   "role": "guest",
+   "affiliation": "Founder of SkuChain; Head of Tendermint Labs; Interchain Foundation advisor"
+  }
+ ],
+ "hio/006-stuart-popejoy": [
+  {
+   "name": "Stuart Popejoy",
+   "role": "guest",
+   "affiliation": "Founder of Kadena"
+  }
+ ],
+ "hio/007-mimir-blockchain-solutions": [
+  {
+   "name": "Hunter Prendergast",
+   "role": "guest",
+   "affiliation": "MIMIR Blockchain Solutions"
+  },
+  {
+   "name": "Forrest Marshall",
+   "role": "guest",
+   "affiliation": "MIMIR Blockchain Solutions"
+  }
+ ],
+ "hio/008-mahnush-movahedi": [
+  {
+   "name": "Mahnush Movahedi",
+   "role": "guest",
+   "affiliation": "DFINITY"
+  }
+ ],
+ "hio/009-rick-dudley": [
+  {
+   "name": "Rick Dudley",
+   "role": "guest"
+  }
+ ],
+ "hio/011-nucypher-john-tux-pacific-david": [
+  {
+   "name": "John \"Tux\" Pacific",
+   "role": "guest",
+   "affiliation": "NuCypher"
+  },
+  {
+   "name": "David Nunez",
+   "role": "guest",
+   "affiliation": "NuCypher"
+  }
+ ],
+ "hio/013-logan-brutsche-crypto": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "host"
+  },
+  {
+   "name": "Logan Brutsche",
+   "role": "guest",
+   "affiliation": "Creator of ToastyCoin"
+  }
+ ],
+ "hio/014-thaer-khawaja-masari": [
+  {
+   "name": "Thaer Khawaja",
+   "role": "guest",
+   "affiliation": "Creator of Masari"
+  }
+ ],
+ "hio/015-ryan-john-king-and-kristoffer": [
+  {
+   "name": "Ryan John King",
+   "role": "guest",
+   "affiliation": "FOAM"
+  },
+  {
+   "name": "Kristoffer Josefsson",
+   "role": "guest",
+   "affiliation": "FOAM"
+  }
+ ],
+ "hio/017-modular-chris-brown-will-dias": [
+  {
+   "name": "Chris Brown",
+   "role": "guest",
+   "affiliation": "Modular"
+  },
+  {
+   "name": "Will Dias",
+   "role": "guest",
+   "affiliation": "Modular"
+  }
+ ],
+ "hio/018-origin-protocol-stan-james": [
+  {
+   "name": "Stan James",
+   "role": "guest",
+   "affiliation": "Lead Engineer at Origin Protocol"
+  }
+ ],
+ "hio/019-gitcoin-kevin-owocki": [
+  {
+   "name": "Kevin Owocki",
+   "role": "guest",
+   "affiliation": "Co-founder of Gitcoin"
+  }
+ ],
+ "hio/020-quantstamp-kacper-bak": [
+  {
+   "name": "Kacper Bak",
+   "role": "guest",
+   "affiliation": "Research Engineer at Quantstamp"
+  }
+ ],
+ "hio/021-mythril-bernhard-mueller": [
+  {
+   "name": "Bernhard Mueller",
+   "role": "guest",
+   "affiliation": "Mythril"
+  }
+ ],
+ "hio/022-caspersharding-danny-ryan": [
+  {
+   "name": "Danny Ryan",
+   "role": "guest",
+   "affiliation": "Ethereum"
+  }
+ ],
+ "hio/023-avalanche-emin-gun-sirer": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Avalanche"
+  }
+ ],
+ "hio/024-loki-network-simon-harman-kee": [
+  {
+   "name": "Simon Harman",
+   "role": "guest",
+   "affiliation": "Loki Network"
+  },
+  {
+   "name": "Kee Jefferys",
+   "role": "guest",
+   "affiliation": "Loki Network"
+  }
+ ],
+ "hio/025-embark-framework-iuri-matias": [
+  {
+   "name": "Iuri Matias",
+   "role": "guest",
+   "affiliation": "Embark Framework",
+   "links": {
+    "twitter": "http://twitter.com/iurimatias"
+   }
+  }
+ ],
+ "hio/026-nufhe-michael-egorov-and-john": [
+  {
+   "name": "Michael Egorov",
+   "role": "guest",
+   "affiliation": "NuCypher"
+  },
+  {
+   "name": "John \"Tux\" Pacific",
+   "role": "guest",
+   "affiliation": "NuCypher"
+  }
+ ],
+ "hio/027-radical-markets-dr-e-glen-weyl": [
+  {
+   "name": "E. Glen Weyl",
+   "role": "guest",
+   "affiliation": "Co-author of Radical Markets",
+   "links": {
+    "website": "http://glenweyl.com/",
+    "other": [
+     "http://radicalmarkets.com/"
+    ]
+   }
+  }
+ ],
+ "hio/028-panvala-niran-babalola": [
+  {
+   "name": "Niran Babalola",
+   "role": "guest",
+   "affiliation": "Co-founder of Panvala",
+   "links": {
+    "twitter": "https://twitter.com/niran"
+   }
+  }
+ ],
+ "hio/029-universal-logins-alex-van-de-sande": [
+  {
+   "name": "Alex van de Sande",
+   "role": "guest",
+   "links": {
+    "twitter": "https://twitter.com/avsa"
+   }
+  }
+ ],
+ "hio/030-cybermiles-michael-yuan": [
+  {
+   "name": "Michael Yuan",
+   "role": "guest",
+   "affiliation": "CyberMiles",
+   "links": {
+    "twitter": "https://twitter.com/juntao",
+    "other": [
+     "https://medium.com/@michaelyuan_88928"
+    ]
+   }
+  }
+ ],
+ "hio/031-pokt-network-michael-orourke": [
+  {
+   "name": "Michael O'Rourke",
+   "role": "guest",
+   "affiliation": "Pokt Network"
+  },
+  {
+   "name": "Luis C. de Leon",
+   "role": "guest",
+   "affiliation": "Pokt Network"
+  }
+ ],
+ "hio/032-gridplus-alex-miller-karl-kreder": [
+  {
+   "name": "Alex Miller",
+   "role": "guest",
+   "affiliation": "Grid+"
+  },
+  {
+   "name": "Karl Kreder",
+   "role": "guest",
+   "affiliation": "Grid+"
+  }
+ ],
+ "hio/033-loom-network-plasma-cash": [
+  {
+   "name": "Georgios Konstantopoulos",
+   "role": "guest",
+   "affiliation": "Loom Network",
+   "links": {
+    "website": "https://www.gakonst.com/"
+   }
+  }
+ ],
+ "hio/034-storj-shawn-wilkinson-jt-olio": [
+  {
+   "name": "Shawn Wilkinson",
+   "role": "guest",
+   "affiliation": "Storj"
+  },
+  {
+   "name": "JT Olio",
+   "role": "guest",
+   "affiliation": "Storj"
+  }
+ ],
+ "hio/036-dan-robinson-htlcs-and-why-they-suck": [
+  {
+   "name": "Dan Robinson",
+   "role": "guest",
+   "affiliation": "Interleger"
+  }
+ ],
+ "hio/037-base-zero-matt-zimmerman-ken-sedgwick": [
+  {
+   "name": "Matt Zimmerman",
+   "role": "guest",
+   "affiliation": "Base Zero"
+  },
+  {
+   "name": "Ken Sedgwick",
+   "role": "guest",
+   "affiliation": "Base Zero"
+  }
+ ],
+ "hio/038-kzen-omer-shlomovits": [
+  {
+   "name": "Omer Shlomovits",
+   "role": "guest",
+   "affiliation": "KZen"
+  }
+ ],
+ "hio/039-patrick-mccorry-state-channels": [
+  {
+   "name": "Patrick McCorry",
+   "role": "guest",
+   "affiliation": "Lecturer at King's College London"
+  }
+ ],
+ "hio/040-liam-horne-l4": [
+  {
+   "name": "Liam Horne",
+   "role": "guest",
+   "affiliation": "L4 / Counterfactual"
+  }
+ ],
+ "hio/041-mycrypto-harry-denley": [
+  {
+   "name": "Harry Denley",
+   "role": "guest",
+   "affiliation": "Director of Security at MyCrypto"
+  }
+ ],
+ "hio/042-monero-research-lab-brandon": [
+  {
+   "name": "Brandon Goodell",
+   "role": "guest",
+   "affiliation": "Research Associate at Monero Research Lab"
+  }
+ ],
+ "hio/043-kadena-stuart-popejoy-and-emily-pillmore": [
+  {
+   "name": "Stuart Popejoy",
+   "role": "guest",
+   "affiliation": "Kadena"
+  },
+  {
+   "name": "Emily Pillmore",
+   "role": "guest",
+   "affiliation": "Kadena"
+  }
+ ],
+ "hio/044-blockstream-russell-oconnor": [
+  {
+   "name": "Russell O'Connor",
+   "role": "guest",
+   "affiliation": "Blockstream"
+  }
+ ],
+ "hio/045-cosmos-network-zaki-manian": [
+  {
+   "name": "Zaki Manian",
+   "role": "guest",
+   "affiliation": "Cosmos"
+  }
+ ],
+ "hio/046-ren-loong-wang": [
+  {
+   "name": "Loong Wang",
+   "role": "guest",
+   "affiliation": "CTO of Ren"
+  }
+ ],
+ "hio/047-makerdao-pt-1-nik-kunkel": [
+  {
+   "name": "Nik Kunkel",
+   "role": "guest",
+   "affiliation": "MakerDAO"
+  }
+ ],
+ "hio/048-makerdao-pt-2-nik-kunkel": [
+  {
+   "name": "Nik Kunkel",
+   "role": "guest",
+   "affiliation": "MakerDAO"
+  }
+ ],
+ "hio/049-xdai-burner-wallet-austin": [
+  {
+   "name": "Austin Griffith",
+   "role": "guest"
+  }
+ ],
+ "hio/050-ava-labs-emin-gun-sirer": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "AVA Labs"
+  }
+ ],
+ "hio/051-blockstream-andrew-poelstra": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "host"
+  },
+  {
+   "name": "Andrew Poelstra",
+   "role": "guest",
+   "affiliation": "Director of Research at Blockstream"
+  }
+ ],
+ "hio/052-blockstack-aaron-blankstein": [
+  {
+   "name": "Aaron Blankstein",
+   "role": "guest",
+   "affiliation": "Blockstack"
+  }
+ ],
+ "hio/053-trail-of-bits-dan-guido": [
+  {
+   "name": "Dan Guido",
+   "role": "guest",
+   "affiliation": "CEO of Trail of Bits"
+  }
+ ],
+ "hio/054-ethereum-geth-190-pter-szilgyi": [
+  {
+   "name": "Péter Szilágyi",
+   "role": "guest",
+   "affiliation": "Ethereum"
+  },
+  {
+   "name": "Martin Swende",
+   "role": "guest",
+   "affiliation": "Ethereum"
+  }
+ ],
+ "hio/055-consensys-diligence-steve-marx": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Steve Marx",
+   "role": "guest",
+   "affiliation": "ConsenSys Diligence"
+  }
+ ],
+ "hio/056-mattereum-vinay-gupta": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "Mattereum"
+  }
+ ],
+ "hio/057-consensys-labs-tachyon-gabriel": [
+  {
+   "name": "Gabriel Anderson",
+   "role": "guest",
+   "affiliation": "Consensys Labs Tachyon"
+  }
+ ],
+ "hio/058-stellar-nikhil-saraf": [
+  {
+   "name": "Nikhil Saraf",
+   "role": "guest",
+   "affiliation": "Principal Software Engineer at Stellar Development Foundation"
+  }
+ ],
+ "hio/059-truebit-jason-teutsch": [
+  {
+   "name": "Jason Teutsch",
+   "role": "guest",
+   "affiliation": "Founder of Truebit"
+  }
+ ],
+ "hio/060-balance-research-arthur-gervais": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "host"
+  },
+  {
+   "name": "Arthur Gervais",
+   "role": "guest",
+   "affiliation": "Imperial College London"
+  },
+  {
+   "name": "Dominik Harz",
+   "role": "guest",
+   "affiliation": "Imperial College London"
+  }
+ ],
+ "hio/061-solana-anatoly-yakovenko": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "host"
+  },
+  {
+   "name": "Anatoly Yakovenko",
+   "role": "guest",
+   "affiliation": "Co-Founder and CEO of Solana"
+  }
+ ],
+ "hio/062-bolt-labs-ayo-akinyele": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Ayo Akinyele",
+   "role": "guest",
+   "affiliation": "CEO of Bolt Labs"
+  }
+ ],
+ "hio/063-nano-colin-lemahieu": [
+  {
+   "name": "Colin LeMahieu",
+   "role": "guest",
+   "affiliation": "CEO of Nano"
+  }
+ ],
+ "hio/064-plasma-kelvin-fichter": [
+  {
+   "name": "Kelvin Fichter",
+   "role": "guest",
+   "affiliation": "Former Plasma researcher with OmiseGo and Plasma Group"
+  }
+ ],
+ "hio/065-cypher-core-jay-jie-and-ken-trueba": [
+  {
+   "name": "Jay Jie",
+   "role": "guest",
+   "affiliation": "Cypher Core"
+  },
+  {
+   "name": "Ken Trueba",
+   "role": "guest",
+   "affiliation": "Cypher Core"
+  }
+ ],
+ "hio/066-trueblocks-thomas-jay-rush": [
+  {
+   "name": "Thomas Jay Rush",
+   "role": "guest",
+   "affiliation": "Trueblocks"
+  }
+ ],
+ "hio/067-optimistic-rollups-john-adler": [
+  {
+   "name": "John Adler",
+   "role": "guest",
+   "affiliation": "Blockchain Researcher at Consensys"
+  }
+ ],
+ "hio/068-sergi-delgado-whatsat-and-lightnight-network": [
+  {
+   "name": "Sergi Delgado",
+   "role": "guest",
+   "affiliation": "PISA Research"
+  }
+ ],
+ "hio/069-openlibra-lucas-geiger-and-zaki-manian": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "host"
+  },
+  {
+   "name": "Lucas Geiger",
+   "role": "guest",
+   "affiliation": "OpenLibra"
+  },
+  {
+   "name": "Zaki Manian",
+   "role": "guest",
+   "affiliation": "OpenLibra"
+  }
+ ],
+ "hio/070-akash-network-greg-osuri": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Greg Osuri",
+   "role": "guest",
+   "affiliation": "Akash Network"
+  }
+ ],
+ "hio/071-grin-michael-cordner-and-david-burkett": [
+  {
+   "name": "Michael Cordner",
+   "role": "guest",
+   "affiliation": "Grin contributor (Yeastplume)"
+  },
+  {
+   "name": "David Burkett",
+   "role": "guest",
+   "affiliation": "Grin; Litecoin Mimblewimble extension block lead"
+  }
+ ],
+ "hio/072-althea-jehan-tremback": [
+  {
+   "name": "Jehan Tremback",
+   "role": "guest",
+   "affiliation": "Althea"
+  }
+ ],
+ "hio/073-logan-brutsche-of-daihard": [
+  {
+   "name": "Logan Brutsche",
+   "role": "guest",
+   "affiliation": "DAIHard"
+  }
+ ],
+ "hio/074-skale-labs-stan-kladko": [
+  {
+   "name": "Stan Kladko",
+   "role": "guest",
+   "affiliation": "CTO of SKALE Labs"
+  }
+ ],
+ "hio/075-truman-esmond-vp-of-aais": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "host"
+  },
+  {
+   "name": "Truman Esmond",
+   "role": "guest",
+   "affiliation": "VP of Solutions and Partnerships at AAIS"
+  }
+ ],
+ "hio/076-namebaseio-tieshun-roquerre": [
+  {
+   "name": "Tieshun Roquerre",
+   "role": "guest",
+   "affiliation": "Namebase"
+  }
+ ],
+ "hio/077-tendermint-cosmos-brent-chjango-sunny": [
+  {
+   "name": "Brent",
+   "role": "guest",
+   "affiliation": "Tendermint"
+  },
+  {
+   "name": "Chjango",
+   "role": "guest",
+   "affiliation": "Tendermint"
+  },
+  {
+   "name": "Sunny",
+   "role": "guest",
+   "affiliation": "Tendermint"
+  }
+ ],
+ "hio/078-certora-mooly-sagiv": [
+  {
+   "name": "Mooly Sagiv",
+   "role": "guest",
+   "affiliation": "Certora"
+  }
+ ],
+ "hio/079-alex-masmejean-rocket": [
+  {
+   "name": "Alex Masmejean",
+   "role": "guest",
+   "affiliation": "MetaCartel; Rocket NFT"
+  }
+ ],
+ "hio/080-golem-ceo-piotr-janiuk": [
+  {
+   "name": "Piotr Janiuk",
+   "role": "guest",
+   "affiliation": "CEO of Golem"
+  }
+ ],
+ "hio/081-unstoppable-domains-brad-kam": [
+  {
+   "name": "Brad Kam",
+   "role": "guest",
+   "affiliation": "Unstoppable Domains"
+  }
+ ],
+ "hio/082-the-transition-with-dean-and-john": [
+  {
+   "name": "Collin Cusce",
+   "role": "host"
+  },
+  {
+   "name": "Dean Eigenmann",
+   "role": "host"
+  },
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  }
+ ],
+ "hio/083-panvala-niran-babalola": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  },
+  {
+   "name": "Niran Babalola",
+   "role": "guest",
+   "affiliation": "Panvala"
+  }
+ ],
+ "hio/084-ava-labs-kevin-sekniqi-and-stephen-buttolph": [
+  {
+   "name": "Kevin Sekniqi",
+   "role": "guest",
+   "affiliation": "Ava Labs"
+  },
+  {
+   "name": "Stephen Buttolph",
+   "role": "guest",
+   "affiliation": "Ava Labs"
+  }
+ ],
+ "hio/085-gauntlet-network-tarun-chitra": [
+  {
+   "name": "Tarun Chitra",
+   "role": "guest",
+   "affiliation": "Founder and CEO of Gauntlet"
+  }
+ ],
+ "hio/086-ethereum-founder-vitalik-buterin": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Dean Eigenmann",
+   "role": "host"
+  },
+  {
+   "name": "Vitalik Buterin",
+   "role": "guest",
+   "affiliation": "Ethereum founder"
+  }
+ ],
+ "hio/087-informal-systems-ethan-buchman": [
+  {
+   "name": "Dean Eigenmann",
+   "role": "host"
+  },
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  },
+  {
+   "name": "Ethan Buchman",
+   "role": "guest",
+   "affiliation": "CEO of Informal Systems"
+  }
+ ],
+ "hio/088-foursquare-max-sklar": [
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  },
+  {
+   "name": "Jaye",
+   "role": "host"
+  },
+  {
+   "name": "Max Sklar",
+   "role": "guest",
+   "affiliation": "Foursquare"
+  }
+ ],
+ "hio/089-optimism-karl-floersch": [
+  {
+   "name": "Karl Floersch",
+   "role": "guest",
+   "affiliation": "Optimism"
+  }
+ ],
+ "hio/090-core-scientific-ian-ferreira": [
+  {
+   "name": "Dean Eigenmann",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Ian Ferreira",
+   "role": "guest",
+   "affiliation": "Core Scientific"
+  }
+ ],
+ "hio/091-paradigm-dan-robinson": [
+  {
+   "name": "Dan Robinson",
+   "role": "guest",
+   "affiliation": "Research Partner at Paradigm"
+  }
+ ],
+ "hio/092-defisafety-rex-hygate": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  },
+  {
+   "name": "Rex Hygate",
+   "role": "guest",
+   "affiliation": "Head of DefiSafety"
+  }
+ ],
+ "hio/093-sigma-prime-mehdi-zerouali": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  },
+  {
+   "name": "Mehdi Zerouali",
+   "role": "guest",
+   "affiliation": "Sigma Prime"
+  }
+ ],
+ "hio/094-marco-rodrigues-web-30": [
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Marco Rodrigues",
+   "role": "guest"
+  }
+ ],
+ "hio/095-cartesi-augusto-texeria-erick-de-moura": [
+  {
+   "name": "Augusto Texeria",
+   "role": "guest",
+   "affiliation": "Cartesi"
+  },
+  {
+   "name": "Erick De Moura",
+   "role": "guest",
+   "affiliation": "Cartesi"
+  }
+ ],
+ "hio/096-fetchai-coo-toby-simpson": [
+  {
+   "name": "Toby Simpson",
+   "role": "guest",
+   "affiliation": "COO of Fetch.ai"
+  }
+ ],
+ "hio/097-circlesubi-sarah-friend": [
+  {
+   "name": "Sarah Friend",
+   "role": "guest",
+   "affiliation": "Circles UBI"
+  }
+ ],
+ "hio/098-eth-20-panel-after-the-launch": [
+  {
+   "name": "Jaye",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Ben Edington",
+   "role": "guest",
+   "affiliation": "ConsenSys"
+  },
+  {
+   "name": "Gregory Markou",
+   "role": "guest",
+   "affiliation": "ChainSafe"
+  }
+ ],
+ "hio/099-personals-taylor-monahan": [
+  {
+   "name": "Taylor Monahan",
+   "role": "guest"
+  }
+ ],
+ "hio/100-chris-and-jay-of-reach": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "John Mardlin",
+   "role": "host"
+  },
+  {
+   "name": "Chris",
+   "role": "guest",
+   "affiliation": "Reach"
+  },
+  {
+   "name": "Jay",
+   "role": "guest",
+   "affiliation": "Reach"
+  }
+ ],
+ "hio/101-personals-vivek-singh": [
+  {
+   "name": "Vivek Singh",
+   "role": "guest",
+   "affiliation": "Operations Lead at Consensus Systems"
+  }
+ ],
+ "hio/102-personals-griff-green": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Griff Green",
+   "role": "guest"
+  }
+ ],
+ "hio/103-personals-exiledsurfer": [
+  {
+   "name": "ExiledSurfer",
+   "role": "guest",
+   "affiliation": "Parallel Polis hackathon organizer"
+  }
+ ],
+ "hio/104-niran-babalola-and-panvala": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jaye",
+   "role": "host"
+  },
+  {
+   "name": "Niran Babalola",
+   "role": "guest",
+   "affiliation": "Panvala"
+  }
+ ],
+ "hio/105-optimism": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "John",
+   "role": "guest",
+   "affiliation": "Optimism"
+  },
+  {
+   "name": "Ben",
+   "role": "guest",
+   "affiliation": "Optimism"
+  }
+ ],
+ "hio/106-superrare-nft-marketplace": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jaye",
+   "role": "host"
+  },
+  {
+   "name": "Ryan Collins",
+   "role": "guest",
+   "affiliation": "SuperRare"
+  }
+ ],
+ "hio/107-personals-austin-griffith": [
+  {
+   "name": "Austin Griffith",
+   "role": "guest",
+   "affiliation": "Ethereum Foundation; BuidlGuidl lead"
+  }
+ ],
+ "hio/108-personals-pranav-maheshwari-thegraph": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Pranav Maheshwari",
+   "role": "guest",
+   "affiliation": "The Graph"
+  }
+ ],
+ "hio/109-personals-rick-dudley": [
+  {
+   "name": "Rick Dudley",
+   "role": "guest",
+   "affiliation": "President of Vulcanize, Inc."
+  }
+ ],
+ "hio/110-panels-digital-ownership-vs-control": [
+  {
+   "name": "Julien",
+   "role": "guest",
+   "affiliation": "Unlock Protocol"
+  },
+  {
+   "name": "Rick Dudley",
+   "role": "guest",
+   "affiliation": "Vulcanize"
+  }
+ ],
+ "hio/111-secureum-rajeev-and-top-performers": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Rajeev Gopalakrishna",
+   "role": "guest",
+   "affiliation": "Founder of Secureum"
+  }
+ ],
+ "hio/113-hardware-infrastructure-pt-2": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Edu Antuña",
+   "role": "guest",
+   "affiliation": "Founder of DAppNode"
+  },
+  {
+   "name": "Pol Lanski",
+   "role": "guest",
+   "affiliation": "Business and ecosystem development, DAppNode"
+  }
+ ],
+ "hio/114-personals-ari-juels": [
+  {
+   "name": "Ari Juels",
+   "role": "guest",
+   "affiliation": "Co-Director of IC3; Chief Scientist at Chainlink Labs; Professor at Cornell Tech"
+  }
+ ],
+ "hio/115-network-infrastructure-pt-1": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Giulia Fanti",
+   "role": "guest",
+   "affiliation": "Assistant Professor of ECE, Carnegie Mellon University"
+  },
+  {
+   "name": "Hanno Cornelius",
+   "role": "guest",
+   "affiliation": "Vac research group, Status"
+  }
+ ],
+ "hio/117-network-infrastructure-pt-2": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Giulia Fanti",
+   "role": "guest",
+   "affiliation": "Assistant Professor of ECE, Carnegie Mellon University"
+  },
+  {
+   "name": "Hanno Cornelius",
+   "role": "guest",
+   "affiliation": "Vac research group, Status"
+  }
+ ],
+ "hio/118-personals-david-theodore": [
+  {
+   "name": "David Theodore",
+   "role": "guest",
+   "affiliation": "Security Researcher, Ethereum"
+  }
+ ],
+ "hio/119-consensus-infrastructure-pt-1": [
+  {
+   "name": "Mohammad Mussadiq Jalalzai",
+   "role": "guest",
+   "affiliation": "Consensus researcher, Status"
+  }
+ ],
+ "hio/121-consensus-infrastructure-pt-2": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Vitalik Buterin",
+   "role": "guest",
+   "affiliation": "Co-founder of Ethereum"
+  }
+ ],
+ "hio/122-personals-lucian-stroie": [
+  {
+   "name": "Lucian Stroie",
+   "role": "guest",
+   "affiliation": "Senior Technical Product Manager at Ava Labs; Founder at Coral"
+  }
+ ],
+ "hio/122-zkdl-camp---episode-4-modular-arithmetic-eulers-theorem-and-exercises": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "hio/124-data-infrastructure-pt-1": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Dmitriy Ryajov",
+   "role": "guest",
+   "affiliation": "Status"
+  },
+  {
+   "name": "Eric Mastro",
+   "role": "guest",
+   "affiliation": "Status"
+  }
+ ],
+ "hio/125-data-infrastructure-pt-2": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Jacek Sieka",
+   "role": "guest",
+   "affiliation": "Status"
+  }
+ ],
+ "hio/126-personals-corey-petty": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "hio/127-application-infrastructure-pt-1": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Patrick McCorry",
+   "role": "guest",
+   "affiliation": "Infura and Lemniscap"
+  }
+ ],
+ "hio/129-application-infrastructure-pt-2": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Patrick O'Grady",
+   "role": "guest",
+   "affiliation": "Ava Labs"
+  }
+ ],
+ "hio/130-personals-dee-ferguson": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "hio/134-personals-steven-mckie": [
+  {
+   "name": "Steven McKie",
+   "role": "guest",
+   "affiliation": "Founding Partner & CEO of Amentum Investment Management"
+  }
+ ],
+ "hio/135-security-pt-1": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Mehdi Zerouali",
+   "role": "guest",
+   "affiliation": "Director at Sigma Prime"
+  }
+ ],
+ "hio/137-personals-andy-boyan": [
+  {
+   "name": "Andy Boyan",
+   "role": "guest",
+   "affiliation": "Co-Founder & CEO of Infinity Keys"
+  }
+ ],
+ "hio/138-throwback-ethdenver-roundtable": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "hio/140-personals-stephen-pair": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Stephen Pair",
+   "role": "guest",
+   "affiliation": "Cofounder, President and CEO of BitPay"
+  }
+ ],
+ "hio/143-leo-bautista-das-and-erasure-coding": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Leo Bautista",
+   "role": "guest",
+   "affiliation": "Senior Research Engineer in Codex at Logos"
+  }
+ ],
+ "hio/145-moh-jalalzai-carnot-consensus": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Mohammad Mussadiq Jalalzai",
+   "role": "guest",
+   "affiliation": "Nomos Distributed Network Researcher at Logos"
+  }
+ ],
+ "hio/146-franck-royer-decentralized-messaging": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Franck Royer",
+   "role": "guest",
+   "affiliation": "Waku Lead at Logos"
+  }
+ ],
+ "hio/147-shane-mac-of-xmtp-the-power-of-web3-messaging": [
+  {
+   "name": "Shane Mac",
+   "role": "guest",
+   "affiliation": "Co-founder of XMTP"
+  }
+ ],
+ "hio/149-lefteris-karapetsas-of-rotki-private-portfolio": [
+  {
+   "name": "Lefteris Karapetsas",
+   "role": "guest",
+   "affiliation": "Rotki"
+  }
+ ],
+ "hio/150-personals-simona-pop-creating-intentional-communities": [
+  {
+   "name": "Simona Pop",
+   "role": "guest"
+  }
+ ],
+ "hio/151-jordi-baylina-of-polygon-zkevm-zero-knowledge": [
+  {
+   "name": "Jordi Baylina",
+   "role": "guest",
+   "affiliation": "Polygon zkEVM"
+  }
+ ],
+ "hio/153-panel-ameen-soleimani-of-privacy-pools-unpacking": [
+  {
+   "name": "Ameen Soleimani",
+   "role": "guest",
+   "affiliation": "Co-author of the Privacy Pools paper"
+  }
+ ],
+ "hio/154-robin-linus-of-zerosync-bitvmorg-pioneering-proof": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Robin Linus",
+   "role": "guest",
+   "affiliation": "ZeroSync"
+  }
+ ],
+ "hio/155-jonny-rhea-joe-delong-zak-cole-the-current-state": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Jonny Rhea",
+   "role": "guest",
+   "affiliation": "DELV"
+  },
+  {
+   "name": "Joe Delong",
+   "role": "guest",
+   "affiliation": "Astaria"
+  },
+  {
+   "name": "Zak Cole",
+   "role": "guest",
+   "affiliation": "Number Group"
+  }
+ ],
+ "hio/156-ray-redacted-personal-responsibility-avoiding": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "hio/157-danny-ryan-permissionless-coordination": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Danny Ryan",
+   "role": "guest",
+   "affiliation": "Researcher at the Ethereum Foundation"
+  }
+ ],
+ "hio/158-paul-sztorc-of-layertwo-labs-drivechains-scaling": [
+  {
+   "name": "Paul Sztorc",
+   "role": "guest",
+   "affiliation": "LayerTwo Labs"
+  }
+ ],
+ "hio/159-vinay-gupta-mattereum-part-1": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "Founder/CEO of Mattereum; original Ethereum team"
+  }
+ ],
+ "hio/160-vinay-gupta-mattereum-part-2": [
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "CEO of Mattereum"
+  }
+ ],
+ "hio/161-zamaai-fully-homomorphic-encryption": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Jason Delabay",
+   "role": "guest",
+   "affiliation": "Zama"
+  },
+  {
+   "name": "Morten Dahl",
+   "role": "guest",
+   "affiliation": "Zama"
+  }
+ ],
+ "hio/162-cloudhead-radicle": [
+  {
+   "name": "Cloudhead",
+   "role": "guest",
+   "affiliation": "Radicle"
+  }
+ ],
+ "hio/163-vinay-gupta-bonus-footage": [
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "Mattereum"
+  }
+ ],
+ "hio/164-panel-peerdas-and-data-availability-sampling-in-practice": [
+  {
+   "name": "Vitalik Buterin",
+   "role": "guest",
+   "affiliation": "Ethereum"
+  },
+  {
+   "name": "Dankrad Feist",
+   "role": "guest",
+   "affiliation": "Ethereum"
+  },
+  {
+   "name": "Dmitriy Ryajov",
+   "role": "guest",
+   "affiliation": "Codex"
+  }
+ ],
+ "hio/165-ian-grigg-financial-cryptography-tokenizing-real": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Ian Grigg",
+   "role": "guest"
+  }
+ ],
+ "hio/166-kieran-mesquita-railgun-transactional-privacy": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Kieran Mesquita",
+   "role": "guest",
+   "affiliation": "Railgun"
+  }
+ ],
+ "hio/167-david-vorick-glow-sustainable-solar-farming": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "David Vorick",
+   "role": "guest",
+   "affiliation": "Glow"
+  }
+ ],
+ "hio/168-cyprien-grau-status-app-governance-enabled": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Cyprien Grau",
+   "role": "guest",
+   "affiliation": "Status"
+  }
+ ],
+ "hio/169-matty-tokenomics-tokenomics-for-builders": [
+  {
+   "name": "Matty Tokenomics",
+   "role": "guest",
+   "affiliation": "Tokenomics researcher; author of Tokenomics for Builders",
+   "links": {
+    "twitter": "https://x.com/mattyTokenomics",
+    "other": [
+     "https://tokenomics-guide.notion.site/Tokenomics-for-Builders-The-Practitioner-s-Guide-to-Token-Design-b5154feba117415cafd67678355e317b"
+    ]
+   }
+  }
+ ],
+ "hio/170-nathan-vandy-dappradar": [
+  {
+   "name": "Nathan Vandy",
+   "role": "guest",
+   "affiliation": "DappRadar"
+  }
+ ],
+ "hio/171-nathan-sexer-skylar-devcon-7-south-east-asia": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Nathan Sexer",
+   "role": "guest",
+   "affiliation": "Ethereum Foundation"
+  },
+  {
+   "name": "Skylar",
+   "role": "guest",
+   "affiliation": "Ethereum Foundation"
+  }
+ ],
+ "hio/172-ryan-john-king-foam-the-trust-zone": [
+  {
+   "name": "Ryan John King",
+   "role": "guest",
+   "affiliation": "Co-founder and CEO of FOAM"
+  }
+ ],
+ "hio/173-mario-di-dio-helium-mobile-decentralized-hotspots": [
+  {
+   "name": "Mario Di Dio",
+   "role": "guest",
+   "affiliation": "GM of Network at Nova Labs"
+  }
+ ],
+ "hio/174-michael-parenti-exiled-surfer": [
+  {
+   "name": "Michael Parenti",
+   "role": "guest",
+   "affiliation": "Exiled Surfer"
+  }
+ ],
+ "hio/176-pol-lanski-dappnode-mev-smoothing-protocol": [
+  {
+   "name": "Pol Lanski",
+   "role": "guest",
+   "affiliation": "DAppNode"
+  }
+ ],
+ "hio/178-alisher-status-app-update": [
+  {
+   "name": "Alisher",
+   "role": "guest",
+   "affiliation": "Designer at Status"
+  }
+ ],
+ "hio/180-zak-cole-on-adversarial-specs-and-ai-powered-product-development": [
+  {
+   "name": "Zak Cole",
+   "role": "guest",
+   "affiliation": "Serial Ethereum builder",
+   "links": {
+    "twitter": "https://x.com/0xzak"
+   }
+  }
+ ],
+ "hio/200-zkdl-camp-episode-2-mathematics-crash-course": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "hio/381-zkdl-camp---episode-3-prime-numbers-and-fundamental-theorem-of-arithmetic": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "hio/382-zkdl-camp---episode-5-modular-arithmetic-exercises": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "hio/383-zkdl-camp---episode-6-exercises-part-2": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "hio/385-zkld-camp---episode-7-intro-to-abstract-algebra": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/027-tbp28-modern-day-gold-rush": [
+  {
+   "name": "Joshua Scigala",
+   "role": "guest",
+   "affiliation": "CEO of Vaultoro"
+  }
+ ],
+ "tbp/028-tbp29-take-the-power-back": [
+  {
+   "name": "Filip Martinka",
+   "role": "guest",
+   "affiliation": "CEO of Plutus"
+  }
+ ],
+ "tbp/029-tbp30-bottoms-up-3": [
+  {
+   "name": "Andrew",
+   "role": "guest"
+  }
+ ],
+ "tbp/030-tbp31-off-the-transparency-chain": [
+  {
+   "name": "Jessi Baker",
+   "role": "guest",
+   "affiliation": "Founder of Provenance"
+  }
+ ],
+ "tbp/031-tbp32-the-marketing-blueprint": [
+  {
+   "name": "Tony Sakich",
+   "role": "guest",
+   "affiliation": "Director of marketing at Augur"
+  }
+ ],
+ "tbp/032-tbp33-canadian-bitcoin-scenario": [
+  {
+   "name": "Chris Horlacher",
+   "role": "guest",
+   "affiliation": "CEO of Equibit"
+  }
+ ],
+ "tbp/033-tbp34-20000-lines-under-the-code": [
+  {
+   "name": "Ryan X Charles",
+   "role": "guest",
+   "affiliation": "Datt"
+  }
+ ],
+ "tbp/034-tbp35-disruption-or-disconnect": [
+  {
+   "name": "Imogen Heap",
+   "role": "guest"
+  },
+  {
+   "name": "Tony Sakich",
+   "role": "guest",
+   "affiliation": "Augur"
+  }
+ ],
+ "tbp/035-tbp36-bakesales-for-bombers": [
+  {
+   "name": "M.K. Lords",
+   "role": "guest"
+  }
+ ],
+ "tbp/036-tbp37-bitcoining-with-the-basedgod": [
+  {
+   "name": "Lil B",
+   "role": "guest"
+  }
+ ],
+ "tbp/037-tbp38-assumption-of-trust": [
+  {
+   "name": "Alena Vranova",
+   "role": "guest",
+   "affiliation": "Creator of TREZOR"
+  }
+ ],
+ "tbp/039-tbp40-a-conservative-trillion": [
+  {
+   "name": "Noel Lovisa",
+   "role": "guest",
+   "affiliation": "Code Valley"
+  },
+  {
+   "name": "Tony Sakich",
+   "role": "guest",
+   "affiliation": "Augur"
+  }
+ ],
+ "tbp/040-tbp41-making-inroads-with-merchants": [
+  {
+   "name": "Michael Dunworth",
+   "role": "guest",
+   "affiliation": "Co-founder of Snapcard"
+  }
+ ],
+ "tbp/041-tbp42-true-micropayments": [
+  {
+   "name": "Valerian Bennett",
+   "role": "guest",
+   "affiliation": "Creator of PopChest"
+  }
+ ],
+ "tbp/042-tbp43-the-mystery-of-capital": [
+  {
+   "name": "Matt McKibbin",
+   "role": "guest",
+   "affiliation": "Director of Business Development"
+  },
+  {
+   "name": "Christian Saucier",
+   "role": "guest"
+  }
+ ],
+ "tbp/043-tbp44-who-is-bitcoin-girl": [
+  {
+   "name": "Naomi Brockwell",
+   "role": "guest"
+  }
+ ],
+ "tbp/044-tbp45-bitcoin-evangelism": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Roger Ver",
+   "role": "guest"
+  }
+ ],
+ "tbp/045-tbp46-the-fundamental-conflict": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Professor at Cornell University"
+  }
+ ],
+ "tbp/046-tbp47-bottoms-up-4": [
+  {
+   "name": "Erin",
+   "role": "guest",
+   "affiliation": "Corey Petty's wife"
+  }
+ ],
+ "tbp/047-tbp48-inertia-my-friend": [
+  {
+   "name": "Aldo Carrascoso",
+   "role": "guest",
+   "affiliation": "Co-Founder of Align Commerce"
+  }
+ ],
+ "tbp/048-tbp49-welterweight-gold": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Jon Fitch",
+   "role": "guest",
+   "affiliation": "MMA fighter"
+  }
+ ],
+ "tbp/049-tbp50-not-giving-a-good-got-damn": [
+  {
+   "name": "Steven McKie",
+   "role": "guest"
+  }
+ ],
+ "tbp/050-tbp51-such-wow": [
+  {
+   "name": "Laura Lopez",
+   "role": "guest",
+   "affiliation": "Los Angeles-based reality TV editor; SuchWow.tv"
+  }
+ ],
+ "tbp/051-tbp52-potential-of-the-sdk": [
+  {
+   "name": "M.K. Lords",
+   "role": "guest",
+   "affiliation": "Community Manager at Airbitz"
+  },
+  {
+   "name": "Jim Horton",
+   "role": "guest",
+   "affiliation": "CTO of Airbitz"
+  }
+ ],
+ "tbp/052-tbp53-tough-math": [
+  {
+   "name": "James D'Angelo",
+   "role": "guest"
+  }
+ ],
+ "tbp/053-tbp54-revisiting-the-divine-child": [
+  {
+   "name": "David Seaman",
+   "role": "guest"
+  }
+ ],
+ "tbp/054-tbp55-the-cryptocurrency-20-project": [
+  {
+   "name": "Joseph Lubin",
+   "role": "guest",
+   "affiliation": "Co-Founder of Ethereum; ConsenSys"
+  }
+ ],
+ "tbp/055-tbp56-exploring-european-fintech": [
+  {
+   "name": "Filip Martinka",
+   "role": "guest",
+   "affiliation": "Plutus"
+  }
+ ],
+ "tbp/057-tbp58-the-art-of-the-deal": [
+  {
+   "name": "Trace Mayer",
+   "role": "guest",
+   "affiliation": "Host of Bitcoin Knowledge podcast"
+  }
+ ],
+ "tbp/058-tbp59-incredible-india": [
+  {
+   "name": "Abi Aryan",
+   "role": "guest"
+  }
+ ],
+ "tbp/059-tbp60-release-the-kraken": [
+  {
+   "name": "Steven McKie",
+   "role": "guest",
+   "affiliation": "Yours"
+  },
+  {
+   "name": "Jesse Powell",
+   "role": "guest",
+   "affiliation": "Co-founder of Kraken"
+  }
+ ],
+ "tbp/060-tbp61-escaping-war-zones": [
+  {
+   "name": "Frank Schuil",
+   "role": "guest",
+   "affiliation": "CEO & Co-founder of Safello"
+  }
+ ],
+ "tbp/061-tbp62-still-holding-up-the-sky": [
+  {
+   "name": "Tawanda Kembo",
+   "role": "guest",
+   "affiliation": "Bitcoin evangelist in Africa"
+  }
+ ],
+ "tbp/064-tbp65-exosphere-academy": [
+  {
+   "name": "Moritz",
+   "role": "guest",
+   "affiliation": "Ethereum Curator at Exosphere"
+  },
+  {
+   "name": "Philip Saunders",
+   "role": "guest",
+   "affiliation": "Instructor at Exosphere"
+  }
+ ],
+ "tbp/065-tbp67-follow-the-leadtuur": [
+  {
+   "name": "Tuur Demeester",
+   "role": "guest",
+   "affiliation": "Independent investor and commentator"
+  }
+ ],
+ "tbp/066-tbp68-deconstructing-thedao-attack": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Cornell University"
+  },
+  {
+   "name": "Valerian Bennett",
+   "role": "guest",
+   "affiliation": "Creator of PopChest"
+  }
+ ],
+ "tbp/069-tbp71-bitcoin-wealth-alliance": [
+  {
+   "name": "Chris Dunn",
+   "role": "guest"
+  }
+ ],
+ "tbp/070-tbp72-the-broader-economy": [
+  {
+   "name": "Andreas M. Antonopoulos",
+   "role": "guest"
+  }
+ ],
+ "tbp/071-tbp73-navigating-the-new-marketplace": [
+  {
+   "name": "Andrew Lee",
+   "role": "guest",
+   "affiliation": "Co-founder of Purse"
+  }
+ ],
+ "tbp/072-tbp74-cryptocurrency-fellowship": [
+  {
+   "name": "Tony Swish",
+   "role": "guest",
+   "affiliation": "Augur"
+  }
+ ],
+ "tbp/073-tbp75-attention-economy": [
+  {
+   "name": "Don Konforty",
+   "role": "guest"
+  },
+  {
+   "name": "Greg Meredith",
+   "role": "guest",
+   "affiliation": "Synereo"
+  }
+ ],
+ "tbp/074-tbp76-skynet": [
+  {
+   "name": "Matt Liston",
+   "role": "guest",
+   "affiliation": "Gnosis"
+  }
+ ],
+ "tbp/075-tbp77-collective-governance": [
+  {
+   "name": "Greg Slepak",
+   "role": "guest",
+   "affiliation": "Developer of Espionage 3; founder of okTurtles Foundation"
+  }
+ ],
+ "tbp/076-tbp78-the-price-of-privatization": [
+  {
+   "name": "Arthur Falls",
+   "role": "guest",
+   "affiliation": "Leads ConsenSys Media"
+  }
+ ],
+ "tbp/077-tbp80-a-means-to-an-end": [
+  {
+   "name": "Max Kordek",
+   "role": "guest",
+   "affiliation": "Founder of Lisk"
+  },
+  {
+   "name": "Steven McKie",
+   "role": "guest"
+  }
+ ],
+ "tbp/078-tbp81-redefining-trust": [
+  {
+   "name": "Mariana Dahan",
+   "role": "guest",
+   "affiliation": "Senior Operations Officer, World Bank"
+  }
+ ],
+ "tbp/079-tbp82-unifying-blockchain-tech": [
+  {
+   "name": "Anthony Di Iorio",
+   "role": "guest",
+   "affiliation": "CEO and founder of Jaxx and Decentral; Ethereum co-founder"
+  }
+ ],
+ "tbp/080-tbp83-lightning-network-deep-dive": [
+  {
+   "name": "Olaoluwa Osuntokun",
+   "role": "guest"
+  },
+  {
+   "name": "Steven McKie",
+   "role": "guest",
+   "affiliation": "Yours"
+  },
+  {
+   "name": "Valerian Bennett",
+   "role": "guest",
+   "affiliation": "PopChest"
+  }
+ ],
+ "tbp/081-tbp84-arcade-city-glorification": [
+  {
+   "name": "Christopher David",
+   "role": "guest",
+   "affiliation": "Arcade City"
+  }
+ ],
+ "tbp/082-tbp85-crossing-the-chasm": [
+  {
+   "name": "Matej Michalko",
+   "role": "guest",
+   "affiliation": "Co-founder and CEO of DECENT"
+  }
+ ],
+ "tbp/083-tbp86-exploring-macroeconomics": [
+  {
+   "name": "Collin Thompson",
+   "role": "guest",
+   "affiliation": "Blockchain/IoT entrepreneur and VC investor, Hong Kong"
+  }
+ ],
+ "tbp/084-tbp87-the-world-is-yours": [
+  {
+   "name": "Ryan X Charles",
+   "role": "guest",
+   "affiliation": "Yours"
+  }
+ ],
+ "tbp/085-tbp88-bitcoin-bike-shed": [
+  {
+   "name": "Christopher Jeffrey",
+   "role": "guest",
+   "affiliation": "CTO & Engineer at Purse"
+  },
+  {
+   "name": "Steven McKie",
+   "role": "guest"
+  }
+ ],
+ "tbp/086-tbp89-the-iot-frontier": [
+  {
+   "name": "Conor Colwell",
+   "role": "guest",
+   "affiliation": "Chain of Things"
+  }
+ ],
+ "tbp/087-tbp90-silicon-valley-in-a-box": [
+  {
+   "name": "Scott Robinson",
+   "role": "guest",
+   "affiliation": "Founder partner and director of Plug and Play FinTech"
+  }
+ ],
+ "tbp/088-tbp91-exosphere-academy-ii": [
+  {
+   "name": "Moritz Bierling",
+   "role": "guest",
+   "affiliation": "Exosphere Academy"
+  },
+  {
+   "name": "Schlomi",
+   "role": "guest",
+   "affiliation": "Exosphere Academy"
+  }
+ ],
+ "tbp/090-tbp93-cryptographic-verification": [
+  {
+   "name": "Gavin Andresen",
+   "role": "guest"
+  }
+ ],
+ "tbp/091-tbp94-reputation-tokens": [
+  {
+   "name": "Tony Sakich",
+   "role": "guest"
+  }
+ ],
+ "tbp/092-tbp95-the-jobs-act": [
+  {
+   "name": "Paul Puey",
+   "role": "guest",
+   "affiliation": "CEO of Airbitz"
+  }
+ ],
+ "tbp/094-tbp96-a-fireside-chat": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/095-tbp97-hype-or-hope": [
+  {
+   "name": "James Lloyd",
+   "role": "guest",
+   "affiliation": "CTO of Redox"
+  },
+  {
+   "name": "QuHarrison Terry",
+   "role": "guest",
+   "affiliation": "Marketing director at Redox"
+  }
+ ],
+ "tbp/096-tbp98-ubitquity-part-duex": [
+  {
+   "name": "Nathan Wosnack",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  },
+  {
+   "name": "Marina Reznik",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  }
+ ],
+ "tbp/098-tbp99-blockchain-supercomputer": [
+  {
+   "name": "Alex Leverington",
+   "role": "guest",
+   "affiliation": "Golem"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/099-tbp100-thai-gone-wild": [
+  {
+   "name": "Keni Styles",
+   "role": "guest"
+  }
+ ],
+ "tbp/100-tbp101-worlds-first-supernode-infrastructure": [
+  {
+   "name": "Chris Horlacher",
+   "role": "guest",
+   "affiliation": "CEO of EDC"
+  }
+ ],
+ "tbp/1000-jameson-lopp-technology-to-empower-individuals": [
+  {
+   "name": "Jameson Lopp",
+   "role": "guest"
+  },
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Logos Podcast"
+  }
+ ],
+ "tbp/1001-federico-ast-kleros-decentralised-arbitration": [
+  {
+   "name": "Federico Ast",
+   "role": "guest",
+   "affiliation": "Founder of Kleros"
+  },
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Logos Podcast"
+  }
+ ],
+ "tbp/1007-the-bitcoin-podcast-s02e02-the-gang-talks-ordinals": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Ahmad",
+   "role": "host"
+  }
+ ],
+ "tbp/101-tbp102-building-bridges-initiative": [
+  {
+   "name": "Mike Doty",
+   "role": "guest",
+   "affiliation": "ARK"
+  }
+ ],
+ "tbp/1010-the-bitcoin-podcast-s02e03-yeah-baby-we-like-it": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/103-tbp103-a-jack-of-all-trades": [
+  {
+   "name": "Jack Tater",
+   "role": "guest",
+   "affiliation": "GEM Research Solutions"
+  }
+ ],
+ "tbp/104-tbp104-currency-to-a-wider-public": [
+  {
+   "name": "Rithy Thul",
+   "role": "guest",
+   "affiliation": "Co-founder of Smallworld Cambodia"
+  },
+  {
+   "name": "Stephen Pair",
+   "role": "guest",
+   "affiliation": "Co-founder and president of BitPay"
+  }
+ ],
+ "tbp/105-tbp105-music-industry-20": [
+  {
+   "name": "Jesse Grushack",
+   "role": "guest",
+   "affiliation": "Co-founder of Ujo Music"
+  }
+ ],
+ "tbp/107-tbp106-a-very-bitcoin-christmas": [
+  {
+   "name": "Elias Player",
+   "role": "guest"
+  }
+ ],
+ "tbp/108-tbp107-like-father-like-son": [
+  {
+   "name": "Dmitry Buterin",
+   "role": "guest"
+  }
+ ],
+ "tbp/111-tbp108-ether-camp": [
+  {
+   "name": "Roman Mandeleil",
+   "role": "guest",
+   "affiliation": "CEO and founder of Ether Camp"
+  }
+ ],
+ "tbp/112-tbp109-the-human-influence": [
+  {
+   "name": "Chris Omenihu",
+   "role": "guest",
+   "affiliation": "Founder of Human Influence"
+  }
+ ],
+ "tbp/115-tbp110-the-technological-revolution": [
+  {
+   "name": "Bruce Pon",
+   "role": "guest",
+   "affiliation": "Founder of BigchainDB"
+  }
+ ],
+ "tbp/116-tbp111-disrupting-global-commerce": [
+  {
+   "name": "Arthur",
+   "role": "guest",
+   "affiliation": "ConsenSys Media"
+  }
+ ],
+ "tbp/119-tbp112-the-broader-economy-ii": [
+  {
+   "name": "Matt McKibbin",
+   "role": "guest",
+   "affiliation": "Equibit"
+  }
+ ],
+ "tbp/123-tbp113-innovators-lab": [
+  {
+   "name": "Amanda Gutterman",
+   "role": "guest",
+   "affiliation": "ConsenSys"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/125-tbp114-life-after-trezor": [
+  {
+   "name": "Alena Vranova",
+   "role": "guest",
+   "affiliation": "Former CEO of SatoshiLabs"
+  }
+ ],
+ "tbp/127-tbp115-this-week-in-ethereum": [
+  {
+   "name": "Evan Van Ness",
+   "role": "guest",
+   "affiliation": "Creator of This Week in Ethereum"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/131-tbp116-building-the-iron-man-suit": [
+  {
+   "name": "Adam Draper",
+   "role": "guest",
+   "affiliation": "Founder and managing director of Boost VC"
+  }
+ ],
+ "tbp/132-tbp117-venturing-into-the-web3": [
+  {
+   "name": "Mel Gelderman",
+   "role": "guest",
+   "affiliation": "Co-founder of Monolith Studio"
+  }
+ ],
+ "tbp/135-tbp118-bitcoin-or-how-i-learned-to-stop-worrying": [
+  {
+   "name": "Greg Walker",
+   "role": "guest",
+   "affiliation": "Creator of inersha Bitcoin website"
+  }
+ ],
+ "tbp/139-tbp120-the-token-protocol": [
+  {
+   "name": "Michael Wagner",
+   "role": "guest",
+   "affiliation": "TOKES Platform"
+  }
+ ],
+ "tbp/140-tbp121-liberty-life-trails": [
+  {
+   "name": "Tone Vays",
+   "role": "guest"
+  }
+ ],
+ "tbp/142-tbp122-ubitquity-part-iii": [
+  {
+   "name": "Nathan Wosnack",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  },
+  {
+   "name": "Marina Reznek",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  }
+ ],
+ "tbp/143-tbp123-asicboost-catch-22": [
+  {
+   "name": "Jeremy Epstein",
+   "role": "guest"
+  }
+ ],
+ "tbp/146-tbp124-affording-the-high-risk": [
+  {
+   "name": "Cynthia Gayton",
+   "role": "guest",
+   "affiliation": "Attorney and teacher"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/151-tbp126-litecoins-segwit-activation": [
+  {
+   "name": "Charlie Lee",
+   "role": "guest",
+   "affiliation": "Litecoin"
+  }
+ ],
+ "tbp/153-tbp127-marketing-discipline": [
+  {
+   "name": "Jeremy Epstein",
+   "role": "guest",
+   "affiliation": "CEO of Never Stop Marketing"
+  }
+ ],
+ "tbp/154-tbp128-family": [
+  {
+   "name": "Kenn Bosak",
+   "role": "guest"
+  }
+ ],
+ "tbp/155-tbp129-the-inherent-risks": [
+  {
+   "name": "Nick Johnson",
+   "role": "guest",
+   "affiliation": "Ethereum Foundation"
+  }
+ ],
+ "tbp/159-tbp130-consensus-recap-and-sphre": [
+  {
+   "name": "Daren Seymour",
+   "role": "guest",
+   "affiliation": "CEO of SPHRE"
+  }
+ ],
+ "tbp/162-tbp131-ending-corporate-dominance": [
+  {
+   "name": "Muneeb Ali",
+   "role": "guest",
+   "affiliation": "Blockstack"
+  }
+ ],
+ "tbp/163-tbp132-dark-side-of-the-prism": [
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "ShapeShift"
+  }
+ ],
+ "tbp/166-tbp134-more-marketing-discipline": [
+  {
+   "name": "Jeremy Epstein",
+   "role": "guest",
+   "affiliation": "CEO of Never Stop Marketing"
+  }
+ ],
+ "tbp/171-tbp135-yanking-our-blockchain": [
+  {
+   "name": "Margaux Avedisian",
+   "role": "guest",
+   "affiliation": "Bitcoin comedian"
+  }
+ ],
+ "tbp/174-tbp136-a-new-type-of-ownership": [
+  {
+   "name": "Moritz",
+   "role": "guest",
+   "affiliation": "Neufund"
+  },
+  {
+   "name": "Marcin Rudolf",
+   "role": "guest",
+   "affiliation": "Serial CTO and startup founder"
+  }
+ ],
+ "tbp/177-tbp137-countdown-to-segwit": [
+  {
+   "name": "Jonathan Chester",
+   "role": "guest",
+   "affiliation": "Bitwage"
+  }
+ ],
+ "tbp/181-tbp138-the-21st-century-49ers": [
+  {
+   "name": "David Carlson",
+   "role": "guest",
+   "affiliation": "Giga Watt"
+  }
+ ],
+ "tbp/183-tbp139-surviving-the-bip-148-uasf": [
+  {
+   "name": "Aaron van Wirdum",
+   "role": "guest",
+   "affiliation": "Bitcoin Magazine"
+  }
+ ],
+ "tbp/189-tbp141-the-cmo-primer-for-the-blockchain-world": [
+  {
+   "name": "Jeremy Epstein",
+   "role": "guest"
+  }
+ ],
+ "tbp/190-tbp142-the-need-for-more-information": [
+  {
+   "name": "Alex Sunnarborg",
+   "role": "guest",
+   "affiliation": "Research analyst at CoinDesk"
+  }
+ ],
+ "tbp/192-tbp143-damned-if-you-do-bored-if-you-dont": [
+  {
+   "name": "Rodolfo Novak",
+   "role": "guest",
+   "affiliation": "CEO of Coinkite"
+  }
+ ],
+ "tbp/198-tbp146-the-rise-and-rise-of-charlie-shrem": [
+  {
+   "name": "Charlie Shrem",
+   "role": "guest"
+  }
+ ],
+ "tbp/200-tbp147-history-of-security": [
+  {
+   "name": "Mushegh Hakhinian",
+   "role": "guest",
+   "affiliation": "Chief Security Architect at Synchronoss"
+  }
+ ],
+ "tbp/203-tbp148-controversial-persona": [
+  {
+   "name": "Samson Mow",
+   "role": "guest",
+   "affiliation": "Chief Strategy Officer at Blockstream"
+  }
+ ],
+ "tbp/206-tbp149-the-rivetz-security-project": [
+  {
+   "name": "Steven Sprague",
+   "role": "guest",
+   "affiliation": "CEO of Rivetz Corp"
+  }
+ ],
+ "tbp/213-tbp151-crypto-boom-boom-room": [
+  {
+   "name": "Stephan Bonnar",
+   "role": "guest",
+   "affiliation": "Co-owner of The Legends Room"
+  }
+ ],
+ "tbp/215-tbp152-pally-on-the-block": [
+  {
+   "name": "Oliver",
+   "role": "guest",
+   "affiliation": "CEO of Pally"
+  }
+ ],
+ "tbp/218-tbp153-bitcoin-sell-out": [
+  {
+   "name": "Brian Hoffman",
+   "role": "guest",
+   "affiliation": "CEO of OB1"
+  }
+ ],
+ "tbp/221-tbp154-bitcoin-for-the-bottom-billion-pt-2": [
+  {
+   "name": "Fereshteh",
+   "role": "guest",
+   "affiliation": "Code To Inspire"
+  }
+ ],
+ "tbp/222-tbp155-crypto-swan-song": [
+  {
+   "name": "Jimmy Song",
+   "role": "guest"
+  }
+ ],
+ "tbp/226-tbp156-combined-forces-for-better-results": [
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "Sweetbridge Foundation advisor"
+  }
+ ],
+ "tbp/227-tbp157-modern-day-gold-rush-pt-ii": [
+  {
+   "name": "Joshua Scigala",
+   "role": "guest",
+   "affiliation": "Vaultoro"
+  }
+ ],
+ "tbp/231-tbp158-the-credit-protocol": [
+  {
+   "name": "Jared",
+   "role": "guest",
+   "affiliation": "BlockMason"
+  },
+  {
+   "name": "Timothy",
+   "role": "guest",
+   "affiliation": "BlockMason"
+  }
+ ],
+ "tbp/234-tbp159-diary-of-a-made-man": [
+  {
+   "name": "Ian Balina",
+   "role": "guest"
+  }
+ ],
+ "tbp/236-tbp160-bitcoin-beats": [
+  {
+   "name": "Preston",
+   "role": "guest",
+   "affiliation": "DJsNeverEndingStory"
+  }
+ ],
+ "tbp/241-tbp161-a-foundation-for-the-data-economy": [
+  {
+   "name": "Charlie Silver",
+   "role": "guest",
+   "affiliation": "CEO of Algebraix Data"
+  },
+  {
+   "name": "Robin Bloor",
+   "role": "guest",
+   "affiliation": "Algebraix Data"
+  }
+ ],
+ "tbp/242-tbp162-sweet-talk": [
+  {
+   "name": "Scott Nelson",
+   "role": "guest",
+   "affiliation": "CEO and chairman of Sweetbridge"
+  }
+ ],
+ "tbp/245-tbp163-savings-and-savior": [
+  {
+   "name": "Luke Forstmann",
+   "role": "guest",
+   "affiliation": "Co-founder of Christ Coin"
+  }
+ ],
+ "tbp/246-tbp164-the-benefits-of-familiarity": [
+  {
+   "name": "Alex Wearn",
+   "role": "guest",
+   "affiliation": "CEO of DC"
+  }
+ ],
+ "tbp/248-tbp165-praise-for-cryptoassets": [
+  {
+   "name": "Stephen McKeon",
+   "role": "guest"
+  }
+ ],
+ "tbp/253-tbp167-the-broader-economy-iii": [
+  {
+   "name": "Andreas Antonopoulos",
+   "role": "guest"
+  }
+ ],
+ "tbp/256-tbp168-passion-pain-unicorn-slayin": [
+  {
+   "name": "Arianna Simpson",
+   "role": "guest"
+  }
+ ],
+ "tbp/260-tbp170-a-new-kind-of-legal": [
+  {
+   "name": "Amy Wan",
+   "role": "guest",
+   "affiliation": "Securities attorney"
+  }
+ ],
+ "tbp/264-tbp171-the-future-of-giving": [
+  {
+   "name": "Griff Green",
+   "role": "guest",
+   "affiliation": "Giveth"
+  }
+ ],
+ "tbp/267-monero-monitor-mimblewimble-with-andrew-poelstra": [
+  {
+   "name": "Andrew Poelstra",
+   "role": "guest",
+   "affiliation": "Bitcoin developer and mathematician at Blockstream"
+  }
+ ],
+ "tbp/268-tbp172-life-after-silicon-valley": [
+  {
+   "name": "Preethi Kasireddy",
+   "role": "guest"
+  },
+  {
+   "name": "Daniel Baker",
+   "role": "guest"
+  }
+ ],
+ "tbp/270-tbp173-surprising-insights": [
+  {
+   "name": "JJ",
+   "role": "guest",
+   "affiliation": "BlockEdge Capital"
+  },
+  {
+   "name": "Noah",
+   "role": "guest",
+   "affiliation": "BlockEdge Capital"
+  }
+ ],
+ "tbp/273-tbp174-determining-the-reliability-of-sources": [
+  {
+   "name": "Amit Rathore",
+   "role": "guest",
+   "affiliation": "PressCoin"
+  },
+  {
+   "name": "Elais",
+   "role": "guest"
+  }
+ ],
+ "tbp/276-tbp175-superconferencing": [
+  {
+   "name": "Richard Jacobs",
+   "role": "guest"
+  }
+ ],
+ "tbp/278-tbp176-even-more-marketing-discipline": [
+  {
+   "name": "Jeremy Epstein",
+   "role": "guest"
+  }
+ ],
+ "tbp/280-tbp177-internet-of-a-new-generation": [
+  {
+   "name": "Fran Villalba Segarra",
+   "role": "guest",
+   "affiliation": "Internxt"
+  }
+ ],
+ "tbp/282-tbp178-paving-the-road-to-self-sovereign-identity": [
+  {
+   "name": "Edmund John Lowell",
+   "role": "guest",
+   "affiliation": "SelfKey Foundation"
+  }
+ ],
+ "tbp/289-tbp180-witnesses-victims-and-participants": [
+  {
+   "name": "QuHarrison Terry",
+   "role": "guest",
+   "affiliation": "Marketing director at Redox"
+  }
+ ],
+ "tbp/292-tbp181-disrupting-the-antivirus-market": [
+  {
+   "name": "Steve Bassi",
+   "role": "guest",
+   "affiliation": "PolySwarm"
+  }
+ ],
+ "tbp/297-tbp182-facilitating-positive-change": [
+  {
+   "name": "Tina Penman",
+   "role": "guest",
+   "affiliation": "Healthcare researcher"
+  },
+  {
+   "name": "Luis Cuende",
+   "role": "guest",
+   "affiliation": "Aragon"
+  },
+  {
+   "name": "Ian Seyer",
+   "role": "guest",
+   "affiliation": "Developer"
+  }
+ ],
+ "tbp/302-tbp183-stampeding-with-the-big-blue-bull": [
+  {
+   "name": "Trevor Koverko",
+   "role": "guest",
+   "affiliation": "CEO of Polymath"
+  }
+ ],
+ "tbp/304-tbp184-mycrypto-and-the-current-state-of-the": [
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "MyCrypto"
+  },
+  {
+   "name": "Jameson Lopp",
+   "role": "guest"
+  }
+ ],
+ "tbp/306-tbp185-blockchain-solutions-boosie-badazz": [
+  {
+   "name": "Boosie Badazz",
+   "role": "guest"
+  }
+ ],
+ "tbp/307-tbp186-generational-wealth-and-uncle-sams-surprise": [
+  {
+   "name": "Joshua DeWitt",
+   "role": "guest",
+   "affiliation": "CEO of CoinLion"
+  },
+  {
+   "name": "Laura",
+   "role": "guest",
+   "affiliation": "CPA and cryptocurrency tax specialist"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/313-tbp188-hello-crypto-kitty": [
+  {
+   "name": "Rosie Tran",
+   "role": "guest",
+   "affiliation": "Comedian"
+  },
+  {
+   "name": "Esther Ku",
+   "role": "guest",
+   "affiliation": "Comedian"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "guest"
+  }
+ ],
+ "tbp/316-tbp189-the-innovative-investor": [
+  {
+   "name": "Jack Tatar",
+   "role": "guest",
+   "affiliation": "Co-author of Cryptoassets"
+  }
+ ],
+ "tbp/318-tbp190-welterweight-gold-ii": [
+  {
+   "name": "Jon Fitch",
+   "role": "guest"
+  }
+ ],
+ "tbp/321-tbp-presents-social-implementations-of-blockchain": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/329-tbp192-new-year-and-a-new-exchange": [
+  {
+   "name": "Igor",
+   "role": "guest",
+   "affiliation": "BANKEX"
+  },
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "CEO of MyCrypto"
+  },
+  {
+   "name": "Trekk",
+   "role": "guest",
+   "affiliation": "Smart contract developer and consultant"
+  }
+ ],
+ "tbp/332-tbp193-necessary-solutions": [
+  {
+   "name": "Alex Petrov",
+   "role": "guest",
+   "affiliation": "CIO of Bitfury"
+  },
+  {
+   "name": "Oleg Khovayko",
+   "role": "guest",
+   "affiliation": "CTO of Emercoin"
+  }
+ ],
+ "tbp/338-tbp195-enabling-the-underserved": [
+  {
+   "name": "Maomao Hu",
+   "role": "guest",
+   "affiliation": "Kora"
+  }
+ ],
+ "tbp/340-tbp196-ethereum-4-impact": [
+  {
+   "name": "Carolyn Reckhow",
+   "role": "guest",
+   "affiliation": "Director of Operations at ConsenSys"
+  }
+ ],
+ "tbp/342-tbp197-crypto-and-illicit-finance-trends": [
+  {
+   "name": "Yaya Fanusie",
+   "role": "guest",
+   "affiliation": "Former CIA analyst"
+  }
+ ],
+ "tbp/351-tbp199-tattoo-us-on-your-body": [
+  {
+   "name": "Kenn Bosak",
+   "role": "guest"
+  }
+ ],
+ "tbp/354-tbp-200-keni-styles": [
+  {
+   "name": "Keni Styles",
+   "role": "guest"
+  }
+ ],
+ "tbp/356-tbp-201-kelcey-gosserand": [
+  {
+   "name": "Kelcey Gosserand",
+   "role": "guest"
+  }
+ ],
+ "tbp/359-tbp-202-roger-ver": [
+  {
+   "name": "Roger Ver",
+   "role": "guest"
+  }
+ ],
+ "tbp/362-tbp-203-gilbert-darrell": [
+  {
+   "name": "Gilbert Darrell",
+   "role": "guest",
+   "affiliation": "Founder of Horizon Communications"
+  },
+  {
+   "name": "Kenn Bosak",
+   "role": "guest"
+  }
+ ],
+ "tbp/363-tbp-204-chris-derose": [
+  {
+   "name": "Chris DeRose",
+   "role": "guest"
+  }
+ ],
+ "tbp/368-tbp-205-the-cool-kids": [
+  {
+   "name": "Sir Michael Rocks",
+   "role": "guest",
+   "affiliation": "The Cool Kids"
+  },
+  {
+   "name": "Chuck Inglish",
+   "role": "guest",
+   "affiliation": "The Cool Kids"
+  }
+ ],
+ "tbp/371-tbp-206-the-crypto-dog": [
+  {
+   "name": "The Crypto Dog",
+   "role": "guest"
+  }
+ ],
+ "tbp/374-tbp-207-haseeb-qureshi": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Haseeb Qureshi",
+   "role": "guest"
+  }
+ ],
+ "tbp/377-tbp-208-taylor-pearson": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Taylor Pearson",
+   "role": "guest",
+   "affiliation": "Author, essayist and entrepreneur"
+  }
+ ],
+ "tbp/381-tbp-209-emin-gn-sirer": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Associate professor of computer science at Cornell University; Co-Director of IC3"
+  }
+ ],
+ "tbp/383-tbp-flashback-episode-22": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Brock Pierce",
+   "role": "guest"
+  }
+ ],
+ "tbp/388-tbp-210-felipe-sant-ana": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Felipe Sant Ana Pereira",
+   "role": "guest",
+   "affiliation": "Co-founder of Paratii"
+  }
+ ],
+ "tbp/395-the-bitcoin-podcast-211-jimmy-song": [
+  {
+   "name": "Jimmy Song",
+   "role": "guest",
+   "affiliation": "Bitcoin developer"
+  }
+ ],
+ "tbp/400-the-bitcoin-podcast-212-alex-bosworth": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Alex Bosworth",
+   "role": "guest"
+  }
+ ],
+ "tbp/405-the-bitcoin-podcast-213-clay-collins": [
+  {
+   "name": "Clay Collins",
+   "role": "guest",
+   "affiliation": "Founder of Nomics.com"
+  }
+ ],
+ "tbp/408-tbp-flashback-episode-7": [
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "CEO of ShapeShift"
+  }
+ ],
+ "tbp/411-the-bitcoin-podcast-214-dan-boneh": [
+  {
+   "name": "Dan Boneh",
+   "role": "guest",
+   "affiliation": "Stanford University"
+  }
+ ],
+ "tbp/415-the-bitcoin-podcast-215-isaiah-jackson-aka": [
+  {
+   "name": "Isaiah Jackson (Bitcoin Zay)",
+   "role": "guest",
+   "affiliation": "Digital Currency Council"
+  }
+ ],
+ "tbp/417-the-bitcoin-podcast-216-naomi-brockwell": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Naomi Brockwell",
+   "role": "guest",
+   "affiliation": "Host of a crypto YouTube channel"
+  }
+ ],
+ "tbp/420-the-bitcoin-podcast-217-rory-macdonald": [
+  {
+   "name": "Kris",
+   "role": "guest",
+   "affiliation": "#BlockchainBeardGuy; blockchain educator in Denver"
+  },
+  {
+   "name": "Rory MacDonald",
+   "role": "guest",
+   "affiliation": "Bellator Welterweight Champion"
+  }
+ ],
+ "tbp/425-the-bitcoin-podcast-218-saifedean-ammous": [
+  {
+   "name": "Saifedean Ammous",
+   "role": "guest"
+  }
+ ],
+ "tbp/429-tbp-flashback-episode-35": [
+  {
+   "name": "Imogen Heap",
+   "role": "guest"
+  }
+ ],
+ "tbp/431-the-bitcoin-podcast-219-andreas-antonopoulos": [
+  {
+   "name": "Andreas Antonopoulos",
+   "role": "guest"
+  }
+ ],
+ "tbp/439-the-bitcoin-podcast-220-andrew-yang": [
+  {
+   "name": "Tijo 'Arcane Bear'",
+   "role": "guest"
+  },
+  {
+   "name": "Andrew Yang",
+   "role": "guest",
+   "affiliation": "2020 Democratic presidential candidate"
+  }
+ ],
+ "tbp/444-the-bitcoin-podcast-221-nathaniel-whittemore": [
+  {
+   "name": "Nathaniel Whittemore",
+   "role": "guest"
+  }
+ ],
+ "tbp/453-the-bitcoin-podcast-222-imran-khan": [
+  {
+   "name": "Imran Khan",
+   "role": "guest"
+  }
+ ],
+ "tbp/457-the-bitcoin-podcast-223-zvika-landau": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Zvika Landau",
+   "role": "guest",
+   "affiliation": "Co-CEO of SIRIN LABS"
+  }
+ ],
+ "tbp/463-the-bitcoin-podcast-224-ray-redacted": [
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/470-the-bitcoin-podcast-225-brock-pierce": [
+  {
+   "name": "Brock Pierce",
+   "role": "guest"
+  }
+ ],
+ "tbp/475-the-bitcoin-podcast-226-alena-vranova": [
+  {
+   "name": "Alena Vranova",
+   "role": "guest",
+   "affiliation": "Head of Strategy and Business Development at Casa; co-founder of SatoshiLabs and Trezor"
+  }
+ ],
+ "tbp/482-the-bitcoin-podcast-227-samson-williams": [
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "CEO of MyCrypto"
+  },
+  {
+   "name": "Samson Williams",
+   "role": "guest"
+  }
+ ],
+ "tbp/488-the-bitcoin-podcast-228-rene-pickhardt": [
+  {
+   "name": "Rene Pickhardt",
+   "role": "guest",
+   "affiliation": "Data science consultant"
+  },
+  {
+   "name": "Joe Blau",
+   "role": "guest"
+  }
+ ],
+ "tbp/492-the-bitcoin-podcast-229-chris-horlacher-christian": [
+  {
+   "name": "Chris Horlacher",
+   "role": "guest",
+   "affiliation": "Equibit Group"
+  },
+  {
+   "name": "Christian Saucier",
+   "role": "guest",
+   "affiliation": "Equibit Group"
+  }
+ ],
+ "tbp/497-the-bitcoin-podcast-230": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/501-the-bitcoin-podcast-231-dmitri-love": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Dmitri Love",
+   "role": "guest",
+   "affiliation": "Founder of Bundil"
+  }
+ ],
+ "tbp/507-the-bitcoin-podcast-232-matthew-aaron": [
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "CEO of MyCrypto"
+  },
+  {
+   "name": "Matthew Aaron",
+   "role": "guest",
+   "affiliation": "Crypto101"
+  }
+ ],
+ "tbp/513-the-bitcoin-podcast-233-vinny-lingham": [
+  {
+   "name": "Vinny Lingham",
+   "role": "guest",
+   "affiliation": "Co-founder and CEO of Civic"
+  }
+ ],
+ "tbp/519-the-bitcoin-podcast-234-trent-mcconaghy": [
+  {
+   "name": "Trent McConaghy",
+   "role": "guest",
+   "affiliation": "Ocean Protocol"
+  },
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/523-the-bitcoin-podcast-235-max-brody-cameron-hejazi": [
+  {
+   "name": "Wayne",
+   "role": "guest",
+   "affiliation": "Yes2Crypto"
+  },
+  {
+   "name": "Max Brody",
+   "role": "guest",
+   "affiliation": "Cent"
+  },
+  {
+   "name": "Cameron Hejazi",
+   "role": "guest",
+   "affiliation": "Cent"
+  }
+ ],
+ "tbp/528-the-bitcoin-podcast-236-ronnie-moas": [
+  {
+   "name": "Ronnie Moas",
+   "role": "guest",
+   "affiliation": "Founder of Standpoint Research"
+  },
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/535-the-bitcoin-podcast-239": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/543-the-bitcoin-podcast-241": [
+  {
+   "name": "Wayne",
+   "role": "guest",
+   "affiliation": "Yes2Crypto"
+  }
+ ],
+ "tbp/547-the-bitcoin-podcast-242": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/552-the-bitcoin-podcast-243-taylor-monahan-ray": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "CEO of MyCrypto"
+  },
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/558-the-bitcoin-podcast-244": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/581-the-bitcoin-podcast-249-brian-fabian-crain": [
+  {
+   "name": "Brian Fabian Crain",
+   "role": "guest",
+   "affiliation": "Epicenter"
+  }
+ ],
+ "tbp/586-the-bitcoin-podcast-250": [
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "MyCrypto"
+  },
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  },
+  {
+   "name": "Joe Blau",
+   "role": "guest"
+  }
+ ],
+ "tbp/605-the-bitcoin-podcast-254-eric-conner": [
+  {
+   "name": "Eric Conner",
+   "role": "guest",
+   "affiliation": "Editor of EthHub"
+  }
+ ],
+ "tbp/610-the-bitcoin-podcast-255": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/613-the-bitcoin-podcast-256": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/619-the-bitcoin-podcast-257": [
+  {
+   "name": "Jordan",
+   "role": "guest",
+   "affiliation": "MyCrypto"
+  }
+ ],
+ "tbp/622-the-bitcoin-podcast-258": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Daniel DREX",
+   "role": "guest"
+  }
+ ],
+ "tbp/632-does-of-ether-19-light-clients": [
+  {
+   "name": "Lucian",
+   "role": "guest",
+   "affiliation": "Host of Dose of Ether"
+  }
+ ],
+ "tbp/633-the-bitcoin-podcast-260": [
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/652-the-bitcoin-podcast-264-andreas-m-antonopoulos": [
+  {
+   "name": "Andreas M. Antonopoulos",
+   "role": "guest"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/657-the-bitcoin-podcast-265": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Wayne",
+   "role": "guest",
+   "affiliation": "Yes2Crypto"
+  }
+ ],
+ "tbp/661-the-bitcoin-podcast-266-bitcoin-zay": [
+  {
+   "name": "Bitcoin Zay",
+   "role": "guest"
+  }
+ ],
+ "tbp/665-the-bitcoin-podcast-267": [
+  {
+   "name": "Sam Radoccia",
+   "role": "guest",
+   "affiliation": "The Bitcoin Pizza Book"
+  }
+ ],
+ "tbp/669-the-bitcoin-podcast-268-ray-redacted": [
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/672-tbp-flashback-126": [
+  {
+   "name": "Charlie Lee",
+   "role": "guest"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/674-the-bitcoin-podcast-269-proof-of-work-vs-proof-of": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/682-the-bitcoin-podcast-271-council-of-elrond": [
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/688-the-bitcoin-podcast-272-jack-got-hacked": [
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  },
+  {
+   "name": "Harry D",
+   "role": "guest"
+  }
+ ],
+ "tbp/689-the-bitcoin-podcast-273-exiled-surfer-doesnt-like": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "ExiledSurfer",
+   "role": "guest"
+  }
+ ],
+ "tbp/691-the-bitcoin-podcast-274mmm-dao-daobaa-chicka": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Lucian",
+   "role": "guest",
+   "affiliation": "Host of Dose of Ether"
+  }
+ ],
+ "tbp/692-the-bitcoin-podcast-275-rick-v-of-crypto-cloak": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Rick V",
+   "role": "guest",
+   "affiliation": "Crypto Cloak"
+  }
+ ],
+ "tbp/699-the-bitcoin-podcast-276-alex-bosworth-and-the": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Wayne",
+   "role": "guest",
+   "affiliation": "Yes2Crypto"
+  },
+  {
+   "name": "Alex Bosworth",
+   "role": "guest"
+  }
+ ],
+ "tbp/703-the-bitcoin-podcast-277-nicolas-dorier-btcpay": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Nicolas Dorier",
+   "role": "guest",
+   "affiliation": "BTCPay Server"
+  }
+ ],
+ "tbp/706-the-bitcoin-podcast-278-benny-giang-cheeze-wizards": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Benny Giang",
+   "role": "guest",
+   "affiliation": "Cheeze Wizards"
+  }
+ ],
+ "tbp/709-the-bitcoin-podcast-279-cory-doctorow-journalist": [
+  {
+   "name": "Cory Doctorow",
+   "role": "guest",
+   "affiliation": "Journalist and author; EFF"
+  }
+ ],
+ "tbp/710-hio-panels-2-scaling-ethereum-nick-johnson-and": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Nick Johnson",
+   "role": "guest",
+   "affiliation": "Lead developer of ENS"
+  },
+  {
+   "name": "Kevin Sekniqi",
+   "role": "guest",
+   "affiliation": "Co-founder of AVA Labs"
+  }
+ ],
+ "tbp/711-the-bitcoin-podcast-280-norm-lightning-in-a-box": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Norm M",
+   "role": "guest",
+   "affiliation": "CEO of Lightning In a Box"
+  }
+ ],
+ "tbp/714-the-bitcoin-podcast-281-eric-fulton-of-keybase": [
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "CEO of MyCrypto"
+  },
+  {
+   "name": "Eric Fulton",
+   "role": "guest",
+   "affiliation": "Keybase"
+  }
+ ],
+ "tbp/716-the-bitcoin-podcast-282-max-keidun-hodl-hodl": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Max Keidun",
+   "role": "guest",
+   "affiliation": "CEO of Hodl Hodl"
+  }
+ ],
+ "tbp/718-the-bitcoin-podcast-283-daniel-luca-consensys": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Daniel Luca",
+   "role": "guest",
+   "affiliation": "ConsenSys Diligence"
+  }
+ ],
+ "tbp/720-the-bitcoin-podcast-284-julien-genestoux-unlock": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Julien Genestoux",
+   "role": "guest",
+   "affiliation": "Unlock Protocol"
+  }
+ ],
+ "tbp/721-the-bitcoin-podcast-285-dee-corey": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/723-the-bitcoin-podcast-286-morgen-rochard-financial": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Morgen Rochard",
+   "role": "guest",
+   "affiliation": "Financial planner"
+  }
+ ],
+ "tbp/726-the-bitcoin-podcast-287-isabela-bagueros-tor": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Andy Boyan",
+   "role": "guest"
+  },
+  {
+   "name": "Isabela Bagueros",
+   "role": "guest",
+   "affiliation": "Executive Director of the Tor Project"
+  }
+ ],
+ "tbp/729-the-bitcoin-podcast-288-karl-schroeder-stealing": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Karl Schroeder",
+   "role": "guest",
+   "affiliation": "Author and futurist"
+  }
+ ],
+ "tbp/730-the-bitcoin-podcast-289-jamie-bartlett-the": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jamie Bartlett",
+   "role": "guest"
+  }
+ ],
+ "tbp/732-the-bitcoin-podcast-290-the-recap-of-the-year-2019": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/736-the-bitcoin-podcast-291-dee-corey-lucian": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Lucian",
+   "role": "guest"
+  }
+ ],
+ "tbp/740-the-bitcoin-podcast-292-bitwise-hong-kim": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jon T",
+   "role": "guest"
+  },
+  {
+   "name": "Hong Kim",
+   "role": "guest",
+   "affiliation": "Bitwise Investment"
+  }
+ ],
+ "tbp/743-the-bitcoin-podcast-293-kevin-sekniqi-ava-labs": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Kevin Sekniqi",
+   "role": "guest",
+   "affiliation": "Ava Labs"
+  }
+ ],
+ "tbp/747-the-bitcoin-podcast-294-richard-mcdaniel-aka": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Richard McDaniel",
+   "role": "guest",
+   "affiliation": "Bitcoin historian, aka NghtRppr"
+  }
+ ],
+ "tbp/750-the-bitcoin-podcast-295-simon-and-alex-of": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Simon",
+   "role": "guest",
+   "affiliation": "Liquality / ConsenSys"
+  },
+  {
+   "name": "Alex",
+   "role": "guest",
+   "affiliation": "Liquality / ConsenSys"
+  }
+ ],
+ "tbp/752-the-bitcoin-podcast-296-cedric-dahl-1000xgroup": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Cedric Dahl",
+   "role": "guest",
+   "affiliation": "The 1000x Group"
+  }
+ ],
+ "tbp/753-the-bitcoin-podcast-297-tushar-aggarwal-ceo-of": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Tushar Aggarwal",
+   "role": "guest",
+   "affiliation": "CEO of Persistence"
+  }
+ ],
+ "tbp/757-the-bitcoin-podcast-298-ceo-bryce-gilleland": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Andy Boyan",
+   "role": "guest"
+  },
+  {
+   "name": "Bryce Gilleland",
+   "role": "guest",
+   "affiliation": "CEO of Coincident Capital"
+  }
+ ],
+ "tbp/760-the-bitcoin-podcast-299-corey-dee-and-ray-from": [
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/763-the-bitcoin-podcast-300-corey-and-dee-with-a": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/767-the-bitcoin-podcast-301-coreydeeand-taylor": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "CEO of MyCrypto"
+  }
+ ],
+ "tbp/771-the-bitcoin-podcast-show-302-cto-dvid-molnr-and": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Dávid Molnár",
+   "role": "guest",
+   "affiliation": "CTO of Wasabi Wallet"
+  },
+  {
+   "name": "Lucas Ontivero",
+   "role": "guest",
+   "affiliation": "Wasabi Wallet"
+  }
+ ],
+ "tbp/776-the-bitcoin-podcast-303-dee-and-corey-the-answer": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/779-the-bitcoin-podcast-304-camila-russo-the-defiant": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Camila Russo",
+   "role": "guest",
+   "affiliation": "Creator of The Defiant newsletter"
+  }
+ ],
+ "tbp/781-the-bitcoin-podcast-305-henry-bitmod-crypto-in": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Henry Bitmod",
+   "role": "guest",
+   "affiliation": "Crypto evangelist in Nigeria"
+  }
+ ],
+ "tbp/784-the-bitcoin-podcast-306-dee-and-corey-with-updates": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/787-the-bitcoin-podcast-307-dr-muneeb-ali-of": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Muneeb Ali",
+   "role": "guest",
+   "affiliation": "CEO of Blockstack"
+  }
+ ],
+ "tbp/789-the-bitcoin-podcast-308-fazri-zubair-lucid-sights": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Fazri Zubair",
+   "role": "guest",
+   "affiliation": "CTO of Lucid Sight"
+  }
+ ],
+ "tbp/792-the-bitcoin-podcast-309-ian-kar-fintech-today": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Ian Kar",
+   "role": "guest",
+   "affiliation": "FinTech Today newsletter"
+  }
+ ],
+ "tbp/795-the-bitcoin-podcast-310-jessica-angel-crypto": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessica Angel",
+   "role": "guest",
+   "affiliation": "Crypto artist"
+  }
+ ],
+ "tbp/797-the-bitcoin-podcast-311-swan-brady-swenson": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Brady Swenson",
+   "role": "guest",
+   "affiliation": "Chief Education Officer of Swan"
+  }
+ ],
+ "tbp/798-the-bitcoin-podcast-312-emin-gn-sirer-ceo-of-ava": [
+  {
+   "name": "Wayne",
+   "role": "guest",
+   "affiliation": "Yes2Crypto"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "CEO of AVA Labs"
+  }
+ ],
+ "tbp/801-the-bitcoin-podcast-313-matthew-finestone-loopring": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Wayne",
+   "role": "guest",
+   "affiliation": "Yes2Crypto"
+  },
+  {
+   "name": "Matthew Finestone",
+   "role": "guest",
+   "affiliation": "Loopring"
+  }
+ ],
+ "tbp/803-the-bitcoin-podcast-314-corey-and-dee-just-the": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/804-the-bitcoin-podcast-315-overbit-ceo-chieh-liu": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Chieh Liu",
+   "role": "guest",
+   "affiliation": "CEO of Overbit"
+  }
+ ],
+ "tbp/807-the-bitcoin-podcast-316-robert-materazzi-roger": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Robert Materazzi",
+   "role": "guest",
+   "affiliation": "Co-CEO of Lukka"
+  },
+  {
+   "name": "Roger Brown",
+   "role": "guest",
+   "affiliation": "Lukka"
+  }
+ ],
+ "tbp/809-the-bitcoin-podcast-317-russell-cann-core": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Kevin Monahan",
+   "role": "guest"
+  },
+  {
+   "name": "Russell Cann",
+   "role": "guest",
+   "affiliation": "Core Scientific"
+  }
+ ],
+ "tbp/810-the-bitcoin-podcast-318-ben-arc-aka-btcsocialists": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jesse Broke",
+   "role": "guest"
+  },
+  {
+   "name": "Ben Arc",
+   "role": "guest",
+   "affiliation": "DIY hardware developer, BTCSocialists"
+  }
+ ],
+ "tbp/812-the-bitcoin-podcast-319-john-crain-superrare": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jesse Broke",
+   "role": "host"
+  },
+  {
+   "name": "John Crain",
+   "role": "guest",
+   "affiliation": "SuperRare"
+  }
+ ],
+ "tbp/813-the-bitcoin-podcast-320-devin-finzer-opensea": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jesse Broke",
+   "role": "host"
+  },
+  {
+   "name": "Devin Finzer",
+   "role": "guest",
+   "affiliation": "OpenSea"
+  }
+ ],
+ "tbp/815-the-bitcoin-podcast-321-joots-jager-bitcoin": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Joost Jager",
+   "role": "guest",
+   "affiliation": "Lightning Network"
+  }
+ ],
+ "tbp/816-the-bitcoin-podcast-322-stani-kulechov-aave": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Stani Kulechov",
+   "role": "guest",
+   "affiliation": "AAVE"
+  }
+ ],
+ "tbp/818-the-bitcoin-podcast-323-patrick-stanley-freehold": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Patrick Stanley",
+   "role": "guest",
+   "affiliation": "Freehold"
+  }
+ ],
+ "tbp/819-the-bitcoin-podcast-324-tres-amigos-law-order": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/821-the-bitcoin-podcast-325-hocus-pocus-bitcoin": [
+  {
+   "name": "Jesse Broke",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/823-the-bitcoin-podcast-326-jameson-lopp-casa": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jameson Lopp",
+   "role": "guest",
+   "affiliation": "Casa"
+  }
+ ],
+ "tbp/824-the-bitcoin-podcast-327-john-light-aragon": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "John Light",
+   "role": "guest",
+   "affiliation": "Aragon"
+  }
+ ],
+ "tbp/826-the-bitcoin-podcast-328-evan-kuo-ampleforth": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Evan Kuo",
+   "role": "guest",
+   "affiliation": "Ampleforth"
+  }
+ ],
+ "tbp/828-the-bitcoin-podcast-329-andrew-reistad-btcparser": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Andrew Reistad",
+   "role": "guest",
+   "affiliation": "BTCParser"
+  }
+ ],
+ "tbp/829-the-bitcoin-podcast-330-rachel-siegel": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Rachel Siegel",
+   "role": "guest",
+   "affiliation": "CryptoFinally"
+  }
+ ],
+ "tbp/830-the-bitcoin-podcast-331-sebastien-borget-the": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Sebastien Borget",
+   "role": "guest",
+   "affiliation": "The Sandbox"
+  }
+ ],
+ "tbp/831-the-bitcoin-podcast-332-x-y-z-b": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/832-the-bitcoin-podcast-333-happy-birthday-jesse": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/834-the-bitcoin-podcast-334-happy-new-year-we-are-back": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/835-the-bitcoin-podcast-335-ryan-watkins-messariio": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Ryan Watkins",
+   "role": "guest",
+   "affiliation": "Messari"
+  }
+ ],
+ "tbp/836-the-bitcoin-podcast-336-peter-jursic-metagame": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Peter Jursic",
+   "role": "guest",
+   "affiliation": "MetaGame"
+  }
+ ],
+ "tbp/837-the-bitcoin-podcast-337-ali-spagnola-internet": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Ali Spagnola",
+   "role": "guest",
+   "affiliation": "Internet artist on YouTube"
+  }
+ ],
+ "tbp/838-the-bitcoin-podcast-338-ceo-tim-frost-yield-app": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Tim Frost",
+   "role": "guest",
+   "affiliation": "CEO of YIELD App"
+  }
+ ],
+ "tbp/839-the-bitcoin-podcast-339-jon-tompkins-badger": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jon Tompkins",
+   "role": "guest",
+   "affiliation": "Product Lead at Badger"
+  }
+ ],
+ "tbp/840-the-bitcoin-podcast-340-21-years-old-drunk-episode": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/841-the-bitcoin-podcast-341-luke-stokes-fioprotocol": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Luke Stokes",
+   "role": "guest",
+   "affiliation": "Managing Director at FIO Protocol"
+  }
+ ],
+ "tbp/842-the-bitcoin-podcast-342-origin-story": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/843-the-bitcoin-podcast-343-vinay-gupta-of-mattereum": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "Mattereum"
+  }
+ ],
+ "tbp/844-the-bitcoin-podcast-344-edan-yago-of-sovrynapp": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Edan Yago",
+   "role": "guest",
+   "affiliation": "Sovryn"
+  }
+ ],
+ "tbp/845-the-bitcoin-podcast-345-alberto-cevallos-lead": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Alberto Cevallos",
+   "role": "guest",
+   "affiliation": "Lead Developer of ForceDAO"
+  }
+ ],
+ "tbp/846-the-bitcoin-podcast-346-chad-knight-metaverse": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Chad Knight",
+   "role": "guest",
+   "affiliation": "Metaverse artist"
+  }
+ ],
+ "tbp/847-the-bitcoin-podcast-347-coinbase-is-a-grown": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/848-the-bitcoin-podcast-348-co-founder-vasja-veber-of": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Vasja Veber",
+   "role": "guest",
+   "affiliation": "Co-Founder of Viberate"
+  }
+ ],
+ "tbp/849-the-bitcoin-podcast-349-ali-spagnola-internet": [
+  {
+   "name": "Ali Spagnola",
+   "role": "guest",
+   "affiliation": "Internet artist"
+  }
+ ],
+ "tbp/850-the-bitcoin-podcast-350-paul-hauner-sigma-prime": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Ali Spagnola",
+   "role": "guest",
+   "affiliation": "Internet artist"
+  },
+  {
+   "name": "Paul Hauner",
+   "role": "guest",
+   "affiliation": "Sigma Prime"
+  }
+ ],
+ "tbp/851-the-bitcoin-podcast-351-jonny-huxtable": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jonny Huxtable",
+   "role": "guest",
+   "affiliation": "ChainLink/LinkPool"
+  }
+ ],
+ "tbp/852-the-bitcoin-podcast-352-aram-barnett-will-nichols": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Joe Blau",
+   "role": "guest",
+   "affiliation": "CEO/Co-founder of Tokenlaunch"
+  },
+  {
+   "name": "Aram Barnett",
+   "role": "guest",
+   "affiliation": "721 Collective"
+  },
+  {
+   "name": "Will Nichols",
+   "role": "guest",
+   "affiliation": "721 Collective"
+  }
+ ],
+ "tbp/853-the-bitcoin-podcast-353-tj-rush-trueblocks": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Thomas Jay Rush",
+   "role": "guest",
+   "affiliation": "CEO of TrueBlocks"
+  }
+ ],
+ "tbp/854-the-bitcoin-podcast-354-henry-trademark-universal": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/856-the-bitcoin-podcast-357-ceo-josh-katz-of-yellow": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Josh Katz",
+   "role": "guest",
+   "affiliation": "CEO of Yellow Heart"
+  }
+ ],
+ "tbp/857-the-bitcoin-podcast-358-juan-m-hernandez-ceo-of": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Juan M Hernandez",
+   "role": "guest",
+   "affiliation": "CEO of Curio"
+  }
+ ],
+ "tbp/858-the-bitcoin-podcast-359-cory-doctorow-author": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Cory Doctorow",
+   "role": "guest",
+   "affiliation": "Author"
+  }
+ ],
+ "tbp/860-the-bitcoin-podcast-360-unboxing-grid-lattice-1": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/862-the-bitcoin-podcast-361-erik-voorhees-founder-of": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "Founder of ShapeShift"
+  }
+ ],
+ "tbp/865-the-bitcoin-podcast-362-philip-devine-of": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Philip Devine",
+   "role": "guest",
+   "affiliation": "CryptoBlades"
+  }
+ ],
+ "tbp/867-the-bitcoin-podcast-363-the-bridge-over-the-poly": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/869-the-bitcoin-podcast-364-jonathan-chester-of": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/871-the-bitcoin-podcast-365-the-only-good-kanye-is": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/873-the-bitcoin-podcast-366-the-greatest-crimes-in": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/875-the-bitcoin-podcast-367-nathan-wes-and-darcy": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/877-ththe-bitcoin-podcast-368-quharrison-and-ryan-of": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/879-the-bitcoin-podcast-roundtable-369-will-the-real": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/880-the-bitcoin-podcast-370-i-feel-wrecked-without-my": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/882-the-bitcoin-podcast-371-kenneth-bosak-bro-bros-420": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Kenneth Bosak",
+   "role": "guest"
+  }
+ ],
+ "tbp/884-the-bitcoin-podcast-372-julien-genestoux-unlock": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Julien Genestoux",
+   "role": "guest",
+   "affiliation": "Unlock Protocol"
+  }
+ ],
+ "tbp/888-the-bitcoin-podcast-373-new-york-is-just-like": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/891-the-bitcoin-podcast-374-no-background": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Collin Cusce",
+   "role": "guest"
+  }
+ ],
+ "tbp/895-the-bitcoin-podcast-375-evan-van-ness-starbloom": [
+  {
+   "name": "Evan Van Ness",
+   "role": "guest",
+   "affiliation": "Starbloom Ventures"
+  }
+ ],
+ "tbp/897-the-bitcoin-podcast-376-alex-smirnov-of": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Alex Smirnov",
+   "role": "guest",
+   "affiliation": "deBridge"
+  }
+ ],
+ "tbp/899-the-bitcoin-podcast-377-dan-edlebeck-ceo-of-exidio": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Dan Edlebeck",
+   "role": "guest",
+   "affiliation": "Exidio"
+  }
+ ],
+ "tbp/901-the-bitcoin-podcast-378-vin-diesel-is-a-car-god": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/902-the-bitcoin-podcast-379-tascha-of-tascha-labs": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/903-the-bitcoin-podcast-380-it-is-the-end-of-the-year": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/905-the-bitcoin-podcast-381-do-not-call-me-solana": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/909-the-bitcoin-podcast-382-joe-and-johad-atomizexyz": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Joe Blau",
+   "role": "guest",
+   "affiliation": "Atomize.xyz"
+  },
+  {
+   "name": "Johad Ellis",
+   "role": "guest",
+   "affiliation": "Atomize.xyz"
+  }
+ ],
+ "tbp/911-the-bitcoin-podcast-383-bythe-power-of-the": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/912-flashback-the-bitcoin-podcast-46-the-fundamental": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Cornell University"
+  }
+ ],
+ "tbp/915-the-bitcoin-podcast-384-lixin-liu-of-keystone": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Lixin Liu",
+   "role": "guest",
+   "affiliation": "KeyStone Hardware Wallet"
+  }
+ ],
+ "tbp/916-flashback-the-bitcoin-podcast-72-the-broader": [
+  {
+   "name": "Andreas Antonopoulos",
+   "role": "guest"
+  }
+ ],
+ "tbp/918-flashback-the-bitcoin-podcast-132-dark-side-of": [
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "ShapeShift"
+  }
+ ],
+ "tbp/919-the-bitcoin-podcast-385-we-do-not-talk-about": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/920-flashback-the-bitcoin-podcast-68-deconstructing": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Cornell University"
+  }
+ ],
+ "tbp/922-the-bitcoin-podcast-386-war-what-is-it-good-for": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/923-flashbackthe-bitcoin-podcast-361-erik-voorhees": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "ShapeShift"
+  }
+ ],
+ "tbp/924-the-bitcoin-podcast-387-cory-doctorow-author": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Cory Doctorow",
+   "role": "guest",
+   "affiliation": "Author"
+  }
+ ],
+ "tbp/927-flashback-the-bitcoin-podcast-209-emin-gun-sirer": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Cornell University"
+  }
+ ],
+ "tbp/928-flashback-the-bitcoin-podcast-167-the-broader": [
+  {
+   "name": "Andreas Antonopoulos",
+   "role": "guest"
+  }
+ ],
+ "tbp/929-the-bitcoin-podcast-388-joshua-of-opolis": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/930-flashback-the-bitcoin-podcast-312-emin-gn-sirer": [
+  {
+   "name": "Emin Gün Sirer",
+   "role": "guest",
+   "affiliation": "Ava Labs"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/931-the-bitcoin-podcast-389-rambling-of-the-boys": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/932-flashback-the-bitcoin-podcast-episode-219-andreas": [
+  {
+   "name": "Andreas Antonopoulos",
+   "role": "guest"
+  }
+ ],
+ "tbp/939-the-bitcoin-podcast-395-orie-steele-transmute": [
+  {
+   "name": "Orie Steele",
+   "role": "guest",
+   "affiliation": "Transmute Industries"
+  }
+ ],
+ "tbp/940-the-bitcoin-podcast-ep-396-take-the-wheel": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/941-the-bitcoin-podcast-397-when-is-a-blockchain": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/984-edward-snowden-censorship-resistance-cyber-states": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Edward Snowden",
+   "role": "guest",
+   "affiliation": "Whistleblower"
+  }
+ ],
+ "tbp/985-stella-assange-human-rights-alternative-modes-of": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Stella Assange",
+   "role": "guest",
+   "affiliation": "Lawyer and human rights defender"
+  }
+ ],
+ "tbp/988-peter-ludlow-crypto-anarchy-cyberstates-logos": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Peter Ludlow",
+   "role": "guest"
+  }
+ ],
+ "tbp/990-ben-wizner-speech-privacy-and-technology-logos": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Ben Wizner",
+   "role": "guest",
+   "affiliation": "Director, ACLU Speech, Privacy, and Technology Project"
+  }
+ ],
+ "tbp/991-patri-friedman-creating-politically-autonomous": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Patri Friedman",
+   "role": "guest",
+   "affiliation": "Co-Founder and General Partner of Pronomos Capital"
+  }
+ ],
+ "tbp/992-tech-is-neutral-how-you-use-it-is-not-logos": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "guest",
+   "affiliation": "Logos Program Lead"
+  }
+ ],
+ "tbp/993-p2p-commons-strategy-logos-podcast-with-jarrad": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Michel Bauwens",
+   "role": "guest"
+  }
+ ],
+ "tbp/994-prof-tom-w-bell-special-jurisdictions-copyrights": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Tom W. Bell",
+   "role": "guest",
+   "affiliation": "Professor"
+  }
+ ],
+ "tbp/995-robert-gehl-the-dark-web-the-fediverse-logos": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Robert Gehl",
+   "role": "guest"
+  }
+ ],
+ "tbp/996-stella-assange-appeal-update-logos-podcast-with": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Stella Assange",
+   "role": "guest",
+   "affiliation": "Lawyer and human rights defender"
+  }
+ ],
+ "tbp/997-niklas-anzinger-decentralised-cities-crypto": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Niklas Anzinger",
+   "role": "guest",
+   "affiliation": "Founder & CEO of Vitalia City"
+  }
+ ],
+ "tbp/998-mark-lutter-charter-cities-logos-podcast-with": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Mark Lutter",
+   "role": "guest",
+   "affiliation": "Charter Cities Institute and Braavos Cities"
+  }
+ ],
+ "tbp/999-diego-gutierrez-zaldivar-bitcoin-building": [
+  {
+   "name": "Jarrad Hope",
+   "role": "host",
+   "affiliation": "Co-founder of Logos"
+  },
+  {
+   "name": "Diego Gutierrez-Zaldivar",
+   "role": "guest",
+   "affiliation": "Chairman and Co-founder of IOVLabs; co-founder of Rootstock"
+  }
+ ],
+ "tbp/s01/001-introduction": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/002-holding-up-the-sky": [
+  {
+   "name": "Tawanda Kembo",
+   "role": "guest",
+   "affiliation": "Bitcoin evangelist"
+  }
+ ],
+ "tbp/s01/003-bridging-the-gender-gap": [
+  {
+   "name": "Sarah Boone Martin",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/005-the-worlds-strongest": [
+  {
+   "name": "Paul Puey",
+   "role": "guest",
+   "affiliation": "CEO of Airbitz"
+  }
+ ],
+ "tbp/s01/006-aboard-the-pequod": [
+  {
+   "name": "Gray Noguera",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/007-under-the-iron-veil": [
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "CEO of ShapeShift"
+  }
+ ],
+ "tbp/s01/008-the-curious-case-of-remittance": [
+  {
+   "name": "Sandeep Goenka",
+   "role": "guest",
+   "affiliation": "Co-founder of Zebpay"
+  }
+ ],
+ "tbp/s01/011-the-end-of-money": [
+  {
+   "name": "Torsten Hoffmann",
+   "role": "guest",
+   "affiliation": "Film director"
+  }
+ ],
+ "tbp/s01/012-boring-economics": [
+  {
+   "name": "Perianne Boring",
+   "role": "guest",
+   "affiliation": "Founder and President of the Chamber of Digital Commerce"
+  }
+ ],
+ "tbp/s01/013-interview-scott-rose": [
+  {
+   "name": "Scott Rose",
+   "role": "guest",
+   "affiliation": "Creator, speaker, consultant"
+  }
+ ],
+ "tbp/s01/013-the-greatest-truths": [
+  {
+   "name": "Scott Rose",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/014-sex-and-the-single-bitcoin": [
+  {
+   "name": "Sexy Saffron",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/015-ants-marching": [
+  {
+   "name": "Jonathan Chester",
+   "role": "guest",
+   "affiliation": "COO of BitWage"
+  },
+  {
+   "name": "Carrie Scott",
+   "role": "guest",
+   "affiliation": "Bitcoin pedicab driver"
+  }
+ ],
+ "tbp/s01/016-the-dual-revolution": [
+  {
+   "name": "Christian Saucier",
+   "role": "guest",
+   "affiliation": "CEO of iNation"
+  }
+ ],
+ "tbp/s01/017-oiling-the-squeaky-wheel": [
+  {
+   "name": "Mark Burgunder",
+   "role": "guest",
+   "affiliation": "Farmer"
+  }
+ ],
+ "tbp/s01/018-from-cradle-to-grave": [
+  {
+   "name": "Judd Bagley",
+   "role": "guest",
+   "affiliation": "Director of communications at Overstock"
+  }
+ ],
+ "tbp/s01/019-branding-the-disruptive": [
+  {
+   "name": "Arika Pierce",
+   "role": "guest",
+   "affiliation": "Principal at Gide"
+  }
+ ],
+ "tbp/s01/020-bottoms-up-2": [
+  {
+   "name": "Marc Buffington",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/021-call-for-papers": [
+  {
+   "name": "Christopher E. Wilmer",
+   "role": "guest",
+   "affiliation": "Managing editor of Ledger; University of Pittsburgh"
+  },
+  {
+   "name": "Richard Ford Burley",
+   "role": "guest",
+   "affiliation": "Managing editor of Ledger"
+  }
+ ],
+ "tbp/s01/022-vote-with-your-feet": [
+  {
+   "name": "Brock Pierce",
+   "role": "guest",
+   "affiliation": "Managing partner at Blockchain Capital; chairman of the Bitcoin Foundation"
+  }
+ ],
+ "tbp/s01/024-betting-on-bitcoin": [
+  {
+   "name": "Peter Klamka",
+   "role": "guest",
+   "affiliation": "CEO of Bitcoin Direct"
+  }
+ ],
+ "tbp/s01/025-the-199-incentive": [
+  {
+   "name": "Melanie Shapiro",
+   "role": "guest",
+   "affiliation": "CEO of Case"
+  }
+ ],
+ "tbp/s01/027-london-calling": [
+  {
+   "name": "Coco",
+   "role": "guest",
+   "affiliation": "Fallen Angels"
+  }
+ ],
+ "tbp/s01/038-tbp-flashback-episode-38": [
+  {
+   "name": "Alena Vranova",
+   "role": "guest",
+   "affiliation": "Co-founder of SatoshiLabs; creator of TREZOR"
+  }
+ ],
+ "tbp/s01/069-the-ubitquity-platform": [
+  {
+   "name": "Matt McKibbin",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  },
+  {
+   "name": "Nathan Wosnack",
+   "role": "guest",
+   "affiliation": "Co-founder and CEO of Ubitquity"
+  },
+  {
+   "name": "Marina Reznik",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  }
+ ],
+ "tbp/s01/070-whitehat": [
+  {
+   "name": "Peter Vessenes",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/074-cryptocurrency-fellowship": [
+  {
+   "name": "Joey Krug",
+   "role": "guest",
+   "affiliation": "Augur"
+  },
+  {
+   "name": "Tony Swish",
+   "role": "guest",
+   "affiliation": "Augur Director of Marketing"
+  }
+ ],
+ "tbp/s01/075-attention-economy": [
+  {
+   "name": "Don Konforty",
+   "role": "guest"
+  },
+  {
+   "name": "Greg Meredith",
+   "role": "guest",
+   "affiliation": "Synereo"
+  }
+ ],
+ "tbp/s01/076-skynet": [
+  {
+   "name": "Matt Liston",
+   "role": "guest",
+   "affiliation": "Gnosis"
+  }
+ ],
+ "tbp/s01/200-the-bitcoin-podcast-200": [
+  {
+   "name": "Kenn Bosak",
+   "role": "guest"
+  },
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "MyCrypto"
+  },
+  {
+   "name": "Keni Styles",
+   "role": "guest",
+   "affiliation": "former adult film actor"
+  }
+ ],
+ "tbp/s01/231-dmitri-love": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Dmitri Love",
+   "role": "guest",
+   "affiliation": "Bundil"
+  }
+ ],
+ "tbp/s01/232-matthew-aaron": [
+  {
+   "name": "Taylor Monahan",
+   "role": "guest",
+   "affiliation": "Founder & CEO of MyCrypto"
+  },
+  {
+   "name": "Matthew Aaron",
+   "role": "guest",
+   "affiliation": "Crypto101"
+  }
+ ],
+ "tbp/s01/233-vinny-lingham": [
+  {
+   "name": "Vinny Lingham",
+   "role": "guest",
+   "affiliation": "Co-founder & CEO of Civic"
+  }
+ ],
+ "tbp/s01/234-trent-mcconaghy": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Trent McConaghy",
+   "role": "guest",
+   "affiliation": "Ocean Protocol"
+  },
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/235-max-brody-and-cameron-hejazi": [
+  {
+   "name": "Wayne",
+   "role": "guest"
+  },
+  {
+   "name": "Max Brody",
+   "role": "guest",
+   "affiliation": "Cent"
+  },
+  {
+   "name": "Cameron Hejazi",
+   "role": "guest",
+   "affiliation": "Cent"
+  }
+ ],
+ "tbp/s01/236-ronnie-moas": [
+  {
+   "name": "Ronnie Moas",
+   "role": "guest",
+   "affiliation": "Founder of Standpoint Research"
+  },
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/238-the-bitcoin-podcast-238": [
+  {
+   "name": "Ray Redacted",
+   "role": "guest"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/342-roundtable-origin-story": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/343-interview-vinay-gupta-ceo-of-mattereum": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "CEO of Mattereum",
+   "links": {
+    "twitter": "https://twitter.com/leashless"
+   }
+  }
+ ],
+ "tbp/s01/343-roundtable-vinay-gupta-of-mattereum": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Vinay Gupta",
+   "role": "guest",
+   "affiliation": "CEO of Mattereum",
+   "links": {
+    "twitter": "https://twitter.com/leashless"
+   }
+  }
+ ],
+ "tbp/s01/344-interview-edan-yago-of-sovrynapp": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Edan Yago",
+   "role": "guest",
+   "affiliation": "Sovryn",
+   "links": {
+    "twitter": "https://twitter.com/EdanYago"
+   }
+  }
+ ],
+ "tbp/s01/344-roundtable-edan-yago-sovrynapp": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Edan Yago",
+   "role": "guest",
+   "affiliation": "Sovryn",
+   "links": {
+    "twitter": "https://twitter.com/EdanYago"
+   }
+  }
+ ],
+ "tbp/s01/345-interview-alberto-cevallos-of-forcedao": [
+  {
+   "name": "Alberto Cevallos",
+   "role": "guest",
+   "affiliation": "Lead developer and co-founder of Force DAO",
+   "links": {
+    "twitter": "https://twitter.com/albertocevalls",
+    "github": "https://github.com/albertocevallos"
+   }
+  }
+ ],
+ "tbp/s01/345-roundtable-alberto-cevallos-forcedao": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Alberto Cevallos",
+   "role": "guest",
+   "affiliation": "Force DAO"
+  }
+ ],
+ "tbp/s01/346-interview-chad-knight-metaverse-artist": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Chad Knight",
+   "role": "guest",
+   "affiliation": "Metaverse Artist",
+   "links": {
+    "twitter": "https://twitter.com/ChadKnight",
+    "website": "https://www.chad-knight.com/",
+    "other": [
+     "https://www.instagram.com/chadknight",
+     "https://niftygateway.com/collections/zodiac"
+    ]
+   }
+  }
+ ],
+ "tbp/s01/346-roundtable-chad-knight-metaverse-artist": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Chad Knight",
+   "role": "guest",
+   "affiliation": "Metaverse Artist",
+   "links": {
+    "twitter": "https://twitter.com/ChadKnight",
+    "website": "https://www.chad-knight.com/",
+    "other": [
+     "https://www.instagram.com/chadknight",
+     "https://niftygateway.com/collections/zodiac"
+    ]
+   }
+  }
+ ],
+ "tbp/s01/347-roundtable-coinbase-is-a-grown": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/348-interview-viberate-founder-vasja-veber": [
+  {
+   "name": "Vasja Veber",
+   "role": "guest",
+   "affiliation": "Founder of Viberate"
+  }
+ ],
+ "tbp/s01/348-roundtable-viberate-co-founder-vasja-veber": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Vasja Veber",
+   "role": "guest",
+   "affiliation": "Co-founder of Viberate"
+  }
+ ],
+ "tbp/s01/349-interview-ali-spagnola-internet-artist-pt-ii": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Ali Spagnola",
+   "role": "guest",
+   "affiliation": "Internet artist"
+  }
+ ],
+ "tbp/s01/350-interview-paul-hauner-sigma-prime-eth-2": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Paul Hauner",
+   "role": "guest",
+   "affiliation": "Sigma Prime"
+  }
+ ],
+ "tbp/s01/350-roundtable-ali-spagnola-internet-artist-and-paul-hauner-sigma-prime-eth-2": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Ali Spagnola",
+   "role": "guest",
+   "affiliation": "Internet artist"
+  },
+  {
+   "name": "Paul Hauner",
+   "role": "guest",
+   "affiliation": "Sigma Prime"
+  }
+ ],
+ "tbp/s01/351-interview-jonny-huxtable-of-chainlink-linkpool": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Jonny Huxtable",
+   "role": "guest",
+   "affiliation": "ChainLink/LinkPool"
+  }
+ ],
+ "tbp/s01/351-roundtable-jonny-huxtable-chainlinklinkpool": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jonny Huxtable",
+   "role": "guest",
+   "affiliation": "ChainLink/LinkPool"
+  }
+ ],
+ "tbp/s01/352-interview-aram-barnett-and-will-nichols-of-721-collective": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Aram Barnett",
+   "role": "guest",
+   "affiliation": "721 Collective"
+  },
+  {
+   "name": "Will Nichols",
+   "role": "guest",
+   "affiliation": "721 Collective"
+  }
+ ],
+ "tbp/s01/352-roundtable-aram-barnett-and-will-nichols-of-721-collective": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Aram Barnett",
+   "role": "guest",
+   "affiliation": "721 Collective"
+  },
+  {
+   "name": "Will Nichols",
+   "role": "guest",
+   "affiliation": "721 Collective"
+  }
+ ],
+ "tbp/s01/353-interview-thomas-jay-rush-trueblocks": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Thomas Jay Rush",
+   "role": "guest",
+   "affiliation": "CEO of TrueBlocks"
+  }
+ ],
+ "tbp/s01/353-roundtable-thomas-jay-rush-trueblocks": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Thomas Jay Rush",
+   "role": "guest",
+   "affiliation": "Founder of TrueBlocks"
+  }
+ ],
+ "tbp/s01/354-interview-henry-trademark-universal-stone": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Henry",
+   "role": "guest",
+   "affiliation": "Trademark Universal Stone"
+  },
+  {
+   "name": "Kevin",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/354-roundtable-henry-of-trademark-universal-stone": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Henry",
+   "role": "guest",
+   "affiliation": "Trade Mark Stone"
+  }
+ ],
+ "tbp/s01/355-rountable-a-kickback-celebrating-six-years": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/357-interview-ceo-josh-katz-of-yellowheart": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Josh Katz",
+   "role": "guest",
+   "affiliation": "CEO of YellowHeart"
+  }
+ ],
+ "tbp/s01/357-roundtable-josh-katz-ceo-of-yellowheart": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Josh Katz",
+   "role": "guest",
+   "affiliation": "CEO of YellowHeart"
+  }
+ ],
+ "tbp/s01/358-interview-juan-m-hernandez-ceo-of-curio": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Juan M Hernandez",
+   "role": "guest",
+   "affiliation": "CEO of Curio"
+  }
+ ],
+ "tbp/s01/358-roundtable-juan-m-hernandez-ceo-of-curio": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Juan M Hernandez",
+   "role": "guest",
+   "affiliation": "CEO of Curio"
+  }
+ ],
+ "tbp/s01/359-interview-cory-doctorow": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Cory Doctorow",
+   "role": "guest",
+   "affiliation": "Author of Attack Surface"
+  }
+ ],
+ "tbp/s01/360-roundtable-unboxing-the-lattice1-from-gridplus": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/361-interview-erik-voorhees-founder-of-shapeshift": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "Founder of ShapeShift",
+   "links": {
+    "twitter": "https://twitter.com/ErikVoorhees"
+   }
+  }
+ ],
+ "tbp/s01/361-roundtable-erik-voorhees-founder-of-shapeshift": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Erik Voorhees",
+   "role": "guest",
+   "affiliation": "Founder of ShapeShift",
+   "links": {
+    "twitter": "https://twitter.com/ErikVoorhees"
+   }
+  }
+ ],
+ "tbp/s01/362-roundtable-unboxing-and-cryptoblades": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/363-roundtable-the-bridge-over-the-poly-network": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/364-interview-johnathan-chester-of-bitwage": [
+  {
+   "name": "Jonathan Chester",
+   "role": "guest",
+   "affiliation": "CEO of Bitwage"
+  }
+ ],
+ "tbp/s01/364-roundtable-dogecoin-and-bitcoin-mining-at-it-again": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/365-roundtable-the-only-good-kanye-is-back-when-kanye-was-kanye": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/366-roundtable-the-greatest-crimes-in-the-world-are-not": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/367-interview-nathan-wes--darcy-of-ubitquity": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Nathan Wosnack",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  },
+  {
+   "name": "Wes",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  },
+  {
+   "name": "Darcy",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  }
+ ],
+ "tbp/s01/367-roundtable-nathan-wes-and-darcy-of-ubitquity": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Nathan Wosnack",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  },
+  {
+   "name": "Wes",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  },
+  {
+   "name": "Darcy",
+   "role": "guest",
+   "affiliation": "Ubitquity"
+  }
+ ],
+ "tbp/s01/368-interview-quharrison-and-ryan-of-the-nft-qt-show": [
+  {
+   "name": "QuHarrison",
+   "role": "guest",
+   "affiliation": "The NFT QT Show",
+   "links": {
+    "twitter": "https://twitter.com/quharrison",
+    "youtube": "https://www.youtube.com/c/QuHarrisonTerry",
+    "other": [
+     "https://www.facebook.com/quharrison"
+    ]
+   }
+  },
+  {
+   "name": "Ryan",
+   "role": "guest",
+   "affiliation": "The NFT QT Show"
+  }
+ ],
+ "tbp/s01/368-roundtable-quharrison-and-ryan-of-nft-qt-show": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "QuHarrison",
+   "role": "guest",
+   "affiliation": "The NFT QT Show",
+   "links": {
+    "twitter": "https://twitter.com/quharrison",
+    "youtube": "https://www.youtube.com/c/QuHarrisonTerry"
+   }
+  },
+  {
+   "name": "Ryan",
+   "role": "guest",
+   "affiliation": "The NFT QT Show"
+  }
+ ],
+ "tbp/s01/369-roundtable-will-the-real-stable-coin-please-show-up": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/370-roundtable-i-feel-wreckd-without-my-china-girl": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/371-kenneth-bosak": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Kenn Bosak",
+   "role": "guest"
+  }
+ ],
+ "tbp/s01/372-interview-julien-genestoux-of-unlock-protocol": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Julien Genestoux",
+   "role": "guest",
+   "affiliation": "Unlock Protocol"
+  }
+ ],
+ "tbp/s01/373-roundtable-new-york-is-just-like-kansas-intensified": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/375-interview-evan-van-ness-starbloom-ventures": [
+  {
+   "name": "Evan Van Ness",
+   "role": "guest",
+   "affiliation": "Starbloom Ventures"
+  }
+ ],
+ "tbp/s01/376-interview-alex-smirnov-of-debridgefinance": [
+  {
+   "name": "Alex Smirnov",
+   "role": "guest",
+   "affiliation": "deBridge Finance"
+  }
+ ],
+ "tbp/s01/376-roundtable-no-apple-juice-found": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/377-interview-dan-edlebeck-ceo-of-exidio": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Dan Edlebeck",
+   "role": "guest",
+   "affiliation": "CEO of Exidio"
+  }
+ ],
+ "tbp/s01/378-roundtable-vin-diesel-is-a-car-god": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/379-interview-tascha-of-tascha-labs": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Tascha",
+   "role": "guest",
+   "affiliation": "Tascha Labs"
+  }
+ ],
+ "tbp/s01/380-roundtable-it-is-the-end-of-the-year-as-we-know-it": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/381-roundtable-do-not-call-me-solana": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/383-roundtable-by-the-power-of-the-executive-order": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/384-interview-lixin-liu-of-keystone-hardware-wallet": [
+  {
+   "name": "Lixin Liu",
+   "role": "guest",
+   "affiliation": "Keystone Hardware Wallet"
+  }
+ ],
+ "tbp/s01/384-roundtable-young-h-cruisin-down-the-westside-highway": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Lixin Liu",
+   "role": "guest",
+   "affiliation": "Keystone Hardware Wallet"
+  }
+ ],
+ "tbp/s01/386-roundtable-war-what-is-it-good-for": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/387-interview-cory-doctorow": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Cory Doctorow",
+   "role": "guest",
+   "affiliation": "Author"
+  }
+ ],
+ "tbp/s01/387-roundtable-look-we-can-and-should-do-better": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Cory Doctorow",
+   "role": "guest",
+   "affiliation": "Author"
+  }
+ ],
+ "tbp/s01/388-interview-joshua-of-opolis": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Joshua",
+   "role": "guest",
+   "affiliation": "Opolis"
+  }
+ ],
+ "tbp/s01/391-interview-reggie-middleton-of-defi": [
+  {
+   "name": "Reggie Middleton",
+   "role": "guest",
+   "affiliation": "Veritaseum",
+   "links": {
+    "twitter": "https://twitter.com/ReggieMiddleton"
+   }
+  }
+ ],
+ "tbp/s01/394-interview-anthony-d-onofrio-aka-texture": [
+  {
+   "name": "Anthony D'Onofrio",
+   "role": "guest",
+   "affiliation": "Founding member of Ethereum; creator of TexturePunx (aka Texture)",
+   "links": {
+    "twitter": "https://twitter.com/iamtexture"
+   }
+  }
+ ],
+ "tbp/s01/395-interview-orie-steele-of-transmute-industries": [
+  {
+   "name": "Orie Steele",
+   "role": "guest",
+   "affiliation": "Transmute Industries",
+   "links": {
+    "github": "https://github.com/OR13",
+    "linkedin": "https://www.linkedin.com/in/or13b"
+   }
+  }
+ ],
+ "tbp/s01/396-_______-take-the-wheel": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s01/397-when-is-a-blockchain-decentralized": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/02-the-gang-talks-ordinals": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Ahmad",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/03-yeah-baby-we-like-it-raaaaaw": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/07-well-do-it-live-kinda": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/08-hacks-zcash-and-air-fryers": [
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/09-the-great-unpeggining": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/11-fusaka-to-me": [
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  },
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/13-crypto-isnt-for-everyone-and-that-might-be-the-point": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "Demetrick Ferguson",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/15-interview-fubuloubu": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  },
+  {
+   "name": "fubuloubu",
+   "role": "guest",
+   "affiliation": "Founder of ApeWorX and Silverback",
+   "links": {
+    "twitter": "https://x.com/fubuloubu"
+   }
+  }
+ ],
+ "tbp/s02/21-the-new-original-dao-run-it-back": [
+  {
+   "name": "Griff Green",
+   "role": "guest",
+   "affiliation": "Co-founder of Giveth and Commons Stack"
+  }
+ ],
+ "tbp/s02/22-can-bitcoin-beat-quantum": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "tbp/s02/28-the-bitcoin-podcast-the-next-hype-cycle": [
+  {
+   "name": "Joe",
+   "role": "guest"
+  }
+ ],
+ "tbp/s02/36-the-bitcoin-podcast-corey-and-jessie-stream-of-consciousness": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  },
+  {
+   "name": "Jessie Santiago",
+   "role": "host"
+  }
+ ],
+ "unboxing/01-grid-lattice-1-hardware-wallet": [
+  {
+   "name": "Corey Petty",
+   "role": "host"
+  }
+ ]
+}

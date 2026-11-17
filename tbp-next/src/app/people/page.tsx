@@ -1,55 +1,73 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllPeopleSlugs, getPageContent, toUrlSlug } from "@/lib/content";
+import { getAllPeople, summarize } from "@/lib/people";
+import { PeopleDirectory } from "@/components/people/PeopleDirectory";
+import { Avatar } from "@/components/people/PersonBits";
 
 export const metadata: Metadata = {
   title: "Guests & Hosts",
-  description: "People who have appeared on The Bitcoin Podcast Network",
+  description:
+    "Every guest and host who has appeared on The Bitcoin Podcast Network since 2015, with their episodes, projects and where to find them.",
 };
 
-export default async function PeoplePage() {
-  const slugs = getAllPeopleSlugs();
+export default function PeoplePage() {
+  const people = getAllPeople();
+  const summaries = people.map(summarize);
+  const appearances = people.reduce((n, p) => n + p.episodes.length, 0);
+  const guests = people.filter((p) => !p.host).length;
+  const hosts = people.length - guests;
+  const firstYear = people.map((p) => p.first).filter(Boolean).sort()[0]?.slice(0, 4);
 
-  const people = await Promise.all(
-    slugs.map(async (slug) => {
-      const page = await getPageContent(`people/${slug}.md`);
-      if (!page) return null;
-      const name = (page.frontmatter.name as string) || (page.frontmatter.title as string) || slug;
-      return { slug, name };
-    })
-  );
-
-  const validPeople = people
-    .filter(Boolean)
-    .sort((a, b) => a!.name.localeCompare(b!.name));
+  // A strip of faces for the header: frequent guests who have a photo.
+  const faces = people
+    .filter((p) => p.avatar && !p.host)
+    .sort((a, b) => b.episodes.length - a.episodes.length)
+    .slice(0, 9);
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
-      <div className="text-center mb-10">
-        <h1 className="font-display text-4xl font-extrabold sm:text-5xl">
-          Guests & Hosts
-        </h1>
-        <p className="mt-2 text-sm text-muted">
-          {validPeople.length} people from across the Bitcoin Podcast Network
+    <div className="mx-auto max-w-[1160px] px-6 py-12 sm:px-8 sm:py-16">
+      <header className="mx-auto max-w-3xl text-center">
+        <p className="font-mono text-xs uppercase tracking-[0.14em] text-accent">
+          The people behind the episodes · {firstYear}–today
         </p>
-      </div>
+        <h1 className="mt-3 font-display text-5xl font-extrabold sm:text-6xl">Guests &amp; Hosts</h1>
+        <p className="mt-5 text-lg leading-relaxed text-muted">
+          Builders, cryptographers, founders, artists and skeptics: everyone who has sat down with
+          us across the network. Find a guest, see every episode they&rsquo;re on, and follow them
+          where they post now.
+        </p>
 
-      <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
-        {validPeople.map((person) => (
-          <Link
-            key={person!.slug}
-            href={`/people/${encodeURIComponent(toUrlSlug(person!.slug))}`}
-            className="group flex items-center gap-3 rounded-md border border-border p-3 transition-all hover:border-accent/20 hover:bg-surface"
-          >
-            <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent text-sm font-bold">
-              {person!.name.charAt(0)}
-            </span>
-            <span className="text-sm text-foreground truncate group-hover:text-accent transition-colors">
-              {person!.name}
-            </span>
+        {faces.length > 0 && (
+          <div className="mt-8 flex justify-center -space-x-3" aria-hidden="true">
+            {faces.map((p) => (
+              <Avatar key={p.slug} name={p.name} src={p.avatar} size={44} className="ring-4 ring-background" />
+            ))}
+          </div>
+        )}
+
+        <dl className="mx-auto mt-8 grid max-w-xl grid-cols-3 divide-x divide-border rounded-2xl border border-border bg-surface-light/60">
+          {[
+            [guests, "guests"],
+            [hosts, "hosts"],
+            [appearances, "appearances"],
+          ].map(([n, label]) => (
+            <div key={label} className="px-3 py-4">
+              <dt className="sr-only">{label}</dt>
+              <dd className="font-display text-2xl font-extrabold sm:text-3xl">{n.toLocaleString()}</dd>
+              <dd className="mt-0.5 font-mono text-[11px] uppercase tracking-wider text-muted">{label}</dd>
+            </div>
+          ))}
+        </dl>
+
+        <p className="mt-6 text-sm text-muted">
+          Hear what they said in ten words or less on{" "}
+          <Link href="/in-ten-words" className="font-semibold text-accent hover:text-accent-hover">
+            In Ten Words →
           </Link>
-        ))}
-      </div>
+        </p>
+      </header>
+
+      <PeopleDirectory people={summaries} />
     </div>
   );
 }

@@ -10,7 +10,10 @@
     "search:index": "node scripts/build-search-index.mjs",
     "ten-words:candidates": "node scripts/ten-words/find-candidates.mjs",
     "ten-words:build": "node scripts/ten-words/build.mjs",
-    "start": "next start"
+    "start": "next start",
+    "people:build": "node scripts/people/build.mjs",
+    "people:avatars": "node scripts/people/fetch-avatars.mjs",
+    "people:verify": "node scripts/people/verify-appearances.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

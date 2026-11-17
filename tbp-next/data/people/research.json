@@ -1,0 +1,1556 @@
+{
+ "Aaron Blankstein": {
+  "affiliation": "Blockstack / Hiro",
+  "bio": "Core engineer at Blockstack (later Hiro Systems), working on the Stacks blockchain.",
+  "links": {
+   "website": "https://aaron.blankstein.com/"
+  }
+ },
+ "Aaron van Wirdum": {
+  "affiliation": "Bitcoin Magazine",
+  "bio": "Bitcoin journalist, technical editor at Bitcoin Magazine and co-host of the Bitcoin, Explained podcast.",
+  "links": {
+   "twitter": "https://x.com/AaronvanW"
+  }
+ },
+ "Adam Draper": {
+  "affiliation": "Boost VC",
+  "bio": "Founder and managing director of Boost VC, an early crypto and deep-tech venture investor.",
+  "links": {
+   "twitter": "https://x.com/AdamDraper",
+   "website": "https://boost.vc"
+  }
+ },
+ "Alberto Cevallos": {
+  "affiliation": "ForceDAO",
+  "bio": "Founder and lead developer of ForceDAO.",
+  "links": {
+   "github": "https://github.com/albertocevallos",
+   "twitter": "https://x.com/albertocevalls"
+  }
+ },
+ "Alex Bosworth": {
+  "affiliation": "Lightning Labs",
+  "bio": "Lightning Network engineer at Lightning Labs, known for the Lightning Loop service.",
+  "links": {
+   "github": "https://github.com/alexbosworth",
+   "twitter": "https://x.com/alexbosworth"
+  }
+ },
+ "Alex Masmejean": {
+  "affiliation": "MetaCartel; Rocket",
+  "bio": "MetaCartel DAO contributor and founder of Rocket, an NFT-collateral lending project.",
+  "links": {
+   "twitter": "https://x.com/AlexMasmej"
+  }
+ },
+ "Alex Miller": {
+  "affiliation": "Grid+",
+  "bio": "Co-founder of Grid+, an Ethereum-based energy and hardware wallet project.",
+  "links": {
+   "website": "https://gridplus.io"
+  }
+ },
+ "Alex Smirnov": {
+  "affiliation": "deBridge Finance",
+  "bio": "CEO of deBridge Finance, a cross-chain interoperability protocol.",
+  "links": {
+   "github": "https://github.com/debridge-finance/",
+   "website": "https://debridge.finance/"
+  }
+ },
+ "Alex van de Sande": {
+  "affiliation": "Ethereum Foundation (former)",
+  "bio": "Early Ethereum UX engineer who built the Mist browser and Ethereum Wallet.",
+  "links": {
+   "twitter": "https://x.com/avsa"
+  }
+ },
+ "Ali Spagnola": {
+  "affiliation": "Internet artist",
+  "bio": "YouTube creator and internet artist who explores blockchain topics.",
+  "links": {
+   "twitter": "https://x.com/alispagnola",
+   "website": "https://alispagnola.com/",
+   "youtube": "https://www.youtube.com/user/AliSpags"
+  }
+ },
+ "Ameen Soleimani": {
+  "affiliation": "0xbow / Privacy Pools",
+  "bio": "Co-founder of SpankChain and Moloch DAO author; co-author of the Privacy Pools paper and 0xbow founder.",
+  "links": {
+   "twitter": "https://x.com/ameensol",
+   "website": "https://0xbow.io"
+  }
+ },
+ "Anatoly Yakovenko": {
+  "affiliation": "Solana Labs",
+  "bio": "Co-founder and CEO of Solana Labs, creator of the Solana blockchain.",
+  "links": {
+   "github": "https://github.com/aeyakovenko",
+   "twitter": "https://x.com/aeyakovenko",
+   "website": "https://solana.com"
+  }
+ },
+ "Andreas M. Antonopoulos": {
+  "affiliation": "Author and speaker",
+  "bio": "Bitcoin educator, speaker and author of Mastering Bitcoin.",
+  "links": {
+   "twitter": "https://x.com/aantonop",
+   "website": "https://aantonop.com",
+   "youtube": "https://www.youtube.com/aantonop"
+  }
+ },
+ "Andrew Poelstra": {
+  "affiliation": "Blockstream",
+  "bio": "Cryptographer and Director of Research at Blockstream, known for Mimblewimble research.",
+  "links": {
+   "github": "https://github.com/apoelstra",
+   "twitter": "https://x.com/apoelstra",
+   "website": "https://www.wpsoftware.net/andrew/"
+  }
+ },
+ "Andrew Yang": {
+  "affiliation": "Politician and entrepreneur",
+  "bio": "Entrepreneur, former 2020 Democratic presidential candidate and crypto policy advocate.",
+  "links": {
+   "twitter": "https://x.com/AndrewYang"
+  }
+ },
+ "Andy Boyan": {
+  "affiliation": "Infinity Keys",
+  "bio": "Co-founder and CEO of Infinity Keys, a web3 onboarding platform.",
+  "links": {
+   "website": "https://infinitykeys.io"
+  }
+ },
+ "Anthony Di Iorio": {
+  "affiliation": "Jaxx / Decentral",
+  "bio": "Ethereum co-founder and founder of Jaxx wallet and Decentral.",
+  "links": {
+   "twitter": "https://x.com/diiorioanthony"
+  }
+ },
+ "Anthony D’Onofrio": {
+  "affiliation": "Ethereum co-founder; TexturePunx",
+  "bio": "Ethereum founding member and NFT creator known as Texture, behind TexturePunx.",
+  "links": {
+   "twitter": "https://x.com/iamtexture"
+  }
+ },
+ "Aram Barnett": {
+  "affiliation": "721 Collective",
+  "bio": "Founder of 721 Collective, an NFT collective, and web3 developer.",
+  "links": {
+   "github": "https://github.com/arambarnett",
+   "other": [
+    "https://www.721collective.com/"
+   ],
+   "twitter": "https://x.com/arambarnett",
+   "website": "https://www.arambarnett.com/"
+  }
+ },
+ "Ari Juels": {
+  "affiliation": "Chainlink Labs; Cornell Tech",
+  "bio": "Cryptographer, Chainlink Labs chief scientist and Cornell Tech professor; co-director of IC3.",
+  "links": {
+   "twitter": "https://x.com/arijuels",
+   "website": "https://www.arijuels.com"
+  }
+ },
+ "Arianna Simpson": {
+  "affiliation": "a16z crypto",
+  "bio": "Early crypto investor and founder, later general partner at a16z crypto.",
+  "links": {
+   "twitter": "https://x.com/AriannaSimpson"
+  }
+ },
+ "Arthur Gervais": {
+  "affiliation": "Imperial College London / UCL",
+  "bio": "Blockchain security researcher and professor, known for DeFi attack research.",
+  "links": {
+   "twitter": "https://x.com/arthurgervais"
+  }
+ },
+ "Augusto Teixeira": {
+  "affiliation": "Cartesi",
+  "bio": "Co-founder of Cartesi, a Linux-based blockchain rollups platform.",
+  "links": {
+   "website": "https://cartesi.io"
+  }
+ },
+ "Austin Griffith": {
+  "affiliation": "Ethereum Foundation; BuidlGuidl",
+  "bio": "Ethereum developer and educator, creator of Scaffold-ETH and lead of BuidlGuidl.",
+  "links": {
+   "github": "https://github.com/austintgriffith",
+   "twitter": "https://x.com/austingriffith",
+   "website": "https://austingriffith.com"
+  }
+ },
+ "Ben Arc": {
+  "affiliation": "LNbits",
+  "bio": "Open-source Bitcoin and Lightning hardware tinkerer and creator of LNbits.",
+  "links": {
+   "github": "https://github.com/arcbtc",
+   "twitter": "https://x.com/arcbtc"
+  }
+ },
+ "Bernhard Mueller": {
+  "affiliation": "Mythril",
+  "bio": "Smart contract security researcher and creator of Mythril.",
+  "links": {
+   "github": "https://github.com/muellerberndt",
+   "twitter": "https://x.com/muellerberndt"
+  }
+ },
+ "Brad Kam": {
+  "affiliation": "Unstoppable Domains",
+  "bio": "Executive at Unstoppable Domains, a blockchain domain name company.",
+  "links": {
+   "website": "https://unstoppabledomains.com"
+  }
+ },
+ "Brian Fabian Crain": {
+  "affiliation": "Epicenter; Chorus One",
+  "bio": "Co-founder of Chorus One and co-host of the Epicenter podcast.",
+  "links": {
+   "website": "https://epicenter.tv"
+  }
+ },
+ "Brian Hoffman": {
+  "affiliation": "OpenBazaar / OB1 co-founder",
+  "bio": "Co-founder and project lead of OpenBazaar and former CEO of OB1; later worked at Kraken.",
+  "links": {
+   "twitter": "https://x.com/brianchoffman"
+  }
+ },
+ "Brock Pierce": {
+  "affiliation": "Bitcoin entrepreneur and investor",
+  "bio": "Early Bitcoin entrepreneur, former Bitcoin Foundation chairman and Blockchain Capital co-founder.",
+  "links": {
+   "twitter": "https://x.com/brockpierce"
+  }
+ },
+ "Bruce Pon": {
+  "affiliation": "BigchainDB / Ocean Protocol founder",
+  "bio": "Founder of BigchainDB and co-founder of Ocean Protocol, focused on decentralized data marketplaces.",
+  "links": {
+   "twitter": "https://x.com/BrucePon",
+   "website": "https://oceanprotocol.com"
+  }
+ },
+ "Camila Russo": {
+  "affiliation": "Founder and CEO of The Defiant",
+  "bio": "Journalist and founder and CEO of The Defiant, a DeFi and Web3 media outlet; author of The Infinite Machine.",
+  "links": {
+   "website": "https://thedefiant.io"
+  }
+ },
+ "Chad Knight": {
+  "affiliation": "Metaverse artist",
+  "bio": "Metaverse and NFT artist known for the Zodiac collection on Nifty Gateway; former Head of Cyberwear at Wilder World.",
+  "links": {
+   "twitter": "https://x.com/ChadKnight",
+   "website": "https://www.chad-knight.com/"
+  }
+ },
+ "Charlie Lee": {
+  "affiliation": "Litecoin creator",
+  "bio": "Creator of Litecoin and former Google engineer and Coinbase director of engineering.",
+  "links": {
+   "twitter": "https://x.com/SatoshiLite",
+   "website": "https://litecoin.com"
+  }
+ },
+ "Charlie Shrem": {
+  "affiliation": "BitInstant co-founder",
+  "bio": "Bitcoin entrepreneur, co-founder of BitInstant, and early Bitcoin Foundation board member.",
+  "links": {
+   "twitter": "https://x.com/CharlieShrem"
+  }
+ },
+ "Chris DeRose": {
+  "affiliation": "Counterparty Foundation",
+  "bio": "Counterparty community director and Bitcoin writer, organizer of the South Florida Bitcoin Group.",
+  "links": {
+   "twitter": "https://x.com/derosetech"
+  }
+ },
+ "Christopher E. Wilmer": {
+  "affiliation": "University of Pittsburgh; Ledger journal editor",
+  "bio": "University of Pittsburgh engineering professor and co-editor of Ledger, a peer-reviewed cryptocurrency journal.",
+  "links": {
+   "website": "https://ledgerjournal.org"
+  }
+ },
+ "Christopher Jeffrey": {
+  "affiliation": "Bcoin / Handshake developer",
+  "bio": "Developer behind the bcoin Bitcoin full node library and later Handshake; former CTO of Purse.",
+  "links": {
+   "github": "https://github.com/chjj"
+  }
+ },
+ "Colin LeMahieu": {
+  "affiliation": "Nano founder",
+  "bio": "Original author of Nano (formerly RaiBlocks) and Nano Foundation director.",
+  "links": {
+   "github": "https://github.com/clemahieu",
+   "website": "https://nano.org"
+  }
+ },
+ "Corey Petty": {
+  "affiliation": "Logos / Institute of Free Technology",
+  "bio": "Logos program lead and longtime Status contributor, working on decentralized infrastructure.",
+  "links": {
+   "github": "https://github.com/corpetty",
+   "website": "https://bayesianpersuasion.com"
+  }
+ },
+ "Cory Doctorow": {
+  "affiliation": "Author and activist",
+  "bio": "Author, journalist and EFF activist writing on technology, copyright and digital rights.",
+  "links": {
+   "other": [
+    "https://pluralistic.net"
+   ],
+   "twitter": "https://x.com/doctorow",
+   "website": "https://craphound.com"
+  }
+ },
+ "Dan Boneh": {
+  "affiliation": "Stanford University",
+  "bio": "Stanford professor of computer science and cryptography researcher, co-director of the Stanford Computer Security Lab.",
+  "links": {
+   "website": "https://crypto.stanford.edu/~dabo"
+  }
+ },
+ "Dan Edlebeck": {
+  "affiliation": "CEO of Exidio",
+  "bio": "CEO of Exidio, working with the Sentinel decentralized VPN network.",
+  "links": {
+   "other": [
+    "https://sentinel.co/"
+   ],
+   "website": "https://www.exidio.co/"
+  }
+ },
+ "Dan Guido": {
+  "affiliation": "CEO of Trail of Bits",
+  "bio": "Co-founder and CEO of Trail of Bits, a security research and auditing firm.",
+  "links": {
+   "twitter": "https://x.com/dguido",
+   "website": "https://www.trailofbits.com"
+  }
+ },
+ "Dan Robinson": {
+  "affiliation": "Paradigm",
+  "bio": "General Partner and Head of Research at Paradigm; researcher behind Uniswap and Lightning HTLC work.",
+  "links": {
+   "twitter": "https://x.com/danrobinson",
+   "website": "https://www.paradigm.xyz"
+  }
+ },
+ "Dan Romero": {
+  "affiliation": "Farcaster co-founder",
+  "bio": "Co-founder of Farcaster and early Coinbase executive.",
+  "links": {
+   "twitter": "https://x.com/dwr",
+   "website": "https://farcaster.xyz"
+  }
+ },
+ "Dankrad Feist": {
+  "affiliation": "Tempo; Ethereum researcher",
+  "bio": "Ethereum researcher known for danksharding and data availability sampling, now at Tempo.",
+  "links": {
+   "twitter": "https://x.com/dankrad",
+   "website": "https://dankradfeist.de"
+  }
+ },
+ "Danny Ryan": {
+  "affiliation": "Ethereum researcher",
+  "bio": "Ethereum 2.0 and consensus researcher, formerly at the Ethereum Foundation.",
+  "links": {
+   "twitter": "https://x.com/dannyryan"
+  }
+ },
+ "David Burkett": {
+  "affiliation": "Grin++ / Litecoin MWEB developer",
+  "bio": "Developer of Grin++ and lead developer of Litecoin's MWEB privacy upgrade.",
+  "links": {
+   "github": "https://github.com/DavidBurkett"
+  }
+ },
+ "David Seaman": {
+  "affiliation": "Podcaster and journalist",
+  "bio": "Independent journalist and podcaster covering Bitcoin and cryptocurrency.",
+  "links": {
+   "twitter": "https://x.com/d_seaman",
+   "website": "https://davidseaman.substack.com"
+  }
+ },
+ "David Vorick": {
+  "affiliation": "Glow / Sia",
+  "bio": "Co-creator of Sia and Skynet, and CEO of Glow, a solar-based carbon credit protocol.",
+  "links": {
+   "twitter": "https://x.com/DavidVorick"
+  }
+ },
+ "Dean Eigenmann": {
+  "affiliation": "Ethereum developer",
+  "bio": "Ethereum developer and researcher who worked on Status and ENS.",
+  "links": {
+   "github": "https://github.com/decanus",
+   "twitter": "https://x.com/deaneigenmann",
+   "website": "https://dean.eigenmann.me"
+  }
+ },
+ "Devin Finzer": {
+  "affiliation": "OpenSea",
+  "bio": "Co-founder and CEO of OpenSea, the NFT marketplace.",
+  "links": {
+   "twitter": "https://x.com/dfinzer",
+   "website": "https://opensea.io"
+  }
+ },
+ "Diego Gutierrez-Zaldivar": {
+  "affiliation": "IOV Labs / Rootstock",
+  "bio": "Chairman and co-founder of IOV Labs and co-founder of Rootstock, the Bitcoin-secured smart contract platform.",
+  "links": {
+   "website": "https://rootstock.io"
+  }
+ },
+ "Dmitry Buterin": {
+  "affiliation": "Angel investor",
+  "bio": "Computer scientist, angel investor and father of Ethereum co-founder Vitalik Buterin.",
+  "links": {
+   "twitter": "https://x.com/BlockGeekDima"
+  }
+ },
+ "Doug Petkanics": {
+  "affiliation": "Livepeer",
+  "bio": "Co-founder and CEO of Livepeer, a decentralized video infrastructure network.",
+  "links": {
+   "twitter": "https://x.com/petkanics",
+   "website": "https://livepeer.org"
+  }
+ },
+ "E. Glen Weyl": {
+  "affiliation": "Microsoft Research / RadicalxChange",
+  "bio": "Economist, co-author of Radical Markets and co-founder of RadicalxChange; Microsoft Research plural technology researcher.",
+  "links": {
+   "other": [
+    "https://www.radicalxchange.org"
+   ],
+   "twitter": "https://x.com/glenweyl",
+   "website": "http://glenweyl.com/"
+  }
+ },
+ "Edan Yago": {
+  "affiliation": "Sovryn / BitcoinOS",
+  "bio": "Co-founder of Sovryn and CEO of BitcoinOS, building Bitcoin DeFi and smart contract infrastructure.",
+  "links": {
+   "twitter": "https://x.com/EdanYago",
+   "website": "https://sovryn.app"
+  }
+ },
+ "Edu Antuña": {
+  "affiliation": "DAppNode",
+  "bio": "Founder and project lead of DAppNode, plug-and-play node software for decentralized infrastructure.",
+  "links": {
+   "website": "https://dappnode.com"
+  }
+ },
+ "Emily Pillmore": {
+  "affiliation": "Kadena",
+  "bio": "Haskell engineer and protocol developer at Kadena.",
+  "links": {
+   "website": "https://www.kadena.io"
+  }
+ },
+ "Emin Gün Sirer": {
+  "affiliation": "Ava Labs",
+  "bio": "Co-founder and CEO of Ava Labs (Avalanche) and Cornell computer science professor.",
+  "links": {
+   "twitter": "https://x.com/el33th4xor",
+   "website": "https://www.avalabs.org"
+  }
+ },
+ "Eric Conner": {
+  "affiliation": "EthHub",
+  "bio": "Co-founder of EthHub, an Ethereum education and news resource.",
+  "links": {
+   "twitter": "https://x.com/econoar",
+   "website": "https://ethhub.io"
+  }
+ },
+ "Erik Voorhees": {
+  "affiliation": "Venice.ai / ShapeShift",
+  "bio": "Founder of ShapeShift and of Venice.ai, a privacy-focused AI platform; long-time Bitcoin advocate.",
+  "links": {
+   "twitter": "https://x.com/ErikVoorhees",
+   "website": "https://venice.ai"
+  }
+ },
+ "Ethan Buchman": {
+  "affiliation": "Informal Systems",
+  "bio": "Co-creator of Tendermint and Cosmos, and CEO of Informal Systems.",
+  "links": {
+   "twitter": "https://x.com/buchmanster"
+  }
+ },
+ "Evan Kuo": {
+  "affiliation": "Ampleforth",
+  "bio": "Founder and CEO of Ampleforth, an elastic-supply DeFi protocol.",
+  "links": {
+   "website": "https://www.ampleforth.org"
+  }
+ },
+ "Evan Van Ness": {
+  "affiliation": "Week in Ethereum News / Starbloom Ventures",
+  "bio": "Creator of Week in Ethereum News and founder of Starbloom Ventures.",
+  "links": {
+   "other": [
+    "https://weekinethereum.substack.com"
+   ],
+   "twitter": "https://x.com/EvanVanNess",
+   "website": "https://evanvanness.com"
+  }
+ },
+ "Fabian Vogelsteller": {
+  "affiliation": "LUKSO",
+  "bio": "Creator of the ERC-20 standard and web3.js, and founder of LUKSO.",
+  "links": {
+   "twitter": "https://x.com/feindura",
+   "website": "https://lukso.network"
+  }
+ },
+ "Federico Ast": {
+  "affiliation": "Kleros",
+  "bio": "Founder and CEO of Kleros, a decentralized dispute resolution protocol.",
+  "links": {
+   "linkedin": "https://fr.linkedin.com/in/federicoast",
+   "twitter": "https://x.com/federicoast",
+   "website": "https://kleros.io"
+  }
+ },
+ "Gavin Andresen": {
+  "affiliation": "Bitcoin developer",
+  "bio": "Former Bitcoin lead developer and co-founder of the Bitcoin Foundation.",
+  "links": {
+   "twitter": "https://x.com/gavinandresen"
+  }
+ },
+ "Georgios Konstantopoulos": {
+  "affiliation": "Paradigm",
+  "bio": "CTO and General Partner at Paradigm; creator of Reth and Foundry tooling.",
+  "links": {
+   "github": "https://github.com/gakonst",
+   "twitter": "https://x.com/gakonst",
+   "website": "https://www.gakonst.com/"
+  }
+ },
+ "Giulia Fanti": {
+  "affiliation": "Carnegie Mellon University",
+  "bio": "Carnegie Mellon associate professor of ECE researching privacy and blockchain networking, including Dandelion and Prism.",
+  "links": {
+   "website": "https://gfanti.github.io"
+  }
+ },
+ "Greg Osuri": {
+  "affiliation": "Akash Network",
+  "bio": "Founder and CEO of Akash Network and Overclock Labs, a decentralized cloud compute marketplace.",
+  "links": {
+   "twitter": "https://x.com/gregosuri",
+   "website": "https://akash.network"
+  }
+ },
+ "Greg Slepak": {
+  "affiliation": "okTurtles Foundation",
+  "bio": "Co-founder of the okTurtles Foundation and CEO of Tao Effect, building decentralization technologies.",
+  "links": {
+   "website": "https://okturtles.org"
+  }
+ },
+ "Griff Green": {
+  "affiliation": "Giveth / Commons Stack",
+  "bio": "Co-founder of Giveth and Commons Stack, public goods and charitable giving builder.",
+  "links": {
+   "twitter": "https://x.com/thegrifft",
+   "website": "https://giveth.io"
+  }
+ },
+ "Harry Denley": {
+  "affiliation": "MyCrypto",
+  "bio": "Security researcher and director of security at MyCrypto.",
+  "links": {
+   "website": "https://mycrypto.com"
+  }
+ },
+ "Haseeb Qureshi": {
+  "affiliation": "Dragonfly",
+  "bio": "Managing Partner at crypto venture firm Dragonfly and author.",
+  "links": {
+   "other": [
+    "https://www.dragonfly.xyz"
+   ],
+   "twitter": "https://x.com/hosseeb",
+   "website": "https://haseebq.com"
+  }
+ },
+ "Ian Balina": {
+  "affiliation": "Token Metrics",
+  "bio": "Founder and CEO of Token Metrics and crypto investor known as Diary of a Made Man.",
+  "links": {
+   "twitter": "https://x.com/DiaryofaMadeMan",
+   "website": "https://www.tokenmetrics.com"
+  }
+ },
+ "Ian Grigg": {
+  "affiliation": "Financial cryptographer",
+  "bio": "Financial cryptographer who invented the Ricardian contract and wrote on financial cryptography.",
+  "links": {
+   "website": "https://iang.org"
+  }
+ },
+ "Imogen Heap": {
+  "affiliation": "Mycelia for Music",
+  "bio": "Grammy-winning musician who founded Mycelia, building blockchain-based tools such as the Creative Passport for music makers.",
+  "links": {
+   "website": "https://myceliaformusic.org"
+  }
+ },
+ "Isabela Bagueros": {
+  "affiliation": "Tor Project",
+  "bio": "Executive Director of the Tor Project, the privacy and anonymity network nonprofit.",
+  "links": {
+   "website": "https://www.torproject.org"
+  }
+ },
+ "Isaiah Jackson": {
+  "affiliation": "Author, Bitcoin and Black America",
+  "bio": "Bitcoin Zay, author of Bitcoin and Black America and Bitcoin education advocate.",
+  "links": {
+   "twitter": "https://x.com/bitcoinzay",
+   "website": "https://bitcoinandblackamerica.com"
+  }
+ },
+ "Iuri Matias": {
+  "affiliation": "Logos / Embark",
+  "bio": "Creator of the Embark framework for decentralized apps and former Status engineer.",
+  "links": {
+   "github": "https://github.com/iurimatias",
+   "twitter": "https://x.com/iurimatias"
+  }
+ },
+ "JT Olio": {
+  "affiliation": "Storj",
+  "bio": "Chief Architect at Storj, the decentralized cloud storage network.",
+  "links": {
+   "github": "https://github.com/jtolio",
+   "other": [
+    "https://www.storj.io"
+   ],
+   "website": "https://jtolio.com"
+  }
+ },
+ "Jacek Sieka": {
+  "affiliation": "Status (Nimbus)",
+  "bio": "Nim developer and Nimbus Ethereum client engineer at Status.",
+  "links": {
+   "github": "https://github.com/arnetheduck"
+  }
+ },
+ "Jameson Lopp": {
+  "affiliation": "Casa",
+  "bio": "Bitcoin developer, co-founder and Chief Security Officer of Casa, and maintainer of lopp.net.",
+  "links": {
+   "other": [
+    "https://casa.io"
+   ],
+   "twitter": "https://x.com/lopp",
+   "website": "https://lopp.net"
+  }
+ },
+ "Jamie Bartlett": {
+  "affiliation": "Author and journalist",
+  "bio": "British author and journalist who wrote The Missing Cryptoqueen about the OneCoin fraud.",
+  "links": {
+   "twitter": "https://x.com/JamieJBartlett",
+   "website": "https://substack.com/@jamiejbartlett"
+  }
+ },
+ "Jarrad Hope": {
+  "affiliation": "Logos",
+  "bio": "Co-founder of Status and Logos, and host of the Logos Podcast.",
+  "links": {
+   "twitter": "https://x.com/jarradhope_"
+  }
+ },
+ "Jason Teutsch": {
+  "affiliation": "Truebit",
+  "bio": "Founder of Truebit, a verifiable off-chain computation protocol for Ethereum.",
+  "links": {
+   "website": "https://truebit.io"
+  }
+ },
+ "Jehan Tremback": {
+  "affiliation": "Althea",
+  "bio": "Co-founder of Althea, a decentralized mesh internet network project.",
+  "links": {
+   "website": "https://althea.net"
+  }
+ },
+ "Jeremy Epstein": {
+  "affiliation": "Never Stop Marketing",
+  "bio": "Marketing strategist and founder of Never Stop Marketing, advising blockchain companies.",
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/jer979/",
+   "twitter": "https://x.com/jer979",
+   "website": "https://neverstopmarketing.com"
+  }
+ },
+ "Jesse Powell": {
+  "affiliation": "Kraken",
+  "bio": "Co-founder and former CEO of the Kraken crypto exchange.",
+  "links": {
+   "twitter": "https://x.com/jespow"
+  }
+ },
+ "Jessi Baker": {
+  "affiliation": "Provenance",
+  "bio": "Founder and CEO of Provenance, a supply-chain transparency platform using blockchain.",
+  "links": {
+   "website": "https://www.provenance.org"
+  }
+ },
+ "Jessica Angel": {
+  "affiliation": "Crypto artist",
+  "bio": "Colombian-born blockchain artist known for the Voxel Bridge augmented reality work.",
+  "links": {
+   "website": "https://www.jessicaangelarts.com"
+  }
+ },
+ "Jimmy Song": {
+  "affiliation": "Programming Blockchain",
+  "bio": "Bitcoin developer, educator and author of Programming Bitcoin.",
+  "links": {
+   "twitter": "https://x.com/jimmysong"
+  }
+ },
+ "Joey Krug": {
+  "affiliation": "Founders Fund",
+  "bio": "Co-founder of Augur, former Pantera co-CIO and partner at Founders Fund.",
+  "links": {
+   "twitter": "https://x.com/joeykrug"
+  }
+ },
+ "Johad Ellis": {
+  "affiliation": "Atomize",
+  "bio": "Co-founder and head of design at Atomize, a decentralized finance project.",
+  "links": {
+   "github": "https://github.com/atomizexyz"
+  }
+ },
+ "John Adler": {
+  "affiliation": "Fuel Labs / Celestia",
+  "bio": "Co-founder of Celestia and Fuel Labs and originator of the optimistic rollup design.",
+  "links": {
+   "twitter": "https://x.com/jadler0"
+  }
+ },
+ "John Crain": {
+  "affiliation": "SuperRare",
+  "bio": "Co-founder and CEO of SuperRare, an NFT art marketplace.",
+  "links": {
+   "twitter": "https://x.com/SuperRareJohn"
+  }
+ },
+ "John Pacific": {
+  "affiliation": "NuCypher",
+  "bio": "Cryptography engineer at NuCypher, known as Tux.",
+  "links": {
+   "twitter": "https://x.com/__tux"
+  }
+ },
+ "Jonathan Chester": {
+  "affiliation": "Bitwage",
+  "bio": "Founder of Bitwage, a bitcoin and crypto payroll service.",
+  "links": {
+   "twitter": "https://x.com/JonChest",
+   "website": "https://bitwage.com"
+  }
+ },
+ "Jonny Huxtable": {
+  "affiliation": "LinkPool",
+  "bio": "Co-founder of LinkPool, a Chainlink node operator and oracle infrastructure provider.",
+  "links": {
+   "github": "https://github.com/linkpoolio",
+   "twitter": "https://x.com/huxtablejonny",
+   "website": "https://www.linkpool.io/"
+  }
+ },
+ "Joost Jager": {
+  "affiliation": "Lightning developer",
+  "bio": "Lightning Network protocol developer and contributor to Lightning specifications.",
+  "links": {
+   "github": "https://github.com/joostjager"
+  }
+ },
+ "Jordi Baylina": {
+  "affiliation": "Polygon zkEVM",
+  "bio": "Co-founder of iden3, Hermez and Polygon zkEVM, and founder of Giveth and DAppNode.",
+  "links": {
+   "twitter": "https://x.com/jbaylina"
+  }
+ },
+ "Joseph Lubin": {
+  "affiliation": "ConsenSys",
+  "bio": "Co-founder of Ethereum and founder of ConsenSys.",
+  "links": {
+   "twitter": "https://x.com/ethereumJoseph",
+   "website": "https://consensys.io"
+  }
+ },
+ "Josh Katz": {
+  "affiliation": "YellowHeart",
+  "bio": "Founder and CEO of YellowHeart, an NFT platform for music and ticketing.",
+  "links": {
+   "website": "https://www.yellowheart.io"
+  }
+ },
+ "Juan M Hernandez": {
+  "affiliation": "Curio",
+  "bio": "Founder and CEO of Curio, a digital collectibles platform.",
+  "links": {
+   "website": "https://oncurio.com/"
+  }
+ },
+ "Julien Genestoux": {
+  "affiliation": "Founder, Unlock Protocol",
+  "bio": "Founder of Unlock Protocol and earlier Superfeedr, building web3 memberships and paywall tools.",
+  "links": {
+   "other": [
+    "https://unlock-protocol.com/"
+   ],
+   "twitter": "https://x.com/julien51",
+   "website": "https://ouvre-boite.com"
+  }
+ },
+ "Karl Floersch": {
+  "affiliation": "Co-founder, Optimism",
+  "bio": "Co-founder of Optimism and OP Labs, Ethereum layer-2 builder and public goods funding advocate.",
+  "links": {
+   "twitter": "https://x.com/karl_dot_tech",
+   "website": "https://optimism.io"
+  }
+ },
+ "Karl Schroeder": {
+  "affiliation": "Author and futurist",
+  "bio": "Canadian science fiction author and professional futurist.",
+  "links": {
+   "website": "https://www.kschroeder.com"
+  }
+ },
+ "Kelvin Fichter": {
+  "affiliation": "Founding engineer, OP Labs",
+  "bio": "Founding engineer at Optimism and co-founder of Plasma Group, which became OP Labs.",
+  "links": {
+   "twitter": "https://x.com/kelvinfichter",
+   "website": "https://optimism.io"
+  }
+ },
+ "Kenn Bosak": {
+  "affiliation": "Bro Bros 420",
+  "bio": "Bro Bros 420 founder and early helper on The Bitcoin Podcast.",
+  "links": {
+   "twitter": "https://x.com/KennethBosak",
+   "website": "https://brobros420.com/",
+   "youtube": "https://www.youtube.com/c/KennBosak"
+  }
+ },
+ "Kevin Owocki": {
+  "affiliation": "Co-founder, Gitcoin",
+  "bio": "Co-founder of Gitcoin, advocate for quadratic funding and public goods funding in Ethereum.",
+  "links": {
+   "other": [
+    "https://gitcoin.co"
+   ],
+   "twitter": "https://x.com/owocki",
+   "website": "https://owocki.com"
+  }
+ },
+ "Kevin Sekniqi": {
+  "affiliation": "Co-founder, Ava Labs",
+  "bio": "Co-founder of Ava Labs, the company behind the Avalanche blockchain.",
+  "links": {
+   "twitter": "https://x.com/kevinsekniqi"
+  }
+ },
+ "Lefteris Karapetsas": {
+  "affiliation": "Founder, Rotki",
+  "bio": "Founder of Rotki, a local-first, privacy-preserving crypto portfolio tracker, and longtime Ethereum developer.",
+  "links": {
+   "github": "https://github.com/LefterisJP",
+   "twitter": "https://x.com/LefterisJP",
+   "website": "https://rotki.com"
+  }
+ },
+ "Lixin Liu": {
+  "affiliation": "KeyStone Hardware Wallet",
+  "bio": "Associated with the KeyStone hardware wallet.",
+  "links": {
+   "twitter": "https://x.com/BitcoinLixin"
+  }
+ },
+ "Lucas Ontivero": {
+  "affiliation": "Wasabi Wallet developer",
+  "bio": "Developer who contributed to Wasabi Wallet, the privacy-focused Bitcoin wallet.",
+  "links": {
+   "github": "https://github.com/lontivero"
+  }
+ },
+ "Luis Cuende": {
+  "affiliation": "Co-founder, Aragon",
+  "bio": "Co-founder of Aragon, the decentralized organization platform on Ethereum.",
+  "links": {
+   "twitter": "https://x.com/licuende"
+  }
+ },
+ "Luke Stokes": {
+  "affiliation": "Managing Director, FIO Protocol",
+  "bio": "Managing director of the Foundation for Interwallet Operability, which develops the FIO Protocol.",
+  "links": {
+   "twitter": "https://x.com/lukestokes",
+   "website": "https://fio.net"
+  }
+ },
+ "Mario Di Dio": {
+  "affiliation": "CEO, Nova Labs (Helium)",
+  "bio": "CEO of Nova Labs, the company behind Helium, previously General Manager of Network.",
+  "links": {
+   "website": "https://www.helium.com"
+  }
+ },
+ "Mark Lutter": {
+  "affiliation": "Founder, Charter Cities Institute",
+  "bio": "Founder and executive director of the Charter Cities Institute.",
+  "links": {
+   "twitter": "https://x.com/MarkLutter",
+   "website": "https://chartercitiesinstitute.org"
+  }
+ },
+ "Martin Swende": {
+  "affiliation": "Ethereum Foundation, security",
+  "bio": "Ethereum Foundation security lead and go-ethereum core developer.",
+  "links": {
+   "github": "https://github.com/holiman"
+  }
+ },
+ "Matej Michalko": {
+  "affiliation": "Founder, DECENT",
+  "bio": "Founder and CEO of DECENT, a blockchain content distribution platform, later Decent Cybersecurity.",
+  "links": {
+   "website": "https://matejmichalko.odoo.com"
+  }
+ },
+ "Matty Tokenomics": {
+  "affiliation": "Tokenomics researcher",
+  "bio": "Tokenomics researcher and author of Tokenomics for Builders.",
+  "links": {
+   "twitter": "https://x.com/mattyTokenomics"
+  }
+ },
+ "Max Brody": {
+  "affiliation": "Co-founder, Cent",
+  "bio": "Co-founder of Cent, a social income network for creators.",
+  "links": {
+   "twitter": "https://x.com/maxbrody"
+  }
+ },
+ "Max Kordek": {
+  "affiliation": "Co-founder, Lisk",
+  "bio": "Co-founder of Lisk, a blockchain application platform.",
+  "links": {
+   "twitter": "https://x.com/MaxKordek",
+   "website": "https://lisk.com"
+  }
+ },
+ "Max Sklar": {
+  "affiliation": "Foursquare; podcast host",
+  "bio": "Software engineer at Foursquare and host of The Local Maximum podcast.",
+  "links": {
+   "twitter": "https://x.com/maxsklar",
+   "website": "https://localmaxradio.com"
+  }
+ },
+ "Mehdi Zerouali": {
+  "affiliation": "Co-founder, Sigma Prime",
+  "bio": "Co-founder of Sigma Prime and Ethereum security auditor.",
+  "links": {
+   "website": "https://sigmaprime.io"
+  }
+ },
+ "Michael Cordner": {
+  "affiliation": "Grin developer (Yeastplume)",
+  "bio": "Grin core developer known as Yeastplume.",
+  "links": {
+   "github": "https://github.com/yeastplume"
+  }
+ },
+ "Michael Egorov": {
+  "affiliation": "Founder, Curve Finance",
+  "bio": "Founder of Curve Finance and co-founder of NuCypher.",
+  "links": {
+   "twitter": "https://x.com/newmichwill",
+   "website": "https://curve.fi"
+  }
+ },
+ "Michael Yuan": {
+  "affiliation": "Founder, CyberMiles / Second State",
+  "bio": "Founder of CyberMiles and Second State, blockchain and WebAssembly developer.",
+  "links": {
+   "github": "https://github.com/juntao",
+   "twitter": "https://x.com/juntao"
+  }
+ },
+ "Michel Bauwens": {
+  "affiliation": "Founder, P2P Foundation",
+  "bio": "Founder of the P2P Foundation and theorist of commons-based peer production.",
+  "links": {
+   "twitter": "https://x.com/mbauwens",
+   "website": "https://p2pfoundation.net"
+  }
+ },
+ "Mooly Sagiv": {
+  "affiliation": "Co-founder, Certora",
+  "bio": "Tel Aviv University professor and co-founder of Certora, a smart contract formal verification firm.",
+  "links": {
+   "website": "https://www.certora.com"
+  }
+ },
+ "Morten Dahl": {
+  "affiliation": "Cryptographer, Zama",
+  "bio": "Cryptographer at Zama working on fully homomorphic encryption and privacy-preserving machine learning.",
+  "links": {
+   "github": "https://github.com/mortendahl",
+   "twitter": "https://x.com/mortendahlcs"
+  }
+ },
+ "Muneeb Ali": {
+  "affiliation": "Co-founder, Stacks / Hiro",
+  "bio": "Co-founder of Blockstack/Stacks, building apps and smart contracts on Bitcoin.",
+  "links": {
+   "twitter": "https://x.com/muneeb"
+  }
+ },
+ "Naomi Brockwell": {
+  "affiliation": "Founder, NBTV",
+  "bio": "Privacy advocate and host of the NBTV crypto and privacy YouTube channel.",
+  "links": {
+   "twitter": "https://x.com/naomibrockwell",
+   "website": "https://nbtv.media"
+  }
+ },
+ "Nathan Wosnack": {
+  "affiliation": "Founder, Ubitquity",
+  "bio": "Founder of Ubitquity, a blockchain real estate records platform.",
+  "links": {
+   "website": "https://www.ubitquity.io/"
+  }
+ },
+ "Nathaniel Whittemore": {
+  "affiliation": "Host, The AI Daily Brief",
+  "bio": "Podcaster known as NLW, covering crypto and later AI on The AI Daily Brief.",
+  "links": {
+   "twitter": "https://x.com/nlw"
+  }
+ },
+ "Nick Johnson": {
+  "affiliation": "Lead developer, ENS",
+  "bio": "Founder and lead developer of the Ethereum Name Service (ENS).",
+  "links": {
+   "github": "https://github.com/Arachnid",
+   "twitter": "https://x.com/nicksdjohnson",
+   "website": "https://ens.domains"
+  }
+ },
+ "Nicolas Dorier": {
+  "affiliation": "Creator, BTCPay Server",
+  "bio": "Creator of BTCPay Server, the open-source self-hosted Bitcoin payment processor.",
+  "links": {
+   "github": "https://github.com/NicolasDorier",
+   "twitter": "https://x.com/NicolasDorier",
+   "website": "https://btcpayserver.org"
+  }
+ },
+ "Niran Babalola": {
+  "affiliation": "Co-founder, Panvala",
+  "bio": "Co-founder of Panvala, a funding platform for Ethereum public goods.",
+  "links": {
+   "twitter": "https://x.com/niran"
+  }
+ },
+ "Omer Shlomovits": {
+  "affiliation": "CEO, Ingonyama",
+  "bio": "Co-founder of ZenGo and KZen, MPC researcher, now CEO of Ingonyama.",
+  "links": {
+   "bluesky": "https://bsky.app/profile/omershlomovits.bsky.social",
+   "github": "https://github.com/omershlo",
+   "twitter": "https://x.com/OmerShlomovits",
+   "website": "https://omershlomovits.com"
+  }
+ },
+ "Orie Steele": {
+  "affiliation": "CTO, Transmute Industries",
+  "bio": "CTO of Transmute Industries, working on decentralized identity and verifiable credentials.",
+  "links": {
+   "github": "https://github.com/OR13",
+   "linkedin": "https://www.linkedin.com/in/or13b",
+   "twitter": "https://x.com/or13b"
+  }
+ },
+ "Patri Friedman": {
+  "affiliation": "Co-founder, Pronomos Capital",
+  "bio": "Co-founder of Pronomos Capital and the Seasteading Institute, backer of charter cities.",
+  "links": {
+   "twitter": "https://x.com/patrissimo"
+  }
+ },
+ "Patrick McCorry": {
+  "affiliation": "Researcher, state channels",
+  "bio": "Ethereum researcher on state channels, formerly at King's College London.",
+  "links": {
+   "github": "https://github.com/stonecoldpat",
+   "twitter": "https://x.com/stonecoldpat0"
+  }
+ },
+ "Patrick O'Grady": {
+  "affiliation": "Founder, Commonware",
+  "bio": "Founder of Commonware and former VP of Engineering at Ava Labs.",
+  "links": {
+   "twitter": "https://x.com/_patrickogrady",
+   "website": "https://commonware.xyz"
+  }
+ },
+ "Patrick Stanley": {
+  "affiliation": "Founder, Freehold",
+  "bio": "Blockstack head of growth and founder of Freehold."
+ },
+ "Paul Hauner": {
+  "affiliation": "Co-founder, Sigma Prime",
+  "bio": "Co-founder of Sigma Prime and lead of the Lighthouse Ethereum consensus client.",
+  "links": {
+   "github": "https://github.com/paulhauner",
+   "other": [
+    "https://sigmaprime.io/"
+   ],
+   "twitter": "https://x.com/paulhauner",
+   "website": "http://www.paulhauner.com/"
+  }
+ },
+ "Paul Puey": {
+  "affiliation": "CEO, Edge",
+  "bio": "Co-founder and CEO of Edge (formerly Airbitz), a multi-coin crypto wallet.",
+  "links": {
+   "twitter": "https://x.com/paullinator",
+   "website": "https://edge.app"
+  }
+ },
+ "Paul Sztorc": {
+  "affiliation": "Founder, LayerTwo Labs",
+  "bio": "Bitcoin researcher, author of the Drivechain proposals, and founder of LayerTwo Labs.",
+  "links": {
+   "other": [
+    "https://layertwolabs.com"
+   ],
+   "twitter": "https://x.com/truthcoin",
+   "website": "https://www.drivechain.info"
+  }
+ },
+ "Perianne Boring": {
+  "affiliation": "Founder, The Digital Chamber",
+  "bio": "Founder of the Chamber of Digital Commerce (now The Digital Chamber), a blockchain trade association.",
+  "links": {
+   "twitter": "https://x.com/PerianneDC",
+   "website": "https://digitalchamber.org"
+  }
+ },
+ "Peter Ludlow": {
+  "affiliation": "Philosopher, author",
+  "bio": "Philosopher and editor of Crypto Anarchy, Cyberstates, and Pirate Utopias."
+ },
+ "Peter Vessenes": {
+  "affiliation": "Bitcoin Foundation co-founder",
+  "bio": "Co-founder and first chairman of the Bitcoin Foundation and CoinLab founder."
+ },
+ "Piotr Janiuk": {
+  "affiliation": "CEO, Golem",
+  "bio": "Co-founder and CEO of Golem, a decentralized computing network on Ethereum.",
+  "links": {
+   "website": "https://www.golem.network"
+  }
+ },
+ "Pol Lanski": {
+  "affiliation": "DAppNode",
+  "bio": "Business and ecosystem development at DAppNode, a node-running platform for Ethereum.",
+  "links": {
+   "website": "https://dappnode.io"
+  }
+ },
+ "Preethi Kasireddy": {
+  "affiliation": "Founder, TruStory",
+  "bio": "Blockchain engineer and educator, former Coinbase engineer and founder of TruStory.",
+  "links": {
+   "twitter": "https://x.com/iam_preethi",
+   "website": "https://preethikasireddy.com"
+  }
+ },
+ "Péter Szilágyi": {
+  "affiliation": "Ethereum Foundation, Geth team lead",
+  "bio": "Lead developer of go-ethereum (Geth) at the Ethereum Foundation.",
+  "links": {
+   "github": "https://github.com/karalabe"
+  }
+ },
+ "QuHarrison Terry": {
+  "affiliation": "Marketing director",
+  "bio": "Marketing director and content creator covering technology and crypto.",
+  "links": {
+   "twitter": "https://x.com/quharrison",
+   "youtube": "https://www.youtube.com/c/QuHarrisonTerry"
+  }
+ },
+ "Reggie Middleton": {
+  "affiliation": "Founder, Veritaseum",
+  "bio": "Founder of Veritaseum, a blockchain-based peer-to-peer capital markets project.",
+  "links": {
+   "twitter": "https://x.com/ReggieMiddleton",
+   "website": "https://veritas.veritaseum.com/"
+  }
+ },
+ "Rene Pickhardt": {
+  "affiliation": "Lightning Network researcher",
+  "bio": "Independent Lightning Network researcher and author of Mastering the Lightning Network.",
+  "links": {
+   "github": "https://github.com/renepickhardt",
+   "twitter": "https://x.com/renepickhardt",
+   "website": "https://ln.rene-pickhardt.de"
+  }
+ },
+ "Rex Hygate": {
+  "affiliation": "Founder, DeFiSafety",
+  "bio": "Founder of DeFiSafety, which reviews and rates DeFi protocols on process quality.",
+  "links": {
+   "website": "https://defisafety.com"
+  }
+ },
+ "Rick Dudley": {
+  "affiliation": "Vulcanize",
+  "bio": "Founder of Vulcanize, an Ethereum infrastructure consultancy."
+ },
+ "Robin Linus": {
+  "affiliation": "ZeroSync, BitVM",
+  "bio": "Creator of BitVM and president of the ZeroSync nonprofit working on zero-knowledge proofs for Bitcoin.",
+  "links": {
+   "github": "https://github.com/RobinLinus",
+   "other": [
+    "https://bitvm.org"
+   ],
+   "twitter": "https://x.com/robin_linus",
+   "website": "https://robinlinus.com"
+  }
+ },
+ "Rodolfo Novak": {
+  "affiliation": "CEO, Coinkite",
+  "bio": "Co-founder and CEO of Coinkite, maker of the Coldcard Bitcoin hardware wallet.",
+  "links": {
+   "website": "https://coinkite.com"
+  }
+ },
+ "Roger Ver": {
+  "affiliation": "Bitcoin.com founder",
+  "bio": "Early Bitcoin investor and Bitcoin Cash advocate, former CEO of Bitcoin.com.",
+  "links": {
+   "twitter": "https://x.com/rogerkver"
+  }
+ },
+ "Ryan Watkins": {
+  "affiliation": "Syncracy Capital",
+  "bio": "Crypto research analyst, formerly of Messari and co-founder of Syncracy Capital.",
+  "links": {
+   "twitter": "https://x.com/RyanWatkins_"
+  }
+ },
+ "Saifedean Ammous": {
+  "affiliation": "Author, economist",
+  "bio": "Economist and author of The Bitcoin Standard and The Fiat Standard.",
+  "links": {
+   "twitter": "https://x.com/saifedean",
+   "website": "https://saifedean.com"
+  }
+ },
+ "Samson Mow": {
+  "affiliation": "CEO, JAN3",
+  "bio": "Bitcoin advocate, former Blockstream CSO, and CEO of JAN3.",
+  "links": {
+   "twitter": "https://x.com/Excellion"
+  }
+ },
+ "Sebastien Borget": {
+  "affiliation": "COO, The Sandbox",
+  "bio": "Co-founder and COO of The Sandbox metaverse and gaming platform.",
+  "links": {
+   "twitter": "https://x.com/borgetsebastien"
+  }
+ },
+ "Shane Mac": {
+  "affiliation": "Co-founder, XMTP",
+  "bio": "Co-founder of XMTP, a decentralized messaging protocol, and founder of Assist.",
+  "links": {
+   "twitter": "https://x.com/ShaneMac"
+  }
+ },
+ "Shawn Wilkinson": {
+  "affiliation": "Founder, Storj",
+  "bio": "Founder of Storj, the decentralized cloud storage network.",
+  "links": {
+   "website": "https://www.storj.io"
+  }
+ },
+ "Stan Kladko": {
+  "affiliation": "SKALE Labs",
+  "bio": "CTO and co-founder of SKALE Labs.",
+  "links": {
+   "website": "https://skale.space"
+  }
+ },
+ "Stani Kulechov": {
+  "affiliation": "Founder, Aave / Avara",
+  "bio": "Founder and CEO of Aave and creator of the Lens social protocol.",
+  "links": {
+   "twitter": "https://x.com/StaniKulechov",
+   "website": "https://aave.com"
+  }
+ },
+ "Stella Assange": {
+  "affiliation": "Lawyer, human rights advocate",
+  "bio": "Lawyer and human rights advocate, wife of Julian Assange.",
+  "links": {
+   "twitter": "https://x.com/Stella_Assange"
+  }
+ },
+ "Stephan Tual": {
+  "affiliation": "Co-founder, Slock.it",
+  "bio": "Former Ethereum CCO and co-founder of Slock.it, an early DAO and sharing-economy project.",
+  "links": {
+   "other": [
+    "https://slock.it"
+   ],
+   "website": "https://stephantual.com"
+  }
+ },
+ "Stephen Buttolph": {
+  "affiliation": "Ava Labs",
+  "bio": "Chief Protocol Architect at Ava Labs and lead developer of the Avalanche protocol.",
+  "links": {
+   "github": "https://github.com/StephenButtolph",
+   "website": "https://www.avalabs.org"
+  }
+ },
+ "Stephen Pair": {
+  "affiliation": "Co-founder, BitPay",
+  "bio": "Co-founder and CEO of BitPay, a Bitcoin payments company.",
+  "links": {
+   "twitter": "https://x.com/spair",
+   "website": "https://bitpay.com"
+  }
+ },
+ "Steve Bassi": {
+  "affiliation": "PolySwarm",
+  "bio": "Co-founder of PolySwarm, a decentralized threat-intelligence marketplace.",
+  "links": {
+   "website": "https://polyswarm.io"
+  }
+ },
+ "Stuart Popejoy": {
+  "affiliation": "Co-founder, Kadena",
+  "bio": "Co-founder of Kadena and author of the Pact smart contract language.",
+  "links": {
+   "twitter": "https://x.com/SirLensALot",
+   "website": "https://www.kadena.io"
+  }
+ },
+ "Tarun Chitra": {
+  "affiliation": "Founder, Gauntlet; Robot Ventures",
+  "bio": "Founder of Gauntlet and general partner at Robot Ventures, focused on DeFi risk and mechanism design.",
+  "links": {
+   "twitter": "https://x.com/tarunchitra",
+   "website": "https://www.gauntlet.xyz"
+  }
+ },
+ "Taylor Monahan": {
+  "affiliation": "MetaMask / Consensys",
+  "bio": "Co-founder of MyEtherWallet, founder of MyCrypto, and security researcher at MetaMask.",
+  "links": {
+   "twitter": "https://x.com/tayvano_",
+   "website": "https://www.mycrypto.com"
+  }
+ },
+ "Taylor Pearson": {
+  "affiliation": "Author and entrepreneur",
+  "bio": "Author of The End of Jobs, essayist and entrepreneur.",
+  "links": {
+   "twitter": "https://x.com/TaylorPearsonMe",
+   "website": "https://taylorpearson.me"
+  }
+ },
+ "Thaer Khawaja": {
+  "affiliation": "Masari",
+  "bio": "Creator of Masari, a privacy-focused cryptocurrency.",
+  "links": {
+   "website": "https://getmasari.org"
+  }
+ },
+ "The Crypto Dog": {
+  "affiliation": "Crypto trader",
+  "bio": "Pseudonymous crypto trader and commentator.",
+  "links": {
+   "twitter": "https://x.com/TheCryptoDog"
+  }
+ },
+ "Thomas Jay Rush": {
+  "affiliation": "Founder, TrueBlocks",
+  "bio": "Founder of TrueBlocks, building local-first Ethereum indexing tools.",
+  "links": {
+   "github": "https://github.com/TrueBlocks",
+   "twitter": "https://x.com/trueblocks",
+   "website": "https://quickblocks.io/"
+  }
+ },
+ "Tieshun Roquerre": {
+  "affiliation": "Namebase",
+  "bio": "Co-founder of Namebase, a Handshake domain marketplace.",
+  "links": {
+   "website": "https://www.namebase.io"
+  }
+ },
+ "Tone Vays": {
+  "affiliation": "Bitcoin analyst",
+  "bio": "Bitcoin analyst, trader and commentator.",
+  "links": {
+   "twitter": "https://x.com/ToneVays",
+   "website": "https://toneprime.com"
+  }
+ },
+ "Tony Sakich": {
+  "affiliation": "Augur",
+  "bio": "Director of marketing at Augur, the decentralized prediction market.",
+  "links": {
+   "website": "https://augur.net"
+  }
+ },
+ "Trace Mayer": {
+  "affiliation": "Host, Bitcoin Knowledge podcast",
+  "bio": "Bitcoin investor and host of the Bitcoin Knowledge podcast.",
+  "links": {
+   "twitter": "https://x.com/tracemayer"
+  }
+ },
+ "Trent McConaghy": {
+  "affiliation": "Co-founder, Ocean Protocol",
+  "bio": "Co-founder of Ocean Protocol and BigchainDB, working on decentralized data and AI.",
+  "links": {
+   "twitter": "https://x.com/trentmc0",
+   "website": "https://oceanprotocol.com"
+  }
+ },
+ "Tushar Aggarwal": {
+  "affiliation": "Persistence",
+  "bio": "Founder and CEO of Persistence, a Cosmos-based liquid staking and DeFi project.",
+  "links": {
+   "website": "https://persistence.one"
+  }
+ },
+ "Tuur Demeester": {
+  "affiliation": "Adamant Capital",
+  "bio": "Bitcoin investor and commentator, co-founder of Adamant Capital.",
+  "links": {
+   "twitter": "https://x.com/TuurDemeester",
+   "website": "https://www.adamantresearch.com"
+  }
+ },
+ "Vasja Veber": {
+  "affiliation": "Founder, Viberate",
+  "bio": "Founder of Viberate, a music analytics company.",
+  "links": {
+   "website": "https://www.viberate.com"
+  }
+ },
+ "Vinay Gupta": {
+  "affiliation": "Founder, Mattereum",
+  "bio": "Founder of Mattereum and former Ethereum release coordinator.",
+  "links": {
+   "twitter": "https://x.com/leashless",
+   "website": "https://mattereum.com"
+  }
+ },
+ "Vinny Lingham": {
+  "affiliation": "Co-founder, Civic",
+  "bio": "Internet entrepreneur, co-founder and former CEO of Civic.",
+  "links": {
+   "twitter": "https://x.com/VinnyLingham",
+   "website": "https://www.civic.com"
+  }
+ },
+ "Vitalik Buterin": {
+  "affiliation": "Ethereum co-founder",
+  "bio": "Co-founder of Ethereum.",
+  "links": {
+   "github": "https://github.com/vbuterin",
+   "twitter": "https://x.com/VitalikButerin",
+   "website": "https://vitalik.eth.limo"
+  }
+ },
+ "Will Nichols": {
+  "affiliation": "721 Collective",
+  "bio": "Founder of the 721 Collective NFT project.",
+  "links": {
+   "twitter": "https://x.com/nevermindwill",
+   "website": "https://www.721collective.com/"
+  }
+ },
+ "William O'Beirne": {
+  "affiliation": "MyCrypto",
+  "bio": "Developer at MyCrypto, working on Ethereum wallet software.",
+  "links": {
+   "github": "https://github.com/wbobeirne"
+  }
+ },
+ "Zak Cole": {
+  "affiliation": "Number Group",
+  "bio": "Founder of Number Group and Ethereum ecosystem engineer.",
+  "links": {
+   "github": "https://github.com/0xZakk",
+   "twitter": "https://x.com/0xzak"
+  }
+ },
+ "Zaki Manian": {
+  "affiliation": "Cosmos / Interchain",
+  "bio": "Cosmos ecosystem builder, founder of SkuChain and early Tendermint contributor.",
+  "links": {
+   "github": "https://github.com/zmanian",
+   "twitter": "https://x.com/zmanian",
+   "website": "https://zaki.manian.org/"
+  }
+ },
+ "fubuloubu": {
+  "affiliation": "ApeWorX",
+  "bio": "Creator of Ape Framework and Silverback, and CEO of ApeWorX.",
+  "links": {
+   "github": "https://github.com/fubuloubu",
+   "twitter": "https://x.com/fubuloubu",
+   "website": "https://apeworx.io"
+  }
+ }
+}
