@@ -1,0 +1,68 @@
+# Production data for Episode 1, read by podcast/pipeline/make.py.
+# The script (script.md) stays the single source for words; this file adds
+# what the pipeline can't infer from it: which archive episode each clip
+# source name means, and what each [CHART] marker should draw.
+
+title: "The DAO Hack, 10 Years On"
+show: "Then / Now"
+number: 1
+
+# Clip source names as written in script.md -> episode slug in content/episodes.
+sources:
+  "TBP68": tbp/066-tbp68-deconstructing-thedao-attack
+  "TBP #274": tbp/691-the-bitcoin-podcast-274mmm-dao-daobaa-chicka
+  "HIO #92": hio/092-defisafety-rex-hygate
+
+# One entry per [CHART] marker, in the order they appear in the script.
+# Types: tiles, steps, fork, compare, bars, scorecard.
+# Numbers marked live: true are [DATA] values: refresh them on recording day.
+charts:
+  - type: tiles
+    title: "The DAO in three numbers"
+    tiles:
+      - { value: "~12M ETH", label: "raised, Apr 30 – May 28, 2016", note: "≈ $150M · ~15% of all ether" }
+      - { value: "~3.6M ETH", label: "drained from June 17, 2016", note: "a third of the raise (SEC)" }
+      - { value: "1,920,000", label: "the hard-fork block", note: "July 20, 2016" }
+
+  - type: steps
+    title: "Reentrancy: why the DAO paid out again and again"
+    steps:
+      - "Attacker calls split()"
+      - "DAO sends ether to the attacker contract"
+      - "Attacker contract calls split() again, before the balance updates"
+      - "Repeat"
+    footnote: "The fix: update the balance first, send ether last (checks → effects → interactions)."
+
+  - type: fork
+    title: "One chain, two histories"
+    block: "Block 1,920,000 · July 20, 2016"
+    left: { name: "Ethereum (ETH)", note: "Hack reversed. Funds returned at 100 DAO = 1 ETH" }
+    right: { name: "Ethereum Classic (ETC)", note: "Original chain. Hack stands" }
+
+  - type: compare
+    title: "Ten years later: market cap"
+    asof: "Nov 16, 2026 · CoinGecko"
+    live: true
+    left: { name: "ETH", value: "$222.2B", note: "$1,817 per coin" }
+    right: { name: "ETC", value: "$0.94B", note: "$5.91 per coin" }
+    callout: "~237×"
+
+  - type: bars
+    title: "Crypto stolen in hacks, per year"
+    source: "Chainalysis"
+    unit: "$B"
+    bars:
+      - { label: "2021", value: 3.3 }
+      - { label: "2022", value: 3.8 }
+      - { label: "2023", value: 1.7 }
+      - { label: "2024", value: 2.2 }
+      - { label: "2025", value: 3.4 }
+
+  - type: scorecard
+    title: "Signal vs. noise"
+    rows:
+      - { then: "Ether won't dip far below $10 (2016)", now: "Hit ~$6 by Dec 2016; ~$1,800 today", mark: "mixed" }
+      - { then: "Ethereum will be much more robust (2016)", now: "Survived, scaled, moved to proof of stake in 2022", mark: "hit" }
+      - { then: "1% of owners will hold 99% of any DAO (2019)", now: "<1% hold 90% of votes in several major DAOs", mark: "hit" }
+      - { then: "DAOs are inevitable (2019)", now: "Everywhere, and legal entities in VT, WY and UT", mark: "hit" }
+      - { then: "Low voter turnout is a big problem (2019)", now: "Average participation around 6%", mark: "hit" }

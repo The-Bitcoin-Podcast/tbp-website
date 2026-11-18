@@ -193,15 +193,15 @@ Rapid fire. Five claims from the archive, scored.
 
 **[CHART: scorecard, five rows, "Then" / "Now" / ✅ ❌ 〰️]**
 
-**One. "Ether won't dip far below ten dollars."** June 2016. ❌ in the short run. It touched just under six by December. ✅ in the long run.
+**One. "Ether won't dip far below ten dollars."** June 2016. Wrong in the short run. It touched just under six by December. Right in the long run.
 
-**Two. "Ethereum is going to be much more robust."** Sirer, June 2016. ✅. Ten years, one of the largest smart-contract ecosystems in the world, and the move to proof of stake he mentioned on our show, which finally shipped on September 15th, 2022, more than six years later.
+**Two. "Ethereum is going to be much more robust."** Sirer, June 2016. Right. Ten years, one of the largest smart-contract ecosystems in the world, and the move to proof of stake he mentioned on our show, which finally shipped on September 15th, 2022, more than six years later.
 
-**Three. "Any DAO released will have 1 percent of owners holding 99 percent of the value."** A host, 2019. Mostly ✅. In 2022 Chainalysis studied ten major DAOs and found that in several of them, fewer than 1 percent of holders had 90 percent of the voting power. That's not 99, but the direction was right.
+**Three. "Any DAO released will have 1 percent of owners holding 99 percent of the value."** A host, 2019. Mostly right. In 2022 Chainalysis studied ten major DAOs and found that in several of them, fewer than 1 percent of holders had 90 percent of the voting power. That's not 99, but the direction was right.
 
-**Four. "DAOs are an inevitable consequence of smart contracts."** 2019. ✅. They're everywhere, governing protocol treasuries worth billions of dollars. They're also legally recognized now: Vermont created a blockchain-based LLC in 2018, Wyoming's DAO LLC law took effect in July 2021, and Utah's DAO Act took effect in January 2024.
+**Four. "DAOs are an inevitable consequence of smart contracts."** 2019. Right. They're everywhere, governing protocol treasuries worth billions of dollars. They're also legally recognized now: Vermont created a blockchain-based LLC in 2018, Wyoming's DAO LLC law took effect in July 2021, and Utah's DAO Act took effect in January 2024.
 
-**Five. "Low voter turnout is a big problem."** 2019. ✅, and still true. One academic study put average DAO voter participation at around 6 percent, which means decisions are often made by big holders and delegates. That echoes Carbonvote back in 2016, where a quarter of the "yes" ether came from a single address.
+**Five. "Low voter turnout is a big problem."** 2019. Right, and still true. One academic study put average DAO voter participation at around 6 percent, which means decisions are often made by big holders and delegates. That echoes Carbonvote back in 2016, where a quarter of the "yes" ether came from a single address.
 
 ---
 
