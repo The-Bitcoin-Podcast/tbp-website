@@ -9,9 +9,8 @@ const navLinks = [
   { label: "In Ten Words", href: "/in-ten-words" },
   { label: "Scorecard", href: "/predictions" },
   { label: "Guests", href: "/people" },
-  { label: "Reports", href: "/reports" },
   { label: "Newsletter", href: "/news" },
-  { label: "About", href: "/about" },
+  { label: "Sponsor us", href: "/sponsors/partner" },
 ];
 
 const DISCORD_URL = "https://discord.gg/Gn4N7AdfhM";
@@ -22,13 +21,13 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-[1160px] items-center justify-between gap-4 px-6 py-4 sm:px-8">
-        <Link href="/" className="flex items-center gap-3 font-display text-lg font-extrabold">
+        <Link href="/" className="flex shrink-0 items-center gap-3 whitespace-nowrap font-display text-lg font-extrabold">
           {/* eslint-disable-next-line @next/next/no-img-element -- static export, no image optimizer */}
           <img src="/tbp-logo.png" alt="" width={40} height={40} className="h-10 w-10" />
           The Bitcoin Podcast
         </Link>
 
-        <nav className="hidden items-center gap-7 text-sm font-medium lg:flex">
+        <nav className="hidden items-center gap-7 text-sm font-medium xl:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -42,7 +41,7 @@ export function SiteHeader() {
             href={DISCORD_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-foreground px-[18px] py-2.5 font-semibold text-background transition-opacity hover:opacity-85"
+            className="whitespace-nowrap rounded-full bg-foreground px-[18px] py-2.5 font-semibold text-background transition-opacity hover:opacity-85"
           >
             Join Discord
           </a>
@@ -51,7 +50,7 @@ export function SiteHeader() {
         <button
           type="button"
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="-mr-2 rounded-full p-2.5 transition-colors hover:bg-surface-light lg:hidden"
+          className="-mr-2 rounded-full p-2.5 transition-colors hover:bg-surface-light xl:hidden"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
           aria-expanded={mobileOpen}
         >
@@ -66,7 +65,7 @@ export function SiteHeader() {
       </div>
 
       {mobileOpen && (
-        <nav className="border-t border-border px-6 pb-6 pt-2 lg:hidden">
+        <nav className="border-t border-border px-6 pb-6 pt-2 xl:hidden">
           {navLinks.map((link) => (
             <Link
               key={link.href}

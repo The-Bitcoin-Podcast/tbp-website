@@ -3,7 +3,9 @@ import { SponsorSlot } from "@/components/sponsors/SponsorSlot";
 
 const siteLinks = [
   { label: "About", href: "/about" },
+  { label: "Reports", href: "/reports" },
   { label: "Sponsors", href: "/sponsors" },
+  { label: "Sponsor us", href: "/sponsors/partner" },
   { label: "Business Tips", href: "/business-tips" },
 ];
 
