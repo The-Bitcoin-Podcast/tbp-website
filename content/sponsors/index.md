@@ -35,7 +35,14 @@ audience: []
 # section, archive. Example:
 #   rates:
 #     episode: "From $500 per episode"
-rates: {}
+rates:
+  network: "From $500 per month"
+  show: "From $300 per month"
+  episode: "From $250 per episode"
+  newsletter: "From $200 per issue"
+  reports: "From $750 per report"
+  section: "From $200 per month"
+  archive: "From $1,000 per year"
 
 # Self-serve booking. Give a placement the link to a hosted payment or booking
 # page (a Stripe Payment Link, a Calendly page...) and it gets a "Book now"
@@ -54,7 +61,29 @@ booking: {}
 #         - Two episode sponsorships
 #         - One newsletter issue
 #       bookingUrl: "https://buy.stripe.com/your-link"
-packages: []
+packages:
+  - name: Launch
+    price: "About $1,000 per month"
+    summary: For a product launch or a conference push.
+    includes:
+      - Two episode sponsorships
+      - One newsletter issue
+      - One section of the site
+  - name: Show partner
+    price: "About $2,500 per month"
+    summary: Your name on one show, on the page and in the episodes.
+    includes:
+      - One show sponsorship
+      - Four episode sponsorships
+      - Two newsletter issues
+  - name: Network partner
+    price: "About $5,000 per month"
+    summary: Everywhere the network reaches.
+    includes:
+      - Network sponsorship across the site
+      - Eight episode sponsorships
+      - Every newsletter issue
+      - One report
 
 # Reporting: sponsor views and clicks go to Google Analytics. See
 # "Sponsors" in tbp-next/README.md for the events and how to report on them.
