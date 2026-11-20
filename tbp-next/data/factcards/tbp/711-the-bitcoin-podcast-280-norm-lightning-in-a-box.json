@@ -1,0 +1,463 @@
+{
+ "episode_summary": "Episode 280 (October 2019) opens with a roundtable on whether Bitcoin could go to zero, covering the MySpace versus Facebook network-effect analogy, whether Lightning works for real payments, QR code adoption, and Wayne's FedCoin thesis. The main interview is with Norman Moore of Lightning in a Box about building cheap Raspberry Pi, Odroid and BTCPay Lightning nodes and the design of Casa's node.",
+ "guests": [
+  "Norman Moore"
+ ],
+ "topics": [
+  "bitcoin-price",
+  "lightning",
+  "lightning-nodes",
+  "raspberry-pi",
+  "btcpay",
+  "fedcoin",
+  "qr-payments",
+  "network-effects"
+ ],
+ "cards": [
+  {
+   "type": "anecdote",
+   "claim": "In October 2019 Colin said he had sold all his crypto at around $10K after finally breaking even.",
+   "speaker": "Colin",
+   "start": 318.9,
+   "quote": "I just sold all my coins. I just sold everything.",
+   "tags": [
+    "bitcoin-price",
+    "selling",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Colin argued that Bitcoin and Ethereum technology could not support the vision people were pushing, so the price should fall.",
+   "speaker": "Colin",
+   "start": 400.8,
+   "quote": "So the technology cannot support the vision that people are trying to push.",
+   "tags": [
+    "bitcoin-price",
+    "ethereum",
+    "scaling"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said Bitcoin was straight up GeoCities and Ethereum was at the MySpace level of network effects.",
+   "speaker": "unknown",
+   "start": 507.1,
+   "quote": "Bitcoin is straight up geocities when it comes to like what this",
+   "tags": [
+    "network-effects",
+    "bitcoin",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 a roundtable guest said Nakamoto consensus is memory heavy, needing a lot of space and syncing to run a full node.",
+   "speaker": "unknown",
+   "start": 533.2,
+   "quote": "Well, not state heavy, it's memory heavy. It requires a lot of space, a lot of syncing",
+   "tags": [
+    "nakamoto-consensus",
+    "full-nodes",
+    "syncing"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In October 2019 the roundtable debated whether Bitcoin, unlike MySpace, keeps its value when users leave, since users who leave a social network lose nothing but a Bitcoin holder keeps monetary value.",
+   "speaker": "unknown",
+   "start": 586.5,
+   "quote": "However, crypto is different, Bitcoin especially, in that if I get off MySpace, I didn't lose anything.",
+   "tags": [
+    "network-effects",
+    "bitcoin-price",
+    "debate"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 a roundtable guest said he would not make a claim that Bitcoin will not go to zero, admitting he did not know.",
+   "speaker": "unknown",
+   "start": 647.8,
+   "quote": "I'm not going to sit here and make a claim that Bitcoin isn't going to go to zero. I don't know.",
+   "tags": [
+    "bitcoin-price",
+    "zero",
+    "predictions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 a roundtable guest said Bitcoin is likely never going to reach absolute zero, and that it was unlikely to go to zero in their lifetime.",
+   "speaker": "unknown",
+   "start": 792.4,
+   "quote": "And if you ask me if it's going to zero, the answer is likely no.",
+   "tags": [
+    "bitcoin-price",
+    "store-of-value",
+    "predictions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said Bitcoin was overvalued and overhyped for global payment systems, which needed a layer 2 solution that caused user experience problems.",
+   "speaker": "unknown",
+   "start": 819.5,
+   "quote": "I do think it's overvalued and overhyped for what you're trying to do when they talk about things like global payment systems",
+   "tags": [
+    "bitcoin-price",
+    "layer-2",
+    "global-payments"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said the Lightning Network worked well for small purchases, such as a five-dollar coffee, with payments of ten dollars and under working well.",
+   "speaker": "unknown",
+   "start": 845.2,
+   "quote": "you're supposed to buy your coffee on the lightning network a five dollar purchase",
+   "tags": [
+    "lightning",
+    "micropayments",
+    "payments"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In October 2019 the roundtable debated whether Bitcoin, like MySpace, is a company, with one side saying it is a community, and that early telephone and TCP/IP systems faced the same criticisms.",
+   "speaker": "unknown",
+   "start": 1011.5,
+   "quote": "if Bitcoin were a company like MySpace or something, I would agree with you. But Bitcoin is a community.",
+   "tags": [
+    "network-effects",
+    "community",
+    "debate"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said a global payment system cannot be solved with the constraints of a store of value.",
+   "speaker": "unknown",
+   "start": 1104.4,
+   "quote": "And a global payment system cannot be solved with the constraints that come with a store of value.",
+   "tags": [
+    "store-of-value",
+    "global-payments",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 a roundtable guest predicted QR codes would never take off in the United States.",
+   "speaker": "unknown",
+   "start": 1328.6,
+   "quote": "QR codes have been trying to take off and nothing is going to get them to take off",
+   "tags": [
+    "qr-payments",
+    "adoption",
+    "united-states"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 a roundtable guest said his grandmother's generation would be gone and her grandchildren would be using QR codes for payments instead of checks.",
+   "speaker": "unknown",
+   "start": 1461.2,
+   "quote": "Your grandma's going to die and her grandkids are going to be using QR codes.",
+   "tags": [
+    "qr-payments",
+    "checks",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Wayne said a properly executed FedCoin would be a major threat to Bitcoin's value.",
+   "speaker": "Wayne",
+   "start": 1742.8,
+   "quote": "And that would be a a properly executed Fed coin, one where the government actually got their stable, quote-unquote, coin.",
+   "tags": [
+    "fedcoin",
+    "bitcoin-price",
+    "government-currency"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Wayne said a FedCoin that airdrops to crypto users, provides universal basic income and is used to pay taxes would mean Bitcoin is dead, and predicted a smaller country would do it first.",
+   "speaker": "Wayne",
+   "start": 1768.8,
+   "quote": "They required you to pay your taxes with it. Those three things, Bitcoin is dead.",
+   "tags": [
+    "fedcoin",
+    "taxes",
+    "predictions",
+    "bitcoin-price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In October 2019 a host said he paid for a refrigerator magnet with Lightning through BTCPay Server in about three seconds.",
+   "speaker": "host",
+   "start": 1851.2,
+   "quote": "i bought a refrigerator magnet for four dollars and some odd cents and that",
+   "tags": [
+    "btcpay",
+    "lightning",
+    "payments"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Norman Moore said he built an Ethereum mining rig in spring 2016 after a hunch about Ethereum.",
+   "speaker": "Norman Moore",
+   "start": 2037.7,
+   "quote": "But I got a bug again back in spring of 2016 and I had a hunch about ethereum",
+   "tags": [
+    "ethereum",
+    "mining",
+    "lightning-in-a-box"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Norman Moore said his first Lightning node was built on an Odroid HC2 with a 2.5-inch drive attached.",
+   "speaker": "Norman Moore",
+   "start": 2237.2,
+   "quote": "using an Odroid HC2, which was a little computer that has a SATA connection.",
+   "tags": [
+    "lightning-nodes",
+    "odroid",
+    "hardware"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Norman Moore said his early Lightning node was roughly one of the top 300 nodes online on mainnet, when Eclair had about 500 Android downloads.",
+   "speaker": "Norman Moore",
+   "start": 2268.0,
+   "quote": "I think Eclair at the time had maybe 500 downloads on the Android app, and I was maybe in the top 300 first nodes to come online with that on the mainnet.",
+   "tags": [
+    "lightning",
+    "eclair",
+    "mainnet",
+    "lightning-nodes"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Norman Moore said the Raspberry Pi 4 finally made it sensible to run a Lightning or Bitcoin node on a Raspberry Pi.",
+   "speaker": "Norman Moore",
+   "start": 2351.6,
+   "quote": "now suddenly we have something that makes sense to run a Raspberry, to run a node on",
+   "tags": [
+    "raspberry-pi",
+    "lightning-nodes",
+    "hardware"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Norman Moore said a Breeze wallet let users spend over Lightning within a few minutes of dropping Bitcoin on it, running on Neutrino.",
+   "speaker": "Norman Moore",
+   "start": 2600.2,
+   "quote": "there's a Breeze wallet that's fairly seamless. You drop Bitcoin on it, and you have a lightning spend capability within a few minutes that runs on Neutrino.",
+   "tags": [
+    "breez",
+    "neutrino",
+    "lightning",
+    "wallets"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Norman Moore said a Raspberry Pi 4 with an SSD could sync a full Bitcoin node in about two and a half days, versus over a month on a Pi 3.",
+   "speaker": "Norman Moore",
+   "start": 3188.9,
+   "quote": "The Raspberry Pi 4 with an SSD will sink in about two and a half days, start to finish.",
+   "tags": [
+    "raspberry-pi",
+    "full-nodes",
+    "syncing",
+    "hardware"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Norman Moore said Casa's first node iteration was hard to use, as average buyers struggled to open router ports.",
+   "speaker": "Norman Moore",
+   "start": 3298.4,
+   "quote": "so its first iteration was a little hard to use in my opinion",
+   "tags": [
+    "casa",
+    "btcpay",
+    "user-experience",
+    "lightning-nodes"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Norman Moore described Bitcoin on the base layer as a savings account and Lightning on top as a checking account.",
+   "speaker": "Norman Moore",
+   "start": 3627.7,
+   "quote": "Right now, Bitcoin on a base layer is a savings account. On Lightning, it's a checking account.",
+   "tags": [
+    "lightning",
+    "store-of-value",
+    "analogy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Wayne predicted there would be a consolidated global FedCoin, and that it was inevitable.",
+   "speaker": "Wayne",
+   "start": 4075.2,
+   "quote": "There will be not only individual Fed coins, but there will be a consolidated global Fed coin.",
+   "tags": [
+    "fedcoin",
+    "central-bank-digital-currency",
+    "predictions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said it only takes about four phone calls to the miners or pool operators to reverse a Bitcoin transaction.",
+   "speaker": "unknown",
+   "start": 4328.6,
+   "quote": "it only takes like four phone calls to completely reverse a transaction",
+   "tags": [
+    "security",
+    "nakamoto-consensus",
+    "mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said he would move to a better coin if it had network effect, but had not yet seen one.",
+   "speaker": "unknown",
+   "start": 4552.0,
+   "quote": "If there was a better coin, I'd move. And it had the network effect, I'd move. But I haven't seen it yet.",
+   "tags": [
+    "altcoins",
+    "network-effects",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said the crypto industry had an oligarchy in Bitcoin, Ethereum and crypto generally.",
+   "speaker": "unknown",
+   "start": 4710.4,
+   "quote": "we have an oligarchy in bitcoin we have an oligarchy in ethereum",
+   "tags": [
+    "decentralization",
+    "bitcoin",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 a roundtable guest put Bitcoin's total market value at about 150 billion dollars.",
+   "speaker": "unknown",
+   "start": 4710.4,
+   "quote": "no it's not even triple digit billions anymore 150 billion",
+   "tags": [
+    "market-cap",
+    "bitcoin-price"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/711-the-bitcoin-podcast-280-norm-lightning-in-a-box",
+ "title": "The Bitcoin Podcast #280: Norm -- Lightning in a Box",
+ "date": "2019-10-30",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982580/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213515-48000-1-3c750cce1fcd715e.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

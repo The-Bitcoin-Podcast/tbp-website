@@ -1,0 +1,293 @@
+{
+ "episode_summary": "Corey Petty and Colin Cusce, with no guest, walk through the June 2018 Casper plus sharding notes for Ethereum. They cover the beacon chain, RANDAO randomness, validator shuffling across shards, the 32 ETH deposit, storage estimates and whether the design can survive quantum computers and network partitions. They admit many details, such as slashing and incentives, are still unspecified.",
+ "guests": [],
+ "topics": [
+  "casper",
+  "sharding",
+  "beacon-chain",
+  "randao",
+  "proof-of-stake",
+  "validators",
+  "ethereum-scaling"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In June 2018 the hosts said Ethereum was combining Casper and sharding because the two efforts had a lot of redundant work.",
+   "speaker": "host",
+   "start": 84.7,
+   "quote": "they're combining them because there's a lot of redundancy and this seems to be a more i guess solid roadmap in which they can continue",
+   "tags": [
+    "casper",
+    "sharding",
+    "ethereum",
+    "roadmap"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2018 the hosts described Casper FFG as the first iteration of Ethereum proof of stake and Casper CBC as the final version.",
+   "speaker": "host",
+   "start": 136.6,
+   "quote": "casper ffg is the first iteration um casper cbc is the final holy grail pos as we know it",
+   "tags": [
+    "casper",
+    "ffg",
+    "cbc",
+    "proof-of-stake"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2018 the hosts said the new Casper plus sharding plan could lead Ethereum to deprecate EIP 1011.",
+   "speaker": "host",
+   "start": 195.3,
+   "quote": "they have talked about deprecating what is it eip 1011 yeah um as a result of this",
+   "tags": [
+    "eip-1011",
+    "casper"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2018 the hosts described the beacon chain as requiring a fixed 32 ETH stake for each validator.",
+   "speaker": "host",
+   "start": 345.6,
+   "quote": "people are going to start staking their their ethereum at a fixed non-variable rate of 32 ethereum into a side chain called the beacon chain",
+   "tags": [
+    "beacon-chain",
+    "staking",
+    "32-eth"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2018 the hosts said an epoch on the beacon chain would be 100 blocks long.",
+   "speaker": "host",
+   "start": 1052.8,
+   "quote": "So you basically become a committee on various shards for a given epoch. An epoch is 100 blocks.",
+   "tags": [
+    "epoch",
+    "beacon-chain",
+    "committees"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2018 the hosts expected the sharded design to top out at a maximum of roughly 4,000 shards.",
+   "speaker": "host",
+   "start": 1551.5,
+   "quote": "it looks like there will be a maximum of 400 4,000 shards",
+   "tags": [
+    "shards",
+    "scaling",
+    "limits"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2018 the hosts worked out that the minimum validator pool would be about 31,250 validators at one validator per 32 ETH.",
+   "speaker": "host",
+   "start": 2202.7,
+   "quote": "it says the minimal case with one validator per 32 ETH. the minimal case is a max is 1 million ether so 31,250 validators",
+   "tags": [
+    "validators",
+    "staking",
+    "math"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2018 the hosts put the dollar value of 32 ETH at about $16,000.",
+   "speaker": "host",
+   "start": 2844.3,
+   "quote": "What is like, what is 32F at the moment? $1,600. $1,600? Okay. Yeah. $16,000. I'm sorry. $16,000.",
+   "tags": [
+    "eth-price",
+    "validators",
+    "staking"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2018 the hosts dismissed the 100-block lock-up on staked funds as trivial.",
+   "speaker": "host",
+   "start": 2590.3,
+   "quote": "that's first off, the lock period is 100 blocks. That's nothing. Come on. You can wait an hour.",
+   "tags": [
+    "lockup",
+    "validators",
+    "withdrawals"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2018 the hosts walked through the first phase of the RANDAO proposal, in which participants submit hashes of secret numbers as pledges.",
+   "speaker": "host",
+   "start": 784.5,
+   "quote": "First phase is collecting valid SHA-3s. And it says, anyone who wants to participate in the random number generation needs to send a transaction to the contract, denoted C, with a certain amount of S as pledge",
+   "tags": [
+    "randao",
+    "randomness",
+    "beacon-chain"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2018 the hosts said a cross-shard transaction could be confirmed quickly because random committees made a 51% attack on one shard very unlikely.",
+   "speaker": "host",
+   "start": 2646.4,
+   "quote": "you really can be way pretty assured that a transaction is confirmed way quick way quicker",
+   "tags": [
+    "finality",
+    "security",
+    "shards"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2018 the hosts said storing the beacon chain would take about 400 MB even in the most extreme case.",
+   "speaker": "host",
+   "start": 3033.2,
+   "quote": "i think they said it takes 400 megabytes to store the beacon chain in like even the most extreme scenario",
+   "tags": [
+    "storage",
+    "beacon-chain",
+    "nodes"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2018 the hosts said a single beacon chain block would be at most about 9.1 kilobytes.",
+   "speaker": "host",
+   "start": 3164.7,
+   "quote": "even with a single beacon chain block in the most extreme case is 9,140 bytes. So 9.1 kilobytes.",
+   "tags": [
+    "block-size",
+    "beacon-chain",
+    "storage"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2018 the hosts suggested moving to proof of stake might end Ether inflation and leave a limited total supply.",
+   "speaker": "host",
+   "start": 3139.0,
+   "quote": "The movement to this may mean that you basically stop inflation altogether and you have limited amount of total Ethereum ever in existence",
+   "tags": [
+    "inflation",
+    "supply",
+    "monetary-policy"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2018 the hosts said quantum computers breaking traditional cryptography would not be a problem for five to ten years.",
+   "speaker": "host",
+   "start": 3524.4,
+   "quote": "Quantum computers breaking traditional cryptography. Yes, that's what I'm talking about. That's not going to be a problem in the next five to ten years.",
+   "tags": [
+    "quantum",
+    "cryptography",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2018 a host argued the Casper design would hold up better over a hundred-year horizon than DFINITY or Kadena.",
+   "speaker": "host",
+   "start": 3006.9,
+   "quote": "I feel as though this is actually safer in the hundred year view than something like DFINITY or KADENA would be",
+   "tags": [
+    "dfinity",
+    "kadena",
+    "casper",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2018 a host argued that game-theoretic incentives should matter more than cryptography for the long-term security of proof of stake.",
+   "speaker": "host",
+   "start": 3663.7,
+   "quote": "So I kind of feel like using cryptography as the longest term solution is not necessarily the best solution. and that we probably should be exploring more game theory incentivization models",
+   "tags": [
+    "game-theory",
+    "cryptography",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2018 the hosts described validators being reshuffled across shards at every epoch, so no single validator controls a shard.",
+   "speaker": "host",
+   "start": 1578.2,
+   "quote": "The validator set shuffles as to who's validating each shard at each epoch. It reshuffles who validates what shard at each epoch.",
+   "tags": [
+    "shuffling",
+    "validators",
+    "shards"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/012-full-casper-chain-v2-casper-plus-sharding",
+ "title": "Full Casper Chain v2 - Casper + Sharding",
+ "date": "2018-06-19 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89348297/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377992-44100-2-56201dd44525e605.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

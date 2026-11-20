@@ -1,0 +1,466 @@
+{
+ "episode_summary": "Security-focused roundtable after Twitter CEO Jack Dorsey's account was hijacked through a SIM swap around Burning Man. Ray Redacted, Harry D and Taylor of MyCrypto, and Jessie 'The Man' Broke explain why SMS two-factor authentication, carrier porting and legacy telecom signaling are weak, debate zero trust versus inherited trust, and argue crypto needs to be sexy, intuitive and secure to reach adoption. The episode closes with bitcoin price and mining-revenue talk.",
+ "guests": [
+  "Ray Redacted",
+  "Harry D",
+  "Taylor",
+  "Jessie 'The Man' Broke"
+ ],
+ "topics": [
+  "sim-swapping",
+  "sms-2fa",
+  "security",
+  "mfa",
+  "mycrypto",
+  "mining",
+  "usability"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "Around the time Burning Man started in 2019, Twitter CEO Jack Dorsey's phone number was SIM-swapped and his Twitter account was hijacked.",
+   "speaker": "Ray Redacted",
+   "start": 149.0,
+   "quote": "Friday night, right around the time that Burning Man started, the CEO of Twitter, Jack Dorsey",
+   "tags": [
+    "sim-swap",
+    "twitter",
+    "security",
+    "sms"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "SIM swapping is a social engineering attack in which someone convinces a carrier to move a victim's phone number to a SIM the attacker controls.",
+   "speaker": "unknown",
+   "start": 289.2,
+   "quote": "there's a social engineering type of an attack where somebody basically steals your phone number",
+   "tags": [
+    "sim-swap",
+    "social-engineering",
+    "sms"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Early telephone networks signaled in-band, which let the first phone hackers make free calls by generating tones.",
+   "speaker": "unknown",
+   "start": 343.2,
+   "quote": "the very, very first hackers and freakers kind of realized that they could make free telephone calls and do all kinds of naughtiness by generating these tones.",
+   "tags": [
+    "telecom",
+    "ss7",
+    "phreaking"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Signaling System 7 was built on the assumption that only trusted carriers would access its architecture, which is why SMS can be spoofed.",
+   "speaker": "unknown",
+   "start": 376.4,
+   "quote": "But it was designed so that you assumed that only carriers, trusted carriers, right, would have access to the underlying architecture.",
+   "tags": [
+    "ss7",
+    "sms",
+    "telecom",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the telecom designers never anticipated two billion cell phone numbers needing to be ported between carriers.",
+   "speaker": "unknown",
+   "start": 402.7,
+   "quote": "they certainly never anticipated two billion cell phone numbers being issued that would need to be ported from carrier to carrier.",
+   "tags": [
+    "porting",
+    "telecom",
+    "ss7"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ray Redacted said Jack Dorsey's SIM was most likely social-engineered away from him through a carrier call center.",
+   "speaker": "Ray Redacted",
+   "start": 459.3,
+   "quote": "So what happened with Jack more than likely is that his sim was social engineered away from him.",
+   "tags": [
+    "sim-swap",
+    "social-engineering",
+    "twitter"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Twitter let users post tweets by sending a text to 40404 with no password or login, trusting that the SMS sender was not spoofed.",
+   "speaker": "unknown",
+   "start": 459.3,
+   "quote": "Twitter has this service that allows you to tweet by sending a text message to 40404 directly, no password, no login, nothing.",
+   "tags": [
+    "twitter",
+    "sms",
+    "40404"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker argued that the way infrastructure is built constantly offloads security for convenience, which he called a terrible way to do things.",
+   "speaker": "unknown",
+   "start": 494.1,
+   "quote": "Like all of what Ray just said is that the way our infrastructure is built is constantly offloading security for convenience. And it's a terrible way to do things.",
+   "tags": [
+    "security",
+    "usability",
+    "infrastructure"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Harry D said he removed his mobile number from his Twitter account, leaving email as his only account recovery route.",
+   "speaker": "Harry D",
+   "start": 867.9,
+   "quote": "I've actually removed my mobile number from my Twitter account. So my only account recovery mechanism is my email",
+   "tags": [
+    "twitter",
+    "sms",
+    "account-recovery",
+    "mfa"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker called a password manager that can only be unlocked with a hardware token the absolute gold standard for security.",
+   "speaker": "unknown",
+   "start": 921.0,
+   "quote": "the absolute gold standard in my mind is you have a password manager that is only unlockable with a hardware token",
+   "tags": [
+    "password-manager",
+    "hardware-token",
+    "yubikey",
+    "mfa"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "The hosts debated zero trust, which never trusts any device, against inherited trust, and said the two models are incompatible.",
+   "speaker": "unknown",
+   "start": 999.6,
+   "quote": "The zero trust model means you never trust anything.",
+   "tags": [
+    "zero-trust",
+    "inherited-trust",
+    "mfa"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Authy's inherited trust lets a device already authenticated authorize other devices, such as a watch or a backup device kept in a safe.",
+   "speaker": "unknown",
+   "start": 1081.5,
+   "quote": "Authy has the concept of inherited trust. So once you actually authenticate with one device, you can then use that device to authorize another device",
+   "tags": [
+    "authy",
+    "mfa",
+    "inherited-trust"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained that FIDO2 is a passwordless multi-factor method in which a login is approved with a simple yes or no on a device.",
+   "speaker": "unknown",
+   "start": 1380.0,
+   "quote": "something called FIDO2, which ultimately is a multi-factor method, but it's passwordless.",
+   "tags": [
+    "fido2",
+    "mfa",
+    "passwordless"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said that in North America a stolen credit card is usually not the cardholder's loss, with liability capped at about 50 dollars.",
+   "speaker": "unknown",
+   "start": 1440.8,
+   "quote": "So if somebody takes your credit card numbers, you don't, you don't actually, at least in North America, you don't actually have to pay for it",
+   "tags": [
+    "credit-cards",
+    "fraud",
+    "liability"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said that when bitcoin is stolen there is no recovery process and no bitcoin corporation insures the loss.",
+   "speaker": "unknown",
+   "start": 1467.0,
+   "quote": "there really isn't any recovery process. There's no Bitcoin corporation that's insured against your loss, right?",
+   "tags": [
+    "bitcoin",
+    "custody",
+    "insurance",
+    "theft"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said porting a phone number takes days in Europe but can finish within an hour in North America, which makes SIM swaps easier there.",
+   "speaker": "unknown",
+   "start": 1635.5,
+   "quote": "so one of the reasons that this isn't a rampant problem in europe is because when you go to port your number from one carrier to another in Europe, it takes days.",
+   "tags": [
+    "porting",
+    "sim-swap",
+    "telecom"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "One speaker said he rotates his phone number through Google Voice and uses those numbers for multi-factor authentication instead of his main phone number.",
+   "speaker": "unknown",
+   "start": 1861.4,
+   "quote": "i keep uh i keep my number rotating through um google voice so i don't actually use my like my phone's phone number",
+   "tags": [
+    "google-voice",
+    "sms",
+    "opsec"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker argued that criminals always move to the easiest path, going from email spam to SMS spam to robocalling.",
+   "speaker": "unknown",
+   "start": 2136.4,
+   "quote": "Now they're SMS spamming. Now they're robocalling. You know, the criminals will always find a different way.",
+   "tags": [
+    "spam",
+    "sms",
+    "robocalls"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In early September 2019 bitcoin had been retesting the 10,000 dollar level repeatedly and then dropped after losing that resistance.",
+   "speaker": "unknown",
+   "start": 2528.8,
+   "quote": "We keep retesting that whole 10,000 stuff, and then it just dropped after that.",
+   "tags": [
+    "bitcoin",
+    "price",
+    "market"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said new bitcoin mining facilities were going up in Georgia and South Dakota in September 2019.",
+   "speaker": "unknown",
+   "start": 2528.8,
+   "quote": "Bitcoin miners are going up in the States now. There's one going up in Georgia, and there's two going up in South Dakota.",
+   "tags": [
+    "mining",
+    "decentralization",
+    "hashrate"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "A speaker noted that the new US mining sites were probably still buying their ASIC miners from China.",
+   "speaker": "unknown",
+   "start": 2557.6,
+   "quote": "But they're probably getting their ASICs from China.",
+   "tags": [
+    "mining",
+    "asic",
+    "china"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said cumulative bitcoin mining revenue had passed 14 billion dollars, against a bitcoin market cap of roughly 180 billion dollars.",
+   "speaker": "unknown",
+   "start": 2584.2,
+   "quote": "we surpassed $14 billion in mining generated revenue this last week.",
+   "tags": [
+    "mining",
+    "market-cap",
+    "revenue"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "The hosts debated whether mining revenue would keep growing or exponentially diminish, one arguing that new bitcoin issuance will shrink while its value rises.",
+   "speaker": "unknown",
+   "start": 2720.5,
+   "quote": "No, it's going to exponentially diminish. More like the amount that's actually being produced is going to diminish.",
+   "tags": [
+    "mining",
+    "halving",
+    "inflation"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "A host said the only thing that makes crypto sexy is a random teenager who got a bunch of crypto playing Counter-Strike and became a millionaire.",
+   "speaker": "unknown",
+   "start": 2245.1,
+   "quote": "The only thing that makes crypto sexy is that every two years, there's a random 14-year-old who got a bunch of crypto playing Counter-Strike,",
+   "tags": [
+    "adoption",
+    "marketing",
+    "crypto"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Corey said he was pushing SIS, meaning sexy, intuitive and secure, as the standard crypto needs to reach adoption.",
+   "speaker": "Corey",
+   "start": 2084.7,
+   "quote": "they came up with this acronym of Keep It Sis, which is like sexy, intuitive, and secure",
+   "tags": [
+    "sis",
+    "adoption",
+    "usability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Taylor said she includes a slide four times in every talk stating that the worst user experience is the one where people lose their money.",
+   "speaker": "Taylor",
+   "start": 2932.7,
+   "quote": "I have this slide that I include four times in each presentation that just says the worst user experience is the one where people lose their money.",
+   "tags": [
+    "ux",
+    "security",
+    "usability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Taylor said removing private-key use from MyCrypto's web app was a hard decision, justified by the millions of dollars being stolen.",
+   "speaker": "Taylor",
+   "start": 3513.0,
+   "quote": "when you can point to millions and millions and millions of dollars being stolen and be like, if we don't allow users to do this, less millions of dollars will be stolen, period.",
+   "tags": [
+    "mycrypto",
+    "private-keys",
+    "phishing"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said Twitter could disable SMS tweeting but would probably lose five or six percent of its tweets, so it kept the feature for business reasons.",
+   "speaker": "unknown",
+   "start": 3427.9,
+   "quote": "So Twitter could turn off SMS tweeting tomorrow if they wanted to.",
+   "tags": [
+    "twitter",
+    "sms",
+    "legacy"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Taylor said MyCrypto's desktop Electron app still lets users use private keys, keystore files and mnemonics, while the web version no longer does.",
+   "speaker": "Taylor",
+   "start": 3621.8,
+   "quote": "And the primary difference is on the desktop app, you can use things like your private key, your key store file, your mnemonic. And on the web, you can't anymore.",
+   "tags": [
+    "mycrypto",
+    "private-keys",
+    "electron"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/688-the-bitcoin-podcast-272-jack-got-hacked",
+ "title": "The Bitcoin Podcast #272: Jack Got Hacked",
+ "date": "2019-09-08",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982731/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213709-44100-1-8fd09294c8018924.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

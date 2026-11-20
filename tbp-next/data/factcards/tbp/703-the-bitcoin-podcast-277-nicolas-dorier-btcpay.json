@@ -1,0 +1,581 @@
+{
+ "episode_summary": "Episode 277 (October 2019) opens with a roundtable on Bitcoin as money (store of value, medium of exchange, unit of account), mining centralization, and Tim Cook's criticism of Facebook's Libra. The main interview is with Nicolas Dorier, Bitcoin Core contributor and CEO of BTCPay Server, covering why BTCPay exists, its Lightning and SegWit support, hosting and funding, refunds, and his views on Taproot, block size and confidential transactions.",
+ "guests": [
+  "Nicolas Dorier"
+ ],
+ "topics": [
+  "btcpay",
+  "lightning",
+  "payment-processing",
+  "segwit",
+  "taproot",
+  "block-size",
+  "libra",
+  "mining-centralization"
+ ],
+ "cards": [
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said cryptocurrencies had problems with the medium of exchange and unit of account roles of money, except for the Bitcoin Cash community.",
+   "speaker": "host",
+   "start": 586.1,
+   "quote": "cryptocurrencies having problems satisfying the medium of exchange and unit of account aspects of money.",
+   "tags": [
+    "money",
+    "bitcoin-cash",
+    "store-of-value"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest argued that a currency only has value when there is a tradable scarcity, which digital assets can provide.",
+   "speaker": "unknown",
+   "start": 974.4,
+   "quote": "You can only have value when there's a tradable scarcity.",
+   "tags": [
+    "scarcity",
+    "digital-assets",
+    "value"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 a roundtable guest said using Bitcoin to buy coffee was a waste because the cost per transaction was too high.",
+   "speaker": "unknown",
+   "start": 1062.4,
+   "quote": "Using Bitcoin to buy coffee probably isn't a good idea. It's a waste.",
+   "tags": [
+    "fees",
+    "payments",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 the host predicted proof-of-work mining would centralize into a few big players, with the largest holding around 21 to 22 percent of the network.",
+   "speaker": "host",
+   "start": 1087.8,
+   "quote": "Mining is going to move to a point where there will be some big bosses in the game",
+   "tags": [
+    "mining",
+    "centralization",
+    "proof-of-work"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Nicolas Dorier said you often hear that something decentralized cannot be built on top of something centralized, while Bitcoin itself is decentralized.",
+   "speaker": "Nicolas Dorier",
+   "start": 1824.5,
+   "quote": "you often hear that you cannot build something decentralized on top of something centralized.",
+   "tags": [
+    "btcpay",
+    "decentralization",
+    "middleware"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Nicolas Dorier said building a business directly on Bitcoin was complicated, so developers relied on intermediaries such as BitPay and BlockCypher.",
+   "speaker": "Nicolas Dorier",
+   "start": 1849.8,
+   "quote": "building your own business on top of bitcoin was pretty complicated stuff",
+   "tags": [
+    "btcpay",
+    "bitpay",
+    "developers",
+    "middleware"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Nicolas Dorier said he created BTCPay Server so developers could build apps on Bitcoin without deep technical skills, Bitcoin Core knowledge, or middlemen.",
+   "speaker": "Nicolas Dorier",
+   "start": 1927.4,
+   "quote": "so that's when I created BTC Pay basically so that people can build apps on top of Bitcoin without deep technical skills that require Bitcoin Core",
+   "tags": [
+    "btcpay",
+    "origin",
+    "middlemen"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Nicolas Dorier said he was a freelance Microsoft certified trainer before discovering Bitcoin.",
+   "speaker": "Nicolas Dorier",
+   "start": 1681.8,
+   "quote": "before Bitcoin I was a Microsoft certified trainer",
+   "tags": [
+    "background",
+    "btcpay"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Nicolas Dorier said he began looking into Bitcoin after Mt. Gox, wondering why it was not dead yet.",
+   "speaker": "Nicolas Dorier",
+   "start": 1737.9,
+   "quote": "it was after MT Gox III I start looking around Bitcoin because I was wondering why it's not dead yet",
+   "tags": [
+    "mt-gox",
+    "background",
+    "btcpay"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Nicolas Dorier said the Bitcoin base layer was fine and he was very bullish on it.",
+   "speaker": "Nicolas Dorier",
+   "start": 2004.8,
+   "quote": "I think the base layer is fine. So I'm very bullish.",
+   "tags": [
+    "bitcoin",
+    "infrastructure",
+    "btcpay"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Nicolas Dorier said BTCPay was likely the first payment processor to accept Lightning, around March 2018.",
+   "speaker": "Nicolas Dorier",
+   "start": 2032.8,
+   "quote": "who could say that we are the first uh payment processor to accept lining i i think it's us",
+   "tags": [
+    "lightning",
+    "btcpay",
+    "payment-processing"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Nicolas Dorier said he implemented SegWit in his NBitcoin library while SegWit was still being developed.",
+   "speaker": "Nicolas Dorier",
+   "start": 2067.8,
+   "quote": "when segwit was being developed i at the same time i was implementing it at nbitcoin level",
+   "tags": [
+    "segwit",
+    "nbitcoin",
+    "btcpay"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Nicolas Dorier explained that BTCPay lets merchants price invoices from chosen exchanges, with premiums and averaging rules, such as 50% Coinbase and 50% Kraken.",
+   "speaker": "Nicolas Dorier",
+   "start": 2349.5,
+   "quote": "you can say okay I want to let the price come 50% from Coinbase 50% from Kraken and I take the average of it",
+   "tags": [
+    "btcpay",
+    "exchange-rates",
+    "invoices"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Nicolas Dorier said BTCPay was evolving from a merchant tool into a server for individuals, including crowdfunding features he did not expect.",
+   "speaker": "Nicolas Dorier",
+   "start": 2377.4,
+   "quote": "it becomes more like a server for individuals, not only for merchants",
+   "tags": [
+    "btcpay",
+    "crowdfunding",
+    "use-cases"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Nicolas Dorier said BTCPay can act as a wallet using a hardware wallet to sign or export PSBTs.",
+   "speaker": "Nicolas Dorier",
+   "start": 2406.0,
+   "quote": "you can really use it as a as a as a wallet and use your hardware wallet to sign",
+   "tags": [
+    "btcpay",
+    "hardware-wallet",
+    "psbt"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Nicolas Dorier admitted that BTCPay's refund process was not very good, with no clear rule on whether refunds are paid in dollars or bitcoin.",
+   "speaker": "Nicolas Dorier",
+   "start": 2492.0,
+   "quote": "like our refund process is not very good",
+   "tags": [
+    "btcpay",
+    "refunds",
+    "merchants"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Nicolas Dorier said LunaNode was the cloud host BTCPay recommended for merchants who were not technical.",
+   "speaker": "Nicolas Dorier",
+   "start": 2661.6,
+   "quote": "So the Luna Node deployment doesn't require any technical skill.",
+   "tags": [
+    "btcpay",
+    "hosting",
+    "lunanode"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Nicolas Dorier said concentrating BTCPay hosting on LunaNode was a risk, and he was talking to a new host provider.",
+   "speaker": "Nicolas Dorier",
+   "start": 2719.9,
+   "quote": "if everybody starts using LunaNode and something happens, then it will be a big drama.",
+   "tags": [
+    "btcpay",
+    "hosting",
+    "lunanode",
+    "risk"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Nicolas Dorier said about 99 percent of BTCPay deployments used only Bitcoin, because running a full node made other chains costly.",
+   "speaker": "Nicolas Dorier",
+   "start": 2829.0,
+   "quote": "frankly speaking as far as BTC base concern 99 percent of deployments just at Bitcoin",
+   "tags": [
+    "btcpay",
+    "altcoins",
+    "full-nodes"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Nicolas Dorier said BTCPay had no plan to make money and had set up a foundation to receive donations.",
+   "speaker": "Nicolas Dorier",
+   "start": 2885.2,
+   "quote": "there is no plan to make money so we built a foundation",
+   "tags": [
+    "btcpay",
+    "foundation",
+    "funding"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Nicolas Dorier said Square Crypto gave the BTCPay project a grant of 100,000 through its new foundation.",
+   "speaker": "Nicolas Dorier",
+   "start": 2915.4,
+   "quote": "square crypto provide provided us a grant of one uh 100 000 uh to the project",
+   "tags": [
+    "btcpay",
+    "square-crypto",
+    "grants",
+    "funding"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Nicolas Dorier estimated there were around five thousand BTCPay deployments, with no reliable way to confirm the number.",
+   "speaker": "Nicolas Dorier",
+   "start": 3146.7,
+   "quote": "I don't know it's like a number of top of my head but maybe five thousand but I have",
+   "tags": [
+    "btcpay",
+    "deployments",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Nicolas Dorier said Lightning payments would always be cheap for merchants, while Bitcoin on-chain was still cheap at the time.",
+   "speaker": "Nicolas Dorier",
+   "start": 3198.5,
+   "quote": "the only way to ensure it's the case if the merchant is using lightning network and lightning network it will be cheap always",
+   "tags": [
+    "lightning",
+    "fees",
+    "merchants"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Nicolas Dorier said accepting Bitcoin is easier for global merchants than card payments, which bring processing fees, chargebacks and rejections.",
+   "speaker": "Nicolas Dorier",
+   "start": 3252.9,
+   "quote": "it's very time sink on the other hand when you accept bitcoin like you know it always works",
+   "tags": [
+    "merchants",
+    "global-payments",
+    "chargebacks"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Nicolas Dorier said Bitcoin's real strength was accepting money from anyone anywhere without conditions, not low fees.",
+   "speaker": "Nicolas Dorier",
+   "start": 3278.7,
+   "quote": "so I think it's where bitcoin really shines is not in the fees it's in the fact that you can accept money from whoever you want",
+   "tags": [
+    "bitcoin",
+    "fees",
+    "global-payments"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In October 2019 Nicolas Dorier said he only used services that accepted Bitcoin, after failing to pay with foreign cards in Japan and with Microsoft Azure.",
+   "speaker": "Nicolas Dorier",
+   "start": 3358.9,
+   "quote": "right now when I'm using a service on Internet I only use service that accept Bitcoin",
+   "tags": [
+    "global-payments",
+    "japan",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Nicolas Dorier said BTCPay wanted to build a tax tool where a merchant could load local tax policy and transactions to calculate what to declare.",
+   "speaker": "Nicolas Dorier",
+   "start": 3440.3,
+   "quote": "I think another thing I want to provide at one point is a tool where you can say",
+   "tags": [
+    "btcpay",
+    "taxes",
+    "roadmap"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Nicolas Dorier said his short-term Bitcoin priority was Taproot and Schnorr signatures, which he expected to enable many new things.",
+   "speaker": "Nicolas Dorier",
+   "start": 3527.8,
+   "quote": "what I what I want in the short term is really a taproot and snore that will allow lots of new things happening",
+   "tags": [
+    "taproot",
+    "schnorr",
+    "bitcoin-roadmap"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said Bitcoin should increase the base layer block size a little, as a fee-reducing move.",
+   "speaker": "host",
+   "start": 3608.9,
+   "quote": "we increase the block size just just a little bit",
+   "tags": [
+    "block-size",
+    "fees",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Nicolas Dorier said the 2017 SegWit-era block time increase was immoral, because it made it harder to run a full node and protect Bitcoin.",
+   "speaker": "Nicolas Dorier",
+   "start": 3699.7,
+   "quote": "I was okay with the block times increase like that we had during segway but by retrospective I think it was it was immoral",
+   "tags": [
+    "block-size",
+    "segwit",
+    "full-nodes"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Nicolas Dorier said confidential transactions would not come to Bitcoin in his lifetime.",
+   "speaker": "Nicolas Dorier",
+   "start": 3835.4,
+   "quote": "I don't see confidential transaction coming anywhere near Bitcoin in my lifetime on my side.",
+   "tags": [
+    "confidential-transactions",
+    "fungibility",
+    "predictions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Nicolas Dorier said Bitcoin as a design is done, and that fungibility debates would not change it.",
+   "speaker": "Nicolas Dorier",
+   "start": 3867.4,
+   "quote": "as a design, Bitcoin is done, like people do what they want.",
+   "tags": [
+    "fungibility",
+    "kyc",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Asked to describe Bitcoin in ten words or less, Nicolas Dorier answered with freedom.",
+   "speaker": "Nicolas Dorier",
+   "start": 3928.6,
+   "quote": "I have only one actually that come in my mind which is freedom",
+   "tags": [
+    "bitcoin",
+    "definition"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Tim Cook said a cryptocurrency should stay in the hands of countries and called Facebook's Libra a power grab.",
+   "speaker": "host",
+   "start": 4208.5,
+   "quote": "I really think that a cryptocurrency that a currency should stay in the hands of countries.",
+   "tags": [
+    "libra",
+    "facebook",
+    "regulation",
+    "tim-cook"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said the Federal Reserve is a gaggle of private banks, so the US system already runs on privately owned institutions.",
+   "speaker": "host",
+   "start": 4261.7,
+   "quote": "The Federal Reserve is a gaggle of private banks. So we're literally using that system right now.",
+   "tags": [
+    "libra",
+    "federal-reserve",
+    "banking"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host argued Facebook's Libra was better than banks but not good enough, because the governance group was not broad enough.",
+   "speaker": "host",
+   "start": 4321.4,
+   "quote": "Now, I would argue that Libra is better than banks,",
+   "tags": [
+    "libra",
+    "governance",
+    "facebook"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said Bitcoin and Ethereum were the two kings of crypto, and that would not change unless something new came along with a use case.",
+   "speaker": "host",
+   "start": 5331.8,
+   "quote": "The two Kings of the castle right now are Bitcoin and Ethereum.",
+   "tags": [
+    "bitcoin",
+    "ethereum",
+    "market-position"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/703-the-bitcoin-podcast-277-nicolas-dorier-btcpay",
+ "title": "The Bitcoin Podcast #277 - Nicolas Dorier - BTCPay Server",
+ "date": "2019-10-10",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982029/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212881-48000-1-659e51893bb37bff.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

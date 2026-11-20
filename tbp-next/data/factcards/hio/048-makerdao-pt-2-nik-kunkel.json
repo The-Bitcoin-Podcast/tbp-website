@@ -1,0 +1,504 @@
+{
+ "episode_summary": "June 2019 MakerDAO interview (part 2) with Nik Kunkel on the engineering behind Maker: the next-generation signed-price oracle system and keepers, formal verification and audits of the multi-collateral DAI contracts, upgrade paths, the proposed DAI savings rate, and the TradeShift invoice tokenization pilot.",
+ "guests": [
+  "Nik Kunkel"
+ ],
+ "topics": [
+  "makerdao",
+  "oracles",
+  "formal verification",
+  "dai savings rate",
+  "tokenization",
+  "smart contract security",
+  "defi"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said Maker used 15 oracles pushing ETH prices, with the smart contract taking their median.",
+   "speaker": "Nik Kunkel",
+   "start": 213.6,
+   "quote": "So right now we have 15 Oracles that are all kind of pushing prices for Ethereum.",
+   "tags": [
+    "oracles",
+    "maker",
+    "eth-price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel explained that Maker's next-generation oracles sign messages with an asset pair, price and timestamp rather than posting transactions.",
+   "speaker": "Nik Kunkel",
+   "start": 336.2,
+   "quote": "they sign a message. And this message is it has the asset pair name, it has the price and it has a timestamp.",
+   "tags": [
+    "oracles",
+    "signatures",
+    "architecture"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said Maker's oracle gossip network used Scuttlebot.",
+   "speaker": "Nik Kunkel",
+   "start": 362.2,
+   "quote": "the particular one we use is called Scuttlebot",
+   "tags": [
+    "oracles",
+    "scuttlebot",
+    "p2p"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said the next-generation oracle design cut Maker's costs by about 98 percent.",
+   "speaker": "Nik Kunkel",
+   "start": 472.3,
+   "quote": "what we've managed to do there is actually reduce our costs um by about 98 percent",
+   "tags": [
+    "oracles",
+    "gas-costs",
+    "keepers"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel said misbehaving oracles would be given a 30-minute timeout as spam protection.",
+   "speaker": "Nik Kunkel",
+   "start": 603.3,
+   "quote": "it can put it on like a 30 minute timeout, you know, and like, you know, if after 30 minutes it says, hey, I'll be your friend again.",
+   "tags": [
+    "oracles",
+    "spam",
+    "ddos"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 Nik Kunkel said he wanted to turn the oracle system into a staking model with challenge-response slashing, still in progress.",
+   "speaker": "Nik Kunkel",
+   "start": 632.5,
+   "quote": "I want to kind of make it into a staking model, right, where effectively oracles put up stake",
+   "tags": [
+    "oracles",
+    "staking",
+    "slashing"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel said Maker's dark oracles were individuals who must stay anonymous, while light oracles were public institutions.",
+   "speaker": "Nik Kunkel",
+   "start": 742.2,
+   "quote": "Dark oracles are individuals and it's imperative that they remain anonymous, right?",
+   "tags": [
+    "oracles",
+    "governance",
+    "reputation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel said Compound, 0x and Coinbase could run light oracles because their reputations and legal exposure would deter collusion.",
+   "speaker": "Nik Kunkel",
+   "start": 767.5,
+   "quote": "So, for example, you could have Compound be running an oracle, you could have 0x run an oracle",
+   "tags": [
+    "oracles",
+    "light-oracles",
+    "collusion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said Maker held about 2 percent of the total Ethereum supply, just above 2 million ETH, in its smart contracts.",
+   "speaker": "Nik Kunkel",
+   "start": 1229.5,
+   "quote": "We have about 2% of the entire Ethereum supply locked up in our smart contracts right now. It's just above 2 million Ether",
+   "tags": [
+    "tvl",
+    "maker",
+    "systemic-risk"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said Maker worked closely with Trail of Bits and had about five or six audits in total.",
+   "speaker": "Nik Kunkel",
+   "start": 1255.7,
+   "quote": "So Trail of Bits is someone that we work extremely closely with.",
+   "tags": [
+    "audits",
+    "trail-of-bits",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said every multi-collateral DAI contract had been formally verified.",
+   "speaker": "Nik Kunkel",
+   "start": 1308.6,
+   "quote": "we've actually formally verified all of the multi collateral die contracts, every single piece",
+   "tags": [
+    "formal-verification",
+    "security",
+    "dai"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel gave as a formally verified property that DAI could only be withdrawn through the loan repayment function.",
+   "speaker": "Nik Kunkel",
+   "start": 1365.8,
+   "quote": "No one should ever be able to withdraw DAI except out of this one function where when you're paying back your loan",
+   "tags": [
+    "formal-verification",
+    "dai",
+    "invariants"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel said Maker wrote its formal proofs in the K framework, using KEVM and Manticore.",
+   "speaker": "Nik Kunkel",
+   "start": 1451.2,
+   "quote": "basically we used the K framework to kind of write our proofs",
+   "tags": [
+    "formal-verification",
+    "k-framework",
+    "tooling"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2019 Nik Kunkel said Trail of Bits' latest audit report came back at about three pages, far shorter than the usual twenty.",
+   "speaker": "Nik Kunkel",
+   "start": 1478.5,
+   "quote": "the report was like three pages long that's that's it",
+   "tags": [
+    "audits",
+    "trail-of-bits",
+    "formal-verification"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel said MKR governance could vote to redeploy the system and hand ownership of DAI and MKR to the new deployment.",
+   "speaker": "Nik Kunkel",
+   "start": 1557.8,
+   "quote": "So the MKR governance has the ability to basically redeploy the system, right?",
+   "tags": [
+    "upgrades",
+    "governance",
+    "mkr"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 Nik Kunkel said single-collateral DAI would run in parallel with multi-collateral DAI for about four to six months.",
+   "speaker": "Nik Kunkel",
+   "start": 1611.6,
+   "quote": "that system will run in parallel for about four to six months, those two.",
+   "tags": [
+    "multi-collateral",
+    "migration",
+    "dai"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 the speakers named Instadap and StableWire among alternative front ends built on Maker's DAI.js.",
+   "speaker": "Nik Kunkel",
+   "start": 1901.5,
+   "quote": "So there's Instadap, there's SendWire, or not SendWire.",
+   "tags": [
+    "dai-js",
+    "front-ends",
+    "ecosystem"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 Nik Kunkel predicted regulators would come to love Maker once they saw how transparent it was compared with traditional banking.",
+   "speaker": "Nik Kunkel",
+   "start": 2049.2,
+   "quote": "But once they realize how much more transparent this type of system is than the traditional banking sector, I think they're going to fall in love with it.",
+   "tags": [
+    "regulation",
+    "transparency",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 Nik Kunkel said rebuilding the financial system on top of decentralized base layers was definitely doable and inevitable.",
+   "speaker": "Nik Kunkel",
+   "start": 2076.2,
+   "quote": "rebuilding the financial world on top of this is definitely doable in my opinion like inevitable",
+   "tags": [
+    "defi",
+    "financial-system",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 Nik Kunkel said secondary lending protocols such as Dharma helped stabilize DAI by mirroring Maker's rates.",
+   "speaker": "Nik Kunkel",
+   "start": 2183.8,
+   "quote": "All of these secondary lending protocols actually help us stabilize DAI.",
+   "tags": [
+    "dharma",
+    "dai",
+    "peg"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 Nik Kunkel proposed a DAI savings rate paying holders about 6 percent annually, funded by borrower fees.",
+   "speaker": "Nik Kunkel",
+   "start": 2422.8,
+   "quote": "why don't we like give people 6% interest annually just for holding die?",
+   "tags": [
+    "dai-savings-rate",
+    "interest",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 Nik Kunkel predicted that in five years DAI users would not interact with Maker's own front end directly.",
+   "speaker": "Nik Kunkel",
+   "start": 2591.8,
+   "quote": "I don't see the end, the DAI user in five years from now really interacting with like, you know, the maker front end or anything like that.",
+   "tags": [
+    "adoption",
+    "front-ends",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said Maker was running a pilot with TradeShift to tokenize invoices.",
+   "speaker": "Nik Kunkel",
+   "start": 2679.0,
+   "quote": "So we're working with a partner called TradeShift, and they're one of the largest trade finance kind of companies in the world.",
+   "tags": [
+    "tradeshift",
+    "tokenization",
+    "invoices"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 Nik Kunkel described a planned invoice-financing flow in which suppliers would be wired dollars within 24 hours of signing over invoices.",
+   "speaker": "Nik Kunkel",
+   "start": 2878.7,
+   "quote": "They just know that when they go to trade shift, if they like sign over their invoice, they get dollars wired to their account within 24 hours.",
+   "tags": [
+    "tradeshift",
+    "invoices",
+    "dai",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 the host argued that the 2008 crisis came from dressing up bad assets, and that rebuilding finance on crypto could repeat it.",
+   "speaker": "host",
+   "start": 3091.5,
+   "quote": "I hate to beat the dead horse, but 2008 was the result of dressing up a bunch of crap",
+   "tags": [
+    "2008",
+    "risk",
+    "financial-crisis"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 Nik Kunkel argued that Maker's economic model reused old central-bank and hedge-fund ideas put on chain.",
+   "speaker": "Nik Kunkel",
+   "start": 3279.6,
+   "quote": "the economic model we have in Maker is not something new. It's actually something very old.",
+   "tags": [
+    "monetary-policy",
+    "mkr",
+    "economics"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said the MKR token was not very liquid, a risk for its role as an insurance product.",
+   "speaker": "Nik Kunkel",
+   "start": 3415.9,
+   "quote": "the MKR token is not super liquid right now",
+   "tags": [
+    "mkr",
+    "liquidity",
+    "risk"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Nik Kunkel said his favorite Maker moment was launching DAI in December 2017.",
+   "speaker": "Nik Kunkel",
+   "start": 3643.2,
+   "quote": "My favorite moment was when we launched Dye in December of 2017.",
+   "tags": [
+    "dai",
+    "launch",
+    "history"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 Nik Kunkel said Maker had never had an underwater loan, including during the crash after DAI launched.",
+   "speaker": "Nik Kunkel",
+   "start": 3668.3,
+   "quote": "we have never, ever had an underwater loan.",
+   "tags": [
+    "dai",
+    "underwater-loans",
+    "solvency"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 Nik Kunkel said each Maker oracle pulled from about five exchanges and used a volume weighted average price, so one exchange's flash crash did not affect it.",
+   "speaker": "Nik Kunkel",
+   "start": 3785.7,
+   "quote": "each oracle itself right is pulling from say like five exchanges and it takes the the volume weighted average price",
+   "tags": [
+    "oracles",
+    "flash-crash",
+    "vwap"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 Corey Petty argued that adding collateral types makes Maker a multivariate problem with exponentially growing complexity.",
+   "speaker": "Corey Petty",
+   "start": 3816.4,
+   "quote": "As with any multivariate problem, you have exponential increase of complexity as you increase the number of variables.",
+   "tags": [
+    "complexity",
+    "collateral",
+    "modeling"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said he came into the interview as a pure skeptic and left about 75 percent convinced.",
+   "speaker": "host",
+   "start": 4038.7,
+   "quote": "i came in as a pure skeptic intentionally",
+   "tags": [
+    "skepticism",
+    "maker",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/048-makerdao-pt-2-nik-kunkel",
+ "title": "MakerDAO pt. 2 - Nik Kunkel",
+ "date": "2019-06-05 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89347787/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377159-44100-2-874ba801440bcded.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

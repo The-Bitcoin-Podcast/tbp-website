@@ -1,0 +1,624 @@
+{
+ "episode_summary": "The Bitcoin Podcast episode 278 (October 2019) has hosts Corey and D discussing gaming and crypto, using Diablo 3's Real Money Auction House, EVE Online's player economy and NFTs as examples. Corey then interviews Benny Giang of Dapper Labs and Axiom Zen about the history of CryptoKitties, why the team chose Flow, and their new battle-royale game Cheese Wizards with a roughly $110,000 to $120,000 tournament prize pool.",
+ "guests": [
+  "Benny Giang"
+ ],
+ "topics": [
+  "cryptokitties",
+  "cheese-wizards",
+  "nft",
+  "erc-721",
+  "flow-blockchain",
+  "gaming",
+  "dapper-labs",
+  "game-economies"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In October 2019 the hosts said Diablo 3 launched a Real Money Auction House where players could sell items for real money.",
+   "speaker": "host",
+   "start": 257.2,
+   "quote": "they made a marketplace where you could literally sell items for real money called the Real Money Auction House",
+   "tags": [
+    "diablo-3",
+    "auction-house",
+    "game-economies"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The host said players built bots to farm Diablo 3 loot for the Real Money Auction House and that the game became just farming and buying low and selling high.",
+   "speaker": "host",
+   "start": 285.2,
+   "quote": "they basically made bots that would do this when they were gone",
+   "tags": [
+    "diablo-3",
+    "botting",
+    "game-economies"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The hosts said Blizzard eventually shut down the Diablo 3 Real Money Auction House because no one was playing the game anymore.",
+   "speaker": "host",
+   "start": 343.9,
+   "quote": "they eventually shut that down because they realized that no one was playing the game anymore",
+   "tags": [
+    "diablo-3",
+    "auction-house",
+    "blizzard"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host argued blockchain adds transparency, history, real ownership and uniqueness to in-game items.",
+   "speaker": "host",
+   "start": 371.9,
+   "quote": "you understand the transparency you understand the history of these things you understand like real ownership",
+   "tags": [
+    "game-items",
+    "ownership",
+    "blockchain"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 the hosts explained fungibility with dollar bills, where each unit is interchangeable, and said non-fungible items could each carry a different value.",
+   "speaker": "host",
+   "start": 505.9,
+   "quote": "So fungibility, if I have $100 bills, $1 bill equals $1 bill.",
+   "tags": [
+    "fungibility",
+    "nft",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 the host compared non-fungible tokens to baseball and trading cards, where items in the same class have different value.",
+   "speaker": "host",
+   "start": 536.3,
+   "quote": "Like different items within the same, I guess, class of item have different value.",
+   "tags": [
+    "nft",
+    "collectibles",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 the host explained that a non-fungible token means each item in a set is its own thing within that set.",
+   "speaker": "host",
+   "start": 588.7,
+   "quote": "Whereas non-fungible tokens or non-fungibility means that each item in the set is its own thing within the set.",
+   "tags": [
+    "nft",
+    "fungibility",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 the host said Ethereum created standards for programming and issuing digital tokens so that markets could be built around them.",
+   "speaker": "host",
+   "start": 616.8,
+   "quote": "Ethereum has done mostly is create standards around how you program that and turn it into a digital token",
+   "tags": [
+    "ethereum",
+    "erc-20",
+    "standards"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said the ERC-20 standard was a good point for the rise of the ICO boom.",
+   "speaker": "host",
+   "start": 644.5,
+   "quote": "that was in my opinion a good point to the rise of the ICO boom",
+   "tags": [
+    "erc-20",
+    "ico",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 the host predicted that standard NFTs would let players move items they earned in one game into another game.",
+   "speaker": "host",
+   "start": 697.6,
+   "quote": "that I potentially earn from one game in terms of non-fungible tokens and move them to another game",
+   "tags": [
+    "nft",
+    "interoperability",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 the host predicted that standardizing NFTs would make an item's price across games set automatically by how people use it.",
+   "speaker": "host",
+   "start": 724.4,
+   "quote": "when you standardize this you can do it way way way easier",
+   "tags": [
+    "nft",
+    "interoperability",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The hosts said that in EVE Online the in-game currency had real value, and players built insurance companies and banks on it.",
+   "speaker": "host",
+   "start": 840.6,
+   "quote": "And so the in-game economy was a real economy. People built insurance companies. They built banks, so on and so forth.",
+   "tags": [
+    "eve-online",
+    "game-economies",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The host recounted that a large EVE Online bank was looted by one player because there were no checks, balances or regulations.",
+   "speaker": "host",
+   "start": 871.8,
+   "quote": "this guy just took it because there were no checks and balances there were there were no regulations",
+   "tags": [
+    "eve-online",
+    "heist",
+    "game-economies"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said games let people test new rules for money and systems in a low-stakes setting.",
+   "speaker": "host",
+   "start": 899.1,
+   "quote": "games are useful for me especially in the context of new technology because it allows us to create new worlds with new rules and new systems",
+   "tags": [
+    "games",
+    "blockchain",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said games were probably the biggest source of real innovation in the crypto space.",
+   "speaker": "host",
+   "start": 952.5,
+   "quote": "they're probably the biggest thing in this space in terms of real innovation",
+   "tags": [
+    "games",
+    "innovation",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 the host predicted that NFTs in games, if done well, would become the moment when people need crypto to enjoy the experience.",
+   "speaker": "host",
+   "start": 1003.7,
+   "quote": "if done well could be like that moment where someone needs to get crypto to you know what I mean",
+   "tags": [
+    "nft",
+    "games",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts introduced Benny Giang as a co-founder of CryptoKitties, which they said almost broke Ethereum.",
+   "speaker": "host",
+   "start": 1029.1,
+   "quote": "he's the co-founder of CryptoKitties which almost broke Ethereum",
+   "tags": [
+    "cryptokitties",
+    "ethereum",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In 2017 the Axiom Zen team, which built CryptoKitties, saw only three headlines about blockchain: Bitcoin's price, ICOs, and hacks and scams.",
+   "speaker": "Benny Giang",
+   "start": 1444.3,
+   "quote": "we saw three headlines in the news. It was the price of Bitcoin, ICOs and hacks and scams that were happening on exchanges",
+   "tags": [
+    "cryptokitties",
+    "axiom-zen",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Benny Giang said CryptoKitties used cats because cats were the mascots of big tech companies and everyone loves cats.",
+   "speaker": "Benny Giang",
+   "start": 1652.5,
+   "quote": "we believe that cats own the internet",
+   "tags": [
+    "cryptokitties",
+    "design",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Benny Giang said CryptoKitties was still consistently the top blockchain game.",
+   "speaker": "Benny Giang",
+   "start": 1706.5,
+   "quote": "Crypto Kitties to date still consistently is the top game in terms of blockchain",
+   "tags": [
+    "cryptokitties",
+    "blockchain-games",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Benny Giang explained that CryptoKitties breeding mixes genetics on chain and creates a new kitty token, with the breeding fee paid to whoever calls the birth function.",
+   "speaker": "Benny Giang",
+   "start": 1763.7,
+   "quote": "it mixes the genetics and it creates a new token which is a new kitty",
+   "tags": [
+    "cryptokitties",
+    "breeding",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Benny Giang said that at one point the CryptoKitties network was so congested that too few computers were giving birth to kitties.",
+   "speaker": "Benny Giang",
+   "start": 1792.0,
+   "quote": "the network was so congested that there was not enough computers around the world that were giving birth to kitties",
+   "tags": [
+    "cryptokitties",
+    "congestion",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Benny Giang said the CryptoKitties team burned tens of thousands of dollars in one night after lowering the breeding fee.",
+   "speaker": "Benny Giang",
+   "start": 1848.1,
+   "quote": "over one night we burned over like tens of thousands of dollars",
+   "tags": [
+    "cryptokitties",
+    "breeding-fee",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Benny Giang said the CryptoKitties team learned the limits of Ethereum when millions of people want to play a single game.",
+   "speaker": "Benny Giang",
+   "start": 1875.0,
+   "quote": "the limited limitations of a blockchain, specifically Ethereum at that point, if millions of people want to play a single game at that time",
+   "tags": [
+    "ethereum",
+    "scalability",
+    "cryptokitties"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Benny Giang said the Flow blockchain had been in development for nearly two years.",
+   "speaker": "Benny Giang",
+   "start": 1932.2,
+   "quote": "Flow has been in the works for nearly two years from conception to where it's at now.",
+   "tags": [
+    "flow-blockchain",
+    "dapper-labs",
+    "development"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Benny Giang said Flow's design aims to keep everything atomic on one chain while scaling through different node types, avoiding sharding's cross-chain problems.",
+   "speaker": "Benny Giang",
+   "start": 2022.9,
+   "quote": "could keep everything atomic keep everything on one chain and has scalability based on the different types of nodes",
+   "tags": [
+    "flow-blockchain",
+    "sharding",
+    "scalability"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Benny Giang argued that transactions per second are a vanity metric for blockchains.",
+   "speaker": "unknown",
+   "start": 2049.7,
+   "quote": "It's a vanity metric in most cases.",
+   "tags": [
+    "scalability",
+    "tps",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Benny Giang said some CryptoKitties players had quit their jobs to breed digital cats full time.",
+   "speaker": "Benny Giang",
+   "start": 2082.8,
+   "quote": "there's a handful of players of CryptoKitties that have quit their jobs and they're full-time digital cat breeders.",
+   "tags": [
+    "cryptokitties",
+    "play-to-earn",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Benny Giang said third-party developers built kitty hats using ERC-20 tokens on ERC-721 kitties, which opened the door to ERC-1155.",
+   "speaker": "Benny Giang",
+   "start": 2162.7,
+   "quote": "We had people build kitty hats that allow you to put ERC-20 hats on your ERC-721 kitties",
+   "tags": [
+    "erc-721",
+    "erc-1155",
+    "composability"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Benny Giang described Cheese Wizards as a blockchain battle royale game, similar in structure to Fortnite and PUBG.",
+   "speaker": "Benny Giang",
+   "start": 2243.7,
+   "quote": "So Cheese Wizards, in a nutshell, it's like Fortnite and PUBG. It's a battle royale game.",
+   "tags": [
+    "cheese-wizards",
+    "games",
+    "explainer"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Benny Giang explained that Cheese Wizards duels used a commit and reveal scheme on the blockchain so moves stayed hidden until both players revealed them.",
+   "speaker": "Benny Giang",
+   "start": 2269.1,
+   "quote": "where there's a commit and reveal, where you commit your moves, it's encrypted, it's on the blockchain",
+   "tags": [
+    "cheese-wizards",
+    "commit-reveal",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Benny Giang said the Cheese Wizards tournament prize pool was about 110,000 to 120,000 dollars in ETH.",
+   "speaker": "Benny Giang",
+   "start": 2295.0,
+   "quote": "there is about the equivalent to $110,000 or $120,000 USD. That's in the prize pool.",
+   "tags": [
+    "cheese-wizards",
+    "prize-pool",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Benny Giang predicted Cheese Wizards would be pretty much a game for people already in crypto, since CryptoKitties was easier for newcomers to grasp.",
+   "speaker": "Benny Giang",
+   "start": 2456.3,
+   "quote": "that Cheese Wizard is pretty much a game for people who are already in crypto because there are some complexities around it",
+   "tags": [
+    "cheese-wizards",
+    "adoption",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2019 Benny Giang said Cheese Wizards was running on the Rinkeby test network, so players did not pay to play.",
+   "speaker": "Benny Giang",
+   "start": 2512.2,
+   "quote": "It's on Rinkby, so it doesn't cost you anything.",
+   "tags": [
+    "cheese-wizards",
+    "rinkeby",
+    "testnet"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said video games are probably the first step to real user adoption of blockchain.",
+   "speaker": "host",
+   "start": 2596.8,
+   "quote": "video games are probably the first step into getting any real user adoption into the blockchain space",
+   "tags": [
+    "games",
+    "adoption",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 Benny Giang said every big thing starts off as a toy, so games are the best way to get people to understand blockchain.",
+   "speaker": "Benny Giang",
+   "start": 2669.0,
+   "quote": "every big thing always starts off as a toy",
+   "tags": [
+    "games",
+    "adoption",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2019 Benny Giang said the first real use case for blockchain would probably be payments, cross-border transfers and banking the unbanked.",
+   "speaker": "Benny Giang",
+   "start": 2725.1,
+   "quote": "probably the first use case of it is solving payments and cross-border and banking the unbanked",
+   "tags": [
+    "payments",
+    "unbanked",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2019 Benny Giang said games can test crypto-economic mechanism design by letting players try to game a model of a real economic system.",
+   "speaker": "Benny Giang",
+   "start": 2779.6,
+   "quote": "create a game with a certain set of rules that models what you would do in a real economic system",
+   "tags": [
+    "mechanism-design",
+    "crypto-economics",
+    "games"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said people do not care how smart a blockchain builder is, only how cool and easy to use the product is.",
+   "speaker": "host",
+   "start": 3301.2,
+   "quote": "People don't care how smart you are. They care how cool the thing is that you're building and how easy it is to use.",
+   "tags": [
+    "ux",
+    "adoption",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2019 the host said application developers have a big task making blockchain apps usable, and that is why there were few good applications yet.",
+   "speaker": "host",
+   "start": 3524.8,
+   "quote": "So application developers have a big task. And I think that's why we don't have a lot of good applications yet",
+   "tags": [
+    "ux",
+    "applications",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/706-the-bitcoin-podcast-278-benny-giang-cheeze-wizards",
+ "title": "The Bitcoin Podcast #278: Benny Giang -- Cheeze Wizards",
+ "date": "2019-10-17",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981721/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212641-44100-1-f027d3444b952722.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

@@ -1,0 +1,460 @@
+{
+ "episode_summary": "Episode 370, recorded in October 2021, with hosts Jessie, D and Corey. It covers China's latest all-crypto ban and its market impact, Lightning Network adoption on Twitter and Coinbase, the coming Taproot upgrade, the Ethereum fee debate versus Cardano's extended UTXO smart contracts, and phishing and hardware wallet security. It also includes mining and hash rate data after China's mining ban.",
+ "guests": [],
+ "topics": [
+  "china-ban",
+  "lightning-network",
+  "taproot",
+  "ethereum",
+  "cardano",
+  "mining",
+  "phishing"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "After China's new crypto ban, the hosts said bitcoin dropped only about two thousand dollars, a smaller move than past Chinese bans caused.",
+   "speaker": "unknown",
+   "start": 1201.1,
+   "quote": "but the market didn't really tank it was like a two thousand dollar dropper",
+   "tags": [
+    "china",
+    "ban",
+    "bitcoin",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said China's latest ban covered all crypto, unlike earlier Chinese bans that specifically named bitcoin.",
+   "speaker": "unknown",
+   "start": 1229.3,
+   "quote": "whenever the previous times where china has banned crypto they specifically point out bitcoin whereas this one they're just like all crypto",
+   "tags": [
+    "china",
+    "ban",
+    "regulation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "After China's ban, the total crypto market cap fell by about 100 billion dollars, to roughly 1.8 trillion.",
+   "speaker": "unknown",
+   "start": 1255.8,
+   "quote": "yeah so we've dropped 100 billion",
+   "tags": [
+    "china",
+    "market-cap",
+    "crypto"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said about 150,000 people a day were signing up for El Salvador's Lightning wallet in 2021.",
+   "speaker": "unknown",
+   "start": 1333.6,
+   "quote": "there's El Salvador where 150,000 people a day are signing up for the lightning wallet",
+   "tags": [
+    "el-salvador",
+    "lightning-network",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said Twitter had launched Bitcoin Lightning payments and was rolling them out gradually to all users in 2021.",
+   "speaker": "unknown",
+   "start": 1586.5,
+   "quote": "the bitcoin lightning network is launched on twitter and it's slowly being rolled out to everyone",
+   "tags": [
+    "twitter",
+    "lightning-network",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said Coinbase's Brian Armstrong had said Coinbase did not yet feel Lightning adoption was large enough to start using the Lightning Network.",
+   "speaker": "unknown",
+   "start": 1637.3,
+   "quote": "they don't feel that the adoption is large enough for them to start using the lightning network at Coinbase.",
+   "tags": [
+    "coinbase",
+    "lightning-network",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "One speaker worried that if Twitter or Coinbase let all users use Lightning at once, the network would fail miserably because it cannot scale.",
+   "speaker": "unknown",
+   "start": 1672.9,
+   "quote": "my main worry is that something as large as Twitter or Coinbase enable all of their users to immediately start using the Lightning easily.",
+   "tags": [
+    "lightning-network",
+    "scaling",
+    "twitter",
+    "coinbase"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One host said Lightning could handle almost 100 percent of transactions below 10 dollars, based on what he had seen about eight months earlier.",
+   "speaker": "unknown",
+   "start": 1700.0,
+   "quote": "lightning could handle almost 100% of any transactions below $10.",
+   "tags": [
+    "lightning-network",
+    "scaling",
+    "performance"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained that the three upgrades passing through the Bitcoin proposal process were Schnorr signatures, which enable Taproot, which enables TapScripts.",
+   "speaker": "unknown",
+   "start": 1726.2,
+   "quote": "That's basically Schnorr signatures, which then enable Taproot, which then enable TapScripts.",
+   "tags": [
+    "taproot",
+    "schnorr",
+    "tapscript",
+    "bip"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "The hosts predicted that Taproot, which had already passed its vote, would not become active until the following month, in November 2021.",
+   "speaker": "unknown",
+   "start": 1753.6,
+   "quote": "it doesn't actually get rolled into and becoming the valid thing to do until like next month.",
+   "tags": [
+    "taproot",
+    "activation",
+    "bitcoin-upgrade"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts said a recent paper on Taproot would enable much better native multi-signature accounts in Bitcoin and help the Lightning Network run more efficiently.",
+   "speaker": "unknown",
+   "start": 1779.4,
+   "quote": "it does enable much, much better multi-signature accounts natively into Bitcoin.",
+   "tags": [
+    "taproot",
+    "multisig",
+    "lightning-network"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker argued that Ethereum's high fees come from real use, since fees go up when people start using a blockchain.",
+   "speaker": "unknown",
+   "start": 2070.5,
+   "quote": "When people start using your blockchain, the fees go up.",
+   "tags": [
+    "ethereum",
+    "fees",
+    "gas"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker said other smart-contract networks only have users because they carbon-copied Ethereum and changed one thing.",
+   "speaker": "unknown",
+   "start": 2100.5,
+   "quote": "It's the only reason any of these other networks have users is because they carbon copied it and changed one thing.",
+   "tags": [
+    "ethereum",
+    "smart-contracts",
+    "competition"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts argued that Ethereum fees are high mainly because no one wants to move a given activity to a different chain, not only because of block space.",
+   "speaker": "unknown",
+   "start": 2473.9,
+   "quote": "most of the time, the reason why fees are high on Ethereum is because no one wants to go to a different chain to do that thing.",
+   "tags": [
+    "ethereum",
+    "fees",
+    "layer-2"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "A speaker bet that Avalanche would be the blockchain best able to handle Ethereum-scale volume while keeping fees low.",
+   "speaker": "unknown",
+   "start": 2415.4,
+   "quote": "my bet right now that the blockchain is going to be able to do the best if you call it a blockchain though is avalanche",
+   "tags": [
+    "avalanche",
+    "scaling",
+    "fees"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts said Avalanche's C-Chain has a fixed fee with no fee market, and the transaction fees are burned instead of paid to miners.",
+   "speaker": "unknown",
+   "start": 2535.0,
+   "quote": "there's no fee markup on the avalanche c chain it's a set amount because they think they can scale enough and and miners don't get fees for transactions they're burned",
+   "tags": [
+    "avalanche",
+    "fees",
+    "burn"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "One speaker predicted that another chain would pick up where Ethereum is dropping, as activity and fees move elsewhere.",
+   "speaker": "unknown",
+   "start": 2591.9,
+   "quote": "i think i think it's only natural that another chain is about to pick up where Ethereum is dropping.",
+   "tags": [
+    "ethereum",
+    "competition",
+    "layer-1"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "A speaker said Status was about to release a multi-chain Layer 2 that would let users reach chains such as Arbitrum and Avalanche.",
+   "speaker": "unknown",
+   "start": 2246.8,
+   "quote": "We're releasing a multi-chain Layer 2 status soon.",
+   "tags": [
+    "status",
+    "layer-2",
+    "multichain"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the musician Paul Oakenfold announced his next album would be released on Cardano, with every asset associated with it on that chain.",
+   "speaker": "unknown",
+   "start": 2625.7,
+   "quote": "He just released or announced that he's releasing his next album on Cardano.",
+   "tags": [
+    "cardano",
+    "nft",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained that Cardano uses an extended UTXO model, which makes smart contracts much more complicated to build than on Ethereum.",
+   "speaker": "unknown",
+   "start": 2652.1,
+   "quote": "they're using what's called the extended utxo model and it's not nearly as clear how to do smart contracts on a model like that as it is for ethereum",
+   "tags": [
+    "cardano",
+    "utxo",
+    "smart-contracts"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The hosts said it remains to be seen whether complex decentralized applications can be built on Cardano's extended UTXO model.",
+   "speaker": "unknown",
+   "start": 2678.3,
+   "quote": "it remains to be seen whether or not complex decentralized applications can even be built on it",
+   "tags": [
+    "cardano",
+    "dapps",
+    "utxo"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained that a UTXO wallet collects enough unspent outputs to cover a payment, and the leftover value returns to the user as change.",
+   "speaker": "unknown",
+   "start": 2755.6,
+   "quote": "So what it does, what your wallet does is it says, all right, I'm going to grab this set of UTXOs that gets as close to 0.25 Bitcoin as I can.",
+   "tags": [
+    "utxo",
+    "bitcoin",
+    "wallet"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts said Ethereum smart contracts run sequentially, while extended UTXO could allow parts of a contract to be processed in parallel.",
+   "speaker": "unknown",
+   "start": 2921.5,
+   "quote": "right now with with ethereum everything is sequential it's synchronous",
+   "tags": [
+    "ethereum",
+    "utxo",
+    "parallel-processing"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "One host said the Bitcoin scripting language is intentionally very small so that it is hard to get wrong.",
+   "speaker": "unknown",
+   "start": 2862.4,
+   "quote": "But for Bitcoin, that scripting language is very, very small on purpose, such that you can't fuck it up.",
+   "tags": [
+    "bitcoin",
+    "scripting",
+    "security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts said Cardano's Plutus is the scripting language used to validate extended UTXOs, and it is based on Haskell.",
+   "speaker": "unknown",
+   "start": 2837.0,
+   "quote": "So for Cardano, they use something called Plutus. Plutus is the scripting language that is the logic you can use to validate the extended UTXOs.",
+   "tags": [
+    "cardano",
+    "plutus",
+    "haskell"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Jessie said that in 2017 he was scammed out of about 2,000 dollars of RuneScape items sold for Litecoin, after impersonators of two Discord admins took over the trade.",
+   "speaker": "Jessie",
+   "start": 604.3,
+   "quote": "It was basically about $2,000 worth of RuneScape items.",
+   "tags": [
+    "scam",
+    "phishing",
+    "discord",
+    "litecoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker said the sophistication of phishing campaigns over the previous four to five years was phenomenal and scary.",
+   "speaker": "unknown",
+   "start": 795.1,
+   "quote": "the sophistication of phishing campaigns over the course of the last four to five years is phenomenal and it's disgusting and scary",
+   "tags": [
+    "phishing",
+    "security",
+    "social-engineering"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said a sharp hash rate drop after China's mining ban was probably the biggest percentage drop on the chart, as a large amount of hashing power switched off at once.",
+   "speaker": "unknown",
+   "start": 3886.0,
+   "quote": "that's a lot of hashing power just turned off like that hit the switch",
+   "tags": [
+    "mining",
+    "hashrate",
+    "china-ban"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "One speaker argued that bitcoin's hash rate is over-securing the underlying value, and that far less hashing power would still provide the same security guarantees.",
+   "speaker": "unknown",
+   "start": 3914.9,
+   "quote": "the amount of the hash rate of Bitcoin is over securing the underlying value of Bitcoin.",
+   "tags": [
+    "mining",
+    "hashrate",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/880-the-bitcoin-podcast-370-i-feel-wrecked-without-my",
+ "title": "The Bitcoin Podcast #370- I feel wrecked without my China girl",
+ "date": "2021-10-04",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982481/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213406-44100-1-b22d36454fd42698.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

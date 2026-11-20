@@ -1,0 +1,535 @@
+{
+ "episode_summary": "June 2019 episode of The Bitcoin Podcast with no interview. The hosts discuss the HODL+ rebalancing strategy, Facebook's Libra announcement and whitepaper, whether Libra helps or hurts crypto adoption, virtue signaling and scams aimed at influencers, and how much of crypto trading volume is real.",
+ "guests": [
+  "Lyndon (CryptoBully)",
+  "Colin (Hashing It Out)"
+ ],
+ "topics": [
+  "libra",
+  "facebook",
+  "hodl plus",
+  "bitcoin price",
+  "crypto scams",
+  "virtue signaling",
+  "trading volume",
+  "ethereum"
+ ],
+ "cards": [
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host credited Facebook's Libra code with reasonable consensus choices, using classical BFT rather than Nakamoto consensus.",
+   "speaker": "host",
+   "start": 920.8,
+   "quote": "They chose reasonable choices in the consensus mechanism, given its classical BFT and nothing like Nakamoto consensus or anything new.",
+   "tags": [
+    "libra",
+    "consensus",
+    "bft",
+    "facebook"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said Libra was more decentralized than anything that had existed in the traditional financial world, though not pure crypto.",
+   "speaker": "unknown",
+   "start": 1055.8,
+   "quote": "at least well done, and it's more decentralized than anything that's ever existed from the traditional world.",
+   "tags": [
+    "libra",
+    "decentralization",
+    "facebook"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 a host argued Libra was just a distributed ledger, with nothing new in principle because banks already move value quickly.",
+   "speaker": "host",
+   "start": 1081.4,
+   "quote": "Well, that's redundant because T in DLT is technology. But, like, it's a distributed ledger. That's it.",
+   "tags": [
+    "dlt",
+    "libra",
+    "distributed-ledger"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 a host said Libra was not open, permissionless consensus, which the host called the foundation of blockchain.",
+   "speaker": "unknown",
+   "start": 1250.9,
+   "quote": "it's just not it's not open and permissionless consensus that's kind of the foundation",
+   "tags": [
+    "libra",
+    "consensus",
+    "blockchain"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 a host said Libra's whitepaper is not block-based and gives instant finality like Hyperledger, so it does not need blocks.",
+   "speaker": "host",
+   "start": 1250.9,
+   "quote": "It's basically like the Hyperledger system where it's instant finality because they don't need blocks to actually do a blockchain.",
+   "tags": [
+    "libra",
+    "hyperledger",
+    "finality"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said Libra was most similar to Ripple in its design.",
+   "speaker": "unknown",
+   "start": 1279.1,
+   "quote": "It's the main thing it's probably closest to is Ripple.",
+   "tags": [
+    "libra",
+    "ripple"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host said that if Libra drove mass adoption, crypto fans would be unhappy about it, though he did not expect it to last.",
+   "speaker": "host",
+   "start": 1306.4,
+   "quote": "if something you don't like spurs mass adoption you guys aren't going to be very happy about it",
+   "tags": [
+    "adoption",
+    "libra",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host predicted that better open, permissionless governance systems would eventually bring privatized systems like Libra to their knees.",
+   "speaker": "unknown",
+   "start": 1362.8,
+   "quote": "I think eventually something's going to happen. It's going to bring that to its knees.",
+   "tags": [
+    "governance",
+    "libra",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host argued that a centralized system like Libra could not handle global IoT microtransaction volume, and that decentralization scales better.",
+   "speaker": "host",
+   "start": 1447.1,
+   "quote": "you're not going to successfully accomplish that with this centralized system i don't believe you will i believe that decentralization is the way to go with that just because it scales better eventually",
+   "tags": [
+    "scalability",
+    "iot",
+    "decentralization",
+    "libra"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host doubted Libra would be a long-term supportable system in its drafted form.",
+   "speaker": "host",
+   "start": 1473.1,
+   "quote": "i have real doubts that like this will actually be a long-term supportable thing in his current the way it's currently drafted",
+   "tags": [
+    "libra",
+    "prediction",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said Facebook had been trying to become a bank for about six years through money services licenses.",
+   "speaker": "host",
+   "start": 1196.7,
+   "quote": "The thing is that Facebook has been trying to be a bank for like six years now.",
+   "tags": [
+    "facebook",
+    "libra",
+    "banking"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host objected that no one voted for Facebook to hold sovereign decision-making power over money on a global scale.",
+   "speaker": "host",
+   "start": 1139.5,
+   "quote": "Just from an ethical standpoint, it seems like I didn't vote them into having sovereign decision-making power over money on a global scale.",
+   "tags": [
+    "libra",
+    "governance",
+    "facebook"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 a host described Libra's planned validators as a cartel of $10 million members that Facebook would approve.",
+   "speaker": "host",
+   "start": 1167.2,
+   "quote": "There's a whole bunch of people working together in this cartel of $10 million validators who Facebook can approve or disapprove of",
+   "tags": [
+    "libra",
+    "validators",
+    "facebook"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a guest called Libra potentially a Trojan horse that could draw people toward Bitcoin and other cryptocurrency.",
+   "speaker": "guest",
+   "start": 1691.7,
+   "quote": "I really feel like Libra is potentially potentially a Trojan horse for Bitcoin and other cryptocurrency",
+   "tags": [
+    "libra",
+    "bitcoin",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said the Libra news was a catalyst for the Bitcoin price action that week, drawing sidelined investors back in.",
+   "speaker": "host",
+   "start": 1805.6,
+   "quote": "it was a catalyst for a lot of the price action we've seen around Bitcoin as well",
+   "tags": [
+    "bitcoin price",
+    "libra",
+    "market"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 a host said the Winklevoss twins probably held a little more than one percent of all bitcoin.",
+   "speaker": "host",
+   "start": 1833.5,
+   "quote": "pretty sure they're a little bit higher than one percent now",
+   "tags": [
+    "winklevoss",
+    "bitcoin",
+    "whales"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host predicted that if bitcoin reached $10,000 the Winklevoss twins would be worth one to three billion dollars.",
+   "speaker": "host",
+   "start": 1861.8,
+   "quote": "goes up to ten thousand then they're probably looking at one to three billion dollars in net worth",
+   "tags": [
+    "bitcoin price",
+    "winklevoss",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host warned that scammers would flood Facebook Messenger, and that bots and social engineers would target grandparents' bank access.",
+   "speaker": "host",
+   "start": 1913.2,
+   "quote": "Scam city. Scam city is coming. But imagine when your grandma and your great aunt are on Facebook with instant access to their banking funds.",
+   "tags": [
+    "scams",
+    "facebook",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 a host argued Facebook's reversible transactions and fund tracing could let it detect and stop scammers.",
+   "speaker": "host",
+   "start": 1965.2,
+   "quote": "going directly through the scammers can actually give them a good detection and uh like ability to actually stop this kind of behavior.",
+   "tags": [
+    "libra",
+    "scams",
+    "reversible transactions"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host said his big fear was a global digital-money event that would produce an authoritarian reaction.",
+   "speaker": "host",
+   "start": 2076.1,
+   "quote": "My big fear is it happens on a global scale and the reaction to that will be very authoritarian",
+   "tags": [
+    "regulation",
+    "libra",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host predicted that Libra would make for a weird future if it launched by 2020.",
+   "speaker": "unknown",
+   "start": 2101.5,
+   "quote": "it's going to be a weird future once this comes out, if they actually get it out by 2020.",
+   "tags": [
+    "libra",
+    "prediction",
+    "launch date"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 the hosts defined virtue signaling as showing you have virtue by expressing disgust.",
+   "speaker": "host",
+   "start": 2183.2,
+   "quote": "it's a person who shows you they have virtue by expressing disgust",
+   "tags": [
+    "virtue signaling",
+    "influencers",
+    "crypto culture"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host argued that crypto unites self-interest with collective benefit, so it is the answer to trickle-down economics.",
+   "speaker": "host",
+   "start": 2238.6,
+   "quote": "for the first time in history humans have come up with a system that manages to unite self-interest with a collective benefit so you have capitalism united with socialism",
+   "tags": [
+    "crypto",
+    "economics",
+    "self-interest"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said he would not take paid promotions because his credibility as an educator and security engineer depends on not being for sale.",
+   "speaker": "host",
+   "start": 2321.2,
+   "quote": "I personally won't do it because that's part of my reputation. I don't say things that I don't believe ever.",
+   "tags": [
+    "sponsorships",
+    "credibility",
+    "influencers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said that paying an influencer to push a bad wallet ruins their reputation, unlike a sponsor with no bearing on the talk.",
+   "speaker": "host",
+   "start": 2373.4,
+   "quote": "But if someone pays you $25,000 to say, oh, go buy this wallet. It's the best, most secure wallet out there, and that's not necessarily true, then you've ruined a lot of your reputation",
+   "tags": [
+    "sponsorships",
+    "wallets",
+    "influencers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said the Ethereum community seemed grandstandy, with many people tweeting about imposter syndrome.",
+   "speaker": "host",
+   "start": 2859.2,
+   "quote": "I think a lot of the Ethereum community, this is my personal on the outside looking in is a lot of I don't know, seems a little grandstandy.",
+   "tags": [
+    "ethereum",
+    "crypto culture",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2019 a host said much of crypto trading volume was people betting on price moves without understanding the underlying asset.",
+   "speaker": "host",
+   "start": 3267.4,
+   "quote": "A good portion of the volume, if not the majority of the volume, of cryptocurrencies is people moving it back and forth, betting on what the price is going to do",
+   "tags": [
+    "trading",
+    "volume",
+    "derivatives"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 a host guessed about 75 percent of crypto trading volume came from people other than genuine individual investors, with no research behind it.",
+   "speaker": "host",
+   "start": 3402.0,
+   "quote": "75%. Oh, wow. That's my very naive rough guess with no real research behind it.",
+   "tags": [
+    "trading",
+    "wash trading",
+    "volume"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2019 a host said that on breached exchanges wash trading was closer to 95 percent, though the data was flawed.",
+   "speaker": "host",
+   "start": 3540.4,
+   "quote": "The exchanges that have been breached, the ones that their data has actually been dumped, it's closer to like 95% because there's so much shenanigans going on.",
+   "tags": [
+    "exchanges",
+    "wash trading",
+    "hacks"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2019 the hosts described QuadrigaCX as a scam from day zero, citing auditor reports that it traded with customer money.",
+   "speaker": "host",
+   "start": 3566.3,
+   "quote": "It turns out that was a scam from day zero.",
+   "tags": [
+    "quadriga",
+    "exchanges",
+    "scams"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2019 a host predicted derivatives would bring fresh attention to crypto, the same way Libra had, as people turned from fiat to crypto.",
+   "speaker": "host",
+   "start": 3701.1,
+   "quote": "Like the second a back drops, everybody's going to bow face and look away from Fiat",
+   "tags": [
+    "derivatives",
+    "adoption",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 a host explained HODL+ as taking some fiat out of bitcoin at a high price, then rebalancing back to the target percentages.",
+   "speaker": "host",
+   "start": 658.6,
+   "quote": "And whenever those percentages gets out of whack, you basically rebalance back to what your original starting percentages was.",
+   "tags": [
+    "hodl plus",
+    "rebalancing",
+    "strategy"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2019 a host said HODL was a misspelling of hold that the community adopted long ago.",
+   "speaker": "host",
+   "start": 623.8,
+   "quote": "Somebody misspelled hold a long time ago and we ran with it.",
+   "tags": [
+    "hodl",
+    "slang"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2019 a host said his average bitcoin entry price was under $1,000.",
+   "speaker": "unknown",
+   "start": 826.0,
+   "quote": "So my average entry price is sub $1,000.",
+   "tags": [
+    "bitcoin price",
+    "entry price",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/646-the-bitcoin-podcast-263",
+ "title": "The Bitcoin Podcast #263",
+ "date": "2019-06-24",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981570/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212478-44100-1-e467a1c691e16f17.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

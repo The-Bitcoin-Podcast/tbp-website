@@ -1,0 +1,381 @@
+{
+ "episode_summary": "Dee, Corey Petty and Jesse Broke give a technical explainer on the Bitcoin upgrade merged into Bitcoin Core in October 2020: Schnorr signatures (BIP 340), Taproot (BIP 341) and Tapscript. They cover signature aggregation, MAST, the Schnorr patent history and why the code being merged did not mean the upgrade was active. The roundtable then covers BrightID, the Circles UBI project and the Honey token.",
+ "guests": [],
+ "topics": [
+  "taproot",
+  "schnorr signatures",
+  "bitcoin core",
+  "mast",
+  "tapscript",
+  "brightid",
+  "circles ubi"
+ ],
+ "cards": [
+  {
+   "type": "prediction",
+   "claim": "In October 2020 a host predicted that if Taproot activated within a year, it would bring a tremendous boom of development on top of the Bitcoin blockchain.",
+   "speaker": "host",
+   "start": 805.3,
+   "quote": "if this gets through if this gets through within a year you're going to see a tremendous boom of development on top of the bitcoin blockchain",
+   "tags": [
+    "taproot",
+    "bitcoin",
+    "development"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2020 the hosts said the Taproot and Schnorr code had been merged into Bitcoin Core but was not yet usable on the Bitcoin network.",
+   "speaker": "host",
+   "start": 615.9,
+   "quote": "It's just in the code base, meaning that you still can't create transactions that use these technologies and they be valid on the network.",
+   "tags": [
+    "bitcoin core",
+    "schnorr",
+    "taproot",
+    "soft fork"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2020 a host said Taproot might take over a year to activate because the community had not yet settled on an activation process.",
+   "speaker": "host",
+   "start": 647.2,
+   "quote": "It may be over a year until the community decides, okay, this is the activation process.",
+   "tags": [
+    "taproot",
+    "activation",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host explained that Schnorr signatures replace the many signatures in a multi-input spend with a single signature.",
+   "speaker": "host",
+   "start": 1104.2,
+   "quote": "instead of including all of those signatures, I include one signature.",
+   "tags": [
+    "schnorr",
+    "signature aggregation",
+    "taproot"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host gave a one-sentence definition of Taproot as the aggregation of addresses for merkelized abstract syntax trees.",
+   "speaker": "host",
+   "start": 1343.7,
+   "quote": "the aggregation of addresses for merkelized abstract syntax trees",
+   "tags": [
+    "taproot",
+    "mast"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host explained that MAST lets a spender reveal only the script branch actually used, keeping the other possible spending conditions private.",
+   "speaker": "host",
+   "start": 1485.6,
+   "quote": "when I publish, I'm only publishing the option that I chose and was proven true",
+   "tags": [
+    "mast",
+    "privacy",
+    "taproot"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host said MAST transactions were impractically large before Schnorr signatures because every option's signatures had to be published together.",
+   "speaker": "host",
+   "start": 1514.8,
+   "quote": "But the downfall of MAST before Schnorr signatures is that you're going to publish all of those signatures at the same time",
+   "tags": [
+    "mast",
+    "schnorr",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host explained the UTXO model: sending money means gathering enough unspent outputs, each tied to a different key.",
+   "speaker": "host",
+   "start": 999.2,
+   "quote": "If I want to send money to one of you, I have to look into all the UTXOs",
+   "tags": [
+    "utxo",
+    "bitcoin",
+    "transactions"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host said Schnorr-based transactions would largely remove chain analysts' ability to deduce what a transaction does, because all transactions look the same.",
+   "speaker": "host",
+   "start": 2237.4,
+   "quote": "all of my ability to deduce what's happening at a transactional level is gone",
+   "tags": [
+    "chain analysis",
+    "privacy",
+    "schnorr"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host stated that Tapscript is the set of changes to Bitcoin's script language that let nodes verify Schnorr signatures and Taproot.",
+   "speaker": "host",
+   "start": 1647.6,
+   "quote": "TapScript is basically the necessary changes to the script language in Bitcoin to allow nodes to be able to verify whether or not these things are true",
+   "tags": [
+    "tapscript",
+    "taproot",
+    "bitcoin script"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2020 a host said the Schnorr patent officially expired in 2008, but the algorithm was not yet widely available in open source libraries.",
+   "speaker": "host",
+   "start": 2589.4,
+   "quote": "I think that officially the patent expired in 2008 but it hadn't been um around enough and and available to people",
+   "tags": [
+    "schnorr",
+    "patent",
+    "history"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host argued that Satoshi chose ECDSA over Schnorr because the Schnorr patent kept it out of the open source libraries available when he wrote the first client.",
+   "speaker": "host",
+   "start": 2616.3,
+   "quote": "he chose ecdsa and that's the reason why we have ecdsa signatures prolific across all of blockchain",
+   "tags": [
+    "ecdsa",
+    "satoshi",
+    "patents",
+    "schnorr"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2020 a host said Bitcoin Cash had novel technology while being openly hostile to Roger Ver.",
+   "speaker": "host",
+   "start": 1198.3,
+   "quote": "Bitcoin Cash has novel technology and implementations.",
+   "tags": [
+    "bitcoin cash",
+    "roger ver",
+    "bitcoin core"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2020 a host predicted that Circles would never become something people spend, saying it was never going to be a thing.",
+   "speaker": "host",
+   "start": 3214.8,
+   "quote": "No, that's fucking never going to be a thing.",
+   "tags": [
+    "circles",
+    "ubi",
+    "crypto"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2020 a host said Circles gave new members a 100% initial payout and described a claimed 700% inflation rate.",
+   "speaker": "host",
+   "start": 3159.6,
+   "quote": "You get 100% initially for an initial payout",
+   "tags": [
+    "circles",
+    "ubi",
+    "token"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2020 the hosts said one Honey token was worth $1,111.16 according to the onehive.org site.",
+   "speaker": "host",
+   "start": 3295.8,
+   "quote": "one honey is 1111.16 for one honey token",
+   "tags": [
+    "hive",
+    "honey token",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2020 a host said the price of Bitcoin was about $11,500 and the price of Ether about $350.",
+   "speaker": "host",
+   "start": 3351.1,
+   "quote": "the price of Bitcoin right now is about 11,500",
+   "tags": [
+    "bitcoin price",
+    "ether price",
+    "market"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host explained that BrightID is a social-graph method for proving a user is a human, without requiring personal identifying information.",
+   "speaker": "host",
+   "start": 2910.2,
+   "quote": "BrightID is a method for an anti-spam mechanism, right? It's a way for you to prove you're a human",
+   "tags": [
+    "brightid",
+    "sybil resistance",
+    "circles"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In October 2020 a host said the initiator of the Circles project was Martin Koppelman.",
+   "speaker": "host",
+   "start": 2858.3,
+   "quote": "So the initiator, according to the team, is Martin Koppelman.",
+   "tags": [
+    "circles",
+    "ubi"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In October 2020 a host called the Circles project a cash grab run by six people who would make a lot of money.",
+   "speaker": "host",
+   "start": 3376.9,
+   "quote": "it's just a cash grab it's just those six people on that website are going to make a lot of money",
+   "tags": [
+    "circles",
+    "crypto",
+    "cash grab"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In October 2020 the hosts debated whether experimental crypto projects are worth attention, with one saying almost all of them would become nothing.",
+   "speaker": "host",
+   "start": 3429.0,
+   "quote": "almost all of them will become nothing like you",
+   "tags": [
+    "altcoins",
+    "experiments",
+    "crypto projects"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In October 2020 a host explained the halo theory with DeFi: to use DeFi you first had to hold Ether.",
+   "speaker": "host",
+   "start": 3624.5,
+   "quote": "in order to use DeFi you got to have Ether so that's some exclusivity right there",
+   "tags": [
+    "halo theory",
+    "defi",
+    "ether"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In October 2020 a host predicted that the halo moment for crypto would come from Wall Street, the same people Bitcoin had promised to phase out middlemen against.",
+   "speaker": "host",
+   "start": 3737.8,
+   "quote": "it's actually going to come from the same people that bitcoin uh gained popularity that also bitcoin promised to phase out the middlemen",
+   "tags": [
+    "halo theory",
+    "wall street",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In October 2020 a host explained the Halo theory using his own story: he bought an Xbox only after he needed it to play Halo with a friend.",
+   "speaker": "host",
+   "start": 3544.3,
+   "quote": "everyone who bought an xbox bought it because of halo",
+   "tags": [
+    "halo theory",
+    "xbox",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/821-the-bitcoin-podcast-325-hocus-pocus-bitcoin",
+ "title": "The Bitcoin Podcast #325- Hocus Pocus Bitcoin Upgrade",
+ "date": "2020-10-19",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981740/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212639-44100-1-dad2f1350d667e82.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

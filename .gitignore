@@ -10,3 +10,6 @@ private/
 .replit
 replit.nix
 .env
+
+# Podcast pipeline output (audio/video renders, downloads, caches)
+podcast/build/

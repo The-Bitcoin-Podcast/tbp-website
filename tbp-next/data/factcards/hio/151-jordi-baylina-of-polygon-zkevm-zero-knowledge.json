@@ -1,0 +1,395 @@
+{
+ "episode_summary": "Hashing It Out interview with Jordi Baylina of Polygon on his path from the Catalan independence movement and Giveth/DAppNode into ZK tooling (Circom, SnarkJS, Hermes), and on recursion, STARK vs SNARK proving, zkEVM performance goals and how Polygon organises its engineering team.",
+ "guests": [
+  "Jordi Baylina"
+ ],
+ "topics": [
+  "zero-knowledge",
+  "zkevm",
+  "polygon",
+  "recursion",
+  "starks",
+  "privacy",
+  "proof-aggregation"
+ ],
+ "cards": [
+  {
+   "type": "anecdote",
+   "claim": "Jordi Baylina said he was one of the white hat researchers who worked on The DAO.",
+   "speaker": "Jordi Baylina",
+   "start": 80.6,
+   "quote": "I was one of the white hats in the DAO.",
+   "tags": [
+    "the-dao",
+    "white-hat",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jordi Baylina said he wrote Circom and SnarkJS as learning tools that the industry now widely uses.",
+   "speaker": "Jordi Baylina",
+   "start": 108.8,
+   "quote": "For me, I wrote Circom and Snark.js.",
+   "tags": [
+    "circom",
+    "snarkjs",
+    "zk-tooling"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jordi Baylina said Hermes was a payment-only ZK rollup that his team built before joining Polygon.",
+   "speaker": "Jordi Baylina",
+   "start": 139.9,
+   "quote": "Hermes is a payment roll-ups, payment-only roll-ups.",
+   "tags": [
+    "hermes",
+    "polygon",
+    "zk-rollup"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Jordi Baylina said he funded Giveth with Griff Green at the beginning and also funded DAppNode.",
+   "speaker": "Jordi Baylina",
+   "start": 193.1,
+   "quote": "I funded Gibbeth with Griff at the beginning. I funded Dapnode.",
+   "tags": [
+    "giveth",
+    "dappnode",
+    "funding"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Jordi Baylina said that when he tried to use blockchains for the Catalan independence movement around 2016 and 2017, nothing worked in practice.",
+   "speaker": "Jordi Baylina",
+   "start": 223.1,
+   "quote": "nothing works that is from the practical sense.",
+   "tags": [
+    "catalonia",
+    "practicality",
+    "decentralization"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Jordi Baylina said Spain's government had web pages censored by the main ISPs in about two minutes during the Catalan independence fight.",
+   "speaker": "Jordi Baylina",
+   "start": 415.0,
+   "quote": "And it took like two minutes to just call to the main ISPs and just told them you have to censor this page, this page, and this page.",
+   "tags": [
+    "censorship",
+    "catalonia",
+    "isps"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Jordi Baylina said Catalan users of IPFS were mainly going through a centralized gateway, which was censored.",
+   "speaker": "Jordi Baylina",
+   "start": 449.5,
+   "quote": "the people that were using ipfs were mainly using the gateway with the gateway is very centralized so actually they censor the gateway",
+   "tags": [
+    "ipfs",
+    "censorship",
+    "catalonia"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Jordi Baylina said the Catalan government put a page telling citizens where to vote, and that page was censored.",
+   "speaker": "Jordi Baylina",
+   "start": 552.0,
+   "quote": "They wanted to vote, and the Catalan government just put a web page saying where they had to go to vote.",
+   "tags": [
+    "catalonia",
+    "censorship",
+    "voting"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina used a medical insurance example to explain that zero-knowledge proofs let someone prove a yes or no without revealing their whole history.",
+   "speaker": "Jordi Baylina",
+   "start": 860.7,
+   "quote": "With zero knowledge, you can prove a yes, you can prove a no.",
+   "tags": [
+    "zero-knowledge",
+    "privacy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina said a ZK proof can be verified in a few milliseconds no matter how long the program that produced it ran.",
+   "speaker": "Jordi Baylina",
+   "start": 1001.8,
+   "quote": "And this verification, it takes a few milliseconds,",
+   "tags": [
+    "zero-knowledge",
+    "validity-proofs",
+    "scaling"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina said privacy and compression can both be achieved in ZK rollups, but not in the same proof, using recursion.",
+   "speaker": "Jordi Baylina",
+   "start": 1086.2,
+   "quote": "Yes, it's absolutely possible, but it cannot be done in the same proof.",
+   "tags": [
+    "recursion",
+    "privacy",
+    "zk-rollup"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina said Polygon was using proof aggregation extensively, producing trees of proofs.",
+   "speaker": "Jordi Baylina",
+   "start": 1143.0,
+   "quote": "In Polygon, we are using extensively the aggregation.",
+   "tags": [
+    "polygon",
+    "aggregation",
+    "recursion"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina said recursion is very straightforward in STARKs, unlike elliptic-curve based SNARKs.",
+   "speaker": "Jordi Baylina",
+   "start": 1528.2,
+   "quote": "The Starks does not have this constraint. So doing recursion in a Stark is very straightforward.",
+   "tags": [
+    "starks",
+    "snarks",
+    "recursion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina said Polygon verifies a STARK inside a STARK just before posting the final proof on-chain, to make it smaller.",
+   "speaker": "Jordi Baylina",
+   "start": 1610.9,
+   "quote": "And in the last minute, just before sending the proof on chain, in order to be smaller, we verify a stark with a stark.",
+   "tags": [
+    "starks",
+    "proof-aggregation",
+    "polygon"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jordi Baylina said STARKs are at least one order of magnitude faster overall than elliptic-curve based systems.",
+   "speaker": "Jordi Baylina",
+   "start": 1718.8,
+   "quote": "so starts are one order of magnitude, at least one order of magnitude faster",
+   "tags": [
+    "starks",
+    "performance",
+    "snarks"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina said the current Polygon zkEVM proof is very much optimized for cost rather than latency.",
+   "speaker": "Jordi Baylina",
+   "start": 1805.3,
+   "quote": "In the case of the CKVM, the current proof is very much optimized for cost.",
+   "tags": [
+    "zkevm",
+    "proving-cost",
+    "polygon"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Jordi Baylina said people working in ZK may need to spend around 50% of their time keeping up with research.",
+   "speaker": "Jordi Baylina",
+   "start": 1890.6,
+   "quote": "But if you are in this space, spending 50% of your time keeping up and understanding what's going on and so on is not a crazy number.",
+   "tags": [
+    "zk-research",
+    "hiring"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jordi Baylina said Polygon Hermes had fewer than 20 engineers at the time.",
+   "speaker": "Jordi Baylina",
+   "start": 2194.9,
+   "quote": "Polygon Hermes, right now we are less than 20 engineers.",
+   "tags": [
+    "polygon",
+    "team-size",
+    "hermes"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Jordi Baylina said he would be happy when the Polygon zkEVM network was 100 times more capacity and faster than Ethereum.",
+   "speaker": "Jordi Baylina",
+   "start": 2420.5,
+   "quote": "i will be happy when at least the the network is 100 times more capacity and faster than Ethereum.",
+   "tags": [
+    "polygon-zkevm",
+    "ethereum-scaling",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Jordi Baylina said Ethereum's EIP-4844 and danksharding were important pieces that needed to happen for the zkEVM goal.",
+   "speaker": "Jordi Baylina",
+   "start": 2420.5,
+   "quote": "Here, EAP4844 and tank sharding are important pieces that need to happen",
+   "tags": [
+    "eip-4844",
+    "danksharding",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Jordi Baylina said he expected ZK rollup systems to speed up a lot in the coming months and years.",
+   "speaker": "Jordi Baylina",
+   "start": 2610.9,
+   "quote": "and I expect that the systems will speed up a lot in the next month, years, if you want, but I mean very, very fast.",
+   "tags": [
+    "zk-rollups",
+    "scaling",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Jordi Baylina argued that any published risk figure that is hard to grasp should come with an analogy so people understand it.",
+   "speaker": "Jordi Baylina",
+   "start": 3066.2,
+   "quote": "then you need to have an analogy associated with it so people get it.",
+   "tags": [
+    "risk",
+    "communication",
+    "zk-security"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Jordi Baylina defined zero knowledge in one line as a proof of a program without having to compute it.",
+   "speaker": "Jordi Baylina",
+   "start": 3093.8,
+   "quote": "It's just proof of program without having to compute it.",
+   "tags": [
+    "zero-knowledge",
+    "definition"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The host said Jordi Baylina and Griff Green started Giveth and wrote the MiniMe token contract, a flavour of ERC20 with snapshots.",
+   "speaker": "host",
+   "start": 3588.3,
+   "quote": "the mini me token contract which is a like a flavor of urc20",
+   "tags": [
+    "giveth",
+    "minime",
+    "erc20"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host said white hat hackers stay ethical largely because crypto's ideals appeal to them and the community rewards disclosure.",
+   "speaker": "host",
+   "start": 3697.9,
+   "quote": "It's because the ideals of what crypto is trying to do appeal to them.",
+   "tags": [
+    "white-hat",
+    "security",
+    "community"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/151-jordi-baylina-of-polygon-zkevm-zero-knowledge",
+ "title": "Jordi Baylina of Polygon zkEVM | Zero Knowledge, Privacy, Scalability and Building Useful Technology",
+ "date": "2023-11-08 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89348319/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377953-44100-2-1e09d4e25de1bf42.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

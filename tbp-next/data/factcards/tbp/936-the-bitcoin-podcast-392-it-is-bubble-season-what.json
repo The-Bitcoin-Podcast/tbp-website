@@ -1,0 +1,453 @@
+{
+ "episode_summary": "Episode 392 (May 2022): a roundtable of the hosts on soulbound tokens and NFT badges, whether crypto is an iteration of existing systems or an expansion of money, USDC and Circle versus Tether, tokenizing intangible value, and the economics and risks of crypto.",
+ "guests": [],
+ "topics": [
+  "soulbound tokens",
+  "nfts",
+  "usdc",
+  "tether",
+  "circle",
+  "stablecoins",
+  "defi",
+  "tokenization"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In May 2022 a host defined a soulbound token as a token issued to a wallet that can never move from that private key.",
+   "speaker": "host",
+   "start": 274.5,
+   "quote": "a soul bound token is a token that is issued to your wallet, that private key, and it cannot move from that private key.",
+   "tags": [
+    "soulbound",
+    "nft",
+    "tokens"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2022 the hosts described soulbound tokens as non-transferable NFTs, also called NTTs.",
+   "speaker": "host",
+   "start": 382.0,
+   "quote": "it's an nft the type of like a non-trans non-fungible token that is also not transferable",
+   "tags": [
+    "soulbound",
+    "nft"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host likened unwanted non-transferable tokens that cannot be removed to a digital STD.",
+   "speaker": "host",
+   "start": 471.2,
+   "quote": "It's a digital STD, bro.",
+   "tags": [
+    "soulbound",
+    "nft",
+    "airdrops"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2022 the hosts said Algorand, unlike Ethereum, does not let tokens be airdropped without the account's permission.",
+   "speaker": "host",
+   "start": 498.7,
+   "quote": "that you actually can't airdrop. You can't essentially send tokens to an account without getting that account's permission.",
+   "tags": [
+    "algorand",
+    "airdrops",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2022 a host explained that NFT-based voting could be gamed if voters could transfer their token after casting a vote.",
+   "speaker": "host",
+   "start": 589.6,
+   "quote": "if I'm not really, really careful about things, then someone could vote and then transfer the NFT.",
+   "tags": [
+    "nft",
+    "governance",
+    "voting"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host suggested NFTs could work well as time-limited software licenses that are bought and resold.",
+   "speaker": "host",
+   "start": 616.3,
+   "quote": "Like software licenses could be really good for this.",
+   "tags": [
+    "nft",
+    "licenses"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2022 a host explained POAPs as proof-of-attendance tokens that show someone was at an event and can be used to reach those attendees.",
+   "speaker": "host",
+   "start": 668.3,
+   "quote": "But it stands for proof of attendance protocol, where you basically have an indicator",
+   "tags": [
+    "poap",
+    "nft",
+    "identity"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host argued the word wallet was a silly name for crypto software that does not actually hold coins.",
+   "speaker": "host",
+   "start": 838.3,
+   "quote": "that is a silly silly word for how you're actually using this thing",
+   "tags": [
+    "wallets",
+    "ux",
+    "naming"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host argued that credential-style soulbound badges, such as a class-completion NFT, should not be sellable.",
+   "speaker": "host",
+   "start": 895.2,
+   "quote": "You cannot pass those things around. You can't sell that.",
+   "tags": [
+    "soulbound",
+    "credentials",
+    "nft"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2022 a host said Unlock Protocol already issues time-based membership tokens that expire and must be renewed.",
+   "speaker": "host",
+   "start": 948.2,
+   "quote": "unlock protocol does that yeah they have time-based tokens",
+   "tags": [
+    "unlock-protocol",
+    "nft",
+    "credentials"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2022 a host argued ERC-20 and NFT adoption took off because shared standards let exchanges and wallets interoperate.",
+   "speaker": "host",
+   "start": 1150.0,
+   "quote": "the only reason why erc20s blew up and nfcs blew up is because the standard exists around them",
+   "tags": [
+    "erc20",
+    "nft",
+    "standards"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host agreed much of Web3 was recreating Web2 ideas and said rebuilding them on a new environment is not a bad thing.",
+   "speaker": "host",
+   "start": 1234.2,
+   "quote": "a lot of it is just recreating the wheel",
+   "tags": [
+    "web3",
+    "defi",
+    "web2"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The hosts recalled that during a 10-words-or-less blockchain question in an interview with Boosie, his PR person whispered to say decentralized and privacy.",
+   "speaker": "host",
+   "start": 1514.6,
+   "quote": "his pr guy leans over and whispers in his ears like say decentralized say privacy say",
+   "tags": [
+    "interviews",
+    "branding",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host argued USDC was lobbying to become the digital legal tender of the United States.",
+   "speaker": "host",
+   "start": 1656.4,
+   "quote": "I think it's very obvious at this point that USDC is like lobbying to try and be the digital legal tender for the United States.",
+   "tags": [
+    "usdc",
+    "stablecoins",
+    "regulation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host argued confidence in USDC was higher than in USDT because its reserves were easier to audit.",
+   "speaker": "host",
+   "start": 1794.0,
+   "quote": "I would argue that it's easier to have higher confidence",
+   "tags": [
+    "usdc",
+    "usdt",
+    "stablecoins"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2022 a host claimed Circle had been the largest Bitcoin exchange on the planet for years, a claim the hosts offered a $50 bounty to fact-check.",
+   "speaker": "host",
+   "start": 1851.8,
+   "quote": "was the largest Bitcoin exchange on the planet for many, many, many, many years",
+   "tags": [
+    "circle",
+    "bitcoin-exchange",
+    "usdc"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2022 a host said Circle bought Poloniex because it was then the largest Ether exchange in the hemisphere.",
+   "speaker": "host",
+   "start": 1877.7,
+   "quote": "they bought poloniex because poloniex was the largest ether exchange in in this hemisphere",
+   "tags": [
+    "circle",
+    "poloniex",
+    "exchanges"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2022 the hosts said a one million dollar bounty was offered for a reasonable audit of Tether's reserves.",
+   "speaker": "host",
+   "start": 1986.7,
+   "quote": "there's a there's a one million dollar bounty out on anyone who can provide a reasonable audit of tether's uh reserves",
+   "tags": [
+    "tether",
+    "stablecoins",
+    "audit"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2022 a host predicted USDC would become the legal tender stamp of the United States.",
+   "speaker": "host",
+   "start": 2130.6,
+   "quote": "is going to be that legal tender stamp",
+   "tags": [
+    "usdc",
+    "regulation",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host argued USDC was us money while Bitcoin and Ethereum were them money.",
+   "speaker": "host",
+   "start": 2187.3,
+   "quote": "There is us, and there is them. USDC is us money.",
+   "tags": [
+    "usdc",
+    "bitcoin",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host said soulbound tokens were a terrible name and that crypto needed catchier names for mass adoption.",
+   "speaker": "host",
+   "start": 2187.3,
+   "quote": "soulbound tokens are a terrible name for anything",
+   "tags": [
+    "soulbound",
+    "naming",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2022 the hosts debated whether crypto is just an iteration of existing systems, with one host arguing it is an expansion of what money is.",
+   "speaker": "host",
+   "start": 2403.6,
+   "quote": "crypto is just an iteration",
+   "tags": [
+    "crypto-philosophy",
+    "money"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host argued that blockchains and web3 are an expansion of what money is, not merely an iteration.",
+   "speaker": "host",
+   "start": 2434.2,
+   "quote": "it's an expansion of what money is in my opinion",
+   "tags": [
+    "money",
+    "blockchain",
+    "philosophy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2022 a host cited Disney's $67.4 billion market cap and estimated its intangible assets at $10 to $20 billion.",
+   "speaker": "host",
+   "start": 2542.9,
+   "quote": "They have a certain market cap for Disney. $67.4 billion.",
+   "tags": [
+    "tokenization",
+    "valuation",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2022 a host predicted crypto would let people capture intangible value, such as Disney's roughly $20 billion in intangibles, as tokens.",
+   "speaker": "host",
+   "start": 2596.3,
+   "quote": "you're going to be able to capture that 20 billion in tokens that's what crypto will do",
+   "tags": [
+    "tokenization",
+    "prediction",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host said crypto's fast-moving, lightly regulated markets were a cesspool where people get taken advantage of.",
+   "speaker": "host",
+   "start": 3366.2,
+   "quote": "that's just like a cesspool for like being taken advantage of",
+   "tags": [
+    "regulation",
+    "retail",
+    "speculation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host cited PulseChain as an example of a project heavily marketed without much underlying value.",
+   "speaker": "host",
+   "start": 3395.0,
+   "quote": "you have things like you know pulse chain like people building something marketing the shit out of it and it not reasonably being anything worth of value",
+   "tags": [
+    "pulsechain",
+    "hype",
+    "marketing"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2022 a host argued the point of crypto was not to let people invest in things for profit.",
+   "speaker": "host",
+   "start": 3473.1,
+   "quote": "the point of all this stuff isn't so that we can allow people to invest in things",
+   "tags": [
+    "investing",
+    "philosophy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2022 a host said a certificate of deposit paid roughly 0.03% interest.",
+   "speaker": "host",
+   "start": 3559.0,
+   "quote": "CDs will give you 0.03% back.",
+   "tags": [
+    "interest-rates",
+    "cds",
+    "macro"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/936-the-bitcoin-podcast-392-it-is-bubble-season-what",
+ "title": "The Bitcoin Podcast #392-It is Bubble Season , What Are You Carrying ?",
+ "date": "2022-05-30",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981474/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212358-44100-1-bffc191ea15049df.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

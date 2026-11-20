@@ -1,0 +1,474 @@
+{
+ "episode_summary": "November 2017 episode on the collapse of the SegWit2x fork, the Bitcoin Cash split and Litecoin competition, with an interview with J.R. Willett about Coin.me's crypto ATM network and the UpToken token sale, plus the Parity multisig freeze.",
+ "guests": [
+  "J.R. Willett"
+ ],
+ "topics": [
+  "bitcoin cash",
+  "segwit2x fork",
+  "crypto atms",
+  "ico",
+  "uptoken",
+  "parity multisig",
+  "ethereum scaling"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In November 2017 the SegWit2x fork was called off after many backers signed an agreement to drop it for lack of consensus.",
+   "speaker": "host",
+   "start": 175.9,
+   "quote": "So a good portion of the people that were backing it signed something that basically said, we're not going to do this. We're calling the fork off.",
+   "tags": [
+    "segwit2x",
+    "fork",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2017 the host argued that many people were still chasing free coins from the 2x fork, as they had with Bitcoin Cash.",
+   "speaker": "host",
+   "start": 232.4,
+   "quote": "I feel like there's still a good portion of people that want to take advantage of people's ignorance and get their money somehow or some other way.",
+   "tags": [
+    "segwit2x",
+    "bitcoin-cash",
+    "speculation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2017 the hosts warned that large holders could pump a forked coin and then sell, leaving buyers with a worthless coin.",
+   "speaker": "unknown",
+   "start": 286.0,
+   "quote": "you can you know make people buy it because they think it's going to be worth something and then if you hold a significant amount you just sell it off",
+   "tags": [
+    "bitcoin-cash",
+    "manipulation",
+    "forks"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In November 2017 the host predicted that whichever Bitcoin chain offered better utility, Bitcoin Cash or SegWit Bitcoin, would become the real Bitcoin.",
+   "speaker": "host",
+   "start": 342.9,
+   "quote": "whoever is going to end up providing the better user experience or enterprise experience or whoever ends up providing a better utility for the network will end up becoming",
+   "tags": [
+    "bitcoin",
+    "bitcoin-cash",
+    "segwit",
+    "scaling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2017 the host said Bitcoin's price rise was unhealthy because people were hoarding it rather than using it.",
+   "speaker": "unknown",
+   "start": 509.1,
+   "quote": "But I don't feel like the reason for the price rise is good. It's not a healthy reason for the price rise. It's people just hoarding.",
+   "tags": [
+    "bitcoin",
+    "price",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2017 the hosts noted that Ethereum produced blocks about every 14 seconds.",
+   "speaker": "host",
+   "start": 572.5,
+   "quote": "blocks every 14 seconds and you have ether coming into the system every 14 seconds",
+   "tags": [
+    "ethereum",
+    "block-time",
+    "scaling"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2017 the host said people sent money on Ethereum faster and more cheaply than on Bitcoin.",
+   "speaker": "host",
+   "start": 599.2,
+   "quote": "And people send money using Ethereum faster than Bitcoin. At a rate faster than Bitcoin. At a rate cheaper than Bitcoin.",
+   "tags": [
+    "ethereum",
+    "bitcoin",
+    "fees"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In November 2017 the host said an Ether transaction he sent just after DEVCON took half an hour to confirm.",
+   "speaker": "host",
+   "start": 627.1,
+   "quote": "it took a half an hour for that thing to get confirmed",
+   "tags": [
+    "ethereum",
+    "devcon",
+    "fees"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2017 the host said there were about three million traditional ATMs and only about a thousand crypto ATMs.",
+   "speaker": "host",
+   "start": 1102.9,
+   "quote": "there's three million traditional ATMs, and there's only like a thousand crypto ATMs",
+   "tags": [
+    "crypto-atms",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said Bitcoin was trading at 25 cents when he first started learning about it in 2010.",
+   "speaker": "J.R. Willett",
+   "start": 1277.0,
+   "quote": "2010 was when I first started learning about Bitcoin and Bitcoin at the time at that time was 25 cents.",
+   "tags": [
+    "bitcoin",
+    "price-history",
+    "early-adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "J.R. Willett said in 2011 he disguised Bitcoin mining software and paid people from Craigslist to run it on their video cards.",
+   "speaker": "J.R. Willett",
+   "start": 1418.4,
+   "quote": "I actually I took the Bitcoin mining software and I wrote a wrapper around it to disguise it. And I got random people on Craigslist who had video cards to run it.",
+   "tags": [
+    "mining",
+    "early-bitcoin",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said the first initial coin offering, for the token then called Mastercoin, took in about half a million dollars of Bitcoin over about 30 days.",
+   "speaker": "J.R. Willett",
+   "start": 1670.6,
+   "quote": "And random people over the course of about 30 days sent me half a million dollars worth of Bitcoin.",
+   "tags": [
+    "ico",
+    "mastercoin",
+    "omni"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said the token from the first ICO, later renamed Omni, rose about a hundredfold after its offering.",
+   "speaker": "J.R. Willett",
+   "start": 1729.1,
+   "quote": "omni went from uh the the initial offering it went up a hundredfold",
+   "tags": [
+    "omni",
+    "mastercoin",
+    "ico"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said Omni was still operating and hosted about half a billion dollars of assets.",
+   "speaker": "J.R. Willett",
+   "start": 1838.9,
+   "quote": "Omni is still going today, by the way, it hosts, uh, half a billion dollars worth of assets.",
+   "tags": [
+    "omni",
+    "assets",
+    "stablecoins"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "J.R. Willett said he preferred to be the one selling shovels in a gold rush rather than digging for gold.",
+   "speaker": "J.R. Willett",
+   "start": 1983.7,
+   "quote": "if there's a gold rush on, I like to be the guy selling shovels, not the guy digging.",
+   "tags": [
+    "infrastructure",
+    "ico",
+    "strategy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said Coin.me's ATMs charged fees ranging between 5 and 10 percent.",
+   "speaker": "J.R. Willett",
+   "start": 2367.7,
+   "quote": "I think that CoinMe's ATMs range between 5% and 10%, for instance.",
+   "tags": [
+    "coin-me",
+    "crypto-atms",
+    "fees"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said Coin.me's founders reported that each of its ATMs averaged about a hundred thousand dollars a month.",
+   "speaker": "J.R. Willett",
+   "start": 2198.4,
+   "quote": "The each ATM on average does a hundred thousand dollars a month.",
+   "tags": [
+    "coin-me",
+    "crypto-atms",
+    "revenue"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2017 the host said Coin.me operated about 40 ATMs while most ATM operators had only two or three.",
+   "speaker": "host",
+   "start": 2397.3,
+   "quote": "A lot of them have just two or three. Coin.me has 40.",
+   "tags": [
+    "coin-me",
+    "crypto-atms",
+    "scale"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "J.R. Willett said pre-sales to wealthy insiders at discounts bothered him in token sales.",
+   "speaker": "J.R. Willett",
+   "start": 2578.6,
+   "quote": "one of the things that bothers me is the what you might call the pre-sale",
+   "tags": [
+    "token-sales",
+    "pre-sale",
+    "ico"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said UpToken reserved about 25 percent for the company, locked until 500 ATMs were deployed.",
+   "speaker": "J.R. Willett",
+   "start": 2775.6,
+   "quote": "And we did reserve, I think, 25% for the company's future use. However, it's locked.",
+   "tags": [
+    "uptoken",
+    "tokenomics",
+    "lockup"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "J.R. Willett said he put over a million dollars into the UpToken sale as soon as it started.",
+   "speaker": "J.R. Willett",
+   "start": 2804.6,
+   "quote": "So yeah, I put over a million dollars into the token sale as soon as it started.",
+   "tags": [
+    "uptoken",
+    "ico",
+    "investment"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "J.R. Willett predicted that one coin would someday be worth a trillion dollars, though he did not know which one.",
+   "speaker": "J.R. Willett",
+   "start": 2893.3,
+   "quote": "I think we're going to someday have a trillion dollar coin I don't know which one it's going to be",
+   "tags": [
+    "market-cap",
+    "prediction",
+    "crypto"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "J.R. Willett said he hoped the developing world would skip building banking infrastructure and move straight to crypto portals.",
+   "speaker": "J.R. Willett",
+   "start": 3006.0,
+   "quote": "And I'm hoping that the developing world will skip building a giant banking infrastructure",
+   "tags": [
+    "developing-world",
+    "banking",
+    "crypto-atms"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "J.R. Willett predicted the general public would not self-custody crypto and would instead rely on trusted third parties to hold it.",
+   "speaker": "J.R. Willett",
+   "start": 3113.9,
+   "quote": "But I think that the general public is not going to make that leap.",
+   "tags": [
+    "custody",
+    "wallets",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said Coin.me would buy UpToken worth 1 percent of its ATM transactions and give it to customers as cash back.",
+   "speaker": "J.R. Willett",
+   "start": 3169.0,
+   "quote": "CoinMe is continually, forever, going to be purchasing Uptoken to the tune of 1% of their ATM transactions.",
+   "tags": [
+    "uptoken",
+    "cashback",
+    "tokenomics"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "J.R. Willett said UpToken holders would get 30 percent off Coin.me ATM fees paid in UP tokens.",
+   "speaker": "J.R. Willett",
+   "start": 3229.1,
+   "quote": "So they get 30% off of all their ATM fees that are paid with UP token.",
+   "tags": [
+    "uptoken",
+    "fees",
+    "discount"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "J.R. Willett said the only reason to use blockchain is when some government stands in the way of what you want to do.",
+   "speaker": "J.R. Willett",
+   "start": 3505.8,
+   "quote": "the only reason to use blockchain is if some government somewhere is in the way of what you want to do",
+   "tags": [
+    "blockchain",
+    "regulation",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2017 the hosts said the Parity multisig wallet bug locked and froze about 300 million dollars worth of Ether in smart contracts.",
+   "speaker": "host",
+   "start": 3870.0,
+   "quote": "which locked up and froze about 300 million dollars worth of ether in these smart contracts",
+   "tags": [
+    "parity",
+    "multisig",
+    "smart-contracts",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In November 2017 the host explained that someone called an unprotected function in the Parity library contract, which killed the library and froze the wallets that depended on it.",
+   "speaker": "host",
+   "start": 4006.4,
+   "quote": "somebody basically called a function that they should not have access to",
+   "tags": [
+    "parity",
+    "smart-contracts",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In November 2017 the host expected Bitcoin Cash holders receiving Coinbase's January 1 release to possibly dump it and crash the price.",
+   "speaker": "host",
+   "start": 5223.8,
+   "quote": "that January 1st when Coinbase releases those Bitcoin cash to their customers",
+   "tags": [
+    "bitcoin-cash",
+    "coinbase",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/250-tbp166-atms-and-icos",
+ "title": "TBP166 - ATMs and ICOs",
+ "date": "2017-11-12",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982360/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213283-44100-2-84faed4679e1c52b.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

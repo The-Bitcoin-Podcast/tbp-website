@@ -1,0 +1,386 @@
+{
+ "episode_summary": "May 2019 MakerDAO interview (part 1) with Nik Kunkel on the crypto-economics of DAI: how ETH-backed loans mint DAI, the MKR token as risk absorber and governance, the stability fee and peg levers, liquidation auctions, and the plans for multi-collateral DAI.",
+ "guests": [
+  "Nik Kunkel"
+ ],
+ "topics": [
+  "makerdao",
+  "dai stablecoin",
+  "mkr governance",
+  "liquidations",
+  "stability fee",
+  "defi",
+  "stablecoin peg"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In May 2019 Nik Kunkel said locking ETH to draw DAI leaves the ETH owned by the user, who must repay the loan to get it back.",
+   "speaker": "Nik Kunkel",
+   "start": 385.2,
+   "quote": "the eth is still yours it's just you need to pay back your loan in order to get it back",
+   "tags": [
+    "maker",
+    "dai",
+    "collateral",
+    "loans"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 the host described locking $150 of ETH to mint $100 of DAI, with the ETH as collateral for the loan.",
+   "speaker": "host",
+   "start": 242.5,
+   "quote": "So if you put $150 worth of F and the smart contract we'll talk about, you're going to mint $100 in DAI as a loan that's collateralized by your Ethereum.",
+   "tags": [
+    "dai",
+    "collateral",
+    "overcollateralization"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 Nik Kunkel said the most common Maker user holds DAI to hedge rather than borrowing against ETH.",
+   "speaker": "Nik Kunkel",
+   "start": 442.9,
+   "quote": "this is actually the most common user we have right they they don't want to take out a loan",
+   "tags": [
+    "dai",
+    "hedging",
+    "users"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 Nik Kunkel said the MKR token exists to segregate risk, absorbing the risk and reward that DAI holders avoid.",
+   "speaker": "Nik Kunkel",
+   "start": 498.6,
+   "quote": "it's really a way of segregating risk. So as a DAI user, you don't want to have any risk.",
+   "tags": [
+    "mkr",
+    "risk",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 Nik Kunkel said Maker's fees would buy and burn MKR, making MKR deflationary if the system ran well.",
+   "speaker": "Nik Kunkel",
+   "start": 528.7,
+   "quote": "all those fees go towards basically buying up and burning the MKR token. So that makes MKR deflationary if it's run well.",
+   "tags": [
+    "mkr",
+    "burn",
+    "fees",
+    "tokenomics"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 Nik Kunkel explained that underwater debt would be covered by automatically minting and selling new MKR.",
+   "speaker": "Nik Kunkel",
+   "start": 641.8,
+   "quote": "The way they cover that is that the system automatically starts minting new MKR and then selling that MKR until the debt is covered.",
+   "tags": [
+    "mkr",
+    "dilution",
+    "liquidation",
+    "risk"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 Nik Kunkel said multi-collateral DAI would be released later that year, enabling many token types as collateral.",
+   "speaker": "Nik Kunkel",
+   "start": 751.1,
+   "quote": "but in later this year we'll be releasing multi-collateral DAI, which will enable all types of tokens.",
+   "tags": [
+    "multi-collateral",
+    "dai",
+    "roadmap"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 Nik Kunkel described Maker's governance as a plutocracy in which voting with money rewards good decisions and punishes bad ones.",
+   "speaker": "Nik Kunkel",
+   "start": 946.3,
+   "quote": "It's a plutocracy and it's you vote with your money and if you make good decisions, you get rewarded.",
+   "tags": [
+    "governance",
+    "mkr",
+    "plutocracy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Nik Kunkel said DAI had traded between about 96 and 98 cents for roughly the prior month.",
+   "speaker": "Nik Kunkel",
+   "start": 1178.0,
+   "quote": "We were trading between like 96 or 97 and 98 cents.",
+   "tags": [
+    "dai",
+    "peg",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Nik Kunkel said Maker's stability fee had risen from half a percent at launch to 19.5 percent.",
+   "speaker": "Nik Kunkel",
+   "start": 1205.2,
+   "quote": "when we launched, we had an interest rate of half a percent. Currently, we have an interest rate of 19 and a half percent.",
+   "tags": [
+    "stability-fee",
+    "dai",
+    "peg"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 Nik Kunkel said MKR holders held a public governance meeting every week to decide whether to raise or lower the interest rate.",
+   "speaker": "Nik Kunkel",
+   "start": 1233.6,
+   "quote": "every week we have a public governance type of meeting where all of the MKR holders kind of meet and discuss",
+   "tags": [
+    "governance",
+    "stability-fee",
+    "mkr"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Nik Kunkel said the debt ceiling for ETH collateral was 100 million DAI, with about 80 to 81 million DAI in supply.",
+   "speaker": "Nik Kunkel",
+   "start": 1455.5,
+   "quote": "Currently for Ethereum, the debt ceiling is 100 million die. So right now the die supply is at around 80 million, 81 million.",
+   "tags": [
+    "debt-ceiling",
+    "dai",
+    "liquidity"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Nik Kunkel said liquidated collateral was sold at 3 percent below the oracle price.",
+   "speaker": "Nik Kunkel",
+   "start": 1689.2,
+   "quote": "So what we do when a position gets margin call is we sell it at 3% below the price that the oracles are reporting.",
+   "tags": [
+    "liquidation",
+    "oracles",
+    "penalty"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Nik Kunkel named Uniswap, Kyber, Radar Relay and DDEX as venues where liquidation arbitrage bots compared prices.",
+   "speaker": "Nik Kunkel",
+   "start": 1689.2,
+   "quote": "they'll look at Uniswap, they'll look at Kyber, they'll look at ETH to DAI, they'll look at Radar Relay, they'll look at DDEX",
+   "tags": [
+    "liquidation",
+    "arbitrage",
+    "dex"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 Nik Kunkel said oracle-based liquidation was about to be deprecated in favour of on-chain auctions in the next Maker version.",
+   "speaker": "Nik Kunkel",
+   "start": 1774.8,
+   "quote": "this mechanism of liquidating um of liquidating these loans is about to be deprecated in our next version",
+   "tags": [
+    "auctions",
+    "liquidations",
+    "multi-collateral"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 Nik Kunkel said Maker's collateral auctions could run for a maximum of 24 hours and could end after an hour without a bid.",
+   "speaker": "Nik Kunkel",
+   "start": 2027.8,
+   "quote": "So, for example, an auction could run for 24 hours, maximum duration.",
+   "tags": [
+    "auctions",
+    "liquidations",
+    "design"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 Nik Kunkel said Maker's simulations predicted about 80 to 85 percent of auction participants would bid immediately.",
+   "speaker": "Nik Kunkel",
+   "start": 2087.8,
+   "quote": "the simulations that we've done show that people are going to come in around like 80, 85% immediately with the first bid",
+   "tags": [
+    "auctions",
+    "simulation",
+    "bidding"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 Nik Kunkel said Maker enables marketplaces but does not host them, so it is not itself a decentralized exchange.",
+   "speaker": "Nik Kunkel",
+   "start": 2688.3,
+   "quote": "I think we're definitely enabling marketplaces, which I think is amazing, but we're not hosting the marketplace",
+   "tags": [
+    "dex",
+    "defi",
+    "dai"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 Nik Kunkel said tokenized assets such as an Amazon stock would make markets global rather than localized.",
+   "speaker": "Nik Kunkel",
+   "start": 2607.4,
+   "quote": "instead of having kind of localized markets, we have globalized markets, right?",
+   "tags": [
+    "tokenization",
+    "markets",
+    "vision"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Nik Kunkel said the largest on-chain MKR vote so far had 185,000 MKR participating.",
+   "speaker": "Nik Kunkel",
+   "start": 3195.9,
+   "quote": "the maximum we've gotten thus far has been out of the total 1 billion maker, we got 185,000 MKR to vote",
+   "tags": [
+    "mkr",
+    "governance",
+    "voting"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 the speakers predicted a rise of stablecoins or better stablecoins in the coming year, with a battle for market share.",
+   "speaker": "unknown",
+   "start": 3448.0,
+   "quote": "this year maybe the last of the last part of last year is definitely like a rise of stable coins or better stable coins",
+   "tags": [
+    "stablecoins",
+    "prediction",
+    "market-share"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 the host predicted Maker's stability fee would still rise later that year, possibly to around 28 percent.",
+   "speaker": "host",
+   "start": 3559.2,
+   "quote": "the rate's still going to go up later this year but how high will it go",
+   "tags": [
+    "stability-fee",
+    "prediction",
+    "interest-rates"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 the host said DAI could bridge PayPal and the crypto world if its price could be modelled reliably.",
+   "speaker": "host",
+   "start": 3638.6,
+   "quote": "it's basically a bridge between PayPal and the crypto world",
+   "tags": [
+    "dai",
+    "payments",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 the host said Maker would be amazing and would eventually work out.",
+   "speaker": "host",
+   "start": 3733.9,
+   "quote": "I think it's going to be amazing, especially when it works out, which it eventually will.",
+   "tags": [
+    "maker",
+    "prediction",
+    "dai"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/047-makerdao-pt-1-nik-kunkel",
+ "title": "MakerDAO pt. 1 - Nik Kunkel",
+ "date": "2019-05-30 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89348337/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383378017-44100-2-3bc1f43e5e71d461.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

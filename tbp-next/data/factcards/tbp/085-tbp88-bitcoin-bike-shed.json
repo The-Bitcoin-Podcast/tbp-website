@@ -1,0 +1,398 @@
+{
+ "episode_summary": "TBP88 (2016-09-22) interviews JJ (Christopher Jeffrey), engineer at Purse.io, about bcoin, his pure-JavaScript Bitcoin full node and library. Covers SPV vs full nodes, what a full node must do, JavaScript performance and security tradeoffs, the FindAndDelete and SIGHASH_SINGLE consensus quirks, BIP 151 encrypted peer-to-peer support, mining altcoins in the early days, and the Blight Lightning project built on bcoin.",
+ "guests": [
+  "Christopher Jeffrey (JJ)"
+ ],
+ "topics": [
+  "bcoin",
+  "full nodes",
+  "spv",
+  "javascript",
+  "consensus rules",
+  "bip151",
+  "lightning",
+  "wallets"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "JJ explained that Bitcoin has two kinds of nodes, light SPV nodes and full nodes.",
+   "speaker": "JJ",
+   "start": 453.2,
+   "quote": "So there's two kinds of Bitcoin nodes. There's light nodes or SPV nodes, and then there's full nodes.",
+   "tags": [
+    "spv",
+    "full-node",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ described how an SPV wallet uses a Bloom filter of its addresses to ask peers for relevant transactions.",
+   "speaker": "JJ",
+   "start": 478.7,
+   "quote": "So you put all of your addresses in your wallet into a Bloom filter and ask the network, you know, what transactions have these addresses in them, and peers send you those transactions.",
+   "tags": [
+    "spv",
+    "bloom-filter",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ explained that a full node must implement all of Bitcoin Core's network-keeping behavior, not just the parts a wallet needs.",
+   "speaker": "JJ",
+   "start": 505.6,
+   "quote": "So full nodes are a bit different. Full nodes are the full Bitcoin implementation.",
+   "tags": [
+    "full-node",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ listed the duties of a full node as validating the blockchain, maintaining a mempool, and relaying transactions and blocks.",
+   "speaker": "JJ",
+   "start": 535.6,
+   "quote": "So this includes validating the blockchain, maintaining a mempool, relaying transactions, relaying blocks, and things like that.",
+   "tags": [
+    "full-node",
+    "mempool",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ argued that writing bcoin in JavaScript lets it run almost anywhere, including inside a browser.",
+   "speaker": "JJ",
+   "start": 698.2,
+   "quote": "bcoin is written in javascript so the nice thing about bcoin um is that it's javascript",
+   "tags": [
+    "javascript",
+    "bcoin",
+    "portability"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ explained that JavaScript objects live on a garbage-collected heap, so their memory is not zeroed the way crypto key material should be.",
+   "speaker": "JJ",
+   "start": 912.3,
+   "quote": "in JavaScript, you're on a memory managed heap. So anything that you put onto the JavaScript heap, any JavaScript object, that is, you know, you can't control that.",
+   "tags": [
+    "javascript",
+    "security",
+    "memory"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ said bcoin calls native C++ crypto bindings when available and falls back to pure JavaScript when they are not.",
+   "speaker": "JJ",
+   "start": 912.3,
+   "quote": "And it does that partly for security and partly for performance. If that binding is not available, it falls back to a pure JavaScript implementation.",
+   "tags": [
+    "javascript",
+    "crypto",
+    "bcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ said JavaScript hash table keys must be strings, so binary data has to be converted to hex strings for lookups.",
+   "speaker": "JJ",
+   "start": 1006.6,
+   "quote": "hash table keys in JavaScript, they have to be JavaScript strings.",
+   "tags": [
+    "javascript",
+    "performance",
+    "optimization"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "JJ claimed bcoin could process a modern one megabyte block in about 1.2 to 1.3 seconds.",
+   "speaker": "JJ",
+   "start": 1066.8,
+   "quote": "Bitcoin can process a modern one megabyte block in about 1.2, 1.3 seconds.",
+   "tags": [
+    "bcoin",
+    "performance",
+    "block-validation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ described bcoin's wallet server as using BIP44 HD keys, with LevelDB in use and a planned switch to LMDB.",
+   "speaker": "JJ",
+   "start": 1118.8,
+   "quote": "It's HD keys with BIP44 derivation. It uses level DB right now, but I'm switching it to LMDB as a backend.",
+   "tags": [
+    "wallet",
+    "hd-wallet",
+    "bcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2016 JJ said Jonas Schnelli came up with BIP 151, which adds peer-to-peer encryption to the Bitcoin protocol.",
+   "speaker": "JJ",
+   "start": 1195.3,
+   "quote": "jonas schnelly came up with the bit 151 a little while ago",
+   "tags": [
+    "bip151",
+    "encryption",
+    "p2p"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "JJ claimed bcoin was the first full or light node implementation with BIP 151 peer-to-peer encryption.",
+   "speaker": "JJ",
+   "start": 1223.6,
+   "quote": "Bitcoin is actually the first full or light node implementation that has peer-to-peer encryption.",
+   "tags": [
+    "bip151",
+    "encryption",
+    "bcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "JJ said he had previously worked on BitCore, the BitPay JavaScript library, before going independent with bcoin.",
+   "speaker": "JJ",
+   "start": 1392.9,
+   "quote": "BitCore which is the BitPay JavaScript library which is actually, I used to work on BitCore.",
+   "tags": [
+    "bitcore",
+    "bitpay",
+    "javascript"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "JJ stated that almost every alternative Bitcoin script implementation in small libraries violates consensus rules.",
+   "speaker": "JJ",
+   "start": 1448.0,
+   "quote": "I think almost every alternative Bitcoin script implementation I've seen in little libraries like this, pretty much all of them violate consensus rules.",
+   "tags": [
+    "consensus",
+    "script",
+    "bitcoin-libraries"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ explained that Bitcoin's original script system calls FindAndDelete on the previous output script, removing the current signature from it.",
+   "speaker": "JJ",
+   "start": 1501.5,
+   "quote": "So there's a function that gets called on the previous output script called find and delete.",
+   "tags": [
+    "script",
+    "findanddelete",
+    "consensus"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "JJ explained that FindAndDelete only mattered in practice because of a SIGHASH_SINGLE bug in Satoshi's original implementation.",
+   "speaker": "JJ",
+   "start": 1613.9,
+   "quote": "So signatures in Bitcoin have different SIG hash types, and one of them is SIG hash single, but there was a bug in that implementation",
+   "tags": [
+    "sighash",
+    "consensus",
+    "bug"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "JJ credited Peter Todd with discovering the SIGHASH_SINGLE abuse in Bitcoin's original script implementation.",
+   "speaker": "JJ",
+   "start": 1672.0,
+   "quote": "Peter Todd was actually the one who discovered this.",
+   "tags": [
+    "sighash",
+    "peter-todd",
+    "consensus"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "JJ said Peter Todd forked a couple of custom implementations by broadcasting a transaction that abused the SIGHASH_SINGLE behavior.",
+   "speaker": "JJ",
+   "start": 1698.0,
+   "quote": "He ended up forking a couple of custom implementations by putting a transaction out there that abused this",
+   "tags": [
+    "peter-todd",
+    "consensus",
+    "anecdote"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "JJ warned that a custom script implementation that lacks these quirks could be confused by a crafted script and would fail to validate the chain.",
+   "speaker": "JJ",
+   "start": 1750.9,
+   "quote": "it's possible an attacker could confuse it by crafting some really weird script, which would be seen as valid by the Bitcoin network, but not by this custom script implementation.",
+   "tags": [
+    "consensus",
+    "security",
+    "script"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "JJ said bcoin was started by his friend Fedor in 2014 as a simple SPV wallet library.",
+   "speaker": "JJ",
+   "start": 1866.6,
+   "quote": "Bitcoin was started by my friend Fedor in 2014.",
+   "tags": [
+    "bcoin",
+    "history",
+    "fedor"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "JJ predicted that after Bitfinex, many people would realize they need total autonomy over their wallet and system.",
+   "speaker": "JJ",
+   "start": 399.6,
+   "quote": "after Bitfinex happened, I think maybe a lot of people will start to realize that it is important to have total autonomy over your wallet and your system.",
+   "tags": [
+    "self-custody",
+    "bitfinex",
+    "wallets"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "JJ said he mined Litecoin and Dogecoin in the early days on an old Radeon GPU.",
+   "speaker": "JJ",
+   "start": 2282.2,
+   "quote": "Yeah, man. I mined Litecoin and Dogecoin back in the day.",
+   "tags": [
+    "mining",
+    "litecoin",
+    "dogecoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In 2016 JJ said he was building Blight, a Lightning Network implementation on top of bcoin.",
+   "speaker": "JJ",
+   "start": 2577.4,
+   "quote": "lately I've actually been focusing on another project that sits on top of Bcoin which is which I'm calling B-Light or Blight",
+   "tags": [
+    "lightning",
+    "blight",
+    "bcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "A host argued that if one implementation ends up ruling the network, it must be technically correct, since past library bugs should not repeat.",
+   "speaker": "host",
+   "start": 2875.4,
+   "quote": "if one implementation ends up ruling them all, you want that implementation to make sure it's technically correct.",
+   "tags": [
+    "consensus",
+    "node-diversity",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "JJ defined Bitcoin in ten words or fewer as a way to stop people from cheating without a central authority.",
+   "speaker": "JJ",
+   "start": 3068.9,
+   "quote": "Bitcoin creates a way to prevent people from cheating without some kind of sole supervisor.",
+   "tags": [
+    "bitcoin",
+    "definition",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/085-tbp88-bitcoin-bike-shed",
+ "title": "TBP88 - Bitcoin Bike-Shed",
+ "date": "2016-09-22",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212809-44100-2-3678a220c1ee6f58.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

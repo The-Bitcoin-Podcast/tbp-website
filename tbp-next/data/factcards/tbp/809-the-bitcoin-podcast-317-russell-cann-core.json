@@ -1,0 +1,625 @@
+{
+ "episode_summary": "Episode 317 (August 2020) is a roundtable with a guest host, Kevin Monahan, covering a simple explainer of how proof-of-work mining and its difficulty adjustment work, the hosts' own early mining, and their announcement that the Bitcoin Podcast Network is being wound down. The main interview is with Russell Cann of Core Scientific about mining infrastructure: power costs and sourcing, passive cooling, China versus North America, the ASIC supply chain and tariffs, and home mining. The show closes with a Q&A on accredited investors and a segment on DeFi, ICOs and Ethereum fees.",
+ "guests": [
+  "Russell Cann",
+  "Kevin Monahan"
+ ],
+ "topics": [
+  "bitcoin mining",
+  "core scientific",
+  "mining infrastructure",
+  "asic supply chain",
+  "power costs",
+  "proof of work",
+  "ethereum defi",
+  "accredited investors"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In August 2020 a host explained that Bitcoin's mining difficulty is retuned automatically, roughly every 2016 blocks.",
+   "speaker": "host",
+   "start": 1001.1,
+   "quote": "And it's actually automatically tuned every, what, two weeks or so? I forget how many blocks. 216 blocks. 2016 blocks.",
+   "tags": [
+    "difficulty",
+    "mining",
+    "proof of work"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 a host described mining as trying to find a hash below the difficulty target, which is like a massive Sudoku puzzle that is hard to solve but easy to verify.",
+   "speaker": "host",
+   "start": 744.5,
+   "quote": "It's consider it almost like a massive Sudoku puzzle.",
+   "tags": [
+    "proof of work",
+    "mining",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 a host predicted that proof-of-work mining would be government subsidized within 40 years, and said it already was.",
+   "speaker": "host",
+   "start": 1029.6,
+   "quote": "Proof of work mining will be government subsidized in the next 40 years. It already is.",
+   "tags": [
+    "proof of work",
+    "subsidy",
+    "government"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2020 a host said that he and his co-host started mining but quickly learned their equipment could not keep up.",
+   "speaker": "host",
+   "start": 1168.4,
+   "quote": "We thought we were going to mine everything. And quickly we learned our equipment could not keep up.",
+   "tags": [
+    "mining",
+    "history",
+    "hardware"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Russell Cann said he rolled his company into Core Scientific in early 2018, after Core started out as a mining company.",
+   "speaker": "Russell Cann",
+   "start": 1316.7,
+   "quote": "I ended up rolling my company into CORE in early 18",
+   "tags": [
+    "core scientific",
+    "history",
+    "gpu mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann said Core Scientific began hosting mining for others in 2018 to keep its own power costs in line and scale its mining.",
+   "speaker": "Russell Cann",
+   "start": 1343.1,
+   "quote": "It keeps our power costs in line, and it allows us to operate our own mining at scale",
+   "tags": [
+    "core scientific",
+    "hosting",
+    "power costs"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann said the biggest barrier to entry for mining was having a massive amount of readily available, affordable power.",
+   "speaker": "Russell Cann",
+   "start": 1429.4,
+   "quote": "your biggest barrier to entry at this point is is having a massive amount of readily available power at an affordable rate",
+   "tags": [
+    "mining infrastructure",
+    "power costs",
+    "barrier to entry"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Core Scientific would not look at anything less than 100 megawatts of mining projects.",
+   "speaker": "Russell Cann",
+   "start": 1514.8,
+   "quote": "we don't look at anything less than 100 megawatts now.",
+   "tags": [
+    "core scientific",
+    "megawatts",
+    "mining infrastructure"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Core Scientific's data centers together took up 655,000 square feet.",
+   "speaker": "Russell Cann",
+   "start": 1573.0,
+   "quote": "Our data centers take up 655,000 square feet.",
+   "tags": [
+    "core scientific",
+    "data centers",
+    "infrastructure"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Core Scientific had data centers in North Carolina, Georgia and Kentucky.",
+   "speaker": "Russell Cann",
+   "start": 1716.7,
+   "quote": "the three states that we have data centers in North Carolina, Georgia and Kentucky.",
+   "tags": [
+    "core scientific",
+    "data centers",
+    "locations"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann said ASIC mining facilities used passive cooling that moved air out so fast that a hot aisle felt like a hair dryer.",
+   "speaker": "Russell Cann",
+   "start": 1743.5,
+   "quote": "So if you stood in one of our hot aisles, it actually feels like a hair dryer is on you.",
+   "tags": [
+    "cooling",
+    "asic",
+    "data centers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said the bitcoin halving had just happened in May.",
+   "speaker": "Russell Cann",
+   "start": 1882.3,
+   "quote": "we just had a big halving event in May",
+   "tags": [
+    "halving",
+    "bitcoin",
+    "block reward"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said the majority of ASIC mining took place in China.",
+   "speaker": "Russell Cann",
+   "start": 1882.3,
+   "quote": "the majority of ASIC mining takes place in China right now",
+   "tags": [
+    "china",
+    "asic",
+    "hashrate"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 Russell Cann predicted that new mining growth would come outside China, with Chinese mining not dropping off.",
+   "speaker": "Russell Cann",
+   "start": 1910.3,
+   "quote": "So it's not that the Chinese mining is going to drop off. It's just that new growth is coming outside of China.",
+   "tags": [
+    "china",
+    "hashrate",
+    "mining geography"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann said China had some of the cheapest power in the world during its June to August rainy season, when hydro output is high.",
+   "speaker": "Russell Cann",
+   "start": 1991.0,
+   "quote": "So during the rainy season, China has absolutely some of the cheapest power in the world.",
+   "tags": [
+    "china",
+    "hydro",
+    "power costs"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Core Scientific's all-in annual power rate in the US was cheaper than China's rate.",
+   "speaker": "Russell Cann",
+   "start": 2016.7,
+   "quote": "if we can offer an all in rate over a period of a year, our our power here in the States is actually cheaper",
+   "tags": [
+    "power costs",
+    "united states",
+    "china"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 a host predicted the next generation of deployed mining capital would be placed in North America.",
+   "speaker": "host",
+   "start": 2132.2,
+   "quote": "I think we're going to see this next generation of deployed capital happen here.",
+   "tags": [
+    "mining",
+    "north america",
+    "capital"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2020 a host argued that renewable energy as a free fuel source is the only way to drive down the cost of mining power.",
+   "speaker": "host",
+   "start": 2279.7,
+   "quote": "renewable energy as a fuel source is free and free renewable free fuel source is the only way to drive down the cost of power.",
+   "tags": [
+    "renewable energy",
+    "power costs",
+    "mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 a host said the availability of basic miners and their efficiency gains was all done in China, giving China control of hash power.",
+   "speaker": "host",
+   "start": 2455.8,
+   "quote": "the availability of basic miners, especially at the rate in which they're innovated to give a more efficient output for lower power usage is all done in China.",
+   "tags": [
+    "asic supply chain",
+    "china",
+    "hash power"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Taiwan's TSMC and Samsung controlled the ASIC chip market.",
+   "speaker": "Russell Cann",
+   "start": 2568.5,
+   "quote": "TMFC and Samsung control the ASIC markets",
+   "tags": [
+    "asic supply chain",
+    "tsmc",
+    "samsung"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Core Scientific bought nearly 18,000 S19 miners, all made in Malaysia to avoid Chinese tariffs.",
+   "speaker": "Russell Cann",
+   "start": 2620.1,
+   "quote": "Corgis bought nearly 18,000 of the S19s, all made in Malaysia.",
+   "tags": [
+    "bitmain",
+    "tariffs",
+    "asic supply chain"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 Russell Cann guessed that Intel and Apple would buy much of TSMC's Arizona chip plant production right away.",
+   "speaker": "Russell Cann",
+   "start": 2646.5,
+   "quote": "And my guess is Intel and Apple will buy a lot of that production right off the bat.",
+   "tags": [
+    "tsmc",
+    "arizona",
+    "semiconductors"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 Russell Cann predicted that ASIC chip makers would squish together at the end of the line because of Moore's Law.",
+   "speaker": "Russell Cann",
+   "start": 2676.1,
+   "quote": "There's going to be a squishing together at the end of the line because of Moore's Law.",
+   "tags": [
+    "moore's law",
+    "asic chips",
+    "efficiency"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann said that a machine drawing over 3,500 watts makes three-phase electrical infrastructure essential.",
+   "speaker": "Russell Cann",
+   "start": 2777.2,
+   "quote": "If you have a machine that crosses 3,500 watts, all of a sudden the math gets really important for three-phase electrical.",
+   "tags": [
+    "power infrastructure",
+    "asic",
+    "three-phase"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said an S19 Pro or S19 draws about 3,250 watts, too much for a standard household outlet.",
+   "speaker": "Russell Cann",
+   "start": 2802.6,
+   "quote": "if I sent you an S19 Pro or an S19 at 3,250 watts",
+   "tags": [
+    "s19",
+    "power draw",
+    "home mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 Russell Cann predicted that in about 15 years a phone-sized miner might plug into a regular 110 outlet.",
+   "speaker": "Russell Cann",
+   "start": 2855.5,
+   "quote": "15 years from now, we might be plugging in something the size of a phone into a regular 110 outlet.",
+   "tags": [
+    "home mining",
+    "efficiency",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said his home power bill was three times the rate Core Scientific averages.",
+   "speaker": "Russell Cann",
+   "start": 2947.6,
+   "quote": "I know for, you know, my own power bill at my house is three times what the rate is that core averages.",
+   "tags": [
+    "power costs",
+    "home mining",
+    "residential power"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 a host predicted that processing power would aggregate into large data centers via the move to cloud, rather than a server room in every home.",
+   "speaker": "host",
+   "start": 3001.4,
+   "quote": "I think that's not likely at all. You're more than likely going to have a lot of aggregation of processing power as the movement to cloud",
+   "tags": [
+    "home mining",
+    "cloud",
+    "data centers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 a host said that when distributed renewable power is common there will be times of excess energy that needs somewhere to go, such as mining.",
+   "speaker": "host",
+   "start": 3163.2,
+   "quote": "there's going to be a lot of time where you have excess energy that needs to go somewhere",
+   "tags": [
+    "renewable energy",
+    "grid",
+    "mining"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann said Core Scientific targets family offices, institutional investors and hedge funds that want to invest in digital assets.",
+   "speaker": "Russell Cann",
+   "start": 3247.2,
+   "quote": "we really target family offices, institutional investors, hedge funds",
+   "tags": [
+    "core scientific",
+    "institutional investors",
+    "hosting"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Core Scientific's software arm managed more than 100,000 machines.",
+   "speaker": "Russell Cann",
+   "start": 3331.4,
+   "quote": "a whole software arm that manages, you know, 100,000 plus machines",
+   "tags": [
+    "core scientific",
+    "software",
+    "machines"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann said Core Scientific's AI software migrated miners between coins based on which was most profitable at that moment.",
+   "speaker": "Russell Cann",
+   "start": 3364.5,
+   "quote": "We have AI software that does what to mine that migrates between various coins based on what's most profitable to mine at that exact moment.",
+   "tags": [
+    "core scientific",
+    "profit switching",
+    "software"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2020 Russell Cann said Core Scientific pulled in about 70,000 sources of information to feed its mining optimization.",
+   "speaker": "Russell Cann",
+   "start": 3479.8,
+   "quote": "we have about 70,000 sources of information that we're pulling in from at all points in time",
+   "tags": [
+    "core scientific",
+    "data sources",
+    "oracle"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2020 Russell Cann described blockchain as like toilet paper on a roll: it changed infrastructure and would become so integrated that people would panic if it broke.",
+   "speaker": "Russell Cann",
+   "start": 3620.9,
+   "quote": "blockchain is like toilet paper on a roll",
+   "tags": [
+    "blockchain definition",
+    "analogy",
+    "infrastructure"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 Russell Cann predicted that in 100 years blockchain would have changed some of the world's infrastructure for the better.",
+   "speaker": "Russell Cann",
+   "start": 3702.5,
+   "quote": "100 years from now, it's going to have changed some of our infrastructure for the better.",
+   "tags": [
+    "blockchain",
+    "infrastructure",
+    "long-term"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 a host said that proof of work would never go away as long as Bitcoin's design kept working, because greed was too powerful.",
+   "speaker": "host",
+   "start": 3873.5,
+   "quote": "then Proof of Work will never go away because it's just much the greed is too powerful",
+   "tags": [
+    "proof of work",
+    "proof of stake",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2020 a host predicted that Ethereum would go through the same growing pains Bitcoin had, with high fees and miners making out like bandits.",
+   "speaker": "host",
+   "start": 3903.5,
+   "quote": "I just think that Ethereum is going to go through all the exact same growing pains that Bitcoin has gone through.",
+   "tags": [
+    "ethereum",
+    "fees",
+    "defi"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2020 a host said there is no risk aversion among people throwing money at DeFi and ICO projects.",
+   "speaker": "host",
+   "start": 4046.9,
+   "quote": "There's just no risk aversion at all in the people who are throwing money at these things",
+   "tags": [
+    "defi",
+    "risk",
+    "icos"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2020 a host said some of the most successful investors have very poor morals.",
+   "speaker": "host",
+   "start": 4130.9,
+   "quote": "Some of the most successful investors have very, very not great morals, in my opinion.",
+   "tags": [
+    "investors",
+    "ethics",
+    "accredited investors"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2020 a host said anyone earning 200,000 or 250,000 dollars a year should be able to become an accredited investor.",
+   "speaker": "host",
+   "start": 4346.0,
+   "quote": "I think anyone that makes 200K or 250K a year can become accredited.",
+   "tags": [
+    "accredited investors",
+    "regulation",
+    "sec"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/809-the-bitcoin-podcast-317-russell-cann-core",
+ "title": "The Bitcoin Podcast #317- Russell Cann Core Scientific",
+ "date": "2020-08-17",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981543/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212420-44100-1-7afd55484963151c.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

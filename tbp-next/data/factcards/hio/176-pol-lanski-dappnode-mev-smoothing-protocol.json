@@ -1,0 +1,398 @@
+{
+ "episode_summary": "Hashing It Out interview with Pol Lanski of DAppNode on Smooth, a MEV smoothing pool that pools execution-layer rewards so solo stakers get closer to the average payout, covering lottery blocks, MEV, the decentralisation case for home staking, and how the smoothing pool's cheat detection and rewards work.",
+ "guests": [
+  "Pol Lanski"
+ ],
+ "topics": [
+  "staking",
+  "mev",
+  "smoothing-pool",
+  "lottery-blocks",
+  "dappnode",
+  "decentralization",
+  "ethereum"
+ ],
+ "cards": [
+  {
+   "type": "anecdote",
+   "claim": "Pol Lanski said he got into crypto in 2014 after Spain's financial crisis taught him that political sovereignty needs economic sovereignty.",
+   "speaker": "Pol Lanski",
+   "start": 137.0,
+   "quote": "And I got into crypto back in 2014",
+   "tags": [
+    "spain",
+    "bitcoin",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Pol Lanski said that in 2014, after realising he was late to mining Bitcoin, he started mining Dogecoin.",
+   "speaker": "Pol Lanski",
+   "start": 220.9,
+   "quote": "So I just started mining Dogecoin.",
+   "tags": [
+    "dogecoin",
+    "mining",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Pol Lanski said he lost the wallet holding his Dogecoin, which became valuable after Elon Musk pumped the coin.",
+   "speaker": "Pol Lanski",
+   "start": 249.8,
+   "quote": "and then i discovered that i had lost that wallet",
+   "tags": [
+    "dogecoin",
+    "anecdote",
+    "elon-musk"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said he had been working with DAppNode since 2019 and had taken over leading the project a couple of years earlier.",
+   "speaker": "Pol Lanski",
+   "start": 275.1,
+   "quote": "all along since 2019, I have been working with DAPNode.",
+   "tags": [
+    "dappnode",
+    "history"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said DAppNode's biggest use case is people running validators on Ethereum, Gnosis Chain, Lukso and Avalanche.",
+   "speaker": "Pol Lanski",
+   "start": 300.8,
+   "quote": "That's I would say the biggest use case for DAPNode is people running validators.",
+   "tags": [
+    "dappnode",
+    "validators",
+    "staking"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said there have been Ethereum lottery blocks worth 400 and 500 ETH.",
+   "speaker": "Pol Lanski",
+   "start": 581.8,
+   "quote": "there's been blocks with 400 and 500 E.",
+   "tags": [
+    "lottery-blocks",
+    "mev",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said most Ethereum lottery blocks are between 0.001 and 0.08 ETH.",
+   "speaker": "Pol Lanski",
+   "start": 607.0,
+   "quote": "most of the blogs are between 0.001 and 0.08 or something like this.",
+   "tags": [
+    "lottery-blocks",
+    "distribution",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said lottery blocks above 500 ETH are an anomaly, occurring around 0.01% of the time for much smaller amounts.",
+   "speaker": "Pol Lanski",
+   "start": 658.8,
+   "quote": "like on the likes of like 0.01% and that's for a lot less than 500 E.",
+   "tags": [
+    "lottery-blocks",
+    "rarity",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said with around one million Ethereum validators a solo staker can expect about two and a half block proposals per year.",
+   "speaker": "Pol Lanski",
+   "start": 714.1,
+   "quote": "Now that we have around one million validators, it's basically like two and a half blocks per year that you're expecting.",
+   "tags": [
+    "solo-staking",
+    "validators",
+    "block-proposals"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Pol Lanski said fees were very low for a couple of months in 2024 because activity had moved to layer twos.",
+   "speaker": "Pol Lanski",
+   "start": 825.8,
+   "quote": "seems that all of the activity has moved to layer twos",
+   "tags": [
+    "layer2",
+    "fees",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Pol Lanski compared MEV to Robin Hood selling order flow to Citadel, which then front-ran customers.",
+   "speaker": "Pol Lanski",
+   "start": 1023.4,
+   "quote": "remember how um robin hood was selling the uh private deal flow from all of those uh execution uh orders to citadel and citadel front ran everybody",
+   "tags": [
+    "mev",
+    "front-running",
+    "analogy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Pol Lanski explained that a validator can sell its block to searchers and the premium is shared with the block proposer, builders and wallets.",
+   "speaker": "Pol Lanski",
+   "start": 1114.1,
+   "quote": "that premium is essentially the fees that go to not only the block builders but also to whoever the block proposer is",
+   "tags": [
+    "mev",
+    "block-builders",
+    "proposer"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Pol Lanski said solo Bitcoin miners basically never had a real chance to mine a block, which is why mining pools came into existence.",
+   "speaker": "host",
+   "start": 1379.7,
+   "quote": "Solo miners in Bitcoin basically never had a real opportunity to ever mine a block and thus never got anything.",
+   "tags": [
+    "mining-pools",
+    "bitcoin",
+    "solo-mining"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "The host said MEV is a centralising force that hurts home stakers and Ethereum as a whole.",
+   "speaker": "host",
+   "start": 1634.7,
+   "quote": "mev is a centralizing force that not only plays against the home staker",
+   "tags": [
+    "mev",
+    "centralization",
+    "home-staking"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Pol Lanski argued that decentralisation is a gradient, and that more independent nodes, locations and client implementations add resilience.",
+   "speaker": "Pol Lanski",
+   "start": 1939.6,
+   "quote": "Decentralization is sort of like a gradient where properties emerge, where desirable properties emerge.",
+   "tags": [
+    "decentralization",
+    "resilience",
+    "home-staking"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Pol Lanski argued that home staking is the gold standard of decentralisation because every home node sits on a different IP address.",
+   "speaker": "Pol Lanski",
+   "start": 2062.7,
+   "quote": "then home staking is the absolute gold standard of the decentralization because every node is in a different IP.",
+   "tags": [
+    "home-staking",
+    "decentralization",
+    "data-centers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Pol Lanski said it should outrage people that centralised players get paid more than home stakers because of uneven MEV distribution.",
+   "speaker": "Pol Lanski",
+   "start": 2119.3,
+   "quote": "centralized players get paid more because of this mev unequal distribution",
+   "tags": [
+    "mev",
+    "home-staking",
+    "centralization"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said subscribing to the smoothing pool requires a bond of 0.01 ETH.",
+   "speaker": "Pol Lanski",
+   "start": 2478.0,
+   "quote": "You have to pay a bond of 0.01.",
+   "tags": [
+    "smoothing-pool",
+    "bond",
+    "dappnode"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "A host read an article saying a solo staker earns about 0.149 ETH per year in execution rewards, versus about 0.281 ETH with Smooth.",
+   "speaker": "host",
+   "start": 2866.6,
+   "quote": "in execution rewards per year you're getting 0.14943 eth",
+   "tags": [
+    "smooth",
+    "execution-rewards",
+    "solo-staking"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said the median Smooth block reward was about 0.039 ETH, with an average of about 0.085 ETH.",
+   "speaker": "Pol Lanski",
+   "start": 2978.0,
+   "quote": "the median of all of the blocks in smooth which is a representative section of ethereum is 0.039",
+   "tags": [
+    "smooth",
+    "rewards",
+    "median"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Pol Lanski said the oracle that tracks whether validators cheat is currently run by DAppNode.",
+   "speaker": "Pol Lanski",
+   "start": 3210.5,
+   "quote": "this oracle is currently run by dapnode",
+   "tags": [
+    "smooth",
+    "oracle",
+    "dappnode"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Pol Lanski said Smooth was not yet compatible with EigenLayer restaking but would be in V2.",
+   "speaker": "Pol Lanski",
+   "start": 3302.2,
+   "quote": "so smooth is not compatible now with Eigenlayer but it will be in V2 and we're already",
+   "tags": [
+    "smooth",
+    "eigenlayer",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Pol Lanski said vanilla blocks lower Smooth's rewards because they do not come from MEV builders, so an on-chain vote could remove those validators.",
+   "speaker": "Pol Lanski",
+   "start": 3380.5,
+   "quote": "vanilla blocks that have lower rewards because they don't get blocks from from these MEV builders they actually bring the rewards of the pool down",
+   "tags": [
+    "smooth",
+    "vanilla-blocks",
+    "governance"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "Pol Lanski suggested a Smooth DAO might come, letting pool participants vote to kick out validators that produce vanilla blocks.",
+   "speaker": "Pol Lanski",
+   "start": 3441.3,
+   "quote": "But it might be a Smooth DAO coming.",
+   "tags": [
+    "smooth",
+    "dao",
+    "governance",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Pol Lanski said a validator that keeps its block fees for itself is banned from the smoothing pool and never receives pool rewards.",
+   "speaker": "Pol Lanski",
+   "start": 2620.5,
+   "quote": "You will be banned from the pool.",
+   "tags": [
+    "smoothing-pool",
+    "cheating",
+    "anti-cheat"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/176-pol-lanski-dappnode-mev-smoothing-protocol",
+ "title": "Pol Lanski: Dappnode | MEV Smoothing Protocol",
+ "date": "2024-10-09 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/92788993/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-9%2F387801868-44100-2-0f382047bf476.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

@@ -1,0 +1,451 @@
+{
+ "episode_summary": "Hashing It Out interview (June 2024) with Kieran Mesquita, a Railgun contributor. Railgun adds a private 0zk address type on Ethereum; they explain shielding, private balances and DeFi use, relayers that let users pay gas in any token over Waku, why Railgun stays fully on-chain rather than using a rollup, gas costs as the main pain point, the Powers of Tau setup and Groth16 proofs, and the DAO treasury and governance. Frank also takes part in the discussion.",
+ "guests": [
+  "Kieran Mesquita"
+ ],
+ "topics": [
+  "railgun",
+  "privacy",
+  "ethereum",
+  "relayers",
+  "zero-knowledge-proofs",
+  "dao",
+  "waku"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In June 2024 Kieran Mesquita said Railgun had launched about three years earlier, going on four, with its DAO running from almost day one.",
+   "speaker": "Kieran Mesquita",
+   "start": 105.6,
+   "quote": "but it's been launched about three years ago going on four soon it's been running strong since then DAO from pretty much day one",
+   "tags": [
+    "railgun",
+    "history",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita described Railgun as a protocol that adds a new private address type to Ethereum, alongside public 0x addresses.",
+   "speaker": "Kieran Mesquita",
+   "start": 213.7,
+   "quote": "is just a protocol that adds like a new um address type to ethereum right",
+   "tags": [
+    "railgun",
+    "private-addresses",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita explained that shielding moves tokens from a public wallet into a private balance represented as a UTXO, which only the key holder can view.",
+   "speaker": "Kieran Mesquita",
+   "start": 268.4,
+   "quote": "that's an action called a shield um and essentially what that does is it just takes um you know the the tokens from a public wallet",
+   "tags": [
+    "railgun",
+    "shielding",
+    "utxo"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita said Railgun is geared towards a private address rather than hiding transaction amounts, with its main use being private balances for DeFi.",
+   "speaker": "Kieran Mesquita",
+   "start": 324.8,
+   "quote": "so Railgun is really geared towards being a private address rather than anything else",
+   "tags": [
+    "railgun",
+    "privacy",
+    "design"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita described a long-term trading strategy run from a private Railgun balance, so that others cannot see and copy the positions.",
+   "speaker": "Kieran Mesquita",
+   "start": 390.5,
+   "quote": "if you had a long-term trading strategy, you didn't want anybody obviously to see what you're doing because, you know, it's your strategy",
+   "tags": [
+    "railgun",
+    "trading",
+    "use-cases"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2024 Kieran Mesquita said that trading strategies run in public get figured out within days and lose their edge.",
+   "speaker": "Kieran Mesquita",
+   "start": 422.3,
+   "quote": "if you've, like, spent a lot of effort developing this kind of alpha, right, if you, like, go and do it in public, like, that stuff's going to be, like, figured out within days",
+   "tags": [
+    "trading",
+    "copy-trading",
+    "privacy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2024 Kieran Mesquita said Vitalik was using Railgun to move ETH out of his very public vitalik.eth address.",
+   "speaker": "Kieran Mesquita",
+   "start": 584.5,
+   "quote": "you've got like vitalik using it uh to to move eth out of his uh very public vitalik.eth e and s address",
+   "tags": [
+    "vitalik",
+    "railgun",
+    "anecdote",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In June 2024 Kieran Mesquita recounted a trader whose strategy FTX was counter-trading, which he said turned out badly because FTX was not trustworthy.",
+   "speaker": "Kieran Mesquita",
+   "start": 617.4,
+   "quote": "they were like well when ftx was still thing you know um they were like counter trading them",
+   "tags": [
+    "ftx",
+    "trading",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita explained that Railgun relayers let a user pay gas in any token that a relayer accepts, because the relayer is paid in that token.",
+   "speaker": "Kieran Mesquita",
+   "start": 735.4,
+   "quote": "You can effectively pay for for gas using whatever token you want",
+   "tags": [
+    "relayers",
+    "gas",
+    "railgun"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita said relayers communicate over the Waku peer-to-peer network, which is how Railgun transactions get broadcast.",
+   "speaker": "Kieran Mesquita",
+   "start": 762.9,
+   "quote": "that's something that's called a relayer, right? And actually, you know, since we're on this podcast really is communicate over the Waku network.",
+   "tags": [
+    "relayers",
+    "waku",
+    "railgun"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In June 2024 Kieran Mesquita said anyone can run a relayer that follows the specification, and a reference implementation is available.",
+   "speaker": "Kieran Mesquita",
+   "start": 846.4,
+   "quote": "And there is a reference implementation that people can run as well.",
+   "tags": [
+    "relayers",
+    "permissionless",
+    "railgun"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2024 Kieran Mesquita predicted relayer competition would become a race to the bottom, won by whoever writes the best logic for the cheapest gas.",
+   "speaker": "Kieran Mesquita",
+   "start": 873.7,
+   "quote": "whoever can write the best logic to provide the cheapest gas while still breaking even",
+   "tags": [
+    "relayers",
+    "gas",
+    "competition",
+    "predictions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2024 Kieran Mesquita said Railgun was already deployed on Ethereum, Arbitrum, Polygon and BNB.",
+   "speaker": "Kieran Mesquita",
+   "start": 1040.3,
+   "quote": "there's a couple of um chains that that we've gone is already deployed on that's ethereum uh arbitram polygon uh bnb",
+   "tags": [
+    "railgun",
+    "multichain",
+    "deployment"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita explained that new Railgun chain deployments are approved through an on-chain DAO vote that also deploys the contracts when passed.",
+   "speaker": "Kieran Mesquita",
+   "start": 1069.3,
+   "quote": "So that's a completely like on-chain voting process to say, okay, deploy on whatever chain.",
+   "tags": [
+    "dao",
+    "governance",
+    "deployment",
+    "railgun"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita compared three options for privacy on Ethereum and said Railgun chose to deploy entirely on-chain, with no rollup, bridge or sequencer.",
+   "speaker": "Kieran Mesquita",
+   "start": 1248.4,
+   "quote": "And then there's a railgun approach, which is just deploy entirely on-chain, right? So there's no roll-up, there's no bridge,",
+   "tags": [
+    "layer-2",
+    "rollups",
+    "design",
+    "railgun"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In June 2024 Kieran Mesquita said the number one pain point with using Railgun was gas cost.",
+   "speaker": "Kieran Mesquita",
+   "start": 1520.4,
+   "quote": "I think the number one kind of pain point right now with using Railgun is probably the gas cost",
+   "tags": [
+    "gas",
+    "railgun",
+    "ux"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2024 Kieran Mesquita said Arbitrum was probably the cheapest chain on which to use Railgun.",
+   "speaker": "Kieran Mesquita",
+   "start": 1546.7,
+   "quote": "I think Arbitrum is probably the place that you could use Railgun the cheapest right now.",
+   "tags": [
+    "arbitrum",
+    "gas",
+    "railgun",
+    "layer-2"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita described the Powers of Tau ceremony as a public-good setup, run for Ethereum, that produced the phase one parameters for the Railgun circuits.",
+   "speaker": "Kieran Mesquita",
+   "start": 1677.9,
+   "quote": "Powers of Tau ceremony, which is what was used for like the phase one of the circuit setup for uh realcom",
+   "tags": [
+    "trusted-setup",
+    "powers-of-tau",
+    "zero-knowledge-proofs"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita said the trusted setup holds as long as at least one contributor did not collude with everyone else.",
+   "speaker": "Kieran Mesquita",
+   "start": 1737.1,
+   "quote": "or like at least one person doesn't uh collude with everyone else",
+   "tags": [
+    "trusted-setup",
+    "security",
+    "zero-knowledge-proofs"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita said Groth16 was used because it was by far the most efficient proof scheme to verify on Ethereum.",
+   "speaker": "Kieran Mesquita",
+   "start": 1818.3,
+   "quote": "the reason that Grot16 is used is because it's the most efficient",
+   "tags": [
+    "groth16",
+    "zero-knowledge-proofs",
+    "ethereum"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2024 Kieran Mesquita said Zcash had moved to Halo 2.",
+   "speaker": "Kieran Mesquita",
+   "start": 1871.5,
+   "quote": "I know Zcash has Halo 2 now.",
+   "tags": [
+    "zcash",
+    "halo-2",
+    "zero-knowledge-proofs"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita said a relayer could save gas by submitting several relayed transactions in one transaction, since Ethereum storage costs favour batching.",
+   "speaker": "Kieran Mesquita",
+   "start": 2124.9,
+   "quote": "if you submit multiple relayed transactions in a single transaction, you will actually save on gas",
+   "tags": [
+    "relayers",
+    "batching",
+    "gas"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In June 2024 Kieran Mesquita said he did not foresee centralisation emerging in Railgun, because almost everything is pushed on-chain.",
+   "speaker": "Kieran Mesquita",
+   "start": 2353.0,
+   "quote": "So I don't think, I don't foresee any sort of centralization happening.",
+   "tags": [
+    "centralization",
+    "railgun",
+    "predictions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita described Railgun as a private address standard, where a user's transaction history stays viewable with the private key or an exported view key.",
+   "speaker": "Kieran Mesquita",
+   "start": 2577.0,
+   "quote": "Railgun is a private address standard, right? And so part of that is you've still got a transaction history and all of this that's viewable with your private key.",
+   "tags": [
+    "railgun",
+    "private-addresses",
+    "view-keys"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita said the planned Railgun V3 is an evolution of the architecture, still largely inspired by Zcash's Sapling design.",
+   "speaker": "Kieran Mesquita",
+   "start": 2874.1,
+   "quote": "It still, I think at its core, is very inspired by Zcash's sapling.",
+   "tags": [
+    "railgun",
+    "v3",
+    "zcash",
+    "sapling"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Kieran Mesquita described Railgun Connect as a way to use any DApp front end through Railgun without a specific integration, as if using MetaMask.",
+   "speaker": "Kieran Mesquita",
+   "start": 2907.1,
+   "quote": "essentially it's a method of being able to use pretty much any like DAP front end through Railgun without like having to have a specific integration",
+   "tags": [
+    "railgun-connect",
+    "dapps",
+    "railgun"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2024 Kieran Mesquita said a proportion of the Railgun DAO treasury balance is paid out to active governors through proposals, acting as a smoothing buffer for stakers.",
+   "speaker": "Kieran Mesquita",
+   "start": 2999.0,
+   "quote": "a proportion of the current balance of the the treasury um goes out to um",
+   "tags": [
+    "dao",
+    "treasury",
+    "staking",
+    "governance"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In June 2024 Kieran Mesquita said the Railgun DAO has no admin keys and that governance executes the actual contract actions on chain.",
+   "speaker": "Kieran Mesquita",
+   "start": 3113.9,
+   "quote": "no admin keys and everything that's voted on, all of that happens on chain",
+   "tags": [
+    "dao",
+    "governance",
+    "admin-keys",
+    "transparency"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/166-kieran-mesquita-railgun-transactional-privacy",
+ "title": "Kieran Mesquita | Railgun Transactional Privacy Protection",
+ "date": "2024-06-12 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89345676/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374191-44100-2-bea296bba9a78.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

@@ -1,0 +1,607 @@
+{
+ "episode_summary": "Episode 218 of The Bitcoin Podcast (August 2018) opens with a market discussion as Bitcoin trades near 6,146 dollars and Ethereum near 309 dollars. The hosts debate whether the downturn is a short lull or a multi-year crypto winter and whether ETF approval timing matters. Corey then interviews Saifedean Ammous about his book The Bitcoin Standard, covering sound money, store of value, deflation and Bitcoin adoption. The episode closes with the hosts explaining Ethereum testnets versus mainnet.",
+ "guests": [
+  "Saifedean Ammous"
+ ],
+ "topics": [
+  "bitcoin-price",
+  "crypto-winter",
+  "sound-money",
+  "store-of-value",
+  "deflation",
+  "ethereum-mainnet",
+  "testnets",
+  "etf"
+ ],
+ "cards": [
+  {
+   "type": "prediction",
+   "claim": "In August 2018 a host said crypto prices would have to wait until September for ETF approvals or some clarity.",
+   "speaker": "host",
+   "start": 200.2,
+   "quote": "we're gonna have to wait until september for approvals or some uh some some clarity",
+   "tags": [
+    "etf",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 a host said the price dip was a little lull and that the herd was coming.",
+   "speaker": "host",
+   "start": 233.4,
+   "quote": "i think the herd's coming and i just think that this is like a little lull in the price",
+   "tags": [
+    "price",
+    "market-cycles",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 a host predicted that Bitcoin's inflation rate in 2020 would be lower than the US dollar's.",
+   "speaker": "host",
+   "start": 292.6,
+   "quote": "the inflation rate in 2020 will be lower than the U.S. dollar. It will be.",
+   "tags": [
+    "inflation",
+    "bitcoin",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 a host predicted the coming crypto winter would last four to five years, longer than the previous two-year winter.",
+   "speaker": "host",
+   "start": 319.7,
+   "quote": "So the last winter was two years. This one's going to be from, this one's going to be four to five years.",
+   "tags": [
+    "bear-market",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 a host argued that Bitcoin's price would stabilize or rise as it became more useful, since cycles come from trading rather than utility.",
+   "speaker": "host",
+   "start": 345.2,
+   "quote": "the more and more the price stabilizes or raises based on its utility",
+   "tags": [
+    "bitcoin",
+    "utility",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 a host said Bitcoin would not survive a five-year winter and that such a winter might push people to other currencies.",
+   "speaker": "host",
+   "start": 401.4,
+   "quote": "I wouldn't survive a five-year winner. Bitcoin won't.",
+   "tags": [
+    "bear-market",
+    "bitcoin",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 a host said Bitcoin was not moving fast enough to keep up with demand, despite SegWit's two-megabyte blocks.",
+   "speaker": "host",
+   "start": 431.5,
+   "quote": "i don't think it's moving fast enough to keep up with the demand",
+   "tags": [
+    "scaling",
+    "segwit",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 a host predicted that Ethereum, given the innovation around it, would eventually pass Bitcoin.",
+   "speaker": "host",
+   "start": 458.9,
+   "quote": "my opinion it'll it'll pass bitcoin eventually",
+   "tags": [
+    "ethereum",
+    "bitcoin",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2018 a host said Bitcoin's digital scarcity was real because there were only 21 million bitcoins.",
+   "speaker": "host",
+   "start": 540.7,
+   "quote": "it was real digital scarcity there were only 21 million bitcoins",
+   "tags": [
+    "bitcoin",
+    "supply",
+    "scarcity"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 a host argued that a token needs a community around a useful purpose, since digital scarcity alone is no longer rare.",
+   "speaker": "host",
+   "start": 595.6,
+   "quote": "it has to be a community surrounded by a useful token that isn't just there to hold the purpose of the token",
+   "tags": [
+    "tokens",
+    "utility",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 a host explained that a testnet is a copy of Ethereum where tokens have no value, so developers can find bugs before mainnet.",
+   "speaker": "host",
+   "start": 4419.0,
+   "quote": "there's a bunch of test nets, which is basically a copy of Ethereum where the tokens basically have no value",
+   "tags": [
+    "ethereum",
+    "testnet",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2018 a host said Ethereum's mainnet tokens were trading around 300 dollars.",
+   "speaker": "host",
+   "start": 4445.2,
+   "quote": "onto the main net where the tokens have value currently around $300",
+   "tags": [
+    "ethereum",
+    "price",
+    "mainnet"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 a host explained that deployed Ethereum smart contracts are immutable, so developers must plan upgrades carefully.",
+   "speaker": "host",
+   "start": 4472.7,
+   "quote": "those smart contracts are immutable, which means that you can't change those smart contracts",
+   "tags": [
+    "smart-contracts",
+    "ethereum",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2018 a host said larger ICO-era projects were only starting to deploy used products on Ethereum mainnet, and CryptoKitties was one of the first useful ones.",
+   "speaker": "host",
+   "start": 4499.2,
+   "quote": "This year, we're starting to see some of those larger projects from the initial ICO days finally deploying products on the mainnet",
+   "tags": [
+    "ethereum",
+    "mainnet",
+    "cryptokitties"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 a host said that with a civic identity smart contract on Ethereum, people could theoretically never have to log in anywhere.",
+   "speaker": "host",
+   "start": 4527.5,
+   "quote": "you could theoretically never have to log in anywhere ever",
+   "tags": [
+    "identity",
+    "civic",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 a host said that once an Ethereum application has utility that is scarce, the token's value should go up.",
+   "speaker": "host",
+   "start": 4669.2,
+   "quote": "once there is utility to this and that utility is scarce then the value should",
+   "tags": [
+    "ethereum",
+    "utility",
+    "opinion"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2018 a host said an application released on Ethereum mainnet saw its altcoin plummet, which they did not think was connected to the launch.",
+   "speaker": "host",
+   "start": 4696.4,
+   "quote": "there's a funfair was uh released on mainnet and their altcoin plummeted",
+   "tags": [
+    "mainnet",
+    "altcoin",
+    "anecdote"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2018 a host said Bitcoin dominance was back up to 50 percent while the total crypto market cap was about 208 billion dollars.",
+   "speaker": "host",
+   "start": 4750.8,
+   "quote": "BTC dominance is back up to 50%",
+   "tags": [
+    "market-cap",
+    "bitcoin-dominance",
+    "fact"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2018 a host said they had found a vulnerability in a test network application that would have been valuable to exploit on mainnet.",
+   "speaker": "host",
+   "start": 4833.2,
+   "quote": "i found a vulnerability in that test net while i was doing there",
+   "tags": [
+    "security",
+    "testnet",
+    "anecdote"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 a host explained that deploying straight to mainnet with real value gives attackers an incentive to steal, so vulnerabilities should be found on testnets first.",
+   "speaker": "host",
+   "start": 4859.8,
+   "quote": "if you go straight to main net and there's value, then everyone is incentivized to steal from you as opposed to help you.",
+   "tags": [
+    "security",
+    "mainnet",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 Saifedean Ammous said sound money is money chosen and valued by people, while unsound money is imposed by force.",
+   "speaker": "Saifedean Ammous",
+   "start": 1914.4,
+   "quote": "It's sound money or unsound money.",
+   "tags": [
+    "sound-money",
+    "austrian-economics",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 Saifedean Ammous said sound money trades freely while unsound money trades based on someone's edict.",
+   "speaker": "Saifedean Ammous",
+   "start": 1943.8,
+   "quote": "So sound money trades freely. Unsound money trades based on somebody's edict.",
+   "tags": [
+    "sound-money",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2018 Saifedean Ammous said that by the end of the 19th century almost everywhere in the world was using gold as money.",
+   "speaker": "Saifedean Ammous",
+   "start": 1973.2,
+   "quote": "pretty much everywhere in the world by the end of the 19th century, everybody was using gold as money",
+   "tags": [
+    "gold",
+    "history",
+    "sound-money"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 Saifedean Ammous argued Bitcoin qualifies as sound money because nobody forces anyone to accept it and it has a market price.",
+   "speaker": "Saifedean Ammous",
+   "start": 2024.4,
+   "quote": "nobody forces anybody to accept it as money. It is accepted on its own terms",
+   "tags": [
+    "bitcoin",
+    "sound-money",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 Saifedean Ammous said Bitcoin was becoming more like money as more people held it as a store of value.",
+   "speaker": "Saifedean Ammous",
+   "start": 2050.7,
+   "quote": "Bitcoin is becoming more and more like money.",
+   "tags": [
+    "bitcoin",
+    "store-of-value",
+    "adoption"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 Saifedean Ammous predicted Bitcoin would first gain market share as a store of value before it was widely spent.",
+   "speaker": "Saifedean Ammous",
+   "start": 2136.7,
+   "quote": "Bitcoin is first going to gain market share as a store of value.",
+   "tags": [
+    "bitcoin",
+    "store-of-value",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2018 Saifedean Ammous estimated that less than 1 percent of the world owned Bitcoin.",
+   "speaker": "Saifedean Ammous",
+   "start": 2196.8,
+   "quote": "less than 1% of the world, I would say, owns Bitcoin",
+   "tags": [
+    "adoption",
+    "bitcoin",
+    "fact"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 Saifedean Ammous said that while dollars are accepted, people are better off spending dollars and keeping Bitcoin for the future.",
+   "speaker": "Saifedean Ammous",
+   "start": 2291.8,
+   "quote": "As long as people will accept your dollars, you are better off just giving them the dollars",
+   "tags": [
+    "spending",
+    "bitcoin",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 Saifedean Ammous defined a store of value as anything used to hold value for future exchange.",
+   "speaker": "Saifedean Ammous",
+   "start": 2428.2,
+   "quote": "a store of value is anything that you use in order to store value into the future",
+   "tags": [
+    "store-of-value",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 Saifedean Ammous argued that when Bitcoin rises in value, people spend less, since people are more careful with money that holds its value.",
+   "speaker": "Saifedean Ammous",
+   "start": 2593.9,
+   "quote": "people are going to be more careful about the money that they spend. if the value of the money declines, people are far more reckless with what they spend.",
+   "tags": [
+    "deflation",
+    "spending",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 Saifedean Ammous said progress and civilization start when people delay gratification to save and invest.",
+   "speaker": "Saifedean Ammous",
+   "start": 2873.5,
+   "quote": "That's what initiates the process of civilization is the ability of people to delay their gratification",
+   "tags": [
+    "time-preference",
+    "saving",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 Saifedean Ammous said a crash may be needed for people to see the current system is unsustainable, though a gradual shift to saving is also possible.",
+   "speaker": "Saifedean Ammous",
+   "start": 2998.4,
+   "quote": "There's always the possibility that we're going to have to get a crash for people to realize this is not sustainable and that it's going to be painful.",
+   "tags": [
+    "crash",
+    "time-preference",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2018 Saifedean Ammous pointed to 36-month 0 percent interest offers on flat-screen TVs in the US as a sign of easy money.",
+   "speaker": "Saifedean Ammous",
+   "start": 3054.9,
+   "quote": "the fact that you can get 36 months 0% interest on buying a flat screen TV",
+   "tags": [
+    "easy-money",
+    "interest-rates",
+    "fact"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 Saifedean Ammous said Bitcoin should not be sold as a cool iPhone-style technology, since it is not what people want.",
+   "speaker": "Saifedean Ammous",
+   "start": 3108.3,
+   "quote": "you know, Bitcoin is not a cool iPhone. It's not what you want.",
+   "tags": [
+    "bitcoin",
+    "marketing",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 Saifedean Ammous described Bitcoin as the medicine people need, not the toy they want, a metaphor for its bitter but beneficial use.",
+   "speaker": "Saifedean Ammous",
+   "start": 3134.3,
+   "quote": "Bitcoin is the medicine that you need.",
+   "tags": [
+    "bitcoin",
+    "marketing",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 Saifedean Ammous predicted that how Bitcoin works will become as arcane to most people as how a car or refrigerator works.",
+   "speaker": "Saifedean Ammous",
+   "start": 3347.4,
+   "quote": "the day will come when this will be as uh arcane to most people as the knowledge of how your car works or how your refrigerator works",
+   "tags": [
+    "bitcoin",
+    "adoption",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2018 Saifedean Ammous said the Bitcoin supply cannot be controlled by anybody, which is the key point of its design.",
+   "speaker": "Saifedean Ammous",
+   "start": 3482.8,
+   "quote": "And it's a currency whose supply cannot be controlled by anybody.",
+   "tags": [
+    "bitcoin",
+    "supply",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2018 Saifedean Ammous predicted that a Bitcoin economy would give people more freedom and reduce government control because governments would lose the ability to print money.",
+   "speaker": "Saifedean Ammous",
+   "start": 3814.9,
+   "quote": "I think a Bitcoin economy will see people have more freedom in what they do, and they will have less control for government because government will lose its ability to print money.",
+   "tags": [
+    "freedom",
+    "government",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2018 Saifedean Ammous argued that business cycles, inflation and unemployment are simply a function of fake, easy money.",
+   "speaker": "Saifedean Ammous",
+   "start": 3843.3,
+   "quote": "these are just simply a function of fake, easy money.",
+   "tags": [
+    "business-cycles",
+    "easy-money",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/425-the-bitcoin-podcast-218-saifedean-ammous",
+ "title": "The Bitcoin Podcast #218: Saifedean Ammous",
+ "date": "2018-08-12",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981999/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212921-44100-1-76d76b7dda0c99c8.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

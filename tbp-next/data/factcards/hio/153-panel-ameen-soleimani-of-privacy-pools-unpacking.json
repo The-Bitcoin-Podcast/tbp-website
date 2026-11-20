@@ -1,0 +1,505 @@
+{
+ "episode_summary": "Hashing It Out interview (Nov 2023) with Ameen Soleimani, co-author of the Privacy Pools paper. He explains why Tornado Cash was sanctioned, how association sets and zero-knowledge inclusion and exclusion proofs let users prove their funds are not from illicit sources, the one-week analytics delay, relayers and coordination problems, and the prosecutions of Tornado Cash developers. The hosts push back on whether it weakens privacy and on the wider compliance trade-off.",
+ "guests": [
+  "Ameen Soleimani"
+ ],
+ "topics": [
+  "privacy-pools",
+  "tornado-cash",
+  "zero-knowledge-proofs",
+  "compliance",
+  "ofac",
+  "ethereum",
+  "sanctions"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In November 2023 a host said North Korea was laundering roughly 620 to 630 million dollars taken in the Axie Infinity hack, trying any medium possible.",
+   "speaker": "host",
+   "start": 215.9,
+   "quote": "they're trying to use you know any medium possible in order to launder the funds that you know they got through the hack of axi infinity",
+   "tags": [
+    "north-korea",
+    "hacks",
+    "laundering",
+    "axie-infinity"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2023 Ameen Soleimani said OFAC and other US regulators had sanctioned Tornado Cash.",
+   "speaker": "Ameen Soleimani",
+   "start": 592.6,
+   "quote": "the instantiation of Tornado Cash was sanctioned by OFAC and other US regulatory bodies.",
+   "tags": [
+    "tornado-cash",
+    "ofac",
+    "sanctions"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ameen Soleimani explained that Tornado Cash was sanctioned as a whole because users had no way to prove their deposits were not illicit.",
+   "speaker": "Ameen Soleimani",
+   "start": 622.2,
+   "quote": "There was no way to prove that my funds that I participated in Tornado Cash were not a part of the illicit funds.",
+   "tags": [
+    "tornado-cash",
+    "privacy-pools",
+    "compliance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ameen Soleimani described zero-knowledge proofs as revealing only the information needed to prove group membership, such as being in or out of a group.",
+   "speaker": "Ameen Soleimani",
+   "start": 681.9,
+   "quote": "which only discloses the amount of information that's required to prove a certain claim, namely, I'm in this group or I'm not in this group.",
+   "tags": [
+    "zero-knowledge-proofs",
+    "privacy-pools",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2023 Ameen Soleimani said Zcash was the first zk-STARK deployment in human history and Tornado Cash the second to reach production.",
+   "speaker": "Ameen Soleimani",
+   "start": 741.6,
+   "quote": "Zcash was the first ever ZKStarks deployment in human history. TornadoCash was the second one to hit prop.",
+   "tags": [
+    "zcash",
+    "zk-starks",
+    "zk-snarks",
+    "tornado-cash"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2023 the hosts and Ameen Soleimani argued that privacy is not all or nothing, and that zero-knowledge proofs allow selective disclosure in between.",
+   "speaker": "Ameen Soleimani",
+   "start": 1041.7,
+   "quote": "what people most most people think about privacy is that it's either all or nothing",
+   "tags": [
+    "privacy",
+    "zero-knowledge-proofs",
+    "privacy-pools"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2023 Ameen Soleimani said that 100 million dollars leaving a DeFi protocol quickly is probably not legitimate, and that such funds should be excluded.",
+   "speaker": "Ameen Soleimani",
+   "start": 1213.6,
+   "quote": "100 million dollars leaves a DeFi protocol real fast it's probably not legit",
+   "tags": [
+    "defi",
+    "hacks",
+    "association-sets",
+    "privacy-pools"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Ameen Soleimani said Privacy Pools waits one week before a deposit joins the association set, a figure picked because analytics firms need three or four days to trace funds.",
+   "speaker": "Ameen Soleimani",
+   "start": 1238.9,
+   "quote": "after the end of a week, that's sort of a number that we picked based on how long it takes them to do this analysis.",
+   "tags": [
+    "privacy-pools",
+    "association-sets",
+    "chainalysis",
+    "design"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2023 Ameen Soleimani said anyone who used Tornado Cash in full violation of sanctions law faced up to 20 years in prison.",
+   "speaker": "Ameen Soleimani",
+   "start": 1579.3,
+   "quote": "you're welcome to use tornado cash as is uh in full violation of sanctions law and face up to 20 years in prison",
+   "tags": [
+    "tornado-cash",
+    "sanctions",
+    "regulation",
+    "prison"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ameen Soleimani said the association set could be any group, such as only the people KYC'd by banks, with the rules left to governments and regulators.",
+   "speaker": "Ameen Soleimani",
+   "start": 1689.5,
+   "quote": "it's set up to be flexible the association set can be anything being just the not terrorists it could be only the people kyc to banks right",
+   "tags": [
+    "association-sets",
+    "privacy-pools",
+    "kyc",
+    "regulation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2023 Ameen Soleimani argued that building a new private layer one would not solve his problem, because Ethereum is public and not going anywhere.",
+   "speaker": "Ameen Soleimani",
+   "start": 1771.3,
+   "quote": "building a new private L one is like not going to solve my problem",
+   "tags": [
+    "layer-one",
+    "ethereum",
+    "privacy",
+    "privacy-pools"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Ameen Soleimani said he would back base-layer privacy only if provable dissociation were built into the base layer as well.",
+   "speaker": "Ameen Soleimani",
+   "start": 1799.0,
+   "quote": "And people are like, we should do base layer privacy. And I'm like, maybe, But only if we can also do the provable dissociation of the base layer too.",
+   "tags": [
+    "base-layer",
+    "privacy",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2023 Ameen Soleimani said he wanted to dissociate from known criminals such as North Korean hackers and the IRGC, which would otherwise be able to use Tornado Cash.",
+   "speaker": "Ameen Soleimani",
+   "start": 1831.1,
+   "quote": "But I'm sure that if the North Koreans can figure out tornado cash, the Islamic Revolutionary Guard Corps",
+   "tags": [
+    "north-korea",
+    "irgc",
+    "association-sets",
+    "privacy-pools"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In November 2023 Ameen Soleimani predicted people would more or less figure out the coordination problem of agreeing on which association sets count as legitimate.",
+   "speaker": "Ameen Soleimani",
+   "start": 1982.5,
+   "quote": "I think people will more or less figure this one out.",
+   "tags": [
+    "privacy-pools",
+    "association-sets",
+    "predictions",
+    "coordination"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ameen Soleimani said that revealing any additional information weakens privacy guarantees, so Privacy Pools trades some privacy for the ability to dissociate from illicit funds.",
+   "speaker": "Ameen Soleimani",
+   "start": 2010.1,
+   "quote": "Will it weaken privacy? Yes, is the short answer to that.",
+   "tags": [
+    "privacy",
+    "trade-offs",
+    "privacy-pools"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2023 a host said that so far in 2023, about 250 million dollars had been stolen from DeFi hacks.",
+   "speaker": "host",
+   "start": 2299.7,
+   "quote": "so far, $250 million have been stolen in 2023 from DeFi hacks.",
+   "tags": [
+    "defi",
+    "hacks",
+    "security",
+    "2023"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2023 Ameen Soleimani said the Privacy Pools demo had been live for six months on Optimism.",
+   "speaker": "Ameen Soleimani",
+   "start": 2385.9,
+   "quote": "so we have a demo it's been live throughout six months on optimism",
+   "tags": [
+    "privacy-pools",
+    "optimism",
+    "demo"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "Ameen Soleimani recounted that someone bridged ETH withdrawn from a Tornado Cash pool into the Privacy Pools demo, and he tweeted asking for those deposits to be excluded.",
+   "speaker": "Ameen Soleimani",
+   "start": 2442.2,
+   "quote": "Somebody bridged ETH that they withdrew out of the Gourley tornado cache up into the Optimism Gourley bridge.",
+   "tags": [
+    "privacy-pools",
+    "tornado-cash",
+    "anecdote",
+    "optimism"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ameen Soleimani explained that a relayer pays gas for a fresh address and is paid a small fee from the withdrawal, which avoids a chicken-and-egg problem.",
+   "speaker": "Ameen Soleimani",
+   "start": 2530.4,
+   "quote": "so to solve that there's a relayer and so the relayer is authorized to take a small amount of your withdrawal",
+   "tags": [
+    "relayers",
+    "privacy-pools",
+    "gas",
+    "tornado-cash"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ameen Soleimani proposed that a consortium of banks could share one association set of all KYC'd deposits, so customers could withdraw without revealing their bank.",
+   "speaker": "Ameen Soleimani",
+   "start": 2994.4,
+   "quote": "imagine if there was a consortium of banks and they worked together on the association set and the association set was like all KYC deposits across all of our banks",
+   "tags": [
+    "banks",
+    "kyc",
+    "association-sets",
+    "institutions"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2023 Ameen Soleimani said the world of privacy was seen as bad and criminal, and that positive use cases needed to shatter that narrative.",
+   "speaker": "Ameen Soleimani",
+   "start": 3076.3,
+   "quote": "And so right now we're living in the privacy is bad and criminals want it world of privacy. And I think we need to shatter that.",
+   "tags": [
+    "privacy",
+    "narratives",
+    "compliance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Ameen Soleimani said Tornado Cash was not a mistake but an important stepping stone, and that the mistake was not building and advertising the compliance tool fast enough.",
+   "speaker": "Ameen Soleimani",
+   "start": 3414.4,
+   "quote": "I don't think TornadoCache was a mistake. I think it was an important stepping stone to get here.",
+   "tags": [
+    "tornado-cash",
+    "compliance",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Ameen Soleimani said Tornado Cash developer Alexei Pertsev (transcribed as Perseff) was held without bail in a Netherlands jail for nine months and was awaiting trial in March.",
+   "speaker": "Ameen Soleimani",
+   "start": 3448.8,
+   "quote": "Alexei Perseff was thrown in a Netherlands jail. He was held without bail for nine months.",
+   "tags": [
+    "tornado-cash",
+    "prosecution",
+    "netherlands",
+    "developers"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2023 Ameen Soleimani said Tornado Cash co-founder Roman Storm was arrested in the United States about three weeks earlier and charged with money laundering.",
+   "speaker": "Ameen Soleimani",
+   "start": 3475.3,
+   "quote": "about three weeks ago Roman Storm got arrested in the United States and he was also charged with money laundering and such",
+   "tags": [
+    "roman-storm",
+    "tornado-cash",
+    "prosecution",
+    "money-laundering"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In November 2023 Ameen Soleimani said Roman Semenov was on the US sanctions list, which he called preposterous for an open source developer.",
+   "speaker": "Ameen Soleimani",
+   "start": 3501.4,
+   "quote": "In the case of Seminov, he's sanctioned by the U.S. government.",
+   "tags": [
+    "roman-semenov",
+    "ofac",
+    "sanctions",
+    "open-source"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "Ameen Soleimani argued that the Tornado Cash smart contracts were immutable and its website hosted on IPFS, so the developers could not have shut out bad actors.",
+   "speaker": "Ameen Soleimani",
+   "start": 3585.7,
+   "quote": "the smart contracts were immutable, even if they shut everything down. Their website, even the website was hosted on IPFS and stuff.",
+   "tags": [
+    "tornado-cash",
+    "immutable-contracts",
+    "ipfs",
+    "developers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Ameen Soleimani said that anyone building privacy tools should assume malicious actors will use them.",
+   "speaker": "Ameen Soleimani",
+   "start": 3670.2,
+   "quote": "you should assume that if you build something like this, malicious actors will show up and use it.",
+   "tags": [
+    "open-source",
+    "privacy",
+    "developers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "Ameen Soleimani said privacy tools should give users the means to dissociate from bad actors so they are not forced to associate with them.",
+   "speaker": "Ameen Soleimani",
+   "start": 3698.0,
+   "quote": "give your own users the tools to dissociate from them so that they're not forced to associate with them if they want to have some degree of privacy.",
+   "tags": [
+    "privacy",
+    "association-sets",
+    "developers"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In November 2023 Ameen Soleimani gave the trademark one-liner for Privacy Pools as I'm not the bad guys, here's proof.",
+   "speaker": "Ameen Soleimani",
+   "start": 3757.9,
+   "quote": "I'm not the bad guys. Here's proof.",
+   "tags": [
+    "privacy-pools",
+    "explainer",
+    "tagline"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "A host explained that the paper's equilibrium means the total pool of funds naturally splits into funds that associate with a set and funds that do not.",
+   "speaker": "host",
+   "start": 4143.4,
+   "quote": "equilibrium using that paper is like this interesting concept where the total pool of funds naturally emerges into two groups.",
+   "tags": [
+    "equilibrium",
+    "privacy-pools",
+    "association-sets"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In November 2023 Ameen Soleimani said privacy is a means to optionality in a more generalised system, so privacy belongs at lower layers.",
+   "speaker": "Ameen Soleimani",
+   "start": 4427.3,
+   "quote": "I think that's the claim that I try to push forward is that privacy is a means for optionality in a more generalized system.",
+   "tags": [
+    "privacy",
+    "optionality",
+    "philosophy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/153-panel-ameen-soleimani-of-privacy-pools-unpacking",
+ "title": "Ameen Soleimani of Privacy Pools | Unpacking Privacy Pools – Motivations, Mechanics, and Tradeoffs",
+ "date": "2023-11-29 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89348281/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383377950-44100-2-6545ccdb4cd42064.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

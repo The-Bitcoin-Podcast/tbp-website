@@ -1,0 +1,400 @@
+{
+ "episode_summary": "Danny Ryan of Ethereum joins the hosts in September 2018 to explain the Casper plus sharding v2.1 spec, which became the Ethereum 2.0 beacon chain design. They cover why the FFG and sharding-manager efforts were dropped, the RANDAO and VDF randomness plan, validator deposits and rewards, the 8-second slots and 64-block cycles, shard data availability, cross-shard messaging, the EVM's future, and how the design handles network partitions and a catastrophe such as World War III.",
+ "guests": [
+  "Danny Ryan"
+ ],
+ "topics": [
+  "ethereum-2",
+  "casper",
+  "sharding",
+  "beacon-chain",
+  "randao",
+  "validators",
+  "staking-rewards",
+  "cross-shard"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said Casper validators needed about 1,000 to 1,500 ETH, mostly because the EVM struggled to process signatures.",
+   "speaker": "Danny Ryan",
+   "start": 275.1,
+   "quote": "So we're on the order of 1,000 to 1,500 ETH to be a CASPer validator. This almost entirely was because of the limitations of being able to process signatures in the EVM.",
+   "tags": [
+    "casper",
+    "validators",
+    "evm",
+    "signatures"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said validator deposits had moved to fixed 32 ETH sizes instead of a minimum deposit.",
+   "speaker": "Danny Ryan",
+   "start": 3167.2,
+   "quote": "we've moved to fixed size deposits rather than a minimum deposit. So it doesn't, you can't, you don't play with 32 ETH or more, you play with 32 ETH increments.",
+   "tags": [
+    "deposits",
+    "32-eth",
+    "beacon-chain"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said the current spec had 1,024 shards.",
+   "speaker": "Danny Ryan",
+   "start": 2207.6,
+   "quote": "So the current spec has 1,024.",
+   "tags": [
+    "shards",
+    "1024",
+    "spec"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2018 Danny Ryan said the first shard chains would hold only data blobs with no state execution.",
+   "speaker": "Danny Ryan",
+   "start": 1323.2,
+   "quote": "These shard chains actually at that point won't even have state execution. So they'll be what we've been calling data blobs.",
+   "tags": [
+    "shards",
+    "data-availability",
+    "phases"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2018 Danny Ryan said Ethereum 2.0 was designed to become quantum secure within a five-to-ten-year horizon.",
+   "speaker": "Danny Ryan",
+   "start": 1127.1,
+   "quote": "and it can survive or it's able to change when it's able to be quantum secure in the five to 10-year time horizon.",
+   "tags": [
+    "quantum",
+    "security",
+    "design-goals"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2018 Danny Ryan said STARK-based signatures were three to five years from solid practical traction.",
+   "speaker": "Danny Ryan",
+   "start": 2181.9,
+   "quote": "we're still three to five years from really getting a solid traction on that",
+   "tags": [
+    "starks",
+    "quantum",
+    "signatures"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2018 Danny Ryan estimated sharding would deliver roughly 1,000x throughput over the current chain, before any VM gains.",
+   "speaker": "Danny Ryan",
+   "start": 2320.1,
+   "quote": "You know, you're looking at that on the order of 1,000x, but you're also replacing the virtual machine.",
+   "tags": [
+    "scaling",
+    "throughput",
+    "sharding"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2018 Danny Ryan said layer two would likely be the test bed for layer one changes, not individual shards.",
+   "speaker": "Danny Ryan",
+   "start": 2430.0,
+   "quote": "The test bed for layer one in the long run is probably going to be layer two.",
+   "tags": [
+    "layer-two",
+    "sharding",
+    "upgrades"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2018 Danny Ryan said the team planned to layer a verifiable delay function on top of RANDAO to make it harder to manipulate.",
+   "speaker": "Danny Ryan",
+   "start": 1067.9,
+   "quote": "The current direction of that is to use Randall as a weak source of entropy and make it a stronger, less maniputable source of entropy by layering a VDF on top of it, which is a verifiable delay function.",
+   "tags": [
+    "vdf",
+    "randao",
+    "randomness"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said validator returns would be about 5% a year with 10 million ETH staked and about 10% with 2.5 million.",
+   "speaker": "Danny Ryan",
+   "start": 4672.0,
+   "quote": "when 10 million ETH is validating, validators are making approximately 5% returns per year. If only two and a half million ETH is validating, validators make 10% per year.",
+   "tags": [
+    "staking-yield",
+    "rewards",
+    "validators"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said 8-second slots were the team's best guess, pending real testnet data.",
+   "speaker": "Danny Ryan",
+   "start": 4879.3,
+   "quote": "based off our network simulations and based off the requirements of the network, we believe that eight is probably going to be",
+   "tags": [
+    "slots",
+    "timing",
+    "block-time"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2018 Danny Ryan said a cycle was 64 blocks, with 64 proposers chosen for each cycle.",
+   "speaker": "Danny Ryan",
+   "start": 2567.4,
+   "quote": "during a cycle, which right now a cycle is 64 blocks, we have previously chosen 64 proposers.",
+   "tags": [
+    "cycles",
+    "proposers",
+    "randomness"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said a 50-50 chain split lasting 12 or more days would leave two chains that each finalize on their own.",
+   "speaker": "Danny Ryan",
+   "start": 2986.1,
+   "quote": "So it's currently set to approximately 12 days. And that if a chain split happens for 12 or greater days, we have two splits, say 50-50 on both sides.",
+   "tags": [
+    "partition",
+    "liveness",
+    "finality"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2018 Danny Ryan argued burning withdrawn ETH was fairer than paying validators, because paying them would invite censorship.",
+   "speaker": "Danny Ryan",
+   "start": 3820.7,
+   "quote": "a burn is equitable is at least proportionally distributing value to all holders.",
+   "tags": [
+    "burn",
+    "economics",
+    "supply",
+    "censorship"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In September 2018 a host said he had bought Ether between $2 and $3 early on.",
+   "speaker": "host",
+   "start": 4823.2,
+   "quote": "I think that's one of the feelings I got early on because I bought Ethereum between $2 and $3.",
+   "tags": [
+    "early-adopters",
+    "anecdote",
+    "eth-price"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In September 2018 the hosts asked whether ETH 2.0 amounted to two Ethereums, and Danny Ryan answered that the move was transitional and gradual.",
+   "speaker": "unknown",
+   "start": 4089.4,
+   "quote": "So the question I'm having is, are we setting up two Ethereum's? How is this different than some sort of fork?",
+   "tags": [
+    "fork",
+    "transition",
+    "eth-2"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2018 Danny Ryan argued Ethereum 2.0 should ship in phases to a live network, because many problems only show up at scale.",
+   "speaker": "Danny Ryan",
+   "start": 4564.9,
+   "quote": "So again, I'm not quite as concerned as you are about that. But because you don't learn a lot of things until you have a real network.",
+   "tags": [
+    "rollout",
+    "testnet",
+    "p2p"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2018 Danny Ryan said asynchronous cross-shard messages would take roughly 8 to 10 minutes, or one to several cycles.",
+   "speaker": "Danny Ryan",
+   "start": 5428.9,
+   "quote": "But then if it has to communicate back, then we have to do that again. And these things are happening on the order of a cycle or multiple cycles, which is on the order of 8-10 minutes.",
+   "tags": [
+    "cross-shard",
+    "latency",
+    "finality"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In September 2018 Danny Ryan said the long-term plan was to roll the existing EVM in as the last, exceptional shard.",
+   "speaker": "Danny Ryan",
+   "start": 1897.9,
+   "quote": "once you have a stable sharded landscape with state execution, you roll the EVM in as the last shard, as an exceptional shard.",
+   "tags": [
+    "evm",
+    "shards",
+    "legacy"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 a host estimated crystallized state would be about 600 MB per crystallization, and Danny Ryan said that sounded roughly right.",
+   "speaker": "host",
+   "start": 5057.9,
+   "quote": "it's going to be probably around the size of 600 megabytes for just every crystallization. Is that accurate? That sounds roughly accurate.",
+   "tags": [
+    "crystallized-state",
+    "storage",
+    "nodes"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said a validator might stay on one shard for two weeks to a month and a half.",
+   "speaker": "Danny Ryan",
+   "start": 5210.5,
+   "quote": "So I might be on a shard anywhere from two weeks to a month and a half",
+   "tags": [
+    "shuffling",
+    "validators",
+    "shards"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In September 2018 Danny Ryan said asynchronous cross-shard communication was solved and not a hard problem.",
+   "speaker": "Danny Ryan",
+   "start": 5403.8,
+   "quote": "In terms of asynchronous cross-shark communication, solved. Not a hard problem.",
+   "tags": [
+    "cross-shard",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said five or six teams were implementing the new Ethereum 2.0 protocol.",
+   "speaker": "Danny Ryan",
+   "start": 5984.8,
+   "quote": "There's like five or six teams now implementing the new protocol.",
+   "tags": [
+    "implementers",
+    "eth-2",
+    "clients"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In September 2018 Danny Ryan said a design requirement for Ethereum 2.0 was that it survive World War III.",
+   "speaker": "Danny Ryan",
+   "start": 1100.4,
+   "quote": "And one of the design requirements of Ethereum 2.0 is that it can survive World War III. So actually, it's two requirements.",
+   "tags": [
+    "liveness",
+    "partition",
+    "design-goals"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In September 2018 Danny Ryan said DFINITY's threshold randomness needs about 50% of validators online, so a major partition would halt it.",
+   "speaker": "Danny Ryan",
+   "start": 1160.1,
+   "quote": "And so I think the 50% is their number. So if the case that the network is majorly partitioned, World War III, they can't then create their RNG, their system halt",
+   "tags": [
+    "dfinity",
+    "rng",
+    "liveness"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/022-caspersharding-danny-ryan",
+ "title": "Casper+Sharding - Danny Ryan",
+ "date": "2018-09-13 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89345780/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374113-44100-1-4e595de8657f9495.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

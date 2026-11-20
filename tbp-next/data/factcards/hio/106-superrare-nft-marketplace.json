@@ -1,0 +1,430 @@
+{
+ "episode_summary": "Corey Pei and co-host Jay interview Ryan Collins, head of SRE at SuperRare, an Ethereum NFT marketplace built around ERC-721 contracts that pay artists continuous royalties on secondary sales. They cover how the platform curates artists, how royalties and collector royalties work in the smart contracts, its infrastructure (IPFS pinning, audits, security posture), and their outlook on NFT mainstream adoption, layer-2 scaling and Ethereum 2.0.",
+ "guests": [
+  "Ryan Collins"
+ ],
+ "topics": [
+  "nft",
+  "superrare",
+  "ethereum",
+  "royalties",
+  "erc-721",
+  "ipfs",
+  "smart-contract-security",
+  "web3-login",
+  "ethereum-2.0"
+ ],
+ "cards": [
+  {
+   "type": "anecdote",
+   "claim": "SuperRare was started by three guys in a coffee shop who were interested in art, and it grew out of an earlier plan to build a marketplace platform that others could use.",
+   "speaker": "Ryan Collins",
+   "start": 215.0,
+   "quote": "super rare was started by basically three guys in a coffee shop who were interested in art",
+   "tags": [
+    "superrare",
+    "history",
+    "nft"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "SuperRare's founders were originally trying to build a marketplace platform that other people could use to make their own NFT marketplaces before building their own marketplace as an example.",
+   "speaker": "Ryan Collins",
+   "start": 325.6,
+   "quote": "the guys there were originally trying to develop a marketplace platform that other people could use to make NFT marketplaces",
+   "tags": [
+    "superrare",
+    "history",
+    "nft"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 Ryan Collins said SuperRare's royalties are built into its ERC-721 contract and that SuperRare had just rolled out collector royalties.",
+   "speaker": "Ryan Collins",
+   "start": 439.9,
+   "quote": "we actually just recently rolled out collector royalties as well for the same purpose",
+   "tags": [
+    "royalties",
+    "erc-721",
+    "superrare"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 Ryan Collins described SuperRare's cascading royalties, where the artist earns a royalty on each resale of an artwork as well as the first sale.",
+   "speaker": "Ryan Collins",
+   "start": 468.3,
+   "quote": "every time that collector sells it to another collector you do make an additional royalty",
+   "tags": [
+    "royalties",
+    "secondary-sales",
+    "superrare"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Ryan Collins said SuperRare's artist onboarding took longer than the business would like.",
+   "speaker": "Ryan Collins",
+   "start": 574.0,
+   "quote": "right now I would say it's a little bit longer than the business would like it to be.",
+   "tags": [
+    "superrare",
+    "onboarding",
+    "curation"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Ryan Collins said SuperRare supported Fortmatic, MetaMask and WalletConnect-compatible wallets for sign-in.",
+   "speaker": "Ryan Collins",
+   "start": 625.4,
+   "quote": "we're supporting fortmatic metamask and any wallet connect supportable wallet",
+   "tags": [
+    "wallets",
+    "metamask",
+    "walletconnect"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 SuperRare stored uploaded artwork on a self-hosted IPFS node and pinned it so it would be distributed.",
+   "speaker": "Ryan Collins",
+   "start": 625.4,
+   "quote": "we are basically storing on an IPFS node, like a self-hosted IPFS node",
+   "tags": [
+    "ipfs",
+    "storage",
+    "superrare"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 Ryan Collins said SuperRare's contracts must be expensive enough to attack that exploiting them is not worth it, and that some flaws are only exploitable with large sums of money.",
+   "speaker": "Ryan Collins",
+   "start": 1320.5,
+   "quote": "We have to make sure that it's expensive enough to attack, that it's not worth it.",
+   "tags": [
+    "security",
+    "smart-contracts",
+    "superrare"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Ryan Collins said SuperRare relied on regular security audits and bug bounty programs as part of its smart contract security strategy.",
+   "speaker": "Ryan Collins",
+   "start": 1350.0,
+   "quote": "bounty programs and stuff like that also factors into our security strategy",
+   "tags": [
+    "security",
+    "audits",
+    "bug-bounty"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Ryan Collins said SuperRare keeps only a tiny royalty while about 95 percent of each sale is transferred out by the smart contracts.",
+   "speaker": "Ryan Collins",
+   "start": 1407.6,
+   "quote": "And we get a tiny little royalty that comes to us, but 95% of it or so goes out.",
+   "tags": [
+    "fees",
+    "royalties",
+    "superrare"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 the SuperRare homepage showed 26 million in secondary sales and an average resale value of 6,842 percent.",
+   "speaker": "host",
+   "start": 1504.6,
+   "quote": "million secondary sales and average resale value is 6,842%.",
+   "tags": [
+    "superrare",
+    "secondary-sales",
+    "stats"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 Jay said NFTs had found a way to monetize the Streisand effect, since owners benefit when their art is shared widely.",
+   "speaker": "Jay",
+   "start": 1669.2,
+   "quote": "It's almost as if NFTs have just found a way to monetize the strice end effect.",
+   "tags": [
+    "nft",
+    "culture",
+    "marketing"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 the host argued that competition and sharing of an idea are good because more people talking about something grows the market.",
+   "speaker": "host",
+   "start": 1640.7,
+   "quote": "competition or sharing of an idea is really good because the more people that make noise about something, generally the more people know about it",
+   "tags": [
+    "nft",
+    "market-growth",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2021 Ryan Collins predicted niche NFT screens with e-ink style, low-power displays would emerge because they suit black-and-white art.",
+   "speaker": "Ryan Collins",
+   "start": 2183.2,
+   "quote": "I think you'll see little niches pop up like that based on the technology limitations and the adaptability of whatever types of art to that type of screen.",
+   "tags": [
+    "nft",
+    "displays",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Ryan Collins said SuperRare was not concerned about Ethereum gas fees because they were not so high that the market would not tolerate them.",
+   "speaker": "Ryan Collins",
+   "start": 2403.1,
+   "quote": "So we aren't as concerned about the gas fees and stuff like that on Ethereum right now because they aren't so astronomically high",
+   "tags": [
+    "gas-fees",
+    "ethereum",
+    "superrare"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2021 Ryan Collins said Ethereum 2.0 was coming down the pipe, with proof of stake replacing proof of work, and that proof of authority was being trialed.",
+   "speaker": "Ryan Collins",
+   "start": 2429.5,
+   "quote": "you have ETH 2.0 coming down the pipe with proof of of work instead of, or there's proof of state, proof of work.",
+   "tags": [
+    "ethereum-2.0",
+    "proof-of-stake",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 Ryan Collins said SuperRare's contracts would keep working on Ethereum even if the company went away, so collectors faced very little risk.",
+   "speaker": "Ryan Collins",
+   "start": 2597.4,
+   "quote": "if we go away, the contracts still exist. They exist on the existing protocols.",
+   "tags": [
+    "smart-contracts",
+    "decentralization",
+    "superrare"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 Ryan Collins said the SuperRare contract technology is on chain and distributed rather than centralized.",
+   "speaker": "Ryan Collins",
+   "start": 2624.6,
+   "quote": "The technology is there on chain, it's distributed, it's not centralized and like, it actually doesn't matter.",
+   "tags": [
+    "decentralization",
+    "smart-contracts",
+    "superrare"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Ryan Collins said SuperRare sent its contracts to more than one third party for independent security auditing.",
+   "speaker": "Ryan Collins",
+   "start": 2650.2,
+   "quote": "we send them to more than one third party for, for auditing with an independent view.",
+   "tags": [
+    "audits",
+    "security",
+    "superrare"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In August 2021 Ryan Collins explained that IPFS content only stays available while someone pins it, which is why persistence is a problem.",
+   "speaker": "Ryan Collins",
+   "start": 2735.6,
+   "quote": "there's always a problem with persistence and someone has to care about a given item that's stored on IPFS",
+   "tags": [
+    "ipfs",
+    "pinning",
+    "storage"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In August 2021 Ryan Collins said SuperRare was pinning its IPFS files and that high-value artists and collectors would also be motivated to host and pin them.",
+   "speaker": "Ryan Collins",
+   "start": 2864.6,
+   "quote": "yes we're pinning that but one of the nice things about the art space in particular is it isn't those low value transactions",
+   "tags": [
+    "ipfs",
+    "pinning",
+    "superrare"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 Ryan Collins said Arweave and Filecoin were pay-to-play alternatives to IPFS that carry a high cost, although they give nodes a financial incentive to keep files.",
+   "speaker": "Ryan Collins",
+   "start": 2918.8,
+   "quote": "Your Arweave, your Filecoin, stuff like that. But there is sometimes a high cost associated with that.",
+   "tags": [
+    "ipfs",
+    "arweave",
+    "filecoin"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2021 Ryan Collins predicted NFTs would become mainstream within 30 to 50 years for the space to mature.",
+   "speaker": "Ryan Collins",
+   "start": 3059.6,
+   "quote": "i'm gonna give it 30 to 50 years overall for the space to really, really mature and be a mainstream thing",
+   "tags": [
+    "nft",
+    "mainstream-adoption",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In August 2021 Ryan Collins predicted NFTs would be super mainstream within 20 to 30 years.",
+   "speaker": "Ryan Collins",
+   "start": 3091.1,
+   "quote": "I think it'll be super, super mainstream, definitely in 20 to 30 years here.",
+   "tags": [
+    "nft",
+    "mainstream-adoption",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 Ryan Collins said SuperRare's wallet-signature sign-in, with no usernames or passwords, is more secure than traditional logins.",
+   "speaker": "Ryan Collins",
+   "start": 3116.1,
+   "quote": "I love our sign-in system. There's no username password combos.",
+   "tags": [
+    "web3-login",
+    "security",
+    "superrare"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In August 2021 the host said getting cryptographic keys into the hands of many people is one of the most important things blockchain and Web3 have done, unlike PGP.",
+   "speaker": "host",
+   "start": 3223.7,
+   "quote": "one of the most important things that we've done with blockchain and Web3 is get a bunch of cryptographic keys in the hands of a bunch of people",
+   "tags": [
+    "web3-login",
+    "cryptography",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In August 2021 Ryan Collins said some SuperRare artists and collectors had fallen victim to phishing schemes and had their keys stolen.",
+   "speaker": "Ryan Collins",
+   "start": 3277.5,
+   "quote": "i've seen it on super rare there's a couple of artists and a couple of collectors that i've seen fall victim to fishing schemes",
+   "tags": [
+    "phishing",
+    "security",
+    "superrare"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "hio/106-superrare-nft-marketplace",
+ "title": "SuperRare NFT Marketplace",
+ "date": "2021-08-02 00:00:00+00:00",
+ "audioUrl": "https://anchor.fm/s/f8e7252c/podcast/play/89345712/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383374074-44100-1-71f3f946997b3abc.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

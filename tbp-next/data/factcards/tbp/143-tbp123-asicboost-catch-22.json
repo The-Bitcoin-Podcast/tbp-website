@@ -1,0 +1,623 @@
+{
+ "episode_summary": "Episode 123 opens with Athena Bitcoin and escrow sponsor reads, then a long host discussion of the ASICBoost allegation against Jihan Wu, in which Gregory Maxwell claimed a large mining conglomerate used the optimization to block SegWit. The hosts debate the lack of proof and what ASICBoost does to miner profit. The main interview is with Jeremy Epstein, whose company Never Stop Marketing helps blockchain startups with marketing. They cover marketing with a capital M, the phases of blockchain adoption, the lack of talent, decentralized organizations, and his definition of blockchain.",
+ "guests": [
+  "Jeremy Epstein"
+ ],
+ "topics": [
+  "asicboost",
+  "segwit",
+  "jihan wu",
+  "mining",
+  "blockchain marketing",
+  "decentralized organizations",
+  "blockchain definition"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In April 2017 a host explained the allegation that Jihan Wu had manufactured ASICs that did proof of work with much less energy than everyone else.",
+   "speaker": "host",
+   "start": 297.3,
+   "quote": "apparently Jihan has manufactured ASICs that allow him to get the proof of work done without using that much energy",
+   "tags": [
+    "asicboost",
+    "jihan wu",
+    "asic chips"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 a host said the ASICBoost optimization could save about 30% of the work a miner needed to prove proof of work.",
+   "speaker": "host",
+   "start": 326.9,
+   "quote": "save about 30% of the work you would need to do in order to prove that you've done some set of work",
+   "tags": [
+    "asicboost",
+    "proof of work",
+    "mining"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In April 2017 a host summarized Gregory Maxwell's claim that a very large conglomerate was using ASICBoost to block SegWit, while the host said that claim had no proof.",
+   "speaker": "host",
+   "start": 381.5,
+   "quote": "Gregory Maxwell, came out and said that of very large conglomerate is taking advantage of this in a very subtle way",
+   "tags": [
+    "asicboost",
+    "segwit",
+    "gregory maxwell"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 a host said Gregory Maxwell provided absolutely no proof that he had reverse engineered a mining chip.",
+   "speaker": "host",
+   "start": 411.7,
+   "quote": "One, he provided absolutely zero proof as to reverse engineering a mining ship.",
+   "tags": [
+    "asicboost",
+    "gregory maxwell",
+    "proof"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In April 2017 a host compared the lack of proof behind the ASICBoost claim to Craig Wright's 2016 claim to be Satoshi.",
+   "speaker": "host",
+   "start": 499.4,
+   "quote": "remember when Craig Wright came out and said he's Satoshi",
+   "tags": [
+    "craig wright",
+    "satoshi",
+    "scrutiny"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 a host argued that anyone making claims about taking advantage of the network needs to prove them on a public network.",
+   "speaker": "host",
+   "start": 551.0,
+   "quote": "If you're going to be throwing these types of claims at other people in the space, let's say you're taking advantage of the network, you need to prove it.",
+   "tags": [
+    "asicboost",
+    "proof",
+    "transparency"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 a host argued that ASICBoost could be seen as just an optimization, and that you cannot blame someone for using optimizations to benefit themselves.",
+   "speaker": "host",
+   "start": 579.1,
+   "quote": "an argument to be made that doing asic boost is just an optimization and you can't blame someone for using optimizations to benefit themselves",
+   "tags": [
+    "asicboost",
+    "optimization",
+    "mining"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 a host said that if Jihan Wu built an optimized chip and was winning, good for him, since competitive miners use the best hardware they can get.",
+   "speaker": "host",
+   "start": 607.1,
+   "quote": "oh good for jihon he made a made a chip that's that's optimized that that and he's winning now good for him",
+   "tags": [
+    "jihan wu",
+    "mining",
+    "competition"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 the hosts reasoned that ASICBoost would raise a miner's profit by cutting its energy use rather than raising its revenue.",
+   "speaker": "host",
+   "start": 659.5,
+   "quote": "Wait, their profitability does because they're using less energy to do the same thing.",
+   "tags": [
+    "asicboost",
+    "mining economics",
+    "profit"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 a host said you have to assume anyone mining will do everything possible to make the most money, because the system must survive attackers.",
+   "speaker": "host",
+   "start": 874.1,
+   "quote": "You have to assume that anyone who's mining is going to do everything that they possibly can to make the most money.",
+   "tags": [
+    "mining incentives",
+    "security",
+    "game theory"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 a host said they still supported SegWit but were staunchly against getting it through with back-handed means.",
+   "speaker": "host",
+   "start": 900.2,
+   "quote": "I'm for Segwit still, but if this is the case where it's doing back-handed means in order to get it through",
+   "tags": [
+    "segwit",
+    "governance",
+    "asicboost"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 a host worried that Bitcoin had reached a point where the human factor in its politics was undeniable.",
+   "speaker": "host",
+   "start": 928.4,
+   "quote": "I'm worried that this one, Bitcoin, has finally reached the point to where the human factor is undeniable.",
+   "tags": [
+    "governance",
+    "bitcoin",
+    "leadership"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In April 2017 a host said that the Bitcoin network had more than 70,000 unconfirmed transactions, which was slowing confirmation times.",
+   "speaker": "host",
+   "start": 1227.2,
+   "quote": "Bitcoin network has a large, greater than 70,000 of unconfirmed transactions.",
+   "tags": [
+    "unconfirmed transactions",
+    "mempool",
+    "fees"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In April 2017 a host said the mempool size was around 20 million bytes, or about 20 megabytes.",
+   "speaker": "host",
+   "start": 1281.3,
+   "quote": "mempool size is around 20 million bytes",
+   "tags": [
+    "mempool",
+    "bitcoin network",
+    "transactions"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "Jeremy Epstein said his company started with about 30 people and was valued at $20 million, before growing to about 1,400 people and a $1.8 billion valuation.",
+   "speaker": "Jeremy Epstein",
+   "start": 1384.6,
+   "quote": "were 30 people and was valued at $20 million.",
+   "tags": [
+    "startups",
+    "valuation",
+    "career"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In April 2017 Jeremy Epstein said blockchain gave him the same excitement he had felt when email arrived in 1991 and when he started blogging in 2000.",
+   "speaker": "Jeremy Epstein",
+   "start": 1461.1,
+   "quote": "Once in 1991 when I got email, so that tells you how old I am",
+   "tags": [
+    "blockchain",
+    "history",
+    "career"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 Jeremy Epstein said that we are all in marketing, and that the difference is whether people know it.",
+   "speaker": "Jeremy Epstein",
+   "start": 1572.4,
+   "quote": "I think I like to say we're all in marketing. It's just that some of us know it.",
+   "tags": [
+    "marketing",
+    "blockchain startups",
+    "engineering"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein said engineers building blockchain products need to work out the value proposition and the intended customer.",
+   "speaker": "Jeremy Epstein",
+   "start": 1598.6,
+   "quote": "you just don't have the training to think about it as, OK, well, what exactly is the value proposition? Who is the intended customer?",
+   "tags": [
+    "marketing",
+    "value proposition",
+    "startups"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein used a World War Two beach landing analogy to argue startups must focus on one first customer rather than the whole market.",
+   "speaker": "Jeremy Epstein",
+   "start": 1626.5,
+   "quote": "Well, that's kind of hard to do because you're literally 2,000 miles wide and an inch deep.",
+   "tags": [
+    "marketing",
+    "startups",
+    "go-to-market"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein said he differentiates between marketing with a capital M, meaning customer and value proposition, and lowercase m, meaning brochures and websites.",
+   "speaker": "Jeremy Epstein",
+   "start": 1654.0,
+   "quote": "So I like to differentiate between marketing with a capital M and marketing with a lowercase m.",
+   "tags": [
+    "marketing",
+    "startups",
+    "positioning"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein said most blockchain activity was at the back-office efficiency phase, which he compared to the late 1990s corporate intranet phase.",
+   "speaker": "Jeremy Epstein",
+   "start": 1791.2,
+   "quote": "phase three is sort of where i think we are now which is you're seeing a lot of like banks and people sort of trying to say oh well we can use this",
+   "tags": [
+    "blockchain adoption",
+    "intranets",
+    "enterprise"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 Jeremy Epstein said the really exciting phase of blockchain would be the things people could not do before and can now do.",
+   "speaker": "Jeremy Epstein",
+   "start": 1818.9,
+   "quote": "But the really sexy part is phase four, which is the things you could not possibly do before that you now can do.",
+   "tags": [
+    "blockchain adoption",
+    "new value",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein said private blockchains resembled 1990s intranets, which existed because companies distrusted the internet and it could not yet scale.",
+   "speaker": "Jeremy Epstein",
+   "start": 1872.6,
+   "quote": "intranets were essentially there for twofold reasons. One was the skepticism of the internet from private companies",
+   "tags": [
+    "intranets",
+    "private blockchains",
+    "scaling"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 Jeremy Epstein said the public blockchain simply could not scale enough to host the utility that private blockchains could provide.",
+   "speaker": "Jeremy Epstein",
+   "start": 1899.7,
+   "quote": "So you can't have that utility on the public blockchain because it simply can't scale.",
+   "tags": [
+    "scaling",
+    "public blockchain",
+    "private blockchain"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 Jeremy Epstein compared the ICO token market to the dot-com era of pets.com and Lycos, companies that were not really businesses.",
+   "speaker": "Jeremy Epstein",
+   "start": 2038.5,
+   "quote": "if you look at like the whole ICO token market, like that's a perfect example of going back to Internet 1.0 of like pets.com and Lycos",
+   "tags": [
+    "icos",
+    "dot-com",
+    "token market"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In April 2017 Jeremy Epstein said some ICO investors would get burned because there were no models to assess these projects.",
+   "speaker": "Jeremy Epstein",
+   "start": 2091.8,
+   "quote": "Some people are going to get burned.",
+   "tags": [
+    "icos",
+    "investors",
+    "risk"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 Jeremy Epstein said the most successful founders show determination combined with humility and the willingness to bring in the right people.",
+   "speaker": "Jeremy Epstein",
+   "start": 2217.0,
+   "quote": "you might be steph curry but you still can't beat five other guys if you're playing",
+   "tags": [
+    "founders",
+    "teams",
+    "humility"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In April 2017 Jeremy Epstein said the Internet of People's shared social graph would let companies break the curve of how user and infrastructure costs grow.",
+   "speaker": "Jeremy Epstein",
+   "start": 2298.8,
+   "quote": "is going to allow companies to essentially break the curve of how user costs and infrastructure costs tend to grow.",
+   "tags": [
+    "internet of people",
+    "social graph",
+    "costs"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "In April 2017 Jeremy Epstein said his own company had no employees, only a group of 1099 contractors pulled in for specific projects.",
+   "speaker": "Jeremy Epstein",
+   "start": 2500.6,
+   "quote": "I don't have any employees. I have a bunch of 1099s who I pull in for specific projects.",
+   "tags": [
+    "decentralized work",
+    "contractors",
+    "remote work"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein described the Internet of People's contribution contracts, in which a community proposal and tokens fund a contributor's work.",
+   "speaker": "Jeremy Epstein",
+   "start": 2553.1,
+   "quote": "So basically, if I want to be a contributor to this project or one of the businesses that builds up, I actually submit a proposal to the community",
+   "tags": [
+    "internet of people",
+    "contribution contracts",
+    "dao"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein said token holders in a community could withdraw support and terminate a contract, so employees could fire a bad boss.",
+   "speaker": "Jeremy Epstein",
+   "start": 2651.5,
+   "quote": "So essentially the employees can fire the boss by withdrawing their support in this new model.",
+   "tags": [
+    "internet of people",
+    "governance",
+    "tokens"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 Jeremy Epstein said money at its basic utility is a form of communication, and blockchains incentivize people to communicate and do the right thing.",
+   "speaker": "Jeremy Epstein",
+   "start": 2704.0,
+   "quote": "money at its basic utility is a form of communication.",
+   "tags": [
+    "blockchain",
+    "incentives",
+    "communication"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein cited a TED talk arguing that hierarchical, impersonal, large-scale society was a historical blip that decentralization could reverse.",
+   "speaker": "Jeremy Epstein",
+   "start": 2899.3,
+   "quote": "he talks about how this sort of hierarchical, siloed, big scale, impersonal is like a historical blip.",
+   "tags": [
+    "decentralization",
+    "society",
+    "trust"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In April 2017 Jeremy Epstein warned that companies missing the blockchain shift were like the Germanic tribes at Rome's border, and should prepare before it was too late.",
+   "speaker": "Jeremy Epstein",
+   "start": 3099.2,
+   "quote": "eventually they're going to come in and lay waste to Rome. Before they get here, you may want to get ready for them.",
+   "tags": [
+    "enterprise",
+    "blockchain adoption",
+    "disruption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In April 2017 Jeremy Epstein said that as social media arrived, brands could no longer lie, and blockchain would change marketing further.",
+   "speaker": "Jeremy Epstein",
+   "start": 3154.1,
+   "quote": "Well, that changes the equation because now brands can't lie.",
+   "tags": [
+    "marketing",
+    "social media",
+    "brands"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In April 2017 Jeremy Epstein said that with sovereign identity on blockchains, the CRM database that underpins marketing could go away.",
+   "speaker": "Jeremy Epstein",
+   "start": 3181.1,
+   "quote": "What happens where identity is sovereign so your CRM database goes away?",
+   "tags": [
+    "marketing",
+    "identity",
+    "crm"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein defined blockchain in ten words or less as a distributed database with consensus about accurate information.",
+   "speaker": "Jeremy Epstein",
+   "start": 3231.7,
+   "quote": "Distributed database with consensus about the information, about the accurate information therein.",
+   "tags": [
+    "blockchain definition",
+    "consensus",
+    "database"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In April 2017 Jeremy Epstein said blockchains enable smart contracts, and that blockchain should not be confused with smart contracts.",
+   "speaker": "Jeremy Epstein",
+   "start": 3302.0,
+   "quote": "blockchain isn't smart contracts. Blockchains enable smart contracts.",
+   "tags": [
+    "smart contracts",
+    "blockchain",
+    "tech stack"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In April 2017 a host said that in the short term people would not care about blockchain, but in the long term it would be the back end of how things work.",
+   "speaker": "host",
+   "start": 3489.9,
+   "quote": "in the short term people aren't going to care in the long term we're gonna be",
+   "tags": [
+    "bitcoin adoption",
+    "mass adoption",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In April 2017 a host predicted that blockchain would become how the world communicates and transfers value, with people using it without knowing.",
+   "speaker": "host",
+   "start": 3516.9,
+   "quote": "that's gonna be how things operate and how the world communicates and transfers value",
+   "tags": [
+    "bitcoin adoption",
+    "mass adoption",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/143-tbp123-asicboost-catch-22",
+ "title": "TBP123 - AsicBoost Catch 22",
+ "date": "2017-04-09",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89982329/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384213267-48000-2-64479f50caa66e79.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

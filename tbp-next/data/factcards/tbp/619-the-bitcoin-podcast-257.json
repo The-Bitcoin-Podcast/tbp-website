@@ -1,0 +1,413 @@
+{
+ "episode_summary": "Episode 257 (May 2019): the hosts and a roundtable including Jordan Spence of MyCrypto discuss the May 2019 Bitcoin and Ethereum price moves, Lightning Network usage and capacity, SegWit adoption, crypto UX, a Binance account-compromise hack, crypto insurance, and Devcon5 in Osaka.",
+ "guests": [
+  "Jordan Spence"
+ ],
+ "topics": [
+  "bitcoin price",
+  "lightning network",
+  "segwit",
+  "ethereum",
+  "binance hack",
+  "crypto ux",
+  "insurance",
+  "devcon"
+ ],
+ "cards": [
+  {
+   "type": "fact",
+   "claim": "On 11 May 2019 Bitcoin had been at $7,200 before retracing.",
+   "speaker": "host",
+   "start": 349.3,
+   "quote": "It was at $7,200, but it retraced back.",
+   "tags": [
+    "bitcoin",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Ethereum had touched $200 and was trading at about $192.",
+   "speaker": "host",
+   "start": 404.0,
+   "quote": "Ethereum touched over 200. It's now at 192.",
+   "tags": [
+    "ethereum",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 a host predicted Bitcoin would reach $8,000 by August.",
+   "speaker": "host",
+   "start": 404.0,
+   "quote": "It's going to 8 by August.",
+   "tags": [
+    "bitcoin",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In spring 2019 a host predicted Bitcoin would reach $6,000 within two weeks, but it took about a week longer.",
+   "speaker": "host",
+   "start": 457.4,
+   "quote": "i said three weeks ago we'll be at 6 000 in two weeks and i was wrong",
+   "tags": [
+    "bitcoin",
+    "price",
+    "prediction"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 a host said there were more fiat on-ramps to Ethereum than ever before.",
+   "speaker": "host",
+   "start": 626.5,
+   "quote": "there's more on-ramps from fiat to Ethereum than there's ever been.",
+   "tags": [
+    "ethereum",
+    "fiat",
+    "price"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 a host said Bitcoin had recently processed more transactions than ever, with fees about 68% below 2017 levels.",
+   "speaker": "host",
+   "start": 653.0,
+   "quote": "People need to understand that Bitcoin did more transactions than it's ever done a few weeks",
+   "tags": [
+    "bitcoin",
+    "transactions",
+    "fees"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 SegWit adoption was reported at about 42.59%, down from a peak of around 50%.",
+   "speaker": "host",
+   "start": 737.8,
+   "quote": "SegWit adoption looked like it just peaked at 50%, and now it's currently at 42.59%.",
+   "tags": [
+    "segwit",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 a host argued that no one would make money from the Lightning Network.",
+   "speaker": "host",
+   "start": 765.2,
+   "quote": "The problem is no one's going to make money from lightning.",
+   "tags": [
+    "lightning"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Lightning Network capacity was about $7.5 million.",
+   "speaker": "host",
+   "start": 874.5,
+   "quote": "There's 7.5 million dollars in the capacity right now.",
+   "tags": [
+    "lightning",
+    "capacity"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 the Lightning Network had about 38,000 channels and 8,337 nodes.",
+   "speaker": "host",
+   "start": 900.5,
+   "quote": "38,000 channels. 8,337 nodes.",
+   "tags": [
+    "lightning",
+    "nodes"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 a host argued the Lightning Network was designed for very low-value, high-volume payments.",
+   "speaker": "host",
+   "start": 979.4,
+   "quote": "The Lightning Network was designed for very low value transactions at high volume.",
+   "tags": [
+    "lightning",
+    "payments"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 hosts said Neutrino let users run a Lightning node on a phone without downloading the full Bitcoin blockchain.",
+   "speaker": "host",
+   "start": 1033.8,
+   "quote": "What about the advancement that Neutrino did, where you can launch a Lightning Note on your phone now because you don't need to look at the entire Bitcoin blockchain?",
+   "tags": [
+    "lightning",
+    "neutrino",
+    "mobile"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 the Ethereum Foundation announced plans to spend $30 million on ecosystem development over the next 12 months.",
+   "speaker": "host",
+   "start": 1198.2,
+   "quote": "The Ethereum Foundation plans to spend $30 million on ecosystem development over the next 12 months.",
+   "tags": [
+    "ethereum",
+    "funding",
+    "foundation"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 a host argued people had been convinced Bitcoin's only value was as a store of value, which kept it from being spent.",
+   "speaker": "host",
+   "start": 1252.3,
+   "quote": "It's because people have been convinced that the only value that Bitcoin has is storage of value.",
+   "tags": [
+    "bitcoin",
+    "store-of-value",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 a host argued the ecosystem had to make it acceptable to spend bitcoin before adoption could grow.",
+   "speaker": "host",
+   "start": 1388.4,
+   "quote": "But if you want to convince the whole entire ecosystem, you must make it acceptable to spend Satoshi.",
+   "tags": [
+    "bitcoin",
+    "adoption",
+    "spending"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 a host predicted Lightning Network usage would grow over time despite very little real use.",
+   "speaker": "host",
+   "start": 1624.6,
+   "quote": "I think it's just a matter of time.",
+   "tags": [
+    "lightning",
+    "adoption",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 a host argued crypto developers were not designing for the average person.",
+   "speaker": "host",
+   "start": 1680.6,
+   "quote": "These guys that are developing a system, they're not thinking of the average person.",
+   "tags": [
+    "ux",
+    "adoption"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2019 a host argued many crypto companies were built by engineers without designers, which made their products hard to use.",
+   "speaker": "host",
+   "start": 1738.2,
+   "quote": "a lot of the companies aren't hiring designers. They're built by engineers.",
+   "tags": [
+    "ux",
+    "startups"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 the hosts discussed a roughly 7,000-unit Binance hack that Binance attributed to user accounts compromised over time.",
+   "speaker": "host",
+   "start": 2803.6,
+   "quote": "They said it was users accounts that were like compromised over time.",
+   "tags": [
+    "binance",
+    "hack",
+    "security"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 a host advised individual users not to give exchange API keys withdrawal permissions, only read-only or trade access.",
+   "speaker": "host",
+   "start": 3022.0,
+   "quote": "Really, if you're an individual user, unless you really, really, really know what you're doing, you should not be giving anything withdrawal permissions.",
+   "tags": [
+    "api-keys",
+    "security",
+    "binance"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 a guest said he was building crypto insurance that would be priced by the market rather than backed by an exchange.",
+   "speaker": "guest",
+   "start": 3075.0,
+   "quote": "i'm working on blockchain or crypto insurance",
+   "tags": [
+    "insurance"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2019 the hosts explained insurance as risk transfer, with many small premiums pooled to cover rare large losses.",
+   "speaker": "host",
+   "start": 3820.9,
+   "quote": "everyone's just contributing a little bit and it's it's risk transfer",
+   "tags": [
+    "insurance",
+    "risk"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Devcon5 was scheduled for October 8 to 11, 2019.",
+   "speaker": "host",
+   "start": 3178.6,
+   "quote": "It's in October. October 8th through the 11th, so it won't be on Halloween",
+   "tags": [
+    "devcon",
+    "conference"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2019 Devcon5 was announced for Osaka, Japan.",
+   "speaker": "host",
+   "start": 3205.0,
+   "quote": "It's in Osaka, Japan.",
+   "tags": [
+    "devcon",
+    "japan"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2019 the hosts debated Consensus versus Devcon, with one saying Consensus was for suits and Devcon for developers.",
+   "speaker": "host",
+   "start": 3312.2,
+   "quote": "consensus consensus is for suits DEFCON is for developers",
+   "tags": [
+    "conferences",
+    "devcon"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2019 a proposed chain reorg to reverse the Binance theft was dismissed by Bitcoin experts as crazy talk.",
+   "speaker": "host",
+   "start": 3609.5,
+   "quote": "everybody who knows Bitcoin was like you are talking crazy talk",
+   "tags": [
+    "reorg",
+    "binance",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "prediction",
+   "claim": "In May 2019 a host said he would be surprised if Bitcoin did not eventually climb above $90,000.",
+   "speaker": "host",
+   "start": 4070.1,
+   "quote": "I think I'll be surprised if we don't go higher than 90,000.",
+   "tags": [
+    "bitcoin",
+    "price",
+    "prediction"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/619-the-bitcoin-podcast-257",
+ "title": "The Bitcoin Podcast #257",
+ "date": "2019-05-13",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/89981907/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-2%2F384212834-44100-1-c853246dc58424e7.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}

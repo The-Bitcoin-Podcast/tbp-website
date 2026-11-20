@@ -1,0 +1,517 @@
+{
+ "episode_summary": "The Bitcoin Podcast season two episode two, hosted by Dee, Corey, Jesse and Ahmad (no guests), explains Bitcoin Ordinals as a way to make NFTs on Bitcoin using UTXO-tracked satoshis. They compare fungibility and non-fungibility with trading cards, Counter-Strike skins and game economies, argue that a collectible's value depends on its community, and recount a chicken NFT scam anecdote and the fate of many NFT projects.",
+ "guests": [],
+ "topics": [
+  "ordinals",
+  "nft",
+  "bitcoin",
+  "fungibility",
+  "utxo",
+  "game-economies",
+  "community-value",
+  "taproot"
+ ],
+ "cards": [
+  {
+   "type": "explainer",
+   "claim": "In May 2025 the hosts described Bitcoin Ordinals as Bitcoin's attempt to follow the NFT craze that began on Ethereum.",
+   "speaker": "host",
+   "start": 279.6,
+   "quote": "it's an attempt for bitcoin to follow the nft craze that came from the ethereum ecosystem",
+   "tags": [
+    "ordinals",
+    "nft",
+    "ethereum"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "The hosts explained that fungible tokens are interchangeable like dollars while non-fungible tokens are unique like trading cards.",
+   "speaker": "host",
+   "start": 305.7,
+   "quote": "Fungible means that if I have a token, you have tokens, and we trade, it's the exact same thing.",
+   "tags": [
+    "fungibility",
+    "nft",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2025 the hosts said fungibility is like a currency with no individuality between units, while non-fungibility is like trading cards with unique properties.",
+   "speaker": "host",
+   "start": 335.5,
+   "quote": "fungibility is like a currency where there's no individuality between each unit",
+   "tags": [
+    "fungibility",
+    "nft",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said Ethereum started the unique-digital-asset craze with CryptoKitties, a long time before Ordinals.",
+   "speaker": "host",
+   "start": 335.5,
+   "quote": "ethereum started this with crypto kitties actually a long time ago",
+   "tags": [
+    "cryptokitties",
+    "ethereum",
+    "nft"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2025 the hosts explained that Ordinals tag individual bitcoins tracked through UTXOs with characteristics, which turns them into NFTs.",
+   "speaker": "host",
+   "start": 394.8,
+   "quote": "And then you can basically tag them with specific characteristics, and those become NFTs.",
+   "tags": [
+    "ordinals",
+    "utxo",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the hosts said NFTs now exist on Bitcoin and are called Ordinals.",
+   "speaker": "host",
+   "start": 421.8,
+   "quote": "And now we have NFTs on Bitcoin. They're called ordinals.",
+   "tags": [
+    "ordinals",
+    "bitcoin",
+    "nft"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the host praised Ordinals as permissionless innovation, since nobody can stop people from building on a permissionless blockchain.",
+   "speaker": "host",
+   "start": 421.8,
+   "quote": "you don't get to tell people what they can and can't do on a permissionless technology",
+   "tags": [
+    "ordinals",
+    "permissionless",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the hosts said Ordinals had grown into a new standard protocol for unique assets on Bitcoin.",
+   "speaker": "host",
+   "start": 447.6,
+   "quote": "And it's grown into a new standard protocol on how you do unique assets on Bitcoin.",
+   "tags": [
+    "ordinals",
+    "bitcoin",
+    "protocol"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the hosts argued that collectibles have no intrinsic value and their worth comes from a community that cares about them.",
+   "speaker": "host",
+   "start": 532.6,
+   "quote": "Trading cards, collectibles in general, don't have intrinsic value. It's about a community that cares about that collectible that gives it value.",
+   "tags": [
+    "community-value",
+    "collectibles",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said Ethereum's NFT craze featured collections of 10,000 NFTs with rarity tiers.",
+   "speaker": "host",
+   "start": 559.9,
+   "quote": "i'm making a set of 10k 10 000 nfts they have certain types of characteristics",
+   "tags": [
+    "ethereum",
+    "nft",
+    "rarity"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the hosts compared NFTs to Counter-Strike skins as the same kind of scarce collectible.",
+   "speaker": "host",
+   "start": 615.0,
+   "quote": "skins whenever we talk about it. It's the same thing. It's like 101, the same thing.",
+   "tags": [
+    "counter-strike",
+    "nft",
+    "scarcity"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2025 the host explained that a token can float between applications, whereas game-economy items cannot be exported from their game.",
+   "speaker": "host",
+   "start": 640.9,
+   "quote": "It's just now you have a currency that can float between things versus being restricted in a specific game economy.",
+   "tags": [
+    "game-economies",
+    "tokens",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the host said the main obstacle to putting game assets on a blockchain is a human social buy-in problem rather than a technology one.",
+   "speaker": "host",
+   "start": 713.5,
+   "quote": "the fundamental problem that is is not a technology solvable problem it's a human",
+   "tags": [
+    "game-economies",
+    "blockchain",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2025 the hosts likened a token economy inside a video game to an ecology that can be destroyed by introducing an outside factor.",
+   "speaker": "host",
+   "start": 824.8,
+   "quote": "a money system in a video game is like an ecology right",
+   "tags": [
+    "tokenomics",
+    "game-economies",
+    "analogy"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2025 the host said black market game-asset economies usually exit into a stablecoin or a proxy of the US dollar.",
+   "speaker": "host",
+   "start": 880.0,
+   "quote": "it always ends up being like a stable coin or some proxy of the US dollar",
+   "tags": [
+    "stablecoins",
+    "black-market",
+    "game-economies"
+   ],
+   "checkable": false,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the host said illegal gambling sites built on game assets had to exit to Litecoin because they avoided stablecoins, which are monitored.",
+   "speaker": "host",
+   "start": 909.0,
+   "quote": "they have to exit to like Litecoin. They don't actually want to exit to stable coins because of the monitoring.",
+   "tags": [
+    "litecoin",
+    "stablecoins",
+    "gambling"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The host said that at about age 11 he ran many RuneScape bot instances using the SCAR scripting language to farm in-game resources.",
+   "speaker": "host",
+   "start": 938.4,
+   "quote": "what i could do is i could set up basically many uh scar script instances of",
+   "tags": [
+    "runescape",
+    "botting",
+    "game-economies"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the host said Counter-Strike's market cap was around 5 billion dollars.",
+   "speaker": "host",
+   "start": 1105.5,
+   "quote": "Counter-Strike's market cap is like $5 billion.",
+   "tags": [
+    "counter-strike",
+    "market-cap",
+    "game-economies"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the hosts said Tether was the seventh largest acquirer of US debt.",
+   "speaker": "host",
+   "start": 1131.2,
+   "quote": "the way that they're like with the seventh largest acquirer of US debt right now",
+   "tags": [
+    "tether",
+    "usdt",
+    "us-debt"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the host said NFTs like Ordinals would not work for enterprise supply chain monitoring and Bitcoin was not suitable for that.",
+   "speaker": "host",
+   "start": 1280.6,
+   "quote": "nobody's gonna build nfts like this is not gonna work for enterprise",
+   "tags": [
+    "ordinals",
+    "enterprise",
+    "supply-chain"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "explainer",
+   "claim": "In May 2025 the hosts said Ordinal inscriptions have a sat rarity concept, similar to diamond grades or Counter-Strike float, based on how close a satoshi is to genesis.",
+   "speaker": "host",
+   "start": 1337.5,
+   "quote": "That same dynamic exists in Ordinal Inscriptions. There's the concept of like sat rarity",
+   "tags": [
+    "ordinals",
+    "sat-rarity",
+    "explainer"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the host argued that bitcoins are not perfectly fungible because classes of coins can be told apart through the auditable UTXO chain.",
+   "speaker": "host",
+   "start": 1393.2,
+   "quote": "There are classes of Bitcoins because you have perfect auditability of the UTXO chain",
+   "tags": [
+    "fungibility",
+    "utxo",
+    "bitcoin"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the host said some UTXOs are unspendable because they are attached to illicit finance and exchanges like Coinbase would refuse them.",
+   "speaker": "host",
+   "start": 1444.3,
+   "quote": "some UTXOs are unspendable because they're attached to illicit finance",
+   "tags": [
+    "utxo",
+    "fungibility",
+    "illicit-finance"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The host recounted a friend's wife who lost her chicken NFTs in a scam after she followed instructions and gave away her private key.",
+   "speaker": "host",
+   "start": 1663.9,
+   "quote": "she got scammed and hard and i was like you put your private key in a thing",
+   "tags": [
+    "scams",
+    "private-keys",
+    "chicken-nft"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "anecdote",
+   "claim": "The host said a promoter of the chicken NFT project pitched a pyramid-style plan with a whiteboard, promising a Lamborghini if each buyer recruited more buyers.",
+   "speaker": "host",
+   "start": 1749.6,
+   "quote": "he had a whiteboard talking about if you buy two chickens and they buy two chickens and they buy two chickens then i'm gonna get a lambo",
+   "tags": [
+    "chicken-nft",
+    "pyramid",
+    "promotion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "The hosts said the chicken NFTs had been worth about 3,000 dollars each at one point.",
+   "speaker": "host",
+   "start": 1774.9,
+   "quote": "How much were the NFTs worth? Like $3,000 a piece.",
+   "tags": [
+    "chicken-nft",
+    "nft-prices",
+    "anecdote"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the host said the value of any crypto token depends on how sustainable its supporting community is over time.",
+   "speaker": "host",
+   "start": 1884.5,
+   "quote": "if you're going to think about the value of any token whatsoever in crypto at all then you need to think about the community that supports it and how sustainable that community is",
+   "tags": [
+    "community-value",
+    "tokens",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the hosts said most NFTs die and go to zero, with buyers left bag holding.",
+   "speaker": "host",
+   "start": 1939.0,
+   "quote": "this is the life cycle of most of them. They all die. They all go to zero.",
+   "tags": [
+    "nft",
+    "collapse",
+    "community-value"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "opinion",
+   "claim": "In May 2025 the host said that if the community is not there, the value of an NFT will not be there either.",
+   "speaker": "host",
+   "start": 1964.8,
+   "quote": "If the community isn't there, the value won't be there. Period.",
+   "tags": [
+    "community-value",
+    "nft",
+    "opinion"
+   ],
+   "checkable": false,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "debate",
+   "claim": "In May 2025 the hosts said the owners of the Doodles NFT project fully rugged their holders, with one host calling it a hard rug.",
+   "speaker": "host",
+   "start": 1964.8,
+   "quote": "I see doodles on there. Yeah, I got those too. Didn't the owners fully rug? 100%.",
+   "tags": [
+    "doodles",
+    "rug-pull",
+    "nft"
+   ],
+   "checkable": true,
+   "clip_worthy": true,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the hosts said Ordinals were made possible by Taproot.",
+   "speaker": "host",
+   "start": 2045.5,
+   "quote": "it's possible because of taproot",
+   "tags": [
+    "taproot",
+    "ordinals",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the hosts named Magic Eden as a marketplace where people could buy Ordinals.",
+   "speaker": "host",
+   "start": 2071.7,
+   "quote": "there's marketplaces like magic eden",
+   "tags": [
+    "magic-eden",
+    "ordinals",
+    "marketplace"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  },
+  {
+   "type": "fact",
+   "claim": "In May 2025 the hosts said an Ordinals inscription costs about the same as a Bitcoin transfer.",
+   "speaker": "host",
+   "start": 2100.1,
+   "quote": "Depends on how expensive Bitcoin is. Jesse got us. Don't worry. It's the cost of a transfer.",
+   "tags": [
+    "ordinals",
+    "fees",
+    "bitcoin"
+   ],
+   "checkable": true,
+   "clip_worthy": false,
+   "quote_exact": true
+  }
+ ],
+ "slug": "tbp/1007-the-bitcoin-podcast-s02e02-the-gang-talks-ordinals",
+ "title": "The Bitcoin Podcast S02E02: THE GANG TALKS ORDINALS",
+ "date": "2025-05-27",
+ "audioUrl": "https://anchor.fm/s/f97fc444/podcast/play/103295100/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-27%2F401114985-44100-2-cf589e20de01d.mp3",
+ "youtubeId": null,
+ "model": "claude-code-subagent-haiku"
+}
