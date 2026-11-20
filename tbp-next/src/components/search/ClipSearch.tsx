@@ -1,8 +1,18 @@
 "use client";
 
-import { Fragment, useCallback, useEffect, useRef, useState } from "react";
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { EpisodeResult } from "./EpisodeResult";
+import { SearchFilters } from "./SearchFilters";
+import {
+  DEFAULT_FILTERS,
+  activeCount,
+  matches,
+  readFilters,
+  sortEpisodes,
+  writeFilters,
+  type Filters,
+} from "./filters";
 import {
   formatDate,
   headlineScore,
@@ -61,7 +71,7 @@ interface Found {
 }
 
 interface ClipSearchProps {
-  /** Keep the query in the URL (?q=) so searches can be shared. Use on /search only. */
+  /** Keep the query and filters in the URL (?q=) so searches can be shared. Use on /search only. */
   syncUrl?: boolean;
   autoFocus?: boolean;
   /** One line shown under the search box before anything is typed. */
@@ -76,6 +86,9 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
   const [headlineShown, setHeadlineShown] = useState(PAGE_SIZE);
   const [mentionedShown, setMentionedShown] = useState(PAGE_SIZE);
   const [selected, setSelected] = useState<string | null>(null);
+  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
+  /** False until a shared link's query and filters have been read. */
+  const [urlRead, setUrlRead] = useState(false);
   const latestQuery = useRef("");
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
@@ -86,10 +99,6 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
     async (text: string) => {
       const trimmed = text.trim();
       latestQuery.current = trimmed;
-      if (syncUrl) {
-        const url = trimmed ? `?q=${encodeURIComponent(trimmed)}` : window.location.pathname;
-        window.history.replaceState(null, "", url);
-      }
       if (trimmed.length < 2) {
         setFound(null);
         setPlayingId(null);
@@ -136,18 +145,61 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
         setStatus("error");
       }
     },
-    [syncUrl],
+    [],
   );
 
-  // Pick up a shared ?q= link on first load.
+  // Pick up a shared ?q= link, with its filters, on first load.
   useEffect(() => {
     if (!syncUrl) return;
-    const initial = new URLSearchParams(window.location.search).get("q");
+    const params = new URLSearchParams(window.location.search);
+    const initial = params.get("q");
     if (initial) {
       setQuery(initial);
+      setFilters(readFilters(params));
       void runSearch(initial);
     }
+    setUrlRead(true);
   }, [syncUrl, runSearch]);
+
+  // Keep the link in the address bar matching what is on screen.
+  useEffect(() => {
+    if (!syncUrl || !urlRead) return;
+    const trimmed = query.trim();
+    const params = new URLSearchParams();
+    if (trimmed) {
+      params.set("q", trimmed);
+      writeFilters(params, filters);
+    }
+    const search = params.toString();
+    window.history.replaceState(null, "", search ? `?${search}` : window.location.pathname);
+  }, [syncUrl, urlRead, query, filters]);
+
+  const changeFilters = (next: Filters) => {
+    setFilters(next);
+    setHeadlineShown(PAGE_SIZE);
+    setMentionedShown(PAGE_SIZE);
+    setPlayingId(null);
+  };
+
+  /** The results left after filtering, in the chosen order. */
+  const view = useMemo(() => {
+    if (!found) return null;
+    const today = new Date();
+    const keep = (episodes: EpisodeHeadline[]) =>
+      sortEpisodes(
+        episodes.filter((episode) => matches(episode, filters, today)),
+        filters.sort,
+        found.counts,
+      );
+    const headline = keep(found.headline);
+    const mentioned = keep(found.mentioned);
+    const moments = [...headline, ...mentioned].reduce(
+      (total, episode) => total + (found.counts[episode.slug] ?? 0),
+      0,
+    );
+    return { headline, mentioned, moments };
+  }, [found, filters]);
+  const unfiltered = useMemo(() => (found ? [...found.headline, ...found.mentioned] : []), [found]);
 
   const onChange = (text: string) => {
     setQuery(text);
@@ -170,7 +222,7 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  const all = found ? [...found.headline, ...found.mentioned] : [];
+  const all = view ? [...view.headline, ...view.mentioned] : [];
   const selectedEpisode = all.find((episode) => episode.slug === selected) ?? all[0];
 
   const select = (slug: string) => {
@@ -243,7 +295,15 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
       </>
     );
 
-  const episodeCount = found ? found.headline.length + found.mentioned.length : 0;
+  const episodeCount = all.length;
+  const narrowed = activeCount(filters) > 0;
+  const mentionedTitle = view && view.headline.length > 0 ? "Also mentioned in" : "Mentioned in";
+  const mentionedNote = {
+    relevance: "Said out loud, most mentions first",
+    mentions: "Said out loud, most mentions first",
+    newest: "Said out loud, newest first",
+    oldest: "Said out loud, oldest first",
+  }[filters.sort];
   const group = (
     title: string,
     note: string,
@@ -354,23 +414,37 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
             Search isn’t available right now. Please try again in a moment.
           </p>
         )}
-        {status !== "error" && found && episodeCount === 0 && (
+        {status !== "error" && found && unfiltered.length === 0 && (
           <p className="text-center text-sm text-muted">
             Nothing found for “{found.query}”. Try a different word or phrase.
           </p>
         )}
-        {status !== "error" && found && episodeCount > 0 && (
+        {status !== "error" && found && view && unfiltered.length > 0 && (
           <div className={`transition-opacity duration-200 ${status === "searching" ? "opacity-50" : ""}`}>
             <p className="text-[13px] font-semibold uppercase tracking-[0.06em] text-muted">
-              {episodeCount.toLocaleString()} episode{episodeCount === 1 ? "" : "s"} ·{" "}
-              {found.moments.toLocaleString()} moment{found.moments === 1 ? "" : "s"} for “{found.query}”
+              {episodeCount.toLocaleString()}
+              {narrowed && ` of ${unfiltered.length.toLocaleString()}`} episode
+              {(narrowed ? unfiltered.length : episodeCount) === 1 ? "" : "s"} ·{" "}
+              {view.moments.toLocaleString()} moment{view.moments === 1 ? "" : "s"} for “{found.query}”
             </p>
-            {wide && selectedEpisode ? (
+            <SearchFilters filters={filters} onChange={changeFilters} episodes={unfiltered} />
+            {episodeCount === 0 ? (
+              <p className="mt-10 text-center text-sm text-muted">
+                No episodes for “{found.query}” match these filters.{" "}
+                <button
+                  type="button"
+                  onClick={() => changeFilters({ ...DEFAULT_FILTERS, sort: filters.sort })}
+                  className="font-semibold text-foreground underline underline-offset-2"
+                >
+                  Clear filters
+                </button>
+              </p>
+            ) : wide && selectedEpisode ? (
               <>
                 <div className="result-enter relative left-1/2 mt-5 grid h-[min(680px,78vh)] w-[min(1120px,calc(100vw-3rem))] -translate-x-1/2 grid-cols-[340px_minmax(0,1fr)] overflow-hidden rounded-2xl border border-border bg-background shadow-[0_24px_60px_-30px_rgba(0,0,0,0.25)]">
                   <div ref={listRef} className="overflow-y-auto border-r border-border bg-surface-light">
-                    {listGroup("Episodes", found.headline)}
-                    {listGroup(found.headline.length > 0 ? "Also mentioned in" : "Mentioned in", found.mentioned)}
+                    {listGroup("Episodes", view.headline)}
+                    {listGroup(mentionedTitle, view.mentioned)}
                   </div>
                   <div className="overflow-y-auto p-6">
                     <EpisodeResult
@@ -398,14 +472,14 @@ export function ClipSearch({ syncUrl = false, autoFocus = false, hint }: ClipSea
                 {group(
                   "Episodes",
                   "It’s in the title, guests or description",
-                  found.headline,
+                  view.headline,
                   headlineShown,
                   () => setHeadlineShown((n) => n + PAGE_SIZE),
                 )}
                 {group(
-                  found.headline.length > 0 ? "Also mentioned in" : "Mentioned in",
-                  "Said out loud, most mentions first",
-                  found.mentioned,
+                  mentionedTitle,
+                  mentionedNote,
+                  view.mentioned,
                   mentionedShown,
                   () => setMentionedShown((n) => n + PAGE_SIZE),
                 )}
